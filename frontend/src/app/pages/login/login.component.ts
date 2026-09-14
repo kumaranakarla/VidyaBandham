@@ -25,9 +25,15 @@ import { AuthService } from '../../services/auth.service';
         <p class="error" *ngIf="error">{{ error }}</p>
 
         <div class="demo">
-          <p><strong>Demo logins</strong></p>
-          <p>Teacher: teacher&#64;vidyabandham.local / teacher123</p>
-          <p>Parent: parent&#64;vidyabandham.local / parent123</p>
+          <p class="demo-title"><strong>Demo logins</strong></p>
+
+          <p class="demo-role">Teacher login</p>
+          <p>Username: teacher&#64;vidyabandham.local</p>
+          <p>Password: teacher123</p>
+
+          <p class="demo-role">Parent login</p>
+          <p>Username: parent&#64;vidyabandham.local</p>
+          <p>Password: parent123</p>
         </div>
       </form>
     </div>
@@ -102,6 +108,14 @@ import { AuthService } from '../../services/auth.service';
       }
       .demo p {
         margin: 0.2rem 0;
+      }
+      .demo-title {
+        margin-bottom: 0.5rem !important;
+      }
+      .demo-role {
+        margin-top: 0.7rem !important;
+        color: #2c4870;
+        font-weight: 600;
       }
     `,
   ],

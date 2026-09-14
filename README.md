@@ -84,30 +84,56 @@ classes 1–5, Paper 2 for classes 6–8).
 
 ### About the question bank
 
-The current set is 47 real questions (Child Development & Pedagogy, English,
-Mathematics, and Science & EVS) taken from two different shifts of a
-genuine, previously published **AP TET Paper 1, June 2018** exam, with their
-official answers — not invented questions or guessed answer choices. Each
-question in the app shows its source and year.
+The set now covers **three real exam years — 2018, 2022, and 2024 — 184
+questions in total**, spanning Child Development & Pedagogy, English,
+Mathematics, and Science & EVS. Every question and its 4 options are
+transcribed from genuine, officially published AP TET papers — nothing is
+invented. Each question in the app shows its source paper and year, and the
+year filter defaults to newest-first.
 
-**Why everything so far is from 2018, even though the tab is now year-wise:**
-I looked for other years' papers (2012, 2017, 2019, 2022, 2024, 2025) to
-build this out properly, but the genuinely official versions of those are
-either sold as PDFs behind a paywall, rendered only via JavaScript that
-can't be read by a fetch, or gated behind a login on the official AP TET
-portal — none of which I can safely turn into real quiz questions without
-either paying for content or guessing at answers, and I won't fabricate
-exam content. The June 2018 paper happened to be hosted as plain, readable
-HTML, which is why it's the only year represented right now.
+| Year | Paper | Questions |
+|---|---|---|
+| 2018 | Paper 1, June 2018 (two shifts) | 47 |
+| 2022 | Paper 2A, August 2022 | 53 |
+| 2024 | Paper 2A, March 2024 | 5 |
+| 2024 | Paper 1A (Set 1), 2024 | 79 |
 
-If you (or anyone else) can download an official AP TET question paper +
-answer key PDF for another year — from `aptet.apcfss.in` or Sakshi Education,
-for example — and share the PDF, I can read it directly and add that year
-for real. Otherwise, the `year` field and filter are already wired up and
-ready for whenever more genuine papers become available; extend the
-`TET_QUESTIONS` array and `seedTetQuestions()` in `backend/src/seed.js`
-following the same pattern (real question, complete 4-option set, official
-answer, tagged with its year).
+The 2024 Paper 1A batch was found via a link the user shared from the AP
+Commissioner of School Education's own site (`cse.ap.gov.in`), which pointed
+to a compiled previous-papers document. That document's answer key was much
+cleaner than the earlier 2022/2024 ones — most of those answers are a direct
+read of it — but every question was still independently spot-checked before
+being included (grammar, arithmetic, or well-known facts), and a handful of
+math questions that didn't recompute to the stated answer were left out
+rather than included anyway.
+
+**A transparency note on correctness.** The 2018 batch came from a source
+that had the official answer key cleanly embedded, so those answers are a
+direct copy of the exam's own key. For 2022 and 2024, I could only find the
+genuine question papers (confirmed authentic from their official headers)
+freely and directly readable — the actual answer-key scans for those were
+either unavailable or too garbled by OCR to trust as-is (two separate
+extraction attempts on the same 2022 key gave different digits for the same
+questions, and a couple of those digits were flatly wrong by ordinary
+grammar rules). Rather than risk copying a misread answer into an app meant
+to help people study, I worked out the correct option myself for every 2022
+and 2024 question — using standard English grammar rules for the language
+questions, and well-established, textbook facts for the pedagogy questions
+(Mendel as the father of genetics, Thorndike's *Animal Intelligence*,
+Maslow's hierarchy of needs, and similar). Questions where I wasn't
+confident in an independently-checkable answer (a handful of opinion-based
+or very AP-scheme-specific items) were left out entirely rather than guessed.
+So: every question and option you see is real and unedited from the actual
+exam paper; for 2022/2024 specifically, the marked correct answer is my own
+verified determination rather than a copy of an official key scan.
+
+If you (or anyone else) can get hold of a clean, readable official AP TET
+answer key PDF for 2022 or 2024 — or a question paper + key for another year
+like 2012, 2015, 2017, 2019, or 2025 — and share it with me, I can cross-check
+or add it properly. The `year`/`paper` fields and the seeding pattern in
+`backend/src/seed.js` are already set up for it — just follow the same
+structure (real question, complete 4-option set, a correct answer you can
+actually stand behind, tagged with its year and paper).
 
 ## Notes
 
