@@ -4,6 +4,9 @@ const cors = require('cors');
 
 require('./db'); // ensures tables exist before routes run
 
+const { seedIfEmpty } = require('./seed');
+seedIfEmpty(); // on a host that wipes the database on restart, this keeps demo logins working
+
 const authRoutes = require('./routes/auth');
 const diaryRoutes = require('./routes/diary');
 const homeworkRoutes = require('./routes/homework');
