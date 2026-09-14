@@ -89,8 +89,18 @@ db.exec(`
     option_c TEXT NOT NULL,
     option_d TEXT NOT NULL,
     correct_option INTEGER NOT NULL CHECK (correct_option IN (1, 2, 3, 4)),
-    source TEXT
+    source TEXT,
+    year INTEGER
   );
 `);
+
+// `year` was added to tet_questions after the table already existed on some
+// installs (an existing local vidyabandham.db file, for instance). SQLite's
+// CREATE TABLE IF NOT EXISTS above is a no-op once the table exists, so make
+// sure the column is there too — safe to run every startup.
+const tetColumns = db.prepare("PRAGMA table_info(tet_questions)").all();
+if (!tetColumns.some((c) => c.name === 'year')) {
+  db.exec('ALTER TABLE tet_questions ADD COLUMN year INTEGER');
+}
 
 module.exports = db;

@@ -15,6 +15,11 @@ import { TetQuestion, TetService } from '../../services/tet.service';
     </p>
 
     <div class="filter-row" *ngIf="subjects.length">
+      <label>Year</label>
+      <select [(ngModel)]="selectedYear">
+        <option value="">All years</option>
+        <option *ngFor="let y of years" [value]="y">{{ y }}</option>
+      </select>
       <label>Subject</label>
       <select [(ngModel)]="selectedSubject">
         <option value="">All subjects</option>
@@ -27,7 +32,9 @@ import { TetQuestion, TetService } from '../../services/tet.service';
 
     <div class="questions">
       <div class="q-card" *ngFor="let q of filteredQuestions">
-        <div class="subject-tag">{{ q.subject }}</div>
+        <div class="subject-tag">
+          <span *ngIf="q.year">{{ q.year }} · </span>{{ q.subject }}
+        </div>
         <div class="question-text">{{ q.question }}</div>
         <div class="options">
           <button
@@ -55,7 +62,7 @@ import { TetQuestion, TetService } from '../../services/tet.service';
     `
       h2 { color: #2c4870; }
       .intro { color: #555; margin-top: -0.5rem; margin-bottom: 1.2rem; max-width: 60ch; }
-      .filter-row { display: flex; align-items: center; gap: 0.6rem; margin-bottom: 1.2rem; }
+      .filter-row { display: flex; align-items: center; flex-wrap: wrap; gap: 0.6rem 1rem; margin-bottom: 1.2rem; }
       .filter-row select { padding: 0.4rem 0.6rem; border-radius: 6px; border: 1px solid #ccc; }
       .questions { display: flex; flex-direction: column; gap: 1rem; }
       .q-card { background: white; padding: 1rem 1.2rem; border-radius: 8px; box-shadow: 0 1px 4px rgba(0,0,0,0.06); }
@@ -84,6 +91,7 @@ export class TetComponent implements OnInit {
   questions: TetQuestion[] = [];
   loading = true;
   selectedSubject = '';
+  selectedYear = '';
   picked: Record<string, number> = {};
 
   constructor(private tet: TetService) {}
@@ -103,9 +111,19 @@ export class TetComponent implements OnInit {
     return Array.from(new Set(this.questions.map((q) => q.subject)));
   }
 
+  // Newest year first, so a growing question bank surfaces the latest exam by default.
+  get years(): number[] {
+    return Array.from(new Set(this.questions.map((q) => q.year).filter((y): y is number => !!y))).sort(
+      (a, b) => b - a
+    );
+  }
+
   get filteredQuestions(): TetQuestion[] {
-    if (!this.selectedSubject) return this.questions;
-    return this.questions.filter((q) => q.subject === this.selectedSubject);
+    return this.questions.filter((q) => {
+      const subjectMatch = !this.selectedSubject || q.subject === this.selectedSubject;
+      const yearMatch = !this.selectedYear || String(q.year) === String(this.selectedYear);
+      return subjectMatch && yearMatch;
+    });
   }
 
   optionsFor(q: TetQuestion): string[] {

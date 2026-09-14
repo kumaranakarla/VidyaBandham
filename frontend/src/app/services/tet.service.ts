@@ -12,6 +12,7 @@ export interface TetQuestion {
   option_d: string;
   correct_option: number;
   source: string;
+  year: number | null;
 }
 
 @Injectable({ providedIn: 'root' })

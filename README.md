@@ -69,21 +69,45 @@ Both teacher and parent logins also see a **TET Prep** tab (see below).
 
 A practice-question tab for the TET (Teacher Eligibility Test) — useful for
 teachers using the app and for anyone in the family preparing for the exam.
-It's visible to both teacher and parent logins, filterable by subject, and
-each question reveals whether your pick was correct after you answer.
+It's visible to both teacher and parent logins, filterable by **year** and by
+**subject**, and each question reveals whether your pick was correct after
+you answer.
 
-The starter set is 20 real questions (Child Development & Pedagogy, English,
-Mathematics, and Science & EVS) taken from a genuine, previously published
-**AP TET Paper 1, June 2018** paper, with their official answers — not
-invented questions or guessed answer choices. Each question in the app shows
-its source. Only questions where the complete original 4-option set could be
-confirmed were included, so nothing here is a fabricated distractor.
+### A quick word on TET itself
 
-This is a small starter bank. If you want more coverage (other papers, other
-years, TET Paper 2 for upper grades, or Telugu-medium questions), the same
-`seedTetQuestions()` pattern in `backend/src/seed.js` can be extended with
-more entries — just keep sourcing real papers with complete answer options
-rather than inventing options to fill gaps.
+The Teacher Eligibility Test was introduced nationally by the Government of
+India in 2011 (following the Right to Education Act, 2009), and Andhra
+Pradesh has run its own AP TET since around that time, most recently in
+2022, 2024, 2025, and with a 2026 cycle announced. It's a mandatory
+qualifying exam for teaching posts, held in two papers (Paper 1 for
+classes 1–5, Paper 2 for classes 6–8).
+
+### About the question bank
+
+The current set is 47 real questions (Child Development & Pedagogy, English,
+Mathematics, and Science & EVS) taken from two different shifts of a
+genuine, previously published **AP TET Paper 1, June 2018** exam, with their
+official answers — not invented questions or guessed answer choices. Each
+question in the app shows its source and year.
+
+**Why everything so far is from 2018, even though the tab is now year-wise:**
+I looked for other years' papers (2012, 2017, 2019, 2022, 2024, 2025) to
+build this out properly, but the genuinely official versions of those are
+either sold as PDFs behind a paywall, rendered only via JavaScript that
+can't be read by a fetch, or gated behind a login on the official AP TET
+portal — none of which I can safely turn into real quiz questions without
+either paying for content or guessing at answers, and I won't fabricate
+exam content. The June 2018 paper happened to be hosted as plain, readable
+HTML, which is why it's the only year represented right now.
+
+If you (or anyone else) can download an official AP TET question paper +
+answer key PDF for another year — from `aptet.apcfss.in` or Sakshi Education,
+for example — and share the PDF, I can read it directly and add that year
+for real. Otherwise, the `year` field and filter are already wired up and
+ready for whenever more genuine papers become available; extend the
+`TET_QUESTIONS` array and `seedTetQuestions()` in `backend/src/seed.js`
+following the same pattern (real question, complete 4-option set, official
+answer, tagged with its year).
 
 ## Notes
 
