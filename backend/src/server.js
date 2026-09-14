@@ -1,0 +1,39 @@
+require('dotenv').config();
+const express = require('express');
+const cors = require('cors');
+
+require('./db'); // ensures tables exist before routes run
+
+const authRoutes = require('./routes/auth');
+const diaryRoutes = require('./routes/diary');
+const homeworkRoutes = require('./routes/homework');
+const studentsRoutes = require('./routes/students');
+const attendanceRoutes = require('./routes/attendance');
+const feesRoutes = require('./routes/fees');
+
+const app = express();
+app.use(cors());
+app.use(express.json());
+
+app.get('/', (req, res) => {
+  res.json({ ok: true, name: 'Sampark API', time: new Date().toISOString() });
+});
+
+// Each router applies requireAuth/requireTeacher itself on the routes that need it.
+app.use('/api/auth', authRoutes);
+app.use('/api/diary', diaryRoutes);
+app.use('/api/homework', homeworkRoutes);
+app.use('/api/students', studentsRoutes);
+app.use('/api/attendance', attendanceRoutes);
+app.use('/api/fees', feesRoutes);
+
+// eslint-disable-next-line no-unused-vars
+app.use((err, req, res, next) => {
+  console.error(err);
+  res.status(500).json({ error: 'Something went wrong on the server.' });
+});
+
+const PORT = process.env.PORT || 4000;
+app.listen(PORT, () => {
+  console.log(`Sampark API listening on http://localhost:${PORT}`);
+});

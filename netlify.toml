@@ -1,0 +1,11 @@
+[build]
+  base = "frontend"
+  command = "npm install && npm run build"
+  publish = "frontend/dist/frontend/browser"
+
+# Angular is a single-page app — send all routes to index.html so refreshing
+# a page like /diary or /fees doesn't 404.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

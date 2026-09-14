@@ -1,0 +1,132 @@
+import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
+import { Router } from '@angular/router';
+import { AuthService } from '../../services/auth.service';
+
+@Component({
+  selector: 'app-login',
+  standalone: true,
+  imports: [CommonModule, FormsModule],
+  template: `
+    <div class="login-page">
+      <form class="login-card" (ngSubmit)="submit()">
+        <h1>Sampark</h1>
+        <p class="subtitle">School diary, attendance, homework &amp; fees — all in one place.</p>
+
+        <label>Email</label>
+        <input type="email" name="email" [(ngModel)]="email" placeholder="you@example.com" required autofocus />
+
+        <label>Password</label>
+        <input type="password" name="password" [(ngModel)]="password" placeholder="Password" required />
+
+        <button type="submit" [disabled]="loading">{{ loading ? 'Signing in…' : 'Sign in' }}</button>
+
+        <p class="error" *ngIf="error">{{ error }}</p>
+
+        <div class="demo">
+          <p><strong>Demo logins</strong></p>
+          <p>Teacher: teacher&#64;sampark.local / teacher123</p>
+          <p>Parent: parent&#64;sampark.local / parent123</p>
+        </div>
+      </form>
+    </div>
+  `,
+  styles: [
+    `
+      .login-page {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #f4f1ea;
+        font-family: system-ui, sans-serif;
+      }
+      .login-card {
+        background: white;
+        padding: 2.5rem;
+        border-radius: 12px;
+        box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+        width: 100%;
+        max-width: 360px;
+      }
+      h1 {
+        margin: 0 0 0.25rem;
+        color: #2c4870;
+      }
+      .subtitle {
+        margin: 0 0 1.5rem;
+        color: #666;
+        font-size: 0.9rem;
+      }
+      label {
+        display: block;
+        font-size: 0.85rem;
+        margin: 0.75rem 0 0.25rem;
+        color: #333;
+      }
+      input {
+        width: 100%;
+        padding: 0.6rem 0.7rem;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        font-size: 1rem;
+        box-sizing: border-box;
+      }
+      button {
+        margin-top: 1.5rem;
+        width: 100%;
+        padding: 0.7rem;
+        background: #c97c1f;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        font-size: 1rem;
+        cursor: pointer;
+      }
+      button:disabled {
+        opacity: 0.6;
+        cursor: default;
+      }
+      .error {
+        color: #b3261e;
+        margin-top: 1rem;
+        font-size: 0.9rem;
+      }
+      .demo {
+        margin-top: 1.5rem;
+        padding-top: 1rem;
+        border-top: 1px solid #eee;
+        font-size: 0.8rem;
+        color: #777;
+      }
+      .demo p {
+        margin: 0.2rem 0;
+      }
+    `,
+  ],
+})
+export class LoginComponent {
+  email = '';
+  password = '';
+  loading = false;
+  error = '';
+
+  constructor(private auth: AuthService, private router: Router) {}
+
+  submit(): void {
+    if (!this.email || !this.password) return;
+    this.loading = true;
+    this.error = '';
+    this.auth.login(this.email, this.password).subscribe({
+      next: () => {
+        this.loading = false;
+        this.router.navigate(['/diary']);
+      },
+      error: (err) => {
+        this.loading = false;
+        this.error = err?.error?.error || 'Could not sign in. Please try again.';
+      },
+    });
+  }
+}

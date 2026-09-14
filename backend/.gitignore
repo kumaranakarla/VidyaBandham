@@ -1,0 +1,5 @@
+node_modules/
+.env
+sampark.db
+sampark.db-wal
+sampark.db-shm

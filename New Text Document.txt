@@ -1,0 +1,36 @@
+# Sampark — school pilot app: plan & decisions
+
+## Concept
+A simple, non-enterprise parent-teacher app for one school class at a time: daily diary, attendance, homework, and fee reminders. Named "Sampark" (Hindi for "connection"). Positioned to replace paper diaries + scattered WhatsApp groups at small Indian schools, starting with a single-class pilot rather than a broad multi-school launch.
+
+## Go-to-market decisions
+- Mobile-first idea originally, now delivered as a web app usable from any phone or computer's browser (see stack pivot below) — no app-store install needed for the pilot.
+- Start with one pilot school / one class, not a generic multi-tenant product.
+- Pilot pricing framed as: free for one class for the first term, then ₹15–25/student/month billed to the school (not parents).
+- Fee "payment" in-app is a confirmation flow (parent taps "I've paid" after paying by cash/UPI/bank transfer; office/teacher confirms) — not a live payment gateway. Matches how small schools actually collect fees today.
+
+## Tech stack — pivoted from React Native + Firebase to Node.js + Angular
+The original plan (React Native + Expo mobile app, Firebase Auth/Firestore backend) got far enough to run on a physical phone via Expo Go, but stalled on an unresolved Firebase Authentication login failure ("Could not sign in") that persisted even after recreating the user from scratch, plus repeated friction from Expo/Firebase account and cloud-console setup. The user explicitly decided to abandon that stack rather than keep debugging it, and asked to rebuild the same feature set as a Node.js + Angular web app instead, specifically to avoid any external cloud console/account setup.
+
+**Current stack:**
+- **Backend:** Node.js + Express, with `better-sqlite3` for a single local database file (`backend/sampark.db`) — no cloud project, no external account, works fully offline. Auth is via `jsonwebtoken` (JWT) + `bcryptjs` password hashing, using the app's own login system rather than a third-party auth provider.
+- **Frontend:** Angular (v19, standalone components), served locally with `ng serve`. Works in any browser, phone or desktop.
+- **Data model (SQLite tables):** `classes`, `users` (role: teacher/parent + classId/studentId), `students`, `diary_entries`, `homework`, `attendance` (composite key: classId+date+studentId), `fees` + `fee_history`.
+- **Key usability fix vs. the Firebase version:** a teacher can create a parent's login directly from the Students tab in the app (`POST /students/:id/parent`) — no database console or manual account creation needed, which was the root of most of the earlier setup pain.
+- Seed script (`npm run seed`) resets the database and creates known-working demo accounts every time, so there's always a guaranteed-working login to start from: `teacher@sampark.local` / `teacher123` and `parent@sampark.local` / `parent123`.
+
+## Deliverables produced so far
+1. **Pitch page** (Artifact, published) — one-pager proposal to show a school: problem framing, 4 screen mockups (diary/attendance/homework/fees), why-a-pilot rationale, starter pricing, what's needed from the school.
+2. **Clickable prototype** (Artifact, published) — a tap-through demo of the app with a Parent/Teacher role switch; diary posting, attendance toggling, homework add/check-off, and fee "pay now" all work in-memory to demonstrate the concept.
+3. **React Native + Firebase starter code** — built and got running on the user's physical phone via Expo Go, but abandoned due to an unresolved Firebase Auth login bug and general cloud-setup friction. Files were removed from the user's computer as part of the pivot (old `sampark` / `sampark-mobile` folders).
+4. **Node.js + Angular app (current)** — delivered as a zip (`sampark-nodejs-angular.zip`) containing:
+   - `backend/` — Express API + SQLite, fully implemented (auth, diary, homework, students, attendance, fees) and tested end-to-end with curl against every endpoint, including role permission checks (401/403).
+   - `frontend/` — Angular app with login, role-aware navigation shell, and pages for diary, homework, attendance, fees, and student/parent-account management. Verified with an automated headless-browser test (Playwright) covering both the teacher and parent login flows, posting a diary entry, viewing attendance/fees, and confirming parents don't see teacher-only controls.
+   - A plain-language README: two `npm install` + `npm start`/`ng serve` steps, no cloud console anywhere.
+
+## Open next steps (not yet done)
+- User to run the new Node.js + Angular app locally and confirm login/usage works on their machine (I tested it myself in my own environment, but not yet on the user's computer).
+- Identify and approach an actual pilot school; draft outreach message.
+- Decide on notifications approach (browser push or a simple polling badge) once daily use is validated.
+- Consider a real payment gateway (e.g. Razorpay) as a fast-follow after the pilot proves the core habit.
+- If/when this needs to run somewhere other than the user's own machine (e.g. shared with a school), will need a small always-on host for the Node backend — SQLite is fine for a single-class pilot's traffic level.
