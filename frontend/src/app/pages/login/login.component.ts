@@ -28,11 +28,11 @@ import { AuthService } from '../../services/auth.service';
           <p class="demo-title"><strong>Demo logins</strong></p>
 
           <p class="demo-role">Teacher login</p>
-          <p>Username: teacher&#64;vb.local</p>
+          <p>Username: teacher&#64;vb</p>
           <p>Password: teacher123</p>
 
           <p class="demo-role">Parent login</p>
-          <p>Username: parent&#64;vb.local</p>
+          <p>Username: parent&#64;vb</p>
           <p>Password: parent123</p>
         </div>
       </form>

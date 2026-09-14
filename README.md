@@ -48,8 +48,8 @@ Then open **http://localhost:4300** in your browser.
 
 The seed script creates one class ("Class 6-B") with 4 students and these accounts:
 
-- **Teacher:** `teacher@vb.local` / `teacher123`
-- **Parent** (linked to student Aarav Mehta): `parent@vb.local` / `parent123`
+- **Teacher:** `teacher@vb` / `teacher123`
+- **Parent** (linked to student Aarav Mehta): `parent@vb` / `parent123`
 
 As the teacher you can:
 - Post diary notes and homework
