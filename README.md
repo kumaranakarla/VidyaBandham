@@ -1,4 +1,4 @@
-# Sampark — Node.js + Angular
+# Vidya Bandham — Node.js + Angular
 
 A simple school app: class diary, homework, attendance, and fees, with separate
 views for teachers and parents. No cloud accounts, no external console —
@@ -48,8 +48,8 @@ Then open **http://localhost:4300** in your browser.
 
 The seed script creates one class ("Class 6-B") with 4 students and these accounts:
 
-- **Teacher:** `teacher@sampark.local` / `teacher123`
-- **Parent** (linked to student Aarav Mehta): `parent@sampark.local` / `parent123`
+- **Teacher:** `teacher@vidyabandham.local` / `teacher123`
+- **Parent** (linked to student Aarav Mehta): `parent@vidyabandham.local` / `parent123`
 
 As the teacher you can:
 - Post diary notes and homework
@@ -65,7 +65,7 @@ As the parent you can:
 
 ## Notes
 
-- The database is a single file: `backend/sampark.db`. Running `npm run seed`
+- The database is a single file: `backend/vidyabandham.db`. Running `npm run seed`
   again wipes and recreates it with fresh demo data — useful if you want to
   start over.
 - To use this for a real class, just add real students and create real parent
@@ -84,19 +84,19 @@ This gets you a real public URL you can share, using GitHub + Netlify (frontend)
 
 **Important limitation:** Render's free tier doesn't keep a local file like our
 database between restarts — the backend "sleeps" after 15 minutes of no
-traffic and loses whatever was in `sampark.db` when it wakes back up (it
-re-seeds to the same demo data, since that's what runs when the server
-starts fresh). That's fine for showing someone the app. It is **not** fine
-for a real class actually relying on the data staying put — if that's the
-goal, say so and we'll swap the database for a small free hosted one first
-(a quick change, not a rebuild).
+traffic and loses whatever was in `vidyabandham.db` when it wakes back up. The
+app seeds itself back to the same demo data automatically on a fresh start
+(see `seedIfEmpty()` in `backend/src/seed.js`), so it's always usable — but
+that's fine for showing someone the app, not for a real class actually relying
+on the data staying put. If that's the goal, say so and we'll swap the database
+for a small free hosted one instead (a quick change, not a rebuild).
 
 ### 1. Push this project to GitHub
 ```
-cd sampark-nodejs-angular
+cd vidyabandham
 git init
 git add .
-git commit -m "Sampark: Node.js + Angular"
+git commit -m "Vidya Bandham: Node.js + Angular"
 ```
 Then create a new empty repository on GitHub (no README/license — just the
 bare repo), copy the URL it gives you, and run:
@@ -107,21 +107,24 @@ git push -u origin main
 ```
 
 ### 2. Backend on Render
-1. On [render.com](https://render.com), **New +** → **Web Service** → connect
-   your new GitHub repo.
-2. Render should pick up the `render.yaml` in this project automatically and
-   pre-fill everything (root directory `backend`, build command `npm install`,
-   start command `npm start`, a random `JWT_SECRET` generated for you). If it
-   doesn't offer that, set those fields manually.
+1. On [render.com](https://render.com), **New +** → **Blueprint** (preferred —
+   reads `render.yaml` automatically) or **Web Service**, and connect your
+   GitHub repo.
+2. Render should pick up the `render.yaml` in this project and pre-fill
+   everything (root directory `backend`, build command `npm install`, start
+   command `npm start`, a random `JWT_SECRET` generated for you, free plan).
+   If it doesn't offer that, set those fields manually and make sure the
+   Instance Type is **Free**.
 3. Deploy. Once it's live, copy the URL Render gives you (something like
-   `https://sampark-backend-xxxx.onrender.com`).
+   `https://vidyabandham-backend-xxxx.onrender.com`, or a custom name if you
+   set one during setup).
 
 ### 3. Frontend on Netlify
 1. Open `frontend/src/environments/environment.prod.ts` and replace the
    placeholder with your real Render URL, e.g.:
    ```ts
    export const environment = {
-     apiUrl: 'https://sampark-backend-xxxx.onrender.com/api',
+     apiUrl: 'https://vidyabandham-backend-xxxx.onrender.com/api',
    };
    ```
 2. Commit and push that change:
@@ -132,8 +135,18 @@ git push -u origin main
    ```
 3. On [netlify.com](https://netlify.com), **Add new site** → **Import an
    existing project** → connect the same GitHub repo. Netlify should read the
-   `netlify.toml` in this project and fill in the build settings automatically.
-4. Deploy. Netlify gives you a public URL like `https://something.netlify.app`
-   — that's the link to share.
+   `netlify.toml` in this project and fill in the build settings automatically
+   (base directory `frontend`, publish directory `dist/frontend/browser`).
+4. Deploy. Netlify gives you a random public URL like
+   `https://random-words-xxxxxx.netlify.app` at first — see below to change it.
 
 From then on, any `git push` to the repo redeploys both sides automatically.
+
+### Renaming the Netlify URL
+Netlify assigns a random subdomain by default. To make it say "vidyabandham"
+instead: open your site on Netlify → **Site configuration** → **General** →
+**Site details**, find **Site name** (or "Change site name"), and enter
+something like `vidyabandham` — if that exact name is free on Netlify's
+`.netlify.app` domain, your URL becomes `https://vidyabandham.netlify.app`.
+If it's taken, try a variant like `vidyabandham-app` or `vidyabandham-school`.
+This doesn't require a rebuild — it takes effect immediately.

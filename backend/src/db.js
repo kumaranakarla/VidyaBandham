@@ -5,7 +5,7 @@ const { DatabaseSync } = require('node:sqlite');
 // better-sqlite3) — available from Node 22.5+. It's marked "experimental" by
 // Node (you'll see a one-line warning when the server starts) but is fully
 // usable for an app like this.
-const dbPath = path.join(__dirname, '..', 'sampark.db');
+const dbPath = path.join(__dirname, '..', 'vidyabandham.db');
 const db = new DatabaseSync(dbPath);
 db.exec('PRAGMA journal_mode = WAL');
 db.exec('PRAGMA foreign_keys = ON');

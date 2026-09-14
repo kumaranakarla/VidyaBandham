@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: sampark-backend
+    name: vidyabandham-backend
     runtime: node
     rootDir: backend
     plan: free

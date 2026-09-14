@@ -35,7 +35,7 @@ function seed() {
   const teacherId = id();
   db.prepare(
     'INSERT INTO users (id, email, password_hash, role, name, class_id, student_id) VALUES (?, ?, ?, ?, ?, ?, NULL)'
-  ).run(teacherId, 'teacher@sampark.local', bcrypt.hashSync('teacher123', 10), 'teacher', 'Ms. Anjali Rao', classId);
+  ).run(teacherId, 'teacher@vidyabandham.local', bcrypt.hashSync('teacher123', 10), 'teacher', 'Ms. Anjali Rao', classId);
 
   const students = [
     { name: 'Aarav Mehta', roll: '07' },
@@ -61,7 +61,7 @@ function seed() {
   const aaravId = studentIds['Aarav Mehta'];
   db.prepare(
     'INSERT INTO users (id, email, password_hash, role, name, class_id, student_id) VALUES (?, ?, ?, ?, ?, ?, ?)'
-  ).run(parentId, 'parent@sampark.local', bcrypt.hashSync('parent123', 10), 'parent', "Aarav's Parent", classId, aaravId);
+  ).run(parentId, 'parent@vidyabandham.local', bcrypt.hashSync('parent123', 10), 'parent', "Aarav's Parent", classId, aaravId);
   db.prepare('UPDATE students SET parent_user_id = ? WHERE id = ?').run(parentId, aaravId);
 
   db.prepare('INSERT INTO diary_entries (id, class_id, who, note, created_at) VALUES (?, ?, ?, ?, ?)').run(
@@ -86,8 +86,8 @@ function seed() {
   ).run(aaravId, classId, 'Term 2', 18500, '30 Sep');
 
   console.log('Seed complete.');
-  console.log('Teacher login:  teacher@sampark.local / teacher123');
-  console.log('Parent login:   parent@sampark.local / parent123  (linked to Aarav Mehta)');
+  console.log('Teacher login:  teacher@vidyabandham.local / teacher123');
+  console.log('Parent login:   parent@vidyabandham.local / parent123  (linked to Aarav Mehta)');
 }
 
 // Only seeds if the database has no class yet — safe to call on every server

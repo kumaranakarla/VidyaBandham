@@ -5,8 +5,8 @@ import { Observable, tap } from 'rxjs';
 import { environment } from '../../environments/environment';
 import { User } from '../models/user.model';
 
-const TOKEN_KEY = 'sampark_token';
-const USER_KEY = 'sampark_user';
+const TOKEN_KEY = 'vidyabandham_token';
+const USER_KEY = 'vidyabandham_user';
 
 @Injectable({ providedIn: 'root' })
 export class AuthService {

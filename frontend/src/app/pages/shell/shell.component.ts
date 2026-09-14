@@ -10,7 +10,7 @@ import { AuthService } from '../../services/auth.service';
   template: `
     <div class="shell">
       <header>
-        <div class="brand">Sampark</div>
+        <div class="brand">Vidya Bandham</div>
         <nav>
           <a routerLink="/diary" routerLinkActive="active">Diary</a>
           <a routerLink="/homework" routerLinkActive="active">Homework</a>

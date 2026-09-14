@@ -11,7 +11,7 @@ import { AuthService } from '../../services/auth.service';
   template: `
     <div class="login-page">
       <form class="login-card" (ngSubmit)="submit()">
-        <h1>Sampark</h1>
+        <h1>Vidya Bandham</h1>
         <p class="subtitle">School diary, attendance, homework &amp; fees — all in one place.</p>
 
         <label>Email</label>
@@ -26,8 +26,8 @@ import { AuthService } from '../../services/auth.service';
 
         <div class="demo">
           <p><strong>Demo logins</strong></p>
-          <p>Teacher: teacher&#64;sampark.local / teacher123</p>
-          <p>Parent: parent&#64;sampark.local / parent123</p>
+          <p>Teacher: teacher&#64;vidyabandham.local / teacher123</p>
+          <p>Parent: parent&#64;vidyabandham.local / parent123</p>
         </div>
       </form>
     </div>

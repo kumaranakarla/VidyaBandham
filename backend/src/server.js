@@ -19,7 +19,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get('/', (req, res) => {
-  res.json({ ok: true, name: 'Sampark API', time: new Date().toISOString() });
+  res.json({ ok: true, name: 'Vidya Bandham API', time: new Date().toISOString() });
 });
 
 // Each router applies requireAuth/requireTeacher itself on the routes that need it.
@@ -38,5 +38,5 @@ app.use((err, req, res, next) => {
 
 const PORT = process.env.PORT || 4000;
 app.listen(PORT, () => {
-  console.log(`Sampark API listening on http://localhost:${PORT}`);
+  console.log(`Vidya Bandham API listening on http://localhost:${PORT}`);
 });
