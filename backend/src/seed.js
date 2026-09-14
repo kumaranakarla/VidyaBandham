@@ -1621,7 +1621,7 @@ function seed() {
   const teacherId = id();
   db.prepare(
     'INSERT INTO users (id, email, password_hash, role, name, class_id, student_id) VALUES (?, ?, ?, ?, ?, ?, NULL)'
-  ).run(teacherId, 'teacher@vb.local', bcrypt.hashSync('teacher123', 10), 'teacher', 'Ms. Anjali Rao', classId);
+  ).run(teacherId, 'teacher@vb.local', bcrypt.hashSync('teacher123', 10), 'teacher', 'Teacher', classId);
 
   const students = [
     { name: 'Aarav Mehta', roll: '07' },
@@ -1647,13 +1647,13 @@ function seed() {
   const aaravId = studentIds['Aarav Mehta'];
   db.prepare(
     'INSERT INTO users (id, email, password_hash, role, name, class_id, student_id) VALUES (?, ?, ?, ?, ?, ?, ?)'
-  ).run(parentId, 'parent@vb.local', bcrypt.hashSync('parent123', 10), 'parent', "Aarav's Parent", classId, aaravId);
+  ).run(parentId, 'parent@vb.local', bcrypt.hashSync('parent123', 10), 'parent', 'Parent', classId, aaravId);
   db.prepare('UPDATE students SET parent_user_id = ? WHERE id = ?').run(parentId, aaravId);
 
   db.prepare('INSERT INTO diary_entries (id, class_id, who, note, created_at) VALUES (?, ?, ?, ?, ?)').run(
     id(),
     classId,
-    'Ms. Anjali Rao',
+    'Teacher',
     'PTM this Saturday, 20 Sep at 10 AM. Please bring the last unit test copy along.',
     now()
   );
