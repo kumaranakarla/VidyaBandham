@@ -47,6 +47,7 @@ import { AuthService } from '../../services/auth.service';
         justify-content: center;
         background: #f4f1ea;
         font-family: system-ui, sans-serif;
+        font-weight: bold;
       }
       .login-card {
         background: white;
@@ -55,21 +56,25 @@ import { AuthService } from '../../services/auth.service';
         box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
         width: 100%;
         max-width: 360px;
+        font-weight: bold;
       }
       h1 {
         margin: 0 0 0.25rem;
         color: #2c4870;
+        font-weight: bold;
       }
       .subtitle {
         margin: 0 0 1.5rem;
         color: #666;
         font-size: 0.9rem;
+        font-weight: bold;
       }
       label {
         display: block;
         font-size: 0.85rem;
         margin: 0.75rem 0 0.25rem;
         color: #333;
+        font-weight: bold;
       }
       input {
         width: 100%;
@@ -78,6 +83,7 @@ import { AuthService } from '../../services/auth.service';
         border-radius: 6px;
         font-size: 1rem;
         box-sizing: border-box;
+        font-weight: bold;
       }
       button {
         margin-top: 1.5rem;
@@ -89,6 +95,7 @@ import { AuthService } from '../../services/auth.service';
         border-radius: 6px;
         font-size: 1rem;
         cursor: pointer;
+        font-weight: bold;
       }
       button:disabled {
         opacity: 0.6;
@@ -98,6 +105,7 @@ import { AuthService } from '../../services/auth.service';
         color: #b3261e;
         margin-top: 1rem;
         font-size: 0.9rem;
+        font-weight: bold;
       }
       .demo {
         margin-top: 1.5rem;
@@ -105,9 +113,11 @@ import { AuthService } from '../../services/auth.service';
         border-top: 1px solid #eee;
         font-size: 0.8rem;
         color: #777;
+        font-weight: bold;
       }
       .demo p {
         margin: 0.2rem 0;
+        font-weight: bold;
       }
       .demo-title {
         margin-bottom: 0.5rem !important;
@@ -115,7 +125,7 @@ import { AuthService } from '../../services/auth.service';
       .demo-role {
         margin-top: 0.7rem !important;
         color: #2c4870;
-        font-weight: 600;
+        font-weight: bold;
       }
     `,
   ],
