@@ -7,6 +7,7 @@ import { HomeworkComponent } from './pages/homework/homework.component';
 import { AttendanceComponent } from './pages/attendance/attendance.component';
 import { FeesComponent } from './pages/fees/fees.component';
 import { StudentsComponent } from './pages/students/students.component';
+import { TetComponent } from './pages/tet/tet.component';
 
 export const routes: Routes = [
   { path: 'login', component: LoginComponent },
@@ -21,6 +22,7 @@ export const routes: Routes = [
       { path: 'attendance', component: AttendanceComponent },
       { path: 'fees', component: FeesComponent },
       { path: 'students', component: StudentsComponent },
+      { path: 'tet', component: TetComponent },
     ],
   },
   { path: '**', redirectTo: '' },

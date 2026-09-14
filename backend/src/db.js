@@ -77,6 +77,20 @@ db.exec(`
     amount INTEGER NOT NULL,
     paid_on TEXT NOT NULL
   );
+
+  -- Reference material for teachers (or parents) preparing for TET (Teacher
+  -- Eligibility Test) — not tied to any one class, shared across the app.
+  CREATE TABLE IF NOT EXISTS tet_questions (
+    id TEXT PRIMARY KEY,
+    subject TEXT NOT NULL,
+    question TEXT NOT NULL,
+    option_a TEXT NOT NULL,
+    option_b TEXT NOT NULL,
+    option_c TEXT NOT NULL,
+    option_d TEXT NOT NULL,
+    correct_option INTEGER NOT NULL CHECK (correct_option IN (1, 2, 3, 4)),
+    source TEXT
+  );
 `);
 
 module.exports = db;

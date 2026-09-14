@@ -1,8 +1,8 @@
 # Vidya Bandham — Node.js + Angular
 
-A simple school app: class diary, homework, attendance, and fees, with separate
-views for teachers and parents. No cloud accounts, no external console —
-everything runs on your own computer.
+A simple school app: class diary, homework, attendance, fees, and TET exam
+prep, with separate views for teachers and parents. No cloud accounts, no
+external console — everything runs on your own computer.
 
 ## What's inside
 
@@ -62,6 +62,28 @@ As the parent you can:
 - Read diary notes and homework
 - See your child's attendance
 - See fee status and mark "I've paid"
+
+Both teacher and parent logins also see a **TET Prep** tab (see below).
+
+## TET Prep tab
+
+A practice-question tab for the TET (Teacher Eligibility Test) — useful for
+teachers using the app and for anyone in the family preparing for the exam.
+It's visible to both teacher and parent logins, filterable by subject, and
+each question reveals whether your pick was correct after you answer.
+
+The starter set is 20 real questions (Child Development & Pedagogy, English,
+Mathematics, and Science & EVS) taken from a genuine, previously published
+**AP TET Paper 1, June 2018** paper, with their official answers — not
+invented questions or guessed answer choices. Each question in the app shows
+its source. Only questions where the complete original 4-option set could be
+confirmed were included, so nothing here is a fabricated distractor.
+
+This is a small starter bank. If you want more coverage (other papers, other
+years, TET Paper 2 for upper grades, or Telugu-medium questions), the same
+`seedTetQuestions()` pattern in `backend/src/seed.js` can be extended with
+more entries — just keep sourcing real papers with complete answer options
+rather than inventing options to fill gaps.
 
 ## Notes
 
