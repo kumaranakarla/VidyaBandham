@@ -8,6 +8,7 @@ import { AttendanceComponent } from './pages/attendance/attendance.component';
 import { FeesComponent } from './pages/fees/fees.component';
 import { StudentsComponent } from './pages/students/students.component';
 import { TetComponent } from './pages/tet/tet.component';
+import { MockTestComponent } from './pages/mock-test/mock-test.component';
 
 export const routes: Routes = [
   { path: 'login', component: LoginComponent },
@@ -23,6 +24,7 @@ export const routes: Routes = [
       { path: 'fees', component: FeesComponent },
       { path: 'students', component: StudentsComponent },
       { path: 'tet', component: TetComponent },
+      { path: 'mock-test', component: MockTestComponent },
     ],
   },
   { path: '**', redirectTo: '' },

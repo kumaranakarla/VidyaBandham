@@ -18,6 +18,7 @@ import { AuthService } from '../../services/auth.service';
           <a routerLink="/fees" routerLinkActive="active">Fees</a>
           <a *ngIf="auth.isTeacher()" routerLink="/students" routerLinkActive="active">Students</a>
           <a routerLink="/tet" routerLinkActive="active">TET Prep</a>
+          <a routerLink="/mock-test" routerLinkActive="active">Mock Test</a>
         </nav>
         <div class="user">
           <span>{{ auth.user()?.name }}</span>

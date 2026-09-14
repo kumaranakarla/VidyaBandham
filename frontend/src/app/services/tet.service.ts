@@ -15,6 +15,55 @@ export interface TetQuestion {
   year: number | null;
 }
 
+// Mock-test question as sent to the browser — no correct_option, so it
+// can't be read off the network tab before the test is submitted.
+export interface MockQuestion {
+  id: string;
+  subject: string;
+  question: string;
+  option_a: string;
+  option_b: string;
+  option_c: string;
+  option_d: string;
+  source: string;
+  year: number | null;
+}
+
+export interface MockAnswer {
+  id: string;
+  selected: number | null;
+}
+
+export interface MockResultItem {
+  id: string;
+  subject: string;
+  question: string;
+  option_a: string;
+  option_b: string;
+  option_c: string;
+  option_d: string;
+  selected: number | null;
+  correct_option: number;
+  isCorrect: boolean;
+}
+
+export interface MockSubmitResponse {
+  total: number;
+  correct: number;
+  percent: number;
+  results: MockResultItem[];
+}
+
+export interface MockAttempt {
+  id: string;
+  year: string;
+  subject: string;
+  total_questions: number;
+  correct_answers: number;
+  score_percent: number;
+  taken_at: string;
+}
+
 @Injectable({ providedIn: 'root' })
 export class TetService {
   private base = `${environment.apiUrl}/tet`;
@@ -22,5 +71,24 @@ export class TetService {
 
   list() {
     return this.http.get<{ questions: TetQuestion[] }>(this.base);
+  }
+
+  startMock(year: string, subject: string, count: number) {
+    let params = `count=${count}`;
+    if (year) params += `&year=${encodeURIComponent(year)}`;
+    if (subject) params += `&subject=${encodeURIComponent(subject)}`;
+    return this.http.get<{ questions: MockQuestion[]; available: number }>(`${this.base}/mock/start?${params}`);
+  }
+
+  submitMock(year: string, subject: string, answers: MockAnswer[]) {
+    return this.http.post<MockSubmitResponse>(`${this.base}/mock/submit`, {
+      year: year || null,
+      subject: subject || null,
+      answers,
+    });
+  }
+
+  mockHistory() {
+    return this.http.get<{ attempts: MockAttempt[] }>(`${this.base}/mock/history`);
   }
 }

@@ -63,7 +63,8 @@ As the parent you can:
 - See your child's attendance
 - See fee status and mark "I've paid"
 
-Both teacher and parent logins also see a **TET Prep** tab (see below).
+Both teacher and parent logins also see a **TET Prep** tab and a **Mock Test**
+tab (see below).
 
 ## TET Prep tab
 
@@ -134,6 +135,26 @@ or add it properly. The `year`/`paper` fields and the seeding pattern in
 `backend/src/seed.js` are already set up for it — just follow the same
 structure (real question, complete 4-option set, a correct answer you can
 actually stand behind, tagged with its year and paper).
+
+## Mock Test tab
+
+Where TET Prep is for browsing questions at your own pace, the **Mock Test**
+tab is for testing yourself: pick a year, a subject, and how many questions
+you want (10/20/30/50), and it puts together a random set from the question
+bank. Options are chosen so you can't just look up the answer — the correct
+option is never sent to the browser until after you submit.
+
+Once you submit, you get an instant score (e.g. "16/20 — 80%") plus a full
+review showing every question with the correct answer highlighted in green
+and, if you got it wrong, your own pick highlighted in red.
+
+**No separate signup needed.** The tab uses the same teacher/parent login
+you already have for the rest of the app — there's no new "register for
+mock test" step. Every attempt is saved against your account (score, date,
+and the year/subject you picked), and the setup screen shows your past
+attempts so you can see whether you're improving over time. This is stored
+server-side in a new `tet_mock_attempts` table, so it survives across
+devices as long as you're signed in with the same login.
 
 ## Notes
 

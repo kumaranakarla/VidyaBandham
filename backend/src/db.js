@@ -92,6 +92,20 @@ db.exec(`
     source TEXT,
     year INTEGER
   );
+
+  -- One row per completed Mock Test attempt, so a teacher or parent can see
+  -- their own score history. Tied to the same login they already use for
+  -- the rest of the app — no separate mock-test signup needed.
+  CREATE TABLE IF NOT EXISTS tet_mock_attempts (
+    id TEXT PRIMARY KEY,
+    user_id TEXT NOT NULL REFERENCES users(id),
+    year TEXT,
+    subject TEXT,
+    total_questions INTEGER NOT NULL,
+    correct_answers INTEGER NOT NULL,
+    score_percent INTEGER NOT NULL,
+    taken_at TEXT NOT NULL
+  );
 `);
 
 // `year` was added to tet_questions after the table already existed on some
