@@ -123,11 +123,37 @@ type Stage = 'setup' | 'testing' | 'result';
         <button class="start-btn" (click)="backToSetup()">Take another test</button>
       </div>
 
+      <div class="answer-key">
+        <h3>Answer key</h3>
+        <table>
+          <thead>
+            <tr><th>Q#</th><th>Your answer</th><th>Correct answer</th><th>Result</th></tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let r of result.results; let i = index">
+              <td>{{ i + 1 }}</td>
+              <td [class.key-wrong]="!r.isCorrect && r.selected">
+                {{ r.selected ? optionLetter(r.selected) : '—' }}
+              </td>
+              <td class="key-correct">{{ optionLetter(r.correct_option) }}</td>
+              <td>
+                <span class="badge" [class.badge-correct]="r.isCorrect" [class.badge-wrong]="!r.isCorrect && r.selected" [class.badge-blank]="!r.selected">
+                  {{ r.isCorrect ? 'Correct' : (r.selected ? 'Wrong' : 'Blank') }}
+                </span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
       <div class="questions">
         <div class="q-card" *ngFor="let r of result.results; let i = index">
           <div class="subject-tag">
             Q{{ i + 1 }} · {{ r.subject }}
             <span class="en-only-tag" *ngIf="lang === 'te' && !r.question_te">English only</span>
+            <span class="badge" [class.badge-correct]="r.isCorrect" [class.badge-wrong]="!r.isCorrect && r.selected" [class.badge-blank]="!r.selected">
+              {{ r.isCorrect ? '✓ Correct' : (r.selected ? '✗ Wrong answer' : 'Not answered') }}
+            </span>
           </div>
           <div class="question-text">{{ questionTextResult(r) }}</div>
           <div class="options">
@@ -140,7 +166,17 @@ type Stage = 'setup' | 'testing' | 'result';
               {{ opt }}
             </button>
           </div>
-          <div class="answer-note" *ngIf="!r.isCorrect && !r.selected">You left this one blank.</div>
+          <div class="answer-note answer-note-wrong" *ngIf="!r.isCorrect && r.selected">
+            Your answer ({{ optionLetter(r.selected) }}) was wrong — the correct answer is
+            <strong>{{ optionLetter(r.correct_option) }}</strong>, shown in green above.
+          </div>
+          <div class="answer-note" *ngIf="!r.isCorrect && !r.selected">
+            You left this one blank — the correct answer is
+            <strong>{{ optionLetter(r.correct_option) }}</strong>, shown in green above.
+          </div>
+          <div class="answer-note answer-note-correct" *ngIf="r.isCorrect">
+            Correct answer! You picked <strong>{{ optionLetter(r.selected!) }}</strong>.
+          </div>
         </div>
       </div>
     </div>
@@ -211,6 +247,27 @@ type Stage = 'setup' | 'testing' | 'result';
       }
       .score-number { font-size: 2.5rem; font-weight: 700; color: #2c4870; }
       .score-sub { color: #555; margin: 0.3rem 0 1rem; }
+
+      .answer-key {
+        background: white; padding: 1.2rem; border-radius: 8px; box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+        margin-bottom: 1.5rem; overflow-x: auto;
+      }
+      .answer-key h3 { font-size: 1rem; color: #2c4870; margin: 0 0 0.7rem; }
+      .answer-key table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
+      .answer-key th, .answer-key td { text-align: left; padding: 0.4rem 0.6rem; border-bottom: 1px solid #eee; }
+      .answer-key .key-wrong { color: #b3261e; font-weight: 600; }
+      .answer-key .key-correct { color: #2f7a3d; font-weight: 600; }
+
+      .badge {
+        display: inline-block; margin-left: 0.6rem; font-size: 0.72rem; font-weight: 700;
+        padding: 0.12rem 0.55rem; border-radius: 999px; letter-spacing: 0.02em; vertical-align: middle;
+      }
+      .badge-correct { background: #dcefe1; color: #2f7a3d; }
+      .badge-wrong { background: #fbe4e2; color: #b3261e; }
+      .badge-blank { background: #eee; color: #777; }
+
+      .answer-note-wrong { color: #b3261e; }
+      .answer-note-correct { color: #2f7a3d; }
     `,
   ],
 })
@@ -281,6 +338,10 @@ export class MockTestComponent implements OnInit {
       return [r.option_a_te!, r.option_b_te!, r.option_c_te!, r.option_d_te!];
     }
     return [r.option_a, r.option_b, r.option_c, r.option_d];
+  }
+
+  optionLetter(n: number | null | undefined): string {
+    return n ? ['A', 'B', 'C', 'D'][n - 1] ?? '—' : '—';
   }
 
   select(questionId: string, optionNumber: number): void {
