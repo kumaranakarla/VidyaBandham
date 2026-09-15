@@ -26,6 +26,16 @@ type Stage = 'setup' | 'testing' | 'result';
     <!-- SETUP -->
     <div class="setup-card" *ngIf="stage === 'setup'">
       <div class="field">
+        <label>Language</label>
+        <div class="lang-toggle">
+          <button type="button" [class.active]="lang === 'en'" (click)="lang = 'en'">English</button>
+          <button type="button" [class.active]="lang === 'te'" (click)="lang = 'te'">తెలుగు</button>
+        </div>
+        <span class="lang-note" *ngIf="lang === 'te'">
+          English-subject questions always stay in English, same as the real exam.
+        </span>
+      </div>
+      <div class="field">
         <label>Year</label>
         <select [(ngModel)]="setupYear">
           <option value="">All years</option>
@@ -80,8 +90,11 @@ type Stage = 'setup' | 'testing' | 'result';
 
       <div class="questions">
         <div class="q-card" *ngFor="let q of questions; let i = index">
-          <div class="subject-tag">Q{{ i + 1 }} · {{ q.subject }}</div>
-          <div class="question-text">{{ q.question }}</div>
+          <div class="subject-tag">
+            Q{{ i + 1 }} · {{ q.subject }}
+            <span class="en-only-tag" *ngIf="lang === 'te' && !q.question_te">English only</span>
+          </div>
+          <div class="question-text">{{ questionText(q) }}</div>
           <div class="options">
             <button
               *ngFor="let opt of optionsFor(q); let oi = index"
@@ -112,8 +125,11 @@ type Stage = 'setup' | 'testing' | 'result';
 
       <div class="questions">
         <div class="q-card" *ngFor="let r of result.results; let i = index">
-          <div class="subject-tag">Q{{ i + 1 }} · {{ r.subject }}</div>
-          <div class="question-text">{{ r.question }}</div>
+          <div class="subject-tag">
+            Q{{ i + 1 }} · {{ r.subject }}
+            <span class="en-only-tag" *ngIf="lang === 'te' && !r.question_te">English only</span>
+          </div>
+          <div class="question-text">{{ questionTextResult(r) }}</div>
           <div class="options">
             <button
               *ngFor="let opt of optionsForResult(r); let oi = index"
@@ -138,6 +154,17 @@ type Stage = 'setup' | 'testing' | 'result';
       .field { margin-bottom: 0.9rem; display: flex; flex-direction: column; gap: 0.3rem; }
       .field label { font-size: 0.85rem; color: #555; }
       .field select { padding: 0.5rem 0.6rem; border-radius: 6px; border: 1px solid #ccc; }
+      .lang-toggle { display: flex; gap: 0.5rem; }
+      .lang-toggle button {
+        padding: 0.4rem 1rem; border-radius: 999px; border: 1px solid #ccc;
+        background: #fafafa; cursor: pointer; font-size: 0.9rem;
+      }
+      .lang-toggle button.active { background: #2c4870; border-color: #2c4870; color: white; }
+      .lang-note { font-size: 0.78rem; color: #888; }
+      .en-only-tag {
+        margin-left: 0.5rem; font-size: 0.7rem; color: #888; font-weight: 500;
+        border: 1px solid #ddd; border-radius: 4px; padding: 0.05rem 0.4rem;
+      }
       .start-btn {
         background: #c97c1f; color: white; border: none; border-radius: 6px;
         padding: 0.6rem 1.2rem; font-size: 0.95rem; cursor: pointer; margin-top: 0.4rem;
@@ -193,6 +220,7 @@ export class MockTestComponent implements OnInit {
   allQuestions: TetQuestion[] = [];
   years: number[] = [];
   subjects: string[] = [];
+  lang: 'en' | 'te' = 'en';
 
   setupYear = '';
   setupSubject = '';
@@ -233,11 +261,25 @@ export class MockTestComponent implements OnInit {
     return Object.values(this.answers).filter((v) => v !== null && v !== undefined).length;
   }
 
+  questionText(q: MockQuestion): string {
+    return this.lang === 'te' && q.question_te ? q.question_te : q.question;
+  }
+
   optionsFor(q: MockQuestion): string[] {
+    if (this.lang === 'te' && q.option_a_te) {
+      return [q.option_a_te!, q.option_b_te!, q.option_c_te!, q.option_d_te!];
+    }
     return [q.option_a, q.option_b, q.option_c, q.option_d];
   }
 
+  questionTextResult(r: MockSubmitResponse['results'][number]): string {
+    return this.lang === 'te' && r.question_te ? r.question_te : r.question;
+  }
+
   optionsForResult(r: MockSubmitResponse['results'][number]): string[] {
+    if (this.lang === 'te' && r.option_a_te) {
+      return [r.option_a_te!, r.option_b_te!, r.option_c_te!, r.option_d_te!];
+    }
     return [r.option_a, r.option_b, r.option_c, r.option_d];
   }
 

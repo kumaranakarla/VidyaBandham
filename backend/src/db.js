@@ -90,7 +90,12 @@ db.exec(`
     option_d TEXT NOT NULL,
     correct_option INTEGER NOT NULL CHECK (correct_option IN (1, 2, 3, 4)),
     source TEXT,
-    year INTEGER
+    year INTEGER,
+    question_te TEXT,
+    option_a_te TEXT,
+    option_b_te TEXT,
+    option_c_te TEXT,
+    option_d_te TEXT
   );
 
   -- One row per completed Mock Test attempt, so a teacher or parent can see
@@ -115,6 +120,16 @@ db.exec(`
 const tetColumns = db.prepare("PRAGMA table_info(tet_questions)").all();
 if (!tetColumns.some((c) => c.name === 'year')) {
   db.exec('ALTER TABLE tet_questions ADD COLUMN year INTEGER');
+}
+// Telugu translations were added later too (Child Development & Pedagogy,
+// Mathematics, and Science & EVS only — English-subject questions test the
+// English language itself, so they stay English-only, same as the real
+// AP TET papers). Same safe-migration pattern as `year` above.
+const tetTeColumns = db.prepare("PRAGMA table_info(tet_questions)").all();
+for (const col of ['question_te', 'option_a_te', 'option_b_te', 'option_c_te', 'option_d_te']) {
+  if (!tetTeColumns.some((c) => c.name === col)) {
+    db.exec(`ALTER TABLE tet_questions ADD COLUMN ${col} TEXT`);
+  }
 }
 
 module.exports = db;

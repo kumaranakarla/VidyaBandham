@@ -32,7 +32,8 @@ router.get('/mock/start', requireAuth, (req, res) => {
   const { year, subject } = req.query;
   const count = Math.min(Math.max(parseInt(req.query.count, 10) || 20, 5), 50);
 
-  let sql = 'SELECT id, subject, question, option_a, option_b, option_c, option_d, source, year FROM tet_questions WHERE 1=1';
+  let sql =
+    'SELECT id, subject, question, option_a, option_b, option_c, option_d, source, year, question_te, option_a_te, option_b_te, option_c_te, option_d_te FROM tet_questions WHERE 1=1';
   const params = [];
   if (year) {
     sql += ' AND year = ?';
@@ -74,6 +75,11 @@ router.post('/mock/submit', requireAuth, (req, res) => {
       option_b: q.option_b,
       option_c: q.option_c,
       option_d: q.option_d,
+      question_te: q.question_te,
+      option_a_te: q.option_a_te,
+      option_b_te: q.option_b_te,
+      option_c_te: q.option_c_te,
+      option_d_te: q.option_d_te,
       selected: a.selected ?? null,
       correct_option: q.correct_option,
       isCorrect,

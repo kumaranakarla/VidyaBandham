@@ -13,6 +13,15 @@ export interface TetQuestion {
   correct_option: number;
   source: string;
   year: number | null;
+  // Telugu translation — only present for Child Development & Pedagogy,
+  // Mathematics, and Science & EVS (English-subject questions test the
+  // English language itself, so they stay English-only, same as the real
+  // AP TET papers). null/undefined when not available.
+  question_te?: string | null;
+  option_a_te?: string | null;
+  option_b_te?: string | null;
+  option_c_te?: string | null;
+  option_d_te?: string | null;
 }
 
 // Mock-test question as sent to the browser — no correct_option, so it
@@ -27,6 +36,11 @@ export interface MockQuestion {
   option_d: string;
   source: string;
   year: number | null;
+  question_te?: string | null;
+  option_a_te?: string | null;
+  option_b_te?: string | null;
+  option_c_te?: string | null;
+  option_d_te?: string | null;
 }
 
 export interface MockAnswer {
@@ -45,6 +59,11 @@ export interface MockResultItem {
   selected: number | null;
   correct_option: number;
   isCorrect: boolean;
+  question_te?: string | null;
+  option_a_te?: string | null;
+  option_b_te?: string | null;
+  option_c_te?: string | null;
+  option_d_te?: string | null;
 }
 
 export interface MockSubmitResponse {

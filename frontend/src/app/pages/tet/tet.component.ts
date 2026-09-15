@@ -14,6 +14,14 @@ import { TetQuestion, TetService } from '../../services/tet.service';
       useful whether you're a teacher here or preparing for the exam yourself.
     </p>
 
+    <div class="lang-toggle">
+      <button [class.active]="lang === 'en'" (click)="lang = 'en'" type="button">English</button>
+      <button [class.active]="lang === 'te'" (click)="lang = 'te'" type="button">తెలుగు</button>
+      <span class="lang-note" *ngIf="lang === 'te'">
+        English is always tested in English on the real exam, so those questions stay in English below.
+      </span>
+    </div>
+
     <div class="filter-row" *ngIf="subjects.length">
       <label>Year</label>
       <select [(ngModel)]="selectedYear">
@@ -34,8 +42,9 @@ import { TetQuestion, TetService } from '../../services/tet.service';
       <div class="q-card" *ngFor="let q of filteredQuestions">
         <div class="subject-tag">
           <span *ngIf="q.year">{{ q.year }} · </span>{{ q.subject }}
+          <span class="en-only-tag" *ngIf="lang === 'te' && !q.question_te">English only</span>
         </div>
-        <div class="question-text">{{ q.question }}</div>
+        <div class="question-text">{{ questionText(q) }}</div>
         <div class="options">
           <button
             *ngFor="let opt of optionsFor(q); let i = index"
@@ -62,11 +71,31 @@ import { TetQuestion, TetService } from '../../services/tet.service';
     `
       h2 { color: #2c4870; }
       .intro { color: #555; margin-top: -0.5rem; margin-bottom: 1.2rem; max-width: 60ch; }
+      .lang-toggle { display: flex; align-items: center; flex-wrap: wrap; gap: 0.5rem 0.8rem; margin-bottom: 1rem; }
+      .lang-toggle button {
+        padding: 0.4rem 1rem;
+        border-radius: 999px;
+        border: 1px solid #ccc;
+        background: #fafafa;
+        cursor: pointer;
+        font-size: 0.9rem;
+      }
+      .lang-toggle button.active { background: #2c4870; border-color: #2c4870; color: white; }
+      .lang-note { font-size: 0.8rem; color: #888; }
       .filter-row { display: flex; align-items: center; flex-wrap: wrap; gap: 0.6rem 1rem; margin-bottom: 1.2rem; }
       .filter-row select { padding: 0.4rem 0.6rem; border-radius: 6px; border: 1px solid #ccc; }
       .questions { display: flex; flex-direction: column; gap: 1rem; }
       .q-card { background: white; padding: 1rem 1.2rem; border-radius: 8px; box-shadow: 0 1px 4px rgba(0,0,0,0.06); }
       .subject-tag { display: inline-block; font-size: 0.75rem; color: #c97c1f; font-weight: 600; margin-bottom: 0.4rem; }
+      .en-only-tag {
+        margin-left: 0.5rem;
+        font-size: 0.7rem;
+        color: #888;
+        font-weight: 500;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 0.05rem 0.4rem;
+      }
       .question-text { font-weight: 600; color: #222; margin-bottom: 0.7rem; }
       .options { display: flex; flex-direction: column; gap: 0.5rem; }
       .options button {
@@ -93,6 +122,7 @@ export class TetComponent implements OnInit {
   selectedSubject = '';
   selectedYear = '';
   picked: Record<string, number> = {};
+  lang: 'en' | 'te' = 'en';
 
   constructor(private tet: TetService) {}
 
@@ -126,7 +156,16 @@ export class TetComponent implements OnInit {
     });
   }
 
+  // Falls back to English whenever a Telugu translation isn't available for
+  // this question (English-subject questions, by design — see README).
+  questionText(q: TetQuestion): string {
+    return this.lang === 'te' && q.question_te ? q.question_te : q.question;
+  }
+
   optionsFor(q: TetQuestion): string[] {
+    if (this.lang === 'te' && q.option_a_te) {
+      return [q.option_a_te!, q.option_b_te!, q.option_c_te!, q.option_d_te!];
+    }
     return [q.option_a, q.option_b, q.option_c, q.option_d];
   }
 

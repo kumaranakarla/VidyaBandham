@@ -35,7 +35,7 @@ import { AuthService } from '../../services/auth.service';
       .shell {
         min-height: 100vh;
         background: #f4f1ea;
-        font-family: system-ui, sans-serif;
+        font-family: system-ui, sans-serif, 'Noto Sans Telugu';
       }
       header {
         background: #2c4870;

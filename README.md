@@ -74,6 +74,22 @@ It's visible to both teacher and parent logins, filterable by **year** and by
 **subject**, and each question reveals whether your pick was correct after
 you answer.
 
+### English / Telugu toggle
+
+Both TET Prep and Mock Test have an English/తెలుగు switch at the top. It
+follows the same rule the real AP TET exam does: Child Development &
+Pedagogy, Mathematics, and Science & EVS are available in both languages,
+while the English-subject questions stay English-only, since translating
+"choose the correct synonym" into Telugu would change what's being tested.
+A question with no Telugu version is marked "English only" so it's clear
+why it didn't switch. The Telugu text is my own translation of the same
+verified English questions (using standard Telugu terminology from
+educational psychology and the AP TET syllabus) — not a separately-sourced
+official Telugu paper, so treat it as a translation aid rather than a
+second independent source. The app pulls in the "Noto Sans Telugu" web
+font so the script renders correctly even if a visitor's own device
+doesn't have a Telugu font installed.
+
 ### A quick word on TET itself
 
 The Teacher Eligibility Test was introduced nationally by the Government of
