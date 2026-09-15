@@ -77,9 +77,11 @@ you answer.
 ### English / Telugu toggle
 
 Both TET Prep and Mock Test have an English/తెలుగు switch at the top. It
-follows the same rule the real AP TET exam does: Child Development &
-Pedagogy, Mathematics, and Science & EVS are available in both languages,
-while the English-subject questions stay English-only, since translating
+follows the same rule the real AP TET exam does: every content subject —
+Child Development & Pedagogy, Mathematics, Science & EVS, Physical Science,
+Biology, and Social Studies — is available in both languages, so both
+English-medium and Telugu-medium teachers can use the same question bank.
+Only the English-subject questions stay English-only, since translating
 "choose the correct synonym" into Telugu would change what's being tested.
 A question with no Telugu version is marked "English only" so it's clear
 why it didn't switch. The Telugu text is my own translation of the same

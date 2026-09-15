@@ -108,10 +108,18 @@ type Stage = 'setup' | 'testing' | 'result';
       </div>
 
       <div class="submit-row">
-        <button class="submit-btn" (click)="submitTest()" [disabled]="submitting">
-          {{ submitting ? 'Grading…' : 'Submit Test' }}
+        <button class="submit-btn" (click)="submitTest()" [disabled]="submitting" [class.submitted]="submitting">
+          {{ submitting ? 'Submitted — grading…' : 'Submit Test' }}
         </button>
         <button class="cancel-btn" (click)="cancelTest()" [disabled]="submitting">Cancel</button>
+      </div>
+      <p class="waking-note" *ngIf="submitting && showWakingNote">
+        Still working — if the server has been idle a while it can take up to a minute to wake back up. Please wait,
+        don't refresh the page.
+      </p>
+      <div class="submit-error" *ngIf="submitError">
+        <p>{{ submitError }}</p>
+        <button class="retry-btn" (click)="submitTest()">Try again</button>
       </div>
     </div>
 
@@ -236,9 +244,21 @@ type Stage = 'setup' | 'testing' | 'result';
         padding: 0.7rem 1.4rem; font-size: 0.95rem; cursor: pointer;
       }
       .submit-btn:disabled { opacity: 0.6; cursor: default; }
+      .submit-btn.submitted { background: #8a8f98; }
       .cancel-btn {
         background: transparent; color: #777; border: 1px solid #ccc; border-radius: 6px;
         padding: 0.7rem 1.4rem; font-size: 0.95rem; cursor: pointer;
+      }
+
+      .waking-note { margin-top: 0.7rem; font-size: 0.85rem; color: #886a1f; max-width: 50ch; }
+      .submit-error {
+        margin-top: 0.8rem; background: #fbe4e2; border: 1px solid #e3a29c; border-radius: 6px;
+        padding: 0.8rem 1rem; max-width: 55ch;
+      }
+      .submit-error p { margin: 0 0 0.6rem; color: #7a241d; font-size: 0.9rem; }
+      .retry-btn {
+        background: #b3261e; color: white; border: none; border-radius: 6px;
+        padding: 0.45rem 1rem; font-size: 0.88rem; cursor: pointer;
       }
 
       .score-card {
@@ -288,6 +308,9 @@ export class MockTestComponent implements OnInit {
   questions: MockQuestion[] = [];
   answers: Record<string, number | null> = {};
   submitting = false;
+  submitError = '';
+  showWakingNote = false;
+  private wakingTimer: ReturnType<typeof setTimeout> | null = null;
 
   result: MockSubmitResponse | null = null;
   history: MockAttempt[] = [];
@@ -372,16 +395,27 @@ export class MockTestComponent implements OnInit {
 
   submitTest(): void {
     this.submitting = true;
+    this.submitError = '';
+    this.showWakingNote = false;
+    if (this.wakingTimer) clearTimeout(this.wakingTimer);
+    this.wakingTimer = setTimeout(() => (this.showWakingNote = true), 5000);
+
     const answers: MockAnswer[] = this.questions.map((q) => ({ id: q.id, selected: this.answers[q.id] ?? null }));
     this.tet.submitMock(this.setupYear, this.setupSubject, answers).subscribe({
       next: (res) => {
         this.submitting = false;
+        this.showWakingNote = false;
+        if (this.wakingTimer) clearTimeout(this.wakingTimer);
         this.result = res;
         this.stage = 'result';
         this.loadHistory();
       },
       error: () => {
         this.submitting = false;
+        this.showWakingNote = false;
+        if (this.wakingTimer) clearTimeout(this.wakingTimer);
+        this.submitError =
+          "Couldn't submit your test — the server may be waking up or your connection dropped. Your answers are still here, so it's safe to try again.";
       },
     });
   }

@@ -3151,7 +3151,14 @@ const TET_QUESTIONS = [
       "Continents",
       "Poles"
     ],
-    "correct": 4
+    "correct": 4,
+    "question_te": "భూమి అక్షం యొక్క రెండు చివరలను ఇలా అంటారు",
+    "options_te": [
+      "రేఖాంశాలు",
+      "దేశాలు",
+      "ఖండాలు",
+      "ధ్రువాలు"
+    ]
   },
   {
     "year": 2018,
@@ -3164,7 +3171,14 @@ const TET_QUESTIONS = [
       "Farmers and companies",
       "Farmers and government"
     ],
-    "correct": 3
+    "correct": 3,
+    "question_te": "కాంట్రాక్టు వ్యవసాయంలో భాగస్వాములు",
+    "options_te": [
+      "రైతులు మరియు అధికారులు",
+      "రైతులు మరియు బ్యాంకులు",
+      "రైతులు మరియు కంపెనీలు",
+      "రైతులు మరియు ప్రభుత్వం"
+    ]
   },
   {
     "year": 2018,
@@ -3177,7 +3191,14 @@ const TET_QUESTIONS = [
       "Monarchy",
       "Gana form of Government"
     ],
-    "correct": 4
+    "correct": 4,
+    "question_te": "'వజ్జి మహాజనపదం'లో ప్రభుత్వ స్వరూపం",
+    "options_te": [
+      "నిరంకుశ ప్రభుత్వం",
+      "అరాచక ప్రభుత్వం",
+      "రాచరిక ప్రభుత్వం",
+      "గణతంత్ర ప్రభుత్వం"
+    ]
   },
   {
     "year": 2018,
@@ -3190,7 +3211,14 @@ const TET_QUESTIONS = [
       "Stupas",
       "Viharas"
     ],
-    "correct": 2
+    "correct": 2,
+    "question_te": "'మెగాలిత్‌లు' అంటే",
+    "options_te": [
+      "దేవాలయాలు",
+      "సమాధి స్థలాలు",
+      "స్థూపాలు",
+      "విహారాలు"
+    ]
   },
   {
     "year": 2018,
@@ -3203,7 +3231,14 @@ const TET_QUESTIONS = [
       "Folk songs",
       "Shlokas"
     ],
-    "correct": 1
+    "correct": 1,
+    "question_te": "ఆళ్వారులు రచించి పాడిన పాటలు",
+    "options_te": [
+      "పాశురాలు",
+      "లలిత సంగీతం",
+      "జానపద గీతాలు",
+      "శ్లోకాలు"
+    ]
   },
   {
     "year": 2018,
@@ -3216,7 +3251,14 @@ const TET_QUESTIONS = [
       "Bhagavatham",
       "Shakuntalam"
     ],
-    "correct": 1
+    "correct": 1,
+    "question_te": "సంస్కృత సాహిత్యంలో మొదటి కావ్యం",
+    "options_te": [
+      "రామాయణం",
+      "మహాభారతం",
+      "భాగవతం",
+      "శాకుంతలం"
+    ]
   },
   {
     "year": 2018,
@@ -3229,7 +3271,14 @@ const TET_QUESTIONS = [
       "Currents",
       "Tides"
     ],
-    "correct": 4
+    "correct": 4,
+    "question_te": "ప్రతిరోజూ సముద్రాలలో నీటి మట్టం లయబద్ధంగా పెరగడం, తగ్గడాన్ని ఇలా అంటారు",
+    "options_te": [
+      "అలలు",
+      "వరదలు",
+      "ప్రవాహాలు",
+      "ఆటుపోట్లు"
+    ]
   },
   {
     "year": 2018,
@@ -3242,7 +3291,14 @@ const TET_QUESTIONS = [
       "Russia",
       "India"
     ],
-    "correct": 1
+    "correct": 1,
+    "question_te": "పారిశ్రామిక విప్లవం ఈ దేశంలో ప్రారంభమైంది",
+    "options_te": [
+      "ఇంగ్లండ్",
+      "అమెరికా",
+      "రష్యా",
+      "భారతదేశం"
+    ]
   },
   {
     "year": 2018,
@@ -3255,7 +3311,14 @@ const TET_QUESTIONS = [
       "Cholas",
       "Kakatiyas"
     ],
-    "correct": 1
+    "correct": 1,
+    "question_te": "వీరిని 'ఆంధ్ర రాజులు' అని పిలిచేవారు",
+    "options_te": [
+      "విష్ణుకుండినులు",
+      "పల్లవులు",
+      "చోళులు",
+      "కాకతీయులు"
+    ]
   },
   {
     "year": 2018,
@@ -3268,7 +3331,14 @@ const TET_QUESTIONS = [
       "Birbal",
       "Sangrama Singh"
     ],
-    "correct": 1
+    "correct": 1,
+    "question_te": "అక్బర్ ఆస్థానంలో 'జబ్త్' పన్నును ప్రవేశపెట్టిన మంత్రి",
+    "options_te": [
+      "తోడర్‌మల్",
+      "అబుల్ ఫజల్",
+      "బీర్బల్",
+      "సంగ్రామ సింగ్"
+    ]
   },
   {
     "year": 2018,
@@ -3281,7 +3351,14 @@ const TET_QUESTIONS = [
       "20 years",
       "18 years"
     ],
-    "correct": 4
+    "correct": 4,
+    "question_te": "మన దేశంలో ఓటు హక్కుకు కనీస వయోపరిమితి",
+    "options_te": [
+      "21 సంవత్సరాలు",
+      "19 సంవత్సరాలు",
+      "20 సంవత్సరాలు",
+      "18 సంవత్సరాలు"
+    ]
   },
   {
     "year": 2018,
@@ -3294,7 +3371,14 @@ const TET_QUESTIONS = [
       "Molla",
       "Sreenadha"
     ],
-    "correct": 4
+    "correct": 4,
+    "question_te": "'పలనాటి వీరుల కథ' రచించినది",
+    "options_te": [
+      "నన్నయ్య",
+      "తిక్కన",
+      "మొల్ల",
+      "శ్రీనాథుడు"
+    ]
   },
   {
     "year": 2018,
@@ -3307,7 +3391,14 @@ const TET_QUESTIONS = [
       "Nayani Venkata Ranga Rao",
       "Ravichettu Ranga Rao"
     ],
-    "correct": 1
+    "correct": 1,
+    "question_te": "ఆంధ్ర జనసంఘం స్థాపించినది",
+    "options_te": [
+      "మాడపాటి హనుమంతరావు",
+      "కొమర్రాజు లక్ష్మణరావు",
+      "నాయని వెంకట రంగారావు",
+      "రావిచెట్టు రంగారావు"
+    ]
   },
   {
     "year": 2018,
@@ -3320,7 +3411,14 @@ const TET_QUESTIONS = [
       "1942",
       "1941"
     ],
-    "correct": 3
+    "correct": 3,
+    "question_te": "క్విట్ ఇండియా ఉద్యమం ప్రారంభమైన సంవత్సరం",
+    "options_te": [
+      "1943",
+      "1946",
+      "1942",
+      "1941"
+    ]
   },
   {
     "year": 2018,
@@ -3333,7 +3431,14 @@ const TET_QUESTIONS = [
       "Andhra Bhasha Sangam",
       "Andhra Maha Sabha"
     ],
-    "correct": 4
+    "correct": 4,
+    "question_te": "మాడపాటి హనుమంతరావు, రావి నారాయణరెడ్డి వీరితో సంబంధం కలిగి ఉన్నారు",
+    "options_te": [
+      "ఆంధ్ర మహిళా సభ",
+      "ఆంధ్ర సారస్వత సభ",
+      "ఆంధ్ర భాషా సంఘం",
+      "ఆంధ్ర మహాసభ"
+    ]
   },
   {
     "year": 2018,
@@ -3346,7 +3451,14 @@ const TET_QUESTIONS = [
       "1947",
       "1917"
     ],
-    "correct": 1
+    "correct": 1,
+    "question_te": "స్వాతంత్ర్యానికి ముందే వెట్టి చాకిరీ నిర్మూలనపై ఈ సంవత్సరంలో చట్టం చేయబడింది",
+    "options_te": [
+      "1927",
+      "1937",
+      "1947",
+      "1917"
+    ]
   },
   {
     "year": 2018,
@@ -3359,7 +3471,14 @@ const TET_QUESTIONS = [
       "1944",
       "1946"
     ],
-    "correct": 2
+    "correct": 2,
+    "question_te": "ఐక్యరాజ్యసమితి స్థాపించబడిన సంవత్సరం",
+    "options_te": [
+      "1943",
+      "1945",
+      "1944",
+      "1946"
+    ]
   },
   {
     "year": 2018,
@@ -3372,7 +3491,14 @@ const TET_QUESTIONS = [
       "Tarabai Shinde",
       "Begum Rokiya Sakhawat Hussain"
     ],
-    "correct": 1
+    "correct": 1,
+    "question_te": "భారతదేశపు మొదటి మహిళా ఉపాధ్యాయురాలు",
+    "options_te": [
+      "సావిత్రిబాయి ఫూలే",
+      "పండిత రమాబాయి సరస్వతి",
+      "తారాబాయి షిండే",
+      "బేగం రొకయా సఖావత్ హుస్సేన్"
+    ]
   },
   {
     "year": 2018,
@@ -3385,7 +3511,14 @@ const TET_QUESTIONS = [
       "Kuravanji",
       "Dhimsa"
     ],
-    "correct": 4
+    "correct": 4,
+    "question_te": "అరకు లోయ గిరిజనులు చేసే నృత్యం",
+    "options_te": [
+      "గుస్సాడి",
+      "సదిర్",
+      "కురవంజి",
+      "ధింసా"
+    ]
   },
   {
     "year": 2018,
@@ -3398,7 +3531,14 @@ const TET_QUESTIONS = [
       "Study of maps",
       "Atlas"
     ],
-    "correct": 4
+    "correct": 4,
+    "question_te": "పటాల సమాహారాన్ని ఇలా అంటారు",
+    "options_te": [
+      "పటాల గీత",
+      "పట విశ్లేషణ",
+      "పటాల అధ్యయనం",
+      "అట్లాస్"
+    ]
   },
   {
     "year": 2018,
@@ -3411,7 +3551,14 @@ const TET_QUESTIONS = [
       "1860 - 61",
       "1870 - 71"
     ],
-    "correct": 1
+    "correct": 1,
+    "question_te": "సంతాల్ ఆదివాసీల తిరుగుబాటు ఈ కాలంలో జరిగింది",
+    "options_te": [
+      "1855 - 56",
+      "1850 - 51",
+      "1860 - 61",
+      "1870 - 71"
+    ]
   },
   {
     "year": 2018,
@@ -3424,7 +3571,14 @@ const TET_QUESTIONS = [
       "Pandrangi",
       "Rampachodavaram"
     ],
-    "correct": 3
+    "correct": 3,
+    "question_te": "అల్లూరి సీతారామరాజు జన్మస్థలం",
+    "options_te": [
+      "పెందుర్తి",
+      "చింతపల్లి",
+      "పాండ్రంగి",
+      "రంపచోడవరం"
+    ]
   },
   {
     "year": 2018,
@@ -3437,7 +3591,14 @@ const TET_QUESTIONS = [
       "Kumbha Konam",
       "Visakhapatnam"
     ],
-    "correct": 3
+    "correct": 3,
+    "question_te": "2004లో 93 మంది పాఠశాల విద్యార్థులు మరణించిన అగ్నిప్రమాదం జరిగిన ప్రదేశం",
+    "options_te": [
+      "భోపాల్",
+      "మైసూరు",
+      "కుంభకోణం",
+      "విశాఖపట్నం"
+    ]
   },
   {
     "year": 2018,
@@ -3450,7 +3611,14 @@ const TET_QUESTIONS = [
       "2006",
       "2005"
     ],
-    "correct": 3
+    "correct": 3,
+    "question_te": "బాల్య వివాహాల నిషేధ చట్టం ఏ సంవత్సరంలో రూపొందించబడింది",
+    "options_te": [
+      "2004",
+      "2007",
+      "2006",
+      "2005"
+    ]
   },
   {
     "year": 2018,
@@ -3463,7 +3631,14 @@ const TET_QUESTIONS = [
       "Right to freedom",
       "Right to equality"
     ],
-    "correct": 1
+    "correct": 1,
+    "question_te": "ఈ హక్కు ప్రకారం అన్ని రకాల 'వెట్టి చాకిరీ'ని నిషేధించారు",
+    "options_te": [
+      "దోపిడీకి వ్యతిరేకంగా హక్కు",
+      "జీవించే హక్కు",
+      "స్వేచ్ఛా హక్కు",
+      "సమానత్వపు హక్కు"
+    ]
   },
   {
     "year": 2018,
@@ -3476,7 +3651,14 @@ const TET_QUESTIONS = [
       "James Bindley",
       "Mathew Boulten"
     ],
-    "correct": 1
+    "correct": 1,
+    "question_te": "ఆవిరి యంత్రాన్ని కనుగొన్నవారు",
+    "options_te": [
+      "జేమ్స్ వాట్",
+      "మెక్ ఆడమ్",
+      "జేమ్స్ బిండ్లీ",
+      "మాథ్యూ బౌల్టన్"
+    ]
   },
   {
     "year": 2018,
@@ -3489,7 +3671,14 @@ const TET_QUESTIONS = [
       "Banking",
       "Accounting"
     ],
-    "correct": 1
+    "correct": 1,
+    "question_te": "ఆర్థిక విషయాలపై జ్ఞానాన్ని, సమాచారాన్ని సమకూర్చుకునే ప్రక్రియ",
+    "options_te": [
+      "ఆర్థిక అక్షరాస్యత",
+      "లెక్కల నిర్వహణ",
+      "బ్యాంకింగ్",
+      "అకౌంటింగ్"
+    ]
   },
   {
     "year": 2018,
@@ -3502,7 +3691,14 @@ const TET_QUESTIONS = [
       "France",
       "Japan"
     ],
-    "correct": 1
+    "correct": 1,
+    "question_te": "ప్రపంచంలో మొట్టమొదటి సహకార సంఘం ఈ దేశంలో స్థాపించబడింది",
+    "options_te": [
+      "ఇంగ్లండ్",
+      "అమెరికా",
+      "ఫ్రాన్స్",
+      "జపాన్"
+    ]
   },
   {
     "year": 2018,
@@ -3515,7 +3711,14 @@ const TET_QUESTIONS = [
       "Sugar industry",
       "Iron and steel industry"
     ],
-    "correct": 1
+    "correct": 1,
+    "question_te": "వ్యవసాయం తర్వాత భారతదేశంలో అత్యధిక ఉపాధిని కల్పించే పరిశ్రమ",
+    "options_te": [
+      "వస్త్ర పరిశ్రమ",
+      "జనుము పరిశ్రమ",
+      "చక్కెర పరిశ్రమ",
+      "ఇనుము ఉక్కు పరిశ్రమ"
+    ]
   },
   {
     "year": 2018,
@@ -3528,7 +3731,14 @@ const TET_QUESTIONS = [
       "Taigas",
       "Thorny bushes"
     ],
-    "correct": 2
+    "correct": 2,
+    "question_te": "సమశీతోష్ణ గడ్డి భూములను ఇలా కూడా అంటారు",
+    "options_te": [
+      "టండ్రాలు",
+      "స్టెప్పీలు",
+      "టైగాలు",
+      "ముళ్ల పొదలు"
+    ]
   },
   {
     "year": 2018,
@@ -3541,7 +3751,14 @@ const TET_QUESTIONS = [
       "Sea cliff",
       "Inselburg"
     ],
-    "correct": 3
+    "correct": 3,
+    "question_te": "సముద్రపు నీటి పైన దాదాపు నిలువుగా లేచి ఉండే నిటారు రాతి తీరాన్ని ఇలా అంటారు",
+    "options_te": [
+      "సముద్ర తోరణాలు",
+      "పుట్టగొడుగు శిల",
+      "సముద్ర ప్రపాతం",
+      "ఇన్సెల్‌బర్గ్"
+    ]
   },
   {
     "year": 2018,
@@ -3554,7 +3771,14 @@ const TET_QUESTIONS = [
       "Mahabharatha ranges",
       "Pir Panjal"
     ],
-    "correct": 1
+    "correct": 1,
+    "question_te": "హిమాలయాలలో అత్యంత ఉత్తర దిక్కున ఉన్న పర్వత శ్రేణి",
+    "options_te": [
+      "హిమాద్రి",
+      "శివాలిక్",
+      "మహాభారత శ్రేణులు",
+      "పీర్ పంజాల్"
+    ]
   },
   {
     "year": 2018,
@@ -3567,7 +3791,14 @@ const TET_QUESTIONS = [
       "Calicut",
       "Rann of Kutch"
     ],
-    "correct": 4
+    "correct": 4,
+    "question_te": "భారతదేశ పశ్చిమ తీరం ఇక్కడి నుండి ప్రారంభమవుతుంది",
+    "options_te": [
+      "ముంబై",
+      "గోవా",
+      "కాలికట్",
+      "కచ్ఛ్ రాన్"
+    ]
   },
   {
     "year": 2018,
@@ -3580,7 +3811,14 @@ const TET_QUESTIONS = [
       "Seasonal employment",
       "Disguised unemployment"
     ],
-    "correct": 2
+    "correct": 2,
+    "question_te": "కార్మికులు తమ సామర్థ్యం కంటే తక్కువగా పనిచేయడాన్ని ఇలా అంటారు",
+    "options_te": [
+      "పూర్తి నిరుద్యోగం",
+      "అల్పోద్యోగం",
+      "కాలానుగుణ ఉద్యోగం",
+      "ప్రచ్ఛన్న నిరుద్యోగం"
+    ]
   },
   {
     "year": 2018,
@@ -3593,7 +3831,14 @@ const TET_QUESTIONS = [
       "1872",
       "1882"
     ],
-    "correct": 3
+    "correct": 3,
+    "question_te": "భారతదేశంలో మొదటి జనగణన ఏ సంవత్సరంలో జరిగింది",
+    "options_te": [
+      "1852",
+      "1862",
+      "1872",
+      "1882"
+    ]
   },
   {
     "year": 2018,
@@ -3606,7 +3851,14 @@ const TET_QUESTIONS = [
       "385",
       "295"
     ],
-    "correct": 2
+    "correct": 2,
+    "question_te": "2011 జనగణన ప్రకారం భారతదేశంలో చదరపు కిలోమీటరుకు జనసాంద్రత",
+    "options_te": [
+      "285",
+      "382",
+      "385",
+      "295"
+    ]
   },
   {
     "year": 2018,
@@ -3619,7 +3871,14 @@ const TET_QUESTIONS = [
       "Delhi",
       "Warsaw"
     ],
-    "correct": 4
+    "correct": 4,
+    "question_te": "2013లో ఐక్యరాజ్యసమితి వాతావరణ మార్పు సదస్సు (COP19) ఇక్కడ జరిగింది",
+    "options_te": [
+      "లండన్",
+      "న్యూయార్క్",
+      "ఢిల్లీ",
+      "వార్సా"
+    ]
   },
   {
     "year": 2018,
@@ -3632,7 +3891,14 @@ const TET_QUESTIONS = [
       "Number of females per every 100 males in cities in the country",
       "Number of females per every 1000 males in the country"
     ],
-    "correct": 4
+    "correct": 4,
+    "question_te": "'లింగ నిష్పత్తి' అంటే",
+    "options_te": [
+      "దేశంలో పురుషులకు స్త్రీల సంఖ్య",
+      "దేశంలోని ప్రతి గ్రామంలో పురుషులకు స్త్రీల సంఖ్య",
+      "దేశంలోని నగరాల్లో ప్రతి 100 మంది పురుషులకు స్త్రీల సంఖ్య",
+      "దేశంలో ప్రతి 1000 మంది పురుషులకు స్త్రీల సంఖ్య"
+    ]
   },
   {
     "year": 2018,
@@ -3645,7 +3911,14 @@ const TET_QUESTIONS = [
       "Bangalore",
       "Trivendram"
     ],
-    "correct": 1
+    "correct": 1,
+    "question_te": "1995లో ఫోర్డ్ మోటార్స్ కంపెనీ భారతదేశంలో తన పెద్ద ప్లాంటును ఇక్కడ ప్రారంభించింది",
+    "options_te": [
+      "చెన్నై",
+      "హైదరాబాద్",
+      "బెంగళూరు",
+      "తిరువనంతపురం"
+    ]
   },
   {
     "year": 2018,
@@ -3658,7 +3931,14 @@ const TET_QUESTIONS = [
       "Delhi",
       "Chennai"
     ],
-    "correct": 3
+    "correct": 3,
+    "question_te": "భారతదేశంలో రెండవ అతిపెద్ద నగరం (2011 జనగణన)",
+    "options_te": [
+      "కోల్‌కతా",
+      "ముంబై",
+      "ఢిల్లీ",
+      "చెన్నై"
+    ]
   },
   {
     "year": 2018,
@@ -3671,7 +3951,14 @@ const TET_QUESTIONS = [
       "Assam",
       "Meghalaya"
     ],
-    "correct": 1
+    "correct": 1,
+    "question_te": "'ఇరోమ్ శర్మిల' ఈ రాష్ట్రానికి చెందినవారు",
+    "options_te": [
+      "మణిపూర్",
+      "నాగాలాండ్",
+      "అస్సాం",
+      "మేఘాలయ"
+    ]
   },
   {
     "year": 2018,
@@ -3684,7 +3971,14 @@ const TET_QUESTIONS = [
       "be doubled",
       "decrease gradually"
     ],
-    "correct": 4
+    "correct": 4,
+    "question_te": "భూమధ్యరేఖ నుండి ధ్రువాల వైపు వెళ్ళే కొద్దీ సగటు వార్షిక ఉష్ణోగ్రత",
+    "options_te": [
+      "నెమ్మదిగా పెరుగుతుంది",
+      "స్థిరంగా ఉంటుంది",
+      "రెట్టింపు అవుతుంది",
+      "క్రమంగా తగ్గుతుంది"
+    ]
   },
   {
     "year": 2018,
@@ -3697,7 +3991,14 @@ const TET_QUESTIONS = [
       "England",
       "America"
     ],
-    "correct": 1
+    "correct": 1,
+    "question_te": "'వాగ్దాన భూమి' అని పిలువబడే దేశం",
+    "options_te": [
+      "పాలస్తీనా",
+      "రష్యా",
+      "ఇంగ్లండ్",
+      "అమెరికా"
+    ]
   },
   {
     "year": 2018,
@@ -3710,7 +4011,14 @@ const TET_QUESTIONS = [
       "Special Environment Zone",
       "Special Enrollment Zone"
     ],
-    "correct": 1
+    "correct": 1,
+    "question_te": "'SEZ' విస్తరణ",
+    "options_te": [
+      "ప్రత్యేక ఆర్థిక మండలి",
+      "ప్రత్యేక విద్యా మండలి",
+      "ప్రత్యేక పర్యావరణ మండలి",
+      "ప్రత్యేక నమోదు మండలి"
+    ]
   },
   {
     "year": 2018,
@@ -3723,7 +4031,14 @@ const TET_QUESTIONS = [
       "Japan",
       "India"
     ],
-    "correct": 2
+    "correct": 2,
+    "question_te": "1929-30 నాటి ఆర్థిక మాంద్యం ప్రభావం ఈ దేశంపై పెద్దగా పడలేదు",
+    "options_te": [
+      "జర్మనీ",
+      "రష్యా",
+      "జపాన్",
+      "భారతదేశం"
+    ]
   },
   {
     "year": 2018,
@@ -3736,7 +4051,14 @@ const TET_QUESTIONS = [
       "Rachel Carson",
       "Anil Agarwal"
     ],
-    "correct": 3
+    "correct": 3,
+    "question_te": "'సైలెంట్ స్ప్రింగ్' పుస్తక రచయిత",
+    "options_te": [
+      "జేమ్స్ హక్",
+      "ఆడమ్ స్మిత్",
+      "రాచెల్ కార్సన్",
+      "అనిల్ అగర్వాల్"
+    ]
   },
   {
     "year": 2018,
@@ -3749,7 +4071,14 @@ const TET_QUESTIONS = [
       "Churchill",
       "Bismarck"
     ],
-    "correct": 1
+    "correct": 1,
+    "question_te": "నాజీ పార్టీ స్థాపకుడు",
+    "options_te": [
+      "హిట్లర్",
+      "ముస్సోలిని",
+      "చర్చిల్",
+      "బిస్మార్క్"
+    ]
   },
   {
     "year": 2018,
@@ -3762,7 +4091,14 @@ const TET_QUESTIONS = [
       "1954 - 55",
       "1947 - 48"
     ],
-    "correct": 1
+    "correct": 1,
+    "question_te": "లోక్‌సభకు మొదటి ఎన్నికలు ఈ సంవత్సరంలో జరిగాయి",
+    "options_te": [
+      "1951 - 52",
+      "1952 - 53",
+      "1954 - 55",
+      "1947 - 48"
+    ]
   },
   {
     "year": 2018,
@@ -3775,7 +4111,14 @@ const TET_QUESTIONS = [
       "Social value, Moral value",
       "Moral value, Political value"
     ],
-    "correct": 2
+    "correct": 2,
+    "question_te": "'ఆచారాలు, సంప్రదాయాల పరిరక్షణ' మరియు 'సమానత్వం' వరుసగా ఈ రకాల విలువలకు ఉదాహరణలు",
+    "options_te": [
+      "క్రమశిక్షణా విలువ, సాంస్కృతిక విలువ",
+      "సాంస్కృతిక విలువ, ప్రజాస్వామిక విలువ",
+      "సామాజిక విలువ, నైతిక విలువ",
+      "నైతిక విలువ, రాజకీయ విలువ"
+    ]
   },
   {
     "year": 2018,
@@ -3788,7 +4131,14 @@ const TET_QUESTIONS = [
       "Application, Skill",
       "Creativity, Understanding"
     ],
-    "correct": 1
+    "correct": 1,
+    "question_te": "'పరిశుభ్రత-పచ్చదనంపై కరపత్రం తయారు చేయడం' మరియు 'జాతీయ చిహ్నాలపై గౌరవం' వరుసగా ఈ లక్ష్యాలకు విశదీకరణలు",
+    "options_te": [
+      "అభిరుచి, వైఖరి",
+      "జ్ఞానం, అనువర్తనం",
+      "అనువర్తనం, నైపుణ్యం",
+      "సృజనాత్మకత, అవగాహన"
+    ]
   },
   {
     "year": 2018,
@@ -3801,7 +4151,14 @@ const TET_QUESTIONS = [
       "Skill",
       "Understanding"
     ],
-    "correct": 3
+    "correct": 3,
+    "question_te": "విద్యార్థి వార్తాపత్రికలు, పత్రికలు, ఇతర గ్రంథాలయ సామగ్రి వంటి వివిధ సమాచార వనరులను ఉపయోగించి ఆల్బమ్ తయారు చేయగలగడం ఈ లక్ష్యానికి సంబంధించినది",
+    "options_te": [
+      "ప్రశంస",
+      "జ్ఞానం",
+      "నైపుణ్యం",
+      "అవగాహన"
+    ]
   },
   {
     "year": 2018,
@@ -3814,7 +4171,14 @@ const TET_QUESTIONS = [
       "Conformity with the values enshrined in the constitution",
       "Development of physical and mental abilities of the child to the fullest extent"
     ],
-    "correct": 3
+    "correct": 3,
+    "question_te": "RTE చట్టం-2009లోని సెక్షన్ 29(2)(a) ప్రకారం, పాఠ్యప్రణాళికను రూపొందించేటప్పుడు విద్యా సంస్థ ఈ విషయాన్ని పరిగణనలోకి తీసుకోవాలి",
+    "options_te": [
+      "బాలుని సర్వతోముఖాభివృద్ధి",
+      "బాలుని జ్ఞానం, సామర్థ్యం, ప్రతిభను పెంపొందించడం",
+      "రాజ్యాంగంలో పొందుపరచిన విలువలకు అనుగుణంగా ఉండటం",
+      "బాలుని శారీరక, మానసిక సామర్థ్యాలను పూర్తి స్థాయిలో అభివృద్ధి చేయడం"
+    ]
   },
   {
     "year": 2018,
@@ -3827,7 +4191,14 @@ const TET_QUESTIONS = [
       "The term Civics should be used in place of Political Science",
       "The term Political Science should be used in place of Civics"
     ],
-    "correct": 4
+    "correct": 4,
+    "question_te": "జాతీయ పాఠ్యప్రణాళికా చట్రం (NCF) – 2005 ఈ విషయాన్ని సూచించింది",
+    "options_te": [
+      "'సాంఘిక శాస్త్రం' స్థానంలో 'సోషియాలజీ' పదాన్ని ఉపయోగించాలి",
+      "'సోషియాలజీ' స్థానంలో 'సాంఘిక శాస్త్రం' పదాన్ని ఉపయోగించాలి",
+      "'పొలిటికల్ సైన్స్' స్థానంలో 'పౌరశాస్త్రం' పదాన్ని ఉపయోగించాలి",
+      "'పౌరశాస్త్రం' స్థానంలో 'పొలిటికల్ సైన్స్' పదాన్ని ఉపయోగించాలి"
+    ]
   },
   {
     "year": 2018,
@@ -3840,7 +4211,14 @@ const TET_QUESTIONS = [
       "Syllabus includes the content of what is to be taught",
       "Curriculum is the plan for the implementation of educational aims"
     ],
-    "correct": 2
+    "correct": 2,
+    "question_te": "కింది వాక్యాలలో ఒకటి సత్యం కాదు",
+    "options_te": [
+      "పాఠ్యప్రణాళిక ఒక కోర్సు అధ్యయనానికి ఆధారం ఇస్తుంది",
+      "పాఠ్యప్రణాళిక అనేది సిలబస్‌లో ఒక భాగం",
+      "సిలబస్‌లో బోధించవలసిన విషయ సారాంశం ఉంటుంది",
+      "పాఠ్యప్రణాళిక అనేది విద్యా లక్ష్యాల అమలుకు ప్రణాళిక"
+    ]
   },
   {
     "year": 2018,
@@ -3853,7 +4231,14 @@ const TET_QUESTIONS = [
       "Vicarious experience",
       "Both direct and indirect experiences"
     ],
-    "correct": 1
+    "correct": 1,
+    "question_te": "ఒక సాంఘిక శాస్త్ర ఉపాధ్యాయుడు 9వ తరగతి విద్యార్థుల కోసం తలకోన జలపాతానికి క్షేత్ర పర్యటన నిర్వహించారు. ఇది ఈ రకమైన అభ్యసన అనుభవం కిందకు వస్తుంది",
+    "options_te": [
+      "ప్రత్యక్ష అనుభవం",
+      "పరోక్ష అనుభవం",
+      "ప్రతినిధిక అనుభవం",
+      "ప్రత్యక్ష మరియు పరోక్ష అనుభవాలు రెండూ"
+    ]
   },
   {
     "year": 2018,
@@ -3866,7 +4251,14 @@ const TET_QUESTIONS = [
       "Secondary Education Commission",
       "NPE - 1986"
     ],
-    "correct": 2
+    "correct": 2,
+    "question_te": "'భారం లేని విద్య' (Learning without Burden) సిఫారసు చేసినవారు",
+    "options_te": [
+      "కొఠారి కమిషన్",
+      "ప్రొ. యశ్‌పాల్ కమిటీ",
+      "మాధ్యమిక విద్యా కమిషన్",
+      "జాతీయ విద్యా విధానం - 1986"
+    ]
   },
   {
     "year": 2018,
@@ -3879,7 +4271,14 @@ const TET_QUESTIONS = [
       "Jerome Bruner, Albert Bandura",
       "Albert Bandura, Jerome Bruner"
     ],
-    "correct": 4
+    "correct": 4,
+    "question_te": "సాంఘిక అభ్యసనం మరియు అన్వేషణ అభ్యసనం వరుసగా వీరికి సంబంధించినవి",
+    "options_te": [
+      "అల్బర్ట్ బండూరా, పియాజే",
+      "జెరోమ్ బ్రూనర్, జాన్ డ్యూయీ",
+      "జెరోమ్ బ్రూనర్, అల్బర్ట్ బండూరా",
+      "అల్బర్ట్ బండూరా, జెరోమ్ బ్రూనర్"
+    ]
   },
   {
     "year": 2018,
@@ -3892,7 +4291,14 @@ const TET_QUESTIONS = [
       "Solitary play",
       "Watching T.V."
     ],
-    "correct": 2
+    "correct": 2,
+    "question_te": "కింది వాటిలో సహకార అభ్యసనానికి సంబంధించినది",
+    "options_te": [
+      "ఇంటిపని చేయడం",
+      "అన్వేషణ ద్వారా నేర్చుకోవడం",
+      "ఒంటరిగా ఆడుకోవడం",
+      "టీవీ చూడటం"
+    ]
   },
   {
     "year": 2018,
@@ -3905,7 +4311,14 @@ const TET_QUESTIONS = [
       "B & C only",
       "A & B only"
     ],
-    "correct": 3
+    "correct": 3,
+    "question_te": "కింది వాక్యాలలో ఏవి సత్యమైనవి?\nA. 'పరీక్ష' మరియు 'కొలత' అనే పదాలు రెండూ పర్యాయపదాలు.\nB. పరీక్షకు, కొలతకు మధ్య తేడా ఉంది.\nC. పరీక్షించే పని పూర్తయిన తర్వాత, ఫలితాలకు సంఖ్యా విలువలు కేటాయించడానికి కొలత ప్రక్రియ మొదలవుతుంది.",
+    "options_te": [
+      "A, B & C",
+      "A & C మాత్రమే",
+      "B & C మాత్రమే",
+      "A & B మాత్రమే"
+    ]
   },
   {
     "year": 2018,
@@ -3918,7 +4331,14 @@ const TET_QUESTIONS = [
       "Both Historical resources",
       "Both Economic resources"
     ],
-    "correct": 1
+    "correct": 1,
+    "question_te": "'గురుద్వారా' మరియు 'ఇటుక బట్టీలు' వరుసగా",
+    "options_te": [
+      "చారిత్రక వనరులు, ఆర్థిక వనరులు",
+      "ఆర్థిక వనరులు, చారిత్రక వనరులు",
+      "రెండూ చారిత్రక వనరులు",
+      "రెండూ ఆర్థిక వనరులు"
+    ]
   },
   {
     "year": 2018,
@@ -3931,7 +4351,14 @@ const TET_QUESTIONS = [
       "3",
       "20"
     ],
-    "correct": 3
+    "correct": 3,
+    "question_te": "A, B అనేవి వియుక్త సమితులు, n(A) = 4 మరియు n(A ∪ B) = 7 అయితే, n(B) విలువ",
+    "options_te": [
+      "4",
+      "11",
+      "3",
+      "20"
+    ]
   },
   {
     "year": 2018,
@@ -3944,7 +4371,14 @@ const TET_QUESTIONS = [
       "7",
       "8"
     ],
-    "correct": 1
+    "correct": 1,
+    "question_te": "2 log(x + 3) = log 81 అయితే, x విలువ",
+    "options_te": [
+      "6",
+      "5",
+      "7",
+      "8"
+    ]
   },
   {
     "year": 2018,
@@ -3957,7 +4391,14 @@ const TET_QUESTIONS = [
       "0.3535",
       "0.2525"
     ],
-    "correct": 3
+    "correct": 3,
+    "question_te": "√2 = 1.414 అయితే, 1/(2√2) విలువ",
+    "options_te": [
+      "0.0352",
+      "3.541",
+      "0.3535",
+      "0.2525"
+    ]
   },
   {
     "year": 2018,
@@ -3970,7 +4411,14 @@ const TET_QUESTIONS = [
       "-5/2",
       "–1"
     ],
-    "correct": 3
+    "correct": 3,
+    "question_te": "2x² + Kx – 15 అనే వర్గ బహుపదికి ఒక శూన్యవిలువ 3 అయితే, రెండవ శూన్యవిలువ:",
+    "options_te": [
+      "15/2",
+      "5",
+      "-5/2",
+      "–1"
+    ]
   },
   {
     "year": 2018,
@@ -3983,7 +4431,14 @@ const TET_QUESTIONS = [
       "Coincident lines",
       "Perpendicular lines"
     ],
-    "correct": 3
+    "correct": 3,
+    "question_te": "a₁x + b₁y + c₁ = 0 మరియు a₂x + b₂y + c₂ = 0 అనేవి రెండు రేఖలు. a₁/a₂ = b₁/b₂ = c₁/c₂ అయితే, ఆ రేఖలు",
+    "options_te": [
+      "ఖండన రేఖలు",
+      "సమాంతర రేఖలు",
+      "సంపాతన రేఖలు",
+      "లంబ రేఖలు"
+    ]
   },
   {
     "year": 2018,
@@ -3996,7 +4451,14 @@ const TET_QUESTIONS = [
       "35",
       "43"
     ],
-    "correct": 2
+    "correct": 2,
+    "question_te": "ఒక చతురస్రం వైశాల్యం 4489 చ.సెం.మీ అయితే, దాని భుజం పొడవు (సెం.మీలలో)",
+    "options_te": [
+      "57",
+      "67",
+      "35",
+      "43"
+    ]
   },
   {
     "year": 2018,
@@ -4009,7 +4471,14 @@ const TET_QUESTIONS = [
       "17",
       "18"
     ],
-    "correct": 4
+    "correct": 4,
+    "question_te": "10, 12, 14, x–3, x, x+2, 25 అనే సంఖ్యలు ఆరోహణ క్రమంలో ఉన్నాయి. మధ్యగతం (మీడియన్) 15 అయితే, x విలువ",
+    "options_te": [
+      "16",
+      "15",
+      "17",
+      "18"
+    ]
   },
   {
     "year": 2018,
@@ -4022,7 +4491,14 @@ const TET_QUESTIONS = [
       "15x² – 4y² + 12xy",
       "–15x² + 4y² + 2xy"
     ],
-    "correct": 2
+    "correct": 2,
+    "question_te": "A = 4x² + y² – 6xy మరియు B = 3y² + 12x² – 2xy అయితే, 2A + B విలువ",
+    "options_te": [
+      "20x² – 5y² – 14xy",
+      "20x² + 5y² – 14xy",
+      "15x² – 4y² + 12xy",
+      "–15x² + 4y² + 2xy"
+    ]
   },
   {
     "year": 2018,
@@ -4035,7 +4511,14 @@ const TET_QUESTIONS = [
       "43",
       "73"
     ],
-    "correct": 4
+    "correct": 4,
+    "question_te": "రెండు సంపూరక కోణాల భేదం 34° అయితే, చిన్న కోణం (డిగ్రీలలో)",
+    "options_te": [
+      "63",
+      "53",
+      "43",
+      "73"
+    ]
   },
   {
     "year": 2018,
@@ -4048,7 +4531,14 @@ const TET_QUESTIONS = [
       "50",
       "58"
     ],
-    "correct": 3
+    "correct": 3,
+    "question_te": "ఒక త్రిభుజంలో ఒక బాహ్య కోణం 125° మరియు దానికి ఎదురుగా ఉన్న అంతర కోణాల నిష్పత్తి 2 : 3. ఆ అంతర కోణాలలో ఒకటి (డిగ్రీలలో)",
+    "options_te": [
+      "38",
+      "48",
+      "50",
+      "58"
+    ]
   },
   {
     "year": 2018,
@@ -4061,7 +4551,14 @@ const TET_QUESTIONS = [
       "13/5",
       "5/12"
     ],
-    "correct": 2
+    "correct": 2,
+    "question_te": "Cos A = 12/13 అయితే, Sin A విలువ",
+    "options_te": [
+      "12/13",
+      "5/13",
+      "13/5",
+      "5/12"
+    ]
   },
   {
     "year": 2018,
@@ -4074,7 +4571,14 @@ const TET_QUESTIONS = [
       "2/5",
       "1/2"
     ],
-    "correct": 4
+    "correct": 4,
+    "question_te": "ఒక పాచికను దొర్లించినప్పుడు, సరి సంఖ్య వచ్చే సంభావ్యత",
+    "options_te": [
+      "1/6",
+      "1/3",
+      "2/5",
+      "1/2"
+    ]
   },
   {
     "year": 2018,
@@ -4087,7 +4591,14 @@ const TET_QUESTIONS = [
       "3",
       "4"
     ],
-    "correct": 2
+    "correct": 2,
+    "question_te": "(–4, a) మరియు (2, 8) బిందువులను కలిపే రేఖాఖండపు మధ్య బిందువు (–1, 5) అయితే, 'a' విలువ",
+    "options_te": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ]
   },
   {
     "year": 2018,
@@ -4100,7 +4611,14 @@ const TET_QUESTIONS = [
       "2",
       "–2"
     ],
-    "correct": 3
+    "correct": 3,
+    "question_te": "(t, 2t), (–2, 6), (3, 1) శీర్షాలుగా గల త్రిభుజ వైశాల్యం 5 చదరపు యూనిట్లు. 't' విలువ",
+    "options_te": [
+      "1/2",
+      "–1/2",
+      "2",
+      "–2"
+    ]
   },
   {
     "year": 2018,
@@ -4113,7 +4631,14 @@ const TET_QUESTIONS = [
       "95",
       "100"
     ],
-    "correct": 4
+    "correct": 4,
+    "question_te": "ఒక చతుర్భుజంలో మూడు కోణాలు 60°, 80° మరియు 120° అయితే, నాలుగవ కోణం (డిగ్రీలలో)",
+    "options_te": [
+      "80",
+      "90",
+      "95",
+      "100"
+    ]
   },
   {
     "year": 2018,
@@ -4126,7 +4651,14 @@ const TET_QUESTIONS = [
       "2",
       "3"
     ],
-    "correct": 1
+    "correct": 1,
+    "question_te": "ఒక గుణ శ్రేఢిలో 8వ పదం 192, సామాన్య నిష్పత్తి 2. మొదటి పదం",
+    "options_te": [
+      "3/2",
+      "1/2",
+      "2",
+      "3"
+    ]
   },
   {
     "year": 2018,
@@ -4139,7 +4671,14 @@ const TET_QUESTIONS = [
       "1",
       "0"
     ],
-    "correct": 3
+    "correct": 3,
+    "question_te": "ఒక అంక శ్రేఢిలో 17వ పదం, 10వ పదం కంటే 7 ఎక్కువగా ఉంటే, సామాన్య భేదం",
+    "options_te": [
+      "4",
+      "3",
+      "1",
+      "0"
+    ]
   },
   {
     "year": 2018,
@@ -4152,7 +4691,14 @@ const TET_QUESTIONS = [
       "0",
       "15"
     ],
-    "correct": 1
+    "correct": 1,
+    "question_te": "2x² – 4x + 3 = 0 అనే వర్గ సమీకరణం విభేదకం (డిస్క్రిమినెంట్)",
+    "options_te": [
+      "–8",
+      "8",
+      "0",
+      "15"
+    ]
   },
   {
     "year": 2018,
@@ -4165,7 +4711,14 @@ const TET_QUESTIONS = [
       "900",
       "890"
     ],
-    "correct": 3
+    "correct": 3,
+    "question_te": "ఒక దీర్ఘఘనం పొడవు, వెడల్పు, ఎత్తు వరుసగా 15సెం.మీ, 12సెం.మీ, 10సెం.మీ. దాని పూర్తి తలవైశాల్యం (చ.సెం.మీలలో)",
+    "options_te": [
+      "700",
+      "800",
+      "900",
+      "890"
+    ]
   },
   {
     "year": 2018,
@@ -4178,7 +4731,14 @@ const TET_QUESTIONS = [
       "325",
       "175"
     ],
-    "correct": 1
+    "correct": 1,
+    "question_te": "72, 252ల గ.సా.భా (G.C.D) 36. వాటి క.సా.గు (L.C.M)",
+    "options_te": [
+      "504",
+      "504",
+      "325",
+      "175"
+    ]
   },
   {
     "year": 2018,
@@ -4191,7 +4751,14 @@ const TET_QUESTIONS = [
       "1",
       "–1"
     ],
-    "correct": 3
+    "correct": 3,
+    "question_te": "(2, 5) మరియు (x, 3) బిందువులను కలిపే రేఖ వాలు –2 అయితే, x విలువ",
+    "options_te": [
+      "3",
+      "2",
+      "1",
+      "–1"
+    ]
   },
   {
     "year": 2018,
@@ -4204,7 +4771,14 @@ const TET_QUESTIONS = [
       "10.2",
       "4.5"
     ],
-    "correct": 2
+    "correct": 2,
+    "question_te": "△ABC ~ △DEF మరియు వాటి వైశాల్యాలు వరుసగా 64 చ.సెం.మీ మరియు 121 చ.సెం.మీ. EF = 15.4 సెం.మీ అయితే, BC విలువ (సెం.మీలలో)",
+    "options_te": [
+      "12.2",
+      "11.2",
+      "10.2",
+      "4.5"
+    ]
   },
   {
     "year": 2018,
@@ -4217,7 +4791,14 @@ const TET_QUESTIONS = [
       "Understanding",
       "Knowledge"
     ],
-    "correct": 3
+    "correct": 3,
+    "question_te": "గణిత బోధనలో \"అనువదిస్తాడు\" (Translates) అనే విశదీకరణ ఈ బోధనా లక్ష్యానికి చెందినది",
+    "options_te": [
+      "నైపుణ్యం",
+      "అనువర్తనం",
+      "అవగాహన",
+      "జ్ఞానం"
+    ]
   },
   {
     "year": 2018,
@@ -4230,7 +4811,14 @@ const TET_QUESTIONS = [
       "Concrete to Abstract",
       "Example to Principle"
     ],
-    "correct": 1
+    "correct": 1,
+    "question_te": "గణిత బోధనలో \"సంశ్లేషణ పద్ధతి\" (Synthetic Method) యొక్క లక్షణం",
+    "options_te": [
+      "పరికల్పన నుండి నిర్ధారణకు",
+      "విశిష్టం నుండి సాధారణానికి",
+      "మూర్త నుండి అమూర్తానికి",
+      "ఉదాహరణ నుండి సూత్రానికి"
+    ]
   },
   {
     "year": 2018,
@@ -4243,7 +4831,14 @@ const TET_QUESTIONS = [
       "Association",
       "Preparation"
     ],
-    "correct": 4
+    "correct": 4,
+    "question_te": "\"హెర్బార్టియన్ పద్ధతి\" ప్రకారం పాఠ్య ప్రణాళికలో మొదటి సోపానం",
+    "options_te": [
+      "ప్రదర్శన",
+      "అనువర్తనం",
+      "అనుసంధానం",
+      "సంసిద్ధత"
+    ]
   },
   {
     "year": 2018,
@@ -4256,7 +4851,14 @@ const TET_QUESTIONS = [
       "It depends mostly on the memory of the students",
       "It enhances speed and accuracy"
     ],
-    "correct": 3
+    "correct": 3,
+    "question_te": "గణిత బోధనలో మౌఖిక పని (Oral work) యొక్క ఒక లోపం",
+    "options_te": [
+      "విద్యార్థుల పూర్వ జ్ఞానాన్ని పరీక్షించవచ్చు",
+      "విద్యార్థుల ఉచ్ఛారణ దోషాలను సరిదిద్దుతుంది",
+      "ఇది ఎక్కువగా విద్యార్థుల జ్ఞాపకశక్తిపై ఆధారపడుతుంది",
+      "వేగం మరియు కచ్చితత్వాన్ని పెంచుతుంది"
+    ]
   },
   {
     "year": 2018,
@@ -4269,7 +4871,14 @@ const TET_QUESTIONS = [
       "Connection",
       "Reasoning – Proof"
     ],
-    "correct": 2
+    "correct": 2,
+    "question_te": "\"దశాంశ సంఖ్య 303.03ను విస్తరణ రూపంలో రాయండి\" అనే పరీక్షా అంశం ద్వారా పరీక్షించే విద్యా ప్రమాణం",
+    "options_te": [
+      "నిరూపణ – దృశ్యీకరణ",
+      "భావ ప్రసార నైపుణ్యం",
+      "సంధానం",
+      "తార్కికం – నిరూపణ"
+    ]
   },
   {
     "year": 2018,
@@ -4282,7 +4891,14 @@ const TET_QUESTIONS = [
       "Ring magnet",
       "Load stone"
     ],
-    "correct": 4
+    "correct": 4,
+    "question_te": "కింది వాటిలో సహజ అయస్కాంతం",
+    "options_te": [
+      "కడ్డీ అయస్కాంతం",
+      "గుర్రపునాడ అయస్కాంతం",
+      "వలయ అయస్కాంతం",
+      "లోడ్‌స్టోన్ (సహజ అయస్కాంత శిల)"
+    ]
   },
   {
     "year": 2018,
@@ -4295,7 +4911,14 @@ const TET_QUESTIONS = [
       "0.2",
       "10"
     ],
-    "correct": 2
+    "correct": 2,
+    "question_te": "సెల్సియస్ స్కేల్ థర్మామీటర్‌లో ప్రతి విభాగం విలువ (°C లలో)",
+    "options_te": [
+      "1",
+      "0.1",
+      "0.2",
+      "10"
+    ]
   },
   {
     "year": 2018,
@@ -4308,7 +4931,14 @@ const TET_QUESTIONS = [
       "Venus, Uranus",
       "Uranus, Neptune"
     ],
-    "correct": 3
+    "correct": 3,
+    "question_te": "తూర్పు నుండి పడమరకు తిరిగే గ్రహాలు",
+    "options_te": [
+      "భూమి, బుధుడు",
+      "భూమి, శుక్రుడు",
+      "శుక్రుడు, యురేనస్",
+      "యురేనస్, నెప్ట్యూన్"
+    ]
   },
   {
     "year": 2018,
@@ -4321,7 +4951,14 @@ const TET_QUESTIONS = [
       "a stretched rubber band",
       "flowing water"
     ],
-    "correct": 3
+    "correct": 3,
+    "question_te": "కేవలం స్థితిజ శక్తి మాత్రమే ఉండి, గతిజ శక్తి లేని పరిస్థితి",
+    "options_te": [
+      "ఎగురుతున్న విమానం",
+      "దొర్లుతున్న రాయి",
+      "సాగదీసిన రబ్బరు బ్యాండ్",
+      "ప్రవహిస్తున్న నీరు"
+    ]
   },
   {
     "year": 2018,
@@ -4334,7 +4971,14 @@ const TET_QUESTIONS = [
       "45",
       "60"
     ],
-    "correct": 2
+    "correct": 2,
+    "question_te": "గాలికి సంబంధించి గాజు వక్రీభవన గుణకం 2. గాజు-గాలి అంతరతలం వద్ద క్రాంతికోణం (డిగ్రీలలో)",
+    "options_te": [
+      "0",
+      "30",
+      "45",
+      "60"
+    ]
   },
   {
     "year": 2018,
@@ -4347,7 +4991,14 @@ const TET_QUESTIONS = [
       "1 Ampere",
       "1 Ohm"
     ],
-    "correct": 2
+    "correct": 2,
+    "question_te": "జౌల్/కూలంబ్ దీనికి సమానం",
+    "options_te": [
+      "1 వాట్",
+      "1 వోల్ట్",
+      "1 ఆంపియర్",
+      "1 ఓమ్"
+    ]
   },
   {
     "year": 2018,
@@ -4360,7 +5011,14 @@ const TET_QUESTIONS = [
       "Yellow",
       "Colourless"
     ],
-    "correct": 4
+    "correct": 4,
+    "question_te": "ఆమ్ల మాధ్యమంలో ఫినాఫ్తలీన్ సూచిక రంగు",
+    "options_te": [
+      "ఎరుపు",
+      "గులాబీ",
+      "పసుపు",
+      "రంగులేనిది"
+    ]
   },
   {
     "year": 2018,
@@ -4373,7 +5031,14 @@ const TET_QUESTIONS = [
       "Amphoteric",
       "Neutral"
     ],
-    "correct": 1
+    "correct": 1,
+    "question_te": "అలోహ ఆక్సైడ్ యొక్క రసాయన స్వభావం",
+    "options_te": [
+      "ఆమ్ల స్వభావం",
+      "క్షార స్వభావం",
+      "ఉభయస్వభావ",
+      "తటస్థ"
+    ]
   },
   {
     "year": 2018,
@@ -4386,7 +5051,14 @@ const TET_QUESTIONS = [
       "Hydrogen sulphide",
       "Hydrogen"
     ],
-    "correct": 3
+    "correct": 3,
+    "question_te": "కుళ్ళిన గుడ్డు వాసన కలిగిన వాయువు",
+    "options_te": [
+      "కార్బన్ డయాక్సైడ్",
+      "కార్బన్ మోనాక్సైడ్",
+      "హైడ్రోజన్ సల్ఫైడ్",
+      "హైడ్రోజన్"
+    ]
   },
   {
     "year": 2018,
@@ -4399,7 +5071,14 @@ const TET_QUESTIONS = [
       "Nickel",
       "Zinc"
     ],
-    "correct": 4
+    "correct": 4,
+    "question_te": "గాల్వనైజేషన్‌లో ఇనుముపై పూత వేసే పదార్థం",
+    "options_te": [
+      "తగరం",
+      "క్రోమియం",
+      "నికెల్",
+      "జింక్"
+    ]
   },
   {
     "year": 2018,
@@ -4412,7 +5091,14 @@ const TET_QUESTIONS = [
       "Petrochemicals",
       "Wood"
     ],
-    "correct": 3
+    "correct": 3,
+    "question_te": "ప్లాస్టిక్‌లు వీటి నుండి తయారవుతాయి",
+    "options_te": [
+      "గాజు",
+      "లోహాలు",
+      "పెట్రో రసాయనాలు",
+      "కర్ర"
+    ]
   },
   {
     "year": 2018,
@@ -4425,7 +5111,14 @@ const TET_QUESTIONS = [
       "Miscible mixture",
       "Immiscible mixture"
     ],
-    "correct": 4
+    "correct": 4,
+    "question_te": "నీరు మరియు డీజిల్ మిశ్రమం దీనికి ఉదాహరణ",
+    "options_te": [
+      "కొల్లాయిడల్ ద్రావణం",
+      "నిజ ద్రావణం",
+      "మిశ్రణీయ మిశ్రమం",
+      "అమిశ్రణీయ మిశ్రమం"
+    ]
   },
   {
     "year": 2018,
@@ -4438,7 +5131,14 @@ const TET_QUESTIONS = [
       "Soldier ants",
       "Drones"
     ],
-    "correct": 1
+    "correct": 1,
+    "question_te": "'తేనె స్రావం' (Honeydew) పొందడానికి చీమలు పెంచే కీటకం",
+    "options_te": [
+      "ఆఫిడ్స్",
+      "తేనెటీగలు",
+      "సైనిక చీమలు",
+      "డ్రోన్లు"
+    ]
   },
   {
     "year": 2018,
@@ -4451,7 +5151,14 @@ const TET_QUESTIONS = [
       "Pivot Joint",
       "Ball and Socket Joint"
     ],
-    "correct": 2
+    "correct": 2,
+    "question_te": "పై దవడకు, తల మిగతా భాగానికి మధ్య ఉండే కీలు",
+    "options_te": [
+      "కీలుకీలు (హింజ్ కీలు)",
+      "స్థిర కీలు",
+      "ధురా కీలు",
+      "బంతి-గిన్నె కీలు"
+    ]
   },
   {
     "year": 2018,
@@ -4464,7 +5171,14 @@ const TET_QUESTIONS = [
       "Pear",
       "Sugarcane"
     ],
-    "correct": 4
+    "correct": 4,
+    "question_te": "కింది వాటిలో భారతదేశ స్థానిక పంట",
+    "options_te": [
+      "టమాటా",
+      "కాలిఫ్లవర్",
+      "బేరిపండు",
+      "చెరకు"
+    ]
   },
   {
     "year": 2018,
@@ -4477,7 +5191,14 @@ const TET_QUESTIONS = [
       "Stifling",
       "Stalking"
     ],
-    "correct": 3
+    "correct": 3,
+    "question_te": "పట్టు నూలు తీయడానికి ముందు గూడులో ఉన్న లార్వాలను చంపే ప్రక్రియ",
+    "options_te": [
+      "స్టఫింగ్",
+      "సీలింగ్",
+      "స్టిఫ్లింగ్ (ఊపిరాడకుండా చేయడం)",
+      "స్టాకింగ్"
+    ]
   },
   {
     "year": 2018,
@@ -4490,7 +5211,14 @@ const TET_QUESTIONS = [
       "Felice Fontana",
       "Jan Swammerdam"
     ],
-    "correct": 2
+    "correct": 2,
+    "question_te": "\"కేంద్రకం కణంలో అంతర్భాగం\" అని పేర్కొన్నవారు",
+    "options_te": [
+      "రాబర్ట్ హుక్",
+      "రాబర్ట్ బ్రౌన్",
+      "ఫెలిస్ ఫొంటానా",
+      "జాన్ స్వామర్‌డామ్"
+    ]
   },
   {
     "year": 2018,
@@ -4503,7 +5231,14 @@ const TET_QUESTIONS = [
       "Uterine cancer",
       "Hepatitis - D"
     ],
-    "correct": 1
+    "correct": 1,
+    "question_te": "'హెలికోబాక్టర్ పైలోరీ' దీనికి కారణమవుతుంది",
+    "options_te": [
+      "పెప్టిక్ అల్సర్",
+      "కామెర్లు",
+      "గర్భాశయ క్యాన్సర్",
+      "హెపటైటిస్ - D"
+    ]
   },
   {
     "year": 2018,
@@ -4516,7 +5251,14 @@ const TET_QUESTIONS = [
       "Methanation",
       "Eutrophication"
     ],
-    "correct": 2
+    "correct": 2,
+    "question_te": "వ్యర్థ పదార్థాలను దహనం చేయడానికి ప్రత్యామ్నాయ పద్ధతి",
+    "options_te": [
+      "జలవిశ్లేషణ",
+      "పైరోలిసిస్ (ఉష్ణ విశ్లేషణ)",
+      "మిథనేషన్",
+      "యూట్రోఫికేషన్"
+    ]
   },
   {
     "year": 2018,
@@ -4529,7 +5271,14 @@ const TET_QUESTIONS = [
       "Virus and Algae",
       "Bacteria and Virus"
     ],
-    "correct": 2
+    "correct": 2,
+    "question_te": "'లైకెన్లు' వీటి సముదాయాలు",
+    "options_te": [
+      "బాక్టీరియా మరియు శిలీంధ్రాలు",
+      "శైవలాలు మరియు శిలీంధ్రాలు",
+      "వైరస్ మరియు శైవలాలు",
+      "బాక్టీరియా మరియు వైరస్"
+    ]
   },
   {
     "year": 2018,
@@ -4542,7 +5291,14 @@ const TET_QUESTIONS = [
       "Foliate papillae",
       "Filiform papillae"
     ],
-    "correct": 4
+    "correct": 4,
+    "question_te": "కింది వాటిలో రుచి గ్రహణ స్థానం కానిది",
+    "options_te": [
+      "ఫంగిఫాం పాపిల్లే",
+      "సర్క్యుమ్‌వాలేట్ పాపిల్లే",
+      "ఫోలియేట్ పాపిల్లే",
+      "ఫిలిఫాం పాపిల్లే"
+    ]
   },
   {
     "year": 2018,
@@ -4555,7 +5311,14 @@ const TET_QUESTIONS = [
       "B1 – Biotin",
       "E – Phylloquinone"
     ],
-    "correct": 2
+    "correct": 2,
+    "question_te": "విటమిన్‌కు, దాని రసాయన నామానికి సరైన జోడీ",
+    "options_te": [
+      "A – ఆస్కార్బిక్ ఆమ్లం",
+      "D – కాల్సిఫెరాల్",
+      "B1 – బయోటిన్",
+      "E – ఫైలోక్వినోన్"
+    ]
   },
   {
     "year": 2018,
@@ -4568,7 +5331,14 @@ const TET_QUESTIONS = [
       "Pyrithroid",
       "Caffeine"
     ],
-    "correct": 3
+    "correct": 3,
+    "question_te": "క్రిమిసంహారకంగా పనిచేసే ఆల్కలాయిడ్ ఆధారిత సమ్మేళనం",
+    "options_te": [
+      "స్కోపొలమైన్",
+      "రెసర్పైన్",
+      "పైరిత్రాయిడ్",
+      "కెఫిన్"
+    ]
   },
   {
     "year": 2018,
@@ -4581,7 +5351,14 @@ const TET_QUESTIONS = [
       "1, 2, 3",
       "4, 1, 2"
     ],
-    "correct": 2
+    "correct": 2,
+    "question_te": "చాలా పుష్పించే మొక్కల భ్రూణ కోశంలో సినర్జిడ్‌లు, ప్రతిధృవ కణాలు (యాంటిపోడల్స్), అండ కణాల సంఖ్య వరుసగా",
+    "options_te": [
+      "3, 2, 2",
+      "2, 3, 1",
+      "1, 2, 3",
+      "4, 1, 2"
+    ]
   }
 ];
 
@@ -4616,6 +5393,7 @@ function seedTetQuestions() {
 
 function seed() {
   db.exec(`
+    DELETE FROM tet_mock_attempts;
     DELETE FROM fee_history;
     DELETE FROM fees;
     DELETE FROM attendance;
