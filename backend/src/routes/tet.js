@@ -9,8 +9,15 @@ const id = () => crypto.randomUUID();
 // Read-only reference material — any logged-in user (teacher or parent) can
 // browse it, since TET prep is useful to anyone in the app, not just the
 // teacher of one class.
+//
+// Year 2026 is deliberately excluded here — it lives in its own "2026 (New)"
+// tab/route instead (see routes/tet2026.js), kept as a fully separate
+// router+component pair specifically so a future subscription/paywall check
+// can be dropped onto just that route without touching this one.
 router.get('/', requireAuth, (req, res) => {
-  const rows = db.prepare('SELECT * FROM tet_questions ORDER BY subject, id').all();
+  const rows = db
+    .prepare("SELECT * FROM tet_questions WHERE year IS NULL OR year != 2026 ORDER BY subject, id")
+    .all();
   res.json({ questions: rows });
 });
 
@@ -32,8 +39,10 @@ router.get('/mock/start', requireAuth, (req, res) => {
   const { year, subject } = req.query;
   const count = Math.min(Math.max(parseInt(req.query.count, 10) || 20, 5), 50);
 
+  // Same 2026 exclusion as the GET '/' list above — kept out of the shared
+  // Mock Test pool so it stays exclusively behind the separate "2026 (New)" route.
   let sql =
-    'SELECT id, subject, question, option_a, option_b, option_c, option_d, source, year, question_te, option_a_te, option_b_te, option_c_te, option_d_te FROM tet_questions WHERE 1=1';
+    "SELECT id, subject, question, option_a, option_b, option_c, option_d, source, year, question_te, option_a_te, option_b_te, option_c_te, option_d_te FROM tet_questions WHERE (year IS NULL OR year != 2026)";
   const params = [];
   if (year) {
     sql += ' AND year = ?';

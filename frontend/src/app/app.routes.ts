@@ -9,6 +9,7 @@ import { FeesComponent } from './pages/fees/fees.component';
 import { StudentsComponent } from './pages/students/students.component';
 import { TetComponent } from './pages/tet/tet.component';
 import { MockTestComponent } from './pages/mock-test/mock-test.component';
+import { Tet2026Component } from './pages/tet-2026/tet-2026.component';
 
 export const routes: Routes = [
   { path: 'login', component: LoginComponent },
@@ -25,6 +26,11 @@ export const routes: Routes = [
       { path: 'students', component: StudentsComponent },
       { path: 'tet', component: TetComponent },
       { path: 'mock-test', component: MockTestComponent },
+      // Its own route on purpose, not a query param on 'tet' — this content
+      // is planned to move behind a subscription later, and a separate
+      // route means a guard (e.g. canActivate: [subscriptionGuard]) can be
+      // added here later without touching the 'tet'/'mock-test' routes.
+      { path: 'tet-2026', component: Tet2026Component },
     ],
   },
   { path: '**', redirectTo: '' },

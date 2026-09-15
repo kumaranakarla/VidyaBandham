@@ -63,8 +63,8 @@ As the parent you can:
 - See your child's attendance
 - See fee status and mark "I've paid"
 
-Both teacher and parent logins also see a **TET Prep** tab and a **Mock Test**
-tab (see below).
+Both teacher and parent logins also see a **TET Prep** tab, a **Mock Test**
+tab, and a **2026 (New)** tab (see below).
 
 ## TET Prep tab
 
@@ -73,6 +73,34 @@ teachers using the app and for anyone in the family preparing for the exam.
 It's visible to both teacher and parent logins, filterable by **year** and by
 **subject**, and each question reveals whether your pick was correct after
 you answer.
+
+Note: this tab (and Mock Test) covers years **2018, 2022, and 2024** —
+2026 has its own dedicated tab, see "2026 (New) tab" below.
+
+## 2026 (New) tab
+
+The real AP TET 2026 exam papers — the newest and largest addition to the
+question bank — get their own tab instead of just another year in TET
+Prep's year filter. Right now it has 296 questions (Paper 2A, Maths &
+Science, both August 2026 shifts); more official 2026 papers will be added
+here as they're processed (see "About the 2026 questions" further down for
+where they came from and how the answers were verified). It works the same
+way as TET Prep — subject filter, English/Telugu toggle, instant right/wrong
+feedback — plus a "Paper" filter so you can isolate one shift if you want.
+
+**Why a separate tab instead of a year filter:** this is deliberately its
+own frontend route (`/tet-2026`, `Tet2026Component`) and its own backend
+endpoint (`/api/tet-2026`, `backend/src/routes/tet2026.js`), completely
+apart from the `tet`/`mock-test` routes and the main `/api/tet` endpoint.
+The plan is for this specific content (the newest, most in-demand exam
+year) to eventually sit behind a paid subscription, while the rest of the
+app — diary, homework, attendance, fees, and the older TET years — stays
+free. Keeping it as its own route and its own API endpoint from day one
+means a login/subscription check can be added later in exactly one place
+(the route's `canActivate` on the frontend, and the route's mount line in
+`backend/src/server.js` on the backend) without touching or risking
+anything else in the app. **No subscription or payment logic exists yet** —
+today the tab just requires being logged in, same as everything else.
 
 ### English / Telugu toggle
 
@@ -113,8 +141,8 @@ classes 1–5, Paper 2 for classes 6–8).
 
 ### About the question bank
 
-The set now covers **three real exam years — 2018, 2022, and 2024 — 325
-questions in total**, spanning Child Development & Pedagogy, English,
+The set now covers **four real exam years — 2018, 2022, 2024, and 2026 —
+621 questions in total**, spanning Child Development & Pedagogy, English,
 Telugu, Mathematics, Science & EVS, Physical Science, Biology, and Social
 Studies. Every question and its 4 options are transcribed from genuine,
 officially published AP TET papers — nothing is invented. Each question in
@@ -123,6 +151,8 @@ newest-first.
 
 | Year | Paper | Questions |
 |---|---|---|
+| 2026 | Paper 2A (Maths & Science), 13th August 2026 Shift 1 | 148 |
+| 2026 | Paper 2A (Maths & Science), 12th August 2026 Shift 2 | 148 |
 | 2018 | Paper 1, June 2018 (two shifts) | 47 |
 | 2018 | Paper 1 (Language I — Telugu), 12 June 2018 | 30 |
 | 2018 | Paper 2A (Social Studies), 14 June 2018 | 60 |
@@ -212,16 +242,47 @@ there's nothing meaningful to translate. It always displays in Telugu
 script, tagged "Telugu only" when you're browsing in English mode, mirroring
 how English-subject questions are tagged "English only" in Telugu mode.
 
-**On 2026.** AP TET did hold a real 2026 cycle (exams in August 2026, with
-a response-sheet/answer-key process already completed as of this writing)
-and papers for Telugu, Physical/Biological Science, and Social Studies do
-exist for it — but everywhere I could find them, they were either scanned
-images with no extractable text, a JS-only viewer, or a site that blocked
-automated access. The visual-transcription technique above could in
-principle be applied to 2026 as well; I haven't done that yet, since it's
-a substantial undertaking per paper and wasn't the immediate ask. If you'd
-like a real 2026 paper added, let me know and I can work through it the
-same verified way.
+**About the 2026 questions.** AP TET held a real 2026 cycle (exams in
+August 2026), and the official government portal, `tet2dsc.apcfss.in`,
+publishes each candidate's response sheet as a PDF with the full question
+paper plus a color-coded answer key baked in — every option is labeled
+green (correct) or red (incorrect) right on the page. These are two such
+official PDFs: **Paper 2A (Maths & Science)**, one from the 13th August
+2026 Shift 1 session and one from the 12th August 2026 Shift 2 session,
+each a full 150-question paper covering Child Development & Pedagogy,
+Telugu (Language I), English (Language II), Mathematics, Physical Science,
+and Biology.
+
+Getting the correct answers out was fully automatic and 100% reliable:
+the PDF's question *text* is embedded as an image (not extractable), but
+the small "Options :" summary block below each question is real,
+machine-readable text, and the correct option's color is a real, readable
+text-color attribute on that block — so a script read every PDF page,
+found each question's Options block, and recorded which option number was
+colored green. This was verified against the visible coloring by eye
+during transcription for every question, with zero contradictions found
+across all 296 questions kept.
+
+The question and option *text* itself was still transcribed by vision —
+each page opened as its rendered image and read directly, the same
+approach used for the 2018 Telugu paper above — since that's the only
+reliable way to get the actual wording (and, for CDP/Mathematics/Physical
+Science/Biology, the Telugu translation shown alongside it) out of this
+PDF format. Telugu and English (Language I/II) questions are
+language-and-literature papers like the existing "Telugu" and "English"
+subjects, so they stay in one language only, tagged accordingly.
+
+4 questions (2 per shift) were officially cancelled by the exam board
+itself — the PDF marks these with a blue note reading "discrepancy is
+found in question/answer, full marks awarded to all candidates" and
+leaves the options uncolored — and were left out of the question bank
+entirely, since there's no single correct answer to mark.
+
+There are 8 more official 2026 PDFs already on hand (Paper 1/SGT across
+four shifts, Paper 2A Language-Telugu variant across two shifts, Paper 2
+Social Studies, and Paper 2B Special Education), plus more the user may
+still send — these haven't been processed yet but would follow the exact
+same verified pipeline.
 
 ## Mock Test tab
 

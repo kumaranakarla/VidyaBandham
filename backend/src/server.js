@@ -14,6 +14,7 @@ const studentsRoutes = require('./routes/students');
 const attendanceRoutes = require('./routes/attendance');
 const feesRoutes = require('./routes/fees');
 const tetRoutes = require('./routes/tet');
+const tet2026Routes = require('./routes/tet2026');
 
 const app = express();
 app.use(cors());
@@ -31,6 +32,10 @@ app.use('/api/students', studentsRoutes);
 app.use('/api/attendance', attendanceRoutes);
 app.use('/api/fees', feesRoutes);
 app.use('/api/tet', tetRoutes);
+// Its own mount point, on purpose — see the comment at the top of
+// routes/tet2026.js. A future subscription check for this content would go
+// right here, e.g. app.use('/api/tet-2026', requireSubscription, tet2026Routes).
+app.use('/api/tet-2026', tet2026Routes);
 
 // eslint-disable-next-line no-unused-vars
 app.use((err, req, res, next) => {

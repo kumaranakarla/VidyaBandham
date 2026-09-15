@@ -86,10 +86,20 @@ export interface MockAttempt {
 @Injectable({ providedIn: 'root' })
 export class TetService {
   private base = `${environment.apiUrl}/tet`;
+  // Separate base URL for the "2026 (New)" tab's own backend route
+  // (/api/tet-2026, see backend/src/routes/tet2026.js) — kept apart from the
+  // main TET Prep/Mock Test data on purpose, since this content is planned
+  // to move behind a subscription later and having its own endpoint from the
+  // start means that can be added without touching anything else here.
+  private base2026 = `${environment.apiUrl}/tet-2026`;
   constructor(private http: HttpClient) {}
 
   list() {
     return this.http.get<{ questions: TetQuestion[] }>(this.base);
+  }
+
+  list2026() {
+    return this.http.get<{ questions: TetQuestion[] }>(this.base2026);
   }
 
   startMock(year: string, subject: string, count: number) {
