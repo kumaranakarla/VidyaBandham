@@ -101,19 +101,34 @@ classes 1–5, Paper 2 for classes 6–8).
 
 ### About the question bank
 
-The set now covers **three real exam years — 2018, 2022, and 2024 — 184
+The set now covers **three real exam years — 2018, 2022, and 2024 — 295
 questions in total**, spanning Child Development & Pedagogy, English,
-Mathematics, and Science & EVS. Every question and its 4 options are
-transcribed from genuine, officially published AP TET papers — nothing is
-invented. Each question in the app shows its source paper and year, and the
-year filter defaults to newest-first.
+Mathematics, Science & EVS, Physical Science, Biology, and Social Studies.
+Every question and its 4 options are transcribed from genuine, officially
+published AP TET papers — nothing is invented. Each question in the app
+shows its source paper and year, and the year filter defaults to
+newest-first.
 
 | Year | Paper | Questions |
 |---|---|---|
 | 2018 | Paper 1, June 2018 (two shifts) | 47 |
+| 2018 | Paper 2A (Social Studies), 14 June 2018 | 60 |
+| 2018 | Paper 2A (Maths & Science), 17 June 2018 | 51 |
 | 2022 | Paper 2A, August 2022 | 53 |
 | 2024 | Paper 2A, March 2024 | 5 |
 | 2024 | Paper 1A (Set 1), 2024 | 79 |
+
+The 2018 Paper 2A batch (classes 6–8 specialization papers, found via
+`docs.aglasem.com`) is what added **Physical Science**, **Biology**, and
+**Social Studies** as their own subjects — these are the harder, more
+specific classes-6–8 versions of what Science & EVS covers at the
+classes-1–5 level. It also added 27 more Mathematics questions at that same
+higher level. This batch had its own official answer key cleanly embedded
+in the same document, so those answers are a direct read of it — I still
+independently spot-checked a large sample (all the computable Math ones by
+redoing the arithmetic, plus well-known facts for the rest) before
+including them, and dropped a couple of Math questions and one trivia
+question whose stated answer didn't hold up under my own check.
 
 The 2024 Paper 1A batch was found via a link the user shared from the AP
 Commissioner of School Education's own site (`cse.ap.gov.in`), which pointed
@@ -152,6 +167,21 @@ or add it properly. The `year`/`paper` fields and the seeding pattern in
 structure (real question, complete 4-option set, a correct answer you can
 actually stand behind, tagged with its year and paper).
 
+**On 2026 and a Telugu-language subject paper.** AP TET did hold a real
+2026 cycle (exams in August 2026, with a response-sheet/answer-key process
+already completed as of this writing) and papers for Telugu (Language),
+Physical/Biological Science, and Social Studies do exist for it — but
+everywhere I could find them, they were either scanned images with no
+extractable text, a JS-only viewer, a site that blocked automated access,
+or (for the Telugu-language paper specifically, in every year I checked)
+a document I could open but that didn't actually render its Telugu script
+text. Rather than guess or invent content for these, I left them out. If
+you can get me a text-readable PDF or a page that shows the actual Telugu
+question text, I can add a genuine Telugu-language subject paper (distinct
+from the English↔Telugu translation toggle above, which translates the
+existing English questions rather than sourcing a separate exam paper) and
+real 2026 questions the same verified way as everything else here.
+
 ## Mock Test tab
 
 Where TET Prep is for browsing questions at your own pace, the **Mock Test**
@@ -185,6 +215,9 @@ devices as long as you're signed in with the same login.
   `ExperimentalWarning: SQLite is an experimental feature...` — that's just
   Node telling you its built-in SQLite support is newer than most Node
   features. It's safe to ignore; nothing is broken.
+- The browser tab icon is a graduation cap (`frontend/public/favicon.ico`,
+  navy with the app's orange accent) instead of the Angular framework's
+  default icon.
 
 ## Putting it online (Netlify + Render, both free)
 

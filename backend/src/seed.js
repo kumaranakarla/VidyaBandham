@@ -3139,6 +3139,1449 @@ const TET_QUESTIONS = [
       "లూడో, చెస్, క్యారమ్స్",
       "కబడ్డీ, ఖో-ఖో, టెన్నికాయిట్"
     ]
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Social Studies), 14 June 2018",
+    "subject": "Social Studies",
+    "question": "The two ends of the axis of the Earth are called",
+    "options": [
+      "Longitudes",
+      "Countries",
+      "Continents",
+      "Poles"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Social Studies), 14 June 2018",
+    "subject": "Social Studies",
+    "question": "Partners in contract farming are",
+    "options": [
+      "Farmers and officials",
+      "Farmers and banks",
+      "Farmers and companies",
+      "Farmers and government"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Social Studies), 14 June 2018",
+    "subject": "Social Studies",
+    "question": "Form of the Government in \"Vajji Mahajanapadam\" is",
+    "options": [
+      "Authoritarian Government",
+      "Anarchic Government",
+      "Monarchy",
+      "Gana form of Government"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Social Studies), 14 June 2018",
+    "subject": "Social Studies",
+    "question": "'Megaliths' are",
+    "options": [
+      "Temples",
+      "Burial sites",
+      "Stupas",
+      "Viharas"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Social Studies), 14 June 2018",
+    "subject": "Social Studies",
+    "question": "The songs composed and sung by Alwars are",
+    "options": [
+      "Pasurams",
+      "Light music",
+      "Folk songs",
+      "Shlokas"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Social Studies), 14 June 2018",
+    "subject": "Social Studies",
+    "question": "First Kavya in Sanskrit literature",
+    "options": [
+      "Ramayana",
+      "Mahabharatha",
+      "Bhagavatham",
+      "Shakuntalam"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Social Studies), 14 June 2018",
+    "subject": "Social Studies",
+    "question": "The rhythmic rise and fall in the level of the water in the oceans every day is known as",
+    "options": [
+      "Waves",
+      "Floods",
+      "Currents",
+      "Tides"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Social Studies), 14 June 2018",
+    "subject": "Social Studies",
+    "question": "Industrial Revolution started in this Country",
+    "options": [
+      "England",
+      "America",
+      "Russia",
+      "India"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Social Studies), 14 June 2018",
+    "subject": "Social Studies",
+    "question": "These Kings were called as \"Andhra Rajas\"",
+    "options": [
+      "Vishnu Kundins",
+      "Pallavas",
+      "Cholas",
+      "Kakatiyas"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Social Studies), 14 June 2018",
+    "subject": "Social Studies",
+    "question": "'Zabt' tax was introduced by this minister in Akbar's court",
+    "options": [
+      "Thodarmal",
+      "Abul Fazal",
+      "Birbal",
+      "Sangrama Singh"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Social Studies), 14 June 2018",
+    "subject": "Social Studies",
+    "question": "Minimum age limit for right to vote in our country",
+    "options": [
+      "21 years",
+      "19 years",
+      "20 years",
+      "18 years"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Social Studies), 14 June 2018",
+    "subject": "Social Studies",
+    "question": "'Palanati Virula Kadha' was written by",
+    "options": [
+      "Nannayya",
+      "Thikkana",
+      "Molla",
+      "Sreenadha"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Social Studies), 14 June 2018",
+    "subject": "Social Studies",
+    "question": "Andhra Janasangham was formed by",
+    "options": [
+      "Madapati Hanumatha Rao",
+      "Komarraju Lakshmana Rao",
+      "Nayani Venkata Ranga Rao",
+      "Ravichettu Ranga Rao"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Social Studies), 14 June 2018",
+    "subject": "Social Studies",
+    "question": "Quit India movement was started in the year",
+    "options": [
+      "1943",
+      "1946",
+      "1942",
+      "1941"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Social Studies), 14 June 2018",
+    "subject": "Social Studies",
+    "question": "Madapati Hanumantha Rao, Ravi Narayana Reddy were associated with",
+    "options": [
+      "Andhra Mahila Sabha",
+      "Andhra Saraswatha Sabha",
+      "Andhra Bhasha Sangam",
+      "Andhra Maha Sabha"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Social Studies), 14 June 2018",
+    "subject": "Social Studies",
+    "question": "Even before independence a law was made in this year on abolition of the forced labour or vetti",
+    "options": [
+      "1927",
+      "1937",
+      "1947",
+      "1917"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Social Studies), 14 June 2018",
+    "subject": "Social Studies",
+    "question": "The United Nations Organization was established in the year",
+    "options": [
+      "1943",
+      "1945",
+      "1944",
+      "1946"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Social Studies), 14 June 2018",
+    "subject": "Social Studies",
+    "question": "The first woman teacher in India",
+    "options": [
+      "Savithri Bai Phule",
+      "Pandit Ramabai Saraswathi",
+      "Tarabai Shinde",
+      "Begum Rokiya Sakhawat Hussain"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Social Studies), 14 June 2018",
+    "subject": "Social Studies",
+    "question": "The dance performed by tribals of Araku Valley",
+    "options": [
+      "Gussadi",
+      "Sadir",
+      "Kuravanji",
+      "Dhimsa"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Social Studies), 14 June 2018",
+    "subject": "Social Studies",
+    "question": "Collection of maps is called as",
+    "options": [
+      "Map drawing",
+      "Map analysis",
+      "Study of maps",
+      "Atlas"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Social Studies), 14 June 2018",
+    "subject": "Social Studies",
+    "question": "The Santhal Adivasis revolt was held in this period",
+    "options": [
+      "1855 - 56",
+      "1850 - 51",
+      "1860 - 61",
+      "1870 - 71"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Social Studies), 14 June 2018",
+    "subject": "Social Studies",
+    "question": "The birth place of Alluri Sita Rama Raju is",
+    "options": [
+      "Pendurthi",
+      "Chinthapalli",
+      "Pandrangi",
+      "Rampachodavaram"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Social Studies), 14 June 2018",
+    "subject": "Social Studies",
+    "question": "The fire accident occurred in 2004 in which 93 school children died at this place",
+    "options": [
+      "Bhopal",
+      "Mysore",
+      "Kumbha Konam",
+      "Visakhapatnam"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Social Studies), 14 June 2018",
+    "subject": "Social Studies",
+    "question": "Prohibition of child marriage Act was enacted in the year",
+    "options": [
+      "2004",
+      "2007",
+      "2006",
+      "2005"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Social Studies), 14 June 2018",
+    "subject": "Social Studies",
+    "question": "Under this right, all forms of 'forced labour' are prohibited",
+    "options": [
+      "Right against exploitation",
+      "Right to live",
+      "Right to freedom",
+      "Right to equality"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Social Studies), 14 June 2018",
+    "subject": "Social Studies",
+    "question": "The inventor of the steam Engine",
+    "options": [
+      "James Watt",
+      "Mc Adam",
+      "James Bindley",
+      "Mathew Boulten"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Social Studies), 14 June 2018",
+    "subject": "Social Studies",
+    "question": "Process of equipping oneself with the knowledge and information on financial matters is",
+    "options": [
+      "Financial literacy",
+      "Book keeping",
+      "Banking",
+      "Accounting"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Social Studies), 14 June 2018",
+    "subject": "Social Studies",
+    "question": "The first co-operative society in the world was established in this country",
+    "options": [
+      "England",
+      "America",
+      "France",
+      "Japan"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Social Studies), 14 June 2018",
+    "subject": "Social Studies",
+    "question": "The industry which provides highest employment in India after agriculture",
+    "options": [
+      "Textile industry",
+      "Jute industry",
+      "Sugar industry",
+      "Iron and steel industry"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Social Studies), 14 June 2018",
+    "subject": "Social Studies",
+    "question": "Temperate grasslands are also called as",
+    "options": [
+      "Tundras",
+      "Steppes",
+      "Taigas",
+      "Thorny bushes"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Social Studies), 14 June 2018",
+    "subject": "Social Studies",
+    "question": "The steep rocky coast raising almost vertically above sea water is called as",
+    "options": [
+      "Sea arches",
+      "Mushroom rock",
+      "Sea cliff",
+      "Inselburg"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Social Studies), 14 June 2018",
+    "subject": "Social Studies",
+    "question": "The northern most mountain range in the Himalayas",
+    "options": [
+      "Himadri",
+      "Shivalik",
+      "Mahabharatha ranges",
+      "Pir Panjal"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Social Studies), 14 June 2018",
+    "subject": "Social Studies",
+    "question": "The west coast of India starts from",
+    "options": [
+      "Mumbai",
+      "Goa",
+      "Calicut",
+      "Rann of Kutch"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Social Studies), 14 June 2018",
+    "subject": "Social Studies",
+    "question": "Workers working below their potential/capacity is known as",
+    "options": [
+      "Total unemployment",
+      "Under employment",
+      "Seasonal employment",
+      "Disguised unemployment"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Social Studies), 14 June 2018",
+    "subject": "Social Studies",
+    "question": "The first census in India was taken in the year",
+    "options": [
+      "1852",
+      "1862",
+      "1872",
+      "1882"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Social Studies), 14 June 2018",
+    "subject": "Social Studies",
+    "question": "The density of population per square kilometer in India as per census 2011",
+    "options": [
+      "285",
+      "382",
+      "385",
+      "295"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Social Studies), 14 June 2018",
+    "subject": "Social Studies",
+    "question": "In 2013, the UN climate change conference (COP19) was held at",
+    "options": [
+      "London",
+      "New York",
+      "Delhi",
+      "Warsaw"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Social Studies), 14 June 2018",
+    "subject": "Social Studies",
+    "question": "'Sex ratio' is the",
+    "options": [
+      "Number of females to males in the country",
+      "Number of females to males in every village in a country",
+      "Number of females per every 100 males in cities in the country",
+      "Number of females per every 1000 males in the country"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Social Studies), 14 June 2018",
+    "subject": "Social Studies",
+    "question": "In 1995, the Ford Motors company started its large plant in India at",
+    "options": [
+      "Chennai",
+      "Hyderabad",
+      "Bangalore",
+      "Trivendram"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Social Studies), 14 June 2018",
+    "subject": "Social Studies",
+    "question": "The second largest city in India (Census - 2011)",
+    "options": [
+      "Kolkata",
+      "Mumbai",
+      "Delhi",
+      "Chennai"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Social Studies), 14 June 2018",
+    "subject": "Social Studies",
+    "question": "'Irom Sharmila' belongs to this state",
+    "options": [
+      "Manipur",
+      "Nagaland",
+      "Assam",
+      "Meghalaya"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Social Studies), 14 June 2018",
+    "subject": "Social Studies",
+    "question": "Moving away from the equator towards the poles, the average annual temperature will",
+    "options": [
+      "slowly increase",
+      "remain constant",
+      "be doubled",
+      "decrease gradually"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Social Studies), 14 June 2018",
+    "subject": "Social Studies",
+    "question": "The country that is called the 'promised land'",
+    "options": [
+      "Palestine",
+      "Russia",
+      "England",
+      "America"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Social Studies), 14 June 2018",
+    "subject": "Social Studies",
+    "question": "Expand – 'SEZ'",
+    "options": [
+      "Special Economic Zone",
+      "Special Education Zone",
+      "Special Environment Zone",
+      "Special Enrollment Zone"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Social Studies), 14 June 2018",
+    "subject": "Social Studies",
+    "question": "This country was not much affected by the economic depression during 1929-30",
+    "options": [
+      "Germany",
+      "Russia",
+      "Japan",
+      "India"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Social Studies), 14 June 2018",
+    "subject": "Social Studies",
+    "question": "The book 'Silent Spring' was written by",
+    "options": [
+      "James Huck",
+      "Adam Smith",
+      "Rachel Carson",
+      "Anil Agarwal"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Social Studies), 14 June 2018",
+    "subject": "Social Studies",
+    "question": "Founder of the Nazi party",
+    "options": [
+      "Hitler",
+      "Mussolini",
+      "Churchill",
+      "Bismarck"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Social Studies), 14 June 2018",
+    "subject": "Social Studies",
+    "question": "The first elections to the Lok Sabha were conducted in the year",
+    "options": [
+      "1951 - 52",
+      "1952 - 53",
+      "1954 - 55",
+      "1947 - 48"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Social Studies), 14 June 2018",
+    "subject": "Social Studies",
+    "question": "'Preservation of Customs and Traditions' and 'equality' are illustrations of these kinds of values respectively",
+    "options": [
+      "Disciplinary value, Cultural value",
+      "Cultural value, Democratic value",
+      "Social value, Moral value",
+      "Moral value, Political value"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Social Studies), 14 June 2018",
+    "subject": "Social Studies",
+    "question": "'Developing a pamphlet on Clean and Green' and 'Respect for National Symbols' are specifications of these objectives respectively",
+    "options": [
+      "Interest, Attitude",
+      "Knowledge, Application",
+      "Application, Skill",
+      "Creativity, Understanding"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Social Studies), 14 June 2018",
+    "subject": "Social Studies",
+    "question": "A student is able to prepare an album using various data sources like newspapers, periodicals and other library material. This is related to this objective",
+    "options": [
+      "Appreciation",
+      "Knowledge",
+      "Skill",
+      "Understanding"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Social Studies), 14 June 2018",
+    "subject": "Social Studies",
+    "question": "Under section 29(2)(a) of the RTE Act-2009, while laying down the curriculum, the academic authority shall take into consideration",
+    "options": [
+      "All round development of the child",
+      "Building up child's knowledge, potentiality and talent",
+      "Conformity with the values enshrined in the constitution",
+      "Development of physical and mental abilities of the child to the fullest extent"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Social Studies), 14 June 2018",
+    "subject": "Social Studies",
+    "question": "National Curriculum Framework (NCF) – 2005 suggested this",
+    "options": [
+      "The term Sociology should be used in place of Social Science",
+      "The term Social Science should be used in place of Sociology",
+      "The term Civics should be used in place of Political Science",
+      "The term Political Science should be used in place of Civics"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Social Studies), 14 June 2018",
+    "subject": "Social Studies",
+    "question": "One of the following statements is NOT true",
+    "options": [
+      "Curriculum provides a base for a course of study",
+      "Curriculum is a part of the syllabus",
+      "Syllabus includes the content of what is to be taught",
+      "Curriculum is the plan for the implementation of educational aims"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Social Studies), 14 June 2018",
+    "subject": "Social Studies",
+    "question": "A Social Studies teacher organized a field trip to Talakona Water Falls for 9th class students. This comes under this kind of learning experience",
+    "options": [
+      "Direct experience",
+      "Indirect experience",
+      "Vicarious experience",
+      "Both direct and indirect experiences"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Social Studies), 14 June 2018",
+    "subject": "Social Studies",
+    "question": "\"Learning without Burden\" was recommended by",
+    "options": [
+      "Kothari Commission",
+      "Prof. Yashpal Committee",
+      "Secondary Education Commission",
+      "NPE - 1986"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Social Studies), 14 June 2018",
+    "subject": "Social Studies",
+    "question": "Social learning and discovery learning are respectively related to",
+    "options": [
+      "Albert Bandura, Piaget",
+      "Jerome Bruner, John Dewey",
+      "Jerome Bruner, Albert Bandura",
+      "Albert Bandura, Jerome Bruner"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Social Studies), 14 June 2018",
+    "subject": "Social Studies",
+    "question": "One of the following is related to collaborative learning",
+    "options": [
+      "Doing homework",
+      "Learning through exploration",
+      "Solitary play",
+      "Watching T.V."
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Social Studies), 14 June 2018",
+    "subject": "Social Studies",
+    "question": "Which of the following statements are true?\nA. Both the terms 'Test' and 'Measurement' are synonyms.\nB. There is a difference between Test and Measurement.\nC. When the work of testing ends, measurement comes into the picture for assigning numerical values to the results.",
+    "options": [
+      "A, B & C",
+      "A & C only",
+      "B & C only",
+      "A & B only"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Social Studies), 14 June 2018",
+    "subject": "Social Studies",
+    "question": "'Gurudwara' and 'Brick Kilns' are respectively",
+    "options": [
+      "Historical resources, Economic resources",
+      "Economic resources, Historical resources",
+      "Both Historical resources",
+      "Both Economic resources"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Maths & Science), 17 June 2018",
+    "subject": "Mathematics",
+    "question": "If A, B are disjoint sets, n(A) = 4 and n(A ∪ B) = 7, then n(B) is equal to",
+    "options": [
+      "4",
+      "11",
+      "3",
+      "20"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Maths & Science), 17 June 2018",
+    "subject": "Mathematics",
+    "question": "If 2 log(x + 3) = log 81, then the value of x is",
+    "options": [
+      "6",
+      "5",
+      "7",
+      "8"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Maths & Science), 17 June 2018",
+    "subject": "Mathematics",
+    "question": "If √2 = 1.414, then the value of 1/(2√2) is",
+    "options": [
+      "0.0352",
+      "3.541",
+      "0.3535",
+      "0.2525"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Maths & Science), 17 June 2018",
+    "subject": "Mathematics",
+    "question": "If one zero of the quadratic polynomial 2x² + Kx – 15 is 3, the other zero is:",
+    "options": [
+      "15/2",
+      "5",
+      "-5/2",
+      "–1"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Maths & Science), 17 June 2018",
+    "subject": "Mathematics",
+    "question": "a₁x + b₁y + c₁ = 0 and a₂x + b₂y + c₂ = 0 are two straight lines. If a₁/a₂ = b₁/b₂ = c₁/c₂, then the lines are",
+    "options": [
+      "Intersecting lines",
+      "Parallel lines",
+      "Coincident lines",
+      "Perpendicular lines"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Maths & Science), 17 June 2018",
+    "subject": "Mathematics",
+    "question": "If the area of a square is 4489 sq.cm, then the length of its side is (in cm)",
+    "options": [
+      "57",
+      "67",
+      "35",
+      "43"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Maths & Science), 17 June 2018",
+    "subject": "Mathematics",
+    "question": "The numbers 10, 12, 14, x–3, x, x+2, 25 are in ascending order. If the median is 15, the value of x is",
+    "options": [
+      "16",
+      "15",
+      "17",
+      "18"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Maths & Science), 17 June 2018",
+    "subject": "Mathematics",
+    "question": "If A = 4x² + y² – 6xy and B = 3y² + 12x² – 2xy, then 2A + B is equal to",
+    "options": [
+      "20x² – 5y² – 14xy",
+      "20x² + 5y² – 14xy",
+      "15x² – 4y² + 12xy",
+      "–15x² + 4y² + 2xy"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Maths & Science), 17 June 2018",
+    "subject": "Mathematics",
+    "question": "If the difference of two supplementary angles is 34°, the smaller angle is (in degrees)",
+    "options": [
+      "63",
+      "53",
+      "43",
+      "73"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Maths & Science), 17 June 2018",
+    "subject": "Mathematics",
+    "question": "One exterior angle of a triangle is 125° and the interior opposite angles are in the ratio 2 : 3. One of those interior angles is (in degrees)",
+    "options": [
+      "38",
+      "48",
+      "50",
+      "58"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Maths & Science), 17 June 2018",
+    "subject": "Mathematics",
+    "question": "If Cos A = 12/13, the value of Sin A is",
+    "options": [
+      "12/13",
+      "5/13",
+      "13/5",
+      "5/12"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Maths & Science), 17 June 2018",
+    "subject": "Mathematics",
+    "question": "If a die is rolled, the probability of getting an even number is",
+    "options": [
+      "1/6",
+      "1/3",
+      "2/5",
+      "1/2"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Maths & Science), 17 June 2018",
+    "subject": "Mathematics",
+    "question": "If (–1, 5) is the midpoint of the line joining the points (–4, a) and (2, 8), the value of 'a' is",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Maths & Science), 17 June 2018",
+    "subject": "Mathematics",
+    "question": "The area of the triangle with vertices (t, 2t), (–2, 6), (3, 1) is 5 sq. units. The value of 't' is",
+    "options": [
+      "1/2",
+      "–1/2",
+      "2",
+      "–2"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Maths & Science), 17 June 2018",
+    "subject": "Mathematics",
+    "question": "If three angles of a quadrilateral are 60°, 80° and 120°, the fourth angle is (in degrees)",
+    "options": [
+      "80",
+      "90",
+      "95",
+      "100"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Maths & Science), 17 June 2018",
+    "subject": "Mathematics",
+    "question": "In a geometric progression, the 8th term is 192 and the common ratio is 2. The first term is",
+    "options": [
+      "3/2",
+      "1/2",
+      "2",
+      "3"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Maths & Science), 17 June 2018",
+    "subject": "Mathematics",
+    "question": "If the 17th term of an Arithmetic Progression exceeds its 10th term by 7, the common difference is",
+    "options": [
+      "4",
+      "3",
+      "1",
+      "0"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Maths & Science), 17 June 2018",
+    "subject": "Mathematics",
+    "question": "The discriminant of the quadratic equation 2x² – 4x + 3 = 0 is",
+    "options": [
+      "–8",
+      "8",
+      "0",
+      "15"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Maths & Science), 17 June 2018",
+    "subject": "Mathematics",
+    "question": "The length, breadth and height of a cuboid are 15cm, 12cm and 10cm respectively. Its total surface area is (in cm²)",
+    "options": [
+      "700",
+      "800",
+      "900",
+      "890"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Maths & Science), 17 June 2018",
+    "subject": "Mathematics",
+    "question": "The G.C.D of 72 and 252 is 36. Their L.C.M is",
+    "options": [
+      "504",
+      "504",
+      "325",
+      "175"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Maths & Science), 17 June 2018",
+    "subject": "Mathematics",
+    "question": "If the slope of the line joining the points (2, 5) and (x, 3) is –2, the value of x is",
+    "options": [
+      "3",
+      "2",
+      "1",
+      "–1"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Maths & Science), 17 June 2018",
+    "subject": "Mathematics",
+    "question": "△ABC ~ △DEF and their areas are 64 cm² and 121 cm² respectively. If EF = 15.4 cm, then BC is equal to (in cm)",
+    "options": [
+      "12.2",
+      "11.2",
+      "10.2",
+      "4.5"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Maths & Science), 17 June 2018",
+    "subject": "Mathematics",
+    "question": "The specification \"Translates\" belongs to this instructional objective (in the teaching of Mathematics)",
+    "options": [
+      "Skill",
+      "Application",
+      "Understanding",
+      "Knowledge"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Maths & Science), 17 June 2018",
+    "subject": "Mathematics",
+    "question": "The characteristic feature of the \"Synthetic Method\" of teaching Mathematics is",
+    "options": [
+      "Hypothesis to Conclusion",
+      "Specific to General",
+      "Concrete to Abstract",
+      "Example to Principle"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Maths & Science), 17 June 2018",
+    "subject": "Mathematics",
+    "question": "The first step of a lesson plan as per the \"Herbartian Approach\" is",
+    "options": [
+      "Presentation",
+      "Application",
+      "Association",
+      "Preparation"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Maths & Science), 17 June 2018",
+    "subject": "Mathematics",
+    "question": "One demerit of oral work (in teaching Mathematics) is that",
+    "options": [
+      "Previous knowledge of the students can be tested",
+      "It corrects the articulation errors of the students",
+      "It depends mostly on the memory of the students",
+      "It enhances speed and accuracy"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Maths & Science), 17 June 2018",
+    "subject": "Mathematics",
+    "question": "The Academic Standard tested through the test item \"Write the decimal number 303.03 in expanded form\" is",
+    "options": [
+      "Representation – Visualisation",
+      "Communication",
+      "Connection",
+      "Reasoning – Proof"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Maths & Science), 17 June 2018",
+    "subject": "Physical Science",
+    "question": "The natural magnet among the following is",
+    "options": [
+      "Bar magnet",
+      "Horse shoe magnet",
+      "Ring magnet",
+      "Load stone"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Maths & Science), 17 June 2018",
+    "subject": "Physical Science",
+    "question": "On a Celsius scale thermometer, each division is equal to (in ºC)",
+    "options": [
+      "1",
+      "0.1",
+      "0.2",
+      "10"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Maths & Science), 17 June 2018",
+    "subject": "Physical Science",
+    "question": "The planets that rotate from East to West are",
+    "options": [
+      "Earth, Mercury",
+      "Earth, Venus",
+      "Venus, Uranus",
+      "Uranus, Neptune"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Maths & Science), 17 June 2018",
+    "subject": "Physical Science",
+    "question": "The situation that has only potential energy (and no kinetic energy) is",
+    "options": [
+      "a flying aircraft",
+      "a rolling stone",
+      "a stretched rubber band",
+      "flowing water"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Maths & Science), 17 June 2018",
+    "subject": "Physical Science",
+    "question": "The refractive index of glass with respect to air is 2. The critical angle of the glass-air interface is (in degrees)",
+    "options": [
+      "0",
+      "30",
+      "45",
+      "60"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Maths & Science), 17 June 2018",
+    "subject": "Physical Science",
+    "question": "Joule/Coulomb is equal to",
+    "options": [
+      "1 Watt",
+      "1 Volt",
+      "1 Ampere",
+      "1 Ohm"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Maths & Science), 17 June 2018",
+    "subject": "Physical Science",
+    "question": "The colour of phenolphthalein indicator in an acidic medium is",
+    "options": [
+      "Red",
+      "Pink",
+      "Yellow",
+      "Colourless"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Maths & Science), 17 June 2018",
+    "subject": "Physical Science",
+    "question": "The chemical nature of a non-metallic oxide is",
+    "options": [
+      "Acidic",
+      "Basic",
+      "Amphoteric",
+      "Neutral"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Maths & Science), 17 June 2018",
+    "subject": "Physical Science",
+    "question": "This gas has a rotten-egg smell",
+    "options": [
+      "Carbon dioxide",
+      "Carbon monoxide",
+      "Hydrogen sulphide",
+      "Hydrogen"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Maths & Science), 17 June 2018",
+    "subject": "Physical Science",
+    "question": "In galvanization, iron is coated with",
+    "options": [
+      "Tin",
+      "Chromium",
+      "Nickel",
+      "Zinc"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Maths & Science), 17 June 2018",
+    "subject": "Physical Science",
+    "question": "Plastics are materials obtained from",
+    "options": [
+      "Glass",
+      "Metals",
+      "Petrochemicals",
+      "Wood"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Maths & Science), 17 June 2018",
+    "subject": "Physical Science",
+    "question": "A mixture of water and diesel is an example of",
+    "options": [
+      "Colloidal solution",
+      "True solution",
+      "Miscible mixture",
+      "Immiscible mixture"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Maths & Science), 17 June 2018",
+    "subject": "Biology",
+    "question": "To get 'Honeydew', ants keep a type of insect called",
+    "options": [
+      "Aphids",
+      "Honeybees",
+      "Soldier ants",
+      "Drones"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Maths & Science), 17 June 2018",
+    "subject": "Biology",
+    "question": "The joint between the upper jaw and the rest of the head is a",
+    "options": [
+      "Hinge Joint",
+      "Fixed Joint",
+      "Pivot Joint",
+      "Ball and Socket Joint"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Maths & Science), 17 June 2018",
+    "subject": "Biology",
+    "question": "One of the following is an Indian native crop",
+    "options": [
+      "Tomato",
+      "Cauliflower",
+      "Pear",
+      "Sugarcane"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Maths & Science), 17 June 2018",
+    "subject": "Biology",
+    "question": "The process of killing larvae inside a cocoon before silk reeling is called",
+    "options": [
+      "Stuffing",
+      "Sealing",
+      "Stifling",
+      "Stalking"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Maths & Science), 17 June 2018",
+    "subject": "Biology",
+    "question": "\"The nucleus is an integral part of the cell\" was stated by",
+    "options": [
+      "Robert Hooke",
+      "Robert Brown",
+      "Felice Fontana",
+      "Jan Swammerdam"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Maths & Science), 17 June 2018",
+    "subject": "Biology",
+    "question": "'Helicobacter pylori' is responsible for",
+    "options": [
+      "Peptic ulcer",
+      "Jaundice",
+      "Uterine cancer",
+      "Hepatitis - D"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Maths & Science), 17 June 2018",
+    "subject": "Biology",
+    "question": "An alternative method to incineration for burning waste materials is",
+    "options": [
+      "Hydrolysis",
+      "Pyrolysis",
+      "Methanation",
+      "Eutrophication"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Maths & Science), 17 June 2018",
+    "subject": "Biology",
+    "question": "'Lichens' are colonies of",
+    "options": [
+      "Bacteria and Fungi",
+      "Algae and Fungi",
+      "Virus and Algae",
+      "Bacteria and Virus"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Maths & Science), 17 June 2018",
+    "subject": "Biology",
+    "question": "One of the following is NOT a site of taste sensation",
+    "options": [
+      "Fungiform papillae",
+      "Circumvallate papillae",
+      "Foliate papillae",
+      "Filiform papillae"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Maths & Science), 17 June 2018",
+    "subject": "Biology",
+    "question": "The correct pair of a vitamin and its chemical name is",
+    "options": [
+      "A – Ascorbic acid",
+      "D – Calciferol",
+      "B1 – Biotin",
+      "E – Phylloquinone"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Maths & Science), 17 June 2018",
+    "subject": "Biology",
+    "question": "The alkaloid-based compound that acts as an insecticide is",
+    "options": [
+      "Scopolamine",
+      "Reserpine",
+      "Pyrithroid",
+      "Caffeine"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2018,
+    "paper": "AP TET Paper 2A (Maths & Science), 17 June 2018",
+    "subject": "Biology",
+    "question": "The number of synergids, antipodals and egg cells in the embryo sac of most flowering plants, respectively, is",
+    "options": [
+      "3, 2, 2",
+      "2, 3, 1",
+      "1, 2, 3",
+      "4, 1, 2"
+    ],
+    "correct": 2
   }
 ];
 
