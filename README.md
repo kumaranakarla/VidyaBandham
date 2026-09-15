@@ -26,7 +26,7 @@ external console — everything runs on your own computer.
 ```
 cd backend
 npm install
-npm run seed      # creates the database with demo data (only need to run this once)
+npm run seed      # creates the database with demo data
 npm start
 ```
 
@@ -84,13 +84,23 @@ English-medium and Telugu-medium teachers can use the same question bank.
 Only the English-subject questions stay English-only, since translating
 "choose the correct synonym" into Telugu would change what's being tested.
 A question with no Telugu version is marked "English only" so it's clear
-why it didn't switch. The Telugu text is my own translation of the same
-verified English questions (using standard Telugu terminology from
-educational psychology and the AP TET syllabus) — not a separately-sourced
-official Telugu paper, so treat it as a translation aid rather than a
-second independent source. The app pulls in the "Noto Sans Telugu" web
-font so the script renders correctly even if a visitor's own device
-doesn't have a Telugu font installed.
+why it didn't switch. The Telugu text for these subjects is my own
+translation of the same verified English questions (using standard Telugu
+terminology from educational psychology and the AP TET syllabus) — not a
+separately-sourced official Telugu paper, so treat it as a translation aid
+rather than a second independent source. The app pulls in the "Noto Sans
+Telugu" web font so the script renders correctly even if a visitor's own
+device doesn't have a Telugu font installed.
+
+**The Telugu subject is different from the toggle above.** Just like
+"English" is a real English-language exam paper (grammar, vocabulary,
+literature) that only exists in English, "Telugu" is a real
+**Telugu-language exam paper** (grammar, vocabulary, idioms, poetry and
+folk-riddle comprehension, literary trivia) that only exists in Telugu —
+it is not a translation of anything, and it stays in Telugu even when
+you're in English mode (marked "Telugu only", the mirror image of the
+"English only" tag). See "About the Telugu-language subject" below for
+where it came from.
 
 ### A quick word on TET itself
 
@@ -103,17 +113,18 @@ classes 1–5, Paper 2 for classes 6–8).
 
 ### About the question bank
 
-The set now covers **three real exam years — 2018, 2022, and 2024 — 295
+The set now covers **three real exam years — 2018, 2022, and 2024 — 325
 questions in total**, spanning Child Development & Pedagogy, English,
-Mathematics, Science & EVS, Physical Science, Biology, and Social Studies.
-Every question and its 4 options are transcribed from genuine, officially
-published AP TET papers — nothing is invented. Each question in the app
-shows its source paper and year, and the year filter defaults to
+Telugu, Mathematics, Science & EVS, Physical Science, Biology, and Social
+Studies. Every question and its 4 options are transcribed from genuine,
+officially published AP TET papers — nothing is invented. Each question in
+the app shows its source paper and year, and the year filter defaults to
 newest-first.
 
 | Year | Paper | Questions |
 |---|---|---|
 | 2018 | Paper 1, June 2018 (two shifts) | 47 |
+| 2018 | Paper 1 (Language I — Telugu), 12 June 2018 | 30 |
 | 2018 | Paper 2A (Social Studies), 14 June 2018 | 60 |
 | 2018 | Paper 2A (Maths & Science), 17 June 2018 | 51 |
 | 2022 | Paper 2A, August 2022 | 53 |
@@ -169,20 +180,48 @@ or add it properly. The `year`/`paper` fields and the seeding pattern in
 structure (real question, complete 4-option set, a correct answer you can
 actually stand behind, tagged with its year and paper).
 
-**On 2026 and a Telugu-language subject paper.** AP TET did hold a real
-2026 cycle (exams in August 2026, with a response-sheet/answer-key process
-already completed as of this writing) and papers for Telugu (Language),
-Physical/Biological Science, and Social Studies do exist for it — but
-everywhere I could find them, they were either scanned images with no
-extractable text, a JS-only viewer, a site that blocked automated access,
-or (for the Telugu-language paper specifically, in every year I checked)
-a document I could open but that didn't actually render its Telugu script
-text. Rather than guess or invent content for these, I left them out. If
-you can get me a text-readable PDF or a page that shows the actual Telugu
-question text, I can add a genuine Telugu-language subject paper (distinct
-from the English↔Telugu translation toggle above, which translates the
-existing English questions rather than sourcing a separate exam paper) and
-real 2026 questions the same verified way as everything else here.
+**About the Telugu-language subject.** The AP TET Paper 1 (June 2018) has
+five sections: Child Development & Pedagogy (Q1–30), **Telugu — Language I
+(Q31–60)**, English — Language II (Q61–90, already in the app as the
+"English" subject), Mathematics (Q91–120), and EVS/Science (Q121–150). The
+Telugu section had never been added, even though its English counterpart
+was already in the app — an inconsistency a user flagged after noticing
+"English literature questions and answers" but no Telugu equivalent.
+
+The obstacle was the same one noted here previously for other years: the
+source PDF's Telugu-script text does not extract as machine-readable
+Unicode — not via automated fetching, and not even via a browser's own
+accessibility/text-extraction layer — while rendering perfectly fine as an
+image on-screen. That turned out to be a text-*extraction* gap, not a
+rendering failure, so the fix was to read it the way a person would: each
+page was opened as its actual scanned image, the browser viewport sized to
+fit the page so nothing was cropped, and the Telugu text transcribed
+directly by eye (magnifying small or ambiguous words as a cropped,
+upscaled close-up where needed). All 30 questions were transcribed this
+way and then checked against the exam's own official answer key (printed
+on the same document, page 61) — every single one matched the key's stated
+correct option with no inconsistencies, which is strong evidence the
+transcription is accurate. Nothing here is guessed or invented; it's a
+real published exam section, just read by vision instead of by text
+extraction because that was the only reliable way to get correct Telugu
+characters out of this source.
+
+This subject intentionally has no English translation (`question_te` is
+not set) — it's a language-and-literature paper, like "English" is, so
+there's nothing meaningful to translate. It always displays in Telugu
+script, tagged "Telugu only" when you're browsing in English mode, mirroring
+how English-subject questions are tagged "English only" in Telugu mode.
+
+**On 2026.** AP TET did hold a real 2026 cycle (exams in August 2026, with
+a response-sheet/answer-key process already completed as of this writing)
+and papers for Telugu, Physical/Biological Science, and Social Studies do
+exist for it — but everywhere I could find them, they were either scanned
+images with no extractable text, a JS-only viewer, or a site that blocked
+automated access. The visual-transcription technique above could in
+principle be applied to 2026 as well; I haven't done that yet, since it's
+a substantial undertaking per paper and wasn't the immediate ask. If you'd
+like a real 2026 paper added, let me know and I can work through it the
+same verified way.
 
 ## Mock Test tab
 
@@ -207,8 +246,17 @@ devices as long as you're signed in with the same login.
 ## Notes
 
 - The database is a single file: `backend/vidyabandham.db`. Running `npm run seed`
-  again wipes and recreates it with fresh demo data — useful if you want to
-  start over.
+  wipes and recreates it with fresh demo data — useful if you want to start
+  over, and **necessary any time you pull an update that changes the TET
+  question bank** (a new subject, new questions, a Telugu translation fix,
+  and so on). The server only auto-seeds when the database is completely
+  empty (`seedIfEmpty()` in `backend/src/seed.js`, which exists so a free
+  host that wipes its disk on every restart doesn't come back up locked
+  out) — once your database has any data in it at all, pulling new code
+  alone does **not** update the questions already stored there. If you add
+  a new TET subject or question set and it doesn't show up in the app,
+  re-running `npm run seed` (locally) — or triggering an equivalent reseed
+  on your deployed backend — is almost always the fix.
 - To use this for a real class, just add real students and create real parent
   logins from the Students tab, then delete the two demo accounts if you like.
 - The backend needs no internet connection and no third-party account —

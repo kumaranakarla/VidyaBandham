@@ -34,6 +34,9 @@ type Stage = 'setup' | 'testing' | 'result';
         <span class="lang-note" *ngIf="lang === 'te'">
           English-subject questions always stay in English, same as the real exam.
         </span>
+        <span class="lang-note" *ngIf="lang === 'en'">
+          Telugu-subject questions (language & literature) always stay in Telugu, same as the real exam.
+        </span>
       </div>
       <div class="field">
         <label>Year</label>
@@ -93,6 +96,7 @@ type Stage = 'setup' | 'testing' | 'result';
           <div class="subject-tag">
             Q{{ i + 1 }} · {{ q.subject }}
             <span class="en-only-tag" *ngIf="lang === 'te' && !q.question_te">English only</span>
+            <span class="en-only-tag" *ngIf="lang === 'en' && q.subject === 'Telugu'">Telugu only</span>
           </div>
           <div class="question-text">{{ questionText(q) }}</div>
           <div class="options">
@@ -159,6 +163,7 @@ type Stage = 'setup' | 'testing' | 'result';
           <div class="subject-tag">
             Q{{ i + 1 }} · {{ r.subject }}
             <span class="en-only-tag" *ngIf="lang === 'te' && !r.question_te">English only</span>
+            <span class="en-only-tag" *ngIf="lang === 'en' && r.subject === 'Telugu'">Telugu only</span>
             <span class="badge" [class.badge-correct]="r.isCorrect" [class.badge-wrong]="!r.isCorrect && r.selected" [class.badge-blank]="!r.selected">
               {{ r.isCorrect ? '✓ Correct' : (r.selected ? '✗ Wrong answer' : 'Not answered') }}
             </span>

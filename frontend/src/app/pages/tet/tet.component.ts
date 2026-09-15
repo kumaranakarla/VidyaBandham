@@ -20,6 +20,10 @@ import { TetQuestion, TetService } from '../../services/tet.service';
       <span class="lang-note" *ngIf="lang === 'te'">
         English is always tested in English on the real exam, so those questions stay in English below.
       </span>
+      <span class="lang-note" *ngIf="lang === 'en'">
+        Telugu is a language & literature paper tested only in Telugu on the real exam, so those questions stay in
+        Telugu below.
+      </span>
     </div>
 
     <div class="filter-row" *ngIf="subjects.length">
@@ -43,6 +47,7 @@ import { TetQuestion, TetService } from '../../services/tet.service';
         <div class="subject-tag">
           <span *ngIf="q.year">{{ q.year }} · </span>{{ q.subject }}
           <span class="en-only-tag" *ngIf="lang === 'te' && !q.question_te">English only</span>
+          <span class="en-only-tag" *ngIf="lang === 'en' && q.subject === 'Telugu'">Telugu only</span>
         </div>
         <div class="question-text">{{ questionText(q) }}</div>
         <div class="options">
