@@ -19,25 +19,31 @@ import { SubscriptionService } from '../../services/subscription.service';
   standalone: true,
   imports: [CommonModule, FormsModule, RouterLink],
   template: `
-    <h2>2026 (New) <span class="new-badge">NEW</span></h2>
-    <p class="intro">
+    <h2>{{ lang === 'te' ? '2026 (కొత్తది)' : '2026 (New)' }} <span class="new-badge">{{ lang === 'te' ? 'కొత్తది' : 'NEW' }}</span></h2>
+    <p class="intro" *ngIf="lang === 'en'">
       The real AP TET 2026 exam papers, with final, officially-published answer keys — sourced directly from the AP
       Department of School Education's own results portal. 12 official papers in total across SGT, Maths &amp;
       Science, Social Studies, and the Telugu/English language papers.
     </p>
+    <p class="intro" *ngIf="lang === 'te'">
+      వాస్తవ AP TET 2026 పరీక్షా పత్రాలు, అధికారికంగా ప్రచురించిన తుది జవాబు కీలతో సహా — నేరుగా ఆంధ్రప్రదేశ్ పాఠశాల విద్యా శాఖ ఫలితాల పోర్టల్ నుండి సేకరించబడ్డాయి. SGT, గణితం &amp; సైన్స్, సాంఘిక శాస్త్రాలు, మరియు తెలుగు/ఇంగ్లీష్ భాషా పత్రాలతో కలిపి మొత్తం 12 అధికారిక పత్రాలు ఉన్నాయి.
+    </p>
 
     <div class="unlock-banner" *ngIf="!loading && lockedPapersCount > 0">
-      <span>
+      <span *ngIf="lang === 'en'">
         <strong>{{ lockedPapersCount }} more official papers</strong> are available with a subscription.
       </span>
-      <button type="button" (click)="openPaywall()">Unlock all 12 papers</button>
+      <span *ngIf="lang === 'te'">
+        <strong>మరో {{ lockedPapersCount }} అధికారిక పత్రాలు</strong> సబ్‌స్క్రిప్షన్‌తో అందుబాటులో ఉన్నాయి.
+      </span>
+      <button type="button" (click)="openPaywall()">{{ lang === 'te' ? 'మొత్తం 12 పత్రాలను అన్‌లాక్ చేయండి' : 'Unlock all 12 papers' }}</button>
     </div>
 
     <div class="lang-toggle">
       <button [class.active]="lang === 'en'" (click)="lang = 'en'" type="button">English</button>
       <button [class.active]="lang === 'te'" (click)="lang = 'te'" type="button">తెలుగు</button>
       <span class="lang-note" *ngIf="lang === 'te'">
-        English is always tested in English on the real exam, so those questions stay in English below.
+        ఆంగ్లం ఎల్లప్పుడూ వాస్తవ పరీక్షలో ఆంగ్లంలోనే పరీక్షించబడుతుంది, కాబట్టి ఆ ప్రశ్నలు దిగువన ఆంగ్లంలోనే ఉంటాయి.
       </span>
       <span class="lang-note" *ngIf="lang === 'en'">
         Telugu is a language & literature paper tested only in Telugu on the real exam, so those questions stay in
@@ -61,8 +67,9 @@ import { SubscriptionService } from '../../services/subscription.service';
     <p *ngIf="loading">Loading…</p>
 
     <div class="locked-notice" *ngIf="!loading && selectedPaperLocked">
-      <p>🔒 This paper is part of the subscription. Unlock it to practice all 10 remaining official 2026 papers.</p>
-      <button type="button" (click)="openPaywall()">Unlock all 12 papers</button>
+      <p *ngIf="lang === 'en'">🔒 This paper is part of the subscription. Unlock it to practice all 10 remaining official 2026 papers.</p>
+      <p *ngIf="lang === 'te'">🔒 ఈ పత్రం సబ్‌స్క్రిప్షన్‌లో భాగం. మిగిలిన 10 అధికారిక 2026 పత్రాలను ప్రాక్టీస్ చేయడానికి దీన్ని అన్‌లాక్ చేయండి.</p>
+      <button type="button" (click)="openPaywall()">{{ lang === 'te' ? 'మొత్తం 12 పత్రాలను అన్‌లాక్ చేయండి' : 'Unlock all 12 papers' }}</button>
     </div>
 
     <p *ngIf="!loading && !selectedPaperLocked && questions.length === 0">No 2026 questions added yet.</p>
