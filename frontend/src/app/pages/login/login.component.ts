@@ -24,18 +24,6 @@ import { AuthService } from '../../services/auth.service';
 
         <p class="error" *ngIf="error">{{ error }}</p>
 
-        <div class="demo">
-          <p class="demo-title"><strong>Demo logins</strong></p>
-
-          <p class="demo-role">Teacher login</p>
-          <p>Username: teacher&#64;vb</p>
-          <p>Password: teacher123</p>
-
-          <p class="demo-role">Parent login</p>
-          <p>Username: parent&#64;vb</p>
-          <p>Password: parent123</p>
-        </div>
-
         <p class="switch">
           Just here for TET 2026 practice? <a routerLink="/signup">Create a free account</a>
         </p>
