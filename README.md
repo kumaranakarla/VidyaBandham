@@ -81,12 +81,14 @@ Note: this tab (and Mock Test) covers years **2018, 2022, and 2024** —
 
 The real AP TET 2026 exam papers — the newest and largest addition to the
 question bank — get their own tab instead of just another year in TET
-Prep's year filter. Right now it has 296 questions (Paper 2A, Maths &
-Science, both August 2026 shifts); more official 2026 papers will be added
-here as they're processed (see "About the 2026 questions" further down for
-where they came from and how the answers were verified). It works the same
-way as TET Prep — subject filter, English/Telugu toggle, instant right/wrong
-feedback — plus a "Paper" filter so you can isolate one shift if you want.
+Prep's year filter. It now has **1,786 questions across 12 official exam
+papers** (Paper 1/SGT, Paper 2A Maths & Science, Paper 2A Social Studies,
+Paper 2A Language-Telugu, and Paper 2A Language-English, spanning multiple
+shifts/dates in August 2026) — see "About the 2026 questions" further down
+for where they came from and how the answers were verified. It works the
+same way as TET Prep — subject filter, English/Telugu toggle, instant
+right/wrong feedback — plus a "Paper" filter so you can isolate one shift
+if you want.
 
 **Why a separate tab instead of a year filter:** this is deliberately its
 own frontend route (`/tet-2026`, `Tet2026Component`) and its own backend
@@ -142,7 +144,7 @@ classes 1–5, Paper 2 for classes 6–8).
 ### About the question bank
 
 The set now covers **four real exam years — 2018, 2022, 2024, and 2026 —
-621 questions in total**, spanning Child Development & Pedagogy, English,
+2,111 questions in total**, spanning Child Development & Pedagogy, English,
 Telugu, Mathematics, Science & EVS, Physical Science, Biology, and Social
 Studies. Every question and its 4 options are transcribed from genuine,
 officially published AP TET papers — nothing is invented. Each question in
@@ -151,8 +153,18 @@ newest-first.
 
 | Year | Paper | Questions |
 |---|---|---|
+| 2026 | Paper 2A (Social Studies), 10th August 2026 Shift 2 | 150 |
+| 2026 | Paper 2A (Social Studies), 11th August 2026 Shift 2 | 150 |
+| 2026 | Paper 2A (Language - English), 16th August 2026 Shift 2 | 150 |
+| 2026 | Paper 1 (SGT), 8th August 2026 Shift 1 | 149 |
+| 2026 | Paper 1 (SGT), 9th August 2026 Shift 1 | 149 |
+| 2026 | Paper 1 (SGT), 9th August 2026 Shift 2 | 149 |
+| 2026 | Paper 2A (Social Studies), 11th August 2026 Shift 1 | 149 |
+| 2026 | Paper 2A (Language - Telugu), 5th August 2026 Shift 2 | 149 |
+| 2026 | Paper 1 (SGT), 6th August 2026 Shift 2 | 148 |
 | 2026 | Paper 2A (Maths & Science), 13th August 2026 Shift 1 | 148 |
 | 2026 | Paper 2A (Maths & Science), 12th August 2026 Shift 2 | 148 |
+| 2026 | Paper 2A (Maths & Science), 14th August 2026 Shift 2 | 147 |
 | 2018 | Paper 1, June 2018 (two shifts) | 47 |
 | 2018 | Paper 1 (Language I — Telugu), 12 June 2018 | 30 |
 | 2018 | Paper 2A (Social Studies), 14 June 2018 | 60 |
@@ -246,12 +258,47 @@ how English-subject questions are tagged "English only" in Telugu mode.
 August 2026), and the official government portal, `tet2dsc.apcfss.in`,
 publishes each candidate's response sheet as a PDF with the full question
 paper plus a color-coded answer key baked in — every option is labeled
-green (correct) or red (incorrect) right on the page. These are two such
-official PDFs: **Paper 2A (Maths & Science)**, one from the 13th August
-2026 Shift 1 session and one from the 12th August 2026 Shift 2 session,
-each a full 150-question paper covering Child Development & Pedagogy,
-Telugu (Language I), English (Language II), Mathematics, Physical Science,
-and Biology.
+green (correct) or red (incorrect) right on the page. The question bank now
+includes **12 such official response-sheet PDFs**, covering five distinct
+AP TET 2026 paper types:
+
+- **Paper 1 (SGT)** — classes 1–5, four shifts (6th, 8th, 9th ×2 August).
+  Sections: Child Development & Pedagogy, Telugu (Language I), English
+  (Language II), Mathematics, and Science & EVS (150 questions each,
+  covering the primary-classes syllabus rather than the harder Paper 2
+  version of these subjects).
+- **Paper 2A (Maths & Science)** — classes 6–8, three shifts (12th, 13th,
+  14th August). Sections: CDP, Telugu, English, Mathematics, Physical
+  Science, and Biology.
+- **Paper 2A (Social Studies)** — classes 6–8, three shifts (10th, 11th ×2
+  August). Sections: CDP, Telugu, English, and Social Studies (a double-size,
+  60-question section covering History/Geography/Civics content and
+  methodology together).
+- **Paper 2A (Language - Telugu)** — the Telugu-medium language specialist
+  ("pandit") paper, one shift (5th August). Sections: CDP, then Telugu
+  appears twice — once as the 30-question Language I paper and again as a
+  60-question Content + Methodology block — both tagged as the "Telugu"
+  subject in this app (90 Telugu questions total from this one paper) —
+  plus English (Language II).
+- **Paper 2A (Language - English) — the English-medium language specialist
+  paper**, one shift (16th August). This PDF's official answer key is
+  unusual: it prints the correct-answer block for *all seven* optional
+  Language-I scripts a candidate could have picked (Telugu, Urdu, Hindi,
+  Kannada, Oriya, Tamil, Sanskrit — 210 questions total for that section
+  alone), since it's a master key rather than one candidate's response
+  sheet. Since this app only supports Telugu and English, only the Telugu
+  Language-I block (30 questions) was kept and the other six language
+  blocks (180 questions) were deliberately left out — they don't correspond
+  to any subject this app has. Its Child Development & Pedagogy section
+  also turned out to be printed in English only (no Telugu translation
+  anywhere in that section, unlike every other 2026 paper), so those 30
+  questions are tagged "English only" the way the pure-English-subject
+  questions are, rather than force-fitting a translation that doesn't exist
+  in the source.
+
+One duplicate upload (`...SS TELUGU 11th Aug 2026 Shift 1 Set B`, uploaded
+twice with different filenames) was detected by comparing file checksums
+and only processed once.
 
 Getting the correct answers out was fully automatic and 100% reliable:
 the PDF's question *text* is embedded as an image (not extractable), but
@@ -260,29 +307,25 @@ machine-readable text, and the correct option's color is a real, readable
 text-color attribute on that block — so a script read every PDF page,
 found each question's Options block, and recorded which option number was
 colored green. This was verified against the visible coloring by eye
-during transcription for every question, with zero contradictions found
-across all 296 questions kept.
+during transcription for every question, with only a small handful of
+flagged edge cases (a few officially-acknowledged "either answer accepted"
+ambiguity notes, kept as the ground-truth answer with a note) across all
+1,786 questions kept.
 
 The question and option *text* itself was still transcribed by vision —
 each page opened as its rendered image and read directly, the same
 approach used for the 2018 Telugu paper above — since that's the only
-reliable way to get the actual wording (and, for CDP/Mathematics/Physical
-Science/Biology, the Telugu translation shown alongside it) out of this
-PDF format. Telugu and English (Language I/II) questions are
-language-and-literature papers like the existing "Telugu" and "English"
-subjects, so they stay in one language only, tagged accordingly.
+reliable way to get the actual wording (and, where the paper shows one, the
+Telugu translation alongside it) out of this PDF format. Telugu and English
+questions in the language-specialist sections are language-and-literature
+content like the existing "Telugu" and "English" subjects, so they stay in
+one language only, tagged accordingly.
 
-4 questions (2 per shift) were officially cancelled by the exam board
-itself — the PDF marks these with a blue note reading "discrepancy is
-found in question/answer, full marks awarded to all candidates" and
-leaves the options uncolored — and were left out of the question bank
-entirely, since there's no single correct answer to mark.
-
-There are 8 more official 2026 PDFs already on hand (Paper 1/SGT across
-four shifts, Paper 2A Language-Telugu variant across two shifts, Paper 2
-Social Studies, and Paper 2B Special Education), plus more the user may
-still send — these haven't been processed yet but would follow the exact
-same verified pipeline.
+A total of 10 questions across these 12 papers were officially cancelled
+by the exam board itself — the PDF marks these with a blue note reading
+"discrepancy is found in question/answer, full marks awarded to all
+candidates" and leaves the options uncolored — and were left out of the
+question bank entirely, since there's no single correct answer to mark.
 
 ## Mock Test tab
 
