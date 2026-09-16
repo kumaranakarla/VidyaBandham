@@ -39,6 +39,20 @@ export class AuthService {
       );
   }
 
+  // Public self-signup, for TET Prep subscribers only — teacher/parent
+  // accounts are still created from inside the app, not through this.
+  register(name: string, email: string, password: string): Observable<{ token: string; user: User }> {
+    return this.http
+      .post<{ token: string; user: User }>(`${environment.apiUrl}/auth/register`, { name, email, password })
+      .pipe(
+        tap((res) => {
+          localStorage.setItem(TOKEN_KEY, res.token);
+          localStorage.setItem(USER_KEY, JSON.stringify(res.user));
+          this.user.set(res.user);
+        })
+      );
+  }
+
   logout(): void {
     localStorage.removeItem(TOKEN_KEY);
     localStorage.removeItem(USER_KEY);
@@ -48,5 +62,12 @@ export class AuthService {
 
   isTeacher(): boolean {
     return this.user()?.role === 'teacher';
+  }
+
+  // A tet_subscriber account has no class/students/diary/etc. — it exists
+  // only to practice TET 2026 papers, so the rest of the app's nav should
+  // stay out of its way.
+  isSubscriberOnly(): boolean {
+    return this.user()?.role === 'tet_subscriber';
   }
 }

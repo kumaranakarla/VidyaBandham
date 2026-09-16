@@ -1,6 +1,7 @@
 import { Routes } from '@angular/router';
-import { authGuard } from './guards/auth.guard';
+import { authGuard, homeRedirectGuard } from './guards/auth.guard';
 import { LoginComponent } from './pages/login/login.component';
+import { SignupComponent } from './pages/signup/signup.component';
 import { ShellComponent } from './pages/shell/shell.component';
 import { DiaryComponent } from './pages/diary/diary.component';
 import { HomeworkComponent } from './pages/homework/homework.component';
@@ -13,12 +14,17 @@ import { Tet2026Component } from './pages/tet-2026/tet-2026.component';
 
 export const routes: Routes = [
   { path: 'login', component: LoginComponent },
+  { path: 'signup', component: SignupComponent },
   {
     path: '',
     component: ShellComponent,
     canActivate: [authGuard],
     children: [
-      { path: '', redirectTo: 'diary', pathMatch: 'full' },
+      // See homeRedirectGuard's comment — the landing page depends on role.
+      // No `component`/`redirectTo`: the guard always navigates elsewhere
+      // and returns false, so this route itself never actually renders.
+      // `pathMatch: 'full'` keeps it from swallowing every other child path.
+      { path: '', pathMatch: 'full', canActivate: [homeRedirectGuard], children: [] },
       { path: 'diary', component: DiaryComponent },
       { path: 'homework', component: HomeworkComponent },
       { path: 'attendance', component: AttendanceComponent },

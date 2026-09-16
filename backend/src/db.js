@@ -20,7 +20,7 @@ db.exec(`
     id TEXT PRIMARY KEY,
     email TEXT UNIQUE NOT NULL,
     password_hash TEXT NOT NULL,
-    role TEXT NOT NULL CHECK (role IN ('teacher', 'parent')),
+    role TEXT NOT NULL CHECK (role IN ('teacher', 'parent', 'tet_subscriber')),
     name TEXT NOT NULL,
     class_id TEXT REFERENCES classes(id),
     student_id TEXT
@@ -111,7 +111,68 @@ db.exec(`
     score_percent INTEGER NOT NULL,
     taken_at TEXT NOT NULL
   );
+
+  -- TET 2026 paywall: one row per Razorpay payment/subscription period for a
+  -- 'tet_subscriber' user. A subscription is "active" when status = 'paid'
+  -- and current_period_end is in the future (checked in application code,
+  -- not via a stored generated column, since node:sqlite's date functions
+  -- are limited) — renewal is manual (a fresh payment + new row), not
+  -- auto-recurring billing.
+  CREATE TABLE IF NOT EXISTS subscriptions (
+    id TEXT PRIMARY KEY,
+    user_id TEXT NOT NULL REFERENCES users(id),
+    status TEXT NOT NULL CHECK (status IN ('created', 'paid', 'failed')),
+    razorpay_order_id TEXT,
+    razorpay_payment_id TEXT,
+    amount INTEGER NOT NULL,
+    current_period_end TEXT,
+    created_at TEXT NOT NULL
+  );
 `);
+
+// The `users.role` CHECK constraint originally only allowed 'teacher' and
+// 'parent'. The CREATE TABLE above already lists 'tet_subscriber' too, but
+// that only takes effect on a brand-new database — CREATE TABLE IF NOT
+// EXISTS is a no-op on an existing install (e.g. the live Render database),
+// and SQLite can't ALTER a CHECK constraint directly. The standard
+// workaround: rename the old table, create a new one with the updated
+// constraint, copy the data across, then drop the old table.
+const usersTableRow = db.prepare(
+  "SELECT sql FROM sqlite_master WHERE type='table' AND name='users'"
+).get();
+if (usersTableRow && !usersTableRow.sql.includes('tet_subscriber')) {
+  // Two other tables (students.parent_user_id, tet_mock_attempts.user_id)
+  // hold a foreign key to users(id). By default SQLite's ALTER TABLE RENAME
+  // rewrites those tables' FK text to point at "users_old" when we rename
+  // users out of the way, leaving them pointing at a dropped table once
+  // we're done. `legacy_alter_table` turns that rewriting off, so the other
+  // tables' FK text stays literally "users" and transparently picks up the
+  // freshly-created replacement table instead. `foreign_keys` is turned off
+  // for the same statements so the rename/drop sequence itself isn't
+  // blocked by FK enforcement mid-migration.
+  db.exec('PRAGMA legacy_alter_table = ON');
+  db.exec('PRAGMA foreign_keys = OFF');
+  db.exec(`
+    ALTER TABLE users RENAME TO users_old;
+
+    CREATE TABLE users (
+      id TEXT PRIMARY KEY,
+      email TEXT UNIQUE NOT NULL,
+      password_hash TEXT NOT NULL,
+      role TEXT NOT NULL CHECK (role IN ('teacher', 'parent', 'tet_subscriber')),
+      name TEXT NOT NULL,
+      class_id TEXT REFERENCES classes(id),
+      student_id TEXT
+    );
+
+    INSERT INTO users (id, email, password_hash, role, name, class_id, student_id)
+      SELECT id, email, password_hash, role, name, class_id, student_id FROM users_old;
+
+    DROP TABLE users_old;
+  `);
+  db.exec('PRAGMA legacy_alter_table = OFF');
+  db.exec('PRAGMA foreign_keys = ON');
+}
 
 // `year` was added to tet_questions after the table already existed on some
 // installs (an existing local vidyabandham.db file, for instance). SQLite's

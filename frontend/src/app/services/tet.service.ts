@@ -83,6 +83,21 @@ export interface MockAttempt {
   taken_at: string;
 }
 
+// One entry per official 2026 exam paper, whether or not its questions were
+// actually included in this response (a locked paper's name still shows up
+// here, so the UI can list it with a lock icon).
+export interface Tet2026Paper {
+  name: string;
+  free: boolean;
+  locked: boolean;
+}
+
+export interface Tet2026Response {
+  questions: TetQuestion[];
+  papers: Tet2026Paper[];
+  subscription: { active: boolean; currentPeriodEnd: string | null };
+}
+
 @Injectable({ providedIn: 'root' })
 export class TetService {
   private base = `${environment.apiUrl}/tet`;
@@ -99,7 +114,7 @@ export class TetService {
   }
 
   list2026() {
-    return this.http.get<{ questions: TetQuestion[] }>(this.base2026);
+    return this.http.get<Tet2026Response>(this.base2026);
   }
 
   startMock(year: string, subject: string, count: number) {

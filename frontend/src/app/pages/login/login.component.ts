@@ -1,13 +1,13 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { Router } from '@angular/router';
+import { Router, RouterLink } from '@angular/router';
 import { AuthService } from '../../services/auth.service';
 
 @Component({
   selector: 'app-login',
   standalone: true,
-  imports: [CommonModule, FormsModule],
+  imports: [CommonModule, FormsModule, RouterLink],
   template: `
     <div class="login-page">
       <form class="login-card" (ngSubmit)="submit()">
@@ -35,6 +35,10 @@ import { AuthService } from '../../services/auth.service';
           <p>Username: parent&#64;vb</p>
           <p>Password: parent123</p>
         </div>
+
+        <p class="switch">
+          Just here for TET 2026 practice? <a routerLink="/signup">Create a free account</a>
+        </p>
       </form>
     </div>
   `,
@@ -127,6 +131,15 @@ import { AuthService } from '../../services/auth.service';
         color: #2c4870;
         font-weight: bold;
       }
+      .switch {
+        margin-top: 1.2rem;
+        text-align: center;
+        font-size: 0.85rem;
+        color: #666;
+      }
+      .switch a {
+        color: #2c4870;
+      }
     `,
   ],
 })
@@ -143,9 +156,9 @@ export class LoginComponent {
     this.loading = true;
     this.error = '';
     this.auth.login(this.email, this.password).subscribe({
-      next: () => {
+      next: (res) => {
         this.loading = false;
-        this.router.navigate(['/diary']);
+        this.router.navigate([res.user.role === 'tet_subscriber' ? '/tet-2026' : '/diary']);
       },
       error: (err) => {
         this.loading = false;

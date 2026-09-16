@@ -35442,6 +35442,7 @@ function seedTetQuestions() {
 function seed() {
   db.exec(`
     DELETE FROM tet_mock_attempts;
+    DELETE FROM subscriptions;
     DELETE FROM fee_history;
     DELETE FROM fees;
     DELETE FROM attendance;

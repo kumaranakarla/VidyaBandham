@@ -94,15 +94,18 @@ if you want.
 own frontend route (`/tet-2026`, `Tet2026Component`) and its own backend
 endpoint (`/api/tet-2026`, `backend/src/routes/tet2026.js`), completely
 apart from the `tet`/`mock-test` routes and the main `/api/tet` endpoint.
-The plan is for this specific content (the newest, most in-demand exam
-year) to eventually sit behind a paid subscription, while the rest of the
-app — diary, homework, attendance, fees, and the older TET years — stays
-free. Keeping it as its own route and its own API endpoint from day one
-means a login/subscription check can be added later in exactly one place
-(the route's `canActivate` on the frontend, and the route's mount line in
-`backend/src/server.js` on the backend) without touching or risking
-anything else in the app. **No subscription or payment logic exists yet** —
-today the tab just requires being logged in, same as everything else.
+Keeping it as its own route and its own API endpoint from day one is what
+let the paywall below get added without touching or risking anything else
+in the app — diary, homework, attendance, fees, and the older TET years
+all stay free and untouched.
+
+**This tab is now partly a paid subscription.** 2 of the 12 papers (Paper
+2A Maths & Science, both shifts) are free forever for any logged-in
+account. The other 10 papers require an active subscription — see
+"Subscription & payments (Razorpay)" below for the full design. A locked
+paper's name and shift still show up in the "Paper" filter (with a 🔒), so
+it's clear what exists, but its actual questions are never sent to the
+browser until the subscription check passes server-side.
 
 ### English / Telugu toggle
 
@@ -327,6 +330,55 @@ by the exam board itself — the PDF marks these with a blue note reading
 candidates" and leaves the options uncolored — and were left out of the
 question bank entirely, since there's no single correct answer to mark.
 
+## Subscription & payments (Razorpay)
+
+The 2026 (New) tab's 10 non-free papers are gated behind a ₹299 / 30-day
+(1 month) subscription, paid through [Razorpay](https://razorpay.com). This is a
+separate, public self-signup flow — it does **not** reuse the
+teacher/parent accounts a teacher creates from inside the app.
+
+**New pieces:**
+
+- A third user role, `tet_subscriber`, created via `POST /api/auth/register`
+  (public signup — no teacher/admin involved) and the `/signup` page. A
+  `tet_subscriber` account has no class and none of the school-management
+  nav links (Diary/Homework/Attendance/Fees/Students/TET Prep/Mock Test) —
+  it exists purely to practice TET 2026 papers.
+- A `subscriptions` table (`backend/src/db.js`): one row per Razorpay
+  order/payment. A subscription is "active" when its latest `paid` row's
+  `current_period_end` is still in the future. **Renewal is manual** — a
+  lapsed subscriber pays again for another 30 days; there's no
+  auto-recurring billing (Razorpay's Subscriptions API isn't used, just
+  one-off Orders).
+- `backend/src/routes/subscription.js` — `GET /status`, `POST
+  /create-order`, `POST /verify`. `/verify` recomputes the HMAC-SHA256
+  signature Razorpay hands back server-side before marking a subscription
+  paid; the client's own "payment succeeded" callback is never trusted on
+  its own.
+- `backend/src/routes/tet2026.js` filters the questions it returns based on
+  the caller's subscription status — a locked paper's questions never leave
+  the server for a non-subscriber.
+- The frontend's `SubscriptionService` opens Razorpay's Checkout.js widget
+  (loaded globally in `frontend/src/index.html`, not an npm package, per
+  Razorpay's own integration docs) and shows an "Important Notice"-styled
+  popup on the 2026 (New) tab prompting registration/login/payment.
+
+**Setting up Razorpay keys:** sign up for a free Razorpay account, grab your
+**test-mode** Key ID and Key Secret from the Razorpay dashboard, and put
+them in `backend/.env`:
+
+```
+RAZORPAY_KEY_ID=rzp_test_...
+RAZORPAY_KEY_SECRET=...
+```
+
+Without real keys, the app still runs — `create-order` just fails with a
+clear error instead of crashing (there's a non-functional placeholder
+fallback so local dev doesn't require signing up for Razorpay just to work
+on unrelated parts of the app). **Swap the test keys for live keys only
+when ready to accept real payments** — nothing in the code changes, only
+the environment variables on Render.
+
 ## Mock Test tab
 
 Where TET Prep is for browsing questions at your own pace, the **Mock Test**
@@ -414,6 +466,11 @@ git push -u origin main
 3. Deploy. Once it's live, copy the URL Render gives you (something like
    `https://vidyabandham-backend-xxxx.onrender.com`, or a custom name if you
    set one during setup).
+4. For the TET 2026 subscription/paywall to actually accept payments, add
+   `RAZORPAY_KEY_ID` and `RAZORPAY_KEY_SECRET` under the service's
+   **Environment** tab (see "Subscription & payments (Razorpay)" above) —
+   test-mode keys to start, live keys once you're ready to accept real
+   payments.
 
 ### 3. Frontend on Netlify
 1. Open `frontend/src/environments/environment.prod.ts` and replace the

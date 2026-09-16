@@ -13,6 +13,10 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Telugu:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- Razorpay's own checkout widget script — needed for the 2026 (New) tab's
+       subscription paywall (see Tet2026Component). Loaded globally here
+       rather than npm-installed, per Razorpay's own integration docs. -->
+  <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
 </head>
 <body>
   <app-root></app-root>

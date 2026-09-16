@@ -1,0 +1,83 @@
+import { Injectable } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { environment } from '../../environments/environment';
+
+export interface SubscriptionStatus {
+  active: boolean;
+  currentPeriodEnd: string | null;
+  amount: number;
+  keyId: string;
+}
+
+export interface CreateOrderResponse {
+  orderId: string;
+  amount: number;
+  currency: string;
+  keyId: string;
+}
+
+// Razorpay Checkout.js is loaded as a plain global script in index.html
+// (not an npm package) — this is the shape of the `Razorpay` constructor it
+// adds to `window`, just enough of it for what this app uses.
+interface RazorpayCheckoutOptions {
+  key: string;
+  amount: number;
+  currency: string;
+  name: string;
+  description: string;
+  order_id: string;
+  prefill?: { name?: string; email?: string };
+  theme?: { color?: string };
+  handler: (response: { razorpay_order_id: string; razorpay_payment_id: string; razorpay_signature: string }) => void;
+  modal?: { ondismiss?: () => void };
+}
+declare const Razorpay: new (options: RazorpayCheckoutOptions) => { open: () => void };
+
+@Injectable({ providedIn: 'root' })
+export class SubscriptionService {
+  private base = `${environment.apiUrl}/subscription`;
+  constructor(private http: HttpClient) {}
+
+  status() {
+    return this.http.get<SubscriptionStatus>(`${this.base}/status`);
+  }
+
+  createOrder() {
+    return this.http.post<CreateOrderResponse>(`${this.base}/create-order`, {});
+  }
+
+  verify(payload: { razorpay_order_id: string; razorpay_payment_id: string; razorpay_signature: string }) {
+    return this.http.post<{ ok: boolean; currentPeriodEnd: string }>(`${this.base}/verify`, payload);
+  }
+
+  // Opens the Razorpay Checkout widget for one order, and resolves once the
+  // payment is captured AND verified server-side (never trust the client-side
+  // callback alone) or rejects if the user closes the widget without paying.
+  openCheckout(
+    order: CreateOrderResponse,
+    user: { name: string; email?: string }
+  ): Promise<{ currentPeriodEnd: string }> {
+    return new Promise((resolve, reject) => {
+      const rzp = new Razorpay({
+        key: order.keyId,
+        amount: order.amount,
+        currency: order.currency,
+        name: 'Vidya Bandham — TET Prep',
+        description: 'TET 2026 full access (30 days)',
+        order_id: order.orderId,
+        prefill: { name: user.name, email: user.email },
+        theme: { color: '#2563eb' },
+        handler: (response) => {
+          this.verify(response).subscribe({
+            next: (res) => resolve({ currentPeriodEnd: res.currentPeriodEnd }),
+            error: (err) => reject(err),
+          });
+        },
+        modal: {
+          ondismiss: () => reject(new Error('cancelled')),
+        },
+      });
+      rzp.open();
+    });
+  }
+}

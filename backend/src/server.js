@@ -15,6 +15,7 @@ const attendanceRoutes = require('./routes/attendance');
 const feesRoutes = require('./routes/fees');
 const tetRoutes = require('./routes/tet');
 const tet2026Routes = require('./routes/tet2026');
+const subscriptionRoutes = require('./routes/subscription');
 
 const app = express();
 app.use(cors());
@@ -33,9 +34,12 @@ app.use('/api/attendance', attendanceRoutes);
 app.use('/api/fees', feesRoutes);
 app.use('/api/tet', tetRoutes);
 // Its own mount point, on purpose — see the comment at the top of
-// routes/tet2026.js. A future subscription check for this content would go
-// right here, e.g. app.use('/api/tet-2026', requireSubscription, tet2026Routes).
+// routes/tet2026.js. The subscription/paywall check lives inside
+// tet2026Routes itself (it needs to filter which questions come back, not
+// just allow/deny the whole request), so there's nothing extra to wire up
+// here beyond the sibling router below.
 app.use('/api/tet-2026', tet2026Routes);
+app.use('/api/subscription', subscriptionRoutes);
 
 // eslint-disable-next-line no-unused-vars
 app.use((err, req, res, next) => {
