@@ -16,16 +16,17 @@ const router = express.Router();
 // (not sent to the client at all — this isn't just a UI lock) unless the
 // caller has full access.
 //
-// "Full access" means either: an existing teacher/parent account (they
-// already use the rest of the app for free — the paywall is specifically
-// for the new public tet_subscriber signups, not a new toll on existing
-// users), or a tet_subscriber with an active row in `subscriptions`.
+// "Full access" applies the same way to every role — teacher, parent, or
+// tet_subscriber — and means an active row in `subscriptions`. The TET 2026
+// paywall is a separate product surface from the school's diary/attendance/
+// fees features, so an account being a teacher or parent doesn't exempt it
+// here; it still needs its own paid subscription to unlock the other 10
+// papers.
 router.get('/', requireAuth, (req, res) => {
   const allRows = db.prepare('SELECT * FROM tet_questions WHERE year = 2026 ORDER BY source, subject, id').all();
 
-  const isSchoolAccount = req.user.role === 'teacher' || req.user.role === 'parent';
-  const active = isSchoolAccount ? null : activeSubscriptionFor(req.user.id);
-  const hasAccess = isSchoolAccount || !!active;
+  const active = activeSubscriptionFor(req.user.id);
+  const hasAccess = !!active;
 
   const paperNames = [...new Set(allRows.map((r) => r.source))];
   const papers = paperNames.map((name) => {
