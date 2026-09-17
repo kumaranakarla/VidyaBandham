@@ -65,12 +65,18 @@ import { AuthService } from '../../services/auth.service';
         display: flex;
         flex-direction: column;
         /* Layered radial glows (brand blue + orange) over a soft diagonal
-           gradient, rather than the old flat beige — kept subtle so the
-           white login card stays the clear focal point. */
+           gradient, plus a very faint tiled pattern of school icons (book,
+           pencil, graduation cap, apple) drawn as an inline SVG data URI —
+           no external image file needed. Opacity is baked into the SVG
+           itself (0.065) so it reads as a subtle texture, not clutter,
+           and the white login card stays the clear focal point. */
         background:
           radial-gradient(circle at 15% 20%, rgba(44, 72, 112, 0.16), transparent 45%),
           radial-gradient(circle at 85% 80%, rgba(201, 124, 31, 0.18), transparent 45%),
+          url("data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%27320%27%20height%3D%27320%27%20viewBox%3D%270%200%20320%20320%27%3E%0A%20%20%3Cg%20fill%3D%27none%27%20stroke%3D%27%232c4870%27%20stroke-width%3D%272.2%27%20stroke-linecap%3D%27round%27%20stroke-linejoin%3D%27round%27%20opacity%3D%270.065%27%3E%0A%20%20%20%20%3Cg%20transform%3D%27translate%2830%2C40%29%20rotate%28-6%29%27%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%27M0%200%20Q16%20-9%2032%200%20L32%2020%20Q16%2011%200%2020%20Z%27%2F%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%27M32%200%20Q48%20-9%2064%200%20L64%2020%20Q48%2011%2032%2020%20Z%27%2F%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%27M32%200%20L32%2020%27%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%3Cg%20transform%3D%27translate%28200%2C20%29%20rotate%2818%29%27%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%27M0%200%20L34%2034%20L28%2040%20L-6%206%20Z%27%2F%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%27M28%2040%20L20%2048%20L14%2042%20Z%27%20fill%3D%27%232c4870%27%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%3Cg%20transform%3D%27translate%2840%2C190%29%20rotate%284%29%27%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%27M0%200%20L28%20-12%20L56%200%20L28%2012%20Z%27%2F%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%27M28%2012%20L28%2030%27%2F%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%2728%27%20cy%3D%2733%27%20r%3D%272.5%27%20fill%3D%27%232c4870%27%2F%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%27M0%204%20L0%2020%20Q28%2032%2056%2020%20L56%204%27%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%3Cg%20transform%3D%27translate%28230%2C210%29%27%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%2716%27%20cy%3D%2716%27%20r%3D%2716%27%2F%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%27M16%200%20Q18%20-8%2026%20-8%27%2F%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%27M26%20-8%20Q32%20-8%2032%20-2%27%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E")
+            repeat,
           linear-gradient(135deg, #eef1f6 0%, #f4f1ea 55%, #fdf2e3 100%);
+        background-size: auto, auto, 320px 320px, auto;
         font-family: system-ui, sans-serif;
         font-weight: bold;
       }
