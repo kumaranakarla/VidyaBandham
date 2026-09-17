@@ -51,15 +51,23 @@ import { AuthService } from '../../services/auth.service';
         display: flex;
         align-items: center;
         justify-content: center;
-        background: #f4f1ea;
+        padding: 1.5rem;
+        box-sizing: border-box;
+        /* Layered radial glows (brand blue + orange) over a soft diagonal
+           gradient, rather than the old flat beige — kept subtle so the
+           white login card stays the clear focal point. */
+        background:
+          radial-gradient(circle at 15% 20%, rgba(44, 72, 112, 0.16), transparent 45%),
+          radial-gradient(circle at 85% 80%, rgba(201, 124, 31, 0.18), transparent 45%),
+          linear-gradient(135deg, #eef1f6 0%, #f4f1ea 55%, #fdf2e3 100%);
         font-family: system-ui, sans-serif;
         font-weight: bold;
       }
       .login-card {
         background: white;
         padding: 2.5rem;
-        border-radius: 12px;
-        box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+        border-radius: 14px;
+        box-shadow: 0 12px 40px rgba(44, 72, 112, 0.14), 0 2px 8px rgba(0, 0, 0, 0.06);
         width: 100%;
         max-width: 360px;
         font-weight: bold;
