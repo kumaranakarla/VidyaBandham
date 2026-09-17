@@ -24,6 +24,12 @@ import { AuthService } from '../../services/auth.service';
 
         <p class="error" *ngIf="error">{{ error }}</p>
 
+        <div class="cta-banner">
+          <p class="cta-title">📝 Preparing for AP TET 2026?</p>
+          <p class="cta-text">Create your free account and start practicing 2 official papers right away — no payment needed.</p>
+          <a routerLink="/signup" class="cta-button">Create Free Account →</a>
+        </div>
+
         <div class="demo">
           <p class="demo-title"><strong>Demo logins</strong></p>
 
@@ -35,10 +41,6 @@ import { AuthService } from '../../services/auth.service';
           <p>Username: parent&#64;vb</p>
           <p>Password: parent123</p>
         </div>
-
-        <p class="switch">
-          Just here for TET 2026 practice? <a routerLink="/signup">Create a free account</a>
-        </p>
       </form>
     </div>
   `,
@@ -131,14 +133,40 @@ import { AuthService } from '../../services/auth.service';
         color: #2c4870;
         font-weight: bold;
       }
-      .switch {
-        margin-top: 1.2rem;
+      .cta-banner {
+        margin-top: 1.5rem;
+        padding: 1.1rem 1.1rem 1.2rem;
+        background: linear-gradient(135deg, #fff4e6, #fffaf2);
+        border: 1px solid #f0c98a;
+        border-radius: 10px;
         text-align: center;
-        font-size: 0.85rem;
-        color: #666;
       }
-      .switch a {
-        color: #2c4870;
+      .cta-title {
+        margin: 0 0 0.35rem;
+        color: #6b4a1a;
+        font-size: 0.95rem;
+        font-weight: bold;
+      }
+      .cta-text {
+        margin: 0 0 0.9rem;
+        color: #8a6a3a;
+        font-size: 0.8rem;
+        font-weight: 500;
+        line-height: 1.35;
+      }
+      .cta-button {
+        display: inline-block;
+        background: #c97c1f;
+        color: white;
+        padding: 0.6rem 1.3rem;
+        border-radius: 999px;
+        text-decoration: none;
+        font-size: 0.85rem;
+        font-weight: bold;
+        letter-spacing: 0.01em;
+      }
+      .cta-button:hover {
+        background: #b56c15;
       }
     `,
   ],
