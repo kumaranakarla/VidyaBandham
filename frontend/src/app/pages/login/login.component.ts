@@ -186,7 +186,9 @@ export class LoginComponent {
     this.auth.login(this.email, this.password).subscribe({
       next: (res) => {
         this.loading = false;
-        this.router.navigate([res.user.role === 'tet_subscriber' ? '/tet-2026' : '/diary']);
+        const dest =
+          res.user.role === 'admin' ? '/admin' : res.user.role === 'tet_subscriber' ? '/tet-2026' : '/diary';
+        this.router.navigate([dest]);
       },
       error: (err) => {
         this.loading = false;

@@ -20,10 +20,11 @@ db.exec(`
     id TEXT PRIMARY KEY,
     email TEXT UNIQUE NOT NULL,
     password_hash TEXT NOT NULL,
-    role TEXT NOT NULL CHECK (role IN ('teacher', 'parent', 'tet_subscriber')),
+    role TEXT NOT NULL CHECK (role IN ('teacher', 'parent', 'tet_subscriber', 'admin')),
     name TEXT NOT NULL,
     class_id TEXT REFERENCES classes(id),
-    student_id TEXT
+    student_id TEXT,
+    created_at TEXT
   );
 
   CREATE TABLE IF NOT EXISTS students (
@@ -128,6 +129,15 @@ db.exec(`
     current_period_end TEXT,
     created_at TEXT NOT NULL
   );
+
+  -- One row per site visit (a single beacon call the frontend fires once
+  -- per app load, see track.js) — just enough to answer "how many hits this
+  -- week/month" from the admin dashboard. No path/referrer tracking, on
+  -- purpose: this is meant to be a simple curiosity number, not analytics.
+  CREATE TABLE IF NOT EXISTS page_hits (
+    id TEXT PRIMARY KEY,
+    created_at TEXT NOT NULL
+  );
 `);
 
 // The `users.role` CHECK constraint originally only allowed 'teacher' and
@@ -191,6 +201,50 @@ for (const col of ['question_te', 'option_a_te', 'option_b_te', 'option_c_te', '
   if (!tetTeColumns.some((c) => c.name === col)) {
     db.exec(`ALTER TABLE tet_questions ADD COLUMN ${col} TEXT`);
   }
+}
+
+// `created_at` was added to `users` for the admin dashboard's "new signups
+// this week/month" numbers, after the table already existed on some
+// installs. Adding a plain nullable column doesn't need the rename/recreate
+// dance a CHECK constraint change does — existing rows just get NULL,
+// which the admin dashboard's queries already skip.
+const userColumnsForCreatedAt = db.prepare("PRAGMA table_info(users)").all();
+if (!userColumnsForCreatedAt.some((c) => c.name === 'created_at')) {
+  db.exec('ALTER TABLE users ADD COLUMN created_at TEXT');
+}
+
+// Same CHECK-constraint problem as the tet_subscriber migration above, this
+// time adding the 'admin' role (for the admin dashboard). Re-checked
+// independently of that migration since a database that already has
+// tet_subscriber (e.g. the live Render database) would otherwise never pick
+// up this second change.
+const usersTableRowForAdmin = db.prepare(
+  "SELECT sql FROM sqlite_master WHERE type='table' AND name='users'"
+).get();
+if (usersTableRowForAdmin && !usersTableRowForAdmin.sql.includes("'admin'")) {
+  db.exec('PRAGMA legacy_alter_table = ON');
+  db.exec('PRAGMA foreign_keys = OFF');
+  db.exec(`
+    ALTER TABLE users RENAME TO users_old;
+
+    CREATE TABLE users (
+      id TEXT PRIMARY KEY,
+      email TEXT UNIQUE NOT NULL,
+      password_hash TEXT NOT NULL,
+      role TEXT NOT NULL CHECK (role IN ('teacher', 'parent', 'tet_subscriber', 'admin')),
+      name TEXT NOT NULL,
+      class_id TEXT REFERENCES classes(id),
+      student_id TEXT,
+      created_at TEXT
+    );
+
+    INSERT INTO users (id, email, password_hash, role, name, class_id, student_id, created_at)
+      SELECT id, email, password_hash, role, name, class_id, student_id, created_at FROM users_old;
+
+    DROP TABLE users_old;
+  `);
+  db.exec('PRAGMA legacy_alter_table = OFF');
+  db.exec('PRAGMA foreign_keys = ON');
 }
 
 module.exports = db;

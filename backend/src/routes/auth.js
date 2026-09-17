@@ -30,10 +30,11 @@ router.post('/register', (req, res) => {
     password_hash: bcrypt.hashSync(String(password), 10),
     role: 'tet_subscriber',
     name: String(name).trim(),
+    created_at: new Date().toISOString(),
   };
   db.prepare(
-    'INSERT INTO users (id, email, password_hash, role, name) VALUES (?, ?, ?, ?, ?)'
-  ).run(user.id, user.email, user.password_hash, user.role, user.name);
+    'INSERT INTO users (id, email, password_hash, role, name, created_at) VALUES (?, ?, ?, ?, ?, ?)'
+  ).run(user.id, user.email, user.password_hash, user.role, user.name, user.created_at);
 
   const created = db.prepare('SELECT * FROM users WHERE id = ?').get(user.id);
   const token = signToken(created);

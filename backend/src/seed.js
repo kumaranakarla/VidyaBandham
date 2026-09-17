@@ -35527,7 +35527,35 @@ function seedIfEmpty() {
   }
 }
 
-module.exports = { seed, seedIfEmpty };
+// Creates the one admin login used for the /admin dashboard, if one doesn't
+// already exist. Deliberately separate from seed()/seedIfEmpty(): seed()
+// unconditionally deletes every user, so if admin creation lived inside it,
+// a redeploy on a host that wipes the database (see the big comment at the
+// top of this file) would recreate the admin account and then seed() would
+// immediately delete it again in the same startup. Called from server.js
+// *after* seedIfEmpty(), so it always runs last and the account survives.
+//
+// Reads ADMIN_EMAIL / ADMIN_PASSWORD from the environment so the real
+// credentials never need to live in source control — see .env.example.
+// The fallback values below only kick in if those aren't set (e.g. a local
+// dev checkout); change them (or set the env vars) before this is exposed
+// on a server anyone else can reach, since the admin dashboard shows real
+// subscriber emails and revenue.
+function ensureAdminUser() {
+  const existing = db.prepare("SELECT id FROM users WHERE role = 'admin' LIMIT 1").get();
+  if (existing) return;
+
+  const email = (process.env.ADMIN_EMAIL || 'admin@vidyabandham.com').trim().toLowerCase();
+  const password = process.env.ADMIN_PASSWORD || 'change-this-admin-password';
+
+  db.prepare(
+    'INSERT INTO users (id, email, password_hash, role, name, created_at) VALUES (?, ?, ?, ?, ?, ?)'
+  ).run(id(), email, bcrypt.hashSync(password, 10), 'admin', 'Admin', now());
+
+  console.log(`Created admin account: ${email}` + (process.env.ADMIN_PASSWORD ? '' : ' (using the DEFAULT password — set ADMIN_EMAIL/ADMIN_PASSWORD env vars!)'));
+}
+
+module.exports = { seed, seedIfEmpty, ensureAdminUser };
 
 // Allows `npm run seed` / `node src/seed.js` to still work exactly as before,
 // always resetting to fresh demo data regardless of what's already there.

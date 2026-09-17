@@ -4,8 +4,9 @@ const cors = require('cors');
 
 require('./db'); // ensures tables exist before routes run
 
-const { seedIfEmpty } = require('./seed');
+const { seedIfEmpty, ensureAdminUser } = require('./seed');
 seedIfEmpty(); // on a host that wipes the database on restart, this keeps demo logins working
+ensureAdminUser(); // always runs last so it isn't wiped by a fresh seed() call above
 
 const authRoutes = require('./routes/auth');
 const diaryRoutes = require('./routes/diary');
@@ -16,6 +17,8 @@ const feesRoutes = require('./routes/fees');
 const tetRoutes = require('./routes/tet');
 const tet2026Routes = require('./routes/tet2026');
 const subscriptionRoutes = require('./routes/subscription');
+const adminRoutes = require('./routes/admin');
+const trackRoutes = require('./routes/track');
 
 const app = express();
 app.use(cors());
@@ -40,6 +43,8 @@ app.use('/api/tet', tetRoutes);
 // here beyond the sibling router below.
 app.use('/api/tet-2026', tet2026Routes);
 app.use('/api/subscription', subscriptionRoutes);
+app.use('/api/admin', adminRoutes);
+app.use('/api/track', trackRoutes);
 
 // eslint-disable-next-line no-unused-vars
 app.use((err, req, res, next) => {

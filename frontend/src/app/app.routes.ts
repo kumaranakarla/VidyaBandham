@@ -1,8 +1,9 @@
 import { Routes } from '@angular/router';
-import { authGuard, homeRedirectGuard } from './guards/auth.guard';
+import { authGuard, homeRedirectGuard, adminGuard } from './guards/auth.guard';
 import { LoginComponent } from './pages/login/login.component';
 import { SignupComponent } from './pages/signup/signup.component';
 import { ShellComponent } from './pages/shell/shell.component';
+import { AdminComponent } from './pages/admin/admin.component';
 import { DiaryComponent } from './pages/diary/diary.component';
 import { HomeworkComponent } from './pages/homework/homework.component';
 import { AttendanceComponent } from './pages/attendance/attendance.component';
@@ -15,6 +16,11 @@ import { Tet2026Component } from './pages/tet-2026/tet-2026.component';
 export const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'signup', component: SignupComponent },
+  // Standalone route, deliberately outside ShellComponent's children — the
+  // admin dashboard has nothing to do with the school-management nav
+  // (Diary/Homework/etc.) or the TET tabs, so it gets its own tiny header
+  // instead of hiding half of ShellComponent's nav for one role.
+  { path: 'admin', component: AdminComponent, canActivate: [adminGuard] },
   {
     path: '',
     component: ShellComponent,
