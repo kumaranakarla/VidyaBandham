@@ -50,6 +50,26 @@ router.get('/stats', requireAuth, requireAdmin, (req, res) => {
   const hits7 = db.prepare('SELECT COUNT(*) AS count FROM page_hits WHERE created_at >= ?').get(last7).count;
   const hits30 = db.prepare('SELECT COUNT(*) AS count FROM page_hits WHERE created_at >= ?').get(last30).count;
 
+  // Per-account login activity — added mainly to answer "how many times has
+  // the demo teacher@vb / parent@vb login actually been used", but covers
+  // every account so it's useful beyond just the demo ones.
+  const DEMO_EMAILS = new Set(['teacher@vb', 'parent@vb']);
+  const loginRows = db
+    .prepare(
+      `SELECT email, name, role, COALESCE(login_count, 0) AS loginCount, last_login_at AS lastLoginAt
+       FROM users
+       ORDER BY loginCount DESC, email ASC`
+    )
+    .all();
+  const logins = loginRows.map((r) => ({
+    email: r.email,
+    name: r.name,
+    role: r.role,
+    loginCount: r.loginCount,
+    lastLoginAt: r.lastLoginAt,
+    isDemo: DEMO_EMAILS.has(r.email),
+  }));
+
   res.json({
     users: {
       byRole: Object.fromEntries(usersByRole.map((r) => [r.role, r.count])),
@@ -68,6 +88,7 @@ router.get('/stats', requireAuth, requireAdmin, (req, res) => {
       })),
     },
     hits: { last7Days: hits7, last30Days: hits30, allTime: hitsAllTime },
+    logins,
   });
 });
 

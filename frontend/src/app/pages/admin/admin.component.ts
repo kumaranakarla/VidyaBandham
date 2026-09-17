@@ -82,6 +82,31 @@ import { AuthService } from '../../services/auth.service';
           </table>
         </div>
         <p *ngIf="stats && !stats.subscriptions.recent.length" class="empty">No paid subscriptions yet.</p>
+
+        <div class="recent" *ngIf="stats && stats.logins.length">
+          <h2>Login activity</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Account</th>
+                <th>Role</th>
+                <th>Times logged in</th>
+                <th>Last login</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let l of stats.logins" [class.demo-row]="l.isDemo">
+                <td>
+                  {{ l.email }}
+                  <span class="demo-tag" *ngIf="l.isDemo">demo</span>
+                </td>
+                <td>{{ l.role }}</td>
+                <td>{{ l.loginCount }}</td>
+                <td>{{ l.lastLoginAt ? (l.lastLoginAt | date: 'medium') : 'never' }}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </main>
     </div>
   `,
@@ -136,6 +161,20 @@ import { AuthService } from '../../services/auth.service';
       th, td { text-align: left; padding: 0.55rem 0.7rem; font-size: 0.85rem; border-bottom: 1px solid #eee; }
       th { color: #777; font-weight: 600; background: #faf8f4; }
       .empty { color: #888; font-size: 0.9rem; }
+      .recent + .recent { margin-top: 2rem; }
+      .demo-row { background: #fff9ef; }
+      .demo-tag {
+        display: inline-block;
+        margin-left: 0.4rem;
+        padding: 0.1rem 0.45rem;
+        background: #f0c98a;
+        color: #6b4a1a;
+        border-radius: 999px;
+        font-size: 0.68rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.02em;
+      }
     `,
   ],
 })

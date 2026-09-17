@@ -20,6 +20,14 @@ export interface AdminStats {
     }[];
   };
   hits: { last7Days: number; last30Days: number; allTime: number };
+  logins: {
+    email: string;
+    name: string;
+    role: string;
+    loginCount: number;
+    lastLoginAt: string | null;
+    isDemo: boolean;
+  }[];
 }
 
 @Injectable({ providedIn: 'root' })

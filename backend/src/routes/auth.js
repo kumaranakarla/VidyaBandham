@@ -53,6 +53,13 @@ router.post('/login', (req, res) => {
     return res.status(401).json({ error: 'Could not sign in. Check the email and password and try again.' });
   }
 
+  // Track login activity — mainly so the admin dashboard can show how
+  // often the demo teacher@vb / parent@vb accounts (and everyone else) is
+  // actually signing in.
+  db.prepare(
+    'UPDATE users SET login_count = COALESCE(login_count, 0) + 1, last_login_at = ? WHERE id = ?'
+  ).run(new Date().toISOString(), user.id);
+
   const token = signToken(user);
   res.json({
     token,

@@ -247,4 +247,17 @@ if (usersTableRowForAdmin && !usersTableRowForAdmin.sql.includes("'admin'")) {
   db.exec('PRAGMA foreign_keys = ON');
 }
 
+// `login_count` / `last_login_at` track how many times each account has
+// signed in (mainly so the admin dashboard can show how much the demo
+// teacher@vb / parent@vb accounts are actually being used). Plain nullable
+// column adds, same safe pattern as `created_at` above — no CHECK
+// constraint involved, so no rename/recreate needed.
+const userColumnsForLogins = db.prepare("PRAGMA table_info(users)").all();
+if (!userColumnsForLogins.some((c) => c.name === 'login_count')) {
+  db.exec('ALTER TABLE users ADD COLUMN login_count INTEGER DEFAULT 0');
+}
+if (!userColumnsForLogins.some((c) => c.name === 'last_login_at')) {
+  db.exec('ALTER TABLE users ADD COLUMN last_login_at TEXT');
+}
+
 module.exports = db;
