@@ -10,38 +10,52 @@ import { AuthService } from '../../services/auth.service';
   imports: [CommonModule, FormsModule, RouterLink],
   template: `
     <div class="login-page">
-      <form class="login-card" (ngSubmit)="submit()">
-        <h1>Vidya Bandham</h1>
-        <p class="subtitle">School diary, attendance, homework &amp; fees — all in one place.</p>
+      <div class="login-center">
+        <form class="login-card" (ngSubmit)="submit()">
+          <h1>Vidya Bandham</h1>
+          <p class="subtitle">School diary, attendance, homework &amp; fees — all in one place.</p>
 
-        <label>Email</label>
-        <input type="email" name="email" [(ngModel)]="email" placeholder="you@example.com" required autofocus />
+          <label>Email</label>
+          <input type="email" name="email" [(ngModel)]="email" placeholder="you@example.com" required autofocus />
 
-        <label>Password</label>
-        <input type="password" name="password" [(ngModel)]="password" placeholder="Password" required />
+          <label>Password</label>
+          <input type="password" name="password" [(ngModel)]="password" placeholder="Password" required />
 
-        <button type="submit" [disabled]="loading">{{ loading ? 'Signing in…' : 'Sign in' }}</button>
+          <button type="submit" [disabled]="loading">{{ loading ? 'Signing in…' : 'Sign in' }}</button>
 
-        <p class="error" *ngIf="error">{{ error }}</p>
+          <p class="error" *ngIf="error">{{ error }}</p>
 
-        <div class="cta-banner">
-          <p class="cta-title">📝 Preparing for AP TET 2026?</p>
-          <p class="cta-text">Create your free account and start practicing 2 official papers right away — no payment needed.</p>
-          <a routerLink="/signup" class="cta-button">Create Free Account →</a>
-        </div>
+          <div class="cta-banner">
+            <p class="cta-title">📝 Preparing for AP TET 2026?</p>
+            <p class="cta-text">Create your free account and start practicing 2 official papers right away — no payment needed.</p>
+            <a routerLink="/signup" class="cta-button">Create Free Account →</a>
+          </div>
 
-        <div class="demo">
-          <p class="demo-title"><strong>Demo logins</strong></p>
+          <div class="demo">
+            <p class="demo-title"><strong>Demo logins</strong></p>
 
-          <p class="demo-role">Teacher login</p>
-          <p>Username: teacher&#64;vb</p>
-          <p>Password: teacher123</p>
+            <p class="demo-role">Teacher login</p>
+            <p>Username: teacher&#64;vb</p>
+            <p>Password: teacher123</p>
 
-          <p class="demo-role">Parent login</p>
-          <p>Username: parent&#64;vb</p>
-          <p>Password: parent123</p>
-        </div>
-      </form>
+            <p class="demo-role">Parent login</p>
+            <p>Username: parent&#64;vb</p>
+            <p>Password: parent123</p>
+          </div>
+        </form>
+      </div>
+
+      <div class="contact-box">
+        <p class="contact-title">📞 For any queries or support, contact us</p>
+        <p class="contact-line">
+          Email: <a href="mailto:support@vidyabandham.com">support&#64;vidyabandham.com</a>
+        </p>
+        <p class="contact-line">Phone: 8884099770&nbsp;&nbsp;|&nbsp;&nbsp;9030523776</p>
+      </div>
+
+      <footer class="site-footer">
+        <p>Designed and developed by <strong>Anakarla Group Companies</strong></p>
+      </footer>
     </div>
   `,
   styles: [
@@ -49,10 +63,7 @@ import { AuthService } from '../../services/auth.service';
       .login-page {
         min-height: 100vh;
         display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 1.5rem;
-        box-sizing: border-box;
+        flex-direction: column;
         /* Layered radial glows (brand blue + orange) over a soft diagonal
            gradient, rather than the old flat beige — kept subtle so the
            white login card stays the clear focal point. */
@@ -62,6 +73,15 @@ import { AuthService } from '../../services/auth.service';
           linear-gradient(135deg, #eef1f6 0%, #f4f1ea 55%, #fdf2e3 100%);
         font-family: system-ui, sans-serif;
         font-weight: bold;
+      }
+      .login-center {
+        flex: 1 1 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1.5rem;
+        box-sizing: border-box;
+        width: 100%;
       }
       .login-card {
         background: white;
@@ -175,6 +195,51 @@ import { AuthService } from '../../services/auth.service';
       }
       .cta-button:hover {
         background: #b56c15;
+      }
+      /* Bottom-of-page contact strip + credit footer, styled after the
+         official AP TET site's "For any queries" box + designed-by bar. */
+      .contact-box {
+        width: 100%;
+        padding: 1rem 1.5rem;
+        background: linear-gradient(135deg, #eaf2fb, #f5f9fd);
+        border-top: 1px solid #cfe0f2;
+        text-align: center;
+        box-sizing: border-box;
+      }
+      .contact-title {
+        margin: 0 0 0.4rem;
+        color: #2c4870;
+        font-size: 0.85rem;
+        font-weight: bold;
+      }
+      .contact-line {
+        margin: 0.15rem 0;
+        color: #45607e;
+        font-size: 0.8rem;
+        font-weight: 600;
+      }
+      .contact-line a {
+        color: #2c4870;
+        text-decoration: none;
+      }
+      .contact-line a:hover {
+        text-decoration: underline;
+      }
+      .site-footer {
+        width: 100%;
+        padding: 0.7rem 1rem;
+        background: #1f2937;
+        color: #cbd5e1;
+        text-align: center;
+        font-size: 0.75rem;
+        box-sizing: border-box;
+      }
+      .site-footer p {
+        margin: 0;
+        font-weight: 600;
+      }
+      .site-footer strong {
+        color: #ffffff;
       }
     `,
   ],
