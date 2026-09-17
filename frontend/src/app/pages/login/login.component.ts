@@ -54,7 +54,7 @@ import { AuthService } from '../../services/auth.service';
       </div>
 
       <footer class="site-footer">
-        <p>Designed and developed by <strong>Anakarla Group Companies</strong></p>
+        <p>Designed and developed by <strong>Karuna Kumar Group Companies</strong></p>
       </footer>
     </div>
   `,
