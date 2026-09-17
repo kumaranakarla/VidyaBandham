@@ -53,11 +53,15 @@ export class AuthService {
       );
   }
 
-  logout(): void {
+  // redirectTo lets a caller send the user somewhere other than /login after
+  // signing out — e.g. a demo teacher/parent account clicking "Create
+  // Account" from the TET 2026 paywall gets logged out straight into /signup
+  // instead of landing back on the login page first.
+  logout(redirectTo: string = '/login'): void {
     localStorage.removeItem(TOKEN_KEY);
     localStorage.removeItem(USER_KEY);
     this.user.set(null);
-    this.router.navigate(['/login']);
+    this.router.navigate([redirectTo]);
   }
 
   isTeacher(): boolean {

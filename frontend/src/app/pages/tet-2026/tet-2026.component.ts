@@ -30,13 +30,18 @@ import { SubscriptionService } from '../../services/subscription.service';
     </p>
 
     <div class="unlock-banner" *ngIf="!loading && lockedPapersCount > 0">
-      <span *ngIf="lang === 'en'">
+      <span *ngIf="isSchoolAccount">
+        <strong>{{ lockedPapersCount }} more official papers</strong> — create a free account to unlock all 12.
+      </span>
+      <span *ngIf="!isSchoolAccount && lang === 'en'">
         <strong>{{ lockedPapersCount }} more official papers</strong> are available with a subscription.
       </span>
-      <span *ngIf="lang === 'te'">
+      <span *ngIf="!isSchoolAccount && lang === 'te'">
         <strong>మరో {{ lockedPapersCount }} అధికారిక పత్రాలు</strong> సబ్‌స్క్రిప్షన్‌తో అందుబాటులో ఉన్నాయి.
       </span>
-      <button type="button" (click)="openPaywall()">{{ lang === 'te' ? 'మొత్తం 12 పత్రాలను అన్‌లాక్ చేయండి' : 'Unlock all 12 papers' }}</button>
+      <button type="button" (click)="openUpgradePrompt()">
+        {{ isSchoolAccount ? 'Create Account' : (lang === 'te' ? 'మొత్తం 12 పత్రాలను అన్‌లాక్ చేయండి' : 'Unlock all 12 papers') }}
+      </button>
     </div>
 
     <div class="lang-toggle">
@@ -67,9 +72,12 @@ import { SubscriptionService } from '../../services/subscription.service';
     <p *ngIf="loading">Loading…</p>
 
     <div class="locked-notice" *ngIf="!loading && selectedPaperLocked">
-      <p *ngIf="lang === 'en'">🔒 This paper is part of the subscription. Unlock it to practice all 10 remaining official 2026 papers.</p>
-      <p *ngIf="lang === 'te'">🔒 ఈ పత్రం సబ్‌స్క్రిప్షన్‌లో భాగం. మిగిలిన 10 అధికారిక 2026 పత్రాలను ప్రాక్టీస్ చేయడానికి దీన్ని అన్‌లాక్ చేయండి.</p>
-      <button type="button" (click)="openPaywall()">{{ lang === 'te' ? 'మొత్తం 12 పత్రాలను అన్‌లాక్ చేయండి' : 'Unlock all 12 papers' }}</button>
+      <p *ngIf="isSchoolAccount">🔒 Create an account to unlock all 12 TET 2026 papers.</p>
+      <p *ngIf="!isSchoolAccount && lang === 'en'">🔒 This paper is part of the subscription. Unlock it to practice all 10 remaining official 2026 papers.</p>
+      <p *ngIf="!isSchoolAccount && lang === 'te'">🔒 ఈ పత్రం సబ్‌స్క్రిప్షన్‌లో భాగం. మిగిలిన 10 అధికారిక 2026 పత్రాలను ప్రాక్టీస్ చేయడానికి దీన్ని అన్‌లాక్ చేయండి.</p>
+      <button type="button" (click)="openUpgradePrompt()">
+        {{ isSchoolAccount ? 'Create Account' : (lang === 'te' ? 'మొత్తం 12 పత్రాలను అన్‌లాక్ చేయండి' : 'Unlock all 12 papers') }}
+      </button>
     </div>
 
     <p *ngIf="!loading && !selectedPaperLocked && questions.length === 0">No 2026 questions added yet.</p>
@@ -142,6 +150,33 @@ import { SubscriptionService } from '../../services/subscription.service';
             Signed in as {{ auth.user()?.name }}. Payment is handled securely by Razorpay.
           </p>
           <p class="paywall-error" *ngIf="paywallError">{{ paywallError }}</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Simple, friendly prompt for demo (teacher/parent) accounts — no
+         Razorpay involved at all, since a demo account can't subscribe as
+         itself; it has to register its own account first. -->
+    <div class="paywall-overlay" *ngIf="showCreateAccountPrompt" (click)="closeCreateAccountPrompt()">
+      <div class="paywall-modal" (click)="$event.stopPropagation()">
+        <div class="paywall-header">
+          <div>
+            <h2>Create an Account</h2>
+            <p class="paywall-subtitle">ANDHRA PRADESH TEACHER ELIGIBILITY TEST</p>
+          </div>
+          <button class="close-btn" type="button" (click)="closeCreateAccountPrompt()" aria-label="Close">✕</button>
+        </div>
+        <div class="paywall-body">
+          <div class="notice-box">
+            <div class="notice-icon">🔒</div>
+            <div class="notice-text">
+              <h3>Unlock all 12 official 2026 papers <span class="new-badge">NEW</span></h3>
+              <p>Create an account to unlock all 12 TET 2026 papers. You'll keep these 2 free papers either way, and can subscribe for ₹299 / month to practice the remaining 10.</p>
+            </div>
+          </div>
+          <div class="paywall-actions">
+            <button type="button" class="btn-primary" (click)="goCreateAccount()">Create Account</button>
+          </div>
         </div>
       </div>
     </div>
@@ -274,6 +309,7 @@ export class Tet2026Component implements OnInit {
   lang: 'en' | 'te' = 'en';
 
   showPaywall = false;
+  showCreateAccountPrompt = false;
   payingNow = false;
   paywallError = '';
 
@@ -296,13 +332,26 @@ export class Tet2026Component implements OnInit {
         this.subscriptionActive = res.subscription.active;
         this.loading = false;
         // Nudge once per page load if there's paid content the user can't
-        // see yet — but don't fight them if they already dismissed it.
-        if (autoOpenPaywall && this.lockedPapersCount > 0 && !this.subscriptionActive) {
+        // see yet — but don't fight them if they already dismissed it. Skip
+        // this for demo (teacher/parent) accounts: they can't subscribe as
+        // themselves, so popping the Razorpay-flavoured notice on every
+        // visit would just be confusing. They still get the simpler
+        // "create an account" prompt, but only if they go looking for a
+        // locked paper.
+        if (autoOpenPaywall && this.lockedPapersCount > 0 && !this.subscriptionActive && !this.isSchoolAccount) {
           this.showPaywall = true;
         }
       },
       error: () => (this.loading = false),
     });
+  }
+
+  // Demo teacher/parent accounts get the 2 free papers forever, but can
+  // never subscribe as themselves — the paywall UI steers them toward
+  // creating their own account instead of showing them Razorpay at all.
+  get isSchoolAccount(): boolean {
+    const role = this.auth.user()?.role;
+    return role === 'teacher' || role === 'parent';
   }
 
   get subjects(): string[] {
@@ -343,6 +392,17 @@ export class Tet2026Component implements OnInit {
     this.picked[q.id] = optionNumber;
   }
 
+  // Single entry point used by every "unlock" button on the page. Demo
+  // accounts get the simple create-account prompt; everyone else gets the
+  // existing Razorpay-flavoured paywall.
+  openUpgradePrompt(): void {
+    if (this.isSchoolAccount) {
+      this.showCreateAccountPrompt = true;
+    } else {
+      this.openPaywall();
+    }
+  }
+
   openPaywall(): void {
     this.paywallError = '';
     this.showPaywall = true;
@@ -350,6 +410,16 @@ export class Tet2026Component implements OnInit {
 
   closePaywall(): void {
     this.showPaywall = false;
+  }
+
+  closeCreateAccountPrompt(): void {
+    this.showCreateAccountPrompt = false;
+  }
+
+  // Logs the demo account out and sends them straight to the signup page —
+  // they need their own account to ever unlock the rest of the papers.
+  goCreateAccount(): void {
+    this.auth.logout('/signup');
   }
 
   subscribe(): void {
