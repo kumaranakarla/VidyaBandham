@@ -10,7 +10,6 @@ import { AttendanceComponent } from './pages/attendance/attendance.component';
 import { FeesComponent } from './pages/fees/fees.component';
 import { StudentsComponent } from './pages/students/students.component';
 import { TetComponent } from './pages/tet/tet.component';
-import { MockTestComponent } from './pages/mock-test/mock-test.component';
 import { Tet2026Component } from './pages/tet-2026/tet-2026.component';
 import { GrandTestComponent } from './pages/grand-test/grand-test.component';
 
@@ -38,7 +37,13 @@ export const routes: Routes = [
       { path: 'fees', component: FeesComponent },
       { path: 'students', component: StudentsComponent },
       { path: 'tet', component: TetComponent },
-      { path: 'mock-test', component: MockTestComponent },
+      // Mock Test now shows the same real-exam "Grand Test" experience as
+      // /grand-test (paper picker -> subject-wise setup card -> timed test
+      // with instant feedback -> results) rather than the old custom
+      // Year/Subject/Count builder — see GrandTestComponent. Both routes
+      // intentionally point at the same component so neither nav link
+      // disappears; the old MockTestComponent file is unused now.
+      { path: 'mock-test', component: GrandTestComponent },
       // Its own route on purpose, not a query param on 'tet' — this content
       // is planned to move behind a subscription later, and a separate
       // route means a guard (e.g. canActivate: [subscriptionGuard]) can be
