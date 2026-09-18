@@ -403,7 +403,9 @@ export class GrandTestComponent implements OnInit, OnDestroy {
   ) {}
 
   ngOnInit(): void {
-    this.candidateName = this.auth.user()?.name || '';
+    // Left blank on purpose (not pre-filled from the logged-in account) —
+    // matches the reference exam-format screen, where the candidate
+    // types their own name in rather than seeing it already filled in.
     this.skipToFirstAvailable = this.route.snapshot.routeConfig?.path === 'mock-test';
     this.load();
   }
