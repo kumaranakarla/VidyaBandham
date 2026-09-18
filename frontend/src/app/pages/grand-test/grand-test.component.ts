@@ -92,10 +92,15 @@ function shuffle<T>(arr: T[]): T[] {
         </tbody>
       </table>
       <div class="field count-field">
-        <label>Feeling lazy? Attempt fewer questions this time</label>
+        <label>
+          You can do the full test, or pick a smaller number of questions for a quicker practice — choose below.
+          <span class="field-label-te">
+            పూర్తి పరీక్ష చేయవచ్చు, లేదా తక్కువ సమయంలో ప్రాక్టీస్ చేయడానికి తక్కువ ప్రశ్నలను ఎంచుకోవచ్చు — దిగువన ఎంచుకోండి.
+          </span>
+        </label>
         <select [(ngModel)]="selectedCount">
-          <option [ngValue]="0">All {{ selectedPaper.total }} questions · 2 hrs 30 min</option>
-          <option *ngFor="let n of countOptions" [ngValue]="n">{{ n }} questions · {{ timeLimitDisplayFor(n) }}</option>
+          <option [ngValue]="0">All {{ selectedPaper.total }} questions — full test (2 hrs 30 min)</option>
+          <option *ngFor="let n of countOptions" [ngValue]="n">Just {{ n }} questions ({{ timeLimitDisplayFor(n) }})</option>
         </select>
       </div>
       <button class="start-btn" (click)="startGrandTest()">Start Grand Test {{ selectedIndex + 1 }}</button>
@@ -303,7 +308,9 @@ function shuffle<T>(arr: T[]): T[] {
         background: #c97c1f; color: white; border: none; border-radius: 6px;
         padding: 0.7rem 1.3rem; font-size: 0.98rem; font-weight: 700; cursor: pointer; width: 100%;
       }
-      .count-field select { padding: 0.55rem 0.7rem; border-radius: 6px; border: 1px solid #ccc; font-size: 0.92rem; }
+      .count-field label { display: block; margin-bottom: 0.4rem; font-size: 0.85rem; color: #444; font-weight: 600; line-height: 1.35; }
+      .count-field .field-label-te { display: block; font-weight: 500; color: #666; font-size: 0.95em; margin-top: 0.2rem; }
+      .count-field select { padding: 0.55rem 0.7rem; border-radius: 6px; border: 1px solid #ccc; font-size: 0.92rem; width: 100%; }
       .setup-note { font-size: 0.78rem; color: #888; margin-top: 0.9rem; line-height: 1.4; }
 
       .timer-bar {
