@@ -56,7 +56,11 @@ import { AuthService } from '../../services/auth.service';
           <a routerLink="/tet" routerLinkActive="active">TET Prep</a>
           <a routerLink="/mock-test" routerLinkActive="active">MockTest(TET)</a>
           <a routerLink="/tet-2026" routerLinkActive="active" class="nav-new-flash">2026 TET (New)</a>
-          <a routerLink="/grand-test" routerLinkActive="active">Grand Test</a>
+          <!-- Hidden for now: "2026 TET (New)" already gives the same real-exam
+               experience (they share GrandTestComponent), so a separate Grand Test
+               tab is redundant. Route/component are left in place to bring this
+               back later if needed. -->
+          <!-- <a routerLink="/grand-test" routerLinkActive="active">Grand Test</a> -->
         </nav>
         <div class="user">
           <span>{{ auth.user()?.name }}</span>
