@@ -26,6 +26,7 @@ export interface AdminStats {
         name: string;
         amountRupees: number;
         reason: string;
+        detail: string | null;
         createdAt: string;
       }[];
     };

@@ -63,7 +63,8 @@ router.get('/stats', requireAuth, requireAdmin, (req, res) => {
 
   const recentFailedAttempts = db
     .prepare(
-      `SELECT u.email, u.name, s.amount, COALESCE(s.failure_reason, 'unknown') AS reason, s.created_at
+      `SELECT u.email, u.name, s.amount, COALESCE(s.failure_reason, 'unknown') AS reason,
+              s.failure_detail AS detail, s.created_at
        FROM subscriptions s
        JOIN users u ON u.id = s.user_id
        WHERE s.status = 'failed'
@@ -120,6 +121,7 @@ router.get('/stats', requireAuth, requireAdmin, (req, res) => {
           name: r.name,
           amountRupees: Math.round(r.amount / 100),
           reason: r.reason,
+          detail: r.detail || null,
           createdAt: r.created_at,
         })),
       },

@@ -123,22 +123,34 @@ const KNOWN_FAILURE_REASONS = new Set([
   'user_cancelled',
   'order_creation_failed',
   'checkout_error',
+  // Razorpay itself declined the payment inside the widget (e.g.
+  // "International cards are not supported") — the widget stays open for
+  // the person to retry with another method, so this can fire more than
+  // once for the same order before it's finally paid or abandoned.
+  'payment_failed',
 ]);
 
+// Razorpay's own decline messages are free text ("International cards are
+// not supported. Please contact our support team for help") — cap the
+// length so nothing oversized ends up in the database or admin table.
+const MAX_FAILURE_DETAIL_LENGTH = 300;
+
 router.post('/report-failure', requireAuth, (req, res) => {
-  const { orderId, reason } = req.body || {};
+  const { orderId, reason, detail } = req.body || {};
   const safeReason = KNOWN_FAILURE_REASONS.has(reason) ? reason : 'unknown';
+  const safeDetail = typeof detail === 'string' && detail.trim() ? detail.trim().slice(0, MAX_FAILURE_DETAIL_LENGTH) : null;
 
   if (orderId) {
     const result = db
       .prepare(
-        `UPDATE subscriptions SET status = 'failed', failure_reason = ?
+        `UPDATE subscriptions SET status = 'failed', failure_reason = ?, failure_detail = ?
          WHERE razorpay_order_id = ? AND user_id = ? AND status = 'created'`
       )
-      .run(safeReason, orderId, req.user.id);
+      .run(safeReason, safeDetail, orderId, req.user.id);
     if (result.changes === 0) {
-      // Already resolved (e.g. paid in another tab) or not this user's
-      // order — nothing to record, but not an error either.
+      // Already resolved (e.g. paid in another tab, or a previous
+      // payment.failed on this same order already recorded it) — nothing
+      // more to record, but not an error either.
       return res.json({ ok: true, recorded: false });
     }
     return res.json({ ok: true, recorded: true });
@@ -147,9 +159,9 @@ router.post('/report-failure', requireAuth, (req, res) => {
   // No order was ever created (Razorpay's own order-create call failed) —
   // log a standalone row so the failure still shows up in the admin count.
   db.prepare(
-    `INSERT INTO subscriptions (id, user_id, status, amount, failure_reason, created_at)
-     VALUES (?, ?, 'failed', ?, ?, ?)`
-  ).run(crypto.randomUUID(), req.user.id, SUBSCRIPTION_AMOUNT_PAISE, safeReason, now());
+    `INSERT INTO subscriptions (id, user_id, status, amount, failure_reason, failure_detail, created_at)
+     VALUES (?, ?, 'failed', ?, ?, ?, ?)`
+  ).run(crypto.randomUUID(), req.user.id, SUBSCRIPTION_AMOUNT_PAISE, safeReason, safeDetail, now());
   res.json({ ok: true, recorded: true });
 });
 

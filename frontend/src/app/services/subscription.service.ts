@@ -37,7 +37,17 @@ interface RazorpayCheckoutOptions {
   handler: (response: { razorpay_order_id: string; razorpay_payment_id: string; razorpay_signature: string }) => void;
   modal?: { ondismiss?: () => void };
 }
-declare const Razorpay: new (options: RazorpayCheckoutOptions) => { open: () => void };
+// The payload Razorpay hands to the 'payment.failed' event — fired when a
+// payment attempt is actually declined inside the widget (wrong OTP,
+// unsupported card type, bank decline, etc.), as opposed to the person just
+// closing the widget (that's modal.ondismiss instead). The widget itself
+// stays open afterwards so they can retry with another method.
+interface RazorpayFailurePayload {
+  error: { code?: string; description?: string; reason?: string; source?: string; step?: string };
+}
+declare const Razorpay: new (
+  options: RazorpayCheckoutOptions
+) => { open: () => void; on: (event: 'payment.failed', handler: (response: RazorpayFailurePayload) => void) => void };
 
 @Injectable({ providedIn: 'root' })
 export class SubscriptionService {
@@ -61,8 +71,12 @@ export class SubscriptionService {
   // even be created), so the admin dashboard can show why people abandon
   // checkout. Never blocks or surfaces errors to the user — this is purely
   // for the app owner's own tracking.
-  reportFailure(reason: 'user_cancelled' | 'order_creation_failed' | 'checkout_error', orderId?: string) {
-    return this.http.post<{ ok: boolean; recorded: boolean }>(`${this.base}/report-failure`, { reason, orderId });
+  reportFailure(
+    reason: 'user_cancelled' | 'order_creation_failed' | 'checkout_error' | 'payment_failed',
+    orderId?: string,
+    detail?: string
+  ) {
+    return this.http.post<{ ok: boolean; recorded: boolean }>(`${this.base}/report-failure`, { reason, orderId, detail });
   }
 
   // Opens the Razorpay Checkout widget for one order, and resolves once the
@@ -92,6 +106,14 @@ export class SubscriptionService {
         modal: {
           ondismiss: () => reject(new Error('cancelled')),
         },
+      });
+      // Captures Razorpay's own decline reason (e.g. "International cards
+      // are not supported") the moment it happens, best-effort and without
+      // touching this Promise — the widget stays open for the person to
+      // retry, so this can fire before either resolve() or reject() does.
+      rzp.on('payment.failed', (response) => {
+        const detail = response?.error?.description || response?.error?.reason;
+        this.reportFailure('payment_failed', order.orderId, detail).subscribe({ error: () => {} });
       });
       rzp.open();
     });

@@ -271,4 +271,12 @@ if (!subscriptionColumns.some((c) => c.name === 'failure_reason')) {
   db.exec('ALTER TABLE subscriptions ADD COLUMN failure_reason TEXT');
 }
 
+// `failure_detail` holds Razorpay's own human-readable decline message (e.g.
+// "International cards are not supported.") from the Checkout widget's
+// payment.failed event — failure_reason is our own coarse bucket for
+// grouping/counting, this is the actual diagnostic text for a specific row.
+if (!subscriptionColumns.some((c) => c.name === 'failure_detail')) {
+  db.exec('ALTER TABLE subscriptions ADD COLUMN failure_detail TEXT');
+}
+
 module.exports = db;

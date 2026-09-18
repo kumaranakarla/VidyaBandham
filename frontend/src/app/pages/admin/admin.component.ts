@@ -100,6 +100,7 @@ import { AuthService } from '../../services/auth.service';
                 <th>Email</th>
                 <th>Amount</th>
                 <th>Reason</th>
+                <th>Detail</th>
                 <th>When</th>
               </tr>
             </thead>
@@ -109,6 +110,7 @@ import { AuthService } from '../../services/auth.service';
                 <td>{{ r.email }}</td>
                 <td>₹{{ r.amountRupees }}</td>
                 <td>{{ reasonLabel(r.reason) }}</td>
+                <td class="detail-cell">{{ r.detail || '—' }}</td>
                 <td>{{ r.createdAt | date: 'medium' }}</td>
               </tr>
             </tbody>
@@ -194,6 +196,7 @@ import { AuthService } from '../../services/auth.service';
       th, td { text-align: left; padding: 0.55rem 0.7rem; font-size: 0.85rem; border-bottom: 1px solid #eee; }
       th { color: #777; font-weight: 600; background: #faf8f4; }
       .empty { color: #888; font-size: 0.9rem; }
+      .detail-cell { color: #666; max-width: 260px; }
       .recent + .recent { margin-top: 2rem; }
       .demo-row { background: #fff9ef; }
       .demo-tag {
@@ -254,6 +257,8 @@ export class AdminComponent implements OnInit {
         return 'Could not start payment';
       case 'checkout_error':
         return 'Checkout error';
+      case 'payment_failed':
+        return 'Payment declined';
       default:
         return 'Unknown';
     }
