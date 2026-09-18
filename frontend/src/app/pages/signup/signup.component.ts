@@ -23,11 +23,29 @@ import { AuthService } from '../../services/auth.service';
         <input type="text" name="name" [(ngModel)]="name" placeholder="Your name" required autofocus autocomplete="off" />
 
         <label>Email</label>
-        <input type="email" name="email" [(ngModel)]="email" placeholder="you@example.com" required autocomplete="off" />
+        <input
+          type="email"
+          name="email"
+          [(ngModel)]="email"
+          (ngModelChange)="onEmailChange()"
+          placeholder="you@example.com"
+          required
+          autocomplete="off"
+        />
+        <p class="field-error" *ngIf="emailError">{{ emailError }}</p>
 
         <label>Password</label>
-        <input type="password" name="password" [(ngModel)]="password" placeholder="At least 6 characters" required autocomplete="new-password" />
+        <input
+          type="password"
+          name="password"
+          [(ngModel)]="password"
+          (ngModelChange)="onPasswordChange()"
+          placeholder="At least 6 characters"
+          required
+          autocomplete="new-password"
+        />
         <p class="hint">At least 6 characters — letters, numbers, or symbols are all fine.</p>
+        <p class="field-error" *ngIf="passwordError">{{ passwordError }}</p>
 
         <button type="submit" [disabled]="loading">{{ loading ? 'Creating account…' : 'Create account' }}</button>
 
@@ -83,6 +101,7 @@ import { AuthService } from '../../services/auth.service';
       }
       button:disabled { opacity: 0.6; cursor: default; }
       .hint { margin: 0.3rem 0 0; font-size: 0.78rem; color: #888; font-weight: 500; }
+      .field-error { margin: 0.3rem 0 0; font-size: 0.8rem; color: #b3261e; font-weight: 700; }
       .error { color: #b3261e; margin-top: 1rem; font-size: 0.9rem; font-weight: bold; }
       .switch { margin-top: 1.5rem; text-align: center; font-size: 0.85rem; color: #666; font-weight: bold; }
       .switch a { color: #2c4870; }
@@ -95,6 +114,8 @@ export class SignupComponent {
   password = '';
   loading = false;
   error = '';
+  emailError = '';
+  passwordError = '';
 
   constructor(private auth: AuthService, private router: Router) {}
 
@@ -104,18 +125,24 @@ export class SignupComponent {
   // just frustrates people signing up for a ₹299 exam-prep app.
   private static readonly EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
+  // Fires on every keystroke (not just on submit) so someone finds out
+  // their email looks wrong while they're still typing it, not after they've
+  // filled in the whole form and clicked the button.
+  onEmailChange(): void {
+    const value = this.email.trim();
+    this.emailError = value && !SignupComponent.EMAIL_PATTERN.test(value) ? 'Please enter a valid email address.' : '';
+  }
+
+  onPasswordChange(): void {
+    this.passwordError = this.password && this.password.length < 6 ? 'Password must be at least 6 characters.' : '';
+  }
+
   submit(): void {
     this.error = '';
+    this.onEmailChange();
+    this.onPasswordChange();
     if (!this.name || !this.email || !this.password) return;
-
-    if (!SignupComponent.EMAIL_PATTERN.test(this.email.trim())) {
-      this.error = 'Please enter a valid email address.';
-      return;
-    }
-    if (this.password.length < 6) {
-      this.error = 'Password must be at least 6 characters.';
-      return;
-    }
+    if (this.emailError || this.passwordError) return;
 
     this.loading = true;
     this.auth.register(this.name, this.email, this.password).subscribe({
