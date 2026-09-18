@@ -25,6 +25,17 @@ interface PaperSummary {
 
 const TIME_LIMIT_SECONDS = 150 * 60; // 2 hrs 30 min, same as the real exam
 
+// Fisher-Yates on a copy — used to draw a random subset of questions when
+// the candidate picks fewer than the full paper (see startGrandTest()).
+function shuffle<T>(arr: T[]): T[] {
+  const copy = arr.slice();
+  for (let i = copy.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [copy[i], copy[j]] = [copy[j], copy[i]];
+  }
+  return copy;
+}
+
 @Component({
   selector: 'app-grand-test',
   standalone: true,
@@ -80,6 +91,13 @@ const TIME_LIMIT_SECONDS = 150 * 60; // 2 hrs 30 min, same as the real exam
           </tr>
         </tbody>
       </table>
+      <div class="field count-field">
+        <label>Feeling lazy? Attempt fewer questions this time</label>
+        <select [(ngModel)]="selectedCount">
+          <option [ngValue]="0">All {{ selectedPaper.total }} questions · 2 hrs 30 min</option>
+          <option *ngFor="let n of countOptions" [ngValue]="n">{{ n }} questions · {{ timeLimitDisplayFor(n) }}</option>
+        </select>
+      </div>
       <button class="start-btn" (click)="startGrandTest()">Start Grand Test {{ selectedIndex + 1 }}</button>
       <p class="setup-note">
         Answer feedback shows immediately after each question. A few items are flagged where the
@@ -92,12 +110,12 @@ const TIME_LIMIT_SECONDS = 150 * 60; // 2 hrs 30 min, same as the real exam
       <div class="timer-bar" [class.timer-warning]="timeLeftSeconds < 300">
         <span class="timer-label">Time Left</span>
         <span class="timer-value">{{ timeLeftDisplay }}</span>
-        <span class="progress-label">{{ answeredCount }} of {{ selectedPaper.total }} answered</span>
+        <span class="progress-label">{{ answeredCount }} of {{ activeQuestions.length }} answered</span>
         <button class="finish-btn" (click)="finishGrandTest()">Finish Grand Test</button>
       </div>
 
       <div class="questions">
-        <div class="q-card" *ngFor="let q of selectedPaper.questions; let qi = index">
+        <div class="q-card" *ngFor="let q of activeQuestions; let qi = index">
           <div class="subject-tag">
             Q{{ qi + 1 }} · {{ q.subject }}
             <span class="en-only-tag" *ngIf="!q.question_te && q.subject !== 'Telugu'">English only</span>
@@ -149,6 +167,33 @@ const TIME_LIMIT_SECONDS = 150 * 60; // 2 hrs 30 min, same as the real exam
               <td>{{ s.subject }}</td>
               <td>{{ s.correct }}</td>
               <td>{{ s.total }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="subject-breakdown">
+        <h3>Answer key — every question</h3>
+        <table>
+          <thead>
+            <tr><th>Q#</th><th>Your answer</th><th>Correct answer</th><th>Result</th></tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let q of activeQuestions; let i = index">
+              <td>{{ i + 1 }}</td>
+              <td [class.key-wrong]="picked[q.id] && picked[q.id] !== q.correct_option">
+                {{ picked[q.id] ? optionLetter(picked[q.id]) : '—' }}
+              </td>
+              <td class="key-correct">{{ optionLetter(q.correct_option) }}</td>
+              <td>
+                <span
+                  class="badge"
+                  [class.badge-correct]="picked[q.id] === q.correct_option"
+                  [class.badge-wrong]="picked[q.id] && picked[q.id] !== q.correct_option"
+                  [class.badge-blank]="!picked[q.id]"
+                >
+                  {{ picked[q.id] === q.correct_option ? 'Correct' : (picked[q.id] ? 'Wrong' : 'Blank') }}
+                </span>
+              </td>
             </tr>
           </tbody>
         </table>
@@ -258,6 +303,7 @@ const TIME_LIMIT_SECONDS = 150 * 60; // 2 hrs 30 min, same as the real exam
         background: #c97c1f; color: white; border: none; border-radius: 6px;
         padding: 0.7rem 1.3rem; font-size: 0.98rem; font-weight: 700; cursor: pointer; width: 100%;
       }
+      .count-field select { padding: 0.55rem 0.7rem; border-radius: 6px; border: 1px solid #ccc; font-size: 0.92rem; }
       .setup-note { font-size: 0.78rem; color: #888; margin-top: 0.9rem; line-height: 1.4; }
 
       .timer-bar {
@@ -315,6 +361,16 @@ const TIME_LIMIT_SECONDS = 150 * 60; // 2 hrs 30 min, same as the real exam
       .subject-breakdown h3 { font-size: 1rem; color: #2c4870; margin: 0 0 0.7rem; }
       .subject-breakdown table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
       .subject-breakdown th, .subject-breakdown td { text-align: left; padding: 0.4rem 0.6rem; border-bottom: 1px solid #eee; }
+      .subject-breakdown + .subject-breakdown { margin-top: -0.7rem; }
+      .key-wrong { color: #dc2626; font-weight: 700; }
+      .key-correct { color: #16a34a; font-weight: 700; }
+      .badge {
+        display: inline-block; font-size: 0.72rem; font-weight: 700;
+        padding: 0.12rem 0.55rem; border-radius: 999px; letter-spacing: 0.02em;
+      }
+      .badge-correct { background: #16a34a; color: white; }
+      .badge-wrong { background: #dc2626; color: white; }
+      .badge-blank { background: #eee; color: #777; }
       .result-actions { display: flex; gap: 0.8rem; flex-wrap: wrap; }
       .result-actions .start-btn { width: auto; }
       .cancel-btn {
@@ -374,6 +430,12 @@ export class GrandTestComponent implements OnInit, OnDestroy {
   selectedPaper: PaperSummary | null = null;
   selectedIndex = 0;
   candidateName = '';
+
+  // 0 means "attempt the full paper"; otherwise a smaller random sample of
+  // that many questions is drawn from the paper for a quicker practice run
+  // (see startGrandTest()/countOptions/timeLimitDisplayFor()).
+  selectedCount = 0;
+  activeQuestions: TetQuestion[] = [];
 
   picked: Record<string, number> = {};
   timeLeftSeconds = TIME_LIMIT_SECONDS;
@@ -457,6 +519,7 @@ export class GrandTestComponent implements OnInit, OnDestroy {
     }
     this.selectedPaper = p;
     this.selectedIndex = i;
+    this.selectedCount = 0;
     this.stage = 'setup';
   }
 
@@ -467,10 +530,46 @@ export class GrandTestComponent implements OnInit, OnDestroy {
 
   startGrandTest(): void {
     if (!this.selectedPaper) return;
+    const all = this.selectedPaper.questions;
+    if (this.selectedCount && this.selectedCount < all.length) {
+      this.activeQuestions = shuffle(all).slice(0, this.selectedCount);
+    } else {
+      this.activeQuestions = all;
+    }
     this.picked = {};
-    this.timeLeftSeconds = TIME_LIMIT_SECONDS;
+    this.timeLeftSeconds = this.timeLimitSecondsFor(this.activeQuestions.length, all.length);
     this.stage = 'testing';
     this.startTimer();
+  }
+
+  // A shorter practice run gets a proportionally shorter clock instead of
+  // the full 2 hr 30 min real-exam limit — no point timing a 10-question
+  // quick run against the whole paper's time budget. Always at least 1
+  // minute so the timer never starts already at zero.
+  private timeLimitSecondsFor(count: number, total: number): number {
+    if (!total || count >= total) return TIME_LIMIT_SECONDS;
+    return Math.max(60, Math.round(TIME_LIMIT_SECONDS * (count / total)));
+  }
+
+  timeLimitDisplayFor(count: number): string {
+    if (!this.selectedPaper) return '';
+    const seconds = this.timeLimitSecondsFor(count, this.selectedPaper.total);
+    const m = Math.round(seconds / 60);
+    if (m < 60) return `${m} min`;
+    const h = Math.floor(m / 60);
+    const rem = m % 60;
+    return rem ? `${h} hr ${rem} min` : `${h} hr`;
+  }
+
+  // Options offered in the "attempt fewer questions" dropdown — the usual
+  // round numbers, but only ones smaller than the full paper.
+  get countOptions(): number[] {
+    const total = this.selectedPaper?.total ?? 0;
+    return [10, 20, 30, 50].filter((n) => n < total);
+  }
+
+  optionLetter(n: number | null | undefined): string {
+    return n ? ['A', 'B', 'C', 'D'][n - 1] ?? '—' : '—';
   }
 
   private startTimer(): void {
@@ -523,7 +622,7 @@ export class GrandTestComponent implements OnInit, OnDestroy {
 
   get scoreSummary(): { correct: number; total: number; percent: number; bySubject: { subject: string; correct: number; total: number }[] } {
     if (!this.selectedPaper) return { correct: 0, total: 0, percent: 0, bySubject: [] };
-    const qs = this.selectedPaper.questions;
+    const qs = this.activeQuestions;
     let correct = 0;
     const subjMap = new Map<string, { correct: number; total: number }>();
     for (const q of qs) {
