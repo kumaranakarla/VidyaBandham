@@ -58,7 +58,7 @@ const TIME_LIMIT_SECONDS = 150 * 60; // 2 hrs 30 min, same as the real exam
 
     <!-- SETUP: real-exam-style summary before starting -->
     <div class="setup-card" *ngIf="stage === 'setup' && selectedPaper">
-      <button class="back-link" type="button" (click)="backToSelect()">← Choose a different paper</button>
+      <button class="back-link" type="button" *ngIf="!skipToFirstAvailable" (click)="backToSelect()">← Choose a different paper</button>
       <h3>{{ selectedPaper.name }}</h3>
       <div class="field">
         <label>Enter your name</label>
@@ -155,7 +155,7 @@ const TIME_LIMIT_SECONDS = 150 * 60; // 2 hrs 30 min, same as the real exam
       </div>
       <div class="result-actions">
         <button class="start-btn" (click)="retakeSamePaper()">Retake this Grand Test</button>
-        <button class="cancel-btn" (click)="chooseAnother()">Choose another paper</button>
+        <button class="cancel-btn" *ngIf="!skipToFirstAvailable" (click)="chooseAnother()">Choose another paper</button>
       </div>
     </div>
 
@@ -384,7 +384,11 @@ export class GrandTestComponent implements OnInit, OnDestroy {
   // 12-paper picker; /mock-test skips straight to the setup screen for
   // the first paper that isn't locked, so Mock Test stays a one-click
   // "take a test now" entry point rather than a picker.
-  private skipToFirstAvailable = false;
+  // Not private: the setup-screen template reads it to hide the
+  // "Choose a different paper" link when Mock Test skipped the picker —
+  // that link would otherwise be the only way back to the very list
+  // Mock Test is supposed to bypass.
+  skipToFirstAvailable = false;
   subscriptionActive = false;
   showPaywall = false;
   showCreateAccountPrompt = false;
