@@ -12,6 +12,7 @@ import { StudentsComponent } from './pages/students/students.component';
 import { TetComponent } from './pages/tet/tet.component';
 import { MockTestComponent } from './pages/mock-test/mock-test.component';
 import { Tet2026Component } from './pages/tet-2026/tet-2026.component';
+import { GrandTestComponent } from './pages/grand-test/grand-test.component';
 
 export const routes: Routes = [
   { path: 'login', component: LoginComponent },
@@ -43,6 +44,7 @@ export const routes: Routes = [
       // route means a guard (e.g. canActivate: [subscriptionGuard]) can be
       // added here later without touching the 'tet'/'mock-test' routes.
       { path: 'tet-2026', component: Tet2026Component },
+      { path: 'grand-test', component: GrandTestComponent },
     ],
   },
   { path: '**', redirectTo: '' },
