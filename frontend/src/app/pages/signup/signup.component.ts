@@ -20,13 +20,13 @@ import { AuthService } from '../../services/auth.service';
         <p class="subtitle">Create a free account to practice AP TET 2026 papers.</p>
 
         <label>Name</label>
-        <input type="text" name="name" [(ngModel)]="name" placeholder="Your name" required autofocus />
+        <input type="text" name="name" [(ngModel)]="name" placeholder="Your name" required autofocus autocomplete="off" />
 
         <label>Email</label>
-        <input type="email" name="email" [(ngModel)]="email" placeholder="you@example.com" required />
+        <input type="email" name="email" [(ngModel)]="email" placeholder="you@example.com" required autocomplete="off" />
 
         <label>Password</label>
-        <input type="password" name="password" [(ngModel)]="password" placeholder="At least 6 characters" required />
+        <input type="password" name="password" [(ngModel)]="password" placeholder="At least 6 characters" required autocomplete="new-password" />
         <p class="hint">At least 6 characters — letters, numbers, or symbols are all fine.</p>
 
         <button type="submit" [disabled]="loading">{{ loading ? 'Creating account…' : 'Create account' }}</button>
