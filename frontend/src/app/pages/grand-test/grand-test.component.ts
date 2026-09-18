@@ -551,19 +551,23 @@ export class GrandTestComponent implements OnInit, OnDestroy {
           if (!bySource.has(q.source)) bySource.set(q.source, []);
           bySource.get(q.source)!.push(q);
         }
-        this.paperSummaries = res.papers.map((p) => {
-          const qs = bySource.get(p.name) || [];
-          const subjCounts = new Map<string, number>();
-          for (const q of qs) subjCounts.set(q.subject, (subjCounts.get(q.subject) || 0) + 1);
-          return {
-            name: p.name,
-            free: p.free,
-            locked: p.locked,
-            questions: qs,
-            subjects: Array.from(subjCounts.entries()).map(([subject, count]) => ({ subject, count })),
-            total: qs.length,
-          };
-        });
+        this.paperSummaries = res.papers
+          .map((p) => {
+            const qs = bySource.get(p.name) || [];
+            const subjCounts = new Map<string, number>();
+            for (const q of qs) subjCounts.set(q.subject, (subjCounts.get(q.subject) || 0) + 1);
+            return {
+              name: p.name,
+              free: p.free,
+              locked: p.locked,
+              questions: qs,
+              subjects: Array.from(subjCounts.entries()).map(([subject, count]) => ({ subject, count })),
+              total: qs.length,
+            };
+          })
+          // Free/unlocked papers first, so they're the ones people see and try
+          // right away instead of being buried after the locked ones.
+          .sort((a, b) => Number(a.locked) - Number(b.locked));
         this.loading = false;
 
         if (this.skipToFirstAvailable && this.stage === 'select') {
