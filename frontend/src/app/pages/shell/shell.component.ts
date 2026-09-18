@@ -25,7 +25,7 @@ import { AuthService } from '../../services/auth.service';
             <a *ngIf="auth.isTeacher()" routerLink="/students" routerLinkActive="active">Students</a>
           </ng-container>
           <a routerLink="/tet" routerLinkActive="active">TET Prep</a>
-          <a routerLink="/mock-test" routerLinkActive="active">Mock Test</a>
+          <a routerLink="/mock-test" routerLinkActive="active">MockTest(TET)</a>
           <a routerLink="/tet-2026" routerLinkActive="active" class="nav-new-flash">2026 (New)</a>
           <a routerLink="/grand-test" routerLinkActive="active">Grand Test</a>
         </nav>

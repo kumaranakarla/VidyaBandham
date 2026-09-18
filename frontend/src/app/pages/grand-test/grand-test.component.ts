@@ -42,9 +42,17 @@ function shuffle<T>(arr: T[]): T[] {
   imports: [CommonModule, FormsModule, RouterLink],
   template: `
     <h2>Grand Test <span class="new-badge">FULL EXAM</span></h2>
+    <p class="free-note">
+      🎓 2 papers are free — no subscription needed
+      <span class="free-note-te">2 పేపర్లు ఉచితం — సబ్‌స్క్రిప్షన్ అవసరం లేదు</span>
+    </p>
     <p class="intro">
       Take a complete official AP TET 2026 paper under real exam conditions — the correct subject-wise
       question mix, a real 2 hr 30 min clock, and instant right/wrong feedback on every question.
+      <span class="intro-te">
+        వాస్తవ పరీక్షా పరిస్థితులలో పూర్తి అధికారిక AP TET 2026 పేపర్‌ను ప్రాక్టీస్ చేయండి — సరైన సబ్జెక్ట్ వారీ ప్రశ్నల
+        మిశ్రమం, నిజమైన 2 గంటల 30 నిమిషాల టైమర్, మరియు ప్రతి ప్రశ్నకు తక్షణ సరైన/తప్పు అభిప్రాయం.
+      </span>
     </p>
 
     <p *ngIf="loading">Loading…</p>
@@ -323,6 +331,11 @@ function shuffle<T>(arr: T[]): T[] {
         letter-spacing: 0.04em; padding: 0.15rem 0.5rem; border-radius: 999px; vertical-align: middle;
       }
       .intro { color: #555; margin-top: -0.5rem; margin-bottom: 1.2rem; max-width: 65ch; }
+      .intro-te { display: block; margin-top: 0.3rem; color: #777; font-size: 0.95em; }
+      .free-note {
+        color: #b45f0f; font-weight: 700; margin: 0 0 0.5rem; max-width: 65ch;
+      }
+      .free-note-te { display: block; font-weight: 600; color: #c97c1f; font-size: 0.9em; margin-top: 0.15rem; }
 
       .paper-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1rem; }
       .paper-card {
