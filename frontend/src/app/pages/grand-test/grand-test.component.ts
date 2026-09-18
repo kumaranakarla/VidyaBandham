@@ -207,6 +207,50 @@ function shuffle<T>(arr: T[]): T[] {
         <button class="start-btn" (click)="retakeSamePaper()">Retake this Grand Test</button>
         <button class="cancel-btn" *ngIf="!skipToFirstAvailable" (click)="chooseAnother()">Choose another paper</button>
       </div>
+
+      <!-- Full bilingual question & answer key sheet — every question
+           attempted, both languages, correct option always shown in green
+           and (if picked) a wrong choice in red, same as the live test. -->
+      <h3 class="review-heading">Question &amp; Answer Key (English + Telugu)</h3>
+      <div class="questions">
+        <div class="q-card" *ngFor="let q of activeQuestions; let qi = index">
+          <div class="subject-tag">
+            Q{{ qi + 1 }} · {{ q.subject }}
+            <span class="en-only-tag" *ngIf="!q.question_te && q.subject !== 'Telugu'">English only</span>
+            <span class="en-only-tag" *ngIf="q.subject === 'Telugu'">Telugu only</span>
+          </div>
+          <div class="question-text">
+            {{ q.question }}
+            <div class="question-text-te" *ngIf="q.question_te">{{ q.question_te }}</div>
+          </div>
+          <div class="options">
+            <button
+              *ngFor="let opt of optionsEn(q); let i = index"
+              [class.correct]="i + 1 === q.correct_option"
+              [class.incorrect]="picked[q.id] === i + 1 && i + 1 !== q.correct_option"
+              disabled
+            >
+              <span>{{ opt }}</span>
+              <span class="opt-te" *ngIf="optionsTe(q)">{{ optionsTe(q)![i] }}</span>
+            </button>
+          </div>
+          <div class="answer-note" *ngIf="picked[q.id] === q.correct_option">
+            <span class="correct-text">You answered correctly!</span>
+          </div>
+          <div class="answer-note" *ngIf="picked[q.id] && picked[q.id] !== q.correct_option">
+            <span class="incorrect-text">
+              You answered {{ optionLetter(picked[q.id]) }} — the correct answer is
+              <strong>{{ optionsEn(q)[q.correct_option - 1] }}</strong><ng-container *ngIf="optionsTe(q)"> (<strong>{{ optionsTe(q)![q.correct_option - 1] }}</strong>)</ng-container>.
+            </span>
+          </div>
+          <div class="answer-note" *ngIf="!picked[q.id]">
+            <span class="incorrect-text">
+              You left this blank — the correct answer is
+              <strong>{{ optionsEn(q)[q.correct_option - 1] }}</strong><ng-container *ngIf="optionsTe(q)"> (<strong>{{ optionsTe(q)![q.correct_option - 1] }}</strong>)</ng-container>.
+            </span>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- Paywall popup — identical pattern to the 2026 (New) page -->
@@ -380,6 +424,7 @@ function shuffle<T>(arr: T[]): T[] {
       .badge-blank { background: #eee; color: #777; }
       .result-actions { display: flex; gap: 0.8rem; flex-wrap: wrap; }
       .result-actions .start-btn { width: auto; }
+      .review-heading { color: #2c4870; margin: 1.6rem 0 1rem; font-size: 1.1rem; }
       .cancel-btn {
         background: transparent; color: #777; border: 1px solid #ccc; border-radius: 6px;
         padding: 0.7rem 1.4rem; font-size: 0.95rem; cursor: pointer;
