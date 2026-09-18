@@ -10,7 +10,6 @@ import { AttendanceComponent } from './pages/attendance/attendance.component';
 import { FeesComponent } from './pages/fees/fees.component';
 import { StudentsComponent } from './pages/students/students.component';
 import { TetComponent } from './pages/tet/tet.component';
-import { Tet2026Component } from './pages/tet-2026/tet-2026.component';
 import { GrandTestComponent } from './pages/grand-test/grand-test.component';
 
 export const routes: Routes = [
@@ -44,11 +43,13 @@ export const routes: Routes = [
       // intentionally point at the same component so neither nav link
       // disappears; the old MockTestComponent file is unused now.
       { path: 'mock-test', component: GrandTestComponent },
-      // Its own route on purpose, not a query param on 'tet' — this content
-      // is planned to move behind a subscription later, and a separate
-      // route means a guard (e.g. canActivate: [subscriptionGuard]) can be
-      // added here later without touching the 'tet'/'mock-test' routes.
-      { path: 'tet-2026', component: Tet2026Component },
+      // 2026 (New) now shows the same Grand Test experience too (full
+      // 12-paper picker, since this route doesn't auto-skip like
+      // 'mock-test' does) — question-count selection, a timed test, and
+      // the bilingual results/answer-key screen, instead of the old
+      // filter-and-browse-everything page. The old Tet2026Component file
+      // is unused now, same as MockTestComponent above.
+      { path: 'tet-2026', component: GrandTestComponent },
       { path: 'grand-test', component: GrandTestComponent },
     ],
   },
