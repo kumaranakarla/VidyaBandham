@@ -115,6 +115,10 @@ function shuffle<T>(arr: T[]): T[] {
       <p class="setup-note">
         Answer feedback shows immediately after each question. A few items are flagged where the
         source answer key was unclear — please verify those independently.
+        <span class="setup-note-te">
+          ప్రతి ప్రశ్న తర్వాత వెంటనే సమాధాన ఫీడ్‌బ్యాక్ కనిపిస్తుంది. మూల ఆన్సర్ కీ స్పష్టంగా లేని కొన్ని ప్రశ్నలను
+          ఫ్లాగ్ చేశాము — దయచేసి వాటిని మీరే విడిగా ధృవీకరించుకోండి.
+        </span>
       </p>
     </div>
 
@@ -369,6 +373,7 @@ function shuffle<T>(arr: T[]): T[] {
       .count-field .field-label-te { display: block; font-weight: 500; color: #666; font-size: 0.95em; margin-top: 0.2rem; }
       .count-field select { padding: 0.55rem 0.7rem; border-radius: 6px; border: 1px solid #ccc; font-size: 0.92rem; width: 100%; }
       .setup-note { font-size: 0.78rem; color: #888; margin-top: 0.9rem; line-height: 1.4; }
+      .setup-note-te { display: block; margin-top: 0.3rem; color: #999; }
 
       .timer-bar {
         position: sticky; top: 0; z-index: 10;
