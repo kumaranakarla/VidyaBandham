@@ -26,7 +26,7 @@ import { AuthService } from '../../services/auth.service';
           </ng-container>
           <a routerLink="/tet" routerLinkActive="active">TET Prep</a>
           <a routerLink="/mock-test" routerLinkActive="active">MockTest(TET)</a>
-          <a routerLink="/tet-2026" routerLinkActive="active" class="nav-new-flash">2026 (New)</a>
+          <a routerLink="/tet-2026" routerLinkActive="active" class="nav-new-flash">2026 TET (New)</a>
           <a routerLink="/grand-test" routerLinkActive="active">Grand Test</a>
         </nav>
         <div class="user">
@@ -85,8 +85,8 @@ import { AuthService } from '../../services/auth.service';
         border-radius: 4px;
       }
       @keyframes nav-new-pulse {
-        0%, 100% { color: #ff6b6b; text-shadow: 0 0 6px rgba(255, 107, 107, 0.7); }
-        50% { color: #ffd166; text-shadow: 0 0 10px rgba(255, 209, 102, 0.9); }
+        0%, 100% { color: #dc2626; text-shadow: 0 0 6px rgba(220, 38, 38, 0.7); }
+        50% { color: #ff6b6b; text-shadow: 0 0 10px rgba(255, 107, 107, 0.9); }
       }
       .user {
         display: flex;
