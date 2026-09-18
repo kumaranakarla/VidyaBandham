@@ -26,19 +26,6 @@ type Stage = 'setup' | 'testing' | 'result';
     <!-- SETUP -->
     <div class="setup-card" *ngIf="stage === 'setup'">
       <div class="field">
-        <label>Language</label>
-        <div class="lang-toggle">
-          <button type="button" [class.active]="lang === 'en'" (click)="lang = 'en'">English</button>
-          <button type="button" [class.active]="lang === 'te'" (click)="lang = 'te'">తెలుగు</button>
-        </div>
-        <span class="lang-note" *ngIf="lang === 'te'">
-          English-subject questions always stay in English, same as the real exam.
-        </span>
-        <span class="lang-note" *ngIf="lang === 'en'">
-          Telugu-subject questions (language & literature) always stay in Telugu, same as the real exam.
-        </span>
-      </div>
-      <div class="field">
         <label>Year</label>
         <select [(ngModel)]="setupYear">
           <option value="">All years</option>
@@ -95,17 +82,21 @@ type Stage = 'setup' | 'testing' | 'result';
         <div class="q-card" *ngFor="let q of questions; let i = index">
           <div class="subject-tag">
             Q{{ i + 1 }} · {{ q.subject }}
-            <span class="en-only-tag" *ngIf="lang === 'te' && !q.question_te">English only</span>
-            <span class="en-only-tag" *ngIf="lang === 'en' && q.subject === 'Telugu'">Telugu only</span>
+            <span class="en-only-tag" *ngIf="!q.question_te && q.subject !== 'Telugu'">English only</span>
+            <span class="en-only-tag" *ngIf="q.subject === 'Telugu'">Telugu only</span>
           </div>
-          <div class="question-text">{{ questionText(q) }}</div>
+          <div class="question-text">
+            {{ q.question }}
+            <div class="question-text-te" *ngIf="q.question_te">{{ q.question_te }}</div>
+          </div>
           <div class="options">
             <button
-              *ngFor="let opt of optionsFor(q); let oi = index"
+              *ngFor="let opt of optionsEnOf(q); let oi = index"
               [class.selected]="answers[q.id] === oi + 1"
               (click)="select(q.id, oi + 1)"
             >
-              {{ opt }}
+              <span>{{ opt }}</span>
+              <span class="opt-te" *ngIf="optionsTeOf(q)">{{ optionsTeOf(q)![oi] }}</span>
             </button>
           </div>
         </div>
@@ -162,21 +153,25 @@ type Stage = 'setup' | 'testing' | 'result';
         <div class="q-card" *ngFor="let r of result.results; let i = index">
           <div class="subject-tag">
             Q{{ i + 1 }} · {{ r.subject }}
-            <span class="en-only-tag" *ngIf="lang === 'te' && !r.question_te">English only</span>
-            <span class="en-only-tag" *ngIf="lang === 'en' && r.subject === 'Telugu'">Telugu only</span>
+            <span class="en-only-tag" *ngIf="!r.question_te && r.subject !== 'Telugu'">English only</span>
+            <span class="en-only-tag" *ngIf="r.subject === 'Telugu'">Telugu only</span>
             <span class="badge" [class.badge-correct]="r.isCorrect" [class.badge-wrong]="!r.isCorrect && r.selected" [class.badge-blank]="!r.selected">
               {{ r.isCorrect ? '✓ Correct' : (r.selected ? '✗ Wrong answer' : 'Not answered') }}
             </span>
           </div>
-          <div class="question-text">{{ questionTextResult(r) }}</div>
+          <div class="question-text">
+            {{ r.question }}
+            <div class="question-text-te" *ngIf="r.question_te">{{ r.question_te }}</div>
+          </div>
           <div class="options">
             <button
-              *ngFor="let opt of optionsForResult(r); let oi = index"
+              *ngFor="let opt of optionsEnOf(r); let oi = index"
               [class.correct]="oi + 1 === r.correct_option"
               [class.incorrect]="r.selected === oi + 1 && r.selected !== r.correct_option"
               disabled
             >
-              {{ opt }}
+              <span>{{ opt }}</span>
+              <span class="opt-te" *ngIf="optionsTeOf(r)">{{ optionsTeOf(r)![oi] }}</span>
             </button>
           </div>
           <div class="answer-note answer-note-wrong" *ngIf="!r.isCorrect && r.selected">
@@ -203,13 +198,6 @@ type Stage = 'setup' | 'testing' | 'result';
       .field { margin-bottom: 0.9rem; display: flex; flex-direction: column; gap: 0.3rem; }
       .field label { font-size: 0.85rem; color: #555; }
       .field select { padding: 0.5rem 0.6rem; border-radius: 6px; border: 1px solid #ccc; }
-      .lang-toggle { display: flex; gap: 0.5rem; }
-      .lang-toggle button {
-        padding: 0.4rem 1rem; border-radius: 999px; border: 1px solid #ccc;
-        background: #fafafa; cursor: pointer; font-size: 0.9rem;
-      }
-      .lang-toggle button.active { background: #2c4870; border-color: #2c4870; color: white; }
-      .lang-note { font-size: 0.78rem; color: #888; }
       .en-only-tag {
         margin-left: 0.5rem; font-size: 0.7rem; color: #888; font-weight: 500;
         border: 1px solid #ddd; border-radius: 4px; padding: 0.05rem 0.4rem;
@@ -232,16 +220,23 @@ type Stage = 'setup' | 'testing' | 'result';
       .q-card { background: white; padding: 1rem 1.2rem; border-radius: 8px; box-shadow: 0 1px 4px rgba(0,0,0,0.06); }
       .subject-tag { display: inline-block; font-size: 0.75rem; color: #c97c1f; font-weight: 600; margin-bottom: 0.4rem; }
       .question-text { font-weight: 600; color: #222; margin-bottom: 0.7rem; }
+      .question-text-te { font-weight: 600; color: #444; margin-top: 0.35rem; font-size: 0.95em; }
       .options { display: flex; flex-direction: column; gap: 0.5rem; }
       .options button {
         text-align: left; padding: 0.55rem 0.8rem; border: 1px solid #ddd; border-radius: 6px;
         background: #fafafa; cursor: pointer; font-size: 0.95rem;
+        display: flex; flex-direction: column; gap: 0.15rem;
       }
+      .options button .opt-te { color: #555; font-size: 0.9em; }
       .options button:disabled { cursor: default; }
       .options button.selected { border-color: #2c4870; background: #eef2f8; }
-      .options button.correct { background: #dcefe1; border-color: #2f7a3d; }
-      .options button.incorrect { background: #fbe4e2; border-color: #b3261e; }
-      .answer-note { margin-top: 0.7rem; font-size: 0.9rem; color: #b3261e; }
+      /* Bright, unambiguous feedback colors — matches the 2026 (New) paper page,
+         replacing the earlier muted pastel greens/reds. */
+      .options button.correct { background: #16a34a; border-color: #15803d; color: white; border-width: 2px; }
+      .options button.correct .opt-te { color: #eafff0; }
+      .options button.incorrect { background: #dc2626; border-color: #b91c1c; color: white; border-width: 2px; }
+      .options button.incorrect .opt-te { color: #ffe9e9; }
+      .answer-note { margin-top: 0.7rem; font-size: 0.9rem; font-weight: 700; }
 
       .submit-row { display: flex; gap: 0.8rem; margin-top: 1.2rem; }
       .submit-btn {
@@ -280,19 +275,19 @@ type Stage = 'setup' | 'testing' | 'result';
       .answer-key h3 { font-size: 1rem; color: #2c4870; margin: 0 0 0.7rem; }
       .answer-key table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
       .answer-key th, .answer-key td { text-align: left; padding: 0.4rem 0.6rem; border-bottom: 1px solid #eee; }
-      .answer-key .key-wrong { color: #b3261e; font-weight: 600; }
-      .answer-key .key-correct { color: #2f7a3d; font-weight: 600; }
+      .answer-key .key-wrong { color: #dc2626; font-weight: 700; }
+      .answer-key .key-correct { color: #16a34a; font-weight: 700; }
 
       .badge {
         display: inline-block; margin-left: 0.6rem; font-size: 0.72rem; font-weight: 700;
         padding: 0.12rem 0.55rem; border-radius: 999px; letter-spacing: 0.02em; vertical-align: middle;
       }
-      .badge-correct { background: #dcefe1; color: #2f7a3d; }
-      .badge-wrong { background: #fbe4e2; color: #b3261e; }
+      .badge-correct { background: #16a34a; color: white; }
+      .badge-wrong { background: #dc2626; color: white; }
       .badge-blank { background: #eee; color: #777; }
 
-      .answer-note-wrong { color: #b3261e; }
-      .answer-note-correct { color: #2f7a3d; }
+      .answer-note-wrong { color: #dc2626; }
+      .answer-note-correct { color: #16a34a; }
     `,
   ],
 })
@@ -302,7 +297,6 @@ export class MockTestComponent implements OnInit {
   allQuestions: TetQuestion[] = [];
   years: number[] = [];
   subjects: string[] = [];
-  lang: 'en' | 'te' = 'en';
 
   setupYear = '';
   setupSubject = '';
@@ -346,26 +340,23 @@ export class MockTestComponent implements OnInit {
     return Object.values(this.answers).filter((v) => v !== null && v !== undefined).length;
   }
 
-  questionText(q: MockQuestion): string {
-    return this.lang === 'te' && q.question_te ? q.question_te : q.question;
+  // English text/options are always shown; when a Telugu translation exists
+  // it's shown alongside — not instead of — the English text, so learners
+  // see both together rather than needing to toggle back and forth. Works
+  // for both the live question (MockQuestion) and a graded result row,
+  // since both shapes carry the same question/option(_te) fields.
+  optionsEnOf(x: { option_a: string; option_b: string; option_c: string; option_d: string }): string[] {
+    return [x.option_a, x.option_b, x.option_c, x.option_d];
   }
 
-  optionsFor(q: MockQuestion): string[] {
-    if (this.lang === 'te' && q.option_a_te) {
-      return [q.option_a_te!, q.option_b_te!, q.option_c_te!, q.option_d_te!];
-    }
-    return [q.option_a, q.option_b, q.option_c, q.option_d];
-  }
-
-  questionTextResult(r: MockSubmitResponse['results'][number]): string {
-    return this.lang === 'te' && r.question_te ? r.question_te : r.question;
-  }
-
-  optionsForResult(r: MockSubmitResponse['results'][number]): string[] {
-    if (this.lang === 'te' && r.option_a_te) {
-      return [r.option_a_te!, r.option_b_te!, r.option_c_te!, r.option_d_te!];
-    }
-    return [r.option_a, r.option_b, r.option_c, r.option_d];
+  optionsTeOf(x: {
+    option_a_te?: string | null;
+    option_b_te?: string | null;
+    option_c_te?: string | null;
+    option_d_te?: string | null;
+  }): string[] | null {
+    if (!x.option_a_te) return null;
+    return [x.option_a_te!, x.option_b_te!, x.option_c_te!, x.option_d_te!];
   }
 
   optionLetter(n: number | null | undefined): string {
