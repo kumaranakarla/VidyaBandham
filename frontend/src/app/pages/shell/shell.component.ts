@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 import { AuthService } from '../../services/auth.service';
@@ -9,6 +9,35 @@ import { AuthService } from '../../services/auth.service';
   imports: [CommonModule, RouterLink, RouterLinkActive, RouterOutlet],
   template: `
     <div class="shell">
+      <div class="notice-overlay" *ngIf="showNotice">
+        <div class="notice-card">
+          <div class="notice-head">
+            <button class="notice-close" type="button" aria-label="Close" (click)="dismissNotice()">✕</button>
+            <h3>Important Notice</h3>
+            <div class="notice-sub">ANDHRA PRADESH TEACHER ELIGIBILITY TEST</div>
+          </div>
+          <div class="notice-body">
+            <div class="notice-row">
+              <span class="notice-icon">📄</span>
+              <div class="notice-text">
+                <div class="notice-title-row">
+                  <span class="notice-title">Latest Updates</span>
+                  <span class="notice-badge">NEW</span>
+                </div>
+                <p class="notice-msg">
+                  New official AP TET 2026 papers have been added for practice under the
+                  <strong>2026 TET (New)</strong> and <strong>Grand Test</strong> tabs.
+                </p>
+                <p class="notice-msg notice-msg-te">
+                  ప్రాక్టీస్ కోసం కొత్త అధికారిక AP TET 2026 పేపర్లు <strong>2026 TET (New)</strong> మరియు
+                  <strong>Grand Test</strong> ట్యాబ్‌లలో జోడించబడ్డాయి.
+                </p>
+              </div>
+            </div>
+            <button class="notice-ok" type="button" (click)="dismissNotice()">Got it</button>
+          </div>
+        </div>
+      </div>
       <header>
         <div class="brand">Vidya Bandham</div>
         <nav>
@@ -107,9 +136,155 @@ import { AuthService } from '../../services/auth.service';
         margin: 0 auto;
         padding: 1.5rem 1rem 3rem;
       }
+
+      .notice-overlay {
+        position: fixed;
+        inset: 0;
+        background: rgba(20, 20, 20, 0.55);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 100;
+        padding: 1rem;
+      }
+      .notice-card {
+        background: white;
+        border-radius: 14px;
+        max-width: 480px;
+        width: 100%;
+        overflow: hidden;
+        box-shadow: 0 12px 40px rgba(0, 0, 0, 0.35);
+      }
+      .notice-head {
+        position: relative;
+        background: linear-gradient(135deg, #f7941d, #f26522);
+        color: #1a1a1a;
+        text-align: center;
+        padding: 1.4rem 1rem 1.1rem;
+      }
+      .notice-head h3 {
+        margin: 0;
+        font-size: 1.4rem;
+        font-weight: 800;
+      }
+      .notice-sub {
+        margin-top: 0.3rem;
+        font-size: 0.8rem;
+        font-weight: 700;
+        letter-spacing: 0.03em;
+        color: #1d3fae;
+      }
+      .notice-close {
+        position: absolute;
+        top: 0.7rem;
+        right: 0.7rem;
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+        border: none;
+        background: white;
+        color: #333;
+        font-size: 0.9rem;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .notice-body {
+        padding: 1.2rem 1.3rem 1.4rem;
+      }
+      .notice-row {
+        display: flex;
+        gap: 0.8rem;
+        align-items: flex-start;
+        background: #eef7fc;
+        border: 1px solid #d7ecf7;
+        border-radius: 10px;
+        padding: 0.9rem 1rem;
+      }
+      .notice-icon {
+        font-size: 1.4rem;
+        flex-shrink: 0;
+      }
+      .notice-text {
+        flex: 1;
+        min-width: 0;
+      }
+      .notice-title-row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0.5rem;
+      }
+      .notice-title {
+        font-weight: 800;
+        color: #1d3fae;
+        font-size: 1.05rem;
+      }
+      .notice-badge {
+        background: #dc2626;
+        color: #ffe066;
+        font-size: 0.7rem;
+        font-weight: 800;
+        padding: 0.2rem 0.5rem;
+        border-radius: 4px;
+        transform: rotate(-4deg);
+        flex-shrink: 0;
+      }
+      .notice-msg {
+        margin: 0.5rem 0 0;
+        color: #e2622a;
+        font-weight: 600;
+        font-size: 0.92rem;
+        line-height: 1.4;
+      }
+      .notice-msg-te {
+        color: #c97c1f;
+        font-size: 0.88rem;
+      }
+      .notice-ok {
+        display: block;
+        margin: 1.1rem auto 0;
+        background: #2c4870;
+        color: white;
+        border: none;
+        padding: 0.55rem 1.6rem;
+        border-radius: 8px;
+        font-weight: 700;
+        cursor: pointer;
+      }
     `,
   ],
 })
-export class ShellComponent {
+export class ShellComponent implements OnInit {
+  private static readonly NOTICE_ID = 'ap-tet-2026-papers-added';
+
+  showNotice = false;
+
   constructor(public auth: AuthService) {}
+
+  ngOnInit(): void {
+    const user = this.auth.user();
+    if (!user) return;
+    const key = `vb-notice-${ShellComponent.NOTICE_ID}-${user.id}`;
+    try {
+      if (!localStorage.getItem(key)) {
+        this.showNotice = true;
+      }
+    } catch {
+      // localStorage unavailable — just skip showing the one-time notice.
+    }
+  }
+
+  dismissNotice(): void {
+    this.showNotice = false;
+    const user = this.auth.user();
+    if (!user) return;
+    const key = `vb-notice-${ShellComponent.NOTICE_ID}-${user.id}`;
+    try {
+      localStorage.setItem(key, '1');
+    } catch {
+      // Ignore — worst case the notice reappears next login.
+    }
+  }
 }
