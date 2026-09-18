@@ -15,7 +15,7 @@ import { AuthService } from '../../services/auth.service';
   imports: [CommonModule, FormsModule, RouterLink],
   template: `
     <div class="login-page">
-      <form class="login-card" (ngSubmit)="submit()">
+      <form class="login-card" (ngSubmit)="submit()" novalidate>
         <h1>Vidya Bandham</h1>
         <p class="subtitle">Create a free account to practice AP TET 2026 papers.</p>
 
