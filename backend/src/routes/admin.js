@@ -46,6 +46,32 @@ router.get('/stats', requireAuth, requireAdmin, (req, res) => {
     )
     .all();
 
+  // Subscription attempts that never became a paid row — cancelled at
+  // checkout, a verification mismatch, or the Razorpay order itself
+  // failing to create. This is what answers "why aren't more people
+  // subscribing", not just "how many did".
+  const failedAttemptsCount = db
+    .prepare("SELECT COUNT(*) AS count FROM subscriptions WHERE status = 'failed'")
+    .get().count;
+
+  const failedAttemptsByReason = db
+    .prepare(
+      `SELECT COALESCE(failure_reason, 'unknown') AS reason, COUNT(*) AS count
+       FROM subscriptions WHERE status = 'failed' GROUP BY reason`
+    )
+    .all();
+
+  const recentFailedAttempts = db
+    .prepare(
+      `SELECT u.email, u.name, s.amount, COALESCE(s.failure_reason, 'unknown') AS reason, s.created_at
+       FROM subscriptions s
+       JOIN users u ON u.id = s.user_id
+       WHERE s.status = 'failed'
+       ORDER BY s.created_at DESC
+       LIMIT 20`
+    )
+    .all();
+
   const hitsAllTime = db.prepare('SELECT COUNT(*) AS count FROM page_hits').get().count;
   const hits7 = db.prepare('SELECT COUNT(*) AS count FROM page_hits WHERE created_at >= ?').get(last7).count;
   const hits30 = db.prepare('SELECT COUNT(*) AS count FROM page_hits WHERE created_at >= ?').get(last30).count;
@@ -86,6 +112,17 @@ router.get('/stats', requireAuth, requireAdmin, (req, res) => {
         currentPeriodEnd: r.current_period_end,
         paidAt: r.created_at,
       })),
+      failed: {
+        total: failedAttemptsCount,
+        byReason: Object.fromEntries(failedAttemptsByReason.map((r) => [r.reason, r.count])),
+        recent: recentFailedAttempts.map((r) => ({
+          email: r.email,
+          name: r.name,
+          amountRupees: Math.round(r.amount / 100),
+          reason: r.reason,
+          createdAt: r.created_at,
+        })),
+      },
     },
     hits: { last7Days: hits7, last30Days: hits30, allTime: hitsAllTime },
     logins,

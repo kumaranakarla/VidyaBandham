@@ -49,6 +49,14 @@ import { AuthService } from '../../services/auth.service';
           </div>
 
           <div class="card">
+            <div class="label">Failed payment attempts</div>
+            <div class="value">{{ stats.subscriptions.failed.total }}</div>
+            <div class="breakdown">
+              <span *ngFor="let r of failedReasonEntries">{{ reasonLabel(r[0]) }}: {{ r[1] }}</span>
+            </div>
+          </div>
+
+          <div class="card">
             <div class="label">Site hits</div>
             <div class="value">{{ stats.hits.last7Days }} <span class="unit">/ 7 days</span></div>
             <div class="breakdown">
@@ -82,6 +90,31 @@ import { AuthService } from '../../services/auth.service';
           </table>
         </div>
         <p *ngIf="stats && !stats.subscriptions.recent.length" class="empty">No paid subscriptions yet.</p>
+
+        <div class="recent" *ngIf="stats && stats.subscriptions.failed.recent.length">
+          <h2>Recent failed payment attempts</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Amount</th>
+                <th>Reason</th>
+                <th>When</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let r of stats.subscriptions.failed.recent">
+                <td>{{ r.name }}</td>
+                <td>{{ r.email }}</td>
+                <td>₹{{ r.amountRupees }}</td>
+                <td>{{ reasonLabel(r.reason) }}</td>
+                <td>{{ r.createdAt | date: 'medium' }}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p *ngIf="stats && !stats.subscriptions.failed.recent.length" class="empty">No failed payment attempts yet.</p>
 
         <div class="recent" *ngIf="stats && stats.logins.length">
           <h2>Login activity</h2>
@@ -205,5 +238,24 @@ export class AdminComponent implements OnInit {
 
   get roleEntries(): [string, number][] {
     return this.stats ? Object.entries(this.stats.users.byRole) : [];
+  }
+
+  get failedReasonEntries(): [string, number][] {
+    return this.stats ? Object.entries(this.stats.subscriptions.failed.byReason) : [];
+  }
+
+  reasonLabel(reason: string): string {
+    switch (reason) {
+      case 'user_cancelled':
+        return 'Cancelled at checkout';
+      case 'signature_mismatch':
+        return 'Verification failed';
+      case 'order_creation_failed':
+        return 'Could not start payment';
+      case 'checkout_error':
+        return 'Checkout error';
+      default:
+        return 'Unknown';
+    }
   }
 }

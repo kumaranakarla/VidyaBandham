@@ -91,7 +91,7 @@ router.post('/verify', requireAuth, (req, res) => {
 
   if (expectedSignature !== razorpay_signature) {
     db.prepare(
-      `UPDATE subscriptions SET status = 'failed', razorpay_payment_id = ?
+      `UPDATE subscriptions SET status = 'failed', razorpay_payment_id = ?, failure_reason = 'signature_mismatch'
        WHERE razorpay_order_id = ? AND user_id = ?`
     ).run(razorpay_payment_id, razorpay_order_id, req.user.id);
     return res.status(400).json({ error: 'Payment could not be verified.' });
@@ -110,6 +110,47 @@ router.post('/verify', requireAuth, (req, res) => {
   }
 
   res.json({ ok: true, currentPeriodEnd: periodEnd });
+});
+
+// POST /api/subscription/report-failure — the client calls this whenever a
+// payment attempt doesn't reach /verify at all: the user closed the
+// Checkout widget without paying, or the order couldn't even be created.
+// Without this, those drop-offs would leave no trace ('created' rows just
+// sit there forever, indistinguishable from someone who's mid-payment) —
+// this is what lets the admin dashboard show *why* people abandon checkout,
+// not just how many paid.
+const KNOWN_FAILURE_REASONS = new Set([
+  'user_cancelled',
+  'order_creation_failed',
+  'checkout_error',
+]);
+
+router.post('/report-failure', requireAuth, (req, res) => {
+  const { orderId, reason } = req.body || {};
+  const safeReason = KNOWN_FAILURE_REASONS.has(reason) ? reason : 'unknown';
+
+  if (orderId) {
+    const result = db
+      .prepare(
+        `UPDATE subscriptions SET status = 'failed', failure_reason = ?
+         WHERE razorpay_order_id = ? AND user_id = ? AND status = 'created'`
+      )
+      .run(safeReason, orderId, req.user.id);
+    if (result.changes === 0) {
+      // Already resolved (e.g. paid in another tab) or not this user's
+      // order — nothing to record, but not an error either.
+      return res.json({ ok: true, recorded: false });
+    }
+    return res.json({ ok: true, recorded: true });
+  }
+
+  // No order was ever created (Razorpay's own order-create call failed) —
+  // log a standalone row so the failure still shows up in the admin count.
+  db.prepare(
+    `INSERT INTO subscriptions (id, user_id, status, amount, failure_reason, created_at)
+     VALUES (?, ?, 'failed', ?, ?, ?)`
+  ).run(crypto.randomUUID(), req.user.id, SUBSCRIPTION_AMOUNT_PAISE, safeReason, now());
+  res.json({ ok: true, recorded: true });
 });
 
 module.exports = router;

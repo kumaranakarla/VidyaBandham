@@ -56,6 +56,15 @@ export class SubscriptionService {
     return this.http.post<{ ok: boolean; currentPeriodEnd: string }>(`${this.base}/verify`, payload);
   }
 
+  // Best-effort telemetry: tells the backend a payment attempt didn't make
+  // it to /verify (checkout closed without paying, or the order couldn't
+  // even be created), so the admin dashboard can show why people abandon
+  // checkout. Never blocks or surfaces errors to the user — this is purely
+  // for the app owner's own tracking.
+  reportFailure(reason: 'user_cancelled' | 'order_creation_failed' | 'checkout_error', orderId?: string) {
+    return this.http.post<{ ok: boolean; recorded: boolean }>(`${this.base}/report-failure`, { reason, orderId });
+  }
+
   // Opens the Razorpay Checkout widget for one order, and resolves once the
   // payment is captured AND verified server-side (never trust the client-side
   // callback alone) or rejects if the user closes the widget without paying.

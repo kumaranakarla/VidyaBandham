@@ -18,6 +18,17 @@ export interface AdminStats {
       currentPeriodEnd: string | null;
       paidAt: string;
     }[];
+    failed: {
+      total: number;
+      byReason: Record<string, number>;
+      recent: {
+        email: string;
+        name: string;
+        amountRupees: number;
+        reason: string;
+        createdAt: string;
+      }[];
+    };
   };
   hits: { last7Days: number; last30Days: number; allTime: number };
   logins: {

@@ -260,4 +260,15 @@ if (!userColumnsForLogins.some((c) => c.name === 'last_login_at')) {
   db.exec('ALTER TABLE users ADD COLUMN last_login_at TEXT');
 }
 
+// `failure_reason` records why a subscription attempt didn't end in a paid
+// row — the checkout widget was closed without paying, the signature
+// verification failed, or the Razorpay order couldn't even be created —
+// so the admin dashboard can show *why* people are dropping off at
+// checkout, not just that the row is 'failed'. Plain nullable column, same
+// safe add-if-missing pattern as the others above.
+const subscriptionColumns = db.prepare("PRAGMA table_info(subscriptions)").all();
+if (!subscriptionColumns.some((c) => c.name === 'failure_reason')) {
+  db.exec('ALTER TABLE subscriptions ADD COLUMN failure_reason TEXT');
+}
+
 module.exports = db;

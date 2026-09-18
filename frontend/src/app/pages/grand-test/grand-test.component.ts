@@ -771,14 +771,22 @@ export class GrandTestComponent implements OnInit, OnDestroy {
           })
           .catch((err) => {
             this.payingNow = false;
-            if (err?.message !== 'cancelled') {
+            const cancelled = err?.message === 'cancelled';
+            if (!cancelled) {
               this.paywallError = 'Payment could not be completed. Please try again.';
             }
+            // Fire-and-forget: lets the admin dashboard see how many people
+            // close the checkout widget vs hit a real error, without
+            // blocking or affecting what the user sees either way.
+            this.subscription
+              .reportFailure(cancelled ? 'user_cancelled' : 'checkout_error', order.orderId)
+              .subscribe({ error: () => {} });
           });
       },
       error: () => {
         this.payingNow = false;
         this.paywallError = 'Could not start the payment. Please try again in a moment.';
+        this.subscription.reportFailure('order_creation_failed').subscribe({ error: () => {} });
       },
     });
   }
