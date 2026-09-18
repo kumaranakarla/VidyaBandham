@@ -1,7 +1,7 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { RouterLink } from '@angular/router';
+import { ActivatedRoute, RouterLink } from '@angular/router';
 import { TetQuestion, TetService } from '../../services/tet.service';
 import { AuthService } from '../../services/auth.service';
 import { SubscriptionService } from '../../services/subscription.service';
@@ -379,6 +379,12 @@ export class GrandTestComponent implements OnInit, OnDestroy {
   timeLeftSeconds = TIME_LIMIT_SECONDS;
   private timerHandle: ReturnType<typeof setInterval> | null = null;
 
+  // /mock-test and /grand-test are two routes pointing at this same
+  // component (see app.routes.ts). /grand-test always shows the full
+  // 12-paper picker; /mock-test skips straight to the setup screen for
+  // the first paper that isn't locked, so Mock Test stays a one-click
+  // "take a test now" entry point rather than a picker.
+  private skipToFirstAvailable = false;
   subscriptionActive = false;
   showPaywall = false;
   showCreateAccountPrompt = false;
@@ -388,11 +394,13 @@ export class GrandTestComponent implements OnInit, OnDestroy {
   constructor(
     private tet: TetService,
     public auth: AuthService,
-    private subscription: SubscriptionService
+    private subscription: SubscriptionService,
+    private route: ActivatedRoute
   ) {}
 
   ngOnInit(): void {
     this.candidateName = this.auth.user()?.name || '';
+    this.skipToFirstAvailable = this.route.snapshot.routeConfig?.path === 'mock-test';
     this.load();
   }
 
@@ -424,6 +432,13 @@ export class GrandTestComponent implements OnInit, OnDestroy {
           };
         });
         this.loading = false;
+
+        if (this.skipToFirstAvailable && this.stage === 'select') {
+          const index = this.paperSummaries.findIndex((p) => !p.locked);
+          if (index !== -1) {
+            this.choosePaper(this.paperSummaries[index], index);
+          }
+        }
       },
       error: () => (this.loading = false),
     });
