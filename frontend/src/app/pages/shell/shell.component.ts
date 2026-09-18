@@ -97,14 +97,15 @@ import { AuthService } from '../../services/auth.service';
         flex-wrap: wrap;
       }
       nav a {
-        color: #d9e0ea;
+        color: #ffcf7f;
         text-decoration: none;
+        font-weight: 700;
         font-size: 0.95rem;
         padding: 0.3rem 0.1rem;
         border-bottom: 2px solid transparent;
       }
       nav a.active {
-        color: white;
+        color: #ffffff;
         border-bottom-color: #c97c1f;
       }
       /* Draws the eye to the new 2026 papers without being a literal

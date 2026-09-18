@@ -27,6 +27,7 @@ import { AuthService } from '../../services/auth.service';
 
         <label>Password</label>
         <input type="password" name="password" [(ngModel)]="password" placeholder="At least 6 characters" required />
+        <p class="hint">At least 6 characters — letters, numbers, or symbols are all fine.</p>
 
         <button type="submit" [disabled]="loading">{{ loading ? 'Creating account…' : 'Create account' }}</button>
 
@@ -81,6 +82,7 @@ import { AuthService } from '../../services/auth.service';
         font-weight: bold;
       }
       button:disabled { opacity: 0.6; cursor: default; }
+      .hint { margin: 0.3rem 0 0; font-size: 0.78rem; color: #888; font-weight: 500; }
       .error { color: #b3261e; margin-top: 1rem; font-size: 0.9rem; font-weight: bold; }
       .switch { margin-top: 1.5rem; text-align: center; font-size: 0.85rem; color: #666; font-weight: bold; }
       .switch a { color: #2c4870; }
@@ -96,10 +98,26 @@ export class SignupComponent {
 
   constructor(private auth: AuthService, private router: Router) {}
 
+  // Kept deliberately simple, per product decision: length is the only
+  // real bar (matches the backend's own minimum), no forced mix of
+  // uppercase/numbers/symbols — that kind of "complex password" rule mostly
+  // just frustrates people signing up for a ₹299 exam-prep app.
+  private static readonly EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
   submit(): void {
-    if (!this.name || !this.email || !this.password) return;
-    this.loading = true;
     this.error = '';
+    if (!this.name || !this.email || !this.password) return;
+
+    if (!SignupComponent.EMAIL_PATTERN.test(this.email.trim())) {
+      this.error = 'Please enter a valid email address.';
+      return;
+    }
+    if (this.password.length < 6) {
+      this.error = 'Password must be at least 6 characters.';
+      return;
+    }
+
+    this.loading = true;
     this.auth.register(this.name, this.email, this.password).subscribe({
       next: () => {
         this.loading = false;
