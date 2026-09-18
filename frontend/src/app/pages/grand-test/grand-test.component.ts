@@ -123,7 +123,7 @@ const TIME_LIMIT_SECONDS = 150 * 60; // 2 hrs 30 min, same as the real exam
           <div class="answer-note" *ngIf="picked[q.id]">
             <span class="correct-text" *ngIf="picked[q.id] === q.correct_option">Correct!</span>
             <span class="incorrect-text" *ngIf="picked[q.id] !== q.correct_option">
-              Not quite — the correct answer is <strong>{{ optionsEn(q)[q.correct_option - 1] }}</strong>.
+              Not quite — the correct answer is <strong>{{ optionsEn(q)[q.correct_option - 1] }}</strong><ng-container *ngIf="optionsTe(q)"> (<strong>{{ optionsTe(q)![q.correct_option - 1] }}</strong>)</ng-container>.
             </span>
           </div>
         </div>
