@@ -26,7 +26,7 @@ import { AuthService } from '../../services/auth.service';
           </ng-container>
           <a routerLink="/tet" routerLinkActive="active">TET Prep</a>
           <a routerLink="/mock-test" routerLinkActive="active">Mock Test</a>
-          <a routerLink="/tet-2026" routerLinkActive="active">2026 (New)</a>
+          <a routerLink="/tet-2026" routerLinkActive="active" class="nav-new-flash">2026 (New)</a>
           <a routerLink="/grand-test" routerLinkActive="active">Grand Test</a>
         </nav>
         <div class="user">
@@ -75,6 +75,18 @@ import { AuthService } from '../../services/auth.service';
       nav a.active {
         color: white;
         border-bottom-color: #c97c1f;
+      }
+      /* Draws the eye to the new 2026 papers without being a literal
+         on/off blink (bad for readability/accessibility) — a soft pulsing
+         glow in a bright, attention-getting color instead. Stops pulsing
+         once the tab is the active page, since it's already been noticed. */
+      nav a.nav-new-flash:not(.active) {
+        animation: nav-new-pulse 1.6s ease-in-out infinite;
+        border-radius: 4px;
+      }
+      @keyframes nav-new-pulse {
+        0%, 100% { color: #ff6b6b; text-shadow: 0 0 6px rgba(255, 107, 107, 0.7); }
+        50% { color: #ffd166; text-shadow: 0 0 10px rgba(255, 209, 102, 0.9); }
       }
       .user {
         display: flex;
