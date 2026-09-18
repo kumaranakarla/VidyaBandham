@@ -12,18 +12,20 @@ import { AuthService } from '../../services/auth.service';
       <header>
         <div class="brand">Vidya Bandham</div>
         <nav>
-          <!-- A tet_subscriber account has no class/students/etc. — it only
-               ever needs the 2026 (New) tab, so the rest of the school-
-               management nav stays hidden for that role. -->
+          <!-- A tet_subscriber account has no class/students/etc., so the
+               school-management nav (diary/homework/attendance/fees/
+               students) stays hidden for that role — but TET Prep, Mock
+               Test, and 2026 (New) are exactly what a subscriber account is
+               for, so those three stay visible for everyone. -->
           <ng-container *ngIf="!auth.isSubscriberOnly()">
             <a routerLink="/diary" routerLinkActive="active">Diary</a>
             <a routerLink="/homework" routerLinkActive="active">Homework</a>
             <a routerLink="/attendance" routerLinkActive="active">Attendance</a>
             <a routerLink="/fees" routerLinkActive="active">Fees</a>
             <a *ngIf="auth.isTeacher()" routerLink="/students" routerLinkActive="active">Students</a>
-            <a routerLink="/tet" routerLinkActive="active">TET Prep</a>
-            <a routerLink="/mock-test" routerLinkActive="active">Mock Test</a>
           </ng-container>
+          <a routerLink="/tet" routerLinkActive="active">TET Prep</a>
+          <a routerLink="/mock-test" routerLinkActive="active">Mock Test</a>
           <a routerLink="/tet-2026" routerLinkActive="active">2026 (New)</a>
         </nav>
         <div class="user">

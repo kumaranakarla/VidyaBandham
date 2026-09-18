@@ -28,6 +28,12 @@ interface RazorpayCheckoutOptions {
   order_id: string;
   prefill?: { name?: string; email?: string };
   theme?: { color?: string };
+  // Restricts which payment method tabs Checkout shows. Left unset,
+  // Razorpay displays every method it supports (UPI, Cards, Netbanking,
+  // Wallets, Pay Later, EMI) which is overwhelming for a ₹299 purchase —
+  // UPI and Cards alone cover the overwhelming majority of how people in
+  // India actually pay.
+  method?: { netbanking?: '0' | '1'; card?: '0' | '1'; upi?: '0' | '1'; wallet?: '0' | '1'; paylater?: '0' | '1'; emi?: '0' | '1' };
   handler: (response: { razorpay_order_id: string; razorpay_payment_id: string; razorpay_signature: string }) => void;
   modal?: { ondismiss?: () => void };
 }
@@ -67,6 +73,7 @@ export class SubscriptionService {
         order_id: order.orderId,
         prefill: { name: user.name, email: user.email },
         theme: { color: '#2563eb' },
+        method: { upi: '1', card: '1', netbanking: '0', wallet: '0', paylater: '0', emi: '0' },
         handler: (response) => {
           this.verify(response).subscribe({
             next: (res) => resolve({ currentPeriodEnd: res.currentPeriodEnd }),
