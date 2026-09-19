@@ -35407,6 +35407,7607 @@ const TET_QUESTIONS = [
       "specific information"
     ],
     "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Child Development & Pedagogy",
+    "question": "Match the branches of Psychology with the fathers of those concerned branches\ni) Stanley Hall a) Educational Psychology\nii) E. L. Thorndike b) Child Psychology\niii) Wilhelm Wundt c) Experimental Psychology\nd) Abnormal Psychology",
+    "options": [
+      "i-b ii-d iii-a",
+      "i-b ii-a iii-c",
+      "i-a ii-d iii-c",
+      "i-d ii-c iii-b"
+    ],
+    "correct": 2,
+    "question_te": "మనోవిజ్ఞాన శాస్త్ర శాఖలను, పితామహులుగా పిలుచబడే వారితో జతపరచండి.\ni) స్టాన్లీ హాల్ a) విద్యామనోవిజ్ఞాన శాస్త్రము\nii) E. L. థార్న్‌డైక్ b) బాలల మనోవిజ్ఞానశాస్త్రము\niii) విల్ హెల్ఫ్ ఉంట్ c) ప్రయోగ మనోవిజ్ఞాన శాస్త్రము\nd) అపసామాన్య మనోవిజ్ఞాన శాస్త్రము",
+    "options_te": [
+      "i-b ii-d iii-a",
+      "i-b ii-a iii-c",
+      "i-a ii-d iii-c",
+      "i-d ii-c iii-b"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Child Development & Pedagogy",
+    "question": "Choose the correct option.\nA: According to Proximo-Distal tendency, an infant uses his wrists and fingers first and then uses his shoulders and elbows to reach an object.\nB: According to Cephalo-caudal tendency, the child first gains control over legs and then head and arms.",
+    "options": [
+      "Only A is correct",
+      "Only B is correct",
+      "Both A and B are correct",
+      "Both A and B are incorrect"
+    ],
+    "correct": 4,
+    "question_te": "సరైన ఐచ్చికాన్ని ఎంచుకోండి.\nA: సమీపస్త దూరస్త నియమం ప్రకారం, శిశువు మొదట మణికట్టు, వేళ్ళను ఉపయోగించిన తర్వాత భుజాలు, మోచేతులను ఉపయోగిస్తాడు.\nB: శిరః పాదాభిముఖ నియమం ప్రకారం, పిల్లవాడు మొదటగా తన కాళ్ళ పైన అదుపు తెచ్చుకున్న తర్వాత, తలను, చేతిభాగాలను ఉపయోగిస్తాడు.",
+    "options_te": [
+      "కేవలం A సరైనది",
+      "కేవలం B సరైనది",
+      "A మరియు B రెండూ సరైనవి",
+      "A మరియు B రెండూ సరైనవి కావు"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Child Development & Pedagogy",
+    "question": "At this stage of development, child's mental abilities like reasoning, observation, understanding, thinking, concentration, grasping power increases and understands surrounding people.",
+    "options": [
+      "Infancy",
+      "Early childhood",
+      "Late childhood",
+      "Puberty"
+    ],
+    "correct": 2,
+    "question_te": "శిశువు యొక్క ఈ దశలో మానసిక సామర్థ్యాలైన వివేచన, పరిశీలన, అవగాహన. ఆలోచన, ఏకాగ్రత, గ్రహణ శక్తి పెంపొంది, చుట్టుపక్కల వ్యక్తులను అవగాహన చేసుకుంటారు.",
+    "options_te": [
+      "శైశవ దశ",
+      "పూర్వ బాల్య దశ",
+      "ఉత్తర బాల్య దశ",
+      "యవ్వనారంభ దశ"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Child Development & Pedagogy",
+    "question": "Correct answer related to Piaget- Formal Operational stage\na) Hypothesis formation\nb) Cause and Effect Relation\nc) Deductive Reasoning\nd) Problem Solving Ability",
+    "options": [
+      "a, b only",
+      "b, c only",
+      "a, b, c only",
+      "a, b, c and d"
+    ],
+    "correct": 4,
+    "question_te": "పియాజే – అమూర్త ప్రచాయక దశకు చెందినది.\na) పరికల్పనను రూపొందించుట\nb) కార్యావరణ సంబంధాలు\nc) నిగమనాత్మక వివేచన\nd) సమస్యా పరిష్కార సామర్థ్యం",
+    "options_te": [
+      "a, b మాత్రమే",
+      "b, c మాత్రమే",
+      "a, b, c మాత్రమే",
+      "a, b, c మరియు d"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Child Development & Pedagogy",
+    "question": "The child faces\" Erickson Identity crisis\" at this stage of Psycho Social Development theory",
+    "options": [
+      "Step -1",
+      "Step -3",
+      "Step -5",
+      "Step -7"
+    ],
+    "correct": 3,
+    "question_te": "పిల్లవాడు ఎరిక్ సన్ యొక్క మనోసాంఘిక వికాస సిద్ధాంతంలోని ఈ దశలో \"ఐడెంటిటీ క్రైసిస్\"ను ఎదుర్కొంటాడు.",
+    "options_te": [
+      "దశ – 1",
+      "దశ – 3",
+      "దశ – 5",
+      "దశ – 7"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Child Development & Pedagogy",
+    "question": "Choose the correct option.\nA: The term 'Emotional Intelligence' was first introduced by Golman.\nB: The writer of the book \"Emotional Intelligence – Why It Can Matter More Than IQ\" is Golman.",
+    "options": [
+      "Only A is correct",
+      "Only B is correct",
+      "Both A and B are correct",
+      "Both A and B are incorrect"
+    ],
+    "correct": 2,
+    "question_te": "సరైన వాక్యమును ఎంచుకోండి.\nA: \"ఉద్వేగ ప్రజ్ఞ\" అనే పదాన్ని మొదటగా పరిచయం చేసిన వ్యక్తి గోల్మన్.\nB: \"Emotional Intelligence – Why It Can Matter More Than IQ\" పుస్తక రచయిత గోల్మన్.",
+    "options_te": [
+      "కేవలం A సరైనది",
+      "కేవలం B సరైనది",
+      "A మరియు B రెండూ సరైనవి",
+      "A మరియు B రెండూ సరైనవి కావు"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Child Development & Pedagogy",
+    "question": "Match the famous persons with their statements regarding Social Development.\na) Acquisition of ability to confirm to group standards. i) Hurlock\nb) Process of learning to confirm to group standards ii) Crow and Crow\nc) Attaining of maturity in social settings iii) Woodsworth\niv) Freeman and Showel",
+    "options": [
+      "a-i b-ii c-iii",
+      "a-ii b-iv c-i",
+      "a-ii b-i c-iv",
+      "a-i b-iii c-ii"
+    ],
+    "correct": 2,
+    "question_te": "కింది సాంఘిక వికాసానికి సంబంధించిన ప్రచనాలను, ప్రముఖ వ్యక్కులతో జతపరచండి.\na) సమూహ ప్రమాణాలకు అనుగుణంగా ఉండే సామర్థ్యాన్ని పొందటం i) హర్లాక్\nb) సాంఘిక ప్రమాణాలకు అనుగుణంగా ఉండటం కోసం నేర్చుకొనే ప్రక్రియ ii) క్రో మరియు క్రో\nc) సాంఘిక అనుబంధాలతో పరిపక్వతను పొందడం iii) వుడ్స్‌వర్త్\niv) ఫ్రీమన్, షొవెల్",
+    "options_te": [
+      "a-i b-ii c-iii",
+      "a-ii b-iv c-i",
+      "a-ii b-i c-iv",
+      "a-i b-iii c-ii"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is not related to Adolescence.",
+    "options": [
+      "Entrance to adulthood",
+      "Searching for identity",
+      "Period of change",
+      "Period of questioning"
+    ],
+    "correct": 4,
+    "question_te": "ఇది కౌమార దశకు సంబంధించినది కాదు",
+    "options_te": [
+      "యవయవన దశకు ప్రవేశమార్గం",
+      "గుర్తింపు కోసం శోధించే దశ",
+      "మార్పు చెందే దశ",
+      "ప్రశ్నించే వయస్సు"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Child Development & Pedagogy",
+    "question": "According to Stone, Brown and Susman, the \"Brains\" are the group, giving more importance to the following.",
+    "options": [
+      "Academics",
+      "Games",
+      "Social activities",
+      "Drugs"
+    ],
+    "correct": 1,
+    "question_te": "స్టోన్, బ్రౌన్, సుస్మన్ ల ప్రకారం, \"బ్రెయిన్స్\" అనగా ఈ క్రింది విషయానికి అధిక ప్రాముఖ్యతనిచ్చేవారు",
+    "options_te": [
+      "చదువుకు",
+      "క్రీడలకు",
+      "సామాజిక కృత్యాలకు",
+      "మత్తుపదార్థాలకు"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Child Development & Pedagogy",
+    "question": "The correct option regarding Intelligence.\na) The concept of mental age was proposed by Binet.\nb) Mental age concept was supported by Garrett.\nc) Intelligence Quotient concept was introduced by Stern.",
+    "options": [
+      "a, c only",
+      "a, b only",
+      "a only",
+      "c only"
+    ],
+    "correct": 1,
+    "question_te": "ప్రజ్ఞకు సంబంధించి సరైన ఐచ్చికం.\na) మానసిక వయస్సు భావనను ప్రతిపాదించింది – బినే\nb) మానసిక వయస్సు భావనను బలపరచినది – గారెట్.\nc) ప్రజ్ఞా లబ్ధి భావనను ప్రవేశపెట్టింది – స్టెర్న్.",
+    "options_te": [
+      "a, c మాత్రమే",
+      "a, b మాత్రమే",
+      "a మాత్రమే",
+      "c మాత్రమే"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is not responsible for Forgetting",
+    "options": [
+      "Consolidation",
+      "Segregation",
+      "Mnemonics",
+      "Amnesia"
+    ],
+    "correct": 3,
+    "question_te": "విస్మృతికి కారణం కానిది",
+    "options_te": [
+      "కన్సాలిడేషన్",
+      "వేర్పాటు",
+      "కొంద గుర్తులు",
+      "స్మృతి నాశనం"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Child Development & Pedagogy",
+    "question": "The correct matched pair related to the process of creativity as proposed by Wallace.\na) Stage of Preparation: Information gathering stage\nb) Stage of Incubation: Identifying solutions to the problems in emotions.\nc) Stage of illumination: Sudden solutions will appear immediately like a flash.\nd) Stage of Verification: Giving final form to the problem by including changes.",
+    "options": [
+      "Only a, c",
+      "Only a, b, d",
+      "Only a, c, d",
+      "a, b, c, d"
+    ],
+    "correct": 3,
+    "question_te": "వల్లాస్ ప్రతిపాదించిన సృజనాత్మక ప్రక్రియకు సంబంధించి, సరైన జతలు\na) సన్నాహం: విషయ సామగ్రి సేకరణ దశ\nb) భావోత్పత్తి: ఉద్వేగంతో నూతన పరిష్కార మార్గం కనుగొనుట.\nc) ప్రకాశం: సమస్యా పరిష్కారం వెంటనే మెరుపులా తడుతుంది.\nd) నిరూపణం: లభించిన పరిష్కారానికి మార్పులను చేర్చి, చివరి రూపం ఇవ్వడం.",
+    "options_te": [
+      "Only a, c",
+      "Only a, b, d",
+      "Only a, c, d",
+      "a, b, c, d"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Child Development & Pedagogy",
+    "question": "Correction option related to Guidance and Counselling.\na) Guidance is an individualized education.\nb) The help done by individual to help himself is counselling.\nc) Guidance helps in the adjustment of behaviour.",
+    "options": [
+      "a, b only",
+      "b, c only",
+      "a, c only",
+      "a, b, c"
+    ],
+    "correct": 3,
+    "question_te": "మార్గదర్శకత్వం మంత్రణానికి సంబంధించిన సరైన ఐచ్చికం\na) మార్గదర్శకత్వమంటే ఒక వ్యక్తిగత విద్య.\nb) వ్యక్తి తలకు తాను సహాయం చేసుకోవడానికి అందించే సహాయం మంత్రణం.\nc) మార్గదర్శత్వం వ్యక్తి ప్రవర్తనలో అనుగుణ్యత.",
+    "options_te": [
+      "a, b మాత్రమే",
+      "b, c మాత్రమే",
+      "a, c మాత్రమే",
+      "a, b, c"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Child Development & Pedagogy",
+    "question": "These are the education provision for gifted children\na) Acceleration\nb) Segregation\nc) Special classes in general schools\nd) Diversified, special curriculum",
+    "options": [
+      "a, b only",
+      "b, c only",
+      "a, b, c only",
+      "a, b, c, d"
+    ],
+    "correct": 4,
+    "question_te": "ప్రతిభావంతులైన పిల్లలకు ఈ విద్యా సదుపాయములు అందించాలి.\na) త్వరితం\nb) వేర్వాటు\nc) సాధారణ పాఠశాలల్లో ప్రత్యేక తరగతులు\nd) బహుళరూప, మెరుగైన విద్యా ప్రణాళిక",
+    "options_te": [
+      "a, b మాత్రమే",
+      "b, c మాత్రమే",
+      "a, b, c మాత్రమే",
+      "a, b, c, d"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Child Development & Pedagogy",
+    "question": "Match the Psychologists and their school of Psychology that they supported.\na) William James i) Behaviourism\nb) Thorndike ii) Hormic Psychology\nc) Mc. Dougall iii) Functionalism",
+    "options": [
+      "a- iii b - ii c - i",
+      "a- i b - ii c - iii",
+      "a- iii b - i c - ii",
+      "a- ii b - i c - iii"
+    ],
+    "correct": 3,
+    "question_te": "మనోవిజ్ఞాన శాస్త్రవేత్తలను, వారు బలపరచిన సాంప్రదాయాలతో జతపరచండి.\na) విలియం జేమ్స్ i) ప్రవర్తానావాదము\nb) థార్న్‌డైక్ ii) ప్రయోజనతావాదము\nc) మెక్ డోగల్ iii) కార్యకారణ వాదం",
+    "options_te": [
+      "a- iii b - ii c - i",
+      "a- i b - ii c - iii",
+      "a- iii b - i c - ii",
+      "a- ii b - i c - iii"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Child Development & Pedagogy",
+    "question": "The principle of small steps is a key component of",
+    "options": [
+      "Programmed learning",
+      "Responded Theory",
+      "Trial and Error theory",
+      "Classical conditioning"
+    ],
+    "correct": 1,
+    "question_te": "చిన్న అంచెల సూత్రం దీనిలో కీలక భావన",
+    "options_te": [
+      "కార్యక్రమయుత అభ్యసనం",
+      "ప్రతిస్పందన అభ్యసనం",
+      "యత్న దోష సిద్ధాంతం",
+      "శాస్త్రీయ నిబంధన"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Child Development & Pedagogy",
+    "question": "Match the Bandura's Observational Learning processes with their core descriptions.\na) Attention i) Willingness to perform the behavior based on rewards/outcomes.\nb) Retention ii) Physical and cognition ability to perform the observed behaviour.\nc) Reproduction iii) Forming mental representation to remember.\nd) Motivation iv) Focusing notice on the models action",
+    "options": [
+      "a- iv b - ii c – iii d -i",
+      "a- i b - iii c - ii d - iv",
+      "a- iv b - iii c - ii d - i",
+      "a- iii b - iv c - i d - ii"
+    ],
+    "correct": 3,
+    "question_te": "బందురా పరిశీలనాత్మక అభ్యసనంలోని నాలుగు దశలను వాటి మూల వివరాలతో జతపరచుము.\na) అవధానం i) బహుమతుల కొరకు ప్రవర్తనను కనపరచుటకు సుముఖత\nb) ధారణ ii) పరిశీలించిన ప్రవర్తనను కనపరచుటకు గల శారీరక మరియు సంజ్ఞానాత్మక సామర్థ్యం\nc) పునరుత్తతి iii) జ్ఞప్తికి తెచ్చుకొనుటకు మానసిక ప్రతిమలను ఏర్పరుచుకొనుట\nd) ప్రేరణ iv) నమూనా క్రియలను గమనిస్తూ దృష్టి కేంద్రీకరించడం",
+    "options_te": [
+      "a- iv b - ii c – iii d -i",
+      "a- i b - iii c - ii d - iv",
+      "a- iv b - iii c - ii d - i",
+      "a- iii b - iv c - i d - ii"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Child Development & Pedagogy",
+    "question": "According to Carl Rogers, fully functioning person does not have these characteristics",
+    "options": [
+      "Trusting feeling",
+      "Defensive",
+      "Existential living",
+      "Openness to experience"
+    ],
+    "correct": 2,
+    "question_te": "కార్ల్ రోజర్స్ ప్రకారం పరిపూర్ణంగా పనిచేసే వ్యక్తిలో ఉండని లక్షణం",
+    "options_te": [
+      "భావాలను నమ్మడం",
+      "ప్రతిఘటన",
+      "అస్తిత్వ జీవనం",
+      "అనుభవాలకు సిద్ధంగా ఉండటం"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Child Development & Pedagogy",
+    "question": "In Bruner's theory, the hierarchical arrangement of related categories used to organize information are called as",
+    "options": [
+      "Coding system",
+      "Intuitive thinking",
+      "Scaffolding",
+      "Spiral curriculum"
+    ],
+    "correct": 1,
+    "question_te": "బ్రూనర్ సిద్ధాంతంలో సమాచారాన్ని క్రమబద్దీకరించడానికి ఉపయోగించే సంబంధిత క్రమానుగత అమరికను ఇలా అంటారు",
+    "options_te": [
+      "కోడింగ్ వ్యవస్త",
+      "అంతర బుద్ధి ఆలోచన",
+      "స్కఫోల్డింగ్",
+      "సర్పిల విద్యా ప్రణాళిక"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Child Development & Pedagogy",
+    "question": "In this theory of Transfer of learning theory, the relation between parts and whole is transformed to new situations.",
+    "options": [
+      "Theory of Generalisation",
+      "Theory of Ideals",
+      "Theory of Transportation",
+      "Theory of Identical Elements"
+    ],
+    "correct": 3,
+    "question_te": "ఈ అభ్యసన బదలాయింపు సిద్ధాంతంలో వ్యవస్తానికి, సమస్తానికి మధ్య ఉండే సంబంధం క్రొత్త పరిస్తితులకు బదలాయించబడుతుంది.",
+    "options_te": [
+      "సాంమాన్యీకరణ సిద్ధాంతం",
+      "ఆదర్శాల సిద్ధాంతం",
+      "ట్రాన్స్ పొజిషన్ సిద్ధాంతం",
+      "సమరూప మూలకాల సిద్ధాంతం"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is not the type of a learning curve",
+    "options": [
+      "Negatively Accelerated curve",
+      "Positively Accelerated Curve",
+      "Bell – shaped curve",
+      "S –shaped curve"
+    ],
+    "correct": 3,
+    "question_te": "క్రింది వానిలో అభ్యసనా వక్ర రేఖాల రకానికి చెందనిది",
+    "options_te": [
+      "అవరోహాణ వక్ర రేఖ",
+      "ఆరోహాణా వక్ర రేఖ",
+      "గంట ఆకారపు వక్ర రేఖ",
+      "S – ఆకారపు వక్ర రేఖ"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Child Development & Pedagogy",
+    "question": "It is not related to learner- friendly classroom environment.",
+    "options": [
+      "Positive and respectful atmosphere",
+      "Student centered learning",
+      "Clear communication",
+      "Teacher centered learning"
+    ],
+    "correct": 4,
+    "question_te": "అభ్యసనకనికి స్వేచ్చాయుత తరగతి గది పరిసరానికి చెందనిది",
+    "options_te": [
+      "ధనాత్మక మరియు గౌరవప్రదమైన పరిసరము",
+      "విద్యార్థి కేంద్రీకృత అభ్యసనము",
+      "స్పష్టమైన ప్రసారయుత",
+      "ఉపాధ్యాయుని కేంద్రీకృత అభ్యసనము"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Child Development & Pedagogy",
+    "question": "The correct statement/s related to Action Research.\na) Focus on direct problem\nb) Results are confined to local purpose\nc) Heuristic methods are rigid.\nd) Results are not useful.",
+    "options": [
+      "a and b only",
+      "b and c only",
+      "a and c only",
+      "c and d only"
+    ],
+    "correct": 1,
+    "question_te": "చర్యాత్మక పరిశోధనకు సంబంధించి సరైన వాక్యం/వాక్యాలు.\na) ప్రత్యక్ష సమస్యపై దృష్టి కేంద్రీకృతం\nb) ఫలితాలు స్థానిక ప్రయోజనాలకు ఉపయోగపడతాయి.\nc) అన్వేషణా పద్ధతులు కరినంగా ఉంటాయి.\nd) ఫలితాలు ఉపయోగపడవు.",
+    "options_te": [
+      "a and b only",
+      "b and c only",
+      "a and c only",
+      "c and d only"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is the style of the most successful leader",
+    "options": [
+      "Authoritative Leadership",
+      "Authoritarian Leadership",
+      "Permissive Leadership",
+      "Uninvolved Leadership"
+    ],
+    "correct": 1,
+    "question_te": "అత్యంత విజయవంతమైన నాయకునికి ఉండే శైలి",
+    "options_te": [
+      "సాధికారతత్వ నాయకత్వం",
+      "నిరంకుశత్వ నాయకత్వం",
+      "అంగీకారతత్వ నాయకత్వం",
+      "జోక్యరహిత నాయకత్వం"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Child Development & Pedagogy",
+    "question": "Match the following.\na) Progressive Assessment i) Process that occurs in a time period\nb) Dignostic assessment ii) Process that occurs before the starting of teaching learning process\nc) Formative Assessment iii) Process that occurs Continuously\nd) Summative Assessment iv) Process that assess the future process",
+    "options": [
+      "a- iv b - ii c – i d -iii",
+      "a- iii b - ii c - iv d - iii",
+      "a- ii b - iv c - i d - iii",
+      "a- iv b - ii c - iii d - i"
+    ],
+    "correct": 4,
+    "question_te": "జతపరచండి.\na) ప్రాగుక్తిక మదింపు i) ఒక కాల వ్యవధిలో జరిగే ప్రక్రియ\nb) ధారణ ii) బోధనాభ్యసన ప్రక్రియ ప్రారంభానికి ముందుగా జరిగే ప్రక్రియ\nc) పునరుత్తతి iii) నిరంతరం జరిగే ప్రక్రియ\nd) సంకలన మదింపు iv) భవిష్త్ ప్రగతిని అంచనా వేసే ప్రక్రియ",
+    "options_te": [
+      "a- iv b - ii c – i d -iii",
+      "a- iii b - ii c - iv d - iii",
+      "a- ii b - iv c - i d - iii",
+      "a- iv b - ii c - iii d - i"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Child Development & Pedagogy",
+    "question": "An attractive presentation of a text expressed in a very short time is called",
+    "options": [
+      "MS WORD",
+      "MS EXCEL",
+      "MS POWER POINT",
+      "MS ACCESS"
+    ],
+    "correct": 3,
+    "question_te": "ఒక టెక్స్ట్ ని అందంగా, ఆకర్షణీయంగా, అతి తక్కువ సమయంలో అర్థంతంగా ఉపయోగపడేట్టు చేసే చిత్రీకరణ",
+    "options_te": [
+      "MS WORD",
+      "MS EXCEL",
+      "MS POWER POINT",
+      "MS ACCESS"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Child Development & Pedagogy",
+    "question": "Kinesthetic teaching methods were developed by",
+    "options": [
+      "Neil Fleming",
+      "Berlin",
+      "Edgar dale",
+      "Gardener"
+    ],
+    "correct": 1,
+    "question_te": "గతి సంవేదన బోధనా పద్ధతులను అభివృద్ధి పరచినవారు",
+    "options_te": [
+      "నీల్ ఫ్లెమింగ్",
+      "బెర్లిన్",
+      "ఎడ్గర్ డేల్",
+      "గార్డెనర్"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is not a physical barrier for communication",
+    "options": [
+      "Obstructions within the classroom",
+      "Environmental discomforts",
+      "Physical distance between teachers and students",
+      "Using difficult words"
+    ],
+    "correct": 4,
+    "question_te": "సమాచార ప్రసారానికి భౌతిక అడ్డంకి కానిది",
+    "options_te": [
+      "తరగతిగది లోని అడ్డంకులు",
+      "పరినర సంబంధ అడ్డంకులు",
+      "ఉపాద్యాయిని, విద్యార్థుల మధ్య భౌతిక దూరం",
+      "కష్టమైన పదాలను ఉపయోగించడం"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Child Development & Pedagogy",
+    "question": "Choose the correct option.\na) B.F. Skinner – Linear programmed Learning\nb) Norman A Crowder – Mathetic Programmed Learning\nc) Thomas S. Gilbert – Branched Programmed Learning",
+    "options": [
+      "a and b are correct; c is incorrect",
+      "a is correct; b and c are incorrect",
+      "b and c are correct; a is incorrect",
+      "b is correct; a and c are incorrect"
+    ],
+    "correct": 2,
+    "question_te": "సరైన జతను గుర్తించండి.\na) బి ఎఫ్ స్కిన్నర్ – రేఖీయ కార్యక్రమయుత అభ్యసనం\nb) నార్మన్ ఎ క్రౌడర్ – మాథెటిక్స్ కార్యక్రమయుత అభ్యసనం\nc) థామస్ ఎస్. గిల్బర్ట్ – శాఖీయ కార్యక్రమయుత అభ్యసనము",
+    "options_te": [
+      "a and b are correct; c is incorrect",
+      "a is correct; b and c are incorrect",
+      "b and c are correct; a is incorrect",
+      "b is correct; a and c are incorrect"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Telugu",
+    "question": "కింది అపరిచిత పద్యం చదివి ప్రశ్నకు జవాబు గుర్తించండి\nకర్మ ఫలములన్నియు కపటంబుగా జూచి\nధర్మ ఫలములన్ని తగిలి యుండి\nధర్మ కర్మములను దాటుటే ముక్తిరా!\nవిశ్వదాభిరామ వినురవేమా!\n\nపై పద్యం ఆధారంగా ముక్తికి మార్గం",
+    "options": [
+      "కర్మఫలాలు అసత్యాలుగా భావించి పనిచేస్తే",
+      "ధర్మ ఫలాలు సత్యాలుగా భావించి పనిచేస్తే",
+      "1,2",
+      "పరనింద నిత్యం చేస్తూ,కర్మతో పనిచేయుటం"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Telugu",
+    "question": "కింది అపరిచిత పద్యం చదివి ప్రశ్నకు జవాబు గుర్తించండి\nకర్మ ఫలములన్నియు కపటంబుగా జూచి\nధర్మ ఫలములన్ని తగిలి యుండి\nధర్మ కర్మములను దాటుటే ముక్తిరా!\nవిశ్వదాభిరామ వినురవేమా!\n\n'ముక్తి' అనగా",
+    "options": [
+      "స్తవనం",
+      "మోక్షం",
+      "ప్రార్ధన",
+      "ధ్యానం"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Telugu",
+    "question": "కింది అపరిచిత గద్యం చదివి అడిగిన ప్రశ్నకు సమాధానం గుర్తించండి\n\n\"కళను గాని, కవిత్వాన్ని గాని సమాజం నుండి విడదీసి విమర్శించి ఇదమిత్తమని తెలుసుకోవడానికి వీలులేదు\" అని విమర్శకుల భావన. గతమెంత మంచిదెనా రచయితలకు వర్తమానంతోనే పని. సమకాలిక యదార్థ దృశ్యాలను పట్టించుకొని కవి కవికాదనే భావం సమాజంలో పెరిగింది. ఫలితంగా రచయితలు కవులకు ప్రజాజీవన సమస్యలు కవితా వస్తువులుగా మారాయి. ఇలా అభ్యుదయకవిత ఆవిర్భవించింది. ఇరవైసంవత్సరాలు తెలుగు సాహిత్యంలో ఒక ప్రభావవంతమైన ఆలోచనను నెలకొల్పింది. ఏ ఉద్యమానికైనా వృద్ధి క్రయము తప్పదు. 1943 తరువాత అభ్యుదయ కవిత్వం తన ప్రాభవాన్ని కోల్పోయింది.\n\nపై గద్యం ఆధారంగా రచయిత దేనిని అనుసరించాలి",
+    "options": [
+      "గతమును",
+      "సాంప్రదాయాలను",
+      "కళలను",
+      "వర్తమానమును"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Telugu",
+    "question": "కింది అపరిచిత గద్యం చదివి అడిగిన ప్రశ్నకు సమాధానం గుర్తించండి\n\n\"కళను గాని, కవిత్వాన్ని గాని సమాజం నుండి విడదీసి విమర్శించి ఇదమిత్తమని తెలుసుకోవడానికి వీలులేదు\" అని విమర్శకుల భావన. గతమెంత మంచిదెనా రచయితలకు వర్తమానంతోనే పని. సమకాలిక యదార్థ దృశ్యాలను పట్టించుకొని కవి కవికాదనే భావం సమాజంలో పెరిగింది. ఫలితంగా రచయితలు కవులకు ప్రజాజీవన సమస్యలు కవితా వస్తువులుగా మారాయి. ఇలా అభ్యుదయకవిత ఆవిర్భవించింది. ఇరవైసంవత్సరాలు తెలుగు సాహిత్యంలో ఒక ప్రభావవంతమైన ఆలోచనను నెలకొల్పింది. ఏ ఉద్యమానికైనా వృద్ధి క్రయము తప్పదు. 1943 తరువాత అభ్యుదయ కవిత్వం తన ప్రాభవాన్ని కోల్పోయింది.\n\nగద్యం ఆధారంగా సరికానిది",
+    "options": [
+      "1943 – అభ్యుదయ కవిత్వం పతనం",
+      "కవి– సమకాలీన యదార్ధ దృశ్యాల అవగాహన కలిగి ఉందాలి.",
+      "కళ,కవిత్వం – సమాజంలో అవినాభావ సంబంధం కలవి",
+      "పురాణ ఇతిహాసాలే అభ్యుదయ కవిత్వ వస్తువులు"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Telugu",
+    "question": "'తెలుగు కథాపారిజాతాలు' వీరి రచన",
+    "options": [
+      "కొలకలూరి స్వరూప రాణి",
+      "పింగళి బాలా దేవి",
+      "మూలింటి చంద్రకళ",
+      "వాసిరెడ్డి సీతాదేవి"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Telugu",
+    "question": "\"నలుగురమువుదాం\" అను కవితా సంపుటి నుండి గ్రహించబడిన పాఠ్యాంశం",
+    "options": [
+      "అక్షరం",
+      "యుద్ధవిజేత",
+      "ప్రకృతి సందేశం",
+      "అమ్మఒడి"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Telugu",
+    "question": "'వచన కవిత' ప్రక్రియగా కల్గిన పాఠ్యాంశం",
+    "options": [
+      "సూక్తిసుధ",
+      "కప్పతల్లి పెళ్ళి",
+      "మేలుకొలుపు",
+      "యుద్ధవిజేత"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Telugu",
+    "question": "'ఉభయకవిమిత్రుడు' బిరుదు గల కవి",
+    "options": [
+      "నన్నయ భట్టు",
+      "తిక్కన సోమయాజి",
+      "ఎఱ్ఱన",
+      "శ్రీనాథుడు"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Telugu",
+    "question": "'నాయకత్వలక్షణాలు' ఇతివృత్తంగా గల పాఠ్యాంశం",
+    "options": [
+      "జలియన్ వాలా బాగ్",
+      "ఉపన్యాస కళ",
+      "రాజధర్మం",
+      "జీవని"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Telugu",
+    "question": "పాత్రలు – పాఠ్యాంశాలలో సరైన జత",
+    "options": [
+      "మాధవ వర్మ-త్యజ్ఞి",
+      "రోమకుడు-ధర్మ నిర్ధయం",
+      "పూర్ద్యయ్య– సమయస్ఫూర్తి",
+      "సత్యం–మమకారం"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Telugu",
+    "question": "\"నా చదువు\" పాఠం వీరి బాల్యం, విద్యాభ్యాసం గురించి తెలుపుతుంది.",
+    "options": [
+      "శీలా వీరాజు",
+      "శ్రీపాద సుబ్రహ్మణ్యం",
+      "మామిడిపూడి వేంకట రంగయ్య",
+      "బులుసు వెంకటరమణయ్య"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Telugu",
+    "question": "శ్రీమతి ఊటుకూరి లక్ష్మీకాంతమ్మ రచించిన 'ఏకాంకిక'",
+    "options": [
+      "మనసాహితి–మధురభారతి",
+      "సాహితీ రుద్రమ",
+      "సరస్వతీ సామ్రాజ్యైవైభవం",
+      "చీకటి రాజ్యం"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Telugu",
+    "question": "'గజల్' ప్రత్యేకత",
+    "options": [
+      "ఆంత్యప్రాస -కవినామముద్ర",
+      "రాగం-పల్లవి ఒకేరకం",
+      "చరణం-రాగం ఒకేరకం",
+      "పల్లవి–యతి ఒకేరకం"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Telugu",
+    "question": "ఇది నన్నయ కవితా లక్షణం",
+    "options": [
+      "జిగిబిగి",
+      "అక్షరరమ్యత",
+      "సూక్తి వైచిత్రి",
+      "నాటకీయైలై"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Telugu",
+    "question": "\"చిక్కం\" అనే పదానికి అర్థం",
+    "options": [
+      "తీగలతో ఉన్న సౌద",
+      "పశువులు తినే గడ్డి",
+      "తీగలతో అల్లి పశువుల మూతికి తగిలించే బుట్ట",
+      "తీగలతో ముడి వేసిన తాడు, పశువుల కాళ్ళకు కట్టేది"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Telugu",
+    "question": "కింది పర్యాయ పదాలలో సరికానిది",
+    "options": [
+      "రక్తం–రుధిరం,నెత్తురు",
+      "మంజులం–మనోహరం,ఒప్పిదం",
+      "ధ్వజం–కేతనం,పతాకం",
+      "కరం–తొండం, కిరణం"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Telugu",
+    "question": "\"హరి\" అనే పదానికి నానార్థాలు\na) కోతి\nb) సింహం\nc) నీరు\nd) శరీరం",
+    "options": [
+      "a, b సరైనవి",
+      "c, d సరైనవి",
+      "b, c సరైనవి",
+      "a, d సరైనవి"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Telugu",
+    "question": "\"ప్రకృతి\" పదానికి సరైన వికృతి",
+    "options": [
+      "పంక్తి",
+      "పరాకృతి",
+      "పగిది",
+      "విక్కృతి"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Telugu",
+    "question": "కింది వానిలో జాతీయం కానిది",
+    "options": [
+      "సుగ్రీవాజ్ఞ",
+      "గుండెల్లో రాయి పడడం",
+      "పానకంలో పుడక",
+      "గడ్డి కోసం సేద్యమా?"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Telugu",
+    "question": "కింది వానిలో సరైన సామెతలను గుర్తించండి\na) కీడెంచి మేలెంచవలరి\nb) కీలెరిగి వాత పెట్టాలి.\nc) కుక్క కాటుకు చెప్పుదెబ్బ\nd) కుక్కలు చింపిన విస్తరైనట్లు",
+    "options": [
+      "a, d సరైనవి",
+      "a, b, c సరైనవి",
+      "a, b, c, d సరైనవి",
+      "b, c, d సరైనవి"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Telugu",
+    "question": "\"శిల వృక్షం తల బుట్టిన\nచెలవలు మువ్వురను గూడి విడిముడి పడుచున్\nదల వాకిట రమింయింతురు\nసలలితముగా దీని నెరుగు సరసులు గలరే\"?\n\nపై పోదుపు పద్యము సరైన విడుపు",
+    "options": [
+      "సున్నం, వక్క, అరటి",
+      "సున్నం, కొబ్బరి, ఆకు",
+      "సున్నం, వక్క, ఆకు",
+      "ఆకు, అరటి, వక్క"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Telugu",
+    "question": "\"అందరూ బయటకు వెళ్ళండి\" ఈ విధ్యర్థక వాక్యాన్ని అనుమత్యర్థక వాక్యంగా మార్చినప్పుడు వచ్చు సరైన రూపాన్ని గుర్తించండి.",
+    "options": [
+      "ఆందరూ బయటకు వెళ్ళరా",
+      "అయ్యో! అందరూ బయటకు వెళ్ళరా?",
+      "దయచేసి అందరూ బయటకు వెళ్ళొద్దు",
+      "అందరూ బయటకు వెళ్ళవచ్చు."
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Telugu",
+    "question": "'న' కారానికి గల పేరు",
+    "options": [
+      "ఉపోత్తమం",
+      "ద్రుతం",
+      "కళలు",
+      "ఉపధ"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Telugu",
+    "question": "కర్శణి వాక్యంలో కర్త ఈ విభక్తిలో ఉంటుంది.",
+    "options": [
+      "ద్వితీయ",
+      "ప్రధమా",
+      "షష్టి",
+      "చతుర్థీ"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Telugu",
+    "question": "\"పౌరులు శస్త్రాస్త్రముల పద్ధతి నేరని వారి సాధుసం\"\nపై పద్యపాదం ఈ వృత్తానికి చెందినది.",
+    "options": [
+      "ఉత్పలమాల",
+      "చంపకమాల",
+      "శార్ధూలం",
+      "మత్తేభం"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Telugu",
+    "question": "కింది కర్తధారయ సమాసాలను సంబంధిత ఉదాహరణలతో జతపరచండి\ni) విశేషణ ఉభయపద A) కవి శ్రేష్ఠుడు\nii) విశేషణ ఉత్తర పద B) మంచి దారి\niii) విశేషణ పూర్వపద C) నిమ్నోన్నతం",
+    "options": [
+      "i - C ii - A iii - B",
+      "i – A ii – C iii – B",
+      "i - B ii – A iii - C",
+      "i - A ii – B iii - C"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Telugu",
+    "question": "'తూర్పున సూర్య నేత్రం ఇంకా తెరుచుకోలేదు' ఈ వాక్యంలోని అలంకారం",
+    "options": [
+      "ఉపమా",
+      "ఉత్ప్రేక్ష",
+      "రూపక",
+      "అతిశయోక్తి"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Telugu",
+    "question": "\"నా ప్రాధమికవిద్య మా నాన్న దగ్గరే\" అని అన్నాడు ఆశావాది. ఈ వాక్యానికి సరిపోయే పరోక్ష కథనం",
+    "options": [
+      "తన ప్రాధమిక విద్య వేరొకరి తండ్రి దగ్గరేనన్నాడు అశావాది",
+      "వారి ప్రాధమిక విద్య మా తండ్రి దగ్గరేనన్నాడు అశావాది",
+      "అతని ప్రాధమిక విద్య నా తండ్రి దగ్గరేనన్నాడు అశావాది",
+      "తన ప్రాధమిక విద్య తమ తండ్రి దగ్గరేనని అన్నాడు ఆశావాది"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Telugu",
+    "question": "\"అమ్మ వంట చేసి, అన్నం పెట్టింది\" దీనిలో \"చేసి\" అనేది",
+    "options": [
+      "క్త్వార్థకం",
+      "శత్రర్థకం",
+      "చేదర్థకం",
+      "తద్ధర్మం"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "English",
+    "question": "During Tsunami, zoo animals that rushed into their shelters cannot be enticed to come back out.\nChoose the synonym for the underlined word in the sentence.",
+    "options": [
+      "installed",
+      "captured",
+      "tangled",
+      "persuaded"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "English",
+    "question": "The view of the ripe hills is blotted with talking wires.\nChoose the antonym of the underlined word in the sentence.",
+    "options": [
+      "blemished",
+      "tarnished",
+      "cleaned",
+      "smudged"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "English",
+    "question": "Choose the correctly punctuated and capitalised sentence.",
+    "options": [
+      "I went to the market and bought some grapes a water melon and some vegetables.",
+      "I went to the market, and bought some mangoes; a water melon and some vegetables",
+      "I went to the market, and bought some Mangoes, a water melon and some vegetables",
+      "I went to the market and bought some mangoes, a water melon and some vegetables."
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "English",
+    "question": "The training programme designed for army officers involves a long,_____ schedule to build physical and mental endurance.\nChoose the option that best forms a natural collocation with \"schedule\".",
+    "options": [
+      "crushing",
+      "scraping",
+      "sharpening",
+      "grinding"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "English",
+    "question": "Choose the correct meaning of the underlined idiom in the given sentence.\nRavi and Raju are chalk and cheese in our class.",
+    "options": [
+      "being completely different from each other",
+      "eating dairy products after meal",
+      "sharing a similar personality",
+      "drawing cheese with the chalk"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "English",
+    "question": "Choose the correct phrasal verb to complete the sentence.\nThe presentation was packed with data, but the point to _____is that our customer satisfaction has doubled.",
+    "options": [
+      "take away",
+      "take in",
+      "take over",
+      "take on"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "English",
+    "question": "A formal invitation is generally written in ____.\nChoose the option that fits in the blank.",
+    "options": [
+      "third person",
+      "first person",
+      "second person",
+      "fourth person"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "English",
+    "question": "Choose the expression in which the adjectives are in their correct order",
+    "options": [
+      "Lush kitchen large garden",
+      "Large lush kitchen garden",
+      "Large kitchen lush garden",
+      "Lush large kitchen garden"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "English",
+    "question": "One of the following terms describes a branch that studies insects.",
+    "options": [
+      "Entomology",
+      "Geology",
+      "Zoology",
+      "Biochemistry"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "English",
+    "question": "Please let me try. I think I know how it works.\nIdentify the language function of the above sentence.",
+    "options": [
+      "Encouraging",
+      "Persuading",
+      "Warning",
+      "Advising"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "English",
+    "question": "Identify the structure of Past Perfect continuous tense.",
+    "options": [
+      "Subject + had + past participle",
+      "Subject + had been + verb+ ing",
+      "Do/Does +subject+ Base verb",
+      "Subject + auxiliary verb + verb + ing"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "English",
+    "question": "Choose the word with the suffix that means 'a person who receives the action.'",
+    "options": [
+      "worker",
+      "sender",
+      "addressee",
+      "employer"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "English",
+    "question": "Which word comes first in the dictionary?",
+    "options": [
+      "cohesive",
+      "coherent",
+      "cohort",
+      "cohabit"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "English",
+    "question": "Choose the correctly spelt word",
+    "options": [
+      "Clastrophobic",
+      "Claustrophobic",
+      "Cluastrophobic",
+      "Claustropobic"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "English",
+    "question": "Passengers should be___ time ____their train.\nChoose the right prepositions that fit in the blanks.",
+    "options": [
+      "on; with",
+      "on; about",
+      "in; of",
+      "in; for"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "English",
+    "question": "Read the sentence below and chose the option with correct articles or no article.\n____friend of mine lent me ___book by Meredith.",
+    "options": [
+      "A; an",
+      "A; a",
+      "A; the",
+      "no article; no article"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "English",
+    "question": "\"You ought to love animals\", she said.\nChoose the sentence that best suits as sentence in reported speech.",
+    "options": [
+      "She warned me to love animals.",
+      "She reported me I should love animals.",
+      "She urged me to love animals.",
+      "She ought to love animals."
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "English",
+    "question": "Choose the correct type of sentence for the given one.\nA book gives you knowledge.",
+    "options": [
+      "Imperative sentence.",
+      "Interrogative sentence.",
+      "Assertive sentence.",
+      "Exclamatory sentence."
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "English",
+    "question": "Choose the correct parts of speech of the underlined.\nI have told you twice.",
+    "options": [
+      "Verb",
+      "Adverb",
+      "Adjective",
+      "Noun"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "English",
+    "question": "Identify the grammatically correct sentence.",
+    "options": [
+      "I could not find it nowhere.",
+      "I could not find it anywhere.",
+      "I could not found it anywhere.",
+      "I can't find it nowhere."
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "English",
+    "question": "Identify the silent consonant letter from the word \"exhaust\"",
+    "options": [
+      "h",
+      "t",
+      "s",
+      "x"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "English",
+    "question": "Choose the correct question tag to complete the given sentence\nSunil hasn't got a job ______",
+    "options": [
+      "doesn't he?",
+      "has he?",
+      "hasn't he?",
+      "haven't he?"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "English",
+    "question": "Identify the figure of speech used in the given expression.\n\"as busy as a bee\"",
+    "options": [
+      "Personification",
+      "Metaphor",
+      "Simile",
+      "Apostrophe"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "English",
+    "question": "Oranges are cheaper than apples.\nChoose the Positive Degree of the sentence.",
+    "options": [
+      "Oranges are not so cheap as apples.",
+      "Apples are so cheap as oranges.",
+      "Oranges are not cheaper than apples.",
+      "Apples are not so cheap as oranges."
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "English",
+    "question": "Though she was poor, she would never ask for help.\nChoose the sentence that converts the given sentence into a simple sentence.",
+    "options": [
+      "Being poor, she asked for help.",
+      "She asked for help when she was poor.",
+      "She asked for help but she was poor.",
+      "In spite of her poverty, she would never ask for help."
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "English",
+    "question": "We elected him Chairman.\nChoose the Passive voice for the sentence.",
+    "options": [
+      "Chairman was elected.",
+      "He has been elected chairman.",
+      "He was elected Chairman.",
+      "Chairman has been elected."
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "English",
+    "question": "Some of the students scored low ranks in the exams; ____, the teacher arranged a series of remedial classes.\nChoose the appropriate option to complete the sentence.",
+    "options": [
+      "so that",
+      "consequently",
+      "next",
+      "for example"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "English",
+    "question": "If you start at once, you_____by six 'o' clock.\nChoose the appropriate option that fits the blank.",
+    "options": [
+      "arrive",
+      "arrived",
+      "will arrive",
+      "are arriving"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "English",
+    "question": "Read the following passage.\nElephants enjoy themselves very much when they are led into a tank for their bath. They draw up water by their trunk and skirt it all over their body like a shower bath.\nThough an elephant has to live a life of captivity, he is not at all unhappy. He has learnt many things by living with men. His master takes every care to make him feel comfortable. He doesn't think his wild brothers are happier than him.\nChoose the correct statement based on the passage.",
+    "options": [
+      "Elephants are the best companions of men.",
+      "Elephants enjoy their bath.",
+      "Elephants are uncomfortable with their masters.",
+      "Elephants live only in the jungle."
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "English",
+    "question": "Read the following stanza.\nIt takes much time to kill a tree,\nNot a simple job of the knife\nWill do it has grown\nSlowly consuming the earth,\nRising out of it, feeding\nUpon its crust, absorbing\nYears of sunlight, air, water,\nAnd out of its leprous hide\nSprouting leaves.\n\nAnswer the following\n\nThe tree feeds upon the earth's ____.",
+    "options": [
+      "surface",
+      "soil",
+      "crust",
+      "roots"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Mathematics",
+    "question": "Total number of composite numbers from 1 to 100.",
+    "options": [
+      "25",
+      "75",
+      "74",
+      "76"
+    ],
+    "correct": 3,
+    "question_te": "1 నుండి 100 వరకు గల మొత్తం సంయుక్త సంఖ్యల సంఖ్య",
+    "options_te": [
+      "25",
+      "75",
+      "74",
+      "76"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Mathematics",
+    "question": "The least number which when divided by 12, 16 and 24 leaves a remainder 7 in each case",
+    "options": [
+      "31",
+      "55",
+      "67",
+      "79"
+    ],
+    "correct": 2,
+    "question_te": "12, 16 మరియు 24 ల చే భాగించనపుడు ప్రతి సారి 7 శేషము వచ్చే కనిష్ట సంఖ్య",
+    "options_te": [
+      "31",
+      "55",
+      "67",
+      "79"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Mathematics",
+    "question": "Which of the following measures of sides can form a triangle.",
+    "options": [
+      "7, 6, 13",
+      "8, 9, 16",
+      "7, 7, 15",
+      "6, 8, 14"
+    ],
+    "correct": 2,
+    "question_te": "ఈ క్రింది వానిలో ఏ భుజాల కొలతలు త్రిభుజాన్ని ఏర్పరచును",
+    "options_te": [
+      "7, 6, 13",
+      "8, 9, 16",
+      "7, 7, 15",
+      "6, 8, 14"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Mathematics",
+    "question": "The bisectors of angles of a parallelogram form a",
+    "options": [
+      "Rectangle",
+      "Rhombus",
+      "Kite",
+      "Trapezium"
+    ],
+    "correct": 1,
+    "question_te": "ఒక సమాంతర చతుర్భుజములోని కోణ సమ ద్విఖండన రేఖలతో ఏర్పడునది",
+    "options_te": [
+      "దీర్ఘ చతురస్రం",
+      "రాంబస్",
+      "గాలిపటం",
+      "సమ లంబ చతుర్భుజం"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Mathematics",
+    "question": "The class mark of a frequency distribution are given as 50, 100, 150, 200, 250 …. Then the class interval corresponding to class mark 350 is",
+    "options": [
+      "300 – 400",
+      "315 – 385",
+      "325 – 375",
+      "250 – 450"
+    ],
+    "correct": 3,
+    "question_te": "ఒక పౌనః ఫున్యవిభాజనం యొక్క తరగతి మార్కులు 50, 100, 150, 200, 250 .... అయితే తరగతి మార్కు 350 కి సంబంధించిన తరగతి అంతరం ఏది?",
+    "options_te": [
+      "300 – 400",
+      "315 – 385",
+      "325 – 375",
+      "250 – 450"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Mathematics",
+    "question": "If x² − 1 is the factor of ax⁴ + bx³ + cx² + dx + e then which of the following is TRUE",
+    "options": [
+      "a + b + e = c + d",
+      "a + b + c = d + e",
+      "a + c + e = b + d",
+      "b + c + d = a + e"
+    ],
+    "correct": 3,
+    "question_te": "ax⁴ + bx³ + cx² + dx + e అనే బహుపదికి x² − 1 కారణాంకమైన క్రింది వానిలో ఏది సత్యం.",
+    "options_te": [
+      "a + b + e = c + d",
+      "a + b + c = d + e",
+      "a + c + e = b + d",
+      "b + c + d = a + e"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Mathematics",
+    "question": "1/5 of a number of bees in a garden are on jasmines and 1/3 of them are on roses. Three times the difference of the bees on jasmines and roses are on lilys. If the remaining one is flying freely, find the total number of bees in the garden.",
+    "options": [
+      "30",
+      "15",
+      "45",
+      "60"
+    ],
+    "correct": 2,
+    "question_te": "ఒక తోటలోని తుమ్మెదలలో 1/5 వంతు మల్లెపూల మీద, 1/3వంతు గులాబీల మీద కలవు. గులాబీలమీద, మల్లెమీద ఉన్నా తుమ్మెదల భేదమునకు మూడురెట్టు తుమ్మెదలు లిల్లీ పుష్పముల పై కలవు. మిగిలిన ఒక తుమ్మెద స్వేచ్చగా ఎగురుచున్న, తోటలోని మొత్తము తుమ్మెదలెన్ని?",
+    "options_te": [
+      "30",
+      "15",
+      "45",
+      "60"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Mathematics",
+    "question": "In a stair-case there are 20 steps with a height of 15cm and a width of 20cm each. Then the length of total slant height is (in cms)",
+    "options": [
+      "250",
+      "500",
+      "625",
+      "650"
+    ],
+    "correct": 2,
+    "question_te": "ఒక మేడ 20 మెట్లతో నిర్మించడినది. ప్రతీ మెట్టు 15 సెం. మీ. ఎత్తు, 20 సెం. మీ. వెడల్పు కలిగి ఉన్న వాటివాలు ఎత్తు పొడవు (సెం. మీ.లలో)",
+    "options_te": [
+      "250",
+      "500",
+      "625",
+      "650"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Mathematics",
+    "question": "A cube of total surface area 96 cm² is melted and casted a cuboid with breadth and height as 4cm and 2 cm respectively, then its length is (in cm)",
+    "options": [
+      "8",
+      "6",
+      "12",
+      "10"
+    ],
+    "correct": 1,
+    "question_te": "సమఘన సంపూర్తతల వైశాల్యం 96 చ. సెం. మీ. గా గల ఘనాన్ని కరిగించి వెడల్పు, ఎత్తులు వరుసగా 4 సెం. మీ. మరియు 2 సెం. మీ.గా గల దీర్ఘఘనంగా విర్వరచిన దాని పొడవు. (సెం. మీ.లలో)",
+    "options_te": [
+      "8",
+      "6",
+      "12",
+      "10"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Mathematics",
+    "question": "When two dice are rolled once, the probability of getting sum on two dice a prime number is",
+    "options": [
+      "11/36",
+      "5/12",
+      "7/12",
+      "5/36"
+    ],
+    "correct": 2,
+    "question_te": "రెండు పాచికలను ఒకేసారి దొర్లించినపుడు, రెండు పాచికలపై కనిపించే సంఖ్యల మొత్రం ప్రధాన సంఖ్య అగుటకు సంభావ్యత",
+    "options_te": [
+      "11/36",
+      "5/12",
+      "7/12",
+      "5/36"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Mathematics",
+    "question": "In what ratio is the line joining the points (2, -3) and (5,6) divided by the x –axis",
+    "options": [
+      "1:3",
+      "2:5",
+      "1:2",
+      "2:1"
+    ],
+    "correct": 3,
+    "question_te": "(2, -3) మరియు (5,6) బిందువులను కలిపే రేఖా ఖండాన్ని x-అక్కం విభజించే నిష్పత్తి.",
+    "options_te": [
+      "1:3",
+      "2:5",
+      "1:2",
+      "2:1"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Mathematics",
+    "question": "If Sin2A= Cos3A, then A= ? (A<90°)",
+    "options": [
+      "18°",
+      "45°",
+      "60°",
+      "36°"
+    ],
+    "correct": 1,
+    "question_te": "Sin2A= Cos3A, అయితే A= ? (A<90°)",
+    "options_te": [
+      "18°",
+      "45°",
+      "60°",
+      "36°"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Mathematics",
+    "question": "Observe the following statements.\na. 69% of 72 is equal to 72% of 69\nb. If 80% of (x − y)= 60% of (x + y) then x:y equals to 1:7\nChoose the correct answer",
+    "options": [
+      "Only a is true",
+      "Only b is true",
+      "a is true, b is true",
+      "a is false, b is false"
+    ],
+    "correct": 1,
+    "question_te": "క్రింది ప్రవచనాలను పరిశీలించండి\na. 72 లో 69% అనేది 69 లో 72%కు సమానం\nb. (x − y)లో 80% = (x + y) లో 60% అయిన x: y = 1:7 అగును.",
+    "options_te": [
+      "a మాత్రమే సత్యము",
+      "b మాత్రమే సత్యము",
+      "a సత్యము, b సత్యము",
+      "a అసత్యము, b అసత్యము"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Mathematics",
+    "question": "The ratio of three numbers is 5:7:9. If the least number is 35, then the sum of remaining two numbers is",
+    "options": [
+      "112",
+      "224",
+      "256",
+      "272"
+    ],
+    "correct": 1,
+    "question_te": "మూడు సంఖ్యల మధ్య నిష్పత్తి 5:7:9. వాటిలో కనిష్ఠ సంఖ్య 35 అయితే మిగిలిన రెండు సంఖ్యల మొత్తం",
+    "options_te": [
+      "112",
+      "224",
+      "256",
+      "272"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Mathematics",
+    "question": "The mathematician who introduced the concept of highly composite numbers",
+    "options": [
+      "Euclid",
+      "Pythagores",
+      "Archimedis",
+      "Srinivasa Ramanujan"
+    ],
+    "correct": 4,
+    "question_te": "సమున్నత సంయుక్త సంఖ్యల భావన ప్రవేశ పెట్టిన గణిత శాస్త్రవేత్త",
+    "options_te": [
+      "యూక్లిడ్",
+      "పైథాగరాస్",
+      "ఆర్కిమెడీస్",
+      "శ్రీనివాస రామానుజన్"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Mathematics",
+    "question": "Which academic standards contains reading the problem and dividing information into parts?",
+    "options": [
+      "Connection",
+      "Communication",
+      "Reasoning-Proof",
+      "Representation-Visualisation"
+    ],
+    "correct": 1,
+    "question_te": "సమస్యను చదివి, సమాచారాన్ని విభాగాలుగా గుర్తించిన అది ఏ విద్య ప్రమాణము",
+    "options_te": [
+      "అనుసంధానము",
+      "వ్యక్తపర్చడం",
+      "కారణాలుగా చెప్పుట-నిరూపణలు చేయుట",
+      "ప్రాతినిధ్య పరచడం-దృశ్యీకరణ"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Mathematics",
+    "question": "\"Children learn to enjoy mathematics rather than fear it\". This is suggestion from",
+    "options": [
+      "NCF-2005, APSCF-2011",
+      "NCF-2005, RTE-2009",
+      "RTE-2009, APSCF-2011",
+      "NCF-2005, NPE-1986"
+    ],
+    "correct": 1,
+    "question_te": "\"గణిత అభ్యసన భయం కలిగించేలా కాక, పిల్లలు ఆనందించే దిశగా ఉండాలి\". అని సూచించినవి",
+    "options_te": [
+      "NCF-2005, APSCF-2011",
+      "NCF-2005, RTE-2009",
+      "RTE-2009, APSCF-2011",
+      "NCF-2005, NPE-1986"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Mathematics",
+    "question": "The word Heurisco is derived from which language?",
+    "options": [
+      "Russian",
+      "Greek",
+      "Indian",
+      "Latin"
+    ],
+    "correct": 2,
+    "question_te": "హ్యూరిస్కో అనే పదం ఏ భాష నుండి వచ్చినది",
+    "options_te": [
+      "రష్యన్",
+      "గ్రీకు",
+      "భారతీయ",
+      "లాటిన్"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Physical Science",
+    "question": "While measuring the length of an object, the reading of the scale at one end is 99cm and at the other end is 1.1m. The length of the object in meter is",
+    "options": [
+      "0.02",
+      "0.11",
+      "2",
+      "0.2"
+    ],
+    "correct": 2,
+    "question_te": "ఒక వస్తువు పొడవును కొలిచేటప్పుడు స్కేలు యొక్క ఒక చివర రీడింగు 99 సెం. మీ మరొక చివర రీడింగు 1.1 మీ అయిన ఆ వస్తువు పొడవు మీటర్లలో",
+    "options_te": [
+      "0.02",
+      "0.11",
+      "2",
+      "0.2"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Physical Science",
+    "question": "X : Slope of V-t graph gives acceleration\nY : Area of V-t graph gives displacement\nChoose the correct option",
+    "options": [
+      "Both X and Y are correct",
+      "Both X and Y are incorrect",
+      "X is correct , Y is incorrect",
+      "X is incorrect, Y is correct"
+    ],
+    "correct": 1,
+    "question_te": "X: V-t గ్రాఫు యొక్క వాలు ద్వారా త్వరణాన్ని నిర్ణయించవచ్చు.\nY: V-t గ్రాఫు యొక్క వైశాల్యం ద్వారా స్థాన భ్రంశమును లెక్కించవచ్చు.\nసరైన ఐచ్చికాన్ని ఎంచుకోండి",
+    "options_te": [
+      "X మరియు Y రెండూ సరైనవి",
+      "X మరియు Y రెండూ సరికానివి",
+      "X సరైనది, Y సరికానిది",
+      "X సరికానిది, Y సరైనది"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Physical Science",
+    "question": "The ratio of weight of an object on earth to the weight of the same object taken to the moon is",
+    "options": [
+      "1:1",
+      "6:1",
+      "1:6",
+      "3:2"
+    ],
+    "correct": 2,
+    "question_te": "భూమిపై ఒక వస్తువు భారానికి మరియు ఆ వస్తువును చంద్రునిపైకి తీసుకుపోయినపుడు ఆ వస్తువు భారానికి గల నిష్పత్తి",
+    "options_te": [
+      "1:1",
+      "6:1",
+      "1:6",
+      "3:2"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Physical Science",
+    "question": "The potential energy {PE} of a body initially at rest at a height h is entirely converted into kinetic energy {KE} when it reaches the ground , then",
+    "options": [
+      "PE + KE = 0",
+      "PE × KE = 0",
+      "PE - KE = 0",
+      "PE ÷ KE = 0"
+    ],
+    "correct": 3,
+    "question_te": "h ఎత్తులో నిశ్చల స్థితిలో ఉన్న వస్తువు యొక్క స్థితిశక్తి (PE),ఆ వస్తువు భూమిని చేరినప్పుడు పూర్తిగా గతిశక్తి (KE) లోనికి మార్చబడిందీ అయిన",
+    "options_te": [
+      "PE + KE = 0",
+      "PE × KE = 0",
+      "PE - KE = 0",
+      "PE ÷ KE = 0"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Physical Science",
+    "question": "The correct sequence of the materials based on the increasing order of speed of sound (at 25° C) through them",
+    "options": [
+      "Ethanol < Nickel < Sulphur dioxide",
+      "Nickel < Ethanol < Sulphur dioxide",
+      "Sulphur dioxide < Nickel < Ethanol",
+      "Sulphur dioxide < Ethanol < Nickel"
+    ],
+    "correct": 4,
+    "question_te": "వాటి గుండా ధ్వనివేగం పెరిగే క్రమం ఆధారంగా, పదార్థాలు సరైన క్రమం",
+    "options_te": [
+      "ఇథనోల్< నికెల్ <సల్ఫర్ డై ఆక్సైడ్",
+      "నికెల్ < ఇథనోల్ < సల్ఫర్ డై ఆక్సైడ్",
+      "సల్ఫర్ డై ఆక్సైడ్ < నికెల్ < ఇథనోల్",
+      "సల్ఫర్ డై ఆక్సైడ్ <ఇథనోల్ < నికెల్"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Physical Science",
+    "question": "Assertion (A): Stainless steel pans are usually provided with copper bottoms.\nReason (R): Stainless steel is better conductor than copper\nChoose the correct option",
+    "options": [
+      "Both A and R are correct, R is the correct reason for A.",
+      "Both A and R are correct, R is not the correct reason for A.",
+      "A is correct, R is incorrect",
+      "A is incorrect, R is correct"
+    ],
+    "correct": 3,
+    "question_te": "ప్రవచనం (A): సాధారణంగా స్టెయిన్లెస్ స్టీల్ పాత్రలకు రాగి అడుగుభాగం ఇవ్వబడుతుంది.\nకారణం (R): స్టెయిన్ లెస్ స్టీలు రాగికన్నా మంచి ఉష్టవాహకం.\nసరైన ఐచ్చికాన్ని ఎన్నుకోండి",
+    "options_te": [
+      "A మరియు R రెండూ సరైనవి, R అనేది A కు సరైన కారణం.",
+      "A మరియు R రెండూ సరైనవి, R అనేది A కు సరైన కారణం కాదు.",
+      "A సరైనది, R సరికానిది",
+      "A సరికానిది, R సరైనది"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Physical Science",
+    "question": "Optical devices that forms enlarged virtual image\n(a) Convex lens (b) Concave lens\n(c) Convex mirror (d) Cancave mirror",
+    "options": [
+      "a and b",
+      "b and c",
+      "c and d",
+      "a and d"
+    ],
+    "correct": 4,
+    "question_te": "ఆవర్ధనం చెందిన మిధ్యా ప్రతిబింబాన్ని ఏర్పరిచే దృక్ సాధనాలు\n(a)కుంభాకర కటకం (b) పుటాకార కటకం\n(c) కుంభాకర దర్పణం (d) పుటాకార దర్పణం",
+    "options_te": [
+      "a and b",
+      "b and c",
+      "c and d",
+      "a and d"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Physical Science",
+    "question": "Assertion (A): The unit of potential difference is joule because the unit of work is Joule.\nReason (R): Potential difference is the work done to move a charge from one point to the other.",
+    "options": [
+      "Both A and R are correct, R is the correct explanation of A.",
+      "Both A and R are correct, R is not the correct explanation of A.",
+      "A is incorrect but R is correct",
+      "A is correct but R is incorrect"
+    ],
+    "correct": 3,
+    "question_te": "ప్రవచనం (A): పనికి ప్రమాణం జౌల్ కావున పొటెన్నియల్ బేధానికి ప్రమాణం కూడా జౌల్.\nకారణం (R): రెండు బిందువుల మధ్య ఆవేశాన్ని కదిలించుటకు చేయవలసిన పనే పొటెన్నియల్ బేధం.",
+    "options_te": [
+      "A మరియు R రెండూ సరైనవి, R అనేది A కు సరైన వివరణ.",
+      "A మరియు R రెండూ సరైనవి, R అనేది A కు సరైన వివరణ కాదు.",
+      "A సరికానిది, R సరైనది",
+      "A సరైనది, R సరికానిది"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Physical Science",
+    "question": "The name of carbon compound having 3 carbon atoms and the functional group \"–C=O\"",
+    "options": [
+      "Propanal",
+      "Propanol",
+      "Propanone",
+      "Propanoic acid"
+    ],
+    "correct": 3,
+    "question_te": "మూడు కార్బన్ పరమాణువులు మరియు ప్రమేయ సమూహం \"–C=O\" గల కర్వన సమ్మేళనం పేరు",
+    "options_te": [
+      "ప్రొపనాల్.",
+      "ప్రొపనోల్",
+      "ప్రొపనోన్",
+      "ప్రొపనోయిక్ ఆమ్లం"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Physical Science",
+    "question": "Current is passing through a straight vertical wire from top to bottom. Then the direction of magnetic field if you observe from the top",
+    "options": [
+      "In clock wise direction in a plane perpendicular to the wire",
+      "In anti-clock wise direction in a plane perpendicular to the wire",
+      "In clockwise direction in a plane parallel to the wire",
+      "In anti-clock wise direction in a plane parallel to the wire"
+    ],
+    "correct": 1,
+    "question_te": "ఒక తిన్నని నిలువుగా ఉన్న విద్యుత్ తీగలో విద్యుత్ పై నుండి కిందికి ప్రవహిస్తుంది. అయిన పై నుండి గమనించినప్పుడు అయస్కాంత క్షేత్ర దిశ",
+    "options_te": [
+      "తీగకు లంబదిశలో గల తలంలో సవ్యదిశలో",
+      "తీగకు లంబదిశలో గల తలంలో అపసవ్యదిశలో",
+      "తీగకు సమాంతరంగా గల తలంలో సవ్యదిశలో",
+      "తీగకు సమాంతరంగా గల తలంలో అపసవ్యదిశలో"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Physical Science",
+    "question": "At the time of solid melts, its temperature",
+    "options": [
+      "Decreases",
+      "Increases",
+      "Remains same",
+      "First increases and then decreases"
+    ],
+    "correct": 3,
+    "question_te": "ఘన పధార్థం కరుగు సందర్భం లో దాని ఉష్ణోగ్రత",
+    "options_te": [
+      "తగ్గుతుంది",
+      "పెరుగుతుంది",
+      "స్థిరంగా ఉంటుంది",
+      "ముందుగా పెరుగుతుంది మరియు తరువాత తగ్గుతుంది"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Physical Science",
+    "question": "Formula unit mass of sodium chloride",
+    "options": [
+      "56u",
+      "58.5u",
+      "111u",
+      "81.5u"
+    ],
+    "correct": 2,
+    "question_te": "సోడియం క్లోరైడ్ యొక్క ఫార్ములా యూనిట్ ద్రవ్యరాశి",
+    "options_te": [
+      "56u",
+      "58.5u",
+      "111u",
+      "81.5u"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Physical Science",
+    "question": "This is not a property of ionic compounds\n(a) Ionic compounds are solids.\n(b) Ionic compounds are soluble in non polar solvents.\n(c) High melting and low boiling points.\n(d) Solutions are good conductors of electricity",
+    "options": [
+      "a & b",
+      "b & c",
+      "c & d",
+      "d & a"
+    ],
+    "correct": 2,
+    "question_te": "ఇది అయానిక పదార్థ ధర్మం కాదు\n(a) అయానిక పదార్థాలు ఘన స్థితిలో ఉంటాయి.\n(b) అయానిక పదార్థాలు అధృవద్రావణిలో కరుగుతాయి.\n(c) అధిక ద్రవీభవన మరియు అల్పబాష్పీభవన స్థానాలు.\n(d) వీటి ద్రావణాలు మంచి విద్యుత్ వాహకాలు.",
+    "options_te": [
+      "a & b",
+      "b & c",
+      "c & d",
+      "d & a"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Physical Science",
+    "question": "Generally metals are hard. Metals that can be cut with knife easily",
+    "options": [
+      "K and Mg",
+      "Ca and Cu",
+      "K and Na",
+      "Hg and Zn"
+    ],
+    "correct": 3,
+    "question_te": "లోహాలు సాధారణంగా ధృడంగా ఉంటాయి. చాకుతో సులభంగా కోయగలిగే లోహాలు",
+    "options_te": [
+      "K and Mg",
+      "Ca and Cu",
+      "K and Na",
+      "Hg and Zn"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Physical Science",
+    "question": "The incorrect statement related to Coaltar\n(1) It is used in the preparation of perfumes.\n(2) It is used in the preparation of naphthalene balls.\n(3) It is used in the preparation of explosives.\n(4) It is used in the manufacture of steel.",
+    "options": [
+      "It is used in the preparation of perfumes.",
+      "It is used in the preparation of naphthalene balls.",
+      "It is used in the preparation of explosives.",
+      "It is used in the manufacture of steel."
+    ],
+    "correct": 4,
+    "question_te": "కోల్తారు గురించి సరికాని వాక్యం",
+    "options_te": [
+      "దీనిని పరిమళ ద్రవ్యాల తయారీలో వాడుతారు.",
+      "దీనిని నాఫ్తలీన్ ఉండల తయారీలో వాడుతారు.",
+      "దీనిని పేలుడు పదార్థాల తయారీలో వాడుతారు.",
+      "దీనిని ఉక్కు తయారీలో వాడుతారు."
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Physical Science",
+    "question": "Sodium chloride is a / an",
+    "options": [
+      "Acidic salt",
+      "Basic salt",
+      "Neutral salt",
+      "Amphoteric salt"
+    ],
+    "correct": 3,
+    "question_te": "సోడియం క్లోరైడ్ ఒక",
+    "options_te": [
+      "ఆమ్ల స్వభావ లవణం",
+      "క్షార స్వభావ లవణం",
+      "తటస్థ లవణం",
+      "ఆమ్ల మరియు క్షార స్వభావంగల లవణం"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Physical Science",
+    "question": "Teaching takes place based on the students' needs, interests and abilities in this method.\na) Heuristic method\nb) Project method\nc) Laboratory method\nd) Scientific method",
+    "options": [
+      "only a",
+      "only a & b",
+      "only a, b & c",
+      "a, b, c & d"
+    ],
+    "correct": 4,
+    "question_te": "బోధన అనునది విద్యార్థల అవసరాలు, అభిరుచులు, సామర్ధ్యాల ఆధారంగా ఈ పద్ధతిలో జరుగుతుంది.\na) హ్యూరెస్టిక్ పద్ధతి\nb)ప్రాజెక్ట్ పద్ధతి\nc)ప్రయోగశాల పద్ధతి\nd) వైజ్ఞానిక పద్ధతి",
+    "options_te": [
+      "only a",
+      "only a & b",
+      "only a, b & c",
+      "a, b, c & d"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Physical Science",
+    "question": "These are not a basis for objectives",
+    "options": [
+      "Needs of society",
+      "Nature and scope of lesson",
+      "Available of resources",
+      "Teachers needs"
+    ],
+    "correct": 4,
+    "question_te": "ఇవి లక్ష్యాలకు ఆధారాలు కావు",
+    "options_te": [
+      "సామాజిక అవసరాలు",
+      "పాఠ్యాంశ స్వభావం,పరిధి",
+      "లభించే వనరులు",
+      "ఉపాధ్యాయుల అవసరాలు"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Physical Science",
+    "question": "This is not a characteristic of Science",
+    "options": [
+      "Science is a process.",
+      "Science is a product.",
+      "Science is cumulative.",
+      "Facts of science are absolute truth."
+    ],
+    "correct": 4,
+    "question_te": "విజ్ఞానశాస్త్ర లక్షణం కానిది",
+    "options_te": [
+      "విజ్ఞానశాస్త్రం ఒక ప్రక్రియ.",
+      "విజ్ఞానశాస్త్రం ఒక ఉత్పన్నం.",
+      "విజ్ఞానశాస్త్రం సంచితం.",
+      "విజ్ఞానశాస్త్ర యధార్థాలు పరమసత్యాలు."
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Physical Science",
+    "question": "The most concrete teaching experience in Edger dale's cone among the following is",
+    "options": [
+      "Exhibits",
+      "Radio recording",
+      "Television education programmes",
+      "Direct utilitarian experiences"
+    ],
+    "correct": 4,
+    "question_te": "కింది వాటిలో ఎడ్గర్ డేల్ శంఖులో అత్యంత మూర్తమైన బోధనానుభవం",
+    "options_te": [
+      "ప్రదర్శనలు",
+      "రేడియో రికార్డింగ్",
+      "టెలివిజన్ విద్యా కార్యక్రమాలు",
+      "ప్రత్యక్ష ప్రయోజనాత్మక అనుభవాలు"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Biology",
+    "question": "A student observed the Root system in a plant, he described the root system as \"A extends down from the shoot and B the smaller roots grow from A\" Which type of root system did he observe and find out A and B.",
+    "options": [
+      "Fibrous root system. A – Lateral root B- Fibrous roots",
+      "Tap root system. A – Main root B- Tap root",
+      "Fibrous root system. A – Fibrous roots B - Tap roots",
+      "Tap root system. A – Tap root B – Lateral roots"
+    ],
+    "correct": 4,
+    "question_te": "ఒక విద్యార్థి ఒక మొక్కలోని వేరు వ్యవస్థను పరిశీలించి ఆ వేరు వ్యవస్థను \"A,ను కాండం నుండి కిందికి పెరిగేదని మరియు B అనే చిన్న వేర్లు A నుండి పెరుగుతున్నాయి.\"అని వివరించాడు. అతను పరిశీలించిన వేరు వ్యవస్థ మరియు A మరియు B లను కనుగొనండి.",
+    "options_te": [
+      "గబురు వేరు వ్యవస్థ. A – పార్శ్వ వేరు B – గబురువేర్లు",
+      "తల్లి వేరు వ్యవస్థ. A – ప్రాధాన వేరు B – తల్లి వేర్లు",
+      "గబురు వేరు వ్యవస్థ. A – గబురువేరు B – తల్లి వేర్లు",
+      "తల్లి వేరు వ్యవస్థ. A – తల్లి వేరు B – పార్శ్వ వేర్లు"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Biology",
+    "question": "Identify the correct statements about bones\n(a) Bones that enclose the portion below the stomach is called pelvic bones.\n(b) Backbone is the longest bone that extends from the neck through the back.\n(c) Skull is a closed boxlike single bone that encloses the brain.\n(d) Ribs join the backbone and chest bone to form a cage like structure.",
+    "options": [
+      "a, b, and d",
+      "a, b, c",
+      "a and d",
+      "b and c"
+    ],
+    "correct": 3,
+    "question_te": "ఎముకలను గురించిన సరైన వాక్యాలు\n(a) పొట్ట క్రింది భాగాన్ని ఆవరించి ఉన్న ఎముకలను కటివలయ ఎముకలు అంటారు.\n(b) వెన్నెముక, మెడ నుండి వీపు భాగం అంతా కొనసాగిన అతి పొడవైన ఎముక.\n(c) మెదడును ఆవరించి ఉన్న మూసిన పెట్టి పంటి ఒకే ఎముక పుర్రె.\n(d) పక్కటెముకలు వెన్నెముకను మరియు ఛాతీ ఎముకను కలుపుతూ, పంజరం వంటి నిర్మాణమును ఏర్పరుస్తాయి.",
+    "options_te": [
+      "a, b, and d",
+      "a, b, c",
+      "a and d",
+      "b and c"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Biology",
+    "question": "The cell organelle that is an important site for the formation of Glycoproteins and Glycolipids.",
+    "options": [
+      "Golgi apparatus",
+      "Lysosome",
+      "Mitochondria",
+      "Rough Endo plasmic Reticulum"
+    ],
+    "correct": 1,
+    "question_te": "గ్లైకో ప్రోటీన్ మరియు గ్లైకో లిపిడ్ ఉత్పత్తిలో ముఖ్య కేంద్రంగా పనిచేయు కణాంగం",
+    "options_te": [
+      "గాల్జీ పరికరం",
+      "లైసోజోము",
+      "మైటోకాంద్రియా",
+      "గరుకు అంతర్జీవ ద్రవ్యజాలం"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Biology",
+    "question": "Cylindrical, branched and uninucleate cells are present in this tissue",
+    "options": [
+      "Striated muscle tissue",
+      "Areolar tissue",
+      "Cardiac muscle tissue",
+      "Smooth muscle tissue"
+    ],
+    "correct": 3,
+    "question_te": "స్తూపాకార, శాఖాయుతమైన, ఏక కేంద్రకయుత కణాలు ఈ కణజాలంలో ఉంటాయి.",
+    "options_te": [
+      "రేఖిత కందర కణజాలం",
+      "ఏరియోలార్ కణజాలం",
+      "హృదయ కందర కణజాలం",
+      "నునుపు కందర కణజాలం"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Biology",
+    "question": "Identify the correct match",
+    "options": [
+      "A. mallifera – Indian bee",
+      "A. florae – Italian bee",
+      "A. dorsata – Rock bee",
+      "A. cerana – Little bee"
+    ],
+    "correct": 3,
+    "question_te": "సరైన జతను గుర్తించండి",
+    "options_te": [
+      "ఎ. మెల్లి ఫెరా – ఇండియన్ బీ",
+      "ఎ. ఫ్లోరియా – ఇటాలియన్ బీ",
+      "ఎ. దోర్సెటా – రాక్ బీ",
+      "ఎ. సిరానా – లిటిల్ బీ"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Biology",
+    "question": "Weed control methods among the following\na) Mechanical removal\nb) Crop rotation\nc) Proper seed bed preparation\nd) Summer ploughing",
+    "options": [
+      "Only a",
+      "a and b only",
+      "a, b and c only",
+      "a, b, c and d"
+    ],
+    "correct": 4,
+    "question_te": "కింది వానిలో కలుపు నియంత్రణ పద్ధతులు\na) యాంత్రిక తొలగింపు\nb) పంటమార్పిడి\nc) సరైన సీడ్ బెడ్ తయారీ\nd) వేసవిలో దున్నడం",
+    "options_te": [
+      "Only a",
+      "a and b only",
+      "a, b and c only",
+      "a, b, c and d"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Biology",
+    "question": "This can be observed using a leaf, spirit, water, and Iodine solution along with a beaker, test tube and a burner",
+    "options": [
+      "Conduction of water and minerals in leaves",
+      "Occurrence of Photosynthesis in leaves",
+      "Removal of water from plant body through stomata.",
+      "Separation of wheat flour and salts from water"
+    ],
+    "correct": 2,
+    "question_te": "ఒక పత్రం, స్పిరిట్, నీరు, అయోడిన్ ద్రావంతో పాటుగా ఒక బీకరు, టెస్ట్ ట్యూబ్ మరియు బర్నర్ లను ఉపయోగించి దేనిని పరిశీలించవచ్చు.",
+    "options_te": [
+      "ఆకులలో నీరు, లవణాల ప్రసరణ.",
+      "పత్రాలలోజరిగిన కిరణజన్య సంయోగ క్రియ",
+      "మొక్క దేహం నుండి పత్ర రంధ్రాలు నీటిని బయటకు పంపడం.",
+      "నీటిలో నుండి గోధుమపిండి, లవణాలను వేరు చేయుట"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Biology",
+    "question": "Assertion A : Fishes continuously take in water through their nostrils and force it onto the gills where dissolved oxygen is taken up by the blood.\nReason R : Gills are the respiratory organs in fishes to take dissolved oxygen.",
+    "options": [
+      "A and R both are correct and R explains A.",
+      "A is correct but R is incorrect.",
+      "A is incorrect but R is correct.",
+      "A and R both are incorrect."
+    ],
+    "correct": 3,
+    "question_te": "ప్రవచనం A: చేపలు నిరంతరం నీటిని తమ నాశికా రంధ్రాల ద్వారా తీసుకుని, మొప్పల మీదకు వదులుతాయి. అక్కడ నీటిలో కరిగిన ఆక్సిజన్ రక్తంలోనికి తీసుకోబడుతుంది.\nకారణం R: చేపలలో మొప్పులు నీటిలో కరిగిన ఆక్సిజన్ ను గ్రహించే శ్వాసాయవయాలు.",
+    "options_te": [
+      "A మరియు R రెండూ సరైనవి, R అనేది A ను వివరిస్తుంది.",
+      "A సరైనది కానీ R సరికానిది.",
+      "A సరికానిది కానీ R సరైనది.",
+      "A మరియు R రెండూ సరికానివి."
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Biology",
+    "question": "Some insects add this anti-freezing agent to their haemolymph to avoid freezing during winter.",
+    "options": [
+      "Uric acid",
+      "Glycerol",
+      "Protestin",
+      "Chitin"
+    ],
+    "correct": 2,
+    "question_te": "శీతాకాలంలో గడ్డకట్టుకుపోవడాన్ని నివారించడం కోసం కొన్ని కీటకాలు హీమోలింఫ్ కు కలిపే యాంటీ ఫ్రీజింగ్ ఏజెంట్.",
+    "options_te": [
+      "యూరిక్ ఆమ్లం",
+      "గ్లిజరాల్",
+      "ప్రొటెస్టిన్",
+      "కైటిన్"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Biology",
+    "question": "Among the following the Bisexual flowers are seen in",
+    "options": [
+      "Mustard and Petunia",
+      "Corn and Rose",
+      "Papaya and Petunia",
+      "Rose and Papaya"
+    ],
+    "correct": 1,
+    "question_te": "కింది వానిలో ద్విలింగ పుష్పాలు కలిగి ఉండేవి",
+    "options_te": [
+      "ఆవాలు మరియు పెట్యూనియా",
+      "మొక్కజొన్న మరియు గులాబీ",
+      "బొప్పాయి మరియు పెట్యూనియా",
+      "గులాబీ మరియు బొప్పాయి"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Biology",
+    "question": "Variation in allosome condition in case of male and female fruit flies",
+    "options": [
+      "One pair of X-chromosomes in female and one X and one Y chromosome in male.",
+      "One pair of X-chromosomes in female, only one Y chromosome in male.",
+      "Only one X chromosome in female, one X and one Y chromosome in male.",
+      "One pair of X-chromosomes in female, one pair of Y-chromosomes in males."
+    ],
+    "correct": 1,
+    "question_te": "ఆడ మరియు మగ ఫ్రూట్ ఫ్లైలలో లైంగిక క్రోమోజోముల స్థితిలోని విభిన్నత",
+    "options_te": [
+      "ఒక జత X క్రోమోజోములు ఆడజీవిలోనూ, ఒక X మరియు ఒక Y క్రోమోజోము మగజీవిలోనూ ఉంటాయి.",
+      "ఆడజీవిలో ఒక జత X క్రోమోజోమలు, మగజీవిలో ఒకే Y క్రోమోజోము ఉంటుంది.",
+      "ఆడజీవిలో కేవలం ఒక X క్రోమోజోము, మగజీవిలో ఒక X, ఒక Y క్రోమోజోములు ఉంటాయి.",
+      "ఆడజీవిలో ఒక జత X క్రోమోజోములు, మగజీవిలో ఒక జత Y క్రోమోజోములు ఉంటాయి."
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Biology",
+    "question": "Find the correct pair of Natural sources of water\n(a) Streams\n(b) Borewells\n(c) Dams\n(d) Springs",
+    "options": [
+      "a and b only",
+      "b and c only",
+      "b and d only",
+      "a and d only"
+    ],
+    "correct": 4,
+    "question_te": "సహజ నీటివనరుల సరైన జతను గుర్తించండి.\n(a) ప్రవాహాలు\n(b) బోరుబావులు\n(c) ఆనకట్ట\n(d) చెలమలు",
+    "options_te": [
+      "a and b only",
+      "b and c only",
+      "b and d only",
+      "a and d only"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Biology",
+    "question": "Choose the correct statement /s\nStatement A: Members of a species have common characters\nStatement B: Members of a species can produce fertile offsprings with the members of other species.",
+    "options": [
+      "A only correct",
+      "B only correct",
+      "Both A and B are correct",
+      "Both A and B are incorrect"
+    ],
+    "correct": 1,
+    "question_te": "సరైన వాక్యాన్ని/లను ఎంచుకోండి.\nవాక్యము A: ఒక జాతి జీవులు ఉమ్మడి లక్షణాలు కలిగి ఉంటాయి\nవాక్యము B: ఒక జాతి జీవులు మరోజాతి జీవులతో ఫలవంతమైన సంతానాన్ని ఉత్పత్తిచేయగలవు",
+    "options_te": [
+      "A only correct",
+      "B only correct",
+      "Both A and B are correct",
+      "Both A and B are incorrect"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Biology",
+    "question": "The inorganic impurity in sewage water is",
+    "options": [
+      "Metal",
+      "Herbicides",
+      "Urea",
+      "Vegetable wastes"
+    ],
+    "correct": 1,
+    "question_te": "మురుగు నీటిలోని అకర్బన మలినం",
+    "options_te": [
+      "లోహం",
+      "పురుగుమందులు",
+      "యూరియా",
+      "కూరగాయల వ్యర్థాలు"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Biology",
+    "question": "We cannot get energy by consuming coal. In the same way, bacteria cannot breakdown non-biodegradable waste. Find out the correct reason from the following.",
+    "options": [
+      "Bacteria and other living organisms resist eating plastics.",
+      "Plastics act as toxins for bacteria.",
+      "Plastics are hard materials for bacteria to break down.",
+      "Bacteria can act on specific substances only."
+    ],
+    "correct": 4,
+    "question_te": "మనం బొగ్గును సేవించి శక్తిని పొందలేము. అలాగే బాక్టీరియా నేలలో కలవని వ్యర్థాలను విచ్ఛన్నం చేయలేదు. దీనికి సరి అయిన కారణాన్ని క్రింది వాని నుండి కనుగొనండి.",
+    "options_te": [
+      "బాక్టీరియా మరియు ఇతర జీవులు ప్లాస్టిక్ ను తినడాన్ని నిరాకరిస్తాయి.",
+      "ప్లాస్టిక్ బాక్టీరియాపై విషపదార్థాలుగా పనిచేస్తాయి.",
+      "ప్లాస్టిక్ ను బ్యాక్టీరియాలు విచ్ఛిన్నం చేయలేనంత గట్టివి.",
+      "బాక్టీరియాలు నిర్దిష్టమైన పదార్థాలపై మాత్రమే పనిచేస్తాయి."
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Biology",
+    "question": "\"Plant roots are positively Geotropic\" This statement is an example for",
+    "options": [
+      "Generalisation",
+      "Law",
+      "Theory",
+      "Concept"
+    ],
+    "correct": 1,
+    "question_te": "\"మొక్కల వేర్లు ధనాత్మక గురుత్వానువర్తనం చూపుతాయి\" ఈ వాక్యం దీనికి ఉదాహరణ",
+    "options_te": [
+      "సాధారణీకరణం",
+      "నియమం",
+      "సిద్ధాంతం",
+      "భావన"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Biology",
+    "question": "'General objectives' means",
+    "options": [
+      "Aims and objectives",
+      "Societal objectives and behavioural objectives",
+      "Goals and aims",
+      "Goals and objectives"
+    ],
+    "correct": 3,
+    "question_te": "'సాధారణ లక్ష్యాలు' అనగా",
+    "options_te": [
+      "ఉద్దేశాలు మరియు లక్ష్యాలు",
+      "సామాజిక లక్ష్యాలు మరియు ప్రవర్తనా లక్ష్యాలు",
+      "గమ్యాలు మరియు ఉద్దేశాలు",
+      "గమ్యాలు మరియు లక్ష్యాలు"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Biology",
+    "question": "Drawing pictures and immediate identification of animals by the student is an objective of this project",
+    "options": [
+      "Problem project",
+      "Consumer project",
+      "Productive project",
+      "Training project"
+    ],
+    "correct": 4,
+    "question_te": "'విద్యార్థులు చిత్రాలు గీయడం, వివధ జంతువులను వెంటనే గుర్తు పట్టడం' ఈ ప్రకల్పన యొక్క ముఖ్య ఉద్దేశం",
+    "options_te": [
+      "సమస్యా ప్రాజెక్ట్",
+      "వినియోగ ప్రాజెక్ట్",
+      "ఉత్పాదక ప్రాజెక్ట్",
+      "శిక్షణా ప్రాజెక్ట్"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 2",
+    "subject": "Biology",
+    "question": "Correct aspect regarding the Oral Test",
+    "options": [
+      "All students can be impartially tested.",
+      "Scope for subjectivity of examiner is more.",
+      "Scope for complete testing of student's abilities.",
+      "Possibility of processing information regarding student's progress."
+    ],
+    "correct": 2,
+    "question_te": "మౌఖిక పరీక్షకు సంబంధించి సరైన అంశం",
+    "options_te": [
+      "విద్యార్థులందరినీ నిష్పాక్షికంగా చూడవచ్చు.",
+      "పరీక్షలు నిర్వహించే వారి ఆత్మాశ్రయతకు అవకాశం ఎక్కువ.",
+      "విద్యార్థుల సామర్థ్యాన్ని సంపూర్ణంగా పరీక్షించే అవకాశం కలుగును.",
+      "విద్యార్థుల సాధన గురించిన సమాచారాన్ని భద్రపరచే అవకాశం ఉందును."
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Child Development & Pedagogy",
+    "question": "Match the psychologists and their established schools.\ni) Plato    a) Yuerdon Boarding School\nii) Aristotle    b) Social Contrast\niii) Rousseau    c) De Anima\niv) Pestalozzi    d) Gymnasia",
+    "options": [
+      "i-a ii-b iii-c iv-d",
+      "i-b ii-a iii-d iv-c",
+      "i-d ii-c iii-a iv-b",
+      "i-d ii-c iii-b iv-a"
+    ],
+    "correct": 4,
+    "question_te": "మనోవిజ్ఞాన శాస్త్రవేత్తలను వారు స్థాపించిన పాఠశాలలతో జతపరచండి.\ni) ప్లేటో    a) యొర్డన్ బోర్డింగ్ పాఠశాల\nii) అరిస్టాటిల్    b) సోషల్ కాంట్రాస్ట్\niii) రూసో    c) డీ-ఆనిమ\niv) పెస్టాలజీ    d) జిమ్నాషియా",
+    "options_te": [
+      "i-a ii-b iii-c iv-d",
+      "i-b ii-a iii-d iv-c",
+      "i-d ii-c iii-a iv-b",
+      "i-d ii-c iii-b iv-a"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Child Development & Pedagogy",
+    "question": "A child starts crawling at 5 months while another child at 6 months.  This principle of development is",
+    "options": [
+      "Development is an Individualized Process",
+      "Development is Cumulative",
+      "Development is Predictable",
+      "Development is Continuous"
+    ],
+    "correct": 1,
+    "question_te": "ఒక శిశువు 5 నెలలకు పాకడం ప్రారంభిస్తే, మరొక శిశువు 6 నెలలకు పాకుతాడు. ఇది ఈ వికాస నియమం.",
+    "options_te": [
+      "వికాసంలో వైయుక్తిక భేదాలుంటాయి.",
+      "వికాసం సంచితమైనది.",
+      "వికాసాన్ని ప్రాగుక్తీకరించవచ్చు.",
+      "వికాసం అవిచ్ఛిన్నంగా సాగుతుంది."
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Child Development & Pedagogy",
+    "question": "This stage is called a Pre-School Age",
+    "options": [
+      "Infancy",
+      "Early Childhood",
+      "Late Childhood",
+      "Puberty"
+    ],
+    "correct": 2,
+    "question_te": "పూర్వ పాఠశాల దశగా పిలువబడే దశ",
+    "options_te": [
+      "శైశవ దశ",
+      "పూర్వ బాల్య దశ",
+      "ఉత్తర బాల్య దశ",
+      "యవ్వనారంభ దశ"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Child Development & Pedagogy",
+    "question": "According to Piaget, this is not related to Pre-Operational Stage.",
+    "options": [
+      "2 – 4 years is called as Pre-conceptual stage.",
+      "4 – 7 years is called as Intuitive thought stage.",
+      "Develop Problem solving ability",
+      "Unidimentionality is an important concept"
+    ],
+    "correct": 3,
+    "question_te": "పియాజె ప్రకారం, పూర్వ ప్రచాలక దశకి చెందనిది.",
+    "options_te": [
+      "2 – 4 సం11 మధ్య కాలాన్ని పూర్వ భావన దశ అంటారు.",
+      "4 – 7 సం11 మధ్య కాలాన్ని స్ఫురిత ఆలోచనా దశ అంటారు.",
+      "సమస్యా పరిష్కార సామర్ధ్యం పెంపొందుతుంది.",
+      "ఏకమితి ఒక ముఖ్యమైన భావన."
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Child Development & Pedagogy",
+    "question": "The mismatched pair related to social crisis of Erikson's Psycho-Social Development Theory",
+    "options": [
+      "Generocity – Isolation",
+      "Industry – Inferiority",
+      "Initiative – Guilt",
+      "Integrity – Despair"
+    ],
+    "correct": 1,
+    "question_te": "ఎరిక్ సన్ మనో సాంఘిక వికాస సిద్ధాంతంలో సాంఘీక క్లిష్ట పరిస్థితులకుసంబంధించి సరిగా జతపరచనివి.",
+    "options_te": [
+      "ఉత్పాదకత – ఏకాంతం",
+      "శ్రమించడం – న్యూనత",
+      "చొరవ చూపడం – తప్పుచేశానన్న భావన",
+      "సమగ్రత – నిరాశ"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is NOT a model in Emotional Intelligence.",
+    "options": [
+      "Ability Model",
+      "Adjustment Model",
+      "Mixed Model",
+      "Trait Model"
+    ],
+    "correct": 2,
+    "question_te": "ఉద్వేగ ప్రజ్ఞకు సంబంధించి, నమూనా కానిది.",
+    "options_te": [
+      "సామర్థ్య నమూనా",
+      "సర్దుబాటు నమూనా",
+      "మిశ్రమ నమూనా",
+      "లక్షణ నమూనా"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Child Development & Pedagogy",
+    "question": "The correct one related to the origin of the words.\n(a) Emotion is an English Language word.\n(b) Emovere is a Greek Language word.\n(c) Emovere means 'to stir up'.",
+    "options": [
+      "a, b only",
+      "b, c only",
+      "a, c only",
+      "a, b, c only"
+    ],
+    "correct": 3,
+    "question_te": "పదాల ఆవిర్భావానికి సంబంధించి సరైనవి.\n(a) Emotion అనేది ఆంగ్లభాషా పదం.\n(b) Emovere అనేది గ్రీకు భాషా పదం.\n(c) Emovere అనగా కలియబెట్టడం.",
+    "options_te": [
+      "a, b only",
+      "b, c only",
+      "a, c only",
+      "a, b, c only"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Child Development & Pedagogy",
+    "question": "The problems faced by Adolescents at home.\n(a) Comparison with others.\n(b) Frequent quarrels with siblings.\n(c) Poor rapport with parents.",
+    "options": [
+      "only a, b",
+      "only b, c",
+      "only a, c",
+      "a, b, c"
+    ],
+    "correct": 4,
+    "question_te": "కౌమారులు ఎదుర్కొనే గృహ సంబంధిత సమస్యలు\n(a) ఇతరులతో పోల్చడం.\n(b) సహోదరులతో తరచుగా గొడవలు పడటం.\n(c) తల్లిదండ్రులతో చనువు తక్కువగా ఉండటం.",
+    "options_te": [
+      "only a, b",
+      "only b, c",
+      "only a, c",
+      "a, b, c"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Child Development & Pedagogy",
+    "question": "The correct ones according to Stone & Brown gangs clacification.\n(a) Populars –Leaders in Classrooms\n(b) Burnouts – Addicted to Drugs\n(c) Brains – Gives more importance to Academics",
+    "options": [
+      "only a, b",
+      "only b, c",
+      "only a, c",
+      "a, b, c"
+    ],
+    "correct": 4,
+    "question_te": "స్టోన్ మరియు బ్రౌన్ ముఠాల వర్గీకరణ ప్రకారం, సరైనవి.\n(a) పాపులర్స్ –తరగతిగదులలో నాయకులు\n(b) బర్నువుట్స్ – మత్తు పదార్థాలకు బానిసలు\n(c) బ్రెయిన్స్ – చదువుకు ఎక్కువ ప్రాధాన్యతనిచ్చేవారు.",
+    "options_te": [
+      "only a, b",
+      "only b, c",
+      "only a, c",
+      "a, b, c"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is NOT a subtest in Differential Aptitude Test.",
+    "options": [
+      "Abstract Reasoning",
+      "Mechanical Reasoning",
+      "Verbal Reasoning",
+      "Concrete Reasoning"
+    ],
+    "correct": 4,
+    "question_te": "భేదాత్మక సహజ సామర్ధ్య పరీక్ష లోని ఉప పరీక్ష కానిది.",
+    "options_te": [
+      "అమూర్త వివేచనం",
+      "యాంత్రిక వివేచనం",
+      "శాబ్దిక వివేచనం",
+      "మూర్త వివేచనం"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Child Development & Pedagogy",
+    "question": "The correct ones related to Gardener's theory of Multiple Intelligence\n(a) Intelligence is an independent existing entity.\n(b) Culture is the only basic factor to determine intelligence.\n(c) Only one intelligence aspect is not utilized for all works.",
+    "options": [
+      "only a, c",
+      "only b, c",
+      "only a, b",
+      "only a"
+    ],
+    "correct": 2,
+    "question_te": "గార్డెనర్ బహుళ ప్రజ్ఞ సిద్ధాంతానికి సంబంధించి సరైవి.\n(a) ప్రజ్ఞ స్వతంత్ర అస్తిత్వం కలిగిన ఒక అంశం.\n(b) ప్రజ్ఞను నిర్ధారించుటకు సంస్కృతే ప్రధాన కారణం.\n(c) అన్ని పనులకు ఒకే ప్రజ్ఞాంశం ఉపయోగ పడదు.",
+    "options_te": [
+      "only a, c",
+      "only b, c",
+      "only a, b",
+      "only a"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Child Development & Pedagogy",
+    "question": "Remembering OTP number of an online parcel is related to",
+    "options": [
+      "Short term memory",
+      "Sensory memory",
+      "Long term memory",
+      "Active memory"
+    ],
+    "correct": 1,
+    "question_te": "ఆన్ లైన్ పార్శల్ యొక్క OTP నంబరును గుర్తుపెట్టుకోవడం దీనికి సంబంధించినది",
+    "options_te": [
+      "స్వల్ప కాలిక స్మృతి",
+      "సంవేదన స్మృతి",
+      "దీర్ఘ కాలిక స్మృతి",
+      "క్రియాత్మక స్మృతి"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Child Development & Pedagogy",
+    "question": "Habit of nail biting is fixed in this stage of Psycho sexual stage of development",
+    "options": [
+      "Oral Passive Phase",
+      "Oral Aggression Phase",
+      "Anal Expulsive Phase",
+      "Anal Retention Phase"
+    ],
+    "correct": 2,
+    "question_te": "'గోళ్ళు కొరకడం' అనే అలవాటు ఈ మనో లైంగిక దశలో స్థిరాభవనం చెందును",
+    "options_te": [
+      "మౌఖిక నిష్క్రియాత్మక దశ",
+      "మౌఖిక దౌర్జన్య దశ",
+      "ఆసన బహిష్కరణ దశ",
+      "ఆసన ధారణ దశ"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Child Development & Pedagogy",
+    "question": "The term 'Gifted' was first used by",
+    "options": [
+      "Watson",
+      "Gillford",
+      "Binet",
+      "Galton"
+    ],
+    "correct": 4,
+    "question_te": "'ప్రతిభావంతులు' అనే పదాన్ని మొదట ఉపయోగించినవారు",
+    "options_te": [
+      "వాట్సన్",
+      "గిల్ ఫర్డ్",
+      "బినే",
+      "గాల్టన్"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Child Development & Pedagogy",
+    "question": "'Motivation fuels learning and successful learning experiences enhance motivation.'  This is called",
+    "options": [
+      "The Feedback Loop",
+      "Extrinsic Motivation",
+      "Intrinsic Motivation",
+      "Transfer of Learning"
+    ],
+    "correct": 1,
+    "question_te": "'ప్రేరణ అనేది అభ్యసనానికి ఇంధనంలాంటిది మరియు విజయవంతమైన అభ్యసన అనుభవాలు ప్రేరణను మరింత పెంపొందిస్తాయి' దీనిని ఇలా అంటారు.",
+    "options_te": [
+      "పునర్భలన చక్రం",
+      "బాహ్య ప్రేరణ",
+      "అంతర్గత ప్రేరణ",
+      "అభ్యసనా బదలాయింపు"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Child Development & Pedagogy",
+    "question": "Learning is an active mental process. Here active mental process means.",
+    "options": [
+      "Comparing acquired information with prior knowledge to construct new knowledge.",
+      "Acquiring information through direct observation only.",
+      "Memorizing information as it is.",
+      "Gaining experiences without any mental effort."
+    ],
+    "correct": 1,
+    "question_te": "అభ్యసనం ఒక చర్యాత్మక మానసిక ప్రక్రియ. ఇందులో చర్యాత్మక మానసిక ప్రక్రియ అంటే",
+    "options_te": [
+      "గ్రహించిన సమాచారాన్ని పూర్వ జ్ఞానంతో సరిపోల్చి నూతన జ్ఞానాన్ని పెంపొందించుకోవడం.",
+      "సమాచారాన్ని ప్రత్యక్ష పరిశీలన ద్వారా మాత్రమే గ్రహించడం.",
+      "సమాచారాన్ని యధావిధిగా గుర్తించుకోవడం.",
+      "మానసిక ప్రక్రియ లేకుండా అనుభవాలను పొందడం."
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Child Development & Pedagogy",
+    "question": "The advantages of Bruner's Discovery Learning\n(a) Promotes accountability for learning.\n(b) Strengthens Self – Concept.\n(c) Discourage excitement and Self-motivation.",
+    "options": [
+      "a, b only",
+      "b, c only",
+      "a, c only",
+      "a, b, c"
+    ],
+    "correct": 1,
+    "question_te": "బ్రూనర్ అన్వేషణ అభ్యసనం యొక్క ప్రయోజనాలు.\n(a) అభ్యసనంలో జవాబుదారీతనాన్ని పెంపొందిస్తుంది.\n(b) ఆత్మ భావనను బలపరుస్తుంది.\n(c) ఉత్తేజమును, స్వీయ ప్రేరణను నిరుత్సాహ పరుస్తుంది.",
+    "options_te": [
+      "a, b only",
+      "b, c only",
+      "a, c only",
+      "a, b, c"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Child Development & Pedagogy",
+    "question": "Vygotsky's Higher Mental Functions are\n(a) Reasoning\n(b) Questioning\n(c) Comparison\n(d) Discrimination",
+    "options": [
+      "a, b",
+      "a, c",
+      "a, d",
+      "b, c"
+    ],
+    "correct": 3,
+    "question_te": "వైగోట్ స్కీ ప్రకారం, ఉన్నత స్థాయి మానసిక ప్రక్రియలు\n(a) వివేచన\n(b) ప్రశ్నించుట\n(c) పోల్చుట\n(d) విచక్షణ",
+    "options_te": [
+      "a, b",
+      "a, c",
+      "a, d",
+      "b, c"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Child Development & Pedagogy",
+    "question": "Sequential of  Needs according to Maslow.\n(a) Need for safety\n(b) Need for love, affection and belongingness\n(c) Need for self actualization\n(d) Need for self respect\n(e) Physiological needs",
+    "options": [
+      "a, b, c, d, e",
+      "e, a, b, d, c",
+      "e, a, d, b, c",
+      "a, b, d, c, e"
+    ],
+    "correct": 2,
+    "question_te": "మాస్లో ప్రకారం అవసరాల వరుస క్రమం.\n(a) రక్షణ – భద్రత అవసరం\n(b) ప్రేమ – వాత్సల్య సంబంధిత అవసరం\n(c) ఆత్మ సాఫల్య అవసరం\n(d) ఆత్మ గౌరవ అవసరం\n(e) శారీరక అవసరాలు",
+    "options_te": [
+      "a, b, c, d, e",
+      "e, a, b, d, c",
+      "e, a, d, b, c",
+      "a, b, d, c, e"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Child Development & Pedagogy",
+    "question": "In a Mathematics class, a student who is good at Indian Number system find difficulty in learning International Number system.  The transfer of learning that occurs here is",
+    "options": [
+      "Positive",
+      "Negative",
+      "Bilateral",
+      "Zero"
+    ],
+    "correct": 2,
+    "question_te": "ఒక గణిత తరగతిలో, హిందూ సంఖ్యామానాన్ని బాగుగా చేయగల విద్యార్థి, అంతర్జాతీయ సంఖ్యామానాన్ని అభ్యసించుటలో ఇబ్బంది పడుతున్నాడు. ఇక్కడ జరిగిన అభ్యసన బదలాయింపు",
+    "options_te": [
+      "అనుకూల",
+      "ప్రతికూల",
+      "ద్వీపార్శ్య",
+      "శూన్య"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is not a reason for Plateau stage in learning.",
+    "options": [
+      "Interest towards learning",
+      "High Difficulty Level",
+      "Physical Fatigue",
+      "Lack of proper Environment"
+    ],
+    "correct": 1,
+    "question_te": "అభ్యసనలో పీఠభూమి దశ ఏర్పడటానికి కారణం కానిది",
+    "options_te": [
+      "అభ్యసన పట్ల ఆసక్తి",
+      "ఎక్కువ కఠినత్వ స్థాయి",
+      "శారీరక అలసట",
+      "అనువైన వాతావరణం లేకపోవడం"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Child Development & Pedagogy",
+    "question": "A teacher resolved behavioural issues in his class room by using appropriate interventions as he aware consequences. The class room management approach, he adoptes is..",
+    "options": [
+      "Authoritative Approach",
+      "Authoritarian Approach",
+      "Preventive Approach",
+      "Corrective Approach"
+    ],
+    "correct": 4,
+    "question_te": "ఒక ఉపాధ్యాయుడు, తన తరగతి గదిలో తలెత్తిన ప్రవర్తనా సమస్యలను తగినవాటి పరిణామాల అవగాహనతో, జోక్యాలను ఉపయోగించి పరిష్కరించాడు. అతను అనుసరించిన తరగతి గది నిర్వహణ ఉపగమము",
+    "options_te": [
+      "సాధికారతత్వ ఉపగమము",
+      "నిరంకుశత్వ ఉపగమము",
+      "నివారణాత్మక ఉపగమము",
+      "సవరణాత్మక ఉపగమము"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Child Development & Pedagogy",
+    "question": "This model incorporated the importance of both social and personal reflection in its action plan model",
+    "options": [
+      "Lewin Model",
+      "Lawrence Stenhouse Model",
+      "Stephen Kemmis, John Illott and Dave Ebbutt Model",
+      "Jack Whitehead Model"
+    ],
+    "correct": 3,
+    "question_te": "చర్యాత్మక ప్రణాళిక నమూనాలో సాంఘిక మరియు వ్యక్తిగత అంశాలు ప్రతిబింబించే విధంగా పొందుపరచిన నమూన",
+    "options_te": [
+      "లెవిన్ నమూనా",
+      "లారెన్స్ స్టెన్ హౌస్ నమూనా",
+      "స్టీఫెన్ కెమ్మిస్, జాన్ ఇల్లాట్, డేవ్ ఎబ్బుట్ నమూనా",
+      "జాక్ వైట్ హెడ్ నమూనా"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Child Development & Pedagogy",
+    "question": "As per NCF for Secondary Education 2023, the weightage for quarterly assessment may be",
+    "options": [
+      "50% Written, 50 % Project work /Practicum",
+      "70% Written, 30 % Project work /Practicum",
+      "80% Written, 20 % Project work /Practicum",
+      "90% Written, 10 % Project work /Practicum"
+    ],
+    "correct": 3,
+    "question_te": "మాధ్యమిక విద్య NCF 2023 ప్రకారం, త్రైమాసిక మాపనంలో భారత్వం",
+    "options_te": [
+      "50% వ్రాత పరీక్షలు, 50 % ప్రాజెక్టు పని / ప్రాక్టికమ్",
+      "70% వ్రాత పరీక్షలు, 30 % ప్రాజెక్టు పని / ప్రాక్టికమ్",
+      "80% వ్రాత పరీక్షలు, 20 % ప్రాజెక్టు పని / ప్రాక్టికమ్",
+      "90% వ్రాత పరీక్షలు, 10 % ప్రాజెక్టు పని / ప్రాక్టికమ్"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Child Development & Pedagogy",
+    "question": "\"Test Administration is concerned with the physical and psychological settings in which students take the test, for the students to do their best.\"  This was stated by",
+    "options": [
+      "A. Hughes",
+      "Bern Hard",
+      "Hillgord",
+      "Airision"
+    ],
+    "correct": 4,
+    "question_te": "\"పరీక్ష నిర్వహణ అనేది పరీక్ష రాసే విద్యార్థులు ఆయా భౌతిక, మానసిక అమరికలలో, వారు చేయదగిన అత్యుత్తమ ప్రదర్శనకు సంబంధించి ఉంటుంది.\" అని నిర్వచించినది",
+    "options_te": [
+      "ఏ. హంగేస్",
+      "బర్న్ హర్డ్",
+      "హీల్ గార్డ్",
+      "అయిర్సన్"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Child Development & Pedagogy",
+    "question": "The observation which comes more times when all the observations are arranged in ascending order is",
+    "options": [
+      "Mean",
+      "Median",
+      "Mode",
+      "Frequency"
+    ],
+    "correct": 3,
+    "question_te": "దత్తాంశము నందలి గణాంకాలను ఆరోహణ క్రమంలో పేర్చినపుడు, హెచ్చు సార్లు వచ్చే గుణాకం",
+    "options_te": [
+      "అంకమధ్యము",
+      "మధ్యగతము",
+      "బాహుళకం",
+      "పౌనఃపున్యం"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is NOT correct related to Ms-Dos.",
+    "options": [
+      "Supports Networking.",
+      "Uses less memory.",
+      "Uses only one window at a time.",
+      "This is a binary operating system"
+    ],
+    "correct": 1,
+    "question_te": "Ms-Dos కి సంబంధించనిది",
+    "options_te": [
+      "నెట్‌వర్కింగ్ కు మద్దతు ఇస్తుంది.",
+      "తక్కువ మెమోరీని ఉపయోగిస్తుంది",
+      "ఒకేసారి ఒక విండో ను మాత్రమే ఉపయోగించగలం",
+      "ఇది బైనరీ ఆపరేటింగ్ సిస్టమ్"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is NOT a text file format.",
+    "options": [
+      ".doc",
+      ".mov",
+      ".wsd",
+      ".docx"
+    ],
+    "correct": 2,
+    "question_te": "టెక్స్ట్ ఫార్మాట్ కానిది",
+    "options_te": [
+      ".doc",
+      ".mov",
+      ".wsd",
+      ".docx"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Child Development & Pedagogy",
+    "question": "Full form of 'CD-WORM' IS",
+    "options": [
+      "Compact Disk Write Only Read Many Times.",
+      "Compact Disk Write and Oral Reading Machine.",
+      "Compact Disk Write Once Read Many Times.",
+      "Compact Disk Write Only Rewritable Machine."
+    ],
+    "correct": 3,
+    "question_te": "'CD-WORM' యొక్క పూర్తి రూపం.",
+    "options_te": [
+      "Compact Disk Write Only Read Many Times.",
+      "Compact Disk Write and Oral Reading Machine.",
+      "Compact Disk Write Once Read Many Times.",
+      "Compact Disk Write Only Rewritable Machine."
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is NOT a limitation of CDs",
+    "options": [
+      "Vulnerable to Scratches.",
+      "Storage capacity is low compared to DVD.",
+      "Access data slowly compared to Hard Disk.",
+      "Low in cost."
+    ],
+    "correct": 4,
+    "question_te": "CDల యొక్క పరిమితి కానిది.",
+    "options_te": [
+      "గీతలు పడటానికి అవకాశముంటుంది",
+      "DVDతో పోలిస్తే, నిల్వ సామర్థ్యం తక్కువ.",
+      "హార్డ్ డిస్క్ తో పోలిస్తే, డేటాను నెమ్మదిగా యాక్సెస్ చేస్తుంది.",
+      "తక్కువ ధరకి దొరుకుతాయి"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Telugu",
+    "question": "కింది అపరిచిత పద్యం చదివి ప్రశ్నకు జవాబు గుర్తించండి\nఆది తప్పువారలభిమాన హీనులు\nగోడెఱగనివారు కొద్దివారు\nకూడి కీడు సేయ గురుండు తలపోయు\nవిశ్వదాభిరామ వినురవేమా!\n\nఇతరులకు చేటు చేయాలన్న తలంపు గలవారు .",
+    "options": [
+      "క్రూరులు",
+      "సజ్జనులు",
+      "సాధువులు",
+      "బలహీనులు"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Telugu",
+    "question": "కింది అపరిచిత పద్యం చదివి ప్రశ్నకు జవాబు గుర్తించండి\nఆది తప్పువారలభిమాన హీనులు\nగోడెఱగనివారు కొద్దివారు\nకూడి కీడు సేయ గురుండు తలపోయు\nవిశ్వదాభిరామ వినురవేమా!\n\n'ఆది తప్పుట' ఈ అర్థం స్ఫురిస్తుంది",
+    "options": [
+      "ఆట ఆడి తగ్గుట",
+      "మాట ఇచ్చి తప్పుట",
+      "ఆటలో మేటిగా రాణించలేక పోవుట",
+      "ఆట ఆడి మరచుట"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Telugu",
+    "question": "కింది అపరిచిత గద్యం చదివి అడిగిన ప్రశ్నకు సమాధానం గుర్తించండి\n\nసంక్రాంతి పండుగలలో జరుపుకునే వేడుకలలో కోడి పందేముల ఆట యొకటి. గరువు ప్రదేశమున ఆ యాటలు జరుగుటచే కొన్ని గ్రామముల దగ్గర ఇప్పుడీ యాటలు లేకపోయినను 'కోడి పందేల గరువు' అను పేర కొన్ని గ్రామములలో స్థల వ్యవహారము ఉన్నది. ఇది దక్షిణ హిందూ దేశంలోనే కాక జావా, సుమత్ర మొదలైన ప్రాగ్దేశములలో వాడుకలో ఉండినట్లు వారి వృత్తాంతముల వల్ల తెలియుచున్నది. కోడి పందేములు గొప్ప యుద్ధములకును కారణమైనవి. పలనాటి వీర యుద్ధమునకు కారణములలో కోడి పందెము ఆట ఒకటి.\n\nకోడి పందేముల ఆట జరుగు ప్రదేశం",
+    "options": [
+      "గురువు",
+      "గరువు",
+      "చెరువు",
+      "దొరువు"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Telugu",
+    "question": "కింది అపరిచిత గద్యం చదివి అడిగిన ప్రశ్నకు సమాధానం గుర్తించండి\n\nసంక్రాంతి పండుగలలో జరుపుకునే వేడుకలలో కోడి పందేముల ఆట యొకటి. గరువు ప్రదేశమున ఆ యాటలు జరుగుటచే కొన్ని గ్రామముల దగ్గర ఇప్పుడీ యాటలు లేకపోయినను 'కోడి పందేల గరువు' అను పేర కొన్ని గ్రామములలో స్థల వ్యవహారము ఉన్నది. ఇది దక్షిణ హిందూ దేశంలోనే కాక జావా, సుమత్ర మొదలైన ప్రాగ్దేశములలో వాడుకలో ఉండినట్లు వారి వృత్తాంతముల వల్ల తెలియుచున్నది. కోడి పందేములు గొప్ప యుద్ధములకును కారణమైనవి. పలనాటి వీర యుద్ధమునకు కారణములలో కోడి పందెము ఆట ఒకటి.\n\nపై పేరా ఆధారంగా సత్యమైనది",
+    "options": [
+      "కోడి పందాలు ప్రపంచంలో అన్ని దేశాలలో వేస్తారు.",
+      "భారత యుద్ధానికి కోడిపందాలే కారణము",
+      "ఉగాది పండుగ వేడుకలు జరుపుకొనేదాంట్లో కోడిపందాలు ఉన్నాయి.",
+      "కోడిపందాల గరువు అంటే కోడిపందాలు జరిగే ప్రదేశం అని వ్యవహారం"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Telugu",
+    "question": "\"అడివంటుకుంది\" వీరి రచన",
+    "options": [
+      "రాళ్ళపల్లి అనంతకృష్ణ శర్మ",
+      "సూర్యదేవర సంజీవదేవ్",
+      "బోనం నాగభూషణం",
+      "డేవిడ్ లి వింగ్‌స్టన్"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Telugu",
+    "question": "'మాట మహిమ' పాఠ్యాంశం ఈ రచన నుండి స్వీకరించారు",
+    "options": [
+      "వాయు నందన శతకం",
+      "మేమంతా భటులం – విష్ణు మార్గ దర్శకులం",
+      "నన్నయ మహిత",
+      "చంద్ర గ్రహణం"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Telugu",
+    "question": "ఆశావాది ప్రకాశ రావు గారికి భారత ప్రభుత్వం ఇచ్చిన పురస్కారం",
+    "options": [
+      "పద్మ భూషణ్",
+      "పద్మశ్రీ",
+      "పద్మ విభూషణ్",
+      "కళా ప్రపూర్ణ"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Telugu",
+    "question": "ఇతివృత్తం పాఠ్యాంశాలలో సరైన జత",
+    "options": [
+      "మానవ విలువలు – చిరమాలిన్యం",
+      "భాషాభిరుచి-సందేశం",
+      "సామాజికస్పృహ-నాటికదువు",
+      "కష్టజీవుల శ్రమ- ఆంధ్రవైభవం"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Telugu",
+    "question": "వచన కవితా ప్రక్రియగా గల్గిన పాఠ్యాంశం",
+    "options": [
+      "చిన్ని శిశువు",
+      "కప్పతల్లి పెళ్లి",
+      "అక్షరం",
+      "సమదృష్టి"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Telugu",
+    "question": "'సమయస్ఫూర్తి' పాఠం యొక్క మూల గ్రంథం – రచయిత",
+    "options": [
+      "నీతి చంద్రిక –పరవస్తు చిన్నయ సూరి",
+      "విగ్రహం – కందుకూరి వీరేశలింగం",
+      "పంచతంత్రం – పరవస్తు చిన్నయసూరి",
+      "బృహత్కథ– విష్ణు శర్మ"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Telugu",
+    "question": "తిరుపతి వేంకట కవులలో ఒకరు",
+    "options": [
+      "ఓలేటి తిరుపతి శాస్త్రి",
+      "మధునాపంతుల వేంకట శాస్త్రి",
+      "చెళ్లపిళ్ల వేంకట శాస్త్రి",
+      "జంధ్యాల పాపయ్య శాస్త్రి"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Telugu",
+    "question": "\"తొల్లిటి కథలు\" అంటే",
+    "options": [
+      "ఇతిహాసాలు",
+      "ప్రబంధాలు",
+      "శతకాలు",
+      "నాటకాలు"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Telugu",
+    "question": "పెట్టుబడి దారీ వ్యవస్థను నిరసిస్తూ ఆత్రేయ రాసిన నాటకం",
+    "options": [
+      "కీర్తి శేషులు",
+      "నిజం",
+      "కప్పలు",
+      "గణపతి"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Telugu",
+    "question": "'ముస్నీరు', 'ముల్లె' పదాలకు సరైన అర్థాలు వరుసగా",
+    "options": [
+      "ధనం, సముద్రం",
+      "మూట, అబ్ధి",
+      "సముద్రం, మూట",
+      "మూట, మల్లెలు"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Telugu",
+    "question": "\"శయ్య\" ఈ పదానికి పర్యాయ పదాలు",
+    "options": [
+      "ఆకు, భాగం",
+      "తల్పము, పరుపు",
+      "తల్పము, పత్రం",
+      "పరుపు, పొట్లం"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Telugu",
+    "question": "\"సమరం\" ఈ పదానికి సరైన వృత్త్యార్థం",
+    "options": [
+      "శాస్త్రాదులు ఇందు వాడుదురు",
+      "మరణంతో కూడినది",
+      "భేదింప శక్యము కానిది .",
+      "వీరస్వర్గమునకు మార్గమైనది"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Telugu",
+    "question": "\"కథ – కత\" ప్రకృతి, వికృతులకు సంబంధించి సరైనది\na) కత ప్రకృతి\nb) కథ వికృతి\nc) కథ ప్రకృతి\nd) కత వికృతి",
+    "options": [
+      "a, b సరైనవి",
+      "b, c సరైనవి",
+      "c, d సరైనవి",
+      "a , d సరైనవి"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Telugu",
+    "question": "\"అరణ్య రోదనము\" ఇది ఒక",
+    "options": [
+      "సామెత",
+      "శబ్ద పల్లవం",
+      "పోడుపు కథ",
+      "జాతీయం"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Telugu",
+    "question": "కింది సామెతలలో సరైనవి\na) ఆడగనిదే అమ్మయినా పెట్టదు\nb) అడవిగాచిన వెన్నెల ముదిమిన చేసిన పెండ్లి\nc) అన్నీ దానాల్లోకి అన్నదానం గొప్పదానం\nd) అమ్మ కానీ అమ్మ పేరమ్మ",
+    "options": [
+      "a, b సరికావు",
+      "a , b సరైనవి",
+      "c, d సరైనవి",
+      "b , c సరికావు"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Telugu",
+    "question": "కింది వానిలో పొడుపు కథ",
+    "options": [
+      "ఉన్నవి రెండే కాళ్ళు తొక్కుండే కదలాడు",
+      "ఊక ఉకే, నూక నూకే",
+      "ఊరు మాసిన పేరు మాయదు",
+      "ఊరకున్న వాడికి ఊహలు రావు"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Telugu",
+    "question": "తనకు పరీక్షల్లో మంచి మార్కులు వచ్చాయని రఫీ చెప్పాడు – ఈ వాక్యానికి సరైన ప్రత్యక్ష కథనం",
+    "options": [
+      "\"నాకు పరీక్షల్లో మంచి మార్కులు వచ్చాయా ?\" అని రఫీ చెప్పాడు",
+      "మీకు పరీక్షల్లో మంచి మార్కులు వస్తాయని రఫీ చెప్పాడు",
+      "\" వారికి పరీక్షల్లో మంచి మార్కులు వచ్చాయని\" రఫీ చెప్పాడు",
+      "\"నాకు పరీక్షల్లో మంచి మార్కులు వచ్చాయి\" అని రఫీ చెప్పాడు"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Telugu",
+    "question": "కింది వానిలో యడాగమ సంధి రూపం",
+    "options": [
+      "అయోమయం",
+      "మాయమ్మ",
+      "వయసెంత",
+      "రాజ్యాభివృద్ధి"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Telugu",
+    "question": "'కర్మణి వాక్యం\nA) కర్త తృతీయా విభక్తి లో వుంటుంది .\nB) క్రియ పక్కన 'బడు' చేరుతుంది.\nC) కర్మ ద్వితీయా విభక్తి లో వుంటుంది",
+    "options": [
+      "C, B సరైనవి",
+      "A, B సరైనవి",
+      "A, C సరైనవి",
+      "A, B, C సరైనవి"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Telugu",
+    "question": "మూడవగణంగా 'ర'గణం కలిగిన వృత్త జాతి పద్యం",
+    "options": [
+      "ఉత్పలమాల",
+      "చంపకమాల",
+      "మత్తేభం",
+      "శార్దూలం"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Telugu",
+    "question": "విశేషణ పూర్వ పద కర్మధారయ సమాసం కానిది",
+    "options": [
+      "వృద్ధ కపోతం",
+      "ఎర్ర గులాబీ",
+      "వృక్ష రాజము",
+      "లేత మొగ్గ"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Telugu",
+    "question": "\"భూమి ఆకాశాలు ఏకమగునట్లుగా వర్షం కురుస్తోంది\" ఈ వాక్యంలో అలంకారం",
+    "options": [
+      "అతిశయోక్తి",
+      "ఉపమా",
+      "ఉత్ప్రేక్ష",
+      "స్వభావోక్తి"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Telugu",
+    "question": "కింది వాటిని జతపరచండి\ni) క, చ, ట, త, ప     A) సరళాలు\nii) శ, ష, స, హ     B) అనునాసికాలు\niii) జ, ఝ, ఞ, న, మ     C) ఊష్మాలు\niv) గ, జ, డ, ద, బ     D) పరుషాలు",
+    "options": [
+      "i-B  ii-C  iii-A  iv-D",
+      "i-A  ii-C  iii-B  iv-D",
+      "i-D  ii-C  iii-B  iv-A",
+      "i-C  ii-B  iii-D  iv-A"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Telugu",
+    "question": "క్త్వార్థక, శత్రర్థక, చేదర్థక క్రియలు వరుసగా",
+    "options": [
+      "చూస్తే, చూసి , చూస్తూ",
+      "చూసి , చేసి , చూస్తూ",
+      "చూసి, చూస్తూ, చూస్తే",
+      "చూస్తూ , చూసి, చూస్తూ"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "English",
+    "question": "Maxwell was rushed through to the aircraft by infuriated officials.\nChoose the synonym for the underlined word in the sentence.",
+    "options": [
+      "trustworthy",
+      "friendly",
+      "enraged",
+      "reassuring"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "English",
+    "question": "I had glanced half down the list of 'premonitory symptoms', I realized I had fairly got the symptoms of that disease.\nChoose the word which is the antonym of the underlined word.",
+    "options": [
+      "glimpsed",
+      "peeped",
+      "scrutinized",
+      "peaked"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "English",
+    "question": "Choose the correctly punctuated and capitalized sentence.",
+    "options": [
+      "I must remember what I want to buy: pens a torch a diary to take down notes.",
+      "I must remember what I want to buy two pens, a torch, a diary to take down notes.",
+      "I must remember what I want to buy: Two pens, a torch, a dairy to take down notes.",
+      "I must remember what I want to buy: two pens, a torch, a diary to take down notes."
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "English",
+    "question": "The officer never ___ the responsibility clearing his files regularly and sincerely.\nChoose the word that collocates the best",
+    "options": [
+      "causes",
+      "look after",
+      "shirks",
+      "questions"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "English",
+    "question": "Choose the correct meaning of the underlined idiom in the given sentence\nUGC exam is a hard nut to crack.",
+    "options": [
+      "a simple task done quickly",
+      "a difficult problem to solve",
+      "a delicious snack to eat",
+      "a tool for braking the wall"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "English",
+    "question": "Choose the option that best describes the meanings of the underlined phrasal verb.\nRavi tried to fix his broken tap for hours. He finally decided to give up and call a plumber.",
+    "options": [
+      "to donate property",
+      "to stop trying",
+      "to take a short break",
+      "to ask neighbour for tools"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "English",
+    "question": "Superscription is the address written ______\nChoose the correct option to complete the sentence",
+    "options": [
+      "below the sender's address",
+      "on the envelope",
+      "below the salutation",
+      "on the top right corner of the letter"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "English",
+    "question": "Choose the expression in which the adjectives are in their correct order.",
+    "options": [
+      "Italian black marble floor",
+      "black marble Italian floor",
+      "black Italian marble floor",
+      "Italian marble black floor"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "English",
+    "question": "Choose the term that refers to a person who translates what people are saying if they do not speak the same language.",
+    "options": [
+      "Archivist",
+      "Bookmaker",
+      "Interpreter",
+      "Stevedore"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "English",
+    "question": "I should be delighted to act as your guide on a visit to London.\nIdentify the language function of the above sentence.",
+    "options": [
+      "willing",
+      "obligation",
+      "advising",
+      "refusing"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "English",
+    "question": "Choose the tense of the given sentence.\n\"By next month we shall have been living here for four years.\"",
+    "options": [
+      "Simple future",
+      "Future continuous",
+      "Future perfect",
+      "Future perfect continuous"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "English",
+    "question": "Choose the word with prefix \"re\"__ that means again or back",
+    "options": [
+      "readable",
+      "rebuke",
+      "replace",
+      "relevant"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "English",
+    "question": "A page in a dictionary starts with the word 'imperialist' and ends with 'implement'. Which word would you not find in the page?",
+    "options": [
+      "impious",
+      "implant",
+      "impervious",
+      "impressive"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "English",
+    "question": "Choose the Correctly spelt word",
+    "options": [
+      "pitiously",
+      "piteusly",
+      "piteously",
+      "petiously"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "English",
+    "question": "Call me _____ the meeting and let me know the decision.\nChoose the right Preposition that fits the blank.",
+    "options": [
+      "while",
+      "after",
+      "during",
+      "in"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "English",
+    "question": "Read the sentence below and choose the option with correct articles or no article.\nLeave your coats in _____clock room ; don't bring them into ____theatre.",
+    "options": [
+      "the; no article",
+      "no article; the",
+      "the ; the",
+      "a ; no article"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "English",
+    "question": "Chooser the correct sentence in Reported Speech.\nHe said,' I saw your purse on the table yesterday.\"",
+    "options": [
+      "He said that he had seen my purse ion the table the previous day.",
+      "He said that he had seen my purse on the table the following day.",
+      "He said that he had seen my purse on the table yesterday.",
+      "He said that he has seen my purse on the table that day."
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "English",
+    "question": "Identify the type of sentence \"Get vaccinated as soon as you can\"",
+    "options": [
+      "Declarative sentence",
+      "Interrogative sentence",
+      "Exclamatory sentence",
+      "Imperative sentence"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "English",
+    "question": "We cannot live without water.\nChoose the correct Parts of speech of the underlined",
+    "options": [
+      "Adverb",
+      "Preposition",
+      "Adjective",
+      "Conjunction"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "English",
+    "question": "Identify the grammatically correct sentence.",
+    "options": [
+      "When he reached home, his children has slept.",
+      "When he reaching his home his children were sleeping.",
+      "When he reached home , his children were sleeping.",
+      "When he was reaching home, his children are sleeping."
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "English",
+    "question": "Identify the silent consonant letter from the word.\n\"handkerchief\"",
+    "options": [
+      "d",
+      "n",
+      "c",
+      "f"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "English",
+    "question": "Choose the correct question tag\nI usually catch the 6 'o' clock train, ______?",
+    "options": [
+      "don't I?",
+      "doesn't you?",
+      "aren't I?",
+      "isn't it?"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "English",
+    "question": "Identify the figure of speech used in the given expression.\n'like chalk and cheese\"",
+    "options": [
+      "Simile",
+      "Metaphor",
+      "Personification",
+      "Hyperbole"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "English",
+    "question": "Very few towns are as much popular as Varanasi.\nChoose the Superlative Degree of the sentence.",
+    "options": [
+      "Varanasi is the most popular town.",
+      "Varanasi is not one of the most popular towns.",
+      "Varanasi is one of the most popular towns.",
+      "Varanasi is more than many other towns."
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "English",
+    "question": "Being a cripple, he cannot ride a horse.\nChoose the sentence that converts the given Simple sentence into a Compound sentence.",
+    "options": [
+      "Though he is a cripple, he can ride a horse.",
+      "He can ride a horse because he is a cripple.",
+      "He is a cripple and therefore cannot ride a horse.",
+      "He cannot ride a horse as he is not a cripple."
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "English",
+    "question": "He gave us a cheque.\nChoose the Passive voice for the sentence",
+    "options": [
+      "A cheque had given.",
+      "We were given a cheque.",
+      "He was given a cheque.",
+      "We are being given a cheque."
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "English",
+    "question": "_____Tom was ill, we stayed at home,\nChoose the appropriate option to complete the sentence.",
+    "options": [
+      "Since",
+      "So",
+      "Either",
+      "However"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "English",
+    "question": "Please don't make a noise! I _____\nChoose the appropriate option that fits the blank.",
+    "options": [
+      "am studying",
+      "study",
+      "studying",
+      "studied"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "English",
+    "question": "Read the following paragraph.\nIt is no easy matter to decide what is right and what is not. Never do anything in secret or anything that you would wish to hide. For the desire to hide anything means that you are afraid, and fear is a bad thing and unworthy of you. Be brave, and all the rest follows you.\nChoose the best statement that can be drawn from the above passage.",
+    "options": [
+      "Bravery and righteousness go together.",
+      "If you wish to hide anything, be brave.",
+      "Be brave and unworthy for success to follow you.",
+      "Hiding something leads to a worthy consequence."
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "English",
+    "question": "Read the following lines.\nAway, away in the Northland,\nWhere the hours of the day are few,\nAnd the nights are so long in winter\nThat they cannot sleep them through:\nAnswer the following question\nWhere is the poem set?",
+    "options": [
+      "Southland",
+      "Eastland",
+      "Island",
+      "Northland"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Mathematics",
+    "question": "At what least value of n, (n∈N), n² + n + 41 is not a prime number",
+    "options": [
+      "41",
+      "40",
+      "30",
+      "21"
+    ],
+    "correct": 2,
+    "question_te": "n యొక్క (n∈N) ఏ కనిష్ట విలువకు n² + n + 41 ఒక ప్రధాన సంఖ్య కాదు",
+    "options_te": [
+      "41",
+      "40",
+      "30",
+      "21"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Mathematics",
+    "question": "√(2026² − 2025 × 2027) =",
+    "options": [
+      "101",
+      "111",
+      "11",
+      "1"
+    ],
+    "correct": 4,
+    "question_te": "√(2026² − 2025 × 2027) =",
+    "options_te": [
+      "101",
+      "111",
+      "11",
+      "1"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Mathematics",
+    "question": "In ΔABC, ∠B = 90° then its circum radius is",
+    "options": [
+      "AB/2",
+      "BC/2",
+      "AC/2",
+      "AB/3"
+    ],
+    "correct": 3,
+    "question_te": "ΔABC నందు ∠B = 90° అయితే దాని పరివృత్త వ్యాసార్ధము",
+    "options_te": [
+      "AB/2",
+      "BC/2",
+      "AC/2",
+      "AB/3"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Mathematics",
+    "question": "The ratio between an angle and its supplement is 2:3 then the greatest angle is",
+    "options": [
+      "90°",
+      "108°",
+      "120°",
+      "125°"
+    ],
+    "correct": 2,
+    "question_te": "ఒక కోణము మరియు దాని సంపూరక కోణముల నిష్పత్తి 2:3 అయినచో పెద్దకోణము యొక్క కొలత",
+    "options_te": [
+      "90°",
+      "108°",
+      "120°",
+      "125°"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Mathematics",
+    "question": "The incorrect one among the following?",
+    "options": [
+      "Width of rectangles in a histogram are equal.",
+      "The heights of bars in bar graph are directly proportional to their frequencies.",
+      "The width of bars are equal in a bar graph.",
+      "The heights of rectangle in histogram are equal."
+    ],
+    "correct": 4,
+    "question_te": "కింది వాటిలో సరికానిది.",
+    "options_te": [
+      "హిస్టోగ్రాం లో దీర్ఘ చతురస్రాల వెడల్పులు సమానం",
+      "బార్ గ్రాఫ్ లో బార్ ల ఎత్తులు వాటి పౌన:పున్యాలకు అనుపాతంగా ఉంటాయి",
+      "బార్ గ్రాఫ్ లో బార్ ల వెడల్పులు సమానం",
+      "హిస్టోగ్రాంలో దీర్ఘచతురస్రాల ఎత్తులు సమానం"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Mathematics",
+    "question": "If (x + 2) and (x − 1) are the factors of x³ + 10x² + mx + n, then the values of m and n are respectively",
+    "options": [
+      "5 and -3",
+      "17 and -8",
+      "7 and -18",
+      "23 and -19"
+    ],
+    "correct": 3,
+    "question_te": "(x + 2) మరియు (x − 1) లు x³ + 10x² + mx + n యొక్క కారణాంకములైన m, n ల విలువలు వరుసగా",
+    "options_te": [
+      "5 మరియు –3",
+      "17 మరియు –8",
+      "7 మరియు –18",
+      "23 మరియు –19"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Mathematics",
+    "question": "The digits of a two-digit number differ by 3. If the digits are interchanged and the resulting number is added to the original number, we get 143. What can be the original number?",
+    "options": [
+      "96",
+      "85",
+      "74",
+      "63"
+    ],
+    "correct": 2,
+    "question_te": "ఒక రెండంకెల సంఖ్యలోని అంకెల భేదం 3. అంకెలను తారుమారు చేయగా వచ్చే సంఖ్యను ఆ సంఖ్యకు కలిపితే 143 వస్తుంది. ఆ సంఖ్య ఏది?",
+    "options_te": [
+      "96",
+      "85",
+      "74",
+      "63"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Mathematics",
+    "question": "The denominator of a rational number is greater than its numerator by 8. If the numerator is increased by 17 and the denominator is decreased by 1, the number obtained is 3/2. Find the rational number",
+    "options": [
+      "15/23",
+      "17/25",
+      "13/21",
+      "19/27"
+    ],
+    "correct": 3,
+    "question_te": "ఒక అకరణీయ సంఖ్య యొక్క హారము దాని లవం కంటే 8 ఎక్కువ. లవాన్ని 17 ఎక్కువ చేసి, హారాన్ని 1 తగ్గించిన వచ్చే సంఖ్య 3/2 అయితే ఆ ఆకరణీయ సంఖ్యను కనుగొనండి",
+    "options_te": [
+      "15/23",
+      "17/25",
+      "13/21",
+      "19/27"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Mathematics",
+    "question": "In triangle ABC, a, b, c are the lengths of sides such that a² + c² = 3b² and c² = 2ab, then ∠ACB =",
+    "options": [
+      "30°",
+      "60°",
+      "45°",
+      "90°"
+    ],
+    "correct": 4,
+    "question_te": "ABC త్రిభుజములో a, b, c లు భుజాల పొడువులు మరియు a² + c² = 3b², c² = 2ab అయిన ∠ACB =",
+    "options_te": [
+      "30°",
+      "60°",
+      "45°",
+      "90°"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Mathematics",
+    "question": "Curved surface area and volume of a cylinder are numerically equal. Then it's base radius is (in units)",
+    "options": [
+      "5",
+      "4π",
+      "2π",
+      "2"
+    ],
+    "correct": 4,
+    "question_te": "సంఖ్య పరంగా స్తూపం ప్రక్కతల వైశాల్యం, దాని ఘన పరిమాణాలు సమానం అయిన దాని భూవ్యాసార్ధం (యూనిట్లలో)",
+    "options_te": [
+      "5",
+      "4π",
+      "2π",
+      "2"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Mathematics",
+    "question": "ΔABC is a right angle triangle, 90° is at C. AB, BC, AC are in Arithmetic progression. If CD is the altitude from C and AB, BC, AC, AD, BD are all natural numbers, then the least value of the sides of the triangle (in cm)",
+    "options": [
+      "15, 20, 25",
+      "12, 16, 20",
+      "3, 4, 5",
+      "5, 12, 13"
+    ],
+    "correct": 1,
+    "question_te": "ΔABC ఒక లంబకోణ త్రిభుజము, C వద్ద కోణం 90°. AB, BC, AC లు అంక శ్రేడి లో ఉన్నవి. C నుండి గీయబడిన ఉన్నతి CD మరియు AB, BC, AC, AD, BD లు సహజసంఖ్యలైన, త్రిభుజము యొక్క భుజముల కనిష్ట విలువలు (సెం. మీలలో)",
+    "options_te": [
+      "15, 20, 25",
+      "12, 16, 20",
+      "3, 4, 5",
+      "5, 12, 13"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Mathematics",
+    "question": "The probability of a leap year having 53 Fridays is",
+    "options": [
+      "3/7",
+      "5/7",
+      "4/7",
+      "2/7"
+    ],
+    "correct": 4,
+    "question_te": "ఒక లీపు సంవత్సరంలో 53 శుక్రవారాలు రావడానికి సంభావ్యత",
+    "options_te": [
+      "3/7",
+      "5/7",
+      "4/7",
+      "2/7"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Mathematics",
+    "question": "If (a + b, a − b), (2a + b, 2a − b), (a − b, a + b) are the consecutive vertices of a parallelogram then fourth vertex is",
+    "options": [
+      "(a , b)",
+      "(−a , −b)",
+      "(−a , b)",
+      "(−b , b)"
+    ],
+    "correct": 4,
+    "question_te": "(a + b, a − b), (2a + b, 2a − b), (a − b, a + b) లు సమాంతర చతుర్భుజం యొక్క వరుస మూడు శీర్షాలు అయితే, 4వ శీర్షం",
+    "options_te": [
+      "(a , b)",
+      "(−a , −b)",
+      "(−a , b)",
+      "(−b , b)"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Mathematics",
+    "question": "If 0° < θ < 90° then tan²θ + tan⁴θ =",
+    "options": [
+      "sec⁴θ + sec²θ",
+      "sec⁴θ − sec²θ",
+      "sec²θ − sec⁴θ",
+      "sec²θ × cos²θ"
+    ],
+    "correct": 2,
+    "question_te": "0° < θ < 90° అయితే tan²θ + tan⁴θ =",
+    "options_te": [
+      "sec⁴θ + sec²θ",
+      "sec⁴θ − sec²θ",
+      "sec²θ − sec⁴θ",
+      "sec²θ × cos²θ"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Mathematics",
+    "question": "Cost of a dozen pens is ₹276 and cost of 19 pencils is ₹551. The ratio of the cost of a pen to the cost of a pencil is",
+    "options": [
+      "23: 25",
+      "23: 19",
+      "23: 29",
+      "23: 21"
+    ],
+    "correct": 3,
+    "question_te": "ఒక డజను పెన్నుల ధర ₹276 మరియు 19 పెన్సిళ్ళ ధర ₹551. అయితే ఒక పెన్ను ధర మరియు ఒక పెన్సిల్ ధరల నిష్పత్తి",
+    "options_te": [
+      "23: 25",
+      "23: 19",
+      "23: 29",
+      "23: 21"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Mathematics",
+    "question": "A shop keeper buys 80 articles for ₹2400 and sells them for a profit of 16%. The selling price of one article is",
+    "options": [
+      "₹34.80",
+      "₹23.60",
+      "₹31.80",
+      "₹33.60"
+    ],
+    "correct": 1,
+    "question_te": "ఒక దుకాణదారుడు 80 వస్తువులను ₹2400 లకు కొని 16% లాభానికి అమ్మితే ఒక వస్తువు అమ్మినవెల",
+    "options_te": [
+      "₹34.80",
+      "₹23.60",
+      "₹31.80",
+      "₹33.60"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Mathematics",
+    "question": "A test is constructed to test a particular aspect. It exactly measured what it is supposed to measure. This characteristic of the test is",
+    "options": [
+      "Reliability",
+      "Validity",
+      "Objectivity",
+      "Discrimination"
+    ],
+    "correct": 2,
+    "question_te": "ఒక నికష ఏ విషయాన్ని పరీక్షించడానికి తయారుచేయడం జరిగిందో అదే విషయాన్ని అది సరిగా పరీక్షించినట్లయితే ఆ పరీక్షకు ఉండే లక్షణం",
+    "options_te": [
+      "విశ్వసనీయత",
+      "సప్రమాణత",
+      "వస్త్రాశ్రయత",
+      "విచక్షణాశక్తి"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Mathematics",
+    "question": "The educationist who classified the objectives related to cognitive domain",
+    "options": [
+      "Krathwohal",
+      "Simpson",
+      "Bloom",
+      "Andreson"
+    ],
+    "correct": 3,
+    "question_te": "జ్ఞానాత్మక రంగానికి చెందిన లక్ష్యాలను వర్గీకరించిన విద్యావేత్త",
+    "options_te": [
+      "క్రాత్ వాల్",
+      "సింప్సన్",
+      "బ్లూమ్",
+      "అండర్ సన్"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Mathematics",
+    "question": "The educationist who introduced Inductive method in teaching is",
+    "options": [
+      "Leibnitz",
+      "John Dewey",
+      "Armstrong",
+      "Francis Bacon"
+    ],
+    "correct": 4,
+    "question_te": "ఆగమన పద్ధతిని తొలిసారిగా బోధనలో ప్రవేశపెట్టిన విద్యావేత్త",
+    "options_te": [
+      "లిబ్నిజ్",
+      "జాన్ డ్యుయి",
+      "ఆర్మ్‌స్ట్రాంగ్",
+      "ఫ్రాన్సిస్ బేకన్"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Mathematics",
+    "question": "The evaluation conducted during the teaching learning process is",
+    "options": [
+      "Summative",
+      "Formative",
+      "Diagnostic",
+      "Prognostic"
+    ],
+    "correct": 2,
+    "question_te": "బోధనాభ్యసన ప్రక్రియ జరుగుతున్నప్పుడు చేసే మూల్యాంకనము",
+    "options_te": [
+      "సంగ్రహణ",
+      "నిర్మాణాత్మక",
+      "లోపనిర్ధారణ",
+      "ప్రాగుక్తిక"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Physical Science",
+    "question": "Equations of motion (v=u+at , S=ut+½at² , v²-u²=2as) are applicable when",
+    "options": [
+      "Velocity is uniform",
+      "Acceleration is uniform",
+      "Time is constant",
+      "Dispalcement is constant"
+    ],
+    "correct": 2,
+    "question_te": "చలన సమీకరణాలు (v=u+at , S=ut+½at² , v²-u²=2as) వినియోగించుటకు నియమము",
+    "options_te": [
+      "వేగం సమంగా ఉండాలి",
+      "త్వరణం సమంగా ఉండాలి",
+      "కాలం స్థిరంగా ఉండాలి",
+      "స్థాన భ్రంశం స్థిరంగా ఉండాలి"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Physical Science",
+    "question": "A force of 9N is distributed uniformly on one surface of cube of edge 3cm. The pressure (in Pascal) acts on this surface",
+    "options": [
+      "1×10¹",
+      "3×10²",
+      "1×10⁴",
+      "3×10⁴"
+    ],
+    "correct": 3,
+    "question_te": "3 సెం. మీ. భుజం కొలత కలిగిన సమఘనపు ఒక తలంపై 9 న్యూ బలం ప్రయోగించిన, ఆ తలంపై పనిచేయు పీడన పరిమాణం (పాస్కల్ లో)",
+    "options_te": [
+      "1×10¹",
+      "3×10²",
+      "1×10⁴",
+      "3×10⁴"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Physical Science",
+    "question": "A stone is released from the top of the tower of height 19.6 m. It's final velocity before touching the ground is (in ms⁻¹)",
+    "options": [
+      "0",
+      "19.6",
+      "39.2",
+      "9.8"
+    ],
+    "correct": 2,
+    "question_te": "19.6 మీ ఎత్తు ఉన్న టవర్ పై నుండి ఒక రాయి వదలబడింది. భూమిని చేరే ముందు రాయికి ఉండే తుది వేగం (మీ. సె⁻¹లలో)",
+    "options_te": [
+      "0",
+      "19.6",
+      "39.2",
+      "9.8"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Physical Science",
+    "question": "Example for non-conservative force among the following is",
+    "options": [
+      "Gravitational force",
+      "Frictional force",
+      "Electrostatic force",
+      "Spring force"
+    ],
+    "correct": 2,
+    "question_te": "కింది వానిలో నిత్యత్వ బలం కానిది",
+    "options_te": [
+      "గురుత్వాకర్షణ",
+      "ఘర్షణ బలం",
+      "స్థావర విద్యుత్ బలం",
+      "స్ప్రింగ్ బలం"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Physical Science",
+    "question": "A person clapped his hands near a cliff and heard an echo after 3s. Distance between cliff and person is (speed of sound in air =346 m/s) (in meters)",
+    "options": [
+      "1038",
+      "1308",
+      "519",
+      "591"
+    ],
+    "correct": 3,
+    "question_te": "ఒక వ్యక్తి శిఖరం దగ్గరగా వెళ్ళి చప్పట్లు కొట్టాడు. ప్రతిధ్వనిని 3 సెకండ్ల తర్వాత విన్నాడు. ఆ వ్యక్తికి శిఖరానికి మధ్య దూరం (గాలిలో ధ్వనివడి =346 మీ /సె) (మీ. లలో)",
+    "options_te": [
+      "1038",
+      "1308",
+      "519",
+      "591"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Physical Science",
+    "question": "A person sat in front of a room heater get heated up by\n(a) Conduction\n(b) Convention\n(c) Radiation",
+    "options": [
+      "Only a",
+      "Only b",
+      "Only c",
+      "Only a and b"
+    ],
+    "correct": 3,
+    "question_te": "గది హీటర్ ముందు కూర్చున్న వ్యక్తి వేడిని పొందే ప్రక్రియ\n(a) ఉష్టవహనం\n(b) ఉష్ణ సంవహనం\n(c) ఉష్ణ వికిరణం",
+    "options_te": [
+      "Only a",
+      "Only b",
+      "Only c",
+      "Only a and b"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Physical Science",
+    "question": "The focal length (in cm) of double concave lens kept in air with two surfaces with radii 30cm and 15cm.(take refractive index , n=1.5)",
+    "options": [
+      "10",
+      "20",
+      "30",
+      "40"
+    ],
+    "correct": 2,
+    "question_te": "30 సెం.మీ మరియు 15 సెం.మీ వక్రతావ్యాసార్ధాలు గల ఒక ద్వి పుటాకార కటకం గాలిలో ఉంచినపుడు దాని నాభ్యాంతరం విలువ (సెం. మీ లలో)",
+    "options_te": [
+      "10",
+      "20",
+      "30",
+      "40"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Physical Science",
+    "question": "Match the following\na) Electric current    i) Coulomb\nb) Work done    ii) Ampere\nc) Electric charge    iii) Volt\nd) Potential difference    iv) Joule",
+    "options": [
+      "a-ii,  b-iv,  c-i,   d-iii",
+      "a-iii, b-i,   c-iv,  d-ii",
+      "a-i,   b-ii,  c-iii, d-iv",
+      "a-iv,  b-iii, c-ii,  d-i"
+    ],
+    "correct": 1,
+    "question_te": "కింది వాటిని జతపరచండి\na) విద్యుత్ ప్రవాహం    i) కులాంబ్\nb) జరిగిన పని    ii) ఆంపియర్\nc) విద్యుత్ ఆవేశం    iii) ఓల్ట్\nd) పొటెన్షియల్ భేదం    iv) జౌల్",
+    "options_te": [
+      "a-ii,  b-iv,  c-i,   d-iii",
+      "a-iii, b-i,   c-iv,  d-ii",
+      "a-i,   b-ii,  c-iii, d-iv",
+      "a-iv,  b-iii, c-ii,  d-i"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Physical Science",
+    "question": "The distructive energy of an earthquake of magnitude 6 when compared to an earthquake of magnitude 4 is",
+    "options": [
+      "10 times more",
+      "100 times more",
+      "1000 times more",
+      "10000 times more"
+    ],
+    "correct": 3,
+    "question_te": "6 యూనిట్లు తీవ్రత గల భూకంపమును 4 యూనిట్లు తీవ్రత గల భూకంపముతో పోల్చనపుడు వినాశకర శక్తి",
+    "options_te": [
+      "10రెట్లు ఎక్కువ",
+      "100రెట్లు ఎక్కువ",
+      "1000రెట్లు ఎక్కువ",
+      "10000రెట్లు ఎక్కువ"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Physical Science",
+    "question": "Hetero atom in 'aldehyde' fuctional group",
+    "options": [
+      "Carbon",
+      "Hydrogen",
+      "Oxygen",
+      "Cl / Br"
+    ],
+    "correct": 3,
+    "question_te": "'ఆల్డిహైడ్' ప్రమేయ సమూహం నందలి విజాతి పరమాణువు",
+    "options_te": [
+      "Carbon",
+      "Hydrogen",
+      "Oxygen",
+      "Cl / Br"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Physical Science",
+    "question": "The condition to liquify gases",
+    "options": [
+      "Reducing Pressure, Reducing Temperature",
+      "Increasing Pressure, Increasing Temperature",
+      "Increasing Pressure, Reducing Temperature",
+      "Reducing Pressure, Increasing Temperature"
+    ],
+    "correct": 3,
+    "question_te": "వాయువులను ద్రవ స్థితికి మార్చగలుగు నియమము",
+    "options_te": [
+      "పీడనాన్ని తగ్గించడం, ఉష్ణోగ్రతను తగ్గించడం",
+      "పీడనాన్ని పెంచడం, ఉష్ణోగ్రతను పెంచడం",
+      "పీడనాన్ని పెంచడం, ఉష్ణోగ్రతను తగ్గించడం",
+      "పీడనాన్ని తగ్గించడం, ఉష్ణోగ్రతను పెంచడం"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Physical Science",
+    "question": "Symbols of the following ions\na) Aluminium  b) Nitride  c) Phosphate",
+    "options": [
+      "Al³⁺ , N²⁻ , PO₄²⁻",
+      "Al³⁺ , N³⁻ , PO₄³⁻",
+      "Al³⁺ , N³⁻ , PO₄²⁻",
+      "Al²⁺ , N³⁻ , PO₄³⁻"
+    ],
+    "correct": 2,
+    "question_te": "ఇవ్వబడిన ఆయానుల సంకేతాలు\na) అల్యూమినియం  b) నైట్రైడ్  c) పాస్పేట్",
+    "options_te": [
+      "Al³⁺ , N²⁻ , PO₄²⁻",
+      "Al³⁺ , N³⁻ , PO₄³⁻",
+      "Al³⁺ , N³⁻ , PO₄²⁻",
+      "Al²⁺ , N³⁻ , PO₄³⁻"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Physical Science",
+    "question": "The corrects properties regarding covalent compounds\n(a) Inter molecular forces are weak\n(b) Low melting points\n(c) High boiling points",
+    "options": [
+      "Only a and b",
+      "Only a and c",
+      "Only b and c",
+      "a, b and c"
+    ],
+    "correct": 1,
+    "question_te": "సమయోజనీయ సమ్మేళనాలకు సంబంధించి సరైనవి\n(a) అంతర అణు బలాలు బలహీనంగా ఉంటాయి\n(b) అల్ప ద్రవీభవన స్థానాలు\n(c) అధిక భాష్పీభవన స్థానాలు",
+    "options_te": [
+      "Only a and b",
+      "Only a and c",
+      "Only b and c",
+      "a, b and c"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Physical Science",
+    "question": "Food cans are coated with tin but not with zinc because",
+    "options": [
+      "Zinc is more reactive than tin",
+      "Zinc is costlier than tin",
+      "Zinc has a higher melting point than tin",
+      "Zinc is less reactive than tin"
+    ],
+    "correct": 1,
+    "question_te": "ఆహారం నిల్వ చేసే డబ్బాలకు తగరంతో పూత పూస్తారు కానీ జింకుతో వేయరు ఎందుకనగా",
+    "options_te": [
+      "జింకు యొక్క చర్యా శీలత తగరం కంటే ఎక్కువ",
+      "తగరం కంటే జింకు ఖర్దైనది",
+      "జింకు యొక్క ద్రవీభవన స్థానం తగరం కంటే ఎక్కువ",
+      "జింకు యొక్క చర్యాశీలత తగరం కంటే తక్కువ"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Physical Science",
+    "question": "PET means",
+    "options": [
+      "Poly ethyne terephthalate",
+      "Poly ester tetrate",
+      "Poly ethylene terephthalate",
+      "Poly ethylene tetrate"
+    ],
+    "correct": 3,
+    "question_te": "PET అనగా",
+    "options_te": [
+      "పాలీ ఈథైన్ టెరాఫ్తలేట్",
+      "పాలీ ఎస్టర్ టెట్రేట్",
+      "పాలీ ఇథిలీన్ టెరాఫ్తలేట్",
+      "పాలీ ఇథిలీన్ టెట్రేట్"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Physical Science",
+    "question": "The head of the safety match contains",
+    "options": [
+      "Antimony tri sulphide and potassium chlorate",
+      "Antimony tri sulphite and potassium chlorate",
+      "Antimony trisulphate and potassium chloride",
+      "Antimony trisulphite and potassium chloride"
+    ],
+    "correct": 1,
+    "question_te": "సురక్షిత అగ్గిపుల్ల తలలో ఉండేవి",
+    "options_te": [
+      "ఆంటిమోని ట్రై సల్ఫైడ్ మరియు పొటాషియం క్లోరేట్",
+      "ఆంటిమోని ట్రై సల్ఫైట్ మరియు పొటాషియం క్లోరేట్",
+      "ఆంటిమోని ట్రై సల్ఫేట్ మరియు పొటాషియం క్లోరైడ్",
+      "ఆంటిమొమి ట్రై సల్ఫైట్ మరియు పొటాషియం క్లోరైడ్"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Physical Science",
+    "question": "Introduction of Arts and pure science in Academic schools and Training in applied science in Technical schools was suggested by",
+    "options": [
+      "Wood's diapatch",
+      "Seargent report",
+      "Mudhaliar commission",
+      "Kothari commisssion"
+    ],
+    "correct": 2,
+    "question_te": "అకడమిక్ పాఠశాలల్లో ఆర్ట్స్ ,ప్యూర్ సైన్స్ మరియు సాంకేతిక పాఠశాలల్లో అప్లయిడ్ సైన్స్ లో శిక్షణ ఉండాలని సూచించినది",
+    "options_te": [
+      "వుడ్ నివేదిక",
+      "సార్జెంట్ నివేదిక",
+      "మొదలియర్ కమీషన్",
+      "కొఠారి కమీషన్"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Physical Science",
+    "question": "In the laboratory, a teacher kept the burnt body part of a student in water for a while and then covered it with cotton dipped in silver nitrate solution. This burnt could be happened by",
+    "options": [
+      "Sodium",
+      "Phosphorous",
+      "Acids",
+      "Bases"
+    ],
+    "correct": 2,
+    "question_te": "ప్రయోగశాలలో,ఒక విద్యార్థి కాలిన శరీర భాగాన్ని నీటిలో ఉంచి కొంత సమయం తర్వాత సిల్వర్ నైట్రేట్ ద్రావణంలో ముంచిన దూదితో ఉపాధ్యాయుడు కప్పాడు. ఈ ప్రమాదం దీనివల్ల అయివుండవచ్చు",
+    "options_te": [
+      "సోడియం",
+      "పాస్పరస్",
+      "ఆమ్లాలు",
+      "క్షారాలు"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Physical Science",
+    "question": "The first step in Project method is",
+    "options": [
+      "Providing a situation",
+      "Selecting a problem",
+      "Planning a strategy",
+      "Forming groups"
+    ],
+    "correct": 1,
+    "question_te": "ప్రకల్పనా పద్ధతి మొదటి సోపానం",
+    "options_te": [
+      "పరిస్థితిని కల్పించడం",
+      "సమస్యను ఎన్నుకోవడం",
+      "వ్యూహరచన",
+      "సమూహాలను ఏర్పరచడం"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Physical Science",
+    "question": "The sequence of objectives related to Psychomotor domain from complex to simple",
+    "options": [
+      "Imitation → Manipulation → Precision →Articulation",
+      "Imitation → Manipulation → Articulation → Precision",
+      "Articulation → Precision → Manipulation → Imitation",
+      "Precision → Articulation → Manipulation → Imitation"
+    ],
+    "correct": 3,
+    "question_te": "సంక్లిష్టం నుండి సరళత క్రమంలోనున్న మానసిక చలనాత్మకరంగం లోని లక్ష్యాలు",
+    "options_te": [
+      "అనుకరణ → హస్తలాఘువం → సునిశితత్వం → సమన్వయం",
+      "అనుకరణ → హస్తలాఘువం→సమన్వయం→సునిశితత్వం",
+      "సమన్వయం→ సునిశితత్వం→ హస్తలాఘువం→ అనుకరణ",
+      "సునిశితత్వం → సమన్వయం → హస్తలాఘువం→ అనుకరణ"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Biology",
+    "question": "The organism that causes red tides in Meditarian sea is",
+    "options": [
+      "Gonyalaux",
+      "Noctiluca",
+      "Ustilago",
+      "Alternaria"
+    ],
+    "correct": 1,
+    "question_te": "మెడిటేరియన్ సముద్రంలో రెడ్ టైడ్స్ కు కారణమైన జీవి",
+    "options_te": [
+      "గోన్యాలాక్స్",
+      "నాక్టిల్యూక",
+      "యూస్టిలాగో",
+      "అల్టర్నేరియా"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Biology",
+    "question": "Muscle cell undergoes anaerobic respiration when there is",
+    "options": [
+      "A higher demand of energy and higher oxygen deficiency",
+      "Lesser demand of energy and higher oxygen demand",
+      "A less demand of energy and good oxygen availability",
+      "A higher demand of energy and good oxygen availability"
+    ],
+    "correct": 1,
+    "question_te": "కండర కణాలు ఈ సందర్భంలో అవాయు శ్వాసక్రియను జరుపుతాయి",
+    "options_te": [
+      "అధిక శక్తి అవసరత మరియు అధిక ఆక్సిజన్ లోపం",
+      "అల్ప శక్తి అవసరత మరియు అధిక ఆక్సిజన్ అవసరత",
+      "అల్ప శక్తి అవసరత మరియు అధిక ఆక్సిజన్ లభ్యత",
+      "అధిక శక్తి అవసరత మరియు అధిక ఆక్సిజన్ లభ్యత"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Biology",
+    "question": "Match the following.\n(a) Prokaryotic cell    (i) Chloroplast\n(b) Animal cell    (ii) Fungi\n(c) Cell wall    (iii) Nucleoid\n(d) Plant cell    (iv) Food vacuole",
+    "options": [
+      "a-ii  b-iv  c-i   d-iii",
+      "a-iii b-iv  c-ii  d-i",
+      "a-iii b-ii  c-i   d-iv",
+      "a-ii  b-iii c-iv  d-i"
+    ],
+    "correct": 2,
+    "question_te": "జత పరచండి.\n(a) కేంద్రక పూర్వ కణం    (i) క్లోరోప్లాస్ట్\n(b) జంతుకణం    (ii) ఫంగీ\n(c) కణకవచం    (iii) న్యూక్లియాయిడ్\n(d) వృక్షకణం    (iv) ఆహార రిక్తిక",
+    "options_te": [
+      "a-ii  b-iv  c-i   d-iii",
+      "a-iii b-iv  c-ii  d-i",
+      "a-iii b-ii  c-i   d-iv",
+      "a-ii  b-iii c-iv  d-i"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Biology",
+    "question": "The responsibility of lateral meristem",
+    "options": [
+      "Controls the growth of terminal buds",
+      "Encourages the stem growth length wise",
+      "Encourages the growth of terminal buds",
+      "Encourages the growth of root girth"
+    ],
+    "correct": 4,
+    "question_te": "పార్శ్వ విభాజ్య కణజాలం యొక్క భాద్యత",
+    "options_te": [
+      "అగ్ర కోరకాల పెరుగుదలను నియంత్రించుట",
+      "కాండం పొడవును ప్రోత్సహించుట",
+      "అగ్ర కోరకాల పెరుగుదలను ప్రోత్సహించుట",
+      "వేర్ల వ్యాసం పెరుగుదలను ప్రోత్సహించుట"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Biology",
+    "question": "The organisms having eukaryotic cells, presence of cell wall, presence of nuclear membrane and cellular level of organization with heterotrophic nutrition characters are seen in this kingdom",
+    "options": [
+      "Monera",
+      "Fungi",
+      "Plantae",
+      "Protista"
+    ],
+    "correct": 4,
+    "question_te": "నిజ కేంద్రకం, కణకవచం, కేంద్రక త్వచం కలిగి కణయుత శరీర సంవిధానం కలిగిన పరపోషక జీవులు ఈ రాజ్యంలో ఉంటాయి",
+    "options_te": [
+      "మోనీరా",
+      "శిలీంధ్రము",
+      "ప్లాంటే",
+      "ప్రోటిస్టా"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Biology",
+    "question": "Unhealthy cattle can be identified by these symptoms\n(a) Reduced milk production\n(b) Excessive feeding behaviour\n(c) Abnormal posture\n(d) Increased milk production",
+    "options": [
+      "a and c",
+      "a and b",
+      "a, b and c",
+      "a, b and d"
+    ],
+    "correct": 1,
+    "question_te": "అనారోగ్యం లో ఉన్న పశువులను ఈ లక్షణాల ఆధారంగా గుర్తించవచ్చు\n(a) పాల ఉత్పత్తి తగ్గుదల\n(b) అధికంగా ఆహారం తీసుకునే ప్రవర్తన\n(c) అసాధారణ శరీరఆకృతి\n(d) అధిక పాల దిగుబడి",
+    "options_te": [
+      "a and c",
+      "a and b",
+      "a, b and c",
+      "a, b and d"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Biology",
+    "question": "In ruminants the cellulose is digested by the bacteria in",
+    "options": [
+      "Rumen",
+      "Jejunum",
+      "Small intestine",
+      "Caecum"
+    ],
+    "correct": 1,
+    "question_te": "నెమరువేసే జంతువులలో బాక్టీరియా సహాయంతో సెల్యులోజ్ జీర్ణమయ్యే ప్రదేశం",
+    "options_te": [
+      "అమాశయం",
+      "జెజునమ్",
+      "చిన్న ప్రేగు",
+      "అంధనాళం"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Biology",
+    "question": "The ratio of oxygen transport by RBC and plasma in human blood is",
+    "options": [
+      "50 : 50",
+      "90 : 10",
+      "97 : 3",
+      "100 : 0"
+    ],
+    "correct": 3,
+    "question_te": "మానవుని రక్తంలో RBC మరియు ప్లాస్మా ద్వారా జరిగే ఆక్సిజన్ రవాణా నిష్పత్తి",
+    "options_te": [
+      "50 : 50",
+      "90 : 10",
+      "97 : 3",
+      "100 : 0"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Biology",
+    "question": "A carries blood rich in oxygen from B to C of the human heart. Then A, B and C are",
+    "options": [
+      "A – Aorta, B- Lungs, C – Left atrium",
+      "A- Pulmonary vein, B – Liver, C- Right atrium",
+      "A- Pulmonary vein, B – Lung, C – Left atrium",
+      "A– Vena cava, B – Body parts, C – Right atrium"
+    ],
+    "correct": 3,
+    "question_te": "A ఆక్సీజన్ అధికంగా ఉన్న రక్తాన్ని B నుండి మానవ హృదయం లోనికి C తెస్తుంది. అయిన A, B మరియు C లు.",
+    "options_te": [
+      "A– బృహద్దమని, B-ఊపిరితిత్తులు, C– ఎడమ కర్ణిక",
+      "A-పుపుస సిర, B– కాలేయం, C- కుడి కర్ణిక",
+      "A-పుపుససిర, B– ఊపిరితిత్తులు, C– ఎడమ కర్ణిక",
+      "A-బృహత్సిర, B – శరీరభాగాలు, C- కుడి కర్ణిక"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Biology",
+    "question": "The conditions explaining phototropism\n(a) Growth of the pollen tube towards ovules\n(b) Growth of shoots bending towards the light\n(c) Growth of roots towards the ground\n(d) Growth of roots away from the light",
+    "options": [
+      "a only",
+      "b only",
+      "a and c only",
+      "b and d only"
+    ],
+    "correct": 4,
+    "question_te": "కాంతి అనువర్తనంను వివరిస్తున్న సంధర్భాలు\n(a) అందాల వైపుకు పరాగనాళం పెరుగుదల\n(b) కాంతి వైపుకు కాండం వంపు తిరిగి పెరుగుట\n(c) భూమి వైపుకు వేర్ల పెరుగుదల\n(d) కాంతికి దూరంగా వేర్ల పెరుగుదల",
+    "options_te": [
+      "a only",
+      "b only",
+      "a and c only",
+      "b and d only"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Biology",
+    "question": "Correct statements about puberty\n(a) Physical and mental changes that occur during adolescence mark at the onset of puberty.\n(b) Puberty extends until female reaches menopause.\n(c) Boys and girls become capable of reproduction during puberty\n(d) Sudden increase in height is the most conspicuous change during puberty",
+    "options": [
+      "a, b and d only",
+      "a, b and c only",
+      "a, c and d only",
+      "b, c only"
+    ],
+    "correct": 3,
+    "question_te": "యుక్త వయస్సును గూర్చిన సరైన వాక్యాలు\n(a) కౌమారదశలో కలిగే శారీరక మానసిక మార్పులు యుక్త వయస్సును సూచిస్తాయి.\n(b) స్త్రీలు మెనోపాజ్ దశకు చేరే వరకు యుక్తవయస్సు కొనసాగుతుంది.\n(c) అబ్బాయిలు, అమ్మాయిలు యుక్తవయసులో ప్రత్యుత్పత్తి జరపగల సామర్థ్యాన్ని సంతరించుకుంటారు.\n(d) ఎత్తులో హఠాత్తుగా కలిగే పెరుగుదల, యుక్త వయస్సులో స్పష్టంగా కనిపించే మార్పు.",
+    "options_te": [
+      "a, b and d only",
+      "a, b and c only",
+      "a, c and d only",
+      "b, c only"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Biology",
+    "question": "These characters of pea plants made Mendel to choose them for his experiments\n(a) Short life cycle\n(b) Unisexual flowers\n(c) Convenient Self fertilization\n(d) Biannual plant",
+    "options": [
+      "a, b, c and d",
+      "a, b and c",
+      "a and c",
+      "a and d"
+    ],
+    "correct": 3,
+    "question_te": "బఠానీ మొక్కలలోని ఈ లక్షణాలు మెండల్ తన ప్రయోగాల కోసం వాటిని ఎంచుకునేలా చేశాయి\n(a) జీవిత కాలం చిన్నది\n(b) ఏకలింగ పుష్పాలు\n(c) సులభమైన ఆత్మఫలదీకరణం\n(d) ద్వివార్షిక మొక్క",
+    "options_te": [
+      "a, b, c and d",
+      "a, b and c",
+      "a and c",
+      "a and d"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Biology",
+    "question": "The average value of organic matter found at each step of a food chain is",
+    "options": [
+      "1%",
+      "10%",
+      "90%",
+      "99%"
+    ],
+    "correct": 2,
+    "question_te": "ఒక ఆహారపు గొలుసులోని ప్రతి పోషకస్థాయి వద్ద లభించే సేంద్రీయ పదార్థం యొక్క విలువ సుమారు",
+    "options_te": [
+      "1%",
+      "10%",
+      "90%",
+      "99%"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Biology",
+    "question": "These are not allowed in the Wild life sanctuaries\n(a) Poaching\n(b) Collecting medicinal plants\n(c) Grazing by livestock\n(d) Collecting fire wood",
+    "options": [
+      "a only",
+      "a, and b only",
+      "a, b, c only",
+      "a, b, c, d"
+    ],
+    "correct": 1,
+    "question_te": "వన్యప్రాణుల అభయారణ్యాలలో అనుమతించబడనిది\n(a) వేటాడుట\n(b) ఔషధ మొక్కలనుసేకరించడం\n(c) పశువులను మేపటం\n(d) కట్టెలు సేకరించుటం",
+    "options_te": [
+      "a only",
+      "a, and b only",
+      "a, b, c only",
+      "a, b, c, d"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Biology",
+    "question": "Find the correct order in treatment of sewage water\n(a) Solid faeces settled at bottom removed by a Scrapper.\n(b) Water passes through bar screens.\n(c) Bacteria consume food wastes, faeces and soap from clarified water.\n(d) Disinfect water with chlorine and ozone.\n(e) The suspended microbes settle at bottom as activated sludge.",
+    "options": [
+      "b, a, c, e, d",
+      "c, d, e, b, a",
+      "a, b, c, e, d",
+      "b, e, b, a, d"
+    ],
+    "correct": 1,
+    "question_te": "మురుగు నీటిని శుద్ధిచేసే విధానంలో సరైన క్రమం\n(a) ట్యాంక్ అడుగున చేరిన మలం వంటి ఘన పదార్థాలు స్క్రాపర్ ద్వారా తొలగించడం.\n(b) బార్ స్క్రీన్ల ద్వారా నీరు పంపడం.\n(c) మానవ వ్యర్థాలను, ఆహార వ్యర్థాలు మరియు సబ్బును శుద్ధజలం నుండి బ్యాక్టీరియాలు తొలగించడం.\n(d) క్లోరిన్ మరియు ఓజోన్ వంటి రసాయనాలతో క్రిమిరహితం చేయడం.\n(e) నీటిలో తేలియాడే సూక్ష్మజీవులు ట్యాంక్ అడుగునకు చేరి క్రియాశీల మురుగును ఏర్పరచడం",
+    "options_te": [
+      "b, a, c, e, d",
+      "c, d, e, b, a",
+      "a, b, c, e, d",
+      "b, e, b, a, d"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Biology",
+    "question": "The earlier name for the programme \"National River Conservation Project\" is",
+    "options": [
+      "Ganga Action Plan",
+      "Allahabad river action plan",
+      "Yamuna River Action Plan",
+      "Gangotri Action Plan"
+    ],
+    "correct": 1,
+    "question_te": "\"నేషనల్ రివర్ కన్సర్వేషన్ ప్రాజెక్ట్\" కార్యక్రమానికి మొదటి పేరు",
+    "options_te": [
+      "గంగా యాక్షన్ ప్లాన్",
+      "అలహాబాద్ రివర్ యాక్షన్ ప్లాన్",
+      "యమునా రివర్ యాక్షన్ ప్లాన్",
+      "గంగోత్రి యాక్షన్ ప్లాన్"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Biology",
+    "question": "After observing plant placed in a window for a few days the students concluded that \"Plants grow towards the light\" this is an example for",
+    "options": [
+      "Law",
+      "Principle",
+      "Generalization",
+      "Hypothesis"
+    ],
+    "correct": 3,
+    "question_te": "కిటికిలో కొన్నిరోజుల పాటు పెరిగిన మొక్కను పరిశీలించిన విద్యార్థులు \"మొక్కలు కాంతి వైపుకు పెరుగుతాయి\" అని నిర్ధారించారు. ఇది దేనికి ఉదాహరణ",
+    "options_te": [
+      "నియమం",
+      "సూత్రం",
+      "సాధారణీకరణం",
+      "ప్రకల్పన"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Biology",
+    "question": "Synthesis means",
+    "options": [
+      "Giving conclusions based on available information.",
+      "Comparison, contrast and identifying errors.",
+      "Decision making and giving judgement.",
+      "Putting together the subcomponents in a systematic manner."
+    ],
+    "correct": 4,
+    "question_te": "సంశ్లేషణ అనగా",
+    "options_te": [
+      "అందుబాటులోని సమాచారాన్ని అనుసరించి ముగింపు నివ్వడం.",
+      "పోల్పుట, తేడాలు చెప్పుట మరియు తప్పులను గుర్తించుట.",
+      "నిర్ణయాలు తీసుకోవడం మరియు తీర్పులనివ్వడం.",
+      "ఉప అంశాలన్నీటిని ఒక క్రమమైన పద్ధతిలో అమర్చడం."
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Biology",
+    "question": "\"A project is an idea to solve the problem in its natural environment\" – stated by",
+    "options": [
+      "J.A Stevenson",
+      "Thomas & Long",
+      "Ballurd",
+      "W.H. Kilpatrick"
+    ],
+    "correct": 1,
+    "question_te": "\"సమస్యకృత్యాన్ని, దాని సగజ వాతావరణంలో పరిష్కారం చేయడమే ప్రకల్పన\" అనిఅన్నది",
+    "options_te": [
+      "J.A స్టీవెన్ సన్",
+      "థామస్ & లాంగ్",
+      "బల్లార్డ్",
+      "W.H. కిల్ ప్యాట్రిక్"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 14th August 2026 Shift 1",
+    "subject": "Biology",
+    "question": "This is not a teacher made test",
+    "options": [
+      "Oral test",
+      "Standardised test",
+      "Written test",
+      "Practical test"
+    ],
+    "correct": 2,
+    "question_te": "ఉపాధ్యాయ నిర్మిత నికష కానిది",
+    "options_te": [
+      "మౌఖిక పరీక్ష",
+      "ప్రామాణీకృత పరీక్ష",
+      "రాత పరీక్ష",
+      "ప్రాక్టికల్ పరీక్ష"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Child Development & Pedagogy",
+    "question": "\"Culture is the man-made part of the environment\", is stated by",
+    "options": [
+      "M.J. Herskovits",
+      "E.B. Tylor",
+      "Hurlock",
+      "Garrett"
+    ],
+    "correct": 1,
+    "question_te": "\"మానవుడు సృష్టించిన పరిసరమే సంస్కృతి\", అని తెల్పిన వారు",
+    "options_te": [
+      "ఎం.జె. హెర్క్సోవిట్స్",
+      "ఈ.బి. టేలర్",
+      "హర్లాక్",
+      "గ్యారెట్"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Child Development & Pedagogy",
+    "question": "The following does not exist in 'Adolesent stage'",
+    "options": [
+      "Period of stress and storm",
+      "Industry-Inferiority",
+      "Hero Worship",
+      "Development of Social Stability"
+    ],
+    "correct": 2,
+    "question_te": "కింది వానిలో 'కౌమారదశ' కు చెందనిది",
+    "options_te": [
+      "ఒత్తిడి సంచలనాల దశ",
+      "శ్రమించడం-న్యూనతాభావం",
+      "నాయక ఆరాధన",
+      "సామాజిక స్థిరత్వం అభివృద్ధి చెందును"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Child Development & Pedagogy",
+    "question": "The developmental principle in the longitudinal axis, first the child gains control over his head and then on his hips before standing on his foot to walk.",
+    "options": [
+      "Development is an individual process",
+      "Development is a cumulative",
+      "Different aspects of development are interrelated",
+      "Development follows a particular reaction/direction"
+    ],
+    "correct": 4,
+    "question_te": "రేఖాంశ అక్షం దిశలో శిశువు తన తలను నిలిపిన తరువాత నడుము నిలిపి కూర్చోవడం తరువాత కాళ్ళపై నియంత్రణ పొందడం అనేది కింది వికాసం నియామాన్ని కలిగి ఉంటుంది.",
+    "options_te": [
+      "వికాసంలో వైయక్తిక భేదాలుంటాయి",
+      "వికాసం సంచితమైనది",
+      "వివిధ వికాసాలు పరస్పర సంబంధం కలిగి ఉంటాయి",
+      "వికాసం ఒక కచ్చితమైన దిశగా సాగుతుంది"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Child Development & Pedagogy",
+    "question": "Choose the Incorrect pair.\n1) Gang age - Late childhood\n2) Age of man hood - Puberty\n3) Age of question - Early childhood\n4) Age of overlapping - Infancy",
+    "options": [
+      "Gang age - Late childhood",
+      "Age of man hood - Puberty",
+      "Age of question - Early childhood",
+      "Age of overlapping - Infancy"
+    ],
+    "correct": 4,
+    "question_te": "కింది వానిలో సరి కాని జత.\n1) మురా వయస్సు – ఉత్తర బాల్యదశ\n2) పురుషత్వపు వయస్సు – యవ్వనారంభ దశ\n3) ప్రశ్నించే వయస్సు – పూర్వ బాల్యదశ\n4) అతివ్యాప్త దశ – శైశవం",
+    "options_te": [
+      "మురా వయస్సు – ఉత్తర బాల్యదశ",
+      "పురుషత్వపు వయస్సు – యవ్వనారంభ దశ",
+      "ప్రశ్నించే వయస్సు – పూర్వ బాల్యదశ",
+      "అతివ్యాప్త దశ – శైశవం"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Child Development & Pedagogy",
+    "question": "Development is\ni) Qualitative\nii) Life long process\niii) Properly measurable\niv) Part of Growth",
+    "options": [
+      "i, ii only",
+      "i, iii only",
+      "ii, iii only",
+      "ii, iv only"
+    ],
+    "correct": 1,
+    "question_te": "వికాసం అనేది\ni) గుణాత్మకం\nii) జీవితాంతం జరిగే ప్రక్రియ\niii) నిర్ధిష్ట మాపనం\niv) పెరుగుదలలో ఒక భాగం",
+    "options_te": [
+      "i, ii only",
+      "i, iii only",
+      "ii, iii only",
+      "ii, iv only"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Child Development & Pedagogy",
+    "question": "'Emotional Development' depends on these factors.\ni) Learning\nii) Thinking\niii) Maturation\niv) Attention",
+    "options": [
+      "i, ii only",
+      "ii, iii only",
+      "iii, iv only",
+      "i, iii only"
+    ],
+    "correct": 4,
+    "question_te": "'ఉద్వేగ వికాసం' ఆధారపడే కారకాలు\ni) అభ్యసనం\nii) చింతనం\niii) పరిపక్వత\niv) అవధానం",
+    "options_te": [
+      "i, ii only",
+      "ii, iii only",
+      "iii, iv only",
+      "i, iii only"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Child Development & Pedagogy",
+    "question": "\"Adolesence is the period of stress, strain, storm and strife\", stated by",
+    "options": [
+      "Jersild",
+      "Hurlock",
+      "Seashore",
+      "Stanley Hall"
+    ],
+    "correct": 4,
+    "question_te": "\"ఒత్తిడి, ప్రయాస, కలత, జగడాలతో కూడుకున్న దశ కౌమార దశ\", అని పేర్కొన్న వారు",
+    "options_te": [
+      "జెర్సిల్డ్",
+      "హర్లాక్",
+      "సీషోర్",
+      "స్టాన్లీ హాల్"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Child Development & Pedagogy",
+    "question": "'The process by which the individual knows himself and the environment and comprehends it' is called as",
+    "options": [
+      "Schemata",
+      "Cognition",
+      "Meta Cognition",
+      "Perception"
+    ],
+    "correct": 2,
+    "question_te": "'వ్యక్తి తన గురించి, పరిసరాల గురించి అవగాహన చేసుకోవడాన్ని' ఈ విధం గా పిలుస్తారు",
+    "options_te": [
+      "స్కీమాట",
+      "సంజ్ఞానాత్మకత",
+      "స్వబుద్ధి",
+      "ప్రత్యక్షం"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Child Development & Pedagogy",
+    "question": "Match the following.\ni) Baby hood - a) Intimacy-Isolation\nii) Play age - b) Autonomy-Doubt\niii) Middle adulthood - c) Generativity-Stagnation\niv) Young adulthood - d) Initiative-Guilt",
+    "options": [
+      "i-d ii-b iii-a iv-c",
+      "i-d ii-b iii-c iv-a",
+      "i-b ii-c ii-d iv-a",
+      "i-b ii-d iii-c iv-a"
+    ],
+    "correct": 4,
+    "question_te": "జతపరచుము.\ni) ఉత్తర శైశవ దశ - a) సన్నిహిత-ఏకాంతం\nii) క్రీడాదశ - b) స్వయం ప్రతిపత్తి-సందేహం\niii) మధ్యవయోజన దశ - c) ఉత్సాకం-స్తబ్దత\niv) పూర్వ వయోజన దశ - d) చొరవ చూపడం-తప్పుచేసానన్న భావన",
+    "options_te": [
+      "i-d ii-b iii-a iv-c",
+      "i-d ii-b iii-c iv-a",
+      "i-b ii-c ii-d iv-a",
+      "i-b ii-d iii-c iv-a"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Child Development & Pedagogy",
+    "question": "In Gestalt approach of Law of Prägnanz we perceive objects in the",
+    "options": [
+      "Largest form",
+      "Closest form",
+      "Similar form",
+      "Simplest form"
+    ],
+    "correct": 4,
+    "question_te": "గెస్టాల్ట్ ఉపగమంలో, ప్రెగ్నాంజ్ సూత్రం ప్రకారం మనం వస్తువులను ఈ రూపంలో గ్రహిస్తాము.",
+    "options_te": [
+      "అతి పెద్ద రూపంలో",
+      "అతి సమీప రూపంలో",
+      "సారూప్య రూపంలో",
+      "అత్యంత సరళ రూపంలో"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Child Development & Pedagogy",
+    "question": "Five E's model is a clear framework for",
+    "options": [
+      "Constructivism",
+      "Humanism",
+      "Behaviourism",
+      "Functionalism"
+    ],
+    "correct": 1,
+    "question_te": "5E's మోడల్ అనేది దీనికి ఒక స్పష్టమైన చట్రం",
+    "options_te": [
+      "నిర్మాణాత్మకవాదానికి",
+      "మానవతావాదానికి",
+      "ప్రవర్తనావాదానికి",
+      "కార్యాత్మక వాదానికి"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Child Development & Pedagogy",
+    "question": "According to Vygotsky, elementary mental functions are",
+    "options": [
+      "Voluntary, Self regulation",
+      "Language, Symbols",
+      "Attention, Memory",
+      "Social interaction, Cultural aspects"
+    ],
+    "correct": 3,
+    "question_te": "వైగోట్స్కీ ప్రకారం ఇవి ప్రాధమిక మానసిక ప్రక్రియలు",
+    "options_te": [
+      "స్వచ్చందం, స్వీయ నియంత్రణ",
+      "భాష, చిహ్నాలు",
+      "అవధానము, స్మృతి",
+      "సాంఘిక పరస్పర చర్యలు, సాంస్కృతిక అంశాలు"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is not a main component of self-concept in Humanistic approach",
+    "options": [
+      "Self Regulation",
+      "Self Worth",
+      "Self Image",
+      "Ideal Self"
+    ],
+    "correct": 1,
+    "question_te": "మానవతా ఉపగమం ప్రకారం, కింది వాటిలో ఆత్మభావన యొక్క ప్రధాన భాగం కానిది.",
+    "options_te": [
+      "ఆత్మ నియంత్రణ",
+      "ఆత్మ గౌరవం",
+      "స్వీయ చిత్రం",
+      "ఆదర్శ ఆత్మ"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Child Development & Pedagogy",
+    "question": "According to Bruner's Theory of Instruction, learning should be",
+    "options": [
+      "General and Complex",
+      "Complex and Exploratory",
+      "Exploratory and Simple",
+      "Simple and General"
+    ],
+    "correct": 3,
+    "question_te": "బ్రూనర్ బోధనా సిద్ధాంతం ప్రకారం అభ్యసనం ఈ విధంగా ఉండాలి.",
+    "options_te": [
+      "సాధారణం మరియు క్లిష్టం",
+      "క్లిష్టం మరియు అన్వేషణాత్మకం",
+      "అన్వేషణాత్మకం మరియు సరళం",
+      "సరళం మరియు సాధారణం"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Child Development & Pedagogy",
+    "question": "In the principle of higher order conditioning proposed by Pavlov, when a light is turned on, followed by ringing a bell and then food is given, eventually the dog salivates to the light as well. In this context, the bell is",
+    "options": [
+      "Conditioned Stimulus",
+      "Conditioned Response",
+      "Unconditioned Stimulus",
+      "Unconditioned Response"
+    ],
+    "correct": 3,
+    "question_te": "పావ్లోవ్ ప్రతిపాదించిన ఉన్నత క్రమ నిబంధనా సూత్రంలో ముందు దీపం వెలిగించిన తరువాత గంటను మ్రోగించి ఆహారం ఇచ్చినపప్పుడు చివరకు దీపమునకు కూడా కుక్కలో లాలాజాలం ఊరింది. ఇందులో గంట",
+    "options_te": [
+      "నిబంధిత ఉద్దీపన",
+      "నిబంధిత ప్రతిస్పందన",
+      "సహజ దీపన",
+      "సహజ ప్రతిస్పందన"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is not the concept of Psycho Analytical Theory",
+    "options": [
+      "Socialization",
+      "Structure of personality",
+      "Psycho sexual Development",
+      "Dynamics of Personality"
+    ],
+    "correct": 1,
+    "question_te": "మనోవిశ్లేషణ సిద్ధాంతంలోని అంశము కానిది",
+    "options_te": [
+      "సాంఘికీకరణ",
+      "మూర్తిమత్వ నిర్మాణం",
+      "మనోలైంగిక వికాసం",
+      "మూర్తిమత్వ గతిశీలత"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Child Development & Pedagogy",
+    "question": "Match the terms used by the Psychologists and identify the correct answer.\ni) Projection - a) Jacob. L. Moreno\nii) Sociometry - b) Cattell\niii) Life style - c) Freud\niv) Source traits - d) Adler",
+    "options": [
+      "i-c ii-a iii-b iv-d",
+      "i-c ii-a iii-d iv-b",
+      "i-a ii-d iii-b iv-c",
+      "i-c ii-b iii-d iv-a"
+    ],
+    "correct": 2,
+    "question_te": "మనోవైజ్ఞానిక శాస్త్రవేత్తలు ఉపయోగించిన పదాలను జతపరచి సరైన సమాధానమును గుర్తించండి\ni) ప్రక్షేపణం - a) జాకబ్.ఎల్.మోరెనో\nii) సోషియోమెట్రీ - b) కాటెల్\niii) లైఫ్ స్టైల్/జీవనశైలి - c) ఫ్రాయిడ్\niv) మూల లక్షణాలు - d) అడ్లర్",
+    "options_te": [
+      "i-c ii-a iii-b iv-d",
+      "i-c ii-a iii-d iv-b",
+      "i-a ii-d iii-b iv-c",
+      "i-c ii-b iii-d iv-a"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Child Development & Pedagogy",
+    "question": "Identify the correct answer related to Individual Differences.\na) There is no change in the psychological qualities.\nb) They can be studied and assessed.",
+    "options": [
+      "a, b correct",
+      "a correct, b incorrect",
+      "a incorrect, b correct",
+      "a, b incorrect"
+    ],
+    "correct": 3,
+    "question_te": "వైయత్తిక భేదాలకు సంబంధించి సరైన సమాధానమును గుర్తించండి.\na) మనోవైజ్ఞానిక గుణాలలో మార్పు ఉండదు.\nb) వీటిని అధ్యయనం చేసి మాపనం చేయవచ్చు.",
+    "options_te": [
+      "a, b correct",
+      "a correct, b incorrect",
+      "a incorrect, b correct",
+      "a, b incorrect"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Child Development & Pedagogy",
+    "question": "According to William James, the consciousness of particular things presented to senses is",
+    "options": [
+      "Attention",
+      "Sensation",
+      "Perception",
+      "Creativity"
+    ],
+    "correct": 3,
+    "question_te": "విలియం జేమ్స్ ప్రకారం, జ్ఞానేంద్రియాలకు ఇవ్వబడిన నిర్దిష్ట వస్తువుల గురించి కలిగే చేతనమే",
+    "options_te": [
+      "అవధానము",
+      "సంవేదనం",
+      "ప్రత్యక్షం",
+      "సృజనాత్మకత"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Child Development & Pedagogy",
+    "question": "Identify the mismatched pair/s regarding books and authors.\na) Synectics: The Development of Creative Capacity -Gordon.\nb) Experiential Learning - Neil Fleming\nc) Student Intelligence: Exploration with Gifted Children -Davis & Scott",
+    "options": [
+      "a only",
+      "b only",
+      "a and b only",
+      "a and c only"
+    ],
+    "correct": 2,
+    "question_te": "పుస్తకాలు మరియు వాటి రచయితలకు సంబంధించి తప్పుగా జత పరచబడిన జత/జతలను గుర్తించండి.\na) సైనెక్టిక్స్:ది డెవలప్మెంట్ ఆఫ్ క్రియేటివ్ కెపాసిటీ - గోర్డాన్\nb) ఎక్స్పీరియెన్షియల్ లెర్నింగ్ - నీల్ ఫ్లెమింగ్\nc) స్టూడెంట్ ఇంటెలిజెన్స్:ఎక్స్ప్లోరేషన్ విత్ గిఫ్టెడ్ చిల్డన్ - డేవిస్ & స్కాట్",
+    "options_te": [
+      "a only",
+      "b only",
+      "a and b only",
+      "a and c only"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is not an educational programme intended for gifted children",
+    "options": [
+      "Repetition",
+      "Segregation",
+      "Enrichment",
+      "Acceleration"
+    ],
+    "correct": 1,
+    "question_te": "ప్రతిభావంతులైన పిల్లల కొరకు నిర్దేశించబడని విద్యా కార్యక్రమం",
+    "options_te": [
+      "పునరుక్తి",
+      "వేర్పాటు",
+      "సంవృద్ధిపరచటం",
+      "త్వరణం"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Child Development & Pedagogy",
+    "question": "According to Robert. A. Cox, the application of scientific process to man's learning conditions is",
+    "options": [
+      "Teaching Technology",
+      "Instructional Technology",
+      "Behavioral Technology",
+      "Educational Technology"
+    ],
+    "correct": 4,
+    "question_te": "రాబర్ట్. ఎ. కాక్స్ (Robert. A. Cox) ప్రకారం, మానవుని అభ్యసన పరిస్థితులకు శాస్త్రీయ ప్రక్రియను అనువర్తింపజేయడాన్ని ఇలా అంటారు.",
+    "options_te": [
+      "బోధనా సాంకేతిక శాస్త్రం",
+      "అనుదేశన సాంకేతిక శాస్త్రం",
+      "ప్రవర్తనా సాంకేతిక శాస్త్రం",
+      "విద్యా సాంకేతిక శాస్త్రం"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Child Development & Pedagogy",
+    "question": "Full form of AJAX",
+    "options": [
+      "Advanced Synchronous Java Script and XML",
+      "Asynchronous Java Script and XML",
+      "Advanced Java Script and Extensions",
+      "Asynchronous Java Language and XML"
+    ],
+    "correct": 2,
+    "question_te": "AJAX పూర్తి రూపం",
+    "options_te": [
+      "Advanced Synchronous Java Script and XML",
+      "Asynchronous Java Script and XML",
+      "Advanced Java Script and Extensions",
+      "Asynchronous Java Language and XML"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Child Development & Pedagogy",
+    "question": "Identify the correct statements related to plagiarism.\na) It is derived from Latin word 'Plagiarius-Plaga = net\nb) It is derived from Greek word 'Plagion' means Kidnapper\nc) Verbatim is an accidental plagiarism.",
+    "options": [
+      "a, b only",
+      "b, c only",
+      "a, c only",
+      "c only"
+    ],
+    "correct": 1,
+    "question_te": "ప్లేజియరిజంనకు సంబంధించి సరైన సమాధానమును గుర్తించండి.\na) ఇది 'ప్లేజియారియస్' అనే లాటిన్ పదం నుండి ఉద్భవించింది Plaga = వల\nb) ఇది ప్లాజియోన్ అనే గ్రీకు పదం నుండి ఉద్భవించింది దీని అర్థం కిడ్నాపర్\nc) వెర్బేటిమ్ అనేది ఒక యాదృచ్చిక ప్లేజియరిజం",
+    "options_te": [
+      "a, b only",
+      "b, c only",
+      "a, c only",
+      "c only"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Child Development & Pedagogy",
+    "question": "One of the following is not a cloud storage.",
+    "options": [
+      "Personal Cloud Storage",
+      "Public Cloud Storage",
+      "Hybrid Cloud Storage",
+      "Meta Cloud Storage"
+    ],
+    "correct": 4,
+    "question_te": "కింది వాటిలో క్లౌడ్ స్టోరేజ్ కానిది",
+    "options_te": [
+      "పర్సనల్ క్లౌడ్ స్టోరేజ్",
+      "పబ్లిక్ క్లౌడ్ స్టోరేజ్",
+      "హైబ్రిడ్ క్లౌడ్ స్టోరేజ్",
+      "మెటా క్లౌడ్ స్టోరేజ్"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Child Development & Pedagogy",
+    "question": "It expresses how far a score is from the mean in units of standard deviation",
+    "options": [
+      "Raw Score",
+      "Grade Equivalent Score",
+      "Z-Score",
+      "Derived Score"
+    ],
+    "correct": 3,
+    "question_te": "ఒక గణన సగటు నుండి ఎంత దూరంలో ఉన్నది అనే విషయాన్ని ప్రామాణిక విచలన ప్రమాణాలలో వ్యక్తపరిచేది",
+    "options_te": [
+      "ముడి గణన",
+      "గ్రేడ్ తుల్య గణన",
+      "జడ్ స్కోరు",
+      "ఉద్భవ గణన"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Child Development & Pedagogy",
+    "question": "Application of results helps the researcher to",
+    "options": [
+      "Select the research topic",
+      "Identify the problem",
+      "End the research immediately",
+      "Decide whether to continue, modify or stop the intervention."
+    ],
+    "correct": 4,
+    "question_te": "ఫలితాల అన్వయం ద్వారా పరిశోధకుడికి ఉపయోగం",
+    "options_te": [
+      "పరిశోధనా అంశాన్ని ఎంచుకుంటాడు",
+      "సమస్యను గుర్తించడం",
+      "పరిశోధనను వెంటనే ముగిస్తాడు",
+      "జోక్యాన్ని కొనసాగించాలా, మార్చాలా లేదా నిలిపివేయాలా అని నిర్ణయిస్తాడు"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Child Development & Pedagogy",
+    "question": "Merits of Arithmetic Mean\na) Easy to calculate\nb) No need of all values in the data\nc) Accurate\nd) Easy to compare",
+    "options": [
+      "a, b, c only",
+      "b, c, d only",
+      "a, b, d only",
+      "a, c, d only"
+    ],
+    "correct": 4,
+    "question_te": "అంక మధ్యమం ఉపయోగాలు\na) సులభంగా లెక్కించవచ్చు\nb) దత్తాంశంలోని అన్ని విలువలు అవసరం లేదు\nc) ఖచ్చితమైనది\nd) పోలికకు సులభంగా ఉపయోగపడును.",
+    "options_te": [
+      "a, b, c only",
+      "b, c, d only",
+      "a, b, d only",
+      "a, c, d only"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Child Development & Pedagogy",
+    "question": "Leadership is considered as a continuous process because it primarily involves,",
+    "options": [
+      "Giving orders to followers only",
+      "Continuous interaction among the leader, follower and situation",
+      "Exercising authority without feedback",
+      "Maintaining strict discipline at all items"
+    ],
+    "correct": 2,
+    "question_te": "నాయకత్వం నిరంతర ప్రక్రియగా పరిగణింపబడడానికి ప్రధాన కారణం",
+    "options_te": [
+      "అనుచరులకు ఆదేశాలు యివ్వడానికి మాత్రమే",
+      "నాయకుడు, అనుచరులు, పరిస్థితుల మధ్య నిరంతర పరస్పర చర్య",
+      "పరిపృష్టి లేకుండా అధికారాన్ని వినియోగించడం",
+      "ఎల్లప్పుడు కరిన క్రమశిక్షణను పాటించడం"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Child Development & Pedagogy",
+    "question": "As per NCF-2005, school timings should not be less than there many hours in a day for school level and ECCE level respectively.",
+    "options": [
+      "6, 3",
+      "6½, 4",
+      "8, 5",
+      "7½, 4½"
+    ],
+    "correct": 1,
+    "question_te": "NCF-2005 ప్రకారం, ఒక రోజులో పాఠశాల సమయం పాఠశాల స్థాయికి మరియు పూర్వ ప్రాథమిక స్థాయికి (వరుస క్రమంగా) ఏ గంటల కంటే తక్కువ ఉండకూడదు.",
+    "options_te": [
+      "6, 3",
+      "6½, 4",
+      "8, 5",
+      "7½, 4½"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Telugu",
+    "question": "కింది అపరిచిత పద్యం చదివి ప్రశ్నలకు జవాబులు గుర్తించండి\n\nఅతిథిప్రియుడు విశిష్ట\nవ్రతుడు విమత్సరుడు, సత్యవచనుడు విని\nర్జిత విషయేంద్రియుడు సము\nన్నత పుణ్యుడు ముగ్ధలుడు సనాతనబుద్ధిన్\n\nపై పద్యంలో వీరి విశిష్టతని గురించి చెప్పబడింది",
+    "options": [
+      "సనాతనుడు",
+      "సత్రుడు",
+      "ముగ్ధలుడు",
+      "నిర్జిత విషయేంద్రుడు"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Telugu",
+    "question": "కింది అపరిచిత పద్యం చదివి ప్రశ్నలకు జవాబులు గుర్తించండి\n\nఅతిథిప్రియుడు విశిష్ట\nవ్రతుడు విమత్సరుడు, సత్యవచనుడు విని\nర్జిత విషయేంద్రియుడు సము\nన్నత పుణ్యుడు ముగ్ధలుడు సనాతనబుద్ధిన్\n\nపై పద్యంలో అసూయలేనివాడు అనే అర్థాన్నిచ్చే పదం",
+    "options": [
+      "సమున్నతపుణ్యుడు",
+      "వినిర్జిత విషయేంద్రియుడు",
+      "సనాతనబుద్ధిమంతుడు",
+      "విమత్సరుడు"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Telugu",
+    "question": "కింది అపరిచిత గద్యం చదివి అడిగిన ప్రశ్నకు సమాధానం గుర్తించండి\n\nశాతవాహనయుగమున ఖారవేలుడను పరాక్రమశాలియైన రాజు కళింగముననేలినట్లు చెప్పబడియున్నది. ఈతడు మొదటి శాతకర్ణికి సమకాలికుడు. ఖారవేలుడు మగధపై పలుమార్లు దండెత్తి, పుష్యమిత్రుని ఓడించెను. ఖారవేలుడు జైనమతాభిమాని, ఓడ్ర దేశమునందు ఉదయగిరి, ఖండగిరియను కొండలను త్రవ్వించి శిల్పముతో సుందరమైన గుహాలయాలను నిర్మించి, జైనసన్యాసులకు సమర్పించెను.\n\nఖారవేలునికి సంబంధించి సత్యంకానిది",
+    "options": [
+      "కళింగరాజు",
+      "మొదటి శాతకర్ణికి సమకాలికుడు",
+      "పుష్యమిత్రుని చేత పరాజితుడు",
+      "జైనమతాభిమాని"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Telugu",
+    "question": "కింది అపరిచిత గద్యం చదివి అడిగిన ప్రశ్నకు సమాధానం గుర్తించండి\n\nశాతవాహనయుగమున ఖారవేలుడను పరాక్రమశాలియైన రాజు కళింగముననేలినట్లు చెప్పబడియున్నది. ఈతడు మొదటి శాతకర్ణికి సమకాలికుడు. ఖారవేలుడు మగధపై పలుమార్లు దండెత్తి, పుష్యమిత్రుని ఓడించెను. ఖారవేలుడు జైనమతాభిమాని, ఓడ్ర దేశమునందు ఉదయగిరి, ఖండగిరియను కొండలను త్రవ్వించి శిల్పముతో సుందరమైన గుహాలయాలను నిర్మించి, జైనసన్యాసులకు సమర్పించెను.\n\nఉదయగిరి ఈ దేశానికి చెందినది",
+    "options": [
+      "ఆంధ్ర",
+      "మగధ",
+      "జైన",
+      "ఓడ్ర"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Telugu",
+    "question": "పంచతంత్రాన్ని \"నీతిచంద్రిక\" పేరుతో తెలుగులోకి అనువదించినది.",
+    "options": [
+      "పరవస్తు చిన్నయసూరి",
+      "చిలుకూరి దేవపుత్ర",
+      "సత్యం శంకరమంచి",
+      "వెన్నెలకంటి రాఘవయ్య"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Telugu",
+    "question": "కిందివానిలో శ్రీనాధుని రచన",
+    "options": [
+      "మనుచరిత్ర",
+      "శ్రీ శాలివాహన గాధా సప్తశతి సారం",
+      "పల్నాటివీరచరిత్ర",
+      "హరివంశము"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Telugu",
+    "question": "పయనం పాఠంలో గంగన్న కుటుంబం వలస వెళ్ళిన గ్రామం",
+    "options": [
+      "హంపి దగ్గర సంగమకొట్టాల",
+      "బళ్ళారి దగ్గర కంపిలి కొట్టాల",
+      "రాయచూరు దగ్గర కొల్లారి కొట్టాల",
+      "మైసూరు దగ్గర ఆరవీటి కొట్టాల"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Telugu",
+    "question": "\"అనుభవాలు – జ్ఞాపకాలు\" ద్వారా తన బాల్యం, విద్యాభ్యాసం గురించి తెలిపినది.",
+    "options": [
+      "ఎండ్లూరి సుధాకర్",
+      "జంధ్యాల పాపయ్య శాస్త్రి",
+      "తాపీ ధర్మారావు",
+      "శ్రీపాద సుబ్రహ్మణ్య శాస్త్రి"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Telugu",
+    "question": "కింది వానిలో ప్రబంధ ప్రక్రియకు చెందిన పాఠం",
+    "options": [
+      "సందేశం",
+      "రాజధర్మం",
+      "ఆంధ్రవైభవం",
+      "సమదృష్టి"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Telugu",
+    "question": "వేయి హంసలతో కూడిన పల్లకి మీద లక్ష్మణునితో శ్రీరాముడు కూర్చున్నట్టు కలగన్నది.",
+    "options": [
+      "సీత",
+      "కైక",
+      "మంధర",
+      "త్రిజట"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Telugu",
+    "question": "\"మయసభలో నా ఆత్మకథ ఆవిష్కరించబడింది\" అని ప్రకటించుకున్న కవి",
+    "options": [
+      "ఎండ్లూరి సుధాకర్",
+      "గుఱ్రం జాషువా",
+      "సింగమనేని నారాయణ",
+      "ఆశావాది ప్రకాశరావు"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Telugu",
+    "question": "\"వీర అదే వీరరావు మన గడ్డమీద పుట్టిన బిడ్డ\" అని మాతృభూమి పాఠంలో అన్నది",
+    "options": [
+      "సుధీర్",
+      "రాజారావు",
+      "పద్మజ",
+      "చంద్రమ్మ"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Telugu",
+    "question": "\"మట్టిచెట్టు\" పాఠం ఆతివృత్తం",
+    "options": [
+      "జీవన నైపుణ్యం",
+      "వ్యక్తిత్వవికాసం",
+      "కష్టజీవుల శ్రమ",
+      "సహానుభూతి"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Telugu",
+    "question": "రావూరి భరద్వాజ గారి \"జీవనసమరం\"",
+    "options": [
+      "క్షుదార్ధజీవుల వ్యధార్తి గాధల పుస్తకం",
+      "వ్యధార్త జీవుల యధార్త గాధల పుస్తకం",
+      "యదార్థగాధల క్షుధార్తుల పుస్తకం",
+      "వ్యధ, క్షుధ, బాధల, గాధల పుస్తకం"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Telugu",
+    "question": "\"శుద్ధాంతము\" అర్థము",
+    "options": [
+      "అంతఃపురం",
+      "వరిముల్లు",
+      "సేవ",
+      "అగ్ని"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Telugu",
+    "question": "\"తీరం\" ఈ పదానికి పర్యాయ పదాలు",
+    "options": [
+      "శైలి, విధానము",
+      "దరి, కూలం",
+      "దవ్య, దరి",
+      "కూలం, దవ్య"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Telugu",
+    "question": "\"స్వచ్ఛ\" ఈ పదానికి వికృతి",
+    "options": [
+      "చొక్కు",
+      "సొక్కు",
+      "సొచ్చము",
+      "సొక్కుము"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Telugu",
+    "question": "కింది పదాలకు సరైన నానార్థ పదాలను గుర్తించండి.\ni. ఆకరం - A. తిరస్కారం, అవమానం\nii. అంబకం - B. నిలయం, సమూహం\niii. అవజ్ఞ - C. బాణం, కన్ను\niv. అలరు - D. ప్రకాశించు, సంతోషించు",
+    "options": [
+      "i-B, ii-A, iii-C, iv-D",
+      "i-B, ii-D, iii-C, iv-A",
+      "i-C, ii-A, iii-B, iv-D",
+      "i-B, ii-C, iii-A, iv-D"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Telugu",
+    "question": "\"మిక్కిలి వృద్ధిచెందుట\" అనే అర్థంలో ఉపయోగించు జాతీయం",
+    "options": [
+      "తెప్పలు తేలుట",
+      "తామరతంపర",
+      "తిప్పతీగతొక్కు",
+      "తిరుకోళము"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Telugu",
+    "question": "\"చింపిరి చింపిరి గుడ్డలు కట్టుకొని ముత్యాలవంటి బిడ్డలని కన్నది\" ఈ పొడుపుకు విడుపు.",
+    "options": [
+      "వేరుశనగకాయలు",
+      "దానిమ్మపండు",
+      "పనసపండు",
+      "మొక్కజొన్న"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Telugu",
+    "question": "నడమంత్రపుసిరి, ........ భరింపరానివి. ఈ సామెతకు సంబంధించి ఖాళీలో సరిపోయే పదం.",
+    "options": [
+      "నరంమీదపువుండు",
+      "నక్కవినయము",
+      "నెత్తినకండ్లు",
+      "నక్కజిత్తులు"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Telugu",
+    "question": "\"కొండలవలె పెద్ద పెద్ద భవనములు గలది\" అనే వ్యుత్పత్తినిచ్చే పదం",
+    "options": [
+      "హర్మ్యం",
+      "సౌధం",
+      "నగరం",
+      "కాసారం"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Telugu",
+    "question": "కింది గురు, లఘువులను సంబంధిత గణాలతో జతపరచండి.\ni) III - A) జ\nii) UII - B) భ\niii) IUI - C) న\niv) UUI - D) త",
+    "options": [
+      "i-C, ii-A, iii-B, iv-D",
+      "i-C, ii-B, iii-A, iv-D",
+      "i-C, ii-B, iii-D, iv-A",
+      "i-C, ii-D, iii-B, iv-A"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Telugu",
+    "question": "\"ఆకాశం కాటుకను వర్షిస్తున్నట్లుంది.\" ఈ వాక్యంలోని అలంకారం",
+    "options": [
+      "యధాసంఖ్య",
+      "రూపక",
+      "ఉపమా",
+      "ఉత్ప్రేక్ష"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Telugu",
+    "question": "'ఎర్రగులాబీ' ఈ పదము నందలి సమాసం",
+    "options": [
+      "విశేషణ పూర్వపద",
+      "విశేషణ ఉత్తరపద",
+      "అవధారణ పూర్వపద",
+      "సంభావనా పూర్వపద"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Telugu",
+    "question": "కింది వాటిలో గుణసంధికి చెందిన పదాలు\nA) పరోపకారం\nB) రమేశ\nC) దేవర్షి\nD) శైలాగ్రం",
+    "options": [
+      "A, D మాత్రమే",
+      "A, B, C మాత్రమే",
+      "B, C, D మాత్రమే",
+      "A, B మాత్రమే"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Telugu",
+    "question": "తానొక ప్రకృతి ఆరాధకుడినని విజయ్ అన్నాడు. ఈ వాక్యానికి సరిపోయే ప్రత్యక్షకథనం",
+    "options": [
+      "\"తాను ఒక ప్రకృతి ఆరాధకుడిని\" అని విజయ్ అన్నాడు.",
+      "\"నేను ఒక ప్రకృతి ఆరాధకుడిని\" అని విజయ్ అన్నాడు.",
+      "\"అతనొక ప్రకృతి ఆరాధకుడని విజయ్\" అన్నాడు.",
+      "\"వాడొక ప్రకృతి ఆరాధకుడు\" అని విజయ్ అన్నాడు."
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Telugu",
+    "question": "\"ఆలోచింపచేసే ప్రక్రియ నాటకం అని భావించారు\" ఈ వాక్యానికి సరిపోయే వ్యతిరేకార్థకవాక్యం",
+    "options": [
+      "ఆలోచింప చేసే ప్రక్రియ నాటకం అని భావించబోరు",
+      "ఆలోచింప చేసే ప్రక్రియ నాటకం కాదని భావిస్తున్నారు",
+      "ఆలోచింప చేసే ప్రక్రియ నాటకం అని భావించలేదు",
+      "నాటకం ఆలోచింపచేసే ప్రక్రియ అని భావిస్తున్నారు."
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Telugu",
+    "question": "పరుషములు, సరళములు కాకుండా మిగిలిన హల్లులు",
+    "options": [
+      "స్పర్శాలు",
+      "కళలు",
+      "స్థిరాలు",
+      "ఊష్మాలు"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Telugu",
+    "question": "త్రికములు అనగా.",
+    "options": [
+      "అ ఇ ఏ అనే నామవాచకాలు",
+      "ఆ ఈ ఏ అనే నామవాచకాలు.",
+      "అ ఇ ఎ అనే సర్వనామాలు",
+      "ఆ ఈ ఏ అనే సర్వనామాలు"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "English",
+    "question": "When we complimented Rohan on his success, he smiled nonchalantly and turned away.\nChoose the synonym of the underlined word.",
+    "options": [
+      "casually",
+      "anxiously",
+      "proudly",
+      "angrily"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "English",
+    "question": "The unimaginable sacrifices of thousands of people can never be repaid.\nChoose the antonym of the underlined word in the sentence.",
+    "options": [
+      "inconceivable",
+      "unthinkable",
+      "incredible",
+      "imaginable"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "English",
+    "question": "Choose the correct pair of homophones to make a meaningful sentence.\nAs she walked down the supermarket _______, she dreamed about vacation on a tropical________",
+    "options": [
+      "isle, isle",
+      "aisle, isle",
+      "isle, aisle",
+      "aisle, aisle"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "English",
+    "question": "Choose the sentence, in the present perfect tense.",
+    "options": [
+      "Fortune favours the brave.",
+      "My uncle is arriving tomorrow.",
+      "I have never known him to be angry.",
+      "He has been sleeping for five hours."
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "English",
+    "question": "Which expression is most appropriate when meeting someone for the first time?",
+    "options": [
+      "See you",
+      "How do you do?",
+      "Thank you very much",
+      "Have a nice time"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "English",
+    "question": "I'm tired, _______I'm going to bed.\nChoose the correct option that fits the blank.",
+    "options": [
+      "both",
+      "so",
+      "or",
+      "either"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "English",
+    "question": "A sentence which shows strong emotion and ends with an exclamation mark (!) is_______.",
+    "options": [
+      "Interrogative",
+      "Exclamatory",
+      "Declarative",
+      "Imperative"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "English",
+    "question": "If you open a dictionary to look for the word 'Hypocrite' which word would you find before it?",
+    "options": [
+      "Hypnosis",
+      "Hypotenuse",
+      "Hysteria",
+      "Hypoxia"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "English",
+    "question": "Choose the correct spelling.",
+    "options": [
+      "emiggrated",
+      "emmigrated",
+      "emigrated",
+      "emigratted"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "English",
+    "question": "Choose the correct rule for a sentence in reported speech.",
+    "options": [
+      "If the reporting verb is in Present tense the tense of the direct speech changes into past.",
+      "If the reporting verb is in the past tense, the time of the direct speech changes into past perfect tense",
+      "If the reporting verb is in the present tense, the tense of the direct speech does not change.",
+      "If the reporting verb and reported verb are in past tense, they should be written in present tense."
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "English",
+    "question": "Which of the following starts with a capital letter?",
+    "options": [
+      "The first letter at the beginning of the sentence.",
+      "Verbs",
+      "Common nouns",
+      "Adverbs"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "English",
+    "question": "A polyglot is a person",
+    "options": [
+      "who knows many languages",
+      "who can speak two languages",
+      "who has many talents",
+      "who escapes multiple tasks"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "English",
+    "question": "My sister works in a bank, ________\nChoose the correct question tag that fits in the blank.",
+    "options": [
+      "isn't she?",
+      "haven't she?",
+      "doesn't she?",
+      "hasn't she?"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "English",
+    "question": "Choose the sentence in which the verb agrees with the subject.",
+    "options": [
+      "Each of these substances are found in India.",
+      "Each of these substances were found in India.",
+      "Each of these substances have found in India.",
+      "Each of these substances is found in India."
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "English",
+    "question": "Identify the characteristic feature of a compound sentence.",
+    "options": [
+      "It consists of one main clause and one or more subordinate clauses.",
+      "It consists of only one main clause.",
+      "It consists of two or more subordinate clauses.",
+      "It consists of two or more main clauses."
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "English",
+    "question": "Choose the sentence with the correct use of articles or no article.",
+    "options": [
+      "The youngest boy has just started going to the school.",
+      "Do you know time?",
+      "When the wind blows, all windows rattle.",
+      "He was sent to prison for six months for shop-lifting."
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "English",
+    "question": "The house is on fire! Send_______ the fire brigade!",
+    "options": [
+      "on",
+      "at",
+      "for",
+      "in"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "English",
+    "question": "If I had known Prof. Rao was in hospital, I would have visited him.\nIdentify the type of conditional used in the sentence.",
+    "options": [
+      "Zero conditional",
+      "Type 1 conditional",
+      "Type 2 conditional",
+      "Type 3 conditional"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "English",
+    "question": "The weather is delightfully cool.\nChoose the function of the word 'delightfully' in the sentence.",
+    "options": [
+      "Adverb of Manner",
+      "Adverb of Degree",
+      "Adverb of Reason",
+      "Adverb of Frequency"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "English",
+    "question": "Choose the correct verb forms to complete the sentence.\nThere_______ any cars in 15th century.",
+    "options": [
+      "are",
+      "aren't",
+      "weren't",
+      "were"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "English",
+    "question": "Identify the silent consonant letters from the word \"Knight\".",
+    "options": [
+      "k, t, g",
+      "k, n, g",
+      "k, g, h",
+      "k, i, t"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "English",
+    "question": "Identify the grammatically correct sentences.",
+    "options": [
+      "Don't loose your confidence.",
+      "He reads novels to pass away the exams.",
+      "Chandini goes to school on foot.",
+      "Rahul goes to college by walk."
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "English",
+    "question": "We should ________attention to the teacher.\nChoose the correct collocation.",
+    "options": [
+      "give",
+      "make",
+      "pay",
+      "put"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "English",
+    "question": "Which of the following is not a discourse indicator/ feature of a Notice?",
+    "options": [
+      "Persuasive language",
+      "Maintaining brevity",
+      "Personal reflection",
+      "Layout and design"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "English",
+    "question": "You don't need to wind this watch.\nChoose the correct passive voice.",
+    "options": [
+      "This watch needn't be winded.",
+      "This watch doesn't need to wound.",
+      "This watch isn't to be wound.",
+      "This watch needn't be wound."
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "English",
+    "question": "This problem needs to be nipped in the bud before it is too late.\nChoose the correct meaning for the underlined idiom.",
+    "options": [
+      "encourage something to grow quickly.",
+      "ignore a problem completely.",
+      "celebrate something at the beginning.",
+      "stop a bad situation in its early stages."
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "English",
+    "question": "I have nothing much to look forward to now.\nChoose the correct meaning of the underlined phrase.",
+    "options": [
+      "to move forward and search for something.",
+      "to look at something that is in front of you.",
+      "to think about something that might happen in the feature.",
+      "to feel excited about something that is going to happen in the feature."
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "English",
+    "question": "Choose the expression in which the adjectives are used in their correct order.",
+    "options": [
+      "The girl had brown beautiful eyes.",
+      "South-eastern China has major three rivers.",
+      "I saw a black snow-necked crane.",
+      "Three large strong black mice were caught."
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "English",
+    "question": "Read the following passage.\nBrainstorming was one of the new buzzwords of the late twentieth century. It was seen as valuable to get into a room together as a group to come up with new ideas in the worlds of business, education and science. But brainstorming does not work. The ideas that occur in a brainstorming session are rarely very original. Brainstorming seems to make sense as a concept, but the results are generally disappointing and banal.\n\nAccording to the author, brainstorming",
+    "options": [
+      "seems logical but it is not effective.",
+      "is sometimes productive, but only in business",
+      "usually results in no ideas at all.",
+      "ended its popularity late last century"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "English",
+    "question": "Read the following\nWhen the gong sounds ten in the morning and I walk to school by our lane,\nEvery day I meet the hawker crying \"Bangles, crystal bangles!\"\nThere is nothing to hurry him on, there is no road he must take, no place he must go to, no time when he must come home\n\nNow answer the following question\nAccording to the poem excerpt, what time does the gong sound in the morning?",
+    "options": [
+      "Nine",
+      "Ten",
+      "Eleven",
+      "Twelve"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Mathematics",
+    "question": "If x = 1/(2+√3) then, x + 1/x =",
+    "options": [
+      "2",
+      "4",
+      "2√3",
+      "1"
+    ],
+    "correct": 2,
+    "question_te": "x = 1/(2+√3) అయితే x + 1/x =",
+    "options_te": [
+      "2",
+      "4",
+      "2√3",
+      "1"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Mathematics",
+    "question": "(10^6-1)/(10^3-1) =",
+    "options": [
+      "11",
+      "101",
+      "1001",
+      "10001"
+    ],
+    "correct": 3,
+    "question_te": "(10^6-1)/(10^3-1) =",
+    "options_te": [
+      "11",
+      "101",
+      "1001",
+      "10001"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Mathematics",
+    "question": "In triangle ABC, ∠B=90°, BD⊥AC. If AB = 8 cm, BC = 6 cm then BD = (in cm)",
+    "options": [
+      "5",
+      "3.6",
+      "4.8",
+      "5.6"
+    ],
+    "correct": 3,
+    "question_te": "ΔABC నందు ∠B = 90° మరియు BD⊥AC. AB = 8 సెం.మీ., BC = 6 సెం.మీ. అయినచో BD = (సెం.మీ.లలో)",
+    "options_te": [
+      "5",
+      "3.6",
+      "4.8",
+      "5.6"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Mathematics",
+    "question": "AP and AQ are two tangents drawn to a circle with centre 'O'. If ∠POQ=110° then ∠PAQ =",
+    "options": [
+      "60°",
+      "70°",
+      "80°",
+      "90°"
+    ],
+    "correct": 2,
+    "question_te": "'O' కేంద్రముగా గల వృత్తమునకు AP మరియు AQ లు రెండు స్పర్శరేఖలు. ∠POQ=110° అయితే ∠PAQ =",
+    "options_te": [
+      "60°",
+      "70°",
+      "80°",
+      "90°"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Mathematics",
+    "question": "The mean of 10 observations is 21.5, by mistake one observation –8 is noted wrongly in the place of 8. The corrected mean is",
+    "options": [
+      "23.1",
+      "21.3",
+      "20.5",
+      "25.1"
+    ],
+    "correct": 1,
+    "question_te": "10 అంశాల సగటు 21.5, కానీ ఇందులో ఒక అంశము 8 కి బదులుగా –8 అని నమోదు చేయబడినది. ఇప్పుడు సరిచేసిన తరువాత సగటు",
+    "options_te": [
+      "23.1",
+      "21.3",
+      "20.5",
+      "25.1"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Mathematics",
+    "question": "[(x+y)^3+(x-y)^3]/2 - y(3x^2+y^2) =",
+    "options": [
+      "x^3-y^3",
+      "(x-y)^3",
+      "2x^3-3x^2y",
+      "x^3-6xy^2"
+    ],
+    "correct": 2,
+    "question_te": "[(x+y)^3+(x-y)^3]/2 - y(3x^2+y^2) =",
+    "options_te": [
+      "x^3-y^3",
+      "(x-y)^3",
+      "2x^3-3x^2y",
+      "x^3-6xy^2"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Mathematics",
+    "question": "If (m+n)x^2+nx+(m-n)=0 has equal roots then the relation between m and n is",
+    "options": [
+      "m=n",
+      "4m^2=5n^2",
+      "4m^2=3n^2",
+      "3m^2=4n^2"
+    ],
+    "correct": 2,
+    "question_te": "(m+n)x²+nx+(m-n)=0 సమాన మూలాలు కల్గియున్న m, n ల మధ్య సంబంధం",
+    "options_te": [
+      "m=n",
+      "4m^2=5n^2",
+      "4m^2=3n^2",
+      "3m^2=4n^2"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Mathematics",
+    "question": "If A = a+b+c, B = a-b+c, C = a+b-c, D = -a+b+c then the value of (A + C) - (B+D) is",
+    "options": [
+      "2a+2b+2c",
+      "2a+2b-2c",
+      "2a-2b+2c",
+      "-2a-2b+2c"
+    ],
+    "correct": 2,
+    "question_te": "A = a+b+c, B = a-b+c, C = a+b-c, D = -a+b+c అయిన (A+C)-(B+D) విలువ",
+    "options_te": [
+      "2a+2b+2c",
+      "2a+2b-2c",
+      "2a-2b+2c",
+      "-2a-2b+2c"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Mathematics",
+    "question": "If the total surface area of a hemi-sphere is 115.5 cm² and a cone with a height of 3.5 cm is exactly surmounted on it then the volume of total combination is (π=22/7) (in cm³)",
+    "options": [
+      "134.75",
+      "138.25",
+      "144.75",
+      "148.25"
+    ],
+    "correct": 1,
+    "question_te": "ఒక అర్ధగోళ సంపూర్ణతల వైశాల్యం 115.5 సెం.మీ². దాని పై 3.5 సెం.మీ. ఎత్తు కలిగిన ఒక శంఖువు సరిగ్గా కలుపబడిన ఆ సముదాయ ఘనపరిమాణం (π=22/7) (ఘ.సెం.మీ.లలో)",
+    "options_te": [
+      "134.75",
+      "138.25",
+      "144.75",
+      "148.25"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Mathematics",
+    "question": "If a square paper cut into 16 congruent squares, then the sum of perimeters of 16 congruent squares is how many times of perimeter big square?",
+    "options": [
+      "1/4",
+      "4",
+      "8",
+      "1/8"
+    ],
+    "correct": 2,
+    "question_te": "ఒక చతురస్రాకార కాగితాన్ని 16 సమాన చతురస్రాలుగా విభజించిన 16 సమాన చతురస్రాల చుట్టుకొలతల మొత్తం మొదటి చతురస్ర చుట్టుకొలతకి ఎన్నిరెట్లు?",
+    "options_te": [
+      "1/4",
+      "4",
+      "8",
+      "1/8"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Mathematics",
+    "question": "There are three cylinders whose base radii are r1, r2, r3 (r1≠r2≠r3) which are in G.P. If their heights are equal, then their volumes are in",
+    "options": [
+      "A.P",
+      "G.P",
+      "A.P and G.P",
+      "Neither A.P nor G.P"
+    ],
+    "correct": 2,
+    "question_te": "మూడు స్తూపాల భూ వ్యాసార్ధములు r1, r2, r3 (r1≠r2≠r3) మరియు అవి గుణశ్రేఢిలో కలవు. వాటి ఎత్తులు సమానమైన వాటి ఘనపరిమాణములు",
+    "options_te": [
+      "అంకశ్రేఢి",
+      "గుణశ్రేఢి",
+      "అంకశ్రేఢి మరియు గుణశ్రేఢి",
+      "అంకశ్రేఢి, గుణశ్రేఢిలలో వేనిలోనూ ఉండదు"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Mathematics",
+    "question": "Event A: Getting an even number on die then the complementary event of A",
+    "options": [
+      "getting a prime number",
+      "getting a number greater than 4",
+      "getting an odd number",
+      "getting a multiple of 3"
+    ],
+    "correct": 3,
+    "question_te": "ఘటన A: ఒక పాచికను దొర్లించినపుడు సరిసంఖ్య పడుట అయితే, ఘటన A కి కింది వానిలో పూరక ఘటన",
+    "options_te": [
+      "ప్రధాన సంఖ్య పడుట",
+      "4 కన్నా పెద్ద సంఖ్య పడుట",
+      "బేసి సంఖ్య పడుట",
+      "3 యొక్క గుణిజము పడుట"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Mathematics",
+    "question": "If the centroid of the triangle formed by the points (p,q) (q,r) and (r,p) is (0, 0) then p^3+q^3+r^3 =",
+    "options": [
+      "pqr",
+      "0",
+      "p+q+r",
+      "3pqr"
+    ],
+    "correct": 4,
+    "question_te": "(p,q)(q,r) మరియు (r,p) శీర్షాలు గల త్రిభుజ గురుత్వకేంద్రం (0,0) అయిన p³+q³+r³ =",
+    "options_te": [
+      "pqr",
+      "0",
+      "p+q+r",
+      "3pqr"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Mathematics",
+    "question": "1/(tanθ sinθ) × (1/cosθ - cosθ) = ? (θ<90°)",
+    "options": [
+      "-1",
+      "0",
+      "1",
+      "0.5"
+    ],
+    "correct": 3,
+    "question_te": "1/(tanθ sinθ) × (1/cosθ - cosθ) = ? (θ<90°)",
+    "options_te": [
+      "-1",
+      "0",
+      "1",
+      "0.5"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Mathematics",
+    "question": "A shopkeeper sold two TV sets at Rs.9900 each. He got 10% gain on one and got 10% loss on the other. His overall gain or loss percentage is",
+    "options": [
+      "1% gain",
+      "1% loss",
+      "2% gain",
+      "No loss, no gain"
+    ],
+    "correct": 2,
+    "question_te": "ఒక దుకాణదారుడు రెండు టివీలను ఒక్కొక్కటి రూ.9900 లకు అమ్మేను. మొదటి దానిపై 10% లాభం, రెండవ దానిపై 10% నష్టం వచ్చిన మొత్తం మీద అతనికి వచ్చే లాభం లేదా నష్టశాతం.",
+    "options_te": [
+      "1% లాభం",
+      "1% నష్టం",
+      "2% లాభం",
+      "నష్టం లేదు, లాభం లేదు"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Mathematics",
+    "question": "A man spends 80% of his incomes. This income is increased by 20% and he increases his expenditure by 10%. By what percent are his savings increased?",
+    "options": [
+      "30%",
+      "40%",
+      "50%",
+      "60%"
+    ],
+    "correct": 4,
+    "question_te": "ఒక వ్యక్తి తన ఆదాయంలో 80% ఖర్చు చేసెను. ఆదాయం 20% పెరగడం వలన అతడు తన ఖర్చు కూడా 10% పెంచెను. అయితే అతని పొదుపులో పెరుగుదల శాతం ఎంత?",
+    "options_te": [
+      "30%",
+      "40%",
+      "50%",
+      "60%"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Mathematics",
+    "question": "Whose classification of values contains 'attitudes' as common value?\na) Black Harst\nb) Breslich\nc) Young\nd) Schorling",
+    "options": [
+      "a, b, c only",
+      "a, c, d only",
+      "a, b, d only",
+      "b, c, d only"
+    ],
+    "correct": 3,
+    "question_te": "ఎవరి వర్గీకరణలో గణిత విద్యా విలువగా — దృక్పథాలు, ఉన్నాయి?\na) బ్లాక్ హర్స్ట్స్\nb) బ్రెస్లిచ్\nc) యంగ్\nd) స్కార్లింగ్",
+    "options_te": [
+      "a, b, c only",
+      "a, c, d only",
+      "a, b, d only",
+      "b, c, d only"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Mathematics",
+    "question": "'Skills are taught and concepts are caught.' Who said it?",
+    "options": [
+      "P.K. Srinivasan",
+      "Srinivasa Ramanujan",
+      "C.R. Rao",
+      "P.L. Bhatnagar"
+    ],
+    "correct": 1,
+    "question_te": "'నైపుణ్యాలు నేర్పబడతాయి, భావనలు స్వీకరించబడతాయి' అని చెప్పినదెవరు?",
+    "options_te": [
+      "పి.కె. శ్రీనివాసన్",
+      "శ్రీనివాస రామానుజన్",
+      "సి.ఆర్.రావు",
+      "పి.యల్. భట్నాఘర్"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Mathematics",
+    "question": "Identify the item that is not included in the Unit plan.",
+    "options": [
+      "Content Analysis",
+      "Teaching learning material",
+      "Teaching method",
+      "Objectives specification"
+    ],
+    "correct": 3,
+    "question_te": "సమగ్ర యూనిట్ పథకంలో లేని అంశం",
+    "options_te": [
+      "విషయ విశ్లేషణ",
+      "బోధనాభ్యసన సామగ్రి",
+      "బోధనా పద్ధతి",
+      "లక్ష్యాలు, స్పష్టీకరణలు"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Mathematics",
+    "question": "The Evaluation tool that reflects a student's personality is",
+    "options": [
+      "Check list",
+      "Rating scale",
+      "Anecdodal record",
+      "Questionnaire"
+    ],
+    "correct": 3,
+    "question_te": "ఒక విద్యార్థి యొక్క వ్యక్తిత్వం ప్రతిబింబించే మూల్యాంకనా సాధనము",
+    "options_te": [
+      "చెక్ లిస్టు",
+      "రేటింగు స్కేలు",
+      "ఏనక్డోడల్ రికార్డు",
+      "ప్రశ్నావళి"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Physical Science",
+    "question": "The volume of a cube with side 1m is",
+    "options": [
+      "10^6 cm^3",
+      "10^3 cm^3",
+      "10^-3 cm^3",
+      "10^-6 cm^3"
+    ],
+    "correct": 1,
+    "question_te": "భుజం పొడవు 1 మీటరు గల సమఘనపు ఘనపరిమాణం",
+    "options_te": [
+      "10^6 cm^3",
+      "10^3 cm^3",
+      "10^-3 cm^3",
+      "10^-6 cm^3"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Physical Science",
+    "question": "Incorrect relation among the following is",
+    "options": [
+      "speed = distance/time",
+      "distance = speed × time",
+      "time = distance/speed",
+      "speed = distance × time"
+    ],
+    "correct": 4,
+    "question_te": "కింది వానిలో సరికాని సంబంధము.",
+    "options_te": [
+      "వడి = దూరం/కాలం",
+      "దూరం = వడి × కాలం",
+      "కాలం = దూరం/వడి",
+      "వడి = దూరం × కాలం"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Physical Science",
+    "question": "The correct pair of quantities having same units among the following is",
+    "options": [
+      "Energy, power",
+      "Power, pressure",
+      "Work, energy",
+      "Pressure, work"
+    ],
+    "correct": 3,
+    "question_te": "కింది వానిలో ఒకే ప్రమాణాలు గల రాశుల సరైన జత",
+    "options_te": [
+      "శక్తి, సామర్థ్యం",
+      "సామర్థ్యం, పీడనం",
+      "పని, శక్తి",
+      "పీడనం, పని"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Physical Science",
+    "question": "Characteristics of the image formed by the upper surface of a cycle bell",
+    "options": [
+      "Real, inverted, enlarged",
+      "Virtual, inverted, enlarged",
+      "Real, erected, diminished",
+      "Virtual, erected, diminished"
+    ],
+    "correct": 4,
+    "question_te": "సైకిల్ బెల్ యొక్క బాహ్యఉపరితలం ఏర్పరచు ప్రతిబింబ లక్షణాలు",
+    "options_te": [
+      "నిజ, తలక్రిందులైన, వృద్దీకృత",
+      "మిధ్యా, తలక్రిందులైన, వృద్దీకృత",
+      "నిజ, నిటారైన, క్షయాకృత",
+      "మిధ్యా, నిటారైన, క్షయాకృత"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Physical Science",
+    "question": "Most suitable material for making heating elements is",
+    "options": [
+      "Nichrome",
+      "Copper",
+      "Aluminium",
+      "Magnesium"
+    ],
+    "correct": 1,
+    "question_te": "హీటింగ్ ఎలిమెంట్ల తయారీకి బాగా అనువైన పదార్థం",
+    "options_te": [
+      "నిక్రోమ్",
+      "రాగి",
+      "అల్యూమినియం",
+      "మెగ్నీషియం"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Physical Science",
+    "question": "Relation between average kinetic energy (K.E) of the molecules in an object and its absolute temperature (T) is",
+    "options": [
+      "K.E ∝ T^2",
+      "K.E ∝ T",
+      "K.E ∝ 1/T^2",
+      "K.E ∝ 1/T"
+    ],
+    "correct": 2,
+    "question_te": "ఒక వస్తువులోని అణువుల సరాసరి గతిశక్తి (K.E), దాని పరమ ఉష్ణోగ్రతకు (T) మధ్య సంబంధం",
+    "options_te": [
+      "K.E ∝ T^2",
+      "K.E ∝ T",
+      "K.E ∝ 1/T^2",
+      "K.E ∝ 1/T"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Physical Science",
+    "question": "A wave has a wave length of 55 cm and frequency of 4 KHz. The distance it will travel in 6 seconds",
+    "options": [
+      "13200 m",
+      "1320 m",
+      "1320 km",
+      "13200 km"
+    ],
+    "correct": 1,
+    "question_te": "ఒక తరంగం 55 సెంటీమీటర్ల తరంగదైర్ఘ్యాన్ని మరియు 4 కిలో హెర్ట్జ్ పౌనఃపున్యాన్ని కలిగి ఉంది. అది 6 సెకండ్ల కాలంలో ప్రయాణించు దూరం",
+    "options_te": [
+      "13200 m",
+      "1320 m",
+      "1320 km",
+      "13200 km"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Physical Science",
+    "question": "Choose the correct answer.\nA : Animal fats generally contain unsaturated fatty acids and they are harmful for health.\nB : Oils containing saturated fatty acids should be choosen for cooking.",
+    "options": [
+      "Both A and B are correct",
+      "Both A and B are incorrect",
+      "A is correct, B is incorrect",
+      "A is incorrect, B is correct"
+    ],
+    "correct": 2,
+    "question_te": "సరియైన సమాధానమును ఎంచుకోండి.\nA : జంతువుల కొవ్వులు సాధారణంగా అసంతృప్త ఫాటీ ఆమ్లాలను కలిగి ఉంటాయి మరియు అవి ఆరోగ్యానికి హానికరం.\nB : సంతృప్త ఫాటీ ఆమ్లాలు కలిగిన నూనెలను వంటల కోసం ఎంచుకోవాలి.",
+    "options_te": [
+      "Both A and B are correct",
+      "Both A and B are incorrect",
+      "A is correct, B is incorrect",
+      "A is incorrect, B is correct"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Physical Science",
+    "question": "Cinnabar is",
+    "options": [
+      "An Oxide ore of Copper",
+      "A Sulphide ore of Zinc",
+      "An Oxide ore of Mercury",
+      "A Sulphide ore of Mercury"
+    ],
+    "correct": 4,
+    "question_te": "సిన్నబార్ అనేది",
+    "options_te": [
+      "కాపర్ యొక్క ఆక్సైడ్ దాతువు",
+      "జింక్ యొక్క సల్ఫైడ్ దాతువు",
+      "పాదరసం యొక్క ఆక్సైడ్ దాతువు",
+      "పాదరసం యొక్క సల్ఫైడ్ దాతువు"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Physical Science",
+    "question": "Due to the reaction between copper sulphate solution and iron, the change in the colour of the solution is",
+    "options": [
+      "blue to brown",
+      "blue to green",
+      "brown to blue",
+      "green to blue"
+    ],
+    "correct": 2,
+    "question_te": "కాపర్ సల్ఫేట్ ద్రావణం మరియు ఇనుము మధ్య చర్య కారణంగా, ద్రావణం రంగులోని మార్పు",
+    "options_te": [
+      "నీలం నుండి గోధుమ రంగు",
+      "నీలం నుండి ఆకుపచ్చ రంగు",
+      "గోధుమ రంగు నుండి నీలం",
+      "ఆకుపచ్చ రంగు నుండి నీలం"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Physical Science",
+    "question": "In ammonia by mass, the ratio of Nitrogen and Hydrogen by mass is",
+    "options": [
+      "7 : 1",
+      "1 : 7",
+      "14 : 3",
+      "3 : 14"
+    ],
+    "correct": 3,
+    "question_te": "అమ్మోనియాలోని నైట్రోజన్ మరియు హైడ్రోజన్ల భార నిష్పత్తి",
+    "options_te": [
+      "7 : 1",
+      "1 : 7",
+      "14 : 3",
+      "3 : 14"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Physical Science",
+    "question": "Match the following.\na) Polyester i) Prepared by using wood pulp\nb) PET ii) Used for making parachutes and ropes for climbing\nc) Rayon iii) Used for making bottles, utensils and films\nd) Nylon iv) Fabrics do not wrinkle easily",
+    "options": [
+      "a-i b-ii c-iii d-iv",
+      "a-ii b-iii c-iv d-i",
+      "a-iii b-iv c-ii d-i",
+      "a-iv b-iii c-i d-ii"
+    ],
+    "correct": 4,
+    "question_te": "కింది వానిని జతపరచండి.\na) పాలిస్టర్ i) కలప గుజ్జుతో తయారైనది\nb) PET ii) పారాషూట్లు మరియు పర్వతారోహణకు వాడే తాళ్ళు తయారీకి ఉపయోగిస్తారు\nc) రేయాన్ iii) సీసాలు, వంట పరికరాలు మరియు ఫిల్ముల తయారీకి ఉపయోగిస్తారు\nd) నైలాన్ iv) దుస్తులు త్వరగా ముడుచుకోవు",
+    "options_te": [
+      "a-i b-ii c-iii d-iv",
+      "a-ii b-iii c-iv d-i",
+      "a-iii b-iv c-ii d-i",
+      "a-iv b-iii c-i d-ii"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Physical Science",
+    "question": "Find out the odd one\n1) Anodising → Attractive aluminium articles\n2) Acid + Base → Neutralisation\n3) Zinc oxide → Amphoteric oxide\n4) Sulphur dioxide → Basic in nature",
+    "options": [
+      "Anodising → Attractive aluminium articles",
+      "Acid + Base → Neutralisation",
+      "Zinc oxide → Amphoteric oxide",
+      "Sulphur dioxide → Basic in nature"
+    ],
+    "correct": 4,
+    "question_te": "వేరుగా ఉన్న దానిని గుర్తించండి.\n1) అనోడీకరణ → ఆకర్షణీయమైన అల్యూమినియం వస్తువులు\n2) ఆమ్లం + క్షారం → తటస్థీకరణం\n3) జింక్ ఆక్సైడ్ → యాంఫోటెరిక్ (ద్వి స్వభావ) ఆక్సైడ్\n4) సల్ఫర్ డై ఆక్సైడ్ → క్షారస్వభావం",
+    "options_te": [
+      "అనోడీకరణ → ఆకర్షణీయమైన అల్యూమినియం వస్తువులు",
+      "ఆమ్లం + క్షారం → తటస్థీకరణం",
+      "జింక్ ఆక్సైడ్ → యాంఫోటెరిక్ (ద్వి స్వభావ) ఆక్సైడ్",
+      "సల్ఫర్ డై ఆక్సైడ్ → క్షారస్వభావం"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Physical Science",
+    "question": "Incorrect statement among the following.",
+    "options": [
+      "Air occupies space",
+      "Air is present everywhere around us",
+      "Air has no colour",
+      "Air is an opaque substance"
+    ],
+    "correct": 4,
+    "question_te": "కింది వాక్యాలలో సరికానిది",
+    "options_te": [
+      "గాలి స్థలాన్ని ఆక్రమిస్తుంది",
+      "గాలి మన చుట్టూ ఉన్న అన్ని ప్రదేశాల్లో ఉంటుంది",
+      "గాలికి రంగు లేదు",
+      "గాలి ఒక అపారదర్శక పదార్థం"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Physical Science",
+    "question": "Calorific value means",
+    "options": [
+      "Amount of heat energy produced on complete combustion of 1 kg of a fuel",
+      "Amount of heat energy produced on complete combustion of 1 gram of a fuel",
+      "Amount of heat energy produced on complete combustion of 100 kg of a fuel",
+      "Amount of heat energy produced on complete combustion of 100 grams of a fuel"
+    ],
+    "correct": 1,
+    "question_te": "కెలోరిఫిక్ విలువ అనగా",
+    "options_te": [
+      "1 కి.గ్రా. ఇంధనం పూర్తిగా దహనం చెందడం వల్ల ఉత్పత్తి అయ్యే ఉష్ణశక్తి",
+      "1 గ్రాము ఇంధనం పూర్తిగా దహనం చెందడం వల్ల ఉత్పత్తి అయ్యే ఉష్ణశక్తి",
+      "100 కి.గ్రా. ఇంధనం పూర్తిగా దహనం చెందడం వల్ల ఉత్పత్తి అయ్యే ఉష్ణశక్తి",
+      "100 గ్రాము ఇంధనం పూర్తిగా దహనం చెందడం వల్ల ఉత్పత్తి అయ్యే ఉష్ణశక్తి"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Physical Science",
+    "question": "This Educational Commission recommended that science, mathematics should be teach as core subjects from middle, secondary schools.",
+    "options": [
+      "Sargent Report",
+      "Ramaswami Committee",
+      "Tara Devi Committee",
+      "Modaliar Commission"
+    ],
+    "correct": 4,
+    "question_te": "ఈ విద్యా కమిషన్ మాధ్యమిక, సెకండరీ పాఠశాలలో సామాన్య శాస్త్రం, గణిత సబ్జెక్టులను తప్పనిసరి మూల అంశాలుగా బోధించాలి అని తెలిపింది.",
+    "options_te": [
+      "సార్జెంట్ రిపోర్ట్",
+      "రామస్వామి కమిటీ",
+      "తారా దేవి కమిటీ",
+      "మొదలియార్ కమిషన్"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Physical Science",
+    "question": "Choose correct sentences regarding Anderson-Crawthwol classification of Educational Objectives.\n(a) Priority will be given for both content and learning process\n(b) knowledge will be four types\n(c) knowledge can be understood in 24 types in two dimensional method\n(d) Meta Cognition replaced by synthesis",
+    "options": [
+      "b, c, d only",
+      "a, b, c only",
+      "a, b, d only",
+      "c, d only"
+    ],
+    "correct": 2,
+    "question_te": "ఆండర్ సన్ మరియు క్రాత్ వోల్ విద్యా లక్ష్యాల వర్గీకరణకు సంబంధించి సరయిన వాక్యాలను గుర్తించండి.\n(a) నేర్చుకోబోయే విషయంతో పాటూ నేర్చుకునే విధానానికి కూడా ప్రాధాన్యత వుంటుంది.\n(b) జ్ఞానం నాలుగు రీతులలో ఉంటుంది.\n(c) ద్విపరిమాణ పద్ధతిలో జ్ఞానాన్ని 24 విధాలుగా అర్ధంచేసుకోవచ్చు.\n(d) సంశ్లేషణ స్థానాన్ని అది సంజ్ఞానాత్మకత భర్తీ చేసింది.",
+    "options_te": [
+      "b, c, d only",
+      "a, b, c only",
+      "a, b, d only",
+      "c, d only"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Physical Science",
+    "question": "Choose correct sentences regarding Project method\n(a) Depends on Learning by practice/implementation Principle\n(b) This follows Pragmatism\n(c) First this method was implemented by John Dewey\n(d) Carl Pearson prepared steps for this method",
+    "options": [
+      "a, b, c, d",
+      "b, c, d only",
+      "a, b only",
+      "a, c, d only"
+    ],
+    "correct": 4,
+    "question_te": "ప్రకల్పన పద్ధతికి సంబంధించి సరైన వాక్యాలు గుర్తించండి\n(a) ఆచరణ ద్వారా అభ్యసనం అనే సూత్రం పై ఆధారపడినది.\n(b) వ్యావహారిక సత్తావాదాన్ని అనుసరిస్తుంది.\n(c) జాన్ డ్యూయి మొదటిసారి ఈ పద్ధతిని అమలుచేశాడు.\n(d) కార్ల్ పియర్సన్ ఈ పద్ధతికి సోపానాలు ఏర్పరిచాడు.",
+    "options_te": [
+      "a, b, c, d",
+      "b, c, d only",
+      "a, b only",
+      "a, c, d only"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Physical Science",
+    "question": "Choose correct matching regarding teaching learning materials\ni) Graphic materials a) Peg boards\nii) Display boards b) Puppets\niii) 3-D materials c) Cartoons\niv) Activity based materials d) Field trips",
+    "options": [
+      "i-b ii-a iii-c iv-d",
+      "i-c ii-d iii-b iv-a",
+      "i-a ii-c iii-b iv-d",
+      "i-c ii-a iii-b iv-d"
+    ],
+    "correct": 4,
+    "question_te": "బోధనోపకరణాలకు సంబంధించి సరిగా జతపరిచిన దానిని గుర్తించండి.\ni) గ్రాఫిక్ ఉపకరణాలు a) పెగ్ బోర్డు\nii) ప్రదర్శన బల్లలు b) తోలు బొమ్మలు\niii) త్రిమితీయ ఉపకరణాలు c) కార్టూన్లు\niv) కృత్యాధార ఉపకరణాలు d) క్షేత్ర పర్యటనలు",
+    "options_te": [
+      "i-b ii-a iii-c iv-d",
+      "i-c ii-d iii-b iv-a",
+      "i-a ii-c iii-b iv-d",
+      "i-c ii-a iii-b iv-d"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Biology",
+    "question": "The small bones called carpels are seen in",
+    "options": [
+      "Knee",
+      "Wrist",
+      "Neck",
+      "Back bone"
+    ],
+    "correct": 2,
+    "question_te": "కార్పుల్స్ అనే చిన్న ఎముకలు ఉండే భాగం",
+    "options_te": [
+      "మోకాలు",
+      "మణికట్టు",
+      "మెడ",
+      "వెన్నెముక"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Biology",
+    "question": "Find the correct pair of animals that do not have gills.",
+    "options": [
+      "Octopus, Squid",
+      "Dolphin, Whale",
+      "Shark, Octopus",
+      "Squid, Dolphin"
+    ],
+    "correct": 2,
+    "question_te": "మొప్పలు కలిగి ఉండని జీవుల సరియైన జతను గుర్తించండి.",
+    "options_te": [
+      "ఆక్టోపస్, స్క్విడ్",
+      "డాల్ఫిన్, తిమింగలం",
+      "షార్క్, ఆక్టోపస్",
+      "స్క్విడ్, డాల్ఫిన్"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Biology",
+    "question": "The digestive juice that acts on proteins, carbohydrates and fats is",
+    "options": [
+      "Saliva",
+      "Gastric juice",
+      "Pancreatic juice",
+      "Bile"
+    ],
+    "correct": 3,
+    "question_te": "మాంసకృత్తులు, పిండి పదార్థాలు మరియు కొవ్వు పదార్థాలపై చర్య జరిపే జీర్ణరసం",
+    "options_te": [
+      "లాలాజలం",
+      "జఠర రసం",
+      "క్లోమ రసం",
+      "పైత్య రసం"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Biology",
+    "question": "Examples for onsite sewage disposal systems\na) Open drains\nb) Septic tanks\nc) Closed drains\nd) Compost pits",
+    "options": [
+      "a & c only",
+      "b & c only",
+      "b & d only",
+      "c & d only"
+    ],
+    "correct": 3,
+    "question_te": "అక్కడికక్కడే మురుగు పారవేయు పద్ధతికి ఉదాహరణలు\na) మురుగు కాలువలు\nb) సెప్టిక్ ట్యాంక్లు\nc) మూసి ఉంచిన మురుగు కాలువలు\nd) కంపోస్ట్ గుంతలు",
+    "options_te": [
+      "a & c only",
+      "b & c only",
+      "b & d only",
+      "c & d only"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Biology",
+    "question": "Find the correct statement about cloning",
+    "options": [
+      "In cloning egg cell and sperm cell are fertilized in the test tube",
+      "In cloning both male and female animals are required",
+      "The new born organism is having the characters of both of their parents.",
+      "The new born organism is having the characters of nucleus donor."
+    ],
+    "correct": 4,
+    "question_te": "క్లోనింగ్కు సంబంధించిన సరియైన వాక్యాన్ని గుర్తించండి.",
+    "options_te": [
+      "క్లోనింగ్లో అండం మరియు శుక్రకణాలను పరీక్ష నాళిక యందు ఫలదీకరణం చెందిస్తారు.",
+      "క్లోనింగ్ ప్రక్రియకు స్త్రీ, పురుష జీవులు రెండూ అవసరం.",
+      "కొత్తగా ఏర్పడిన పిల్లజీవులు ఇరువురు తల్లిదండ్రుల లక్షణాలను కలిగి ఉంటాయి.",
+      "కొత్తగా ఏర్పడిన పిల్లజీవికి కేంద్రకం సేకరించిన జీవి లక్షణాలను కలిగి ఉందును."
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Biology",
+    "question": "This wild animal does not belong to Satpura reserve\na) Giant Squirrel\nb) Barasingha\nc) Wild buffalo\nd) Barking deer",
+    "options": [
+      "a, b only",
+      "b, c only",
+      "c, d only",
+      "a, d only"
+    ],
+    "correct": 4,
+    "question_te": "సాత్పూరా రిజర్వ్నకు చెందని వన్యప్రాణి\na) పెద్ద ఉడుత\nb) బారాసింగా\nc) అడవి దున్న\nd) మొరిగే జింక",
+    "options_te": [
+      "a, b only",
+      "b, c only",
+      "c, d only",
+      "a, d only"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Biology",
+    "question": "Choose correct answer.\nAssertion A: The thinking process of the brain is not fast enough.\nAssertion B: Reflex arcs are more efficient for quick responses.",
+    "options": [
+      "A & B both are correct",
+      "A & B both are incorrect",
+      "A is incorrect",
+      "B is incorrect"
+    ],
+    "correct": 1,
+    "question_te": "సరైన సమాధానాన్ని రాయండి.\nప్రవచనం A: మెదడు యొక్క ఆలోచనా ప్రక్రియ తగినంత వేగవంతమైనది కాదు.\nప్రవచనం B: త్వరితగతిన చూపే ప్రతిస్పందనలకు అసంకల్పిత ప్రతీకార చర్యాచాపాలు అధిక సమర్థవంతమైనవి.",
+    "options_te": [
+      "A & B both are correct",
+      "A & B both are incorrect",
+      "A is incorrect",
+      "B is incorrect"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Biology",
+    "question": "Identify A, B, C, D.\nPlants: Larger germ cell –A, Smaller germ cell – B\nAnimals: Larger germ cell – C, Smaller germ Cell – D",
+    "options": [
+      "A-Ovum B-Sperm cell C-Pollen grain D-Ovule",
+      "A-Pollengrain B-Ovule C-Ovum D-Sperm cell",
+      "A-Ovule B-Pollengrain C-Ovum D-Sperm cell",
+      "A-Ovum B-Sperm cell C-Ovule D-Pollengrain"
+    ],
+    "correct": 3,
+    "question_te": "A, B, C, D లను గుర్తించండి.\nమొక్కలు: పెద్ద బీజ కణం – A, చిన్న బీజకణం – B\nజంతువులు: పెద్ద బీజకణం – C, చిన్న బీజకణం – D",
+    "options_te": [
+      "A-అండం B-శుక్రకణం C-పరాగరేణువు D-అండం",
+      "A-పరాగరేణువు B-అండంC- అండం D-శుక్రకణం",
+      "A-అండం B-పరాగరేణువుC- అండం D-శుక్రకణం",
+      "A-అండం B-శుక్రకణంC- అండం D-పరాగరేణువు"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Biology",
+    "question": "A school started a practice of not using plastic and polythene material and avoided throwing them in garbage pits. Later a rapid decomposition was observed in the garbage pits. What may be the reason?",
+    "options": [
+      "Plastic and polythene may reduce the population of decomposers.",
+      "Plastic & Polythene release harmful chemicals that ceases the action of decomposers.",
+      "Plastic & Polythene are non-biodegradable, hence they remain in the garbage pits.",
+      "Plastic & polythene cause pollution in the garbage pits hinding decomposition."
+    ],
+    "correct": 3,
+    "question_te": "ఒక పాఠశాల ప్లాస్టిక్ మరియు పాలిథీన్ వాడకాన్ని, వాటిని చెత్తను వేసే గుంతలలో పారవేయడం నిషేధించింది. తదుపరి చెత్తను వేసే గుంతలో వ్యర్థాలు త్వరితగతిన విచ్ఛిన్నం చెందడాన్ని గమనించారు. కారణం ఏమై ఉండవచ్చు.",
+    "options_te": [
+      "ప్లాస్టిక్ మరియు పాలిథీన్లు విచ్ఛిన్నకారుల జనాభాను తగ్గిస్తాయి.",
+      "ప్లాస్టిక్ మరియు పాలిథీన్లు హానికర రసాయనాలను విడుదల చేసి విచ్ఛిన్నకారుల చర్యలను అపివేస్తాయి.",
+      "ప్లాస్టిక్ మరియు పాలిథీన్లు నేలలో కలిసిపోని వ్యర్థాలు ఇవి చెత్త గుంతలలో అలాగే ఉండిపోతాయి.",
+      "ప్లాస్టిక్ మరియు పాలిథీన్లు చెత్త గుంతలలో కాలుష్యాన్ని కలుగచేసి, విచ్ఛిన్న ప్రక్రియను నెమ్మదింపచేస్తాయి."
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Biology",
+    "question": "a) The nucleus in a cell is made up of a single layered nuclear membrane.\nb) The nuclear membrane has pores and allows transfer of materials.\nIdentify the correct option.",
+    "options": [
+      "Both a and b are true",
+      "a is true and b is false",
+      "b is true and a is false",
+      "Both a and b are false."
+    ],
+    "correct": 3,
+    "question_te": "a) కేంద్రకాన్ని ఒకే పొరగల కేంద్రక త్వచం అవరించి ఉంటుంది.\nb) కేంద్రక త్వచం పదార్థాల బదిలీ కొరకు సూక్ష్మరంధ్రాలు కలిగి ఉందును.\nసరైన ఎంపిక చేయండి.",
+    "options_te": [
+      "Both a and b are true",
+      "a is true and b is false",
+      "b is true and a is false",
+      "Both a and b are false."
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Biology",
+    "question": "These pair of cells have thick walls, are tubular and mostly dead when mature.",
+    "options": [
+      "Tracheids and Xylem fibres",
+      "Xylem parenchyma and xylem fibres",
+      "Vessels and xylem fibres",
+      "Trachieds and vessels"
+    ],
+    "correct": 4,
+    "question_te": "నాళాలవలే ఉండి దళసరి కణకవచంతో పరిణితి చెందిన మీదట నిర్జీవంగా మారే కణాల జత",
+    "options_te": [
+      "దారుకణాలు మరియు దారు తంతువులు",
+      "దారుమృదుకణజాలం మరియు దారు తంతువులు",
+      "దారునాళాలు మరియు దారు తంతువులు",
+      "దారుకణాలు మరియు దారునాళాలు"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Biology",
+    "question": "This is not a preventive weed control method.",
+    "options": [
+      "Proper seed bed preparation",
+      "Timely sowing of crops",
+      "Intercropping and crop rotation",
+      "Mechanical removal"
+    ],
+    "correct": 4,
+    "question_te": "నియంత్రిత కలుపు నివారణా పద్ధతి కానిది.",
+    "options_te": [
+      "సరైన విత్తన బెడ్ తయారీ",
+      "సమయానికి పంటలు విత్తడం",
+      "అంతరపంటలు మరియు పంట మార్పిడి",
+      "యాంత్రిక తొలగింపు"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Biology",
+    "question": "Transfer of pollen grains from the anther to the stigma of another flower of the same plant is called",
+    "options": [
+      "Autogamy",
+      "Xenogamy",
+      "Geitonogamy",
+      "Mesogamy"
+    ],
+    "correct": 3,
+    "question_te": "ఒక పుష్పం పరాగకోశంలోని పరాగ రేణువులు అదే మొక్కపై ఉన్న వేరొక పుష్పం కీలాగ్రాన్ని చేరడమే",
+    "options_te": [
+      "స్వయం సంయోగం",
+      "భిన్నవృక్ష పరపరాగ సంపర్కం",
+      "ఏక వృక్ష పరపరాగ సంపర్కం",
+      "మధ్యసంయోగం"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Biology",
+    "question": "A group of cell bodies in the peripheral nervous system are called",
+    "options": [
+      "Nucleus",
+      "Ganglion",
+      "Tracts",
+      "Nerves"
+    ],
+    "correct": 2,
+    "question_te": "పరిధీయ నాడీ వ్యవస్థలో ఉన్న కణదేహ సమూహాలను ఇలా పిలుస్తారు.",
+    "options_te": [
+      "కేంద్రకం",
+      "గాంగ్లియాన్",
+      "నాడీ మార్గం",
+      "నాడులు"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Biology",
+    "question": "Identify the auxins isolated from plants.",
+    "options": [
+      "IAA & NAA",
+      "IBA & IAA",
+      "NAA & 2, 4-D",
+      "IBA & 2, 4-D"
+    ],
+    "correct": 2,
+    "question_te": "మొక్కల నుండి వేరుచేసిన ఆక్సిన్లను గుర్తించండి.",
+    "options_te": [
+      "IAA & NAA",
+      "IBA & IAA",
+      "NAA & 2, 4-D",
+      "IBA & 2, 4-D"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Biology",
+    "question": "Identify the correct matching pair.",
+    "options": [
+      "Hypothalamus - Somatocrinin, Somatotropin",
+      "Pituitary gland - Somatostatin, TSH",
+      "Adrenal gland - Epinephrine, nor-epinephrine",
+      "Pancreas - Insulin, melatonin"
+    ],
+    "correct": 3,
+    "question_te": "సరిగ్గా జతపరచినదానిని గుర్తించండి.",
+    "options_te": [
+      "హైపోథలామస్ - సామాటోక్రైనిన్, సామాటోట్రోపిన్",
+      "పీయూష గ్రంధి - సామాటోస్టాటిన్, TSH",
+      "అధివృక్క గ్రంధి - ఎపినెఫ్రిన్, నార్-ఎపినెఫ్రిన్",
+      "క్లోమం - ఇన్సులిన్, మెలటోనిన్"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Biology",
+    "question": "\"Mendel's theory later became the basis for the discovery of genes.\" This sentence indicates the characters of science is",
+    "options": [
+      "Science is a process",
+      "Science is a product",
+      "Science is organized commonsense",
+      "Science is a cumulative knowledge"
+    ],
+    "correct": 4,
+    "question_te": "'మెండల్ సిద్ధాంతం తరువాతి కాలంలో జన్యువులను కనుగొనడానికి దోహదపడింది'. ఈ వాక్యం తెలియజేయు విజ్ఞానశాస్త్ర లక్షణం",
+    "options_te": [
+      "విజ్ఞానశాస్త్రం ఒక ప్రక్రియ",
+      "విజ్ఞానశాస్త్రం ఒక ఉత్పత్తి",
+      "విజ్ఞానశాస్త్రం వ్యవస్థీకృతమైన లోకజ్ఞత",
+      "విజ్ఞానశాస్త్రం సంచిత జ్ఞానం"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Biology",
+    "question": "Which of the following tells about utilitarian value of Biology",
+    "options": [
+      "Taking decisions indiscriminately",
+      "Useful for comfortable living",
+      "Increase job opportunities",
+      "Aspire wellbeing of all living beings"
+    ],
+    "correct": 2,
+    "question_te": "కింది వానిలో జీవ శాస్త్రం యొక్క 'ఉపయోగిక విలువ'ను తెలియజేయునది",
+    "options_te": [
+      "నిష్పాక్షికంగా నిర్ణయాలు చేయగలుగుట",
+      "సుఖ జీవనం సాగించుటకు ఉపయోగపడుట",
+      "ఉద్యోగ అవకాశాలు పెంపొందించుట",
+      "సకల జీవ రాశుల శ్రేయస్సును ఆకాంక్షించుట"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Biology",
+    "question": "Choose correct matching regarding educational objectives with verbs as per Anderson's classification.\ni) Remembering a) Interpret, Solve\nii) Understanding b) Predict, Compare\niii) Applying c) match, Define\niv) Analyzing d) Advertise, Take a part",
+    "options": [
+      "i-a ii-b iii-d iv-c",
+      "i-b ii-a iii-c iv-d",
+      "i-c ii-b iii-a iv-d",
+      "i-c ii-a iii-d iv-b"
+    ],
+    "correct": 3,
+    "question_te": "అండర్సన్ వర్గీకరణ ప్రకారం విద్యా లక్ష్యాలు వాటి క్రియా పదాలతో సరిగా జతపరచిన దానిని గుర్తించండి\ni) జ్ఞాపకం ఉంచుకోవడం a) వ్యాఖ్యానించడం, పరిష్కరించడం\nii) అవగాహన చేసుకోవడం b) ఊహించడం, సరిపోల్చడం\niii) అన్వయించడం c) జతపరచడం, నిర్వచించడం\niv) విశ్లేషించడం d) ప్రకటించడం, పాల్గొనడం",
+    "options_te": [
+      "i-a ii-b iii-d iv-c",
+      "i-b ii-a iii-c iv-d",
+      "i-c ii-b iii-a iv-d",
+      "i-c ii-a iii-d iv-b"
+    ]
+  },
+  {
+    "year": 2026,
+    "paper": "AP TET Paper 2A (Maths & Science), 16th August 2026 Shift 1",
+    "subject": "Biology",
+    "question": "Lesson Plan writing on the basis of Tri polar process- Educational objectives, Learning experiences, Evaluation-belong to this method",
+    "options": [
+      "Herbert method",
+      "Bloom's method",
+      "Constructivist approach",
+      "Integrated approach"
+    ],
+    "correct": 2,
+    "question_te": "విద్యా లక్ష్యాలు, అభ్యసన అనుభవాలు, మూల్యాంకనం అను మూడు ధ్రువాల రూపంలో పాఠ్య పథక రచన చేయడం ఈ విధానానికి చెందుతుంది.",
+    "options_te": [
+      "హెర్బర్ట్ పద్ధతి",
+      "బ్లూమ్స్ పద్ధతి",
+      "నిర్మాణాత్మక అభ్యసన పద్ధతి",
+      "సమ్మిళిత పద్ధతి"
+    ]
   }
 ];
 

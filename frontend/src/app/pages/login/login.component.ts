@@ -27,18 +27,23 @@ import { AuthService } from '../../services/auth.service';
 
           <div class="cta-banner">
             <p class="cta-title">📝 Preparing for AP TET 2026?</p>
+            <p class="cta-title-te">2026 APTET కోసం సిద్ధమవుతున్నారా?</p>
             <p class="cta-text">Create your free account and start practicing 2 official papers right away — no payment needed.</p>
-            <a routerLink="/signup" class="cta-button">Create Free Account →</a>
+            <p class="cta-text-te">మీ ఉచిత ఖాతాను సృష్టించి, చెల్లింపు అవసరం లేకుండా వెంటనే 2 అధికారిక పేపర్లను ప్రాక్టీస్ చేయడం ప్రారంభించండి.</p>
+            <a routerLink="/signup" class="cta-button">
+              <span class="cta-button-en">Create Free Account →</span>
+              <span class="cta-button-te">ఉచిత ఖాతా సృష్టించండి →</span>
+            </a>
           </div>
 
           <div class="demo">
-            <p class="demo-title"><strong>Demo logins</strong></p>
+            <p class="demo-title"><strong>Demo logins</strong> <span class="demo-title-te">(డెమో లాగిన్‌లు)</span></p>
 
-            <p class="demo-role">Teacher login</p>
+            <p class="demo-role">Teacher login <span class="demo-role-te">(టీచర్ లాగిన్)</span></p>
             <p>Username: teacher&#64;vb</p>
             <p>Password: teacher123</p>
 
-            <p class="demo-role">Parent login</p>
+            <p class="demo-role">Parent login <span class="demo-role-te">(పేరెంట్ లాగిన్)</span></p>
             <p>Username: parent&#64;vb</p>
             <p>Password: parent123</p>
           </div>
@@ -167,6 +172,12 @@ import { AuthService } from '../../services/auth.service';
         color: #2c4870;
         font-weight: bold;
       }
+      .demo-title-te,
+      .demo-role-te {
+        font-weight: 500;
+        color: #999;
+        font-size: 0.95em;
+      }
       .cta-banner {
         margin-top: 1.5rem;
         padding: 1.1rem 1.1rem 1.2rem;
@@ -176,28 +187,51 @@ import { AuthService } from '../../services/auth.service';
         text-align: center;
       }
       .cta-title {
-        margin: 0 0 0.35rem;
+        margin: 0 0 0.15rem;
         color: #6b4a1a;
         font-size: 0.95rem;
         font-weight: bold;
       }
+      .cta-title-te {
+        margin: 0 0 0.35rem;
+        color: #8a6a3a;
+        font-size: 0.85rem;
+        font-weight: 600;
+      }
       .cta-text {
-        margin: 0 0 0.9rem;
+        margin: 0 0 0.2rem;
         color: #8a6a3a;
         font-size: 0.8rem;
         font-weight: 500;
         line-height: 1.35;
       }
+      .cta-text-te {
+        margin: 0 0 0.9rem;
+        color: #9c7f52;
+        font-size: 0.78rem;
+        font-weight: 500;
+        line-height: 1.35;
+      }
       .cta-button {
-        display: inline-block;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.15rem;
         background: #c97c1f;
         color: white;
-        padding: 0.6rem 1.3rem;
+        padding: 0.55rem 1.3rem;
         border-radius: 999px;
         text-decoration: none;
+        letter-spacing: 0.01em;
+      }
+      .cta-button-en {
         font-size: 0.85rem;
         font-weight: bold;
-        letter-spacing: 0.01em;
+      }
+      .cta-button-te {
+        font-size: 0.72rem;
+        font-weight: 500;
+        opacity: 0.92;
       }
       .cta-button:hover {
         background: #b56c15;
