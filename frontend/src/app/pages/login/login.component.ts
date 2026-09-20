@@ -166,7 +166,7 @@ import { AuthService } from '../../services/auth.service';
         margin: 0.6rem 0 0;
         text-align: center;
         font-size: 0.82rem;
-        color: #555;
+        color: #4a6690;
       }
       .signin-hint a {
         color: #2c4870;
@@ -178,7 +178,7 @@ import { AuthService } from '../../services/auth.service';
       }
       .signin-hint .or-word,
       .signin-hint-te .or-word {
-        color: #555;
+        color: #4a6690;
         font-weight: bold;
         margin: 0 0.3em;
       }
