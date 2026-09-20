@@ -12,43 +12,47 @@ import { AuthService } from '../../services/auth.service';
     <div class="login-page">
       <div class="login-center">
         <form class="login-card" (ngSubmit)="submit()">
-          <h1>Vidya Bandham</h1>
-          <p class="subtitle">School diary, attendance, homework &amp; fees — all in one place.</p>
+          <div class="login-primary">
+            <h1>Vidya Bandham</h1>
+            <p class="subtitle">School diary, attendance, homework &amp; fees — all in one place.</p>
 
-          <label>Email</label>
-          <input type="email" name="email" [(ngModel)]="email" placeholder="you@example.com" required autofocus />
+            <label>Email</label>
+            <input type="email" name="email" [(ngModel)]="email" placeholder="you@example.com" required autofocus />
 
-          <label>Password</label>
-          <input type="password" name="password" [(ngModel)]="password" placeholder="Password" required />
+            <label>Password</label>
+            <input type="password" name="password" [(ngModel)]="password" placeholder="Password" required />
 
-          <button type="submit" [disabled]="loading">{{ loading ? 'Signing in…' : 'Sign in' }}</button>
+            <button type="submit" [disabled]="loading">{{ loading ? 'Signing in…' : 'Sign in' }}</button>
 
-          <p class="signin-hint"><a routerLink="/signup">Create Free Account</a> <span class="or-word">or</span> Demo/Free Logins as below</p>
-          <p class="signin-hint-te"><a routerLink="/signup">ఉచిత ఖాతా సృష్టించండి</a> <span class="or-word">లేదా</span> క్రింద ఉన్న డెమో/ఉచిత లాగిన్‌లు</p>
+            <p class="signin-hint"><a routerLink="/signup">Create Free Account</a> <span class="or-word">or</span> Demo/Free Logins as below</p>
+            <p class="signin-hint-te"><a routerLink="/signup">ఉచిత ఖాతా సృష్టించండి</a> <span class="or-word">లేదా</span> క్రింద ఉన్న డెమో/ఉచిత లాగిన్‌లు</p>
 
-          <p class="error" *ngIf="error">{{ error }}</p>
-
-          <div class="cta-banner">
-            <p class="cta-title">📝 Preparing for AP TET 2026?</p>
-            <p class="cta-title-te">2026 APTET కోసం సిద్ధమవుతున్నారా?</p>
-            <p class="cta-text">Create your free account and start practicing 2 official papers right away — no payment needed.</p>
-            <p class="cta-text-te">మీ ఉచిత ఖాతాను సృష్టించి, చెల్లింపు అవసరం లేకుండా వెంటనే 2 అధికారిక పేపర్లను ప్రాక్టీస్ చేయడం ప్రారంభించండి.</p>
-            <a routerLink="/signup" class="cta-button">
-              <span class="cta-button-en">Create Free Account →</span>
-              <span class="cta-button-te">ఉచిత ఖాతా సృష్టించండి →</span>
-            </a>
+            <p class="error" *ngIf="error">{{ error }}</p>
           </div>
 
-          <div class="demo">
-            <p class="demo-title"><strong>Demo logins</strong> <span class="demo-title-te">(డెమో లాగిన్‌లు)</span></p>
+          <div class="login-secondary">
+            <div class="cta-banner">
+              <p class="cta-title">📝 Preparing for AP TET 2026?</p>
+              <p class="cta-title-te">2026 APTET కోసం సిద్ధమవుతున్నారా?</p>
+              <p class="cta-text">Create your free account and start practicing 2 official papers right away — no payment needed.</p>
+              <p class="cta-text-te">మీ ఉచిత ఖాతాను సృష్టించి, చెల్లింపు అవసరం లేకుండా వెంటనే 2 అధికారిక పేపర్లను ప్రాక్టీస్ చేయడం ప్రారంభించండి.</p>
+              <a routerLink="/signup" class="cta-button">
+                <span class="cta-button-en">Create Free Account →</span>
+                <span class="cta-button-te">ఉచిత ఖాతా సృష్టించండి →</span>
+              </a>
+            </div>
 
-            <p class="demo-role">Teacher login <span class="demo-role-te">(టీచర్ లాగిన్)</span></p>
-            <p>Username: teacher&#64;vb</p>
-            <p>Password: teacher123</p>
+            <div class="demo">
+              <p class="demo-title"><strong>Demo logins</strong> <span class="demo-title-te">(డెమో లాగిన్‌లు)</span></p>
 
-            <p class="demo-role">Parent login <span class="demo-role-te">(పేరెంట్ లాగిన్)</span></p>
-            <p>Username: parent&#64;vb</p>
-            <p>Password: parent123</p>
+              <p class="demo-role">Teacher login <span class="demo-role-te">(టీచర్ లాగిన్)</span></p>
+              <p>Username: teacher&#64;vb</p>
+              <p>Password: teacher123</p>
+
+              <p class="demo-role">Parent login <span class="demo-role-te">(పేరెంట్ లాగిన్)</span></p>
+              <p>Username: parent&#64;vb</p>
+              <p>Password: parent123</p>
+            </div>
           </div>
         </form>
       </div>
@@ -112,6 +116,36 @@ import { AuthService } from '../../services/auth.service';
         width: 100%;
         max-width: 360px;
         font-weight: bold;
+        box-sizing: border-box;
+      }
+      /* On phones/narrow screens, .login-primary and .login-secondary just
+         stack as normal block elements (no extra CSS needed) — the same
+         single-column layout as before. From tablet width up, there's
+         enough room to put the login form and the TET-2026 promo +
+         demo-logins side by side instead of one long scroll, so the card
+         widens and switches to a two-column flex row. */
+      @media (min-width: 860px) {
+        .login-card {
+          max-width: 780px;
+          display: flex;
+          align-items: flex-start;
+          gap: 2.5rem;
+        }
+        .login-primary {
+          flex: 1 1 0;
+          min-width: 0;
+        }
+        .login-secondary {
+          flex: 1 1 0;
+          min-width: 0;
+          padding-left: 2.5rem;
+          border-left: 1px solid #eee;
+        }
+        /* Both sit at the top of the same cta-banner/demo styling, but
+           without the form's own top margin pushing them down unevenly. */
+        .login-secondary .cta-banner {
+          margin-top: 0;
+        }
       }
       h1 {
         margin: 0 0 0.25rem;
