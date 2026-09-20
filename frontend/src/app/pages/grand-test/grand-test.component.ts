@@ -593,7 +593,13 @@ export class GrandTestComponent implements OnInit, OnDestroy {
     }
     this.selectedPaper = p;
     this.selectedIndex = i;
-    this.selectedCount = 0;
+    // Default to a quick 10-question run rather than the full paper — most
+    // people opening a paper for the first time want a quick taste, not a
+    // 2.5-hour commitment; they can still pick "All questions" from the
+    // dropdown themselves. Falls back to 0 (full test) on the rare paper
+    // with fewer than 10 questions, since countOptions would otherwise be
+    // empty and 10 wouldn't be a valid choice.
+    this.selectedCount = this.countOptions.includes(10) ? 10 : 0;
     this.stage = 'setup';
   }
 
