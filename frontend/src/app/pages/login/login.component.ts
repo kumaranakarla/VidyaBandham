@@ -165,7 +165,7 @@ import { AuthService } from '../../services/auth.service';
       .signin-hint {
         margin: 0.6rem 0 0;
         text-align: center;
-        font-size: 0.95rem;
+        font-size: 0.9rem;
         color: #4a6690;
       }
       .signin-hint a {
