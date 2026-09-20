@@ -178,8 +178,8 @@ import { AuthService } from '../../services/auth.service';
       }
       .signin-hint .or-word,
       .signin-hint-te .or-word {
-        color: #999;
-        font-weight: normal;
+        color: #555;
+        font-weight: bold;
       }
       .signin-hint-te {
         margin: 0.15rem 0 0;
