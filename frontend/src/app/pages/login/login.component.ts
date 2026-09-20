@@ -200,7 +200,7 @@ import { AuthService } from '../../services/auth.service';
         margin-top: 1.5rem;
         padding-top: 1rem;
         border-top: 1px solid #eee;
-        font-size: 0.8rem;
+        font-size: 0.9rem;
         color: #777;
         font-weight: bold;
       }
