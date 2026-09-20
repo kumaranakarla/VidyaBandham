@@ -54,13 +54,24 @@ import { AuthService } from '../../services/auth.service';
         <p class="switch">Already have an account? <a routerLink="/login">Log in</a></p>
       </form>
 
-      <p class="policy-links">
-        <a routerLink="/terms">Terms &amp; Conditions</a>
-        <span>·</span>
-        <a routerLink="/privacy">Privacy Policy</a>
-        <span>·</span>
-        <a routerLink="/refund-policy">Refund &amp; Cancellation</a>
-      </p>
+      <div class="contact-box">
+        <p class="contact-title">📞 For any queries or support, contact us</p>
+        <p class="contact-line">
+          Email: <a href="mailto:support@vidyabandham.com">support&#64;vidyabandham.com</a>
+        </p>
+        <p class="contact-line">Phone: 8884099770&nbsp;&nbsp;|&nbsp;&nbsp;9030523776</p>
+      </div>
+
+      <footer class="site-footer">
+        <p class="policy-links">
+          <a routerLink="/terms">Terms &amp; Conditions</a>
+          <span>·</span>
+          <a routerLink="/privacy">Privacy Policy</a>
+          <span>·</span>
+          <a routerLink="/refund-policy">Refund &amp; Cancellation</a>
+        </p>
+        <p>Designed and developed by <strong>Karuna Kumar Group Companies</strong></p>
+      </footer>
     </div>
   `,
   styles: [
@@ -75,22 +86,70 @@ import { AuthService } from '../../services/auth.service';
         font-family: system-ui, sans-serif;
         font-weight: bold;
       }
-      .policy-links {
-        margin: 1.25rem 0 0;
+      .contact-box {
+        width: 100%;
+        max-width: 480px;
+        margin-top: 1.25rem;
+        padding: 1rem 1.5rem;
+        background: linear-gradient(135deg, #eaf2fb, #f5f9fd);
+        border-top: 1px solid #cfe0f2;
+        border-radius: 10px;
         text-align: center;
-        font-size: 0.78rem;
+        box-sizing: border-box;
+      }
+      .contact-title {
+        margin: 0 0 0.4rem;
+        color: #2c4870;
+        font-size: 0.85rem;
+        font-weight: bold;
+      }
+      .contact-line {
+        margin: 0.15rem 0;
+        color: #45607e;
+        font-size: 0.8rem;
+        font-weight: 600;
+      }
+      .contact-line a {
+        color: #2c4870;
+        text-decoration: none;
+      }
+      .contact-line a:hover {
+        text-decoration: underline;
+      }
+      .site-footer {
+        width: 100%;
+        max-width: 480px;
+        margin-top: 1rem;
+        padding: 0.7rem 1rem;
+        background: #1f2937;
+        border-radius: 10px;
+        color: #cbd5e1;
+        text-align: center;
+        font-size: 0.75rem;
+        box-sizing: border-box;
+      }
+      .site-footer p {
+        margin: 0;
+        font-weight: 600;
+      }
+      .policy-links {
+        margin: 0 0 0.4rem;
+        font-size: 0.85rem;
         font-weight: normal;
       }
       .policy-links a {
-        color: #6b8bb5;
+        color: #9dc0ee;
         text-decoration: none;
       }
       .policy-links a:hover {
         text-decoration: underline;
       }
       .policy-links span {
-        color: #bbb;
+        color: #ccc;
         margin: 0 0.35rem;
+      }
+      .site-footer strong {
+        color: #ffffff;
       }
       .login-card {
         background: white;
