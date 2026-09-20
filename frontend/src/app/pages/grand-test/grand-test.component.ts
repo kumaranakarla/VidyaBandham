@@ -152,8 +152,8 @@ function shuffle<T>(arr: T[]): T[] {
             <button
               *ngFor="let opt of optionsEn(q); let i = index"
               [class.selected]="picked[q.id] === i + 1"
-              [class.correct]="picked[q.id] && i + 1 === q.correct_option"
-              [class.incorrect]="picked[q.id] === i + 1 && i + 1 !== q.correct_option"
+              [class.correct]="!q.voided && picked[q.id] && i + 1 === q.correct_option"
+              [class.incorrect]="!q.voided && picked[q.id] === i + 1 && i + 1 !== q.correct_option"
               [disabled]="!!picked[q.id]"
               (click)="pick(q, i + 1)"
             >
@@ -161,11 +161,14 @@ function shuffle<T>(arr: T[]): T[] {
               <span class="opt-te" *ngIf="optionsTe(q)">{{ optionsTe(q)![i] }}</span>
             </button>
           </div>
-          <div class="answer-note" *ngIf="picked[q.id]">
+          <div class="answer-note" *ngIf="picked[q.id] && !q.voided">
             <span class="correct-text" *ngIf="picked[q.id] === q.correct_option">Correct!</span>
             <span class="incorrect-text" *ngIf="picked[q.id] !== q.correct_option">
               Not quite — the correct answer is <strong>{{ optionsEn(q)[q.correct_option - 1] }}</strong><ng-container *ngIf="optionsTe(q)"> (<strong>{{ optionsTe(q)![q.correct_option - 1] }}</strong>)</ng-container>.
             </span>
+          </div>
+          <div class="answer-note voided-note" *ngIf="picked[q.id] && q.voided">
+            <span class="voided-text">This question was voided in the official exam (an error was found in it) — full marks were given to everyone, so it's marked correct here too, whatever you picked.</span>
           </div>
         </div>
       </div>
@@ -206,18 +209,18 @@ function shuffle<T>(arr: T[]): T[] {
           <tbody>
             <tr *ngFor="let q of activeQuestions; let i = index">
               <td>{{ i + 1 }}</td>
-              <td [class.key-wrong]="picked[q.id] && picked[q.id] !== q.correct_option">
+              <td [class.key-wrong]="!q.voided && picked[q.id] && picked[q.id] !== q.correct_option">
                 {{ picked[q.id] ? optionLetter(picked[q.id]) : '—' }}
               </td>
-              <td class="key-correct">{{ optionLetter(q.correct_option) }}</td>
+              <td class="key-correct">{{ q.voided ? 'Voided' : optionLetter(q.correct_option) }}</td>
               <td>
                 <span
                   class="badge"
-                  [class.badge-correct]="picked[q.id] === q.correct_option"
-                  [class.badge-wrong]="picked[q.id] && picked[q.id] !== q.correct_option"
-                  [class.badge-blank]="!picked[q.id]"
+                  [class.badge-correct]="q.voided || picked[q.id] === q.correct_option"
+                  [class.badge-wrong]="!q.voided && picked[q.id] && picked[q.id] !== q.correct_option"
+                  [class.badge-blank]="!q.voided && !picked[q.id]"
                 >
-                  {{ picked[q.id] === q.correct_option ? 'Correct' : (picked[q.id] ? 'Wrong' : 'Blank') }}
+                  {{ q.voided ? 'Voided — Full Marks' : (picked[q.id] === q.correct_option ? 'Correct' : (picked[q.id] ? 'Wrong' : 'Blank')) }}
                 </span>
               </td>
             </tr>
@@ -250,24 +253,27 @@ function shuffle<T>(arr: T[]): T[] {
           <div class="options">
             <button
               *ngFor="let opt of optionsEn(q); let i = index"
-              [class.correct]="i + 1 === q.correct_option"
-              [class.incorrect]="picked[q.id] === i + 1 && i + 1 !== q.correct_option"
+              [class.correct]="!q.voided && i + 1 === q.correct_option"
+              [class.incorrect]="!q.voided && picked[q.id] === i + 1 && i + 1 !== q.correct_option"
               disabled
             >
               <span>{{ opt }}</span>
               <span class="opt-te" *ngIf="optionsTe(q)">{{ optionsTe(q)![i] }}</span>
             </button>
           </div>
-          <div class="answer-note" *ngIf="picked[q.id] === q.correct_option">
+          <div class="answer-note voided-note" *ngIf="q.voided">
+            <span class="voided-text">This question was voided in the official exam — an error was found in it, so every candidate was given full marks regardless of their answer. It's counted correct here for the same reason.</span>
+          </div>
+          <div class="answer-note" *ngIf="!q.voided && picked[q.id] === q.correct_option">
             <span class="correct-text">You answered correctly!</span>
           </div>
-          <div class="answer-note" *ngIf="picked[q.id] && picked[q.id] !== q.correct_option">
+          <div class="answer-note" *ngIf="!q.voided && picked[q.id] && picked[q.id] !== q.correct_option">
             <span class="incorrect-text">
               You answered {{ optionLetter(picked[q.id]) }} — the correct answer is
               <strong>{{ optionsEn(q)[q.correct_option - 1] }}</strong><ng-container *ngIf="optionsTe(q)"> (<strong>{{ optionsTe(q)![q.correct_option - 1] }}</strong>)</ng-container>.
             </span>
           </div>
-          <div class="answer-note" *ngIf="!picked[q.id]">
+          <div class="answer-note" *ngIf="!q.voided && !picked[q.id]">
             <span class="incorrect-text">
               You left this blank — the correct answer is
               <strong>{{ optionsEn(q)[q.correct_option - 1] }}</strong><ng-container *ngIf="optionsTe(q)"> (<strong>{{ optionsTe(q)![q.correct_option - 1] }}</strong>)</ng-container>.
@@ -434,6 +440,7 @@ function shuffle<T>(arr: T[]): T[] {
       .answer-note { margin-top: 0.7rem; font-size: 0.9rem; font-weight: 700; }
       .answer-note .correct-text { color: #16a34a; }
       .answer-note .incorrect-text { color: #dc2626; }
+      .answer-note .voided-text { color: #92600b; }
 
       .score-card {
         background: white; padding: 1.5rem; border-radius: 8px; box-shadow: 0 1px 4px rgba(0,0,0,0.06);
@@ -747,7 +754,7 @@ export class GrandTestComponent implements OnInit, OnDestroy {
     for (const q of qs) {
       const entry = subjMap.get(q.subject) || { correct: 0, total: 0 };
       entry.total++;
-      if (this.picked[q.id] === q.correct_option) {
+      if (q.voided || this.picked[q.id] === q.correct_option) {
         correct++;
         entry.correct++;
       }

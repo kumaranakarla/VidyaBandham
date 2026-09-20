@@ -97,6 +97,13 @@ db.exec(`
     option_c TEXT NOT NULL,
     option_d TEXT NOT NULL,
     correct_option INTEGER NOT NULL CHECK (correct_option IN (1, 2, 3, 4)),
+    -- A tiny number of official 2026 exam questions were voided by the exam
+    -- board itself (a printed error was found, so every candidate was given
+    -- full marks regardless of what they picked). correct_option still has
+    -- to hold a placeholder 1-4 value for these rows (the CHECK above
+    -- requires it), but the app ignores it whenever voided = 1 and instead
+    -- always counts the question as correct, matching the real exam's rule.
+    voided INTEGER NOT NULL DEFAULT 0,
     source TEXT,
     year INTEGER,
     question_te TEXT,
@@ -198,6 +205,9 @@ if (usersTableRow && !usersTableRow.sql.includes('tet_subscriber')) {
 const tetColumns = db.prepare("PRAGMA table_info(tet_questions)").all();
 if (!tetColumns.some((c) => c.name === 'year')) {
   db.exec('ALTER TABLE tet_questions ADD COLUMN year INTEGER');
+}
+if (!tetColumns.some((c) => c.name === 'voided')) {
+  db.exec('ALTER TABLE tet_questions ADD COLUMN voided INTEGER NOT NULL DEFAULT 0');
 }
 // Telugu translations were added later too (Child Development & Pedagogy,
 // Mathematics, and Science & EVS only — English-subject questions test the

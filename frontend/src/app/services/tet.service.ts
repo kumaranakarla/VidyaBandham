@@ -11,6 +11,12 @@ export interface TetQuestion {
   option_c: string;
   option_d: string;
   correct_option: number;
+  // A handful of official 2026 questions were voided by the exam board
+  // itself (a printed error was found, so every candidate got full marks
+  // regardless of what they picked). When true, correct_option is just a
+  // required placeholder and must not be used for grading or shown as an
+  // answer key — see the `voided` column comment in backend/src/db.js.
+  voided?: number | boolean;
   source: string;
   year: number | null;
   // Telugu translation — only present for Child Development & Pedagogy,

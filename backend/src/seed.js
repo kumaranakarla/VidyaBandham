@@ -43009,13 +43009,58 @@ const TET_QUESTIONS = [
       "సమ్మిళిత పద్ధతి"
     ]
   }
+,
+  // --- Fix for AP TET Paper 2A (Maths & Science), 12th August 2026 Shift 2:
+  // the official paper has 150 questions, but 2 of them (English Q79,
+  // Physical Science Q120) were voided by the exam board itself — a
+  // printed error was found and every candidate was given full marks
+  // regardless of what they picked. They were correctly left out of the
+  // scored data above (no valid answer key exists for them), and are
+  // added back here as `voided: true` so the paper shows its true 150
+  // and these two are always counted correct instead of being silently
+  // missing or wrongly graded.
+  {
+  "year": 2026,
+  "paper": "AP TET Paper 2A (Maths & Science), 12th August 2026 Shift 2",
+  "subject": "English",
+  "question": "Find the correct preposition that best fits in the blank given below.\nHe is indifferent ____ his own interest.",
+  "options": [
+    "of",
+    "by",
+    "with",
+    "at"
+  ],
+  "correct": 1,
+  "voided": true
+},
+  {
+  "year": 2026,
+  "paper": "AP TET Paper 2A (Maths & Science), 12th August 2026 Shift 2",
+  "subject": "Physical Science",
+  "question": "The correct statement/s among the following.\n(a) The head of a safety matchstick contains Antimony Tri sulphide and Potassium chlorate.\n(b) The head of safety matchstick contains powdered glass and a little red phosphorous.\n(c) The rubbing surface of a safety match contains Antimony Trisulphide and Potassium chlorate.\n(d) The rubbing surface of a safety match contains powdered glass and a little red phosphorous.",
+  "options": [
+    "a and b only",
+    "c and d only",
+    "a and c only",
+    "b and d only"
+  ],
+  "correct": 1,
+  "voided": true,
+  "question_te": "కింది వాటిలో సరైన వాక్యాలు\n(a) అగ్గిపుల్ల తలలో ఆంటిమోని ట్రై సల్ఫైడ్ మరియు పొటాషియం క్లోరేట్ ఉంటాయి.\n(b) అగ్గిపుల్ల తలలో గాజుపొడి మరియు కొద్దిగా ఎర్ర భాస్వరం ఉంటాయి.\n(c) అగ్గిపెట్టె గరుకుతలంలో ఆంటిమోని ట్రై సల్ఫైడ్ మరియు పొటాషియం క్లోరేట్ ఉంటాయి.\n(d) అగ్గిపెట్టె గరుకుతలంలో గాజుపొడి మరియు కొద్దిగా ఎర్ర భాస్వరం ఉంటాయి.",
+  "options_te": [
+    "a మరియు b మాత్రమే",
+    "c మరియు d మాత్రమే",
+    "a మరియు c మాత్రమే",
+    "b మరియు d మాత్రమే"
+  ]
+}
 ];
 
 function seedTetQuestions() {
   db.exec('DELETE FROM tet_questions;');
   const insert = db.prepare(
-    `INSERT INTO tet_questions (id, subject, question, option_a, option_b, option_c, option_d, correct_option, source, year, question_te, option_a_te, option_b_te, option_c_te, option_d_te)
-     VALUES (@id, @subject, @question, @option_a, @option_b, @option_c, @option_d, @correct_option, @source, @year, @question_te, @option_a_te, @option_b_te, @option_c_te, @option_d_te)`
+    `INSERT INTO tet_questions (id, subject, question, option_a, option_b, option_c, option_d, correct_option, voided, source, year, question_te, option_a_te, option_b_te, option_c_te, option_d_te)
+     VALUES (@id, @subject, @question, @option_a, @option_b, @option_c, @option_d, @correct_option, @voided, @source, @year, @question_te, @option_a_te, @option_b_te, @option_c_te, @option_d_te)`
   );
   for (const q of TET_QUESTIONS) {
     insert.run({
@@ -43026,7 +43071,11 @@ function seedTetQuestions() {
       option_b: q.options[1],
       option_c: q.options[2],
       option_d: q.options[3],
+      // `correct` is a required placeholder even for a voided question (the
+      // correct_option column can't be null) — the app never grades against
+      // it once `voided` is set, see the `voided` column comment in db.js.
       correct_option: q.correct,
+      voided: q.voided ? 1 : 0,
       source: q.paper || `AP TET Paper 1, June ${q.year}`,
       year: q.year,
       // Telugu translation, where available (Pedagogy/Maths/Science — see
@@ -43037,6 +43086,47 @@ function seedTetQuestions() {
       option_c_te: q.options_te ? q.options_te[2] : null,
       option_d_te: q.options_te ? q.options_te[3] : null,
     });
+  }
+}
+
+// A handful of official AP TET 2026 papers include one or two questions the
+// exam board itself later voided (a printed error in the question/options,
+// full marks awarded to everyone regardless of answer). seedTetQuestions()
+// above only runs on a from-scratch seed — on an already-running install
+// (e.g. the live Render deploy, which never re-seeds once it has real
+// students/classes) it never re-runs, so a plain edit to TET_QUESTIONS
+// wouldn't reach production. This applies the fix directly, idempotently,
+// on every server startup regardless of seeding state — see ensureAdminUser
+// for the same pattern applied to the admin account.
+function ensureVoidedTetQuestionsFix() {
+  const voidedQuestions = TET_QUESTIONS.filter((q) => q.voided);
+  const exists = db.prepare('SELECT 1 FROM tet_questions WHERE source = ? AND question = ? LIMIT 1');
+  const insert = db.prepare(
+    `INSERT INTO tet_questions (id, subject, question, option_a, option_b, option_c, option_d, correct_option, voided, source, year, question_te, option_a_te, option_b_te, option_c_te, option_d_te)
+     VALUES (@id, @subject, @question, @option_a, @option_b, @option_c, @option_d, @correct_option, @voided, @source, @year, @question_te, @option_a_te, @option_b_te, @option_c_te, @option_d_te)`
+  );
+  for (const q of voidedQuestions) {
+    const source = q.paper || `AP TET Paper 1, June ${q.year}`;
+    if (exists.get(source, q.question)) continue;
+    insert.run({
+      id: id(),
+      subject: q.subject,
+      question: q.question,
+      option_a: q.options[0],
+      option_b: q.options[1],
+      option_c: q.options[2],
+      option_d: q.options[3],
+      correct_option: q.correct,
+      voided: 1,
+      source,
+      year: q.year,
+      question_te: q.question_te || null,
+      option_a_te: q.options_te ? q.options_te[0] : null,
+      option_b_te: q.options_te ? q.options_te[1] : null,
+      option_c_te: q.options_te ? q.options_te[2] : null,
+      option_d_te: q.options_te ? q.options_te[3] : null,
+    });
+    console.log(`Added previously-missing voided question to ${source}`);
   }
 }
 
@@ -43156,7 +43246,7 @@ function ensureAdminUser() {
   console.log(`Created admin account: ${email}` + (process.env.ADMIN_PASSWORD ? '' : ' (using the DEFAULT password — set ADMIN_EMAIL/ADMIN_PASSWORD env vars!)'));
 }
 
-module.exports = { seed, seedIfEmpty, ensureAdminUser };
+module.exports = { seed, seedIfEmpty, ensureAdminUser, ensureVoidedTetQuestionsFix };
 
 // Allows `npm run seed` / `node src/seed.js` to still work exactly as before,
 // always resetting to fresh demo data regardless of what's already there.
