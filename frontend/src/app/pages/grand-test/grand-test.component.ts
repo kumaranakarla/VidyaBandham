@@ -512,6 +512,28 @@ function shuffle<T>(arr: T[]): T[] {
 })
 export class GrandTestComponent implements OnInit, OnDestroy {
   stage: Stage = 'select';
+
+  // Official AP TET paper order (Child Development & Pedagogy, then
+  // Language I/II, then the content-area subjects) — same ordering used on
+  // the Mock Test page — instead of whatever order the API/DB happens to
+  // return subjects in. Anything not in this list (e.g. Social Studies)
+  // is kept, just appended after the ordered ones.
+  private static readonly SUBJECT_ORDER = [
+    'Child Development & Pedagogy',
+    'Telugu',
+    'English',
+    'Mathematics',
+    'Physical Science',
+    'Biology',
+  ];
+
+  private static orderBySubject<T extends { subject: string }>(items: T[]): T[] {
+    const rank = (subject: string) => {
+      const i = GrandTestComponent.SUBJECT_ORDER.indexOf(subject);
+      return i === -1 ? GrandTestComponent.SUBJECT_ORDER.length : i;
+    };
+    return items.slice().sort((a, b) => rank(a.subject) - rank(b.subject));
+  }
   loading = true;
 
   paperSummaries: PaperSummary[] = [];
@@ -584,7 +606,9 @@ export class GrandTestComponent implements OnInit, OnDestroy {
               free: p.free,
               locked: p.locked,
               questions: qs,
-              subjects: Array.from(subjCounts.entries()).map(([subject, count]) => ({ subject, count })),
+              subjects: GrandTestComponent.orderBySubject(
+                Array.from(subjCounts.entries()).map(([subject, count]) => ({ subject, count }))
+              ),
               total: qs.length,
             };
           })
@@ -734,7 +758,9 @@ export class GrandTestComponent implements OnInit, OnDestroy {
       correct,
       total,
       percent: total ? Math.round((correct / total) * 100) : 0,
-      bySubject: Array.from(subjMap.entries()).map(([subject, v]) => ({ subject, ...v })),
+      bySubject: GrandTestComponent.orderBySubject(
+        Array.from(subjMap.entries()).map(([subject, v]) => ({ subject, ...v }))
+      ),
     };
   }
 
