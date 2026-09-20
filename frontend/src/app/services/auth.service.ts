@@ -74,4 +74,13 @@ export class AuthService {
   isSubscriberOnly(): boolean {
     return this.user()?.role === 'tet_subscriber';
   }
+
+  // Lets a signed-in user (used from the admin dashboard, but works for any
+  // role) change their own password without shell/database access.
+  changePassword(currentPassword: string, newPassword: string): Observable<{ ok: boolean }> {
+    return this.http.post<{ ok: boolean }>(`${environment.apiUrl}/auth/change-password`, {
+      currentPassword,
+      newPassword,
+    });
+  }
 }

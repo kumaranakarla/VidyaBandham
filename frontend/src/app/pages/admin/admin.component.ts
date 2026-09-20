@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 import { AdminService, AdminStats } from '../../services/admin.service';
 import { AuthService } from '../../services/auth.service';
 
@@ -9,13 +10,43 @@ import { AuthService } from '../../services/auth.service';
 @Component({
   selector: 'app-admin',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, FormsModule],
   template: `
     <div class="admin-page">
       <header>
         <div class="brand">Vidya Bandham — Admin</div>
-        <button (click)="auth.logout()">Log out</button>
+        <div class="header-actions">
+          <button class="secondary" (click)="togglePasswordForm()">
+            {{ showPasswordForm ? 'Cancel' : 'Change password' }}
+          </button>
+          <button (click)="auth.logout()">Log out</button>
+        </div>
       </header>
+
+      <div class="password-panel" *ngIf="showPasswordForm">
+        <h3>Change admin password</h3>
+        <p class="hint">
+          If this is still the default password from setup, change it now — anyone who
+          guesses the default gets access to this dashboard.
+        </p>
+        <form (ngSubmit)="changePassword()">
+          <label>
+            Current password
+            <input type="password" [(ngModel)]="currentPassword" name="currentPassword" required autocomplete="current-password" />
+          </label>
+          <label>
+            New password
+            <input type="password" [(ngModel)]="newPassword" name="newPassword" required minlength="6" autocomplete="new-password" />
+          </label>
+          <label>
+            Confirm new password
+            <input type="password" [(ngModel)]="confirmPassword" name="confirmPassword" required autocomplete="new-password" />
+          </label>
+          <p class="pw-error" *ngIf="passwordError">{{ passwordError }}</p>
+          <p class="pw-success" *ngIf="passwordSuccess">Password changed. Use it next time you log in.</p>
+          <button type="submit" [disabled]="passwordSaving">{{ passwordSaving ? 'Saving…' : 'Save new password' }}</button>
+        </form>
+      </div>
 
       <main>
         <p *ngIf="loading">Loading…</p>
@@ -161,6 +192,10 @@ import { AuthService } from '../../services/auth.service';
         padding: 0.8rem 1.5rem;
       }
       .brand { font-weight: 700; font-size: 1.15rem; }
+      .header-actions { display: flex; gap: 0.6rem; }
+      header button.secondary {
+        background: rgba(255, 255, 255, 0.12);
+      }
       header button {
         background: transparent;
         border: 1px solid rgba(255, 255, 255, 0.5);
@@ -175,6 +210,37 @@ import { AuthService } from '../../services/auth.service';
         padding: 1.5rem 1rem 3rem;
       }
       .error { color: #b3261e; }
+      .password-panel {
+        max-width: 900px;
+        margin: 1.25rem auto 0;
+        padding: 1rem 1.25rem 1.25rem;
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+      }
+      .password-panel h3 { margin: 0 0 0.4rem; color: #2c4870; }
+      .password-panel .hint { margin: 0 0 1rem; font-size: 0.85rem; color: #777; }
+      .password-panel form { display: flex; flex-direction: column; gap: 0.7rem; max-width: 320px; }
+      .password-panel label { display: flex; flex-direction: column; gap: 0.3rem; font-size: 0.85rem; color: #555; }
+      .password-panel input {
+        padding: 0.5rem 0.6rem;
+        border: 1px solid #ddd;
+        border-radius: 6px;
+        font-size: 0.9rem;
+      }
+      .password-panel button[type='submit'] {
+        align-self: flex-start;
+        background: #2c4870;
+        color: white;
+        border: none;
+        padding: 0.5rem 1rem;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 0.9rem;
+      }
+      .password-panel button[type='submit']:disabled { opacity: 0.6; cursor: default; }
+      .pw-error { color: #b3261e; font-size: 0.85rem; margin: 0; }
+      .pw-success { color: #1a7a3c; font-size: 0.85rem; margin: 0; }
       .grid {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
@@ -219,7 +285,57 @@ export class AdminComponent implements OnInit {
   loading = true;
   error = '';
 
+  showPasswordForm = false;
+  currentPassword = '';
+  newPassword = '';
+  confirmPassword = '';
+  passwordError = '';
+  passwordSuccess = false;
+  passwordSaving = false;
+
   constructor(private admin: AdminService, public auth: AuthService) {}
+
+  togglePasswordForm(): void {
+    this.showPasswordForm = !this.showPasswordForm;
+    this.currentPassword = '';
+    this.newPassword = '';
+    this.confirmPassword = '';
+    this.passwordError = '';
+    this.passwordSuccess = false;
+  }
+
+  changePassword(): void {
+    this.passwordError = '';
+    this.passwordSuccess = false;
+
+    if (!this.currentPassword || !this.newPassword || !this.confirmPassword) {
+      this.passwordError = 'Fill in all three fields.';
+      return;
+    }
+    if (this.newPassword.length < 6) {
+      this.passwordError = 'New password must be at least 6 characters.';
+      return;
+    }
+    if (this.newPassword !== this.confirmPassword) {
+      this.passwordError = 'New password and confirmation do not match.';
+      return;
+    }
+
+    this.passwordSaving = true;
+    this.auth.changePassword(this.currentPassword, this.newPassword).subscribe({
+      next: () => {
+        this.passwordSaving = false;
+        this.passwordSuccess = true;
+        this.currentPassword = '';
+        this.newPassword = '';
+        this.confirmPassword = '';
+      },
+      error: (err) => {
+        this.passwordSaving = false;
+        this.passwordError = err?.error?.error || 'Could not change password.';
+      },
+    });
+  }
 
   ngOnInit(): void {
     this.admin.stats().subscribe({
