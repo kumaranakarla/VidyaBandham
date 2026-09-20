@@ -297,6 +297,14 @@ export class MockTestComponent implements OnInit {
   allQuestions: TetQuestion[] = [];
   years: number[] = [];
   subjects: string[] = [];
+  private static readonly SUBJECT_ORDER = [
+    'Child Development & Pedagogy',
+    'Telugu',
+    'English',
+    'Mathematics',
+    'Physical Science',
+    'Biology',
+  ];
 
   setupYear = '';
   setupSubject = '';
@@ -323,7 +331,16 @@ export class MockTestComponent implements OnInit {
         this.years = Array.from(new Set(res.questions.map((q) => q.year).filter((y): y is number => !!y))).sort(
           (a, b) => b - a
         );
-        this.subjects = Array.from(new Set(res.questions.map((q) => q.subject)));
+        const distinctSubjects = Array.from(new Set(res.questions.map((q) => q.subject)));
+        // Match the official AP TET paper order (Child Development & Pedagogy,
+        // then Language I/II, then the content-area subjects) instead of the
+        // alphabetical order the API happens to return them in. Any other
+        // subject present in the data (e.g. Science & EVS, Social Studies)
+        // is kept, just appended after the ordered ones.
+        this.subjects = [
+          ...MockTestComponent.SUBJECT_ORDER.filter((s) => distinctSubjects.includes(s)),
+          ...distinctSubjects.filter((s) => !MockTestComponent.SUBJECT_ORDER.includes(s)),
+        ];
       },
     });
     this.loadHistory();
