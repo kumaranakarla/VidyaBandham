@@ -23,7 +23,8 @@ import { AuthService } from '../../services/auth.service';
 
           <button type="submit" [disabled]="loading">{{ loading ? 'Signing in…' : 'Sign in' }}</button>
 
-          <p class="signin-hint"><a routerLink="/signup">Create Free Account</a> <span class="or-word">or</span> Demo logins</p>
+          <p class="signin-hint"><a routerLink="/signup">Create Free Account</a> <span class="or-word">or</span> Demo/Free Logins as below</p>
+          <p class="signin-hint-te"><a routerLink="/signup">ఉచిత ఖాతా సృష్టించండి</a> <span class="or-word">లేదా</span> డెమో లాగిన్</p>
 
           <p class="error" *ngIf="error">{{ error }}</p>
 
@@ -175,9 +176,24 @@ import { AuthService } from '../../services/auth.service';
       .signin-hint a:hover {
         text-decoration: underline;
       }
-      .signin-hint .or-word {
+      .signin-hint .or-word,
+      .signin-hint-te .or-word {
         color: #999;
         font-weight: normal;
+      }
+      .signin-hint-te {
+        margin: 0.15rem 0 0;
+        text-align: center;
+        font-size: 0.78rem;
+        color: #888;
+      }
+      .signin-hint-te a {
+        color: #4a6690;
+        font-weight: 600;
+        text-decoration: none;
+      }
+      .signin-hint-te a:hover {
+        text-decoration: underline;
       }
       .demo {
         margin-top: 1.5rem;
