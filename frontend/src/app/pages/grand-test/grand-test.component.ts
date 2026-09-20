@@ -111,7 +111,10 @@ function shuffle<T>(arr: T[]): T[] {
           <option *ngFor="let n of countOptions" [ngValue]="n">Just {{ n }} questions ({{ timeLimitDisplayFor(n) }})</option>
         </select>
       </div>
-      <button class="start-btn" (click)="startGrandTest()">Start Grand Test {{ selectedIndex + 1 }}</button>
+      <button class="start-btn" (click)="startGrandTest()">
+        <span class="btn-en">Start Grand Test {{ selectedIndex + 1 }}</span>
+        <span class="btn-te">గ్రాండ్ టెస్ట్ {{ selectedIndex + 1 }} ప్రారంభించండి</span>
+      </button>
       <p class="setup-note">
         Answer feedback shows immediately after each question. A few items are flagged where the
         source answer key was unclear — please verify those independently.
@@ -128,7 +131,10 @@ function shuffle<T>(arr: T[]): T[] {
         <span class="timer-label">Time Left</span>
         <span class="timer-value">{{ timeLeftDisplay }}</span>
         <span class="progress-label">{{ answeredCount }} of {{ activeQuestions.length }} answered</span>
-        <button class="finish-btn" (click)="finishGrandTest()">Finish Grand Test</button>
+        <button class="finish-btn" (click)="finishGrandTest()">
+          <span class="btn-en">Finish Grand Test</span>
+          <span class="btn-te">గ్రాండ్ టెస్ట్ ముగించండి</span>
+        </button>
       </div>
 
       <div class="questions">
@@ -164,7 +170,10 @@ function shuffle<T>(arr: T[]): T[] {
         </div>
       </div>
 
-      <button class="finish-btn-bottom" (click)="finishGrandTest()">Finish Grand Test</button>
+      <button class="finish-btn-bottom" (click)="finishGrandTest()">
+        <span class="btn-en">Finish Grand Test</span>
+        <span class="btn-te">గ్రాండ్ టెస్ట్ ముగించండి</span>
+      </button>
     </div>
 
     <!-- RESULT -->
@@ -216,7 +225,10 @@ function shuffle<T>(arr: T[]): T[] {
         </table>
       </div>
       <div class="result-actions">
-        <button class="start-btn" (click)="retakeSamePaper()">Retake this Grand Test</button>
+        <button class="start-btn" (click)="retakeSamePaper()">
+          <span class="btn-en">Retake this Grand Test</span>
+          <span class="btn-te">ఈ గ్రాండ్ టెస్ట్‌ని మళ్లీ చేయండి</span>
+        </button>
         <button class="cancel-btn" *ngIf="!skipToFirstAvailable" (click)="chooseAnother()">Choose another paper</button>
       </div>
 
@@ -390,6 +402,12 @@ function shuffle<T>(arr: T[]): T[] {
         padding: 0.45rem 0.9rem; font-weight: 700; font-size: 0.85rem; cursor: pointer;
       }
       .finish-btn-bottom { margin-top: 1.2rem; padding: 0.7rem 1.4rem; font-size: 0.95rem; }
+      .start-btn .btn-en, .finish-btn .btn-en, .finish-btn-bottom .btn-en { display: block; }
+      .start-btn .btn-te, .finish-btn .btn-te, .finish-btn-bottom .btn-te {
+        display: block; font-weight: 500; opacity: 0.85; margin-top: 0.15rem;
+      }
+      .start-btn .btn-te { font-size: 0.78em; }
+      .finish-btn .btn-te, .finish-btn-bottom .btn-te { font-size: 0.72em; }
 
       .questions { display: flex; flex-direction: column; gap: 1rem; }
       .q-card { background: white; padding: 1rem 1.2rem; border-radius: 8px; box-shadow: 0 1px 4px rgba(0,0,0,0.06); }
