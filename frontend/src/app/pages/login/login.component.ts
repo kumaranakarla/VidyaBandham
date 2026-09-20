@@ -23,6 +23,9 @@ import { AuthService } from '../../services/auth.service';
 
           <button type="submit" [disabled]="loading">{{ loading ? 'Signing in…' : 'Sign in' }}</button>
 
+          <p class="signin-hint">New here? <a routerLink="/signup">Create an account</a> — or use the demo logins below.</p>
+          <p class="signin-hint-te">కొత్తవారా? <a routerLink="/signup">ఖాతా సృష్టించండి</a> — లేదా క్రింద ఉన్న డెమో లాగిన్‌లను ఉపయోగించండి.</p>
+
           <p class="error" *ngIf="error">{{ error }}</p>
 
           <div class="cta-banner">
@@ -151,6 +154,34 @@ import { AuthService } from '../../services/auth.service';
         margin-top: 1rem;
         font-size: 0.9rem;
         font-weight: bold;
+      }
+      .signin-hint {
+        margin: 0.6rem 0 0;
+        text-align: center;
+        font-size: 0.82rem;
+        color: #555;
+      }
+      .signin-hint a {
+        color: #2c4870;
+        font-weight: bold;
+        text-decoration: none;
+      }
+      .signin-hint a:hover {
+        text-decoration: underline;
+      }
+      .signin-hint-te {
+        margin: 0.15rem 0 0;
+        text-align: center;
+        font-size: 0.78rem;
+        color: #888;
+      }
+      .signin-hint-te a {
+        color: #4a6690;
+        font-weight: 600;
+        text-decoration: none;
+      }
+      .signin-hint-te a:hover {
+        text-decoration: underline;
       }
       .demo {
         margin-top: 1.5rem;
