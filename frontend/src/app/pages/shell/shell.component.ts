@@ -51,7 +51,7 @@ import { AuthService } from '../../services/auth.service';
           <a routerLink="/attendance" routerLinkActive="active">Attendance</a>
           <a routerLink="/fees" routerLinkActive="active">Fees</a>
           <a *ngIf="auth.isTeacher()" routerLink="/students" routerLinkActive="active">Students</a>
-          <a routerLink="/tet" routerLinkActive="active">Previous papers</a>
+          <a routerLink="/tet" routerLinkActive="active">TET Previous Papers</a>
           <a routerLink="/mock-test" routerLinkActive="active">MockTest(TET)</a>
           <a routerLink="/tet-2026" routerLinkActive="active" class="nav-new-flash">2026 TET (New)</a>
           <!-- Hidden for now: "2026 TET (New)" already gives the same real-exam
