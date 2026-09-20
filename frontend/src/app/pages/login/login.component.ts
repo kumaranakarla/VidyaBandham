@@ -104,7 +104,7 @@ import { AuthService } from '../../services/auth.service';
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 1.5rem;
+        padding: 1rem 1.5rem;
         box-sizing: border-box;
         width: 100%;
       }
@@ -318,7 +318,7 @@ import { AuthService } from '../../services/auth.service';
          official AP TET site's "For any queries" box + designed-by bar. */
       .contact-box {
         width: 100%;
-        padding: 1rem 1.5rem;
+        padding: 0.7rem 1.5rem;
         background: linear-gradient(135deg, #eaf2fb, #f5f9fd);
         border-top: 1px solid #cfe0f2;
         text-align: center;
@@ -345,7 +345,7 @@ import { AuthService } from '../../services/auth.service';
       }
       .site-footer {
         width: 100%;
-        padding: 0.7rem 1rem;
+        padding: 0.5rem 1rem;
         background: #1f2937;
         color: #cbd5e1;
         text-align: center;
