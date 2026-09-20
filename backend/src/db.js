@@ -5,7 +5,14 @@ const { DatabaseSync } = require('node:sqlite');
 // better-sqlite3) — available from Node 22.5+. It's marked "experimental" by
 // Node (you'll see a one-line warning when the server starts) but is fully
 // usable for an app like this.
-const dbPath = path.join(__dirname, '..', 'vidyabandham.db');
+//
+// DATA_DIR lets the database file live on a persistent disk in production
+// (see render.yaml) instead of the app's own source directory, which on
+// Render's free tier gets wiped on every deploy/restart. Local dev is
+// unaffected — DATA_DIR is unset, so this falls back to the old path right
+// next to the backend folder, same as before.
+const dataDir = process.env.DATA_DIR || path.join(__dirname, '..');
+const dbPath = path.join(dataDir, 'vidyabandham.db');
 const db = new DatabaseSync(dbPath);
 db.exec('PRAGMA journal_mode = WAL');
 db.exec('PRAGMA foreign_keys = ON');

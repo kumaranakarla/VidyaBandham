@@ -3,9 +3,24 @@ services:
     name: vidyabandham-backend
     runtime: node
     rootDir: backend
-    plan: free
+    plan: starter
     buildCommand: npm install
     startCommand: npm start
     envVars:
       - key: JWT_SECRET
         generateValue: true
+      - key: DATA_DIR
+        value: /var/data
+    # Persistent disk for the SQLite database. Render's free web service
+    # filesystem is wiped on every deploy and restart — without this, every
+    # signup, subscription, and payment record would be lost the next time
+    # the service redeploys or wakes from sleep. Disks require a paid plan
+    # (bumped `plan` above from free to starter), plus the disk itself is
+    # billed separately (a few dollars/month for the smallest size) — Render
+    # will show and confirm both costs when this Blueprint is applied/synced
+    # in the dashboard, it doesn't happen silently. Question-bank content is
+    # unaffected either way since seedIfEmpty() rebuilds it from source.
+    disk:
+      name: vidyabandham-data
+      mountPath: /var/data
+      sizeGB: 1

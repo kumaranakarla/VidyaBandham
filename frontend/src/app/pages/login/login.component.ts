@@ -23,8 +23,8 @@ import { AuthService } from '../../services/auth.service';
 
           <button type="submit" [disabled]="loading">{{ loading ? 'Signing in…' : 'Sign in' }}</button>
 
-          <p class="signin-hint">New here? <a routerLink="/signup">Create an account</a> — or use the demo logins below.</p>
-          <p class="signin-hint-te">కొత్తవారా? <a routerLink="/signup">ఖాతా సృష్టించండి</a> — లేదా క్రింద ఉన్న డెమో లాగిన్‌లను ఉపయోగించండి.</p>
+          <p class="signin-hint"><a routerLink="/signup">Create Free Account</a> <span class="or-word">or</span> Demo Login</p>
+          <p class="signin-hint-te"><a routerLink="/signup">ఉచిత ఖాతా సృష్టించండి</a> <span class="or-word">లేదా</span> డెమో లాగిన్</p>
 
           <p class="error" *ngIf="error">{{ error }}</p>
 
@@ -62,6 +62,13 @@ import { AuthService } from '../../services/auth.service';
       </div>
 
       <footer class="site-footer">
+        <p class="policy-links">
+          <a routerLink="/terms">Terms &amp; Conditions</a>
+          <span>·</span>
+          <a routerLink="/privacy">Privacy Policy</a>
+          <span>·</span>
+          <a routerLink="/refund-policy">Refund &amp; Cancellation</a>
+        </p>
         <p>Designed and developed by <strong>Karuna Kumar Group Companies</strong></p>
       </footer>
     </div>
@@ -168,6 +175,11 @@ import { AuthService } from '../../services/auth.service';
       }
       .signin-hint a:hover {
         text-decoration: underline;
+      }
+      .signin-hint .or-word,
+      .signin-hint-te .or-word {
+        color: #999;
+        font-weight: normal;
       }
       .signin-hint-te {
         margin: 0.15rem 0 0;
@@ -308,6 +320,21 @@ import { AuthService } from '../../services/auth.service';
       .site-footer p {
         margin: 0;
         font-weight: 600;
+      }
+      .policy-links {
+        margin: 0 0 0.4rem;
+        font-size: 0.78rem;
+      }
+      .policy-links a {
+        color: #6b8bb5;
+        text-decoration: none;
+      }
+      .policy-links a:hover {
+        text-decoration: underline;
+      }
+      .policy-links span {
+        color: #ccc;
+        margin: 0 0.35rem;
       }
       .site-footer strong {
         color: #ffffff;

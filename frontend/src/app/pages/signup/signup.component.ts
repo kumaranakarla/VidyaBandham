@@ -53,6 +53,14 @@ import { AuthService } from '../../services/auth.service';
 
         <p class="switch">Already have an account? <a routerLink="/login">Log in</a></p>
       </form>
+
+      <p class="policy-links">
+        <a routerLink="/terms">Terms &amp; Conditions</a>
+        <span>·</span>
+        <a routerLink="/privacy">Privacy Policy</a>
+        <span>·</span>
+        <a routerLink="/refund-policy">Refund &amp; Cancellation</a>
+      </p>
     </div>
   `,
   styles: [
@@ -60,11 +68,29 @@ import { AuthService } from '../../services/auth.service';
       .login-page {
         min-height: 100vh;
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
         background: #f4f1ea;
         font-family: system-ui, sans-serif;
         font-weight: bold;
+      }
+      .policy-links {
+        margin: 1.25rem 0 0;
+        text-align: center;
+        font-size: 0.78rem;
+        font-weight: normal;
+      }
+      .policy-links a {
+        color: #6b8bb5;
+        text-decoration: none;
+      }
+      .policy-links a:hover {
+        text-decoration: underline;
+      }
+      .policy-links span {
+        color: #bbb;
+        margin: 0 0.35rem;
       }
       .login-card {
         background: white;

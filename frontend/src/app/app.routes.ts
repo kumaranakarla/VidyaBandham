@@ -1,6 +1,7 @@
 import { Routes } from '@angular/router';
 import { authGuard, homeRedirectGuard, adminGuard } from './guards/auth.guard';
 import { LoginComponent } from './pages/login/login.component';
+import { PolicyPageComponent } from './pages/policy/policy-page.component';
 import { SignupComponent } from './pages/signup/signup.component';
 import { ShellComponent } from './pages/shell/shell.component';
 import { AdminComponent } from './pages/admin/admin.component';
@@ -15,6 +16,12 @@ import { GrandTestComponent } from './pages/grand-test/grand-test.component';
 export const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'signup', component: SignupComponent },
+  // Public legal pages — no authGuard, since Razorpay checkout and
+  // prospective sign-ups need to reach these without an account. All three
+  // share PolicyPageComponent, which branches on the route path.
+  { path: 'terms', component: PolicyPageComponent },
+  { path: 'privacy', component: PolicyPageComponent },
+  { path: 'refund-policy', component: PolicyPageComponent },
   // Standalone route, deliberately outside ShellComponent's children — the
   // admin dashboard has nothing to do with the school-management nav
   // (Diary/Homework/etc.) or the TET tabs, so it gets its own tiny header
