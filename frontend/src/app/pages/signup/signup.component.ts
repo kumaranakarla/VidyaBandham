@@ -70,7 +70,7 @@ import { AuthService } from '../../services/auth.service';
           <span>·</span>
           <a routerLink="/refund-policy">Refund &amp; Cancellation</a>
         </p>
-        <p>Designed and developed by <strong>Karuna Kumar Group Companies</strong></p>
+        <p>A product of <strong>KK Innovations</strong>, by Karuna Kumar</p>
       </footer>
     </div>
   `,
