@@ -24,7 +24,7 @@ import { AuthService } from '../../services/auth.service';
           <button type="submit" [disabled]="loading">{{ loading ? 'Signing in…' : 'Sign in' }}</button>
 
           <p class="signin-hint"><a routerLink="/signup">Create Free Account</a> <span class="or-word">or</span> Demo/Free Logins as below</p>
-          <p class="signin-hint-te"><a routerLink="/signup">ఉచిత ఖాతా సృష్టించండి</a> <span class="or-word">లేదా</span> డెమో లాగిన్</p>
+          <p class="signin-hint-te"><a routerLink="/signup">ఉచిత ఖాతా సృష్టించండి</a> <span class="or-word">లేదా</span> క్రింద ఉన్న డెమో/ఉచిత లాగిన్‌లు</p>
 
           <p class="error" *ngIf="error">{{ error }}</p>
 
