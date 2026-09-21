@@ -43053,7 +43053,2367 @@ const TET_QUESTIONS = [
     "a మరియు c మాత్రమే",
     "b మరియు d మాత్రమే"
   ]
-}
+},
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Child Development & Pedagogy",
+    "question": "Who proposed the socio-cultural theory?",
+    "options": [
+      "Bruner",
+      "Rogers",
+      "Bandura",
+      "Vygotsky"
+    ],
+    "correct": 4,
+    "question_te": "సాంఘిక సాంస్కృతిక సిద్ధాంతాన్ని ప్రతిపాదించినవారు?",
+    "options_te": [
+      "బ్రూసర్",
+      "రోజర్స్",
+      "బండూర",
+      "వైగాట్స్కీ"
+    ]
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is a good definition of learning:",
+    "options": [
+      "A permanent change in behavior through physical development",
+      "A change in behavior through punishment",
+      "Any change in behavior",
+      "A relatively permanent change in behavior through experience"
+    ],
+    "correct": 4,
+    "question_te": "అభ్యసనానికి ఇది మంచి నిర్వచనం?",
+    "options_te": [
+      "శారీరకాభివృద్ధి ద్వారా ప్రవర్తనలో కలిగే శాశ్వతమార్పు",
+      "శిక్ష ద్వారా ప్రవర్తనలో కలిగే మార్పు",
+      "ప్రవర్తనలో ఏదేని మార్పు",
+      "అనుభవం ద్వారా ప్రవర్తనలో కలిగే దాదాపు శాశ్వత మార్పు"
+    ]
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Child Development & Pedagogy",
+    "question": "Intrinsic motivation is related to:",
+    "options": [
+      "Clear external factors that control behavior",
+      "Excessive external motivation",
+      "Compulsion or consent",
+      "The absence of a clear external reward for a person's behavior"
+    ],
+    "correct": 4,
+    "question_te": "అంతర్గత ప్రేరణ దేనికి సంబంధించింది?",
+    "options_te": [
+      "ప్రవర్తనను నియంత్రించే స్పష్టమైన బహిర్గత కారకాలు",
+      "అధిక బహిర్గత ప్రేరణ",
+      "అనివార్యం లేదా సమ్మతి",
+      "వ్యక్తి ప్రవర్తనకు స్పష్టమైన బహిర్గత బహుమానం లేకపోవడం"
+    ]
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Child Development & Pedagogy",
+    "question": "Regarding goals, which of the following statements is INCORRECT?",
+    "options": [
+      "A goal describes how to achieve a result",
+      "A goal indicates the direction and focus of effort",
+      "A goal describes the outcomes of learning",
+      "A goal indicates the destination students should reach"
+    ],
+    "correct": 3,
+    "question_te": "లక్ష్యాలకు సంబంధించి కింది వాక్యాల్లో సరికానిది?",
+    "options_te": [
+      "లక్ష్యం ఫలితాన్ని ఎలా సాధించాలో వర్ణిస్తుంది",
+      "లక్ష్యం పార్శ్యాంశ కేంద్రీకరణ, దిశను సూచిస్తుంది",
+      "లక్ష్యం అభ్యసన ఫలితాలను వర్ధిస్తుంది",
+      "లక్ష్యం విద్యార్థులు చేరుకోవాల్సిన గమ్యాన్ని సూచిస్తుంది"
+    ]
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Child Development & Pedagogy",
+    "question": "The purpose of the school guidance-counselling programme is concerned with:",
+    "options": [
+      "Vocational problems",
+      "Academic problems",
+      "Students' development",
+      "Personal problems"
+    ],
+    "correct": 3,
+    "question_te": "పాఠశాల మార్గదర్శకత్వం- మంత్రణం కార్యక్రమం ప్రయోజనం దేనితో వ్యవహరిస్తారు?",
+    "options_te": [
+      "వృత్తిపర సమస్యలు",
+      "విద్యావిషయక సమస్యలు",
+      "విద్యార్థుల వికాసం",
+      "వ్యక్తిగత సమస్యలు"
+    ]
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Child Development & Pedagogy",
+    "question": "In a class with students from diverse backgrounds, a teacher wants to create a favourable environment that encourages students' positive attitudes. Which strategy is most likely to help?",
+    "options": [
+      "Emphasizing the long-term benefits of high achievement to students",
+      "Using tangible reinforcements to improve students' performance",
+      "Praising students' work to match high performance standards",
+      "Emphasizing students' progress and growth as learners"
+    ],
+    "correct": 2,
+    "question_te": "వివిధ నేపధ్యాలున్న విద్యార్థులున్న తరగతిలో ఉపాధ్యాయుడు విద్యార్థుల అనుకూల వైఖరిని పెంపొందించడానికి ప్రోత్సహించే అనువైన పరిసరాన్ని కలిగించాలనుకుంటాడు. ఈ లక్ష్యాన్ని సాధించడంలో ఉపాధ్యాయుడికి కిందివాటిలో ఏ వ్యూహం ఎక్కువగా తోడ్పడే అవకాశం ఉంది?",
+    "options_te": [
+      "విద్యార్థులకు అధిక సాధన దీర్ఘకాల లాభాలను ఉద్ఘాటించడం",
+      "విద్యార్థుల నిష్పాదనను మెరుగుపర్చడానికి మూర్త పునర్బలాలను ఉపయోగించడం",
+      "అధిక నిష్పాదన ప్రమాణాలకు సరిపోయే విధంగా విద్యార్థుల పనిని పోగడడం",
+      "విద్యార్థుల ప్రగతి, అభ్యాసకులుగా పెరిగే సమర్థతను నొక్కిచెప్పడం"
+    ]
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Child Development & Pedagogy",
+    "question": "According to Montessori, what determines the path of development and the formation of self-confidence?",
+    "options": [
+      "Mind",
+      "Body",
+      "Adults",
+      "The self"
+    ],
+    "correct": 4,
+    "question_te": "మాంటిస్సోరీ ప్రకారం వికాస మార్గాన్ని, ఆత్మవిశ్వాస ఏర్పాటును నిశ్చయించేది?",
+    "options_te": [
+      "మనస్సు",
+      "శరీరం",
+      "వయోజనులు",
+      "ఆత్మ"
+    ]
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Child Development & Pedagogy",
+    "question": "What is the stage of development of an infant?",
+    "options": [
+      "Horizontal",
+      "Vertical",
+      "Cannot be predicted",
+      "Proceeds from head to foot, and from near to far"
+    ],
+    "correct": 4,
+    "question_te": "శిశువు వికాస దశ?",
+    "options_te": [
+      "అడ్డంగా ఉంటుంది",
+      "నిలువుగా ఉంటుంది",
+      "ప్రాగుక్తీకరించలేం",
+      "శిరః పాదాభిముఖంగా, సమీప దూరస్థంగా ఉంటుంది"
+    ]
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Child Development & Pedagogy",
+    "question": "According to the Right to Education Act 2009, what should be provided to students?",
+    "options": [
+      "A helper-teacher",
+      "A teacher of the students' choice",
+      "A trained teacher",
+      "Any literate person"
+    ],
+    "correct": 3,
+    "question_te": "2009 విద్యాహక్కు చట్టం ప్రకారం విద్యార్థులకు సమకూర్చవలసింది?",
+    "options_te": [
+      "సహాయక ఉపాధ్యాయుడు",
+      "విద్యార్థులు కోరిన ఉపాధ్యాయుడు",
+      "శిక్షణ పొందిన ఉపాధ్యాయుడు",
+      "ఎవరైనా అక్షరాస్యుడు"
+    ]
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Child Development & Pedagogy",
+    "question": "Which teacher strategy is most likely to have a favourable influence on the social development of nine-year-old students?",
+    "options": [
+      "Giving students opportunities to freely express their feelings during class activities",
+      "Emphasizing cooperative, non-competitive student activities",
+      "Encouraging students to do challenging or frustrating activities",
+      "Establishing a balance between student leadership and teacher leadership in class activities"
+    ],
+    "correct": 2,
+    "question_te": "కింది వారిలో తొమ్మిదేళ్ళ వయసున్న విద్యార్థుల సాంఘిక వికాసంపై అనుకూల ప్రభావం చేయడానికి ఎక్కువ అవకాశం ఉన్న ఉపాధ్యాయ వ్యూహం?",
+    "options_te": [
+      "విద్యార్థులకు తరగతి కృత్యాల సమయంలో వారి భావాలను స్వేచ్ఛగా వ్యక్త పరిచే అవకాశాలను కలిగించడం",
+      "సహకార భావమే గాని పోటీతత్వం లేని విద్యార్థి కృత్యాలను ఉద్ఘాటించడం",
+      "సవాలు లేదా నిరాశ పూరితమైన కృత్యాలు చేయడానికి విద్యార్థులకు ప్రోత్సాహాన్ని అందించడం",
+      "విద్యార్థుల నాయకత్వ, ఉపాధ్యాయ నాయకత్వ తరగతి కృత్యాల మధ్య సమతుల్యతను ఏర్పరచడం"
+    ]
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Child Development & Pedagogy",
+    "question": "Most human traits are formed by many genes acting together. What is this called?",
+    "options": [
+      "Chromosomes",
+      "Polygenic inheritance",
+      "Non-dominant",
+      "Dominant"
+    ],
+    "correct": 2,
+    "question_te": "చాలావరకు మానవ లక్షణాలు అనేక జన్యువులు కలిసి పనిచేయడం ద్వారా ఏర్పడతాయి. దీన్ని ఏమంటారు?",
+    "options_te": [
+      "క్రోమోజోములు",
+      "బహుజన్యత్వం",
+      "అప్రభావక",
+      "ప్రభావక"
+    ]
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Child Development & Pedagogy",
+    "question": "Which of the following is NOT part of the definition of intelligence?",
+    "options": [
+      "The ability to be creative",
+      "The ability to use resources efficiently",
+      "The ability to adapt",
+      "The ability to solve problems"
+    ],
+    "correct": 1,
+    "question_te": "ప్రజ్ఞ నిర్వచనంలో భాగం కానిది?",
+    "options_te": [
+      "సృజనాత్మకంగా ఉండగలిగే సామర్థ్యం",
+      "వనరులను సమర్థంగా ఉపయోగించగలిగే సామర్థ్యం",
+      "అనుగుణ్యతా సామర్థ్యం",
+      "సమస్యలను పరిష్కరించ గలిగే సామర్థ్యం"
+    ]
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Child Development & Pedagogy",
+    "question": "According to Bandura, which of the following is NOT important in modelling behaviour?",
+    "options": [
+      "Conventional restriction/norm",
+      "Characteristics of the observer",
+      "Consequences of the imitated behaviour",
+      "Characteristics of the model"
+    ],
+    "correct": 1,
+    "question_te": "బండూర ప్రకారం కింది వాటిలో ప్రవర్తనా నమూనాలో ముఖ్యం కానిది?",
+    "options_te": [
+      "సంప్రదాయక నిబంధనం",
+      "పరిశీలకుల లక్షణాలు",
+      "అనుకరణ ప్రవర్తన పర్యవసానాలు",
+      "నమూనా లక్షణాలు"
+    ]
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Child Development & Pedagogy",
+    "question": "Who wrote the book 'Principles of Gestalt Psychology'?",
+    "options": [
+      "Kurt Koffka",
+      "Max Wertheimer",
+      "Carl Jung",
+      "Wolfgang Kohler"
+    ],
+    "correct": 3,
+    "question_te": "'ప్రిన్సిపల్ ఆఫ్ గెస్టాల్ట్ సైకాలజీ' అనే పుస్తకాన్ని రచించిన వారు?",
+    "options_te": [
+      "కర్ట్ కోఫ్కా",
+      "మాక్స్ వర్థీమయర్",
+      "కార్ల్ యంగ్",
+      "ఓల్ఫ్‌గాంగ్&కోహ్లర్"
+    ]
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Child Development & Pedagogy",
+    "question": "What do you call environmental conditions that discourage a particular behaviour from being repeated?",
+    "options": [
+      "Positive reinforcement",
+      "Negative reinforcement",
+      "Operant conditioning",
+      "Extinction"
+    ],
+    "correct": 4,
+    "question_te": "ఒక ప్రత్యేక ప్రవర్తన పునరావృతం కాకుండా నిరుత్సాహపరిచే పర్యవసానాలను ఏమంటారు?",
+    "options_te": [
+      "అనుకూల పునర్బలనం",
+      "ప్రతికూల పునర్బలనం",
+      "కార్యసాధక నిబంధనం",
+      "విరమణ"
+    ]
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Child Development & Pedagogy",
+    "question": "If any student in the class has a learning disability, what should the teacher take into account under the centralised-curriculum approach?",
+    "options": [
+      "Individual differences in learning",
+      "Learning and diversity",
+      "Knowledge construction",
+      "Strategic thinking"
+    ],
+    "correct": 4,
+    "question_te": "విద్యార్థుల్లో ఎవరికైనా ఒకరికి అభ్యసన వైకల్యం ఉంటే కింది విద్యార్థి కేంద్రీకృత సూత్రంలో ఉపాధ్యాయుడు పరిగణించాల్సింది?",
+    "options_te": [
+      "అభ్యసనంలో ఉన్న వైయక్తిక భేదాలు",
+      "అభ్యసనం, భిన్నత్వం",
+      "జ్ఞాన నిర్మాణం",
+      "వ్యూహాత్మకాలోచన"
+    ]
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Child Development & Pedagogy",
+    "question": "By providing which of the following learning environments can a teacher help students develop a favourable self-concept?",
+    "options": [
+      "Concrete reinforcements that achieve production goals",
+      "Teaching activities where social interaction remains central",
+      "Individual progress and reflective thinking",
+      "Learning opportunities for students to reach a single, uniform standard"
+    ],
+    "correct": 3,
+    "question_te": "వీటిని నొక్కి చెప్పే అభ్యసన పరిసరం కలిగించడం ద్వారా విద్యార్థులకు అనుకూల ఆత్మభావన పెంపొందించుకోవడంలో ఉపాధ్యాయుడు సహాయపడొచ్చు?",
+    "options_te": [
+      "నిష్పాదన లక్ష్యాలను సాధించే మూర్త పునర్బలాలు",
+      "సాంఘిక పరస్పర చర్య కీలకంగా ఉండే బోధనా కృత్యాలు",
+      "వైయక్తిక ప్రగతి, మననశీల చింతన",
+      "ఒకేస్థాయి సాధన కలిగే విద్యార్థులతో అభ్యసించే అవకాశాలు"
+    ]
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Child Development & Pedagogy",
+    "question": "Piaget's cognitive theory is primarily concerned with:",
+    "options": [
+      "Therapeutic methods that correct wrong concepts",
+      "Problems in sensorimotor development",
+      "The influence of the growing child's social environment",
+      "The ability to think"
+    ],
+    "correct": 1,
+    "question_te": "పియాజే సంజ్ఞానాత్మక సిద్ధాంతం ప్రధానంగా దేనికి సంబంధించింది?",
+    "options_te": [
+      "సరికాని సంజ్ఞలను సరిచేసే చికిత్సాత్మక పద్ధతులు",
+      "జ్ఞానేంద్రియ చలనాత్మక వికాసంలోని సమస్యలు",
+      "పెరిగే శిశువుపై సామాజిక ప్రపంచ ప్రభావం",
+      "ఆలోచించే సామర్థ్యాభివృద్ధి"
+    ]
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Child Development & Pedagogy",
+    "question": "Which sense organ is fully developed at birth?",
+    "options": [
+      "Smell",
+      "Touch",
+      "Hearing",
+      "Sight"
+    ],
+    "correct": 2,
+    "question_te": "పుట్టిన నాటికే పూర్తిగా అభివృద్ధి చెందే జ్ఞానేంద్రియం?",
+    "options_te": [
+      "వాసన",
+      "స్పర్శ",
+      "వినికిడి",
+      "చూపు"
+    ]
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Child Development & Pedagogy",
+    "question": "Which of the following treatment methods is an example of behaviour modification?",
+    "options": [
+      "Making a person able to analyze others' behaviour",
+      "Making a person able to change others' behaviour",
+      "Making a person unlearn maladaptive behaviours and emotions",
+      "Making people explore their own childhood behaviours"
+    ],
+    "correct": 3,
+    "question_te": "కింది చికిత్సా పద్ధతుల్లో ప్రవర్తనా మార్పునకు ఉదాహరణ?",
+    "options_te": [
+      "ఇతరుల ప్రవర్తనను వ్యక్తి విశ్లేషించ గలిగేలా చేయడం",
+      "ఇతరుల ప్రవర్తనను వ్యక్తి మార్చు చేయగలిగేలా చేయడం",
+      "సర్దుబాటుకాని ప్రవర్తనలు, ఉద్వేగాలను వ్యక్తి అనభ్యసించేలా చేయడం",
+      "తన బాల్య ప్రవర్తనలను వ్యక్తులు అన్వేషించేలా చేయడం"
+    ]
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Child Development & Pedagogy",
+    "question": "At which stage proposed by Kohlberg does a child say 'stealing is wrong' only out of fear of being caught?",
+    "options": [
+      "Morality of a good boy/good girl (stage 3)",
+      "Morality that follows authority and social order (stage 4)",
+      "Punishment-obedience (stage 1)",
+      "Instrumental-relativist hedonism (stage 2)"
+    ],
+    "correct": 2,
+    "question_te": "కోహెల్బర్గ్ ప్రతిపాదించిన ఏ దశలో శిశువు దొరికిపోతానే ఉద్దేశంతో 'దొంగతనం చేయడం తప్పు' అని చెప్పుతాడు?",
+    "options_te": [
+      "మంచి బాలుడు లేదా మంచి బాలిక అనే నైతికత (దశ 3)",
+      "అధికారం, సాంఘిక క్రమాన్ని పాటించే నీతి (దశ 4)",
+      "శిక్ష విధేయత (దశ 1)",
+      "సాధనోపయోగ సుఖవాదం (దశ 2)"
+    ]
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Child Development & Pedagogy",
+    "question": "Which theorist hypothesized that children have an innate device for acquiring language?",
+    "options": [
+      "Chomsky",
+      "Vygotsky",
+      "Kohlberg",
+      "Piaget"
+    ],
+    "correct": 1,
+    "question_te": "పిల్లల్లో పుట్టుకతో భాషను ఆర్జించే ఉపకరణం ఉంటుందని పరికల్పన చేసిన సిద్ధాంత కర్త?",
+    "options_te": [
+      "చామ్స్కీ",
+      "వైగాట్స్కీ",
+      "కోహ్ల్బర్గ్",
+      "పియాజె"
+    ]
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Child Development & Pedagogy",
+    "question": "The distribution of IQ scores:",
+    "options": [
+      "Shows differences in average between men and women",
+      "Drops abruptly after 100",
+      "Is approximately normal, or bell-shaped",
+      "Shows that most people score between 80-100"
+    ],
+    "correct": 3,
+    "question_te": "ప్రజ్ఞాలబ్ధి గణనల విస్తరణ?",
+    "options_te": [
+      "స్త్రీ పురుషుల మధ్య సగటులో తేడాలను తెలుపుతుంది",
+      "100 తరువాత హరాత్తుగా పడిపోతుంది",
+      "సుమారు సాధారణ లేదా గంట ఆకారం",
+      "చాలామంది 80-100 మధ్య ఉంటారని తెలుపుతుంది"
+    ]
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Child Development & Pedagogy",
+    "question": "A teacher gave work in his classroom based on students' ability. What did the teacher take into account here?",
+    "options": [
+      "Individual differences",
+      "Practice",
+      "Interests",
+      "Family background"
+    ],
+    "correct": 1,
+    "question_te": "ఉపాధ్యాయుడు తన తరగతి గదిలో విద్యార్థుల సామర్థ్యాన్ని బట్టి పని ఇచ్చాడు. ఇక్కడ ఉపాధ్యాయుడు పరిగణించింది?",
+    "options_te": [
+      "వైయక్తిక భేదాలు",
+      "సాధన",
+      "ఆసక్తులు",
+      "కుటుంబ నేపధ్యం"
+    ]
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Child Development & Pedagogy",
+    "question": "Which branch of psychology diagnoses and provides appropriate treatment for milder-level adjustment-type mental problems?",
+    "options": [
+      "Personality psychology",
+      "Experimental psychology",
+      "Developmental psychology",
+      "Counselling psychology"
+    ],
+    "correct": 4,
+    "question_te": "కింది మనోవిజ్ఞానశాస్త్ర రంగాల్లో సర్దుబాటు సమస్యల లాంటి తక్కువ స్థాయిలో గల మానసిక సమస్యలను నిర్ధారించి తగిన చికిత్సను అందించేది?",
+    "options_te": [
+      "మూర్తిమత్వ మనోవిజ్ఞానశాస్త్రం",
+      "ప్రయోగ మనోవిజ్ఞానశాస్త్రం",
+      "వికాస మనోవిజ్ఞానశాస్త్రం",
+      "మంత్రణ మనోవిజ్ఞానశాస్త్రం"
+    ]
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Child Development & Pedagogy",
+    "question": "What improves memory?",
+    "options": [
+      "Rote memorization",
+      "Rehearsal",
+      "Continuous practice",
+      "Staying awake as long as possible after reading"
+    ],
+    "correct": 2,
+    "question_te": "స్మృతిని పెంపొందించేదేది?",
+    "options_te": [
+      "బట్టీ స్మృతి",
+      "రిహార్స్‌లు",
+      "నిర్విరామ అభ్యాసం",
+      "చదివిన తర్వాత వీలైనంత సమయం మేలుకువగా ఉండటం"
+    ]
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Child Development & Pedagogy",
+    "question": "People made a conventional rule to frighten a child away from a poisonous mouse. If the child later becomes afraid on seeing a harmless mouse too, what is that?",
+    "options": [
+      "Stimulus - recognition",
+      "Stimulus - discrimination",
+      "Stimulus - generalization",
+      "Stimulus - refinement"
+    ],
+    "correct": 3,
+    "question_te": "శిశువును తెల్లని ఎలుకకు భయపడేట్టు సంప్రదాయక నిబంధనతో చేశారు. ఒకవేళ ఆ శిశువు తెల్లని కుందేలును చూసి కూడా భయపడితే అది?",
+    "options_te": [
+      "ఉద్దీపన- గుర్తించుట",
+      "ఉద్దీపన- విభేదీకరించుట",
+      "ఉద్దీపన -సాధారణీకరణం",
+      "ఉద్దీపన- విచక్షణ"
+    ]
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Telugu",
+    "question": "'గౌతమీ కోకిల' గారి 'దీపావళి' ప్రసిద్ధమైన?",
+    "options": [
+      "కథా సంకలనం",
+      "కావ్య సంకలనం",
+      "వ్యాస సంకలనం",
+      "కవితా సంకలనం"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Telugu",
+    "question": "'పోషణ'లో ఉంది, 'దూషణ'లో లేదు\n'మమత'లో ఉంది, 'మమకారం'లో లేదు\n'మన'లో ఉంది, 'మాట'లో లేదు\nఈ పొడుపు కథలోని కవి పేరు?",
+    "options": [
+      "మంచన",
+      "పోతన",
+      "సోమన",
+      "కేతన"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Telugu",
+    "question": "ప్రాచీన కావ్య భాషకు నేటికీ ప్రామాణికంగా భావించే వ్యాకరణ గ్రంథం?",
+    "options": [
+      "అప్పకవీయం",
+      "ఆంధ్రశబ్ద చింతామణి",
+      "బాల వ్యాకరణం",
+      "ప్రౌఢ వ్యాకరణం"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Telugu",
+    "question": "'సిద్ధాంత శిరోమణి' అనే గణిత శాస్త్ర గ్రంథం రచించింది?",
+    "options": [
+      "బ్రహ్మగుప్తుడు",
+      "కోల్‌బ్రూక్",
+      "భాస్కరాచార్యుడు",
+      "మహేశ్వరుడు"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Telugu",
+    "question": "'నీ కంఠంబు కౌగిలించి పట్టుకొని వచ్చెదను' ఈ వాక్యాన్ని వ్యవహార భాషలో రాస్తే?",
+    "options": [
+      "నీ కంఠాన్ని కౌగిలించుకొని పట్టుకొని వస్తాను",
+      "నీ కంఠంబు పెనవేసి పట్టుకొని వస్తాను",
+      "నీ కంఠంబు కౌగిలించి పట్టుకొనివస్తాను",
+      "నీ కంఠము కౌగిలించి పట్టుకొని వచ్చెదను"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Telugu",
+    "question": "వేటగాడు జింకను చూశాడు. అతడు దాన్ని బాణంతో కొట్టాడు. ఈ వాక్యాలను కలిపి ఒక వాక్యంగా రాస్తే?",
+    "options": [
+      "వేటగాడు జింకను చూసి అతడు బాణంతో కొట్టాడు.",
+      "వేటగాడు జింకను చూసి అతడు దానిని బాణంతో కొట్టాడు",
+      "వేటగాడు జింకను చూశాడు దానిని బాణంతో కొట్టాడు",
+      "వేటగాడు జింకను చూసి బాణంతో కొట్టాడు"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Telugu",
+    "question": "ఆనంద్ రవికి ఆర్థిక సాయంచేశాడు. ఈ వాక్యంలోని క్రియను భవిష్యత్తాకలం లోకి మార్చి రాస్తే?",
+    "options": [
+      "ఆనంద్ రవికి ఆర్థిక సాయం చేయలేదు",
+      "ఆనంద్ రవికి ఆర్థిక సాయం చెయ్యడు",
+      "ఆనంద్ రవికి ఆర్థిక సాయం చేస్తున్నాడు",
+      "ఆనంద్ రవికి ఆర్థిక సాయం చేస్తాడు"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Telugu",
+    "question": "'ఆలు' అనేమాట ఒకప్పుడు ఈ అర్థంలో వాడేవారు?",
+    "options": [
+      "శిశువు",
+      "స్త్రీ",
+      "రాణి",
+      "తల్లి"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Telugu",
+    "question": "'గోయి' శబ్దం బహువచన రూపం గోతలు. ఈ బహువచన రూపం ఏర్పడటానికి గోయి శబ్దం చివరి వర్ణానికి వచ్చిన ఉపవిభక్తి?",
+    "options": [
+      "టి",
+      "ఉ",
+      "తి",
+      "ఇ"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Telugu",
+    "question": "'కరి మ్రింగిన వెలగపండు' ఈ సామెతలో 'కరి' అంటే?",
+    "options": [
+      "చేయి",
+      "మొసలి",
+      "ఏనుగు",
+      "చీడపురుగు"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Telugu",
+    "question": "అనంత లక్ష్మమ్మ, బూర్గుల రామకృష్ణారావు గారి 'కళత్రము' ఈ వాక్యంలో 'కళత్రము' అనే శబ్దం?",
+    "options": [
+      "స్త్రీ బోధకం",
+      "త్రి లింగం",
+      "పు లింగం",
+      "పురుషబోధకం"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Telugu",
+    "question": "'దుర్గమం' అనే పదానికి వ్యుత్పత్తర్థం?",
+    "options": [
+      "ప్రయాసంతో పొందదగినది",
+      "చెట్టు చేమలతో ఆవరించేది",
+      "క్లేశముతో నెరుంగదగినది",
+      "దుర్గతిని పొందజేసేది"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Telugu",
+    "question": "'పీఠిక' అంటే?",
+    "options": [
+      "గ్రంథానికి మొదట్లో రాసే కవి చరిత్ర",
+      "గ్రంథానికి మొదట్లో పాఠకుల అభి ప్రాయాలు తెలుపుతూ రాసే అంశం",
+      "గ్రంథానికి మొదట్లో దాని పుట్టు పూర్వోత్తరాలు తెలుపుతూ రాసే వివరణ",
+      "గ్రంథానికి మొదట్లో ఇచ్చే కఠిన పదాల అర్థాల పట్టిక"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Telugu",
+    "question": "'తలమునకలు' అనే జాతీయం ఈ అర్థంలో వాడుతున్నారు?",
+    "options": [
+      "తన శక్తి మీరునట్లు",
+      "తన శక్తి లేకుండా",
+      "తన తల మునుగునట్లు",
+      "తన శక్తికి తక్కువ"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Telugu",
+    "question": "'కన్యాశుల్కం' నాటక రచయిత?",
+    "options": [
+      "గురజాడ అప్పారావు",
+      "చిలకమర్తి లక్ష్మీనరసింహం",
+      "కందుకూరి వీరేశలింగం",
+      "గిడుగు రామమూర్తి"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Telugu",
+    "question": "'ఇతివృత్తం' అంటే?",
+    "options": [
+      "రసం",
+      "శైలి",
+      "పాత్ర",
+      "విషయం"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Telugu",
+    "question": "గురజాడ స్వదేశీ సరుకులను దేశంలో నింపాలనడంలో ఉద్దేశ్యం?",
+    "options": [
+      "విదేశం బాగుపడటానికి",
+      "స్వదేశం గొప్పను తెలియజేయడానికి",
+      "విదేశీయులను ద్వేషించడానికి",
+      "స్వదేశం బాగుపడటానికి"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Telugu",
+    "question": "పాండిత్యంలేని సామాన్యులకు అంతుపట్టని భాష?",
+    "options": [
+      "మాండలిక",
+      "ప్రామాణిక",
+      "వాడుక",
+      "గ్రాంధిక"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Telugu",
+    "question": "కల్మి అనే పదానికి అర్థం?",
+    "options": [
+      "ధర్మం",
+      "మోక్షం",
+      "కోరిక",
+      "సంపద"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Telugu",
+    "question": "ఇది ఏ వృత్త పద్యం?",
+    "options": [
+      "మత్తేభం",
+      "శార్దూలం",
+      "ఉత్పలమాల",
+      "చంపకమాల"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Telugu",
+    "question": "'నీ సుత సేయు భావనము' అనే పాద భాగంలో 'సుత' ఎవరు?",
+    "options": [
+      "పార్వతి",
+      "గంగ",
+      "లక్ష్మి",
+      "సీత"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Telugu",
+    "question": "'నీ సుతుడిచ్చు నాయువును నిన్ను భజించిన' కవి ఎవరినుద్దేశించి చెబుతున్నాడు?",
+    "options": [
+      "ఈశ్వరుడు",
+      "శ్రీరాముడు",
+      "బ్రహ్మ",
+      "మన్మధుడు"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Telugu",
+    "question": "పై శతక పద్య రచయిత?",
+    "options": [
+      "వేమన",
+      "గోపన్న",
+      "ధూర్జటి",
+      "బద్దెన"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Telugu",
+    "question": "'ఈప్సితార్థములు' విడదీసి రాస్తే?",
+    "options": [
+      "ఈప్సిత +అర్థములు",
+      "ఈప్సిత్ + అర్థములు",
+      "ఈప్సితా+ అర్థములు",
+      "ఈప్సిత + ఆర్థములు"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Telugu",
+    "question": "'కనీస అభ్యసన స్థాయిల' దృష్టిలో ఉంచుకొని నీవు చేసే మూల్యాంకనం?",
+    "options": [
+      "నిరంతర",
+      "సృష్టీకరణ",
+      "లక్ష్యాత్మక",
+      "సామర్థ్యాధారిత"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Telugu",
+    "question": "త్రిపార్శ్వ ఉపకరణాలను ఉపయోగించి బోధించే సందర్భంలో నీవు ఉపయోగించే ఉపకరణాలు?",
+    "options": [
+      "మెరుపు అట్టలు",
+      "తోలు బొమ్మలు",
+      "ఛాయా చిత్రాలు",
+      "వ్యంగ్య చిత్రాలు"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Telugu",
+    "question": "ముఖ యంత్రంలో ధ్వని పుట్టే పైభాగాలను ఏ మంటారు?",
+    "options": [
+      "ప్రయత్నం",
+      "జిహ్వ",
+      "స్థానం",
+      "కరణం"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Telugu",
+    "question": "ఒక్క గుక్కలో ఒకసారి అర్థవంతంగా ఉచ్చరించగలిగే పద సముదాయాన్ని ఏ మంటారు?",
+    "options": [
+      "పురోగమన వాజ్మయ సమితి",
+      "తిరోగమన వాజ్మయ సమితి",
+      "నయనమితి",
+      "వాజ్మితి"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Telugu",
+    "question": "విద్యార్థుల సంపూర్ణమూర్తిమత్వాన్ని అభివృద్ధి చేసేది?",
+    "options": [
+      "విద్యా ప్రణాళిక",
+      "వార్షిక ప్రణాళిక",
+      "పాఠ్య ప్రణాళిక",
+      "సహాపాఠ్య ప్రణాళిక"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Telugu",
+    "question": "నియోజన పద్ధతిని ఇలా కూడా పిలుస్తారు?",
+    "options": [
+      "కృత్యాధార పద్ధతి",
+      "చర్చా పద్ధతి",
+      "మాంటిస్సోరి పద్ధతి",
+      "డాల్టన్ పద్ధతి"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "English",
+    "question": "You are not going out today---? Complete the sentence with the right question tag.",
+    "options": [
+      "aren't you",
+      "are you",
+      "don't you",
+      "do you"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "English",
+    "question": "She saw me. The negative form of the sentence is---",
+    "options": [
+      "She don't see me",
+      "She is not seen me",
+      "She doesn't see me",
+      "She didn't see me"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "English",
+    "question": "Choose the appropriate question to get the reply. I am from Delhi.",
+    "options": [
+      "Where you are from?",
+      "Where are you from?",
+      "Where do you from?",
+      "From where do you come?"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "English",
+    "question": "There is a small park---- the top of the hill. Fill in the blank with the correct preposition.",
+    "options": [
+      "at",
+      "to",
+      "on",
+      "in"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "English",
+    "question": "Abdulla has bought a story book. The part of speech of the underlined word (story) is?",
+    "options": [
+      "an adverb",
+      "a verb",
+      "a noun",
+      "an adjective"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "English",
+    "question": "Bittu said to himself, 'I am going to obey my parents.' He realized the importance of --- parents and started doing things at the right time. Fill in the blank choosing the suitable word.",
+    "options": [
+      "obedient",
+      "disobeying",
+      "obeying",
+      "obedience"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "English",
+    "question": "Wheat and rice are mere grass seeds. The word 'mere' means?",
+    "options": [
+      "cheap",
+      "only",
+      "best",
+      "costly"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "English",
+    "question": "It was warm, so I --- my coat (take). Fill in the blank with the correct form of the word given in the bracket.",
+    "options": [
+      "have taken",
+      "am taking",
+      "took",
+      "was taking"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "English",
+    "question": "The hotel was surprisingly cheap. I expected it to be --- (expensive). Complete the sentence choosing the suitable alternative.",
+    "options": [
+      "the most expensive",
+      "so expensive",
+      "most expensive",
+      "more expensive"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "English",
+    "question": "'The heading' in writing a letter includes?",
+    "options": [
+      "the greeting",
+      "the writer's address",
+      "the address of the person to whom you are writing",
+      "the writer's address and the date"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "English",
+    "question": "You can borrow the money --- Complete the sentence choosing the correct answer.",
+    "options": [
+      "however you pay it back as soon as possible",
+      "while you pay it back as soon as possible",
+      "if you pay it back as soon as possible",
+      "unless you pay it back as soon as possible"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "English",
+    "question": "For / I've caused/ I'm sorry/ any trouble. Identify the correct order of the words to make a meaningful sentence.",
+    "options": [
+      "I'm sorry I've caused for any trouble",
+      "I'm sorry for any trouble I've caused",
+      "I've caused trouble I'm sorry for any",
+      "I've caused trouble I'm sorry for any"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "English",
+    "question": "Choose the word with the correct spelling.",
+    "options": [
+      "happenned",
+      "hapenned",
+      "happened",
+      "hapened"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "English",
+    "question": "Identify the correct form of the adverb to fill in the blank. I have told you ---",
+    "options": [
+      "Twice",
+      "Many many times",
+      "one time",
+      "two times"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "English",
+    "question": "Choose the set of words which are in alphabetical order.",
+    "options": [
+      "Celebration, celebrity, center, centimeter",
+      "Celebration, celebrity, centimeter, center",
+      "Celebrity, centimeter, celebration, center",
+      "Center, centimeter, celebrity, celebration"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "English",
+    "question": "A lion, an ass and a fox ---(76)--- hunting and caught a deer. Choose the word for blank (76).",
+    "options": [
+      "go",
+      "goes",
+      "went",
+      "gone"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "English",
+    "question": "The ass divided it ---(77)--- three equal parts. Choose the word for blank (77).",
+    "options": [
+      "in",
+      "to",
+      "with",
+      "into"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "English",
+    "question": "This ---(78)--- the lion. Choose the word for blank (78).",
+    "options": [
+      "angered",
+      "overjoyed",
+      "confused",
+      "frightened"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "English",
+    "question": "...who felt he was entitled to more than his partners. Choose the word for blank (79).",
+    "options": [
+      "which",
+      "who",
+      "when",
+      "where"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "English",
+    "question": "The woman brought her daughter to Gandhi because",
+    "options": [
+      "her daughter wanted to see Gandhi",
+      "She wanted her daughter to see Gandhi",
+      "Gandhi wanted to see her daughter",
+      "her daughter wouldn't listen to her but she would listen to Gandhi"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "English",
+    "question": "One day, a woman approached Gandhi with a strange request. The strange request was",
+    "options": [
+      "to ask Gandhi to eat sweets",
+      "to help her stop eating sweets",
+      "to tell her daughter to reduce eating sweets",
+      "to tell her daughter to eat sweets"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "English",
+    "question": "Gandhi asked the woman to come back three weeks later because",
+    "options": [
+      "Gandhi was also addicted to sweets",
+      "Gandhi wanted to teach the woman a lesson",
+      "Gandhi wanted the girl to learn it by herself",
+      "Gandhi wanted to find the solution from somebody"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "English",
+    "question": "Gandhi told the girl",
+    "options": [
+      "to eat more sweets",
+      "not to eat any sweets",
+      "to eat fewer sweets",
+      "to be affectionate to her mother"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "English",
+    "question": "The word 'approached' in this passage means",
+    "options": [
+      "brought to",
+      "came to",
+      "told",
+      "asked"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "English",
+    "question": "Tongue twisters can be used effectively to improve",
+    "options": [
+      "vocabulary",
+      "pronunciation",
+      "spelling",
+      "grammar"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "English",
+    "question": "A structural drill can be useful in remedying the frequently occurring errors concerned with",
+    "options": [
+      "vocabulary",
+      "Pronunciation of words",
+      "subject-verb agreement and tense forms",
+      "spellings"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "English",
+    "question": "One of the features of the 'Direct method' is",
+    "options": [
+      "class room activities are carried out only in the target language",
+      "teaching of vocabulary items in the form of word lists",
+      "translation of sentences of texts",
+      "use of mother tongue only by the teacher in the class room"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "English",
+    "question": "The technique 'skimming' in silent reading means",
+    "options": [
+      "reading the passage word by word",
+      "locating the keywords of the passage",
+      "reading the whole passage slowly to get the details of the passage",
+      "reading the whole passage rapidly to get the gist of the passage"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "English",
+    "question": "The test-item, 'matching of sentences with pictures' tests the",
+    "options": [
+      "Writing skill",
+      "reading skill",
+      "listening skill",
+      "speaking skill"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "English",
+    "question": "Identify the minimal pair.",
+    "options": [
+      "sip-sheep",
+      "put-but",
+      "seat-sheet",
+      "sip-ship"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Mathematics",
+    "question": "Find the greatest number that divides 370 and 514 leaving remainder 10 in each case.",
+    "options": [
+      "14",
+      "32",
+      "72",
+      "12"
+    ],
+    "correct": 3,
+    "question_te": "370, 514లను 10 శేషం వచ్చేలా భాగించే గరిష్ట సంఖ్య?"
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Mathematics",
+    "question": "Find the HCF of 60 and 165.",
+    "options": [
+      "20",
+      "15",
+      "60",
+      "165"
+    ],
+    "correct": 2,
+    "question_te": "60, 165 సంఖ్యల గరిష్ట సామాన్య భాజకం?"
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Mathematics",
+    "question": "If the difference between two prime numbers is 2, what are such numbers called?",
+    "options": [
+      "Odd numbers",
+      "Composite numbers",
+      "Co-prime numbers",
+      "Twin prime numbers"
+    ],
+    "correct": 4,
+    "question_te": "రెండు ప్రధాన సంఖ్యల మధ్య భేదం 2 ఐతే ఆ సంఖ్యలను ఏమని పిలుస్తారు?",
+    "options_te": [
+      "బేసి సంఖ్యలు",
+      "సంయుక్త సంఖ్యలు",
+      "పరస్పర ప్రధాన సంఖ్యలు",
+      "కవల ప్రధాన సంఖ్యలు"
+    ]
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Mathematics",
+    "question": "If (1/2)A = (1/3)B, find A:B.",
+    "options": [
+      "1/3 : 1/2",
+      "3:2",
+      "2:3",
+      "3:1"
+    ],
+    "correct": 3,
+    "question_te": "(1/2)A = (1/3)B ఐతే A:B విలువ?"
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Mathematics",
+    "question": "If the area of a square is 4 hectares, what is the length of its side (in metres)?",
+    "options": [
+      "300",
+      "400",
+      "100",
+      "200"
+    ],
+    "correct": 4,
+    "question_te": "ఒక చతురస్ర వైశాల్యం 4 హెక్టార్లైతే దాని భుజం పొడవు (మీటర్లలో)?"
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Mathematics",
+    "question": "Find the value of 0.2(bar) + 0.23(bar) (repeating decimals).",
+    "options": [
+      "0.45(bar over 5 only)",
+      "0.25(bar over 5 only)",
+      "0.45(bar over both digits)",
+      "0.43(bar over both digits)"
+    ],
+    "correct": 3,
+    "question_te": "0.2̄ + 0.23̄ విలువ"
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Mathematics",
+    "question": "In a garden, 3/8 of the trees are mango, 1/8 are guava. What fraction of the trees remain (other varieties)?",
+    "options": [
+      "4/8",
+      "5/8",
+      "2/8",
+      "3/8"
+    ],
+    "correct": 1,
+    "question_te": "ఒక తోటలో 3/8 వంతు మామిడి చెట్లు, 1/8 వంతు జామ చెట్లు ఉంటే మిగిలిన చెట్ల భాగం?"
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Mathematics",
+    "question": "6 kg of mangoes costs Rs.84. What is the cost of 7 1/2 kg of mangoes (in Rs.)?",
+    "options": [
+      "107",
+      "106",
+      "108",
+      "105"
+    ],
+    "correct": 4,
+    "question_te": "6 కి.గ్రా. మామిడి పండ్ల వెల ₹84 ఐతే 7 1/2 కి.గ్రా. మామిడి పండ్ల వెల (రూ.లో)?"
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Mathematics",
+    "question": "Which of the following is an irrational number?",
+    "options": [
+      "1.5",
+      "1.5(bar)",
+      "sqrt(4)",
+      "sqrt(5)"
+    ],
+    "correct": 4,
+    "question_te": "కింది సంఖ్యల్లో అకరణీయ సంఖ్య?"
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Mathematics",
+    "question": "If sqrt(2) = 1.414, what is the value of sqrt(8)?",
+    "options": [
+      "6.288",
+      "8.148",
+      "2.828",
+      "2.238"
+    ],
+    "correct": 3,
+    "question_te": "√2 = 1.414 ఐతే √8 విలువ?"
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Mathematics",
+    "question": "A rectangle's area is 90 sq.cm and its length is 15 cm. Find its width (in cm).",
+    "options": [
+      "10",
+      "5",
+      "9",
+      "6"
+    ],
+    "correct": 4,
+    "question_te": "ఒక దీ.వ. వైశాల్యం, పొడవులు వరుసగా 90 చ.సెం.మీ, 15 సెం.మీ ఐతే దాని వెడల్పు (సెంటీమీటర్లలో)?"
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Mathematics",
+    "question": "In a bar (line) graph, how are the data values represented?",
+    "options": [
+      "Circles",
+      "Triangles",
+      "Squares",
+      "Rectangles"
+    ],
+    "correct": 4,
+    "question_te": "కమ్మీ రేఖా చిత్రంలో దత్తాంశ విలువలను ఏ విధంగా సూచిస్తారు?",
+    "options_te": [
+      "వృత్తాలు",
+      "త్రిభుజాలు",
+      "చతురస్రాలు",
+      "దీర్ఘ చతురస్రాలు"
+    ]
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Mathematics",
+    "question": "If 36 people can finish a job in 12 days, how many days will it take 9 people to finish the same job?",
+    "options": [
+      "48",
+      "60",
+      "24",
+      "36"
+    ],
+    "correct": 1,
+    "question_te": "36 మంది ఒక పనిని 12 రోజుల్లో చేస్తే అదే పనిని 9 మంది చేయడానికి పట్టే రోజులు?"
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Mathematics",
+    "question": "How many end points does a line segment have?",
+    "options": [
+      "3",
+      "4",
+      "1",
+      "2"
+    ],
+    "correct": 4,
+    "question_te": "ఒక రేఖాఖండానికి ఉన్న తుది బిందువుల సంఖ్య?"
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Mathematics",
+    "question": "If 3, 7, 9, X are in proportion, find the value of X.",
+    "options": [
+      "12",
+      "63",
+      "10",
+      "21"
+    ],
+    "correct": 4,
+    "question_te": "3, 7, 9, X సంఖ్యలు అనుపాతంలో ఉంటే 'X' విలువ?"
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Mathematics",
+    "question": "If the only common factor of two numbers is 1, what are those numbers called?",
+    "options": [
+      "Composite numbers",
+      "Even numbers",
+      "Twin prime numbers",
+      "Co-prime numbers"
+    ],
+    "correct": 4,
+    "question_te": "రెండు సంఖ్యలకు '1' తప్ప ఉమ్మడి కారణాంకాలు లేకపోతే ఆ సంఖ్యలు?",
+    "options_te": [
+      "సంయుక్త సంఖ్యలు",
+      "సరి సంఖ్యలు",
+      "కవల ప్రధాన సంఖ్యలు",
+      "పరస్పర ప్రధాన సంఖ్యలు"
+    ]
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Mathematics",
+    "question": "Which of the following represents a complete rotation (angle)?",
+    "options": [
+      "90 degrees",
+      "0 degrees",
+      "180 degrees",
+      "360 degrees"
+    ],
+    "correct": 4,
+    "question_te": "కింది వాటిలో ఒక పూర్తి భ్రమణాన్ని సూచించే కోణం?"
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Mathematics",
+    "question": "The area of a square is 1225 sq.m. Find its perimeter (in metres).",
+    "options": [
+      "140",
+      "200",
+      "100",
+      "120"
+    ],
+    "correct": 1,
+    "question_te": "ఒక చతురస్రం వైశాల్యం 1225 చ.మీ. ఐతే దాని చుట్టుకొలత (మీటర్లలో)?"
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Mathematics",
+    "question": "In constructing a bar graph, which of the following is NOT taken into consideration?",
+    "options": [
+      "Base line",
+      "Area of the bars",
+      "Width",
+      "Height"
+    ],
+    "correct": 3,
+    "question_te": "కమ్మీ రేఖాచిత్రం నిర్మాణంలో కింది విషయం పరిగణనలోకి తీసుకోరు?",
+    "options_te": [
+      "ఆధార రేఖ",
+      "కమ్మీల వైశాల్యం",
+      "వెడల్పు",
+      "ఎత్తు"
+    ]
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Mathematics",
+    "question": "An article was bought for Rs.640 and sold for Rs.680. Find the profit percentage.",
+    "options": [
+      "5 1/4",
+      "6 1/2",
+      "7 1/4",
+      "6 1/4"
+    ],
+    "correct": 4,
+    "question_te": "ఒక వస్తువు కొన్న వెల ₹640, అమ్మిన వెల ₹680 ఐతే లాభశాతం?"
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Mathematics",
+    "question": "If the measure of an angle is 180 degrees, what is it called?",
+    "options": [
+      "Complete angle",
+      "Straight angle",
+      "Acute angle",
+      "Obtuse angle"
+    ],
+    "correct": 2,
+    "question_te": "ఒక కోణం కొలత 180° ఐతే దాన్ని ఏమని పిలుస్తారు?",
+    "options_te": [
+      "సంపూర్ణకోణం",
+      "సరళ కోణం",
+      "అల్ప కోణం",
+      "అధిక కోణం"
+    ]
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Mathematics",
+    "question": "What is the smallest number that must be added to 1515 to make it a perfect square?",
+    "options": [
+      "7",
+      "8",
+      "5",
+      "6"
+    ],
+    "correct": 4,
+    "question_te": "1515 సంపూర్ణవర్గం కావడానికి కలపాల్సిన కనిష్ట ధన సంఖ్య?"
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Mathematics",
+    "question": "At which stage of preparing instructional material is 'elaboration of subject content' mostly used?",
+    "options": [
+      "Revision",
+      "Generalization",
+      "Elaboration of subject content",
+      "Introduction/motivation"
+    ],
+    "correct": 3,
+    "question_te": "పాఠ్యబోధన కోసం తయారు చేసిన బోధనోపకరణాలు ఎక్కువగా ఏ సోపానంలో ఉపయోగిస్తారు?",
+    "options_te": [
+      "పునర్విమర్శ",
+      "సాధారణీకరణం",
+      "విషయ విశదీకరణ",
+      "ఉప్పోద్ఘాతం"
+    ]
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Mathematics",
+    "question": "Which country hosted the first International Mathematical Olympiad?",
+    "options": [
+      "Brazil",
+      "Norway",
+      "Moscow",
+      "Romania"
+    ],
+    "correct": 4,
+    "question_te": "మొదటి అంతర్జాతీయ గణిత ఒలింపియాడ్ నిర్వహించిన దేశం?"
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Mathematics",
+    "question": "The objective 'synthesis' belongs to which domain?",
+    "options": [
+      "Cognitive domain",
+      "Affective (emotional) domain",
+      "Affective domain",
+      "Psychomotor domain"
+    ],
+    "correct": 1,
+    "question_te": "'సంశ్లేషణ' అనే లక్ష్యం దేనికి చెందింది?",
+    "options_te": [
+      "జ్ఞానాత్మక రంగం",
+      "ఉద్వేగ వికాస రంగం",
+      "భావావేశ రంగం",
+      "మానసిక చలనాత్మక రంగం"
+    ]
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Mathematics",
+    "question": "Mathematics as a subject is NOT related to which of the following?",
+    "options": [
+      "Generalization",
+      "Descriptive",
+      "Logical",
+      "Analysis"
+    ],
+    "correct": 2,
+    "question_te": "గణిత శాస్త్రం ఏ విషయానికి సంబంధించింది కాదు?",
+    "options_te": [
+      "సామాన్యీకరణం",
+      "వర్ణనాత్మకం",
+      "తార్కికం",
+      "విశ్లేషణం"
+    ]
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Mathematics",
+    "question": "'Readiness' is related to which of the following values?",
+    "options": [
+      "Discipline",
+      "Cultural",
+      "Social",
+      "Artistic"
+    ],
+    "correct": 1,
+    "question_te": "'ఉపజ్ఞత' ఏ విలువకు సంబంధించింది?",
+    "options_te": [
+      "క్రమశిక్షణ",
+      "సాంస్కృతిక",
+      "సామాజిక",
+      "కళాత్మక"
+    ]
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Mathematics",
+    "question": "Which of the following is used to display a specific pattern/picture and results?",
+    "options": [
+      "Geo-board",
+      "Peg board",
+      "Blackboard",
+      "Flannel board"
+    ],
+    "correct": 2,
+    "question_te": "కింది వాటిలో ఒక నిర్దిష్టమైన పటం, ఫలితాలను ప్రదర్శించడానికి ఉపయోగించేది?",
+    "options_te": [
+      "జియోబోర్డ్",
+      "పెగ్ బోర్డ్",
+      "నల్ల బల్ల",
+      "ప్లానెల్ బోర్డ్"
+    ]
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Science & EVS",
+    "question": "Igloos can be seen where?",
+    "options": [
+      "Japan",
+      "Iceland",
+      "Polar regions",
+      "Kashmir valley"
+    ],
+    "correct": 3,
+    "question_te": "'ఇగ్లూ'లను ఎక్కడ చూడొచ్చు?",
+    "options_te": [
+      "జపాన్",
+      "ఐస్‌లాండ్",
+      "ధ్రువ ప్రాంతం",
+      "కాశ్మీరు లోయ"
+    ]
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Science & EVS",
+    "question": "People who don't know swimming drown in water when submerged. Why?",
+    "options": [
+      "Due to taking in excess CO2",
+      "Due to water pressure",
+      "Due to swallowing too much water",
+      "Due to lack of air"
+    ],
+    "correct": 4,
+    "question_te": "ఈత రానివారు నీటా మునిగినప్పుడు చనిపోతారు. ఎందుకంటే?",
+    "options_te": [
+      "CO2 అధికంగా తీసుకోవడంతో",
+      "నీటి పీడనం వల్ల",
+      "నీటిని అధికంగా తాగడం వల్ల",
+      "గాలి లేకపోవడం వల్ల"
+    ]
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Science & EVS",
+    "question": "What are 'chelamalu/ootalu' (natural seepage water sources)?",
+    "options": [
+      "Groundwater sources under low-lying areas",
+      "Water sources in oases in deserts",
+      "Water sources found just below the surface in sandy river beds",
+      "Rainwater streams"
+    ],
+    "correct": 3,
+    "question_te": "చెలమలు/ఊటలు అనేవి?",
+    "options_te": [
+      "భూమి లోతు పారల్లోని నీటి వనరులు",
+      "ఎడారుల్లోని ఒయాసిస్‌లలోని నీటి వనరులు",
+      "నేలపై పారకు దిగువన ఉండే నీటి వనరులు",
+      "వర్షాకాలంలోని నీటి ప్రవాహాలు"
+    ]
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Science & EVS",
+    "question": "Which is the largest animal among these?",
+    "options": [
+      "Camel",
+      "Giraffe",
+      "Elephant",
+      "Blue whale"
+    ],
+    "correct": 4,
+    "question_te": "వీటిలో అతి పెద్ద జంతువు?",
+    "options_te": [
+      "ఒంటె",
+      "జిరాఫీ",
+      "ఏనుగు",
+      "నీలి తిమింగలం"
+    ]
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Science & EVS",
+    "question": "Which longitude passes near Greenwich, London?",
+    "options": [
+      "90 degrees",
+      "180 degrees",
+      "0 degrees",
+      "45 degrees"
+    ],
+    "correct": 3,
+    "question_te": "లండన్ సమీపంలోని గ్రీనిచ్ గుండా పోయే రేఖాంశం?"
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Science & EVS",
+    "question": "Which city is closest to 82 1/2 degrees East longitude?",
+    "options": [
+      "Varanasi",
+      "Kakinada",
+      "Delhi",
+      "Mumbai"
+    ],
+    "correct": 2,
+    "question_te": "82 1/2° తూర్పు రేఖాంశం దేనికి అతి సమీపంగా పోతుంది?",
+    "options_te": [
+      "వారణాసి",
+      "కాకినాడ",
+      "ఢిల్లీ",
+      "ముంబై"
+    ]
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Science & EVS",
+    "question": "In which region are the Dilwara Jain temples located?",
+    "options": [
+      "Tamil Nadu",
+      "Rajasthan",
+      "Haryana",
+      "Punjab"
+    ],
+    "correct": 2,
+    "question_te": "దిల్వారాజైన్ దేవాలయాలు ఉన్న ప్రాంతం",
+    "options_te": [
+      "తమిళనాడు",
+      "రాజస్థాన్",
+      "హర్యానా",
+      "పంజాబ్"
+    ]
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Science & EVS",
+    "question": "Which is the second-fastest animal in the world?",
+    "options": [
+      "Cheetah",
+      "Blackbuck (Indian antelope)",
+      "Rabbit",
+      "Rhinoceros"
+    ],
+    "correct": 2,
+    "question_te": "ప్రపంచంలో రెండో అత్యంత వేగవంతమైన జంతువు?",
+    "options_te": [
+      "చిరుతపులి",
+      "కృష్ణజింక",
+      "కుందేలు",
+      "ఖడ్గమృగం"
+    ]
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Science & EVS",
+    "question": "Who chaired the committee that recommended the Panchayati Raj system after independence?",
+    "options": [
+      "Malcolm Adiseshiah",
+      "Bansari Lal Jauhar",
+      "Balwant Rai Mehta",
+      "Yashwant Rai"
+    ],
+    "correct": 3,
+    "question_te": "స్వాతంత్ర్యానంతరం, పంచాయతీరాజ్ వ్యవస్థను సూచించిన కమిటీ ఛైర్మన్?",
+    "options_te": [
+      "మాల్కమ్ ఆదిశేష్య్య",
+      "బన్సారీలాల్ జవహర్",
+      "బల్వంతరాయ్ మెహతా",
+      "యశ్వంత్‌రాయ్"
+    ]
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Science & EVS",
+    "question": "What is 'Bali' day?",
+    "options": [
+      "An ancient tax from the Vedic era",
+      "A script of the Vedic era",
+      "A chief official of a region",
+      "An ancient dance form"
+    ],
+    "correct": 1,
+    "question_te": "'బలి' దీని పేరు?",
+    "options_te": [
+      "తొలి వేదకాలపు పన్ను",
+      "వేదకాలం నాటి ఒక లిపి",
+      "ఒక తెగ ముఖ్య సైనికాధికారి",
+      "పూర్వ చారిత్రక యుగపు ఒక రకమైన నృత్యం"
+    ]
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Science & EVS",
+    "question": "Which of the following is an example of megalithic construction?",
+    "options": [
+      "Temple gateway",
+      "Qutub Minar",
+      "Sanchi Stupa",
+      "Mahabalipuram temples"
+    ],
+    "correct": 4,
+    "question_te": "ఏకశిలా నిర్మాణానికి ఉదాహరణ?",
+    "options_te": [
+      "ఆలయ ద్వార్వాజ",
+      "కుతుబ్ మీనార్",
+      "సాంచీ స్తూపం",
+      "మహాబలిపురం దేవాలయాలు"
+    ]
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Science & EVS",
+    "question": "The doctrine of 'Triratna' (three jewels) belongs to which religion?",
+    "options": [
+      "Judaism",
+      "Idealism",
+      "Buddhism",
+      "Jainism"
+    ],
+    "correct": 4,
+    "question_te": "'త్రిరత్న' సిద్ధాంతాలు దేనికి చెందుతాయి?",
+    "options_te": [
+      "జుడాయిజం",
+      "ఆదర్శవాదం",
+      "బౌద్ధమతం",
+      "జైన మతం"
+    ]
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Science & EVS",
+    "question": "When was the 'wheel' invented?",
+    "options": [
+      "Iron age",
+      "Paleolithic age",
+      "Neolithic age",
+      "Mesolithic age"
+    ],
+    "correct": 3,
+    "question_te": "'చక్రం' ఎప్పుడు కనుగొన్నారు?",
+    "options_te": [
+      "లోహ యుగం",
+      "పాతరాతి యుగం",
+      "నవీన శిలాయుగం",
+      "మధ్య శిలాయుగం"
+    ]
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Science & EVS",
+    "question": "In which script is 'Satyameva Jayate' written on the national emblem?",
+    "options": [
+      "Sanskrit",
+      "Prakrit",
+      "Dravidian",
+      "Devanagari"
+    ],
+    "correct": 4,
+    "question_te": "జాతీయ చిహ్నంపై ఉండే 'సత్యమేవ జయతే' ఏ లిపిలో రాశారు?",
+    "options_te": [
+      "సంస్కృత",
+      "ప్రాకృతిక",
+      "ద్రావిడ",
+      "దేవనాగరి"
+    ]
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Science & EVS",
+    "question": "On what date did the UNO adopt the Declaration of Human Rights?",
+    "options": [
+      "12 October 1949",
+      "26 January 1950",
+      "10 December 1946",
+      "10 December 1948"
+    ],
+    "correct": 4,
+    "question_te": "UNO మానవ హక్కుల ప్రకటన ఆమోదించిన తేదీ?"
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Science & EVS",
+    "question": "Who appoints the Central Chief Information Commissioner?",
+    "options": [
+      "President of India",
+      "Chief Justice of the Supreme Court",
+      "Prime Minister of India",
+      "Majority party members in Parliament"
+    ],
+    "correct": 1,
+    "question_te": "కేంద్ర సమాచార కమిషనర్‌ను నియమించేవారు?",
+    "options_te": [
+      "భారత రాష్ట్రపతి",
+      "సుప్రీంకోర్టు ప్రధాన న్యాయమూర్తి",
+      "భారత ప్రధానమంత్రి",
+      "పార్లమెంట్‌లోని మెజార్టీ పార్టీ సభ్యులు"
+    ]
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Science & EVS",
+    "question": "A boy has to climb up out of a well using a rope. Which type of knot should he use in his rope?",
+    "options": [
+      "Sliding knot",
+      "Ratchet knot",
+      "Folding/collapsible knot",
+      "Non-slip anchoring knot"
+    ],
+    "correct": 1,
+    "question_te": "ఒక బాలుడు ఒక కుండను నేల నుంచి పైకి తీయాలి. అతని కదలికలో అతనికి ఉపయోగపడే కీలు?",
+    "options_te": [
+      "జారెడు కీలు",
+      "బొంగరప్పు కీలు",
+      "మడతబందు కీలు",
+      "బంతిగిన్నె కీలు"
+    ]
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Science & EVS",
+    "question": "First aid using tartaric acid is given for which kind of bite?",
+    "options": [
+      "Snake bite",
+      "Dog bite",
+      "Insect bite",
+      "Scorpion bite"
+    ],
+    "correct": 4,
+    "question_te": "దేని బాధితుడికి టార్టారిక్ ఆమ్లం ఉపయోగించి ప్రథమ చికిత్స చేస్తారు?",
+    "options_te": [
+      "పాము కాటు",
+      "కుక్క కాటు",
+      "కీటకం కాటు",
+      "తేలు కాటు"
+    ]
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Science & EVS",
+    "question": "What is the role of the 'family' in relation to the nation?",
+    "options": [
+      "To prepare children to be responsible citizens toward caste/community and society",
+      "To arrange wealth and land for children's comfortable life",
+      "To prepare children for their future life",
+      "To give children a bright future"
+    ],
+    "correct": 1,
+    "question_te": "దేశానికి సంబంధించి 'కుటుంబం' పాత్ర?",
+    "options_te": [
+      "జాతికి, సమాజానికి బాధ్యత గల పౌరులుగా పిల్లలను సంసిద్ధులను చేయడం",
+      "పిల్లల మేలైన జీవితం కోసం ధనం, భూములను ఏర్పరచడం",
+      "పిల్లలను భావి జీవితానికి సంసిద్ధులను చేయడం",
+      "పిల్లలకు జయప్రదమైన భవితను కలిగించడం"
+    ]
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Science & EVS",
+    "question": "In the 2008 Olympics, in which event did Abhinav Bindra win the gold medal?",
+    "options": [
+      "Rifle shooting",
+      "Chess",
+      "Tennis",
+      "Weightlifting"
+    ],
+    "correct": 1,
+    "question_te": "2008 ఒలింపిక్స్‌లో అభినవ్ బింద్రా ఎందులో బంగారు పతకం సాధించాడు?",
+    "options_te": [
+      "రైఫిల్ షూటింగ్",
+      "చదరంగం",
+      "టెన్నిస్",
+      "బరువులు ఎత్తడం"
+    ]
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Science & EVS",
+    "question": "What is 'Ikebana'?",
+    "options": [
+      "Decoration with leaves",
+      "Decoration with fruits and seeds",
+      "Arrangement of fruits",
+      "Flower arrangement"
+    ],
+    "correct": 4,
+    "question_te": "'ఇకేబానా' అంటే?",
+    "options_te": [
+      "ఆకులతో అలంకరణ",
+      "ఫలాలు, విత్తనాలతో అలంకరణ",
+      "ఫలాలు అమరిక",
+      "పుష్పాల అమరిక"
+    ]
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Science & EVS",
+    "question": "The endosperm (food-storing tissue) in a seed forms from the fusion of which nuclei?",
+    "options": [
+      "The antipodal nucleus and the egg nucleus",
+      "The secondary nucleus and the egg nucleus",
+      "The secondary nucleus and the male nucleus",
+      "The egg nucleus and the male nucleus"
+    ],
+    "correct": 3,
+    "question_te": "ఆహారాన్ని నిల్వ ఉంచే అంకురం వేటి కలయిక వల్ల ఏర్పడుతుంది?",
+    "options_te": [
+      "నాశ కేంద్రకం, అండ కేంద్రకం",
+      "ద్వితీయ కేంద్రకం, అండకేంద్రకం",
+      "ద్వితీయ కేంద్రకం, పురుష కేంద్రకం",
+      "అండ కేంద్రకం, పురుష కేంద్రకం"
+    ]
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Science & EVS",
+    "question": "Which of the following would you advise coastal-region farmers to grow?",
+    "options": [
+      "Cashew, sugarcane, coconut",
+      "Banana, orchids, palm trees",
+      "Casuarina, cashew, orchids",
+      "Casuarina, turmeric, sugarcane"
+    ],
+    "correct": 3,
+    "question_te": "సముద్ర తీరప్రాంత రైతులు వీటిని పెంచాలని సలహా?",
+    "options_te": [
+      "జీడి మామిడి, చెరకు, కొబ్బరి",
+      "అరటి, ఆర్కిడ్స్, తాటి చెట్లు",
+      "సరుగుడు, జీడి మామిడి, ఆర్కిడ్స్",
+      "సరుగుడు, పసుపు, చెరకు"
+    ]
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Science & EVS",
+    "question": "In a lab test, when copper sulphate and sodium hydroxide are mixed with milk, the milk turns a violet colour. What does this indicate is present in the milk?",
+    "options": [
+      "Minerals/salts",
+      "Vitamins",
+      "Fats",
+      "Proteins"
+    ],
+    "correct": 4,
+    "question_te": "ఒక పరీక్ష నాళికలోని పాలకు కాపర్ సల్ఫేట్, సోడియం హైడ్రాక్సైడ్ మిశ్రమ ద్రావణాన్ని చేర్చినప్పుడు పాలు ఊదారంగులోకి మారాయి. ఈ చర్య పాలలో ఏవి ఉన్నాయని సూచిస్తుంది?",
+    "options_te": [
+      "ఖనిజ లవణాలు",
+      "విటమిన్లు",
+      "కొవ్వులు",
+      "మాంసకృత్తులు"
+    ]
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Science & EVS",
+    "question": "Which is an example of a naturally-occurring phenomenon?",
+    "options": [
+      "Pollen dispersal in a grass species occurs via wind",
+      "Life is a productive, active phenomenon of a living being",
+      "The sun rises in the east",
+      "Substances exist in 3 states based on their nature"
+    ],
+    "correct": 3,
+    "question_te": "'యదార్థమైన'కు ఉదాహరణ?",
+    "options_te": [
+      "గడ్డిజాతి మొక్కల్లో పరాగ సంపర్కం గాలి ద్వారా జరుగుతుంది",
+      "జీవకణం జీవి నిర్మాణాత్మక, క్రియాత్మక ప్రమాణం",
+      "సూర్యుడు తూర్పున ఉదయిస్తాడు",
+      "పదార్థాలు స్థితిని బట్టి 3 రకాలు"
+    ]
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Science & EVS",
+    "question": "Behavioural changes in a student happen due to the relationship between the student and subject matter. What can this be achieved through?",
+    "options": [
+      "Learning experiences",
+      "Evaluating learning outcomes",
+      "Teaching",
+      "Questioning"
+    ],
+    "correct": 1,
+    "question_te": "విద్యార్థిలో ప్రవర్తనా పరివర్తనలు విద్యార్థి, విషయాల మధ్య సత్సంబంధాల వల్ల కలుగుతుంది. ఇది దేని వల్ల సాధ్యం?",
+    "options_te": [
+      "అభ్యసనానుభవాలు",
+      "అభ్యసన ఫలితాలను మూల్యాంకనం చేయడం",
+      "బోధన",
+      "ప్రశ్నించడం"
+    ]
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Science & EVS",
+    "question": "Students understand the reason for similarities in external structure among two plants of the same species best through which branch of knowledge?",
+    "options": [
+      "External morphology",
+      "Internal structure/anatomy",
+      "History",
+      "Geography"
+    ],
+    "correct": 1,
+    "question_te": "విద్యార్థులు ఒకే జాతికి చెందిన రెండు మొక్కల్లో బాహ్య నిర్మాణంలోని తేడాలను పరిశీలించి కారణాన్ని ఏ జ్ఞానంశంలో బాగా అవగాహన చేసుకుంటారు?",
+    "options_te": [
+      "బాహ్య స్వరూప శాస్త్రం",
+      "అంతర్నిర్మాణ శాస్త్రం",
+      "చరిత్ర",
+      "భూగోళ శాస్త్రం"
+    ]
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Science & EVS",
+    "question": "What is an example of a 'representative learning experience'?",
+    "options": [
+      "Three-dimensional models",
+      "Field trips",
+      "Television",
+      "Laboratory experiments"
+    ],
+    "correct": 1,
+    "question_te": "ప్రాతినిధ్య అభ్యసనానుభవానికి ఉదాహరణ?",
+    "options_te": [
+      "త్రి పరిమాణాత్మక నమూనాలు",
+      "క్షేత్ర పర్యటనలు",
+      "టెలివిజన్",
+      "ప్రయోగశాల ప్రయోగాలు"
+    ]
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Science & EVS",
+    "question": "5th class students went on a field trip and collected samples of plants, insects, rocks and soil, and arranged them in the school laboratory. This is which skill?",
+    "options": [
+      "Recognizing, manual dexterity",
+      "Naming, drawing pictures",
+      "Reporting, examining",
+      "Collecting, preserving"
+    ],
+    "correct": 4,
+    "question_te": "5వ తరగతి విద్యార్థులు క్షేత్రపర్యటనకు వెళ్లి కొన్ని మొక్కల కొమ్మలు, జంతువులు, రాళ్లు, మట్టి నమూనాలను తెచ్చారు. వారు వాటిని పాఠశాల ప్రయోగశాలలో ఉంచారు. ఈ నైపుణ్యం?",
+    "options_te": [
+      "గుర్తించడం, హస్త లాఘవం",
+      "నామోదు చేయడం, పటాలు గీయడం",
+      "నివేదించడం, పరిశీలించడం",
+      "సేకరించడం, భద్రపరచడం"
+    ]
+  },
+  {
+    "year": 2011,
+    "paper": "AP TET Paper 1 (SGT), 31st July 2011",
+    "subject": "Science & EVS",
+    "question": "A teacher wants to conduct a unit test for 4th class students. What is the correct sequence to prepare for it?",
+    "options": [
+      "Test items, subject, objectives, evidences, sub-evidences",
+      "Subject, test-item type, evidences",
+      "Objectives, subject, test-item type, difficulty-level",
+      "Objectives, evidences, subject, difficulty-level"
+    ],
+    "correct": 4,
+    "question_te": "ఉపాధ్యాయుడు 4వ తరగతి విద్యార్థులకు యూనిట్ పరీక్ష నిర్వహించాలని భావించాడు. దాని కోసం సిద్ధపరచాల్సిన భారత్వ పట్టికలు?",
+    "options_te": [
+      "పరీక్షాంశాలు, విషయం, లక్ష్యాలు, ప్రమాణాలు, ఉప ప్రమాణాలు",
+      "విషయం, పరీక్షాంశాల రకం, ప్రమాణాలు",
+      "లక్ష్యాలు, విషయం, పరీక్షాంశాల రకం, కాఠిన్యతా స్థాయి",
+      "లక్ష్యాలు, ప్రమాణాలు, విషయం, కారిన్యతా స్థాయి"
+    ]
+  }
 ];
 
 function seedTetQuestions() {
