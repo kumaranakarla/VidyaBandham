@@ -337,6 +337,23 @@ import { AuthService } from '../../services/auth.service';
         font-weight: 700;
         cursor: pointer;
       }
+
+      /* Print / "Save as PDF" support for pages like the Grand Test result
+         screen (see grand-test.component.ts's printPaper()/window.print()).
+         Every authenticated page renders inside this shell, so the app
+         header/nav/user-info, the notice popup, the contact box and the
+         footer all need hiding here — otherwise a print/PDF of any page
+         would carry the whole site chrome around the actual content. */
+      @media print {
+        header, .notice-overlay, .contact-box, .site-footer {
+          display: none !important;
+        }
+        main {
+          max-width: none;
+          margin: 0;
+          padding: 0;
+        }
+      }
     `,
   ],
 })

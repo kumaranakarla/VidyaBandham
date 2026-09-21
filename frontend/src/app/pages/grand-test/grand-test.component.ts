@@ -233,6 +233,13 @@ function shuffle<T>(arr: T[]): T[] {
           <span class="btn-te">ఈ గ్రాండ్ టెస్ట్‌ని మళ్లీ చేయండి</span>
         </button>
         <button class="cancel-btn" *ngIf="!skipToFirstAvailable" (click)="chooseAnother()">Choose another paper</button>
+        <button class="print-btn" type="button" (click)="printPaper()" title="Download as PDF / Print">
+          <span class="print-icon" aria-hidden="true">🖨️</span>
+          <span class="print-label">
+            <span class="btn-en">Download / Print (PDF)</span>
+            <span class="btn-te">డౌన్‌లోడ్ / ప్రింట్ (PDF)</span>
+          </span>
+        </button>
       </div>
 
       <!-- Full bilingual question & answer key sheet — every question
@@ -468,6 +475,14 @@ function shuffle<T>(arr: T[]): T[] {
       .result-actions { display: flex; gap: 0.8rem; flex-wrap: wrap; }
       .result-actions .start-btn { width: auto; }
       .review-heading { color: #2c4870; margin: 1.6rem 0 1rem; font-size: 1.1rem; }
+      .print-btn {
+        background: #2c4870; color: white; border: none; border-radius: 6px;
+        padding: 0.7rem 1.4rem; font-size: 0.95rem; font-weight: 700; cursor: pointer;
+        display: flex; align-items: center; gap: 0.6rem;
+      }
+      .print-btn .print-icon { font-size: 1.2rem; line-height: 1; }
+      .print-btn .print-label { display: flex; flex-direction: column; align-items: flex-start; line-height: 1.25; }
+      .print-btn .btn-te { font-size: 0.72em; font-weight: 500; opacity: 0.85; }
       .cancel-btn {
         background: transparent; color: #777; border: 1px solid #ccc; border-radius: 6px;
         padding: 0.7rem 1.4rem; font-size: 0.95rem; cursor: pointer;
@@ -514,6 +529,37 @@ function shuffle<T>(arr: T[]): T[] {
       .btn-secondary { background: #eef1f6; color: #2c4870; }
       .paywall-note { margin: 0.8rem 0 0; font-size: 0.78rem; color: #777; text-align: center; }
       .paywall-error { margin: 0.8rem 0 0; font-size: 0.85rem; color: #b3261e; text-align: center; }
+
+      /* Print / "Save as PDF" support, triggered by the Download/Print
+         button above (printPaper() -> window.print()). Hides everything
+         on this page that's only useful on-screen — the intro/free-note
+         copy, the select/setup/testing stages (only "result" is ever
+         visible when this fires, but this is a safety net), the action
+         buttons, and any open paywall popup — so what actually prints is
+         just the score summary and the full bilingual Q&A review.
+         Matching rules in shell.component.ts hide the app header, nav,
+         contact box and footer so only this content appears on the page. */
+      @media print {
+        h2, .free-note, .intro, .paper-list, .setup-card, .testing,
+        .result-actions, .paywall-overlay {
+          display: none !important;
+        }
+        .result { padding: 0; }
+        .score-card, .subject-breakdown, .q-card {
+          box-shadow: none !important;
+          border: 1px solid #ccc;
+          break-inside: avoid;
+          page-break-inside: avoid;
+        }
+        .questions { gap: 0.6rem; }
+        .badge-correct, .badge-wrong, .badge-blank,
+        .options button.correct, .options button.incorrect {
+          -webkit-print-color-adjust: exact;
+          print-color-adjust: exact;
+          color-adjust: exact;
+        }
+        .options button { cursor: default; }
+      }
     `,
   ],
 })
@@ -778,6 +824,17 @@ export class GrandTestComponent implements OnInit, OnDestroy {
   chooseAnother(): void {
     this.stage = 'select';
     this.selectedPaper = null;
+  }
+
+  // Lets the candidate save/print the full bilingual question-and-answer
+  // review below as a PDF, using the browser's own print dialog (its
+  // "Save as PDF" destination) rather than a server-side PDF generator —
+  // no extra backend load, works offline, and every browser already
+  // supports it. The @media print rules above (plus matching rules in
+  // shell.component.ts) hide everything except the score summary and the
+  // Q&A review, so the saved/printed output is clean and readable.
+  printPaper(): void {
+    window.print();
   }
 
   get isSchoolAccount(): boolean {
