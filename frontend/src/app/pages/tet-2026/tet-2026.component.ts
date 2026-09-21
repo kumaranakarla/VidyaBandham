@@ -6,6 +6,17 @@ import { Tet2026Paper, TetQuestion, TetService } from '../../services/tet.servic
 import { AuthService } from '../../services/auth.service';
 import { SubscriptionService } from '../../services/subscription.service';
 
+// One official 2026 paper, grouped from the flat questions list the backend
+// sends — mirrors GrandTestComponent's PaperSummary so the two "pick a
+// paper" screens look and behave the same way.
+interface PaperSummary {
+  name: string;
+  free: boolean;
+  locked: boolean;
+  questions: TetQuestion[];
+  total: number;
+}
+
 // The "2026 (New)" tab. Deliberately its own component + route (see
 // app.routes.ts and tet.service.ts's `list2026()`/`base2026`) rather than a
 // year filter bolted onto the existing TET Prep page. Two of the twelve
@@ -14,120 +25,140 @@ import { SubscriptionService } from '../../services/subscription.service';
 // by subscription.service.ts + backend/src/routes/subscription.js
 // (Razorpay). The backend never sends a locked paper's questions to the
 // client at all — the "locked" flag here is just for showing what exists.
+//
+// Shows every official paper as a picker grid first (same look as the
+// Grand Test / MockTest paper picker, which is the design that was already
+// liked) — pick one, see just that paper's questions with instant
+// right/wrong feedback per question, no timer or setup screen. The timed,
+// full-exam-conditions run lives under MockTest(TET) instead.
 @Component({
   selector: 'app-tet-2026',
   standalone: true,
   imports: [CommonModule, FormsModule, RouterLink],
   template: `
     <h2>{{ lang === 'te' ? '2026 (కొత్తది)' : '2026 (New)' }} <span class="new-badge">{{ lang === 'te' ? 'కొత్తది' : 'NEW' }}</span></h2>
-    <p class="intro" *ngIf="lang === 'en'">
-      The real AP TET 2026 exam papers, with final, officially-published answer keys — sourced directly from the AP
-      Department of School Education's own results portal. 12 official papers in total across SGT, Maths &amp;
-      Science, Social Studies, and the Telugu/English language papers.
-    </p>
-    <p class="intro" *ngIf="lang === 'te'">
-      వాస్తవ AP TET 2026 పరీక్షా పత్రాలు, అధికారికంగా ప్రచురించిన తుది జవాబు కీలతో సహా — నేరుగా ఆంధ్రప్రదేశ్ పాఠశాల విద్యా శాఖ ఫలితాల పోర్టల్ నుండి సేకరించబడ్డాయి. SGT, గణితం &amp; సైన్స్, సాంఘిక శాస్త్రాలు, మరియు తెలుగు/ఇంగ్లీష్ భాషా పత్రాలతో కలిపి మొత్తం 12 అధికారిక పత్రాలు ఉన్నాయి.
-    </p>
 
-    <div class="unlock-banner" *ngIf="!loading && lockedPapersCount > 0">
-      <span *ngIf="isSchoolAccount">
-        <strong>{{ lockedPapersCount }} more official papers</strong> — create a free account to unlock all 12.
-      </span>
-      <span *ngIf="!isSchoolAccount && lang === 'en'">
-        <strong>{{ lockedPapersCount }} more official papers</strong> are available with a subscription.
-      </span>
-      <span *ngIf="!isSchoolAccount && lang === 'te'">
-        <strong>మరో {{ lockedPapersCount }} అధికారిక పత్రాలు</strong> సబ్‌స్క్రిప్షన్‌తో అందుబాటులో ఉన్నాయి.
-      </span>
-      <button type="button" (click)="openUpgradePrompt()">
-        {{ isSchoolAccount ? 'Create Account' : (lang === 'te' ? 'మొత్తం 12 పత్రాలను అన్‌లాక్ చేయండి' : 'Unlock all 12 papers') }}
-      </button>
-    </div>
+    <ng-container *ngIf="stage === 'select'">
+      <p class="intro" *ngIf="lang === 'en'">
+        The real AP TET 2026 exam papers, with final, officially-published answer keys — sourced directly from the AP
+        Department of School Education's own results portal. 12 official papers in total across SGT, Maths &amp;
+        Science, Social Studies, and the Telugu/English language papers. Pick a paper below to practice it — no
+        timer, instant right/wrong feedback on every question.
+      </p>
+      <p class="intro" *ngIf="lang === 'te'">
+        వాస్తవ AP TET 2026 పరీక్షా పత్రాలు, అధికారికంగా ప్రచురించిన తుది జవాబు కీలతో సహా — నేరుగా ఆంధ్రప్రదేశ్ పాఠశాల విద్యా శాఖ ఫలితాల పోర్టల్ నుండి సేకరించబడ్డాయి. SGT, గణితం &amp; సైన్స్, సాంఘిక శాస్త్రాలు, మరియు తెలుగు/ఇంగ్లీష్ భాషా పత్రాలతో కలిపి మొత్తం 12 అధికారిక పత్రాలు ఉన్నాయి. ప్రాక్టీస్ చేయడానికి దిగువన ఒక పేపర్‌ను ఎంచుకోండి — టైమర్ ఉండదు, ప్రతి ప్రశ్నకు తక్షణ సరైన/తప్పు అభిప్రాయం లభిస్తుంది.
+      </p>
 
-    <div class="lang-toggle">
-      <button [class.active]="lang === 'en'" (click)="lang = 'en'" type="button">English</button>
-      <button [class.active]="lang === 'te'" (click)="lang = 'te'" type="button">తెలుగు</button>
-      <span class="lang-note" *ngIf="lang === 'te'">
-        ఆంగ్లం ఎల్లప్పుడూ వాస్తవ పరీక్షలో ఆంగ్లంలోనే పరీక్షించబడుతుంది, కాబట్టి ఆ ప్రశ్నలు దిగువన ఆంగ్లంలోనే ఉంటాయి.
-      </span>
-      <span class="lang-note" *ngIf="lang === 'en'">
-        Telugu is a language & literature paper tested only in Telugu on the real exam, so those questions stay in
-        Telugu below.
-      </span>
-    </div>
-
-    <div class="filter-row" *ngIf="subjects.length">
-      <label>Subject</label>
-      <select [(ngModel)]="selectedSubject">
-        <option value="">All subjects</option>
-        <option *ngFor="let s of subjects" [value]="s">{{ s }}</option>
-      </select>
-      <label>Paper</label>
-      <select [(ngModel)]="selectedSource">
-        <option value="">All papers</option>
-        <option *ngFor="let p of papers" [value]="p.name">{{ p.name }}{{ p.locked ? ' 🔒' : '' }}</option>
-      </select>
-      <button
-        class="print-btn"
-        type="button"
-        (click)="printPaper()"
-        title="Download as PDF / Print"
-        *ngIf="!selectedPaperLocked && filteredQuestions.length"
-      >
-        <span class="print-icon" aria-hidden="true">🖨️</span>
-        <span class="print-label">
-          <span class="btn-en">Download / Print (PDF)</span>
-          <span class="btn-te">డౌన్‌లోడ్ / ప్రింట్ (PDF)</span>
+      <div class="unlock-banner" *ngIf="!loading && lockedPapersCount > 0">
+        <span *ngIf="isSchoolAccount">
+          <strong>{{ lockedPapersCount }} more official papers</strong> — create a free account to unlock all 12.
         </span>
-      </button>
-    </div>
-
-    <p *ngIf="loading">Loading…</p>
-
-    <div class="locked-notice" *ngIf="!loading && selectedPaperLocked">
-      <p *ngIf="isSchoolAccount">🔒 Create an account to unlock all 12 TET 2026 papers.</p>
-      <p *ngIf="!isSchoolAccount && lang === 'en'">🔒 This paper is part of the subscription. Unlock it to practice all 10 remaining official 2026 papers.</p>
-      <p *ngIf="!isSchoolAccount && lang === 'te'">🔒 ఈ పత్రం సబ్‌స్క్రిప్షన్‌లో భాగం. మిగిలిన 10 అధికారిక 2026 పత్రాలను ప్రాక్టీస్ చేయడానికి దీన్ని అన్‌లాక్ చేయండి.</p>
-      <button type="button" (click)="openUpgradePrompt()">
-        {{ isSchoolAccount ? 'Create Account' : (lang === 'te' ? 'మొత్తం 12 పత్రాలను అన్‌లాక్ చేయండి' : 'Unlock all 12 papers') }}
-      </button>
-    </div>
-
-    <p *ngIf="!loading && !selectedPaperLocked && questions.length === 0">No 2026 questions added yet.</p>
-
-    <div class="questions" *ngIf="!selectedPaperLocked">
-      <div class="q-card" *ngFor="let q of filteredQuestions">
-        <div class="subject-tag">
-          {{ q.subject }}
-          <span class="en-only-tag" *ngIf="!q.question_te && q.subject !== 'Telugu'">English only</span>
-          <span class="en-only-tag" *ngIf="q.subject === 'Telugu'">Telugu only</span>
-        </div>
-        <div class="question-text">
-          {{ q.question }}
-          <div class="question-text-te" *ngIf="q.question_te">{{ q.question_te }}</div>
-        </div>
-        <div class="options">
-          <button
-            *ngFor="let opt of optionsEn(q); let i = index"
-            [class.selected]="picked[q.id] === i + 1"
-            [class.correct]="picked[q.id] && i + 1 === q.correct_option"
-            [class.incorrect]="picked[q.id] === i + 1 && i + 1 !== q.correct_option"
-            [disabled]="!!picked[q.id]"
-            (click)="pick(q, i + 1)"
-          >
-            <span>{{ opt }}</span>
-            <span class="opt-te" *ngIf="optionsTe(q)">{{ optionsTe(q)![i] }}</span>
-          </button>
-        </div>
-        <div class="answer-note" *ngIf="picked[q.id]">
-          <span class="correct-text" *ngIf="picked[q.id] === q.correct_option">Correct!</span>
-          <span class="incorrect-text" *ngIf="picked[q.id] !== q.correct_option">
-            Not quite — the correct answer is <strong>{{ optionsEn(q)[q.correct_option - 1] }}</strong><ng-container *ngIf="optionsTe(q)"> (<strong>{{ optionsTe(q)![q.correct_option - 1] }}</strong>)</ng-container>.
-          </span>
-        </div>
-        <div class="source" *ngIf="q.source">Source: {{ q.source }}</div>
+        <span *ngIf="!isSchoolAccount && lang === 'en'">
+          <strong>{{ lockedPapersCount }} more official papers</strong> are available with a subscription.
+        </span>
+        <span *ngIf="!isSchoolAccount && lang === 'te'">
+          <strong>మరో {{ lockedPapersCount }} అధికారిక పత్రాలు</strong> సబ్‌స్క్రిప్షన్‌తో అందుబాటులో ఉన్నాయి.
+        </span>
+        <button type="button" (click)="openUpgradePrompt()">
+          {{ isSchoolAccount ? 'Create Account' : (lang === 'te' ? 'మొత్తం 12 పత్రాలను అన్‌లాక్ చేయండి' : 'Unlock all 12 papers') }}
+        </button>
       </div>
-    </div>
+
+      <div class="lang-toggle">
+        <button [class.active]="lang === 'en'" (click)="lang = 'en'" type="button">English</button>
+        <button [class.active]="lang === 'te'" (click)="lang = 'te'" type="button">తెలుగు</button>
+        <span class="lang-note" *ngIf="lang === 'te'">
+          ఆంగ్లం ఎల్లప్పుడూ వాస్తవ పరీక్షలో ఆంగ్లంలోనే పరీక్షించబడుతుంది, కాబట్టి ఆ ప్రశ్నలు దిగువన ఆంగ్లంలోనే ఉంటాయి.
+        </span>
+        <span class="lang-note" *ngIf="lang === 'en'">
+          Telugu is a language & literature paper tested only in Telugu on the real exam, so those questions stay in
+          Telugu below.
+        </span>
+      </div>
+
+      <p *ngIf="loading">Loading…</p>
+      <p *ngIf="!loading && paperSummaries.length === 0">No 2026 questions added yet.</p>
+
+      <!-- SELECT: pick which official 2026 paper to practice -->
+      <div class="paper-list" *ngIf="!loading && paperSummaries.length">
+        <div
+          class="paper-card"
+          *ngFor="let p of paperSummaries; let i = index"
+          [class.locked-card]="p.locked"
+          (click)="choosePaper(p)"
+        >
+          <div class="paper-card-head">
+            <span class="paper-num">Paper {{ i + 1 }}</span>
+            <span class="lock-badge" *ngIf="p.locked">🔒</span>
+          </div>
+          <div class="paper-name">{{ p.name }}</div>
+          <div class="paper-meta" *ngIf="!p.locked">{{ p.total }} questions</div>
+          <div class="paper-meta locked-meta" *ngIf="p.locked">Subscribe to unlock this paper</div>
+        </div>
+      </div>
+    </ng-container>
+
+    <!-- VIEW: the selected paper's questions, no timer, instant feedback -->
+    <ng-container *ngIf="stage === 'view' && selectedPaper">
+      <button class="back-link" type="button" (click)="backToSelect()">← Choose a different paper</button>
+
+      <div class="filter-row" *ngIf="subjectsForSelected.length">
+        <label>Subject</label>
+        <select [(ngModel)]="selectedSubject">
+          <option value="">All subjects</option>
+          <option *ngFor="let s of subjectsForSelected" [value]="s">{{ s }}</option>
+        </select>
+        <button
+          class="print-btn"
+          type="button"
+          (click)="printPaper()"
+          title="Download as PDF / Print"
+          *ngIf="filteredQuestions.length"
+        >
+          <span class="print-icon" aria-hidden="true">🖨️</span>
+          <span class="print-label">
+            <span class="btn-en">Download / Print (PDF)</span>
+            <span class="btn-te">డౌన్‌లోడ్ / ప్రింట్ (PDF)</span>
+          </span>
+        </button>
+      </div>
+
+      <p *ngIf="filteredQuestions.length === 0">No questions match this filter.</p>
+
+      <div class="questions">
+        <div class="q-card" *ngFor="let q of filteredQuestions">
+          <div class="subject-tag">
+            {{ q.subject }}
+            <span class="en-only-tag" *ngIf="!q.question_te && q.subject !== 'Telugu'">English only</span>
+            <span class="en-only-tag" *ngIf="q.subject === 'Telugu'">Telugu only</span>
+          </div>
+          <div class="question-text">
+            {{ q.question }}
+            <div class="question-text-te" *ngIf="q.question_te">{{ q.question_te }}</div>
+          </div>
+          <div class="options">
+            <button
+              *ngFor="let opt of optionsEn(q); let i = index"
+              [class.selected]="picked[q.id] === i + 1"
+              [class.correct]="picked[q.id] && i + 1 === q.correct_option"
+              [class.incorrect]="picked[q.id] === i + 1 && i + 1 !== q.correct_option"
+              [disabled]="!!picked[q.id]"
+              (click)="pick(q, i + 1)"
+            >
+              <span>{{ opt }}</span>
+              <span class="opt-te" *ngIf="optionsTe(q)">{{ optionsTe(q)![i] }}</span>
+            </button>
+          </div>
+          <div class="answer-note" *ngIf="picked[q.id]">
+            <span class="correct-text" *ngIf="picked[q.id] === q.correct_option">Correct!</span>
+            <span class="incorrect-text" *ngIf="picked[q.id] !== q.correct_option">
+              Not quite — the correct answer is <strong>{{ optionsEn(q)[q.correct_option - 1] }}</strong><ng-container *ngIf="optionsTe(q)"> (<strong>{{ optionsTe(q)![q.correct_option - 1] }}</strong>)</ng-container>.
+            </span>
+          </div>
+          <div class="source" *ngIf="q.source">Source: {{ q.source }}</div>
+        </div>
+      </div>
+    </ng-container>
 
     <!-- Paywall popup: styled like the app's other "Important Notice" style
          announcements, so it reads as an in-app notice rather than a
@@ -231,16 +262,28 @@ import { SubscriptionService } from '../../services/subscription.service';
       }
       .lang-toggle button.active { background: #2c4870; border-color: #2c4870; color: white; }
       .lang-note { font-size: 0.8rem; color: #888; }
+
+      /* Paper picker grid — same look as the Grand Test / MockTest paper
+         picker (grand-test.component.ts's .paper-list/.paper-card), so
+         the two "choose a paper" screens in the app feel like one design. */
+      .paper-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1rem; }
+      .paper-card {
+        background: white; padding: 1rem 1.1rem; border-radius: 10px; box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+        cursor: pointer; border: 1px solid transparent; transition: border-color 0.15s;
+      }
+      .paper-card:hover { border-color: #2c4870; }
+      .paper-card.locked-card { opacity: 0.75; }
+      .paper-card-head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.4rem; }
+      .paper-num { font-size: 0.75rem; font-weight: 700; color: #c97c1f; letter-spacing: 0.03em; }
+      .lock-badge { font-size: 0.9rem; }
+      .paper-name { font-weight: 600; color: #222; margin-bottom: 0.4rem; }
+      .paper-meta { font-size: 0.82rem; color: #666; }
+      .paper-meta.locked-meta { color: #b3261e; }
+
+      .back-link { background: none; border: none; color: #2c4870; cursor: pointer; font-size: 0.85rem; padding: 0; margin-bottom: 0.8rem; }
+
       .filter-row { display: flex; align-items: center; flex-wrap: wrap; gap: 0.6rem 1rem; margin-bottom: 1.2rem; }
       .filter-row select { padding: 0.4rem 0.6rem; border-radius: 6px; border: 1px solid #ccc; max-width: 100%; }
-      .locked-notice {
-        background: #fbe4e2; border: 1px solid #e3a49d; border-radius: 8px; padding: 1rem 1.2rem;
-        margin-bottom: 1.2rem; color: #7a2a22;
-      }
-      .locked-notice button {
-        margin-top: 0.6rem; background: #c97c1f; color: white; border: none; border-radius: 6px;
-        padding: 0.5rem 1rem; cursor: pointer; font-weight: 600;
-      }
       .questions { display: flex; flex-direction: column; gap: 1rem; }
       .q-card { background: white; padding: 1rem 1.2rem; border-radius: 8px; box-shadow: 0 1px 4px rgba(0,0,0,0.06); }
       .subject-tag { display: inline-block; font-size: 0.75rem; color: #c97c1f; font-weight: 600; margin-bottom: 0.4rem; }
@@ -351,14 +394,14 @@ import { SubscriptionService } from '../../services/subscription.service';
       /* Print / "Save as PDF" support, triggered by the Download/Print
          button above (printPaper() -> window.print()). Hides everything
          on this page that's only useful on-screen — the intro copy, the
-         unlock banner, the language toggle, the subject/paper filter row
-         (including the button itself), the locked-paper notice, and any
-         open paywall popup — so only the actual question-and-answer cards
-         print, whatever is currently filtered in. Matching rules in
-         shell.component.ts hide the app header/nav/footer. */
+         unlock banner, the language toggle, the paper picker grid, the
+         back link, the subject filter row (including the button itself),
+         and any open paywall popup — so only the actual question-and-
+         answer cards print. Matching rules in shell.component.ts hide the
+         app header/nav/footer. */
       @media print {
-        h2, .intro, .unlock-banner, .lang-toggle, .filter-row,
-        .locked-notice, .paywall-overlay {
+        h2, .intro, .unlock-banner, .lang-toggle, .paper-list, .back-link,
+        .filter-row, .paywall-overlay {
           display: none !important;
         }
         .q-card {
@@ -378,12 +421,14 @@ import { SubscriptionService } from '../../services/subscription.service';
   ],
 })
 export class Tet2026Component implements OnInit {
+  stage: 'select' | 'view' = 'select';
   questions: TetQuestion[] = [];
   papers: Tet2026Paper[] = [];
+  paperSummaries: PaperSummary[] = [];
+  selectedPaper: PaperSummary | null = null;
   subscriptionActive = false;
   loading = true;
   selectedSubject = '';
-  selectedSource = '';
   picked: Record<string, number> = {};
   lang: 'en' | 'te' = 'en';
 
@@ -409,6 +454,30 @@ export class Tet2026Component implements OnInit {
         this.questions = res.questions;
         this.papers = res.papers;
         this.subscriptionActive = res.subscription.active;
+
+        const bySource = new Map<string, TetQuestion[]>();
+        for (const q of res.questions) {
+          if (!bySource.has(q.source)) bySource.set(q.source, []);
+          bySource.get(q.source)!.push(q);
+        }
+        this.paperSummaries = res.papers
+          .map((p) => {
+            const qs = bySource.get(p.name) || [];
+            return { name: p.name, free: p.free, locked: p.locked, questions: qs, total: qs.length };
+          })
+          // Free/unlocked papers first, so they're the ones people see and
+          // try right away instead of being buried after the locked ones —
+          // same ordering as the Grand Test / MockTest paper picker.
+          .sort((a, b) => Number(a.locked) - Number(b.locked));
+
+        // If a paper was already open (e.g. this reload came from
+        // subscribe() unlocking new papers), refresh it in place so its
+        // question list picks up anything newly unlocked.
+        if (this.selectedPaper) {
+          const refreshed = this.paperSummaries.find((p) => p.name === this.selectedPaper!.name);
+          if (refreshed) this.selectedPaper = refreshed;
+        }
+
         this.loading = false;
         // Nudge once per page load if there's paid content the user can't
         // see yet — but don't fight them if they already dismissed it. Skip
@@ -433,26 +502,36 @@ export class Tet2026Component implements OnInit {
     return role === 'teacher' || role === 'parent';
   }
 
-  get subjects(): string[] {
-    return Array.from(new Set(this.questions.map((q) => q.subject)));
-  }
-
   get lockedPapersCount(): number {
     return this.papers.filter((p) => p.locked).length;
   }
 
-  get selectedPaperLocked(): boolean {
-    if (!this.selectedSource) return false;
-    const paper = this.papers.find((p) => p.name === this.selectedSource);
-    return !!paper?.locked;
+  get subjectsForSelected(): string[] {
+    if (!this.selectedPaper) return [];
+    return Array.from(new Set(this.selectedPaper.questions.map((q) => q.subject)));
   }
 
   get filteredQuestions(): TetQuestion[] {
-    return this.questions.filter((q) => {
-      const subjectMatch = !this.selectedSubject || q.subject === this.selectedSubject;
-      const sourceMatch = !this.selectedSource || q.source === this.selectedSource;
-      return subjectMatch && sourceMatch;
-    });
+    if (!this.selectedPaper) return [];
+    return this.selectedPaper.questions.filter(
+      (q) => !this.selectedSubject || q.subject === this.selectedSubject
+    );
+  }
+
+  choosePaper(p: PaperSummary): void {
+    if (p.locked) {
+      this.openUpgradePrompt();
+      return;
+    }
+    this.selectedPaper = p;
+    this.selectedSubject = '';
+    this.stage = 'view';
+  }
+
+  backToSelect(): void {
+    this.stage = 'select';
+    this.selectedPaper = null;
+    this.selectedSubject = '';
   }
 
   // English options are always shown (this already holds the paper's only
@@ -482,7 +561,7 @@ export class Tet2026Component implements OnInit {
   // then restore the original title once the print dialog closes.
   printPaper(): void {
     const originalTitle = document.title;
-    const paperLabel = (this.selectedSource || 'AllPapers').replace(/[^\w-]+/g, '_');
+    const paperLabel = (this.selectedPaper?.name || 'AllPapers').replace(/[^\w-]+/g, '_');
     const subjectLabel = (this.selectedSubject || 'AllSubjects').replace(/[^\w-]+/g, '_');
     const stamp = new Date().toISOString().slice(0, 19).replace(/[:T]/g, '-');
     document.title = `VidyaBandham_2026_${paperLabel}_${subjectLabel}_${stamp}`;
