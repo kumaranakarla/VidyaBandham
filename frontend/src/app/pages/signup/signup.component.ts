@@ -52,21 +52,14 @@ import { AuthService } from '../../services/auth.service';
         <p class="hint-te">కనీసం 6 అక్షరాలు — అక్షరాలు, అంకెలు లేదా గుర్తులు ఏవైనా పర్వాలేదు.</p>
         <p class="field-error" *ngIf="passwordError">{{ passwordError }}</p>
 
-        <label>I am a <span class="label-te">(నేను)</span></label>
         <div class="occupation-group">
           <label class="occupation-option">
-            <input type="radio" name="occupation" value="aspirant" [(ngModel)]="occupation" />
-            <span>TET Aspirant <span class="label-te">(అభ్యర్థి)</span></span>
-          </label>
-          <label class="occupation-option">
-            <input type="radio" name="occupation" value="teacher" [(ngModel)]="occupation" />
-            <span>Teacher <span class="label-te">(ఉపాధ్యాయుడు)</span></span>
-          </label>
-          <label class="occupation-option disabled">
-            <input type="radio" name="occupation" value="parent" disabled />
-            <span>Parent <span class="label-te">(తల్లిదండ్రి)</span> — coming soon</span>
+            <input type="checkbox" name="isTeacher" [(ngModel)]="isTeacher" />
+            <span>I'm a Teacher <span class="label-te">(నేను ఉపాధ్యాయుడిని)</span></span>
           </label>
         </div>
+        <p class="hint occupation-note">Parent sign-up coming soon.</p>
+        <p class="hint-te occupation-note-te">తల్లిదండ్రుల సైన్-అప్ త్వరలో అందుబాటులోకి వస్తుంది.</p>
 
         <button type="submit" [disabled]="loading">
           <span class="btn-en">{{ loading ? 'Creating account…' : 'Create account' }}</span>
@@ -205,7 +198,16 @@ import { AuthService } from '../../services/auth.service';
         display: flex;
         flex-direction: column;
         gap: 0.4rem;
-        margin-top: 0.3rem;
+        margin-top: 1rem;
+      }
+      .occupation-note {
+        margin-top: 0.35rem;
+      }
+      .occupation-note-te {
+        margin: 0.1rem 0 0;
+        font-size: 0.72rem;
+        color: #aaa;
+        font-weight: 500;
       }
       .occupation-option {
         display: flex;
@@ -221,13 +223,6 @@ import { AuthService } from '../../services/auth.service';
         width: auto;
         margin: 0;
         cursor: pointer;
-      }
-      .occupation-option.disabled {
-        color: #aaa;
-        cursor: default;
-      }
-      .occupation-option.disabled input {
-        cursor: default;
       }
       button {
         margin-top: 1.5rem;
@@ -261,7 +256,7 @@ export class SignupComponent {
   name = '';
   email = '';
   password = '';
-  occupation: 'aspirant' | 'teacher' | 'parent' = 'aspirant';
+  isTeacher = false;
   loading = false;
   error = '';
   emailError = '';
@@ -295,7 +290,7 @@ export class SignupComponent {
     if (this.emailError || this.passwordError) return;
 
     this.loading = true;
-    this.auth.register(this.name, this.email, this.password, this.occupation).subscribe({
+    this.auth.register(this.name, this.email, this.password, this.isTeacher ? 'teacher' : 'aspirant').subscribe({
       next: () => {
         this.loading = false;
         this.router.navigate(['/tet-2026']);

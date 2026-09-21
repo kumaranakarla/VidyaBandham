@@ -129,7 +129,13 @@ import { AuthService } from '../../services/auth.service';
          demo-logins side by side instead of one long scroll, so the card
          widens and switches to a two-column flex row. */
       @media (min-width: 860px) {
-        .login-card {
+        /* Scoped to the <form> specifically (not the plain .already-in-card
+           div below) - .login-card also matches the "already signed in"
+           card, which has no .login-primary/.login-secondary children, so
+           turning IT into a flex row at this width just scattered its
+           heading/text/button sideways into one cramped line, in every
+           browser, not just one. */
+        form.login-card {
           max-width: 780px;
           display: flex;
           align-items: flex-start;
