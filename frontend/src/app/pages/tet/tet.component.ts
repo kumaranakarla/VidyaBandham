@@ -25,6 +25,19 @@ import { TetQuestion, TetService } from '../../services/tet.service';
         <option value="">All subjects</option>
         <option *ngFor="let s of subjects" [value]="s">{{ s }}</option>
       </select>
+      <button
+        class="print-btn"
+        type="button"
+        (click)="printPaper()"
+        title="Download as PDF / Print"
+        *ngIf="filteredQuestions.length"
+      >
+        <span class="print-icon" aria-hidden="true">🖨️</span>
+        <span class="print-label">
+          <span class="btn-en">Download / Print (PDF)</span>
+          <span class="btn-te">డౌన్‌లోడ్ / ప్రింట్ (PDF)</span>
+        </span>
+      </button>
     </div>
 
     <p *ngIf="loading">Loading…</p>
@@ -109,6 +122,40 @@ import { TetQuestion, TetService } from '../../services/tet.service';
       .answer-note .correct-text { color: #16a34a; }
       .answer-note .incorrect-text { color: #dc2626; }
       .source { margin-top: 0.6rem; font-size: 0.75rem; color: #999; }
+
+      .print-btn {
+        background: #2c4870; color: white; border: none; border-radius: 6px;
+        padding: 0.55rem 1.1rem; font-size: 0.9rem; font-weight: 700; cursor: pointer;
+        display: flex; align-items: center; gap: 0.5rem; margin-left: auto;
+      }
+      .print-btn .print-icon { font-size: 1.05rem; line-height: 1; }
+      .print-btn .print-label { display: flex; flex-direction: column; align-items: flex-start; line-height: 1.2; }
+      .print-btn .btn-te { font-size: 0.72em; font-weight: 500; opacity: 0.85; }
+
+      /* Print / "Save as PDF" support, triggered by the Download/Print
+         button above (printPaper() -> window.print()). Hides the intro
+         copy and the year/subject filter row (including the button
+         itself) so only the actual question-and-answer cards print —
+         whatever is currently shown, whether that's every year (the
+         unfiltered landing view) or one selected year/subject. Matching
+         rules in shell.component.ts hide the app header/nav/footer. */
+      @media print {
+        .intro, .filter-row {
+          display: none !important;
+        }
+        .q-card {
+          box-shadow: none !important;
+          border: 1px solid #ccc;
+          break-inside: avoid;
+          page-break-inside: avoid;
+        }
+        .options button.correct, .options button.incorrect {
+          -webkit-print-color-adjust: exact;
+          print-color-adjust: exact;
+          color-adjust: exact;
+        }
+        .options button { cursor: default; }
+      }
     `,
   ],
 })
@@ -166,5 +213,25 @@ export class TetComponent implements OnInit {
   pick(q: TetQuestion, optionNumber: number): void {
     if (this.picked[q.id]) return;
     this.picked[q.id] = optionNumber;
+  }
+
+  // Same "Save as PDF"-friendly approach as GrandTestComponent.printPaper():
+  // stamp the tab title with what's currently shown (year + subject filter)
+  // plus a to-the-second timestamp before printing, so the browser's
+  // "Save as PDF" dialog pre-fills a unique, meaningful filename instead of
+  // a generic one that has to be retyped by hand every time — then restore
+  // the original title once the print dialog closes.
+  printPaper(): void {
+    const originalTitle = document.title;
+    const yearLabel = this.selectedYear ? String(this.selectedYear) : 'AllYears';
+    const subjectLabel = (this.selectedSubject || 'AllSubjects').replace(/[^\w-]+/g, '_');
+    const stamp = new Date().toISOString().slice(0, 19).replace(/[:T]/g, '-');
+    document.title = `VidyaBandham_TET_${yearLabel}_${subjectLabel}_${stamp}`;
+    const restoreTitle = () => {
+      document.title = originalTitle;
+      window.removeEventListener('afterprint', restoreTitle);
+    };
+    window.addEventListener('afterprint', restoreTitle);
+    window.print();
   }
 }

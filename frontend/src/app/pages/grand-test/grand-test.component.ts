@@ -833,7 +833,24 @@ export class GrandTestComponent implements OnInit, OnDestroy {
   // supports it. The @media print rules above (plus matching rules in
   // shell.component.ts) hide everything except the score summary and the
   // Q&A review, so the saved/printed output is clean and readable.
+  //
+  // Chrome/Edge/Firefox all suggest the page's document.title as the
+  // default filename in the "Save as PDF" dialog, so a generic title would
+  // mean re-typing a filename by hand every single time. Instead this sets
+  // a descriptive, timestamped title (paper name + to-the-second stamp)
+  // right before printing, so each download already has its own unique,
+  // meaningful name pre-filled and ready to save — then restores the
+  // original tab title once the print dialog closes.
   printPaper(): void {
+    const originalTitle = document.title;
+    const paperLabel = (this.selectedPaper?.name || 'GrandTest').replace(/[^\w-]+/g, '_');
+    const stamp = new Date().toISOString().slice(0, 19).replace(/[:T]/g, '-');
+    document.title = `VidyaBandham_${paperLabel}_${stamp}`;
+    const restoreTitle = () => {
+      document.title = originalTitle;
+      window.removeEventListener('afterprint', restoreTitle);
+    };
+    window.addEventListener('afterprint', restoreTitle);
     window.print();
   }
 
