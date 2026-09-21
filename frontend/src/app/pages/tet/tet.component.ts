@@ -30,7 +30,7 @@ import { TetQuestion, TetService } from '../../services/tet.service';
         type="button"
         (click)="printPaper()"
         title="Download as PDF / Print"
-        *ngIf="filteredQuestions.length"
+        *ngIf="showDownloadOption && filteredQuestions.length"
       >
         <span class="print-icon" aria-hidden="true">🖨️</span>
         <span class="print-label">
@@ -167,6 +167,12 @@ import { TetQuestion, TetService } from '../../services/tet.service';
   ],
 })
 export class TetComponent implements OnInit {
+  // Feature flag for the Download/Print (PDF) button — turned off for now
+  // at the owner's request while the mobile "save as PDF" flow (especially
+  // on iOS Safari, which has no direct "Save as PDF" destination) gets
+  // reconsidered. The button, printPaper(), and the @media print rules are
+  // all still here — flip this back to true to bring it back.
+  showDownloadOption = false;
   questions: TetQuestion[] = [];
   loading = true;
   selectedSubject = '';

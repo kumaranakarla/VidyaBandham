@@ -233,7 +233,7 @@ function shuffle<T>(arr: T[]): T[] {
           <span class="btn-te">ఈ గ్రాండ్ టెస్ట్‌ని మళ్లీ చేయండి</span>
         </button>
         <button class="cancel-btn" *ngIf="!skipToFirstAvailable" (click)="chooseAnother()">Choose another paper</button>
-        <button class="print-btn" type="button" (click)="printPaper()" title="Download as PDF / Print">
+        <button class="print-btn" type="button" (click)="printPaper()" title="Download as PDF / Print" *ngIf="showDownloadOption">
           <span class="print-icon" aria-hidden="true">🖨️</span>
           <span class="print-label">
             <span class="btn-en">Download / Print (PDF)</span>
@@ -572,6 +572,13 @@ function shuffle<T>(arr: T[]): T[] {
   ],
 })
 export class GrandTestComponent implements OnInit, OnDestroy {
+  // Feature flag for the Download/Print (PDF) button — turned off for now
+  // at the owner's request while the mobile "save as PDF" flow (especially
+  // on iOS Safari, which has no direct "Save as PDF" destination) gets
+  // reconsidered. The button, printPaper(), and the @media print rules are
+  // all still here — flip this back to true to bring it back.
+  showDownloadOption = false;
+
   stage: Stage = 'select';
 
   // Official AP TET paper order (Child Development & Pedagogy, then
