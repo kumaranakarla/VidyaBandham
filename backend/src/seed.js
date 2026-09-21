@@ -45606,7 +45606,52 @@ function ensureAdminUser() {
   console.log(`Created admin account: ${email}` + (process.env.ADMIN_PASSWORD ? '' : ' (using the DEFAULT password — set ADMIN_EMAIL/ADMIN_PASSWORD env vars!)'));
 }
 
-module.exports = { seed, seedIfEmpty, ensureAdminUser, ensureVoidedTetQuestionsFix };
+// seedTetQuestions() (called from seed(), which only runs on a from-scratch
+// database via seedIfEmpty()) never re-runs on an already-running install —
+// see the big comment above ensureVoidedTetQuestionsFix(). That means any
+// paper/year added to TET_QUESTIONS after the live database was first
+// seeded (e.g. the 2011 papers added later) would never reach production on
+// its own. This runs on every server startup, after ensureVoidedTetQuestionsFix(),
+// and inserts only the TET_QUESTIONS entries not already present (matched by
+// source+question, the same key ensureVoidedTetQuestionsFix() uses) — it never
+// touches or removes any existing row, so it's safe to run every time and
+// leaves every previously-seeded year/paper exactly as it was.
+function ensureNewTetQuestions() {
+  const exists = db.prepare('SELECT 1 FROM tet_questions WHERE source = ? AND question = ? LIMIT 1');
+  const insert = db.prepare(
+    `INSERT INTO tet_questions (id, subject, question, option_a, option_b, option_c, option_d, correct_option, voided, source, year, question_te, option_a_te, option_b_te, option_c_te, option_d_te)
+     VALUES (@id, @subject, @question, @option_a, @option_b, @option_c, @option_d, @correct_option, @voided, @source, @year, @question_te, @option_a_te, @option_b_te, @option_c_te, @option_d_te)`
+  );
+  let added = 0;
+  for (const q of TET_QUESTIONS) {
+    const source = q.paper || `AP TET Paper 1, June ${q.year}`;
+    if (exists.get(source, q.question)) continue;
+    insert.run({
+      id: id(),
+      subject: q.subject,
+      question: q.question,
+      option_a: q.options[0],
+      option_b: q.options[1],
+      option_c: q.options[2],
+      option_d: q.options[3],
+      correct_option: q.correct,
+      voided: q.voided ? 1 : 0,
+      source,
+      year: q.year,
+      question_te: q.question_te || null,
+      option_a_te: q.options_te ? q.options_te[0] : null,
+      option_b_te: q.options_te ? q.options_te[1] : null,
+      option_c_te: q.options_te ? q.options_te[2] : null,
+      option_d_te: q.options_te ? q.options_te[3] : null,
+    });
+    added++;
+  }
+  if (added > 0) {
+    console.log(`Added ${added} previously-missing TET question(s) (new papers/years) to existing installs.`);
+  }
+}
+
+module.exports = { seed, seedIfEmpty, ensureAdminUser, ensureVoidedTetQuestionsFix, ensureNewTetQuestions };
 
 // Allows `npm run seed` / `node src/seed.js` to still work exactly as before,
 // always resetting to fresh demo data regardless of what's already there.
