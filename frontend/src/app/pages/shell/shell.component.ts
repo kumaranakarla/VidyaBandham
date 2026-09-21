@@ -54,10 +54,12 @@ import { AuthService } from '../../services/auth.service';
           <a routerLink="/tet" routerLinkActive="active">TET Previous</a>
           <a routerLink="/mock-test" routerLinkActive="active">MockTest(TET)</a>
           <a routerLink="/tet-2026" routerLinkActive="active" class="nav-new-flash">2026 TET (New)</a>
-          <!-- Hidden for now: "2026 TET (New)" already gives the same real-exam
-               experience (they share GrandTestComponent), so a separate Grand Test
-               tab is redundant. Route/component are left in place to bring this
-               back later if needed. -->
+          <!-- Hidden for now: "MockTest(TET)" already gives the same real-exam,
+               timed-test experience (they share GrandTestComponent), so a separate
+               Grand Test tab is redundant. "2026 TET (New)" is a different,
+               untimed browse-and-practice page (Tet2026Component) and doesn't
+               overlap with either. Route/component are left in place to bring
+               this tab back later if needed. -->
           <!-- <a routerLink="/grand-test" routerLinkActive="active">Grand Test</a> -->
         </nav>
         <div class="user">

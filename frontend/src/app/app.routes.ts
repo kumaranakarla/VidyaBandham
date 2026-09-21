@@ -12,6 +12,7 @@ import { FeesComponent } from './pages/fees/fees.component';
 import { StudentsComponent } from './pages/students/students.component';
 import { TetComponent } from './pages/tet/tet.component';
 import { GrandTestComponent } from './pages/grand-test/grand-test.component';
+import { Tet2026Component } from './pages/tet-2026/tet-2026.component';
 
 export const routes: Routes = [
   { path: 'login', component: LoginComponent },
@@ -50,13 +51,14 @@ export const routes: Routes = [
       // intentionally point at the same component so neither nav link
       // disappears; the old MockTestComponent file is unused now.
       { path: 'mock-test', component: GrandTestComponent },
-      // 2026 (New) now shows the same Grand Test experience too (full
-      // 12-paper picker, since this route doesn't auto-skip like
-      // 'mock-test' does) — question-count selection, a timed test, and
-      // the bilingual results/answer-key screen, instead of the old
-      // filter-and-browse-everything page. The old Tet2026Component file
-      // is unused now, same as MockTestComponent above.
-      { path: 'tet-2026', component: GrandTestComponent },
+      // 2026 (New) shows every official 2026 paper as a straight
+      // filter-and-browse Q&A page (Tet2026Component) — pick a paper,
+      // see its questions with instant right/wrong feedback per question,
+      // no setup screen or timer. The timed, full-exam-conditions
+      // experience (subject-wise mix, a real clock, answers only at the
+      // end) lives under MockTest(TET) / the hidden Grand Test tab
+      // (GrandTestComponent) instead, so the two don't duplicate each other.
+      { path: 'tet-2026', component: Tet2026Component },
       { path: 'grand-test', component: GrandTestComponent },
     ],
   },
