@@ -106,7 +106,14 @@ import { AuthService } from '../../services/auth.service';
       .login-center {
         flex: 1 1 auto;
         display: flex;
-        align-items: center;
+        /* No align-items:center here - that's the cross-axis (vertical)
+           centering for this row-direction flex, and centering an
+           overflowing child that way clips it symmetrically off both
+           edges, in every browser, with no reliable way to scroll back to
+           the clipped part. .login-card below uses margin:auto instead,
+           which centers the same way when it fits but safely collapses to
+           a normal, fully-scrollable top-aligned box the moment it's
+           taller than the available space. */
         justify-content: center;
         padding: 0.75rem 1.5rem;
         box-sizing: border-box;
@@ -117,6 +124,7 @@ import { AuthService } from '../../services/auth.service';
         padding: 2rem;
         border-radius: 14px;
         box-shadow: 0 12px 40px rgba(44, 72, 112, 0.14), 0 2px 8px rgba(0, 0, 0, 0.06);
+        margin: auto 0;
         width: 100%;
         max-width: 360px;
         font-weight: bold;

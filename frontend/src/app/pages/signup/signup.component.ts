@@ -18,6 +18,7 @@ import { AuthService } from '../../services/auth.service';
   imports: [CommonModule, FormsModule, RouterLink],
   template: `
     <div class="login-page">
+      <div class="page-content">
       <form class="login-card" (ngSubmit)="submit()" novalidate>
         <h1>Vidya Bandham</h1>
         <p class="subtitle">Create a free account to practice AP TET 2026 papers.</p>
@@ -93,6 +94,7 @@ import { AuthService } from '../../services/auth.service';
         </p>
         <p>A product of <strong>KK Innovations</strong>, by Karuna Kumar</p>
       </footer>
+      </div>
     </div>
   `,
   styles: [
@@ -102,12 +104,22 @@ import { AuthService } from '../../services/auth.service';
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
         background: #f4f1ea;
         font-family: system-ui, sans-serif;
         font-weight: bold;
         padding: 0.75rem 1rem;
         box-sizing: border-box;
+      }
+      /* margin:auto (not justify-content:center above) does the vertical
+         centering - it visually centers this block when it fits, and
+         safely collapses to 0 (flush top, fully scrollable) the moment
+         the block is taller than the viewport, in every browser. */
+      .page-content {
+        margin: auto 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
       }
       .contact-box {
         width: 100%;
