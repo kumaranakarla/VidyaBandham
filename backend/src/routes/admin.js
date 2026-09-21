@@ -81,11 +81,14 @@ router.get('/stats', requireAuth, requireAdmin, (req, res) => {
   // the demo teacher@vb / parent@vb login actually been used", but covers
   // every account so it's useful beyond just the demo ones.
   const DEMO_EMAILS = new Set(['teacher@vb', 'parent@vb']);
+  // Ordered by most-recent login first (accounts that have never logged in
+  // sort to the bottom) so this actually answers "who's been logging in
+  // lately", not just "who's used it the most, ever".
   const loginRows = db
     .prepare(
       `SELECT email, name, role, COALESCE(login_count, 0) AS loginCount, last_login_at AS lastLoginAt
        FROM users
-       ORDER BY loginCount DESC, email ASC`
+       ORDER BY (last_login_at IS NULL) ASC, last_login_at DESC, email ASC`
     )
     .all();
   const logins = loginRows.map((r) => ({

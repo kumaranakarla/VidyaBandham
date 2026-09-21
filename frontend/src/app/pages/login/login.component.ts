@@ -24,8 +24,8 @@ import { AuthService } from '../../services/auth.service';
 
             <button type="submit" [disabled]="loading">{{ loading ? 'Signing in…' : 'Sign in' }}</button>
 
-            <p class="signin-hint"><a routerLink="/signup">Create Free Account</a> <span class="or-word">or</span> Demo/Free Logins as below</p>
-            <p class="signin-hint-te"><a routerLink="/signup">ఉచిత ఖాతా సృష్టించండి</a> <span class="or-word">లేదా</span> క్రింద ఉన్న డెమో/ఉచిత లాగిన్‌లు</p>
+            <p class="signin-hint">New here? <a routerLink="/signup">Create Free Account</a></p>
+            <p class="signin-hint-te">కొత్తవారా? <a routerLink="/signup">ఉచిత ఖాతా సృష్టించండి</a></p>
 
             <p class="error" *ngIf="error">{{ error }}</p>
           </div>
@@ -40,18 +40,6 @@ import { AuthService } from '../../services/auth.service';
                 <span class="cta-button-en">Create Free Account →</span>
                 <span class="cta-button-te">ఉచిత ఖాతా సృష్టించండి →</span>
               </a>
-            </div>
-
-            <div class="demo">
-              <p class="demo-title"><strong>Demo logins</strong> <span class="demo-title-te">(డెమో లాగిన్‌లు)</span></p>
-
-              <p class="demo-role">Teacher login <span class="demo-role-te">(టీచర్ లాగిన్)</span></p>
-              <p>Username: teacher&#64;vb</p>
-              <p>Password: teacher123</p>
-
-              <p class="demo-role">Parent login <span class="demo-role-te">(పేరెంట్ లాగిన్)</span></p>
-              <p>Username: parent&#64;vb</p>
-              <p>Password: parent123</p>
             </div>
           </div>
         </form>
@@ -104,13 +92,13 @@ import { AuthService } from '../../services/auth.service';
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 1rem 1.5rem;
+        padding: 0.75rem 1.5rem;
         box-sizing: border-box;
         width: 100%;
       }
       .login-card {
         background: white;
-        padding: 2.5rem;
+        padding: 2rem;
         border-radius: 14px;
         box-shadow: 0 12px 40px rgba(44, 72, 112, 0.14), 0 2px 8px rgba(0, 0, 0, 0.06);
         width: 100%;
@@ -230,32 +218,6 @@ import { AuthService } from '../../services/auth.service';
       .signin-hint-te a:hover {
         text-decoration: underline;
       }
-      .demo {
-        margin-top: 1.5rem;
-        padding-top: 1rem;
-        border-top: 1px solid #eee;
-        font-size: 0.9rem;
-        color: #777;
-        font-weight: bold;
-      }
-      .demo p {
-        margin: 0.2rem 0;
-        font-weight: bold;
-      }
-      .demo-title {
-        margin-bottom: 0.5rem !important;
-      }
-      .demo-role {
-        margin-top: 0.7rem !important;
-        color: #2c4870;
-        font-weight: bold;
-      }
-      .demo-title-te,
-      .demo-role-te {
-        font-weight: 500;
-        color: #999;
-        font-size: 0.95em;
-      }
       .cta-banner {
         margin-top: 1.5rem;
         padding: 1.1rem 1.1rem 1.2rem;
@@ -318,7 +280,7 @@ import { AuthService } from '../../services/auth.service';
          official AP TET site's "For any queries" box + designed-by bar. */
       .contact-box {
         width: 100%;
-        padding: 0.7rem 1.5rem;
+        padding: 0.5rem 1.5rem;
         background: linear-gradient(135deg, #eaf2fb, #f5f9fd);
         border-top: 1px solid #cfe0f2;
         text-align: center;
@@ -345,7 +307,7 @@ import { AuthService } from '../../services/auth.service';
       }
       .site-footer {
         width: 100%;
-        padding: 0.5rem 1rem;
+        padding: 0.35rem 1rem;
         background: #1f2937;
         color: #cbd5e1;
         text-align: center;
