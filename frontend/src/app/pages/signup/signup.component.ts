@@ -257,7 +257,7 @@ export class SignupComponent {
   name = '';
   email = '';
   password = '';
-  occupation: 'teacher' | 'parent' | '' = '';
+  occupation: 'teacher' | 'parent' | '' = 'teacher';
   loading = false;
   error = '';
   emailError = '';
