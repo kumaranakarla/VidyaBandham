@@ -11,6 +11,21 @@ import { AuthService } from '../../services/auth.service';
   template: `
     <div class="login-page">
       <div class="login-center">
+        <div class="login-card already-in-card" *ngIf="loggedInUser as u; else loginFormTpl">
+          <h1>Vidya Bandham</h1>
+          <p class="subtitle">You're already signed in.</p>
+          <p class="already-in-text">
+            Signed in as <strong>{{ u.name }}</strong> ({{ roleLabel(u.role) }}).
+          </p>
+          <p class="already-in-text-te">
+            మీరు ఇప్పటికే <strong>{{ u.name }}</strong> ({{ roleLabel(u.role) }})గా సైన్ ఇన్ అయ్యారు.
+          </p>
+          <button type="button" (click)="continueToDashboard()">Continue to dashboard</button>
+          <p class="signin-hint">
+            Not you? <a href="javascript:void(0)" (click)="signOut()">Sign out</a> to use a different account.
+          </p>
+        </div>
+        <ng-template #loginFormTpl>
         <form class="login-card" (ngSubmit)="submit()">
           <div class="login-primary">
             <h1>Vidya Bandham</h1>
@@ -43,6 +58,7 @@ import { AuthService } from '../../services/auth.service';
             </div>
           </div>
         </form>
+        </ng-template>
       </div>
 
       <div class="contact-box">
@@ -218,6 +234,20 @@ import { AuthService } from '../../services/auth.service';
       .signin-hint-te a:hover {
         text-decoration: underline;
       }
+      .already-in-text {
+        margin: 0.75rem 0 0;
+        color: #333;
+        font-size: 0.95rem;
+      }
+      .already-in-text-te {
+        margin: 0.25rem 0 0;
+        color: #888;
+        font-size: 0.8rem;
+        font-weight: 500;
+      }
+      .already-in-card .signin-hint {
+        margin-top: 1rem;
+      }
       .cta-banner {
         margin-top: 1.5rem;
         padding: 1.1rem 1.1rem 1.2rem;
@@ -347,6 +377,42 @@ export class LoginComponent {
 
   constructor(private auth: AuthService, private router: Router) {}
 
+  // A signal read, so the template swaps between the "already signed in"
+  // card and the login form the moment auth.user() changes (e.g. right
+  // after signOut() below) without needing a route change.
+  get loggedInUser() {
+    return this.auth.user();
+  }
+
+  private landingPathFor(role: string): string {
+    return role === 'admin' ? '/admin' : role === 'tet_subscriber' ? '/tet-2026' : '/diary';
+  }
+
+  roleLabel(role: string): string {
+    switch (role) {
+      case 'admin':
+        return 'Admin';
+      case 'teacher':
+        return 'Teacher';
+      case 'parent':
+        return 'Parent';
+      case 'tet_subscriber':
+        return 'TET Prep';
+      default:
+        return role;
+    }
+  }
+
+  continueToDashboard(): void {
+    const u = this.loggedInUser;
+    if (!u) return;
+    this.router.navigate([this.landingPathFor(u.role)]);
+  }
+
+  signOut(): void {
+    this.auth.logout('/login');
+  }
+
   submit(): void {
     if (!this.email || !this.password) return;
     this.loading = true;
@@ -354,9 +420,7 @@ export class LoginComponent {
     this.auth.login(this.email, this.password).subscribe({
       next: (res) => {
         this.loading = false;
-        const dest =
-          res.user.role === 'admin' ? '/admin' : res.user.role === 'tet_subscriber' ? '/tet-2026' : '/diary';
-        this.router.navigate([dest]);
+        this.router.navigate([this.landingPathFor(res.user.role)]);
       },
       error: (err) => {
         this.loading = false;
