@@ -71,6 +71,7 @@ import { AuthService } from '../../services/auth.service';
         </button>
 
         <p class="error" *ngIf="error">{{ error }}</p>
+        <p class="error-te" *ngIf="errorTe">{{ errorTe }}</p>
 
         <p class="switch">Already have an account? <a routerLink="/login">Log in</a></p>
         <p class="switch-te">ఇప్పటికే ఖాతా ఉందా? <a routerLink="/login">లాగిన్ అవ్వండి</a></p>
@@ -259,6 +260,7 @@ import { AuthService } from '../../services/auth.service';
       .hint-te { margin: 0.1rem 0 0; font-size: 0.72rem; color: #aaa; font-weight: 500; }
       .field-error { margin: 0.3rem 0 0; font-size: 0.8rem; color: #b3261e; font-weight: 700; }
       .error { color: #b3261e; margin-top: 1rem; font-size: 0.9rem; font-weight: bold; }
+      .error-te { color: #b3261e; margin-top: 0.2rem; font-size: 0.8rem; font-weight: 600; }
       .switch { margin-top: 1.25rem; margin-bottom: 0; text-align: center; font-size: 0.85rem; color: #666; font-weight: bold; }
       .switch-te { margin: 0.15rem 0 0; text-align: center; font-size: 0.72rem; color: #999; font-weight: 500; }
       .switch a, .switch-te a { color: #2c4870; }
@@ -272,8 +274,24 @@ export class SignupComponent {
   occupation: 'teacher' | 'parent' | '' = 'teacher';
   loading = false;
   error = '';
+  errorTe = '';
   emailError = '';
   passwordError = '';
+
+  private static readonly ERROR_TRANSLATIONS: Record<string, string> = {
+    'Name, email and password are required.': 'పేరు, ఇమెయిల్, పాస్‌వర్డ్ అన్నీ అవసరం.',
+    'Password must be at least 6 characters.': 'పాస్‌వర్డ్ కనీసం 6 అక్షరాలు ఉండాలి.',
+    'An account with this email already exists. Try logging in instead.':
+      'ఈ ఇమెయిల్‌తో ఖాతా ఇప్పటికే ఉంది. బదులుగా లాగిన్ అవ్వండి.',
+    'Could not create your account. Please try again.':
+      'మీ ఖాతాను సృష్టించలేకపోయాము. దయచేసి మళ్లీ ప్రయత్నించండి.',
+    'Something went wrong on the server.': 'సర్వర్‌లో ఏదో సమస్య వచ్చింది.',
+  };
+
+  private setError(message: string): void {
+    this.error = message;
+    this.errorTe = SignupComponent.ERROR_TRANSLATIONS[message] || '';
+  }
 
   constructor(private auth: AuthService, private router: Router) {}
 
@@ -296,7 +314,7 @@ export class SignupComponent {
   }
 
   submit(): void {
-    this.error = '';
+    this.setError('');
     this.onEmailChange();
     this.onPasswordChange();
     if (!this.name || !this.email || !this.password) return;
@@ -310,7 +328,7 @@ export class SignupComponent {
       },
       error: (err) => {
         this.loading = false;
-        this.error = err?.error?.error || 'Could not create your account. Please try again.';
+        this.setError(err?.error?.error || 'Could not create your account. Please try again.');
       },
     });
   }

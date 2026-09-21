@@ -43,6 +43,7 @@ import { AuthService } from '../../services/auth.service';
             <p class="signin-hint-te">కొత్తవారా? <a routerLink="/signup">ఉచిత ఖాతా సృష్టించండి</a></p>
 
             <p class="error" *ngIf="error">{{ error }}</p>
+            <p class="error-te" *ngIf="errorTe">{{ errorTe }}</p>
           </div>
 
           <div class="login-secondary">
@@ -213,6 +214,12 @@ import { AuthService } from '../../services/auth.service';
         margin-top: 1rem;
         font-size: 0.9rem;
         font-weight: bold;
+      }
+      .error-te {
+        color: #b3261e;
+        margin-top: 0.2rem;
+        font-size: 0.8rem;
+        font-weight: 600;
       }
       .signin-hint {
         margin: 0.6rem 0 0;
@@ -388,6 +395,20 @@ export class LoginComponent {
   password = '';
   loading = false;
   error = '';
+  errorTe = '';
+
+  private static readonly ERROR_TRANSLATIONS: Record<string, string> = {
+    'Email and password are required.': 'ఇమెయిల్, పాస్‌వర్డ్ రెండూ అవసరం.',
+    'Could not sign in. Check the email and password and try again.':
+      'సైన్ ఇన్ చేయలేకపోయాము. ఇమెయిల్, పాస్‌వర్డ్ సరిచూసి మళ్లీ ప్రయత్నించండి.',
+    'Could not sign in. Please try again.': 'సైన్ ఇన్ చేయలేకపోయాము. దయచేసి మళ్లీ ప్రయత్నించండి.',
+    'Something went wrong on the server.': 'సర్వర్‌లో ఏదో సమస్య వచ్చింది.',
+  };
+
+  private setError(message: string): void {
+    this.error = message;
+    this.errorTe = LoginComponent.ERROR_TRANSLATIONS[message] || '';
+  }
 
   constructor(private auth: AuthService, private router: Router) {}
 
@@ -430,7 +451,7 @@ export class LoginComponent {
   submit(): void {
     if (!this.email || !this.password) return;
     this.loading = true;
-    this.error = '';
+    this.setError('');
     this.auth.login(this.email, this.password).subscribe({
       next: (res) => {
         this.loading = false;
@@ -438,7 +459,7 @@ export class LoginComponent {
       },
       error: (err) => {
         this.loading = false;
-        this.error = err?.error?.error || 'Could not sign in. Please try again.';
+        this.setError(err?.error?.error || 'Could not sign in. Please try again.');
       },
     });
   }
