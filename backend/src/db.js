@@ -277,6 +277,17 @@ if (!userColumnsForLogins.some((c) => c.name === 'last_login_at')) {
   db.exec('ALTER TABLE users ADD COLUMN last_login_at TEXT');
 }
 
+// `occupation` is a self-reported label captured at signup — right now
+// just "aspirant" (preparing for TET) vs "teacher" (already working),
+// with "parent" reserved for when parent self-signup is added later. It's
+// informational only: it does NOT change `role` or grant any access
+// (every self-signup is still a plain tet_subscriber) — it just lets the
+// admin dashboard show who's actually signing up. Same safe
+// add-if-missing column pattern as login_count/last_login_at above.
+if (!userColumnsForLogins.some((c) => c.name === 'occupation')) {
+  db.exec('ALTER TABLE users ADD COLUMN occupation TEXT');
+}
+
 // `failure_reason` records why a subscription attempt didn't end in a paid
 // row — the checkout widget was closed without paying, the signature
 // verification failed, or the Razorpay order couldn't even be created —

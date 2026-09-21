@@ -40,10 +40,23 @@ export class AuthService {
   }
 
   // Public self-signup, for TET Prep subscribers only — teacher/parent
-  // accounts are still created from inside the app, not through this.
-  register(name: string, email: string, password: string): Observable<{ token: string; user: User }> {
+  // accounts (the real, functional roles) are still created from inside
+  // the app, not through this. `occupation` is purely a self-reported
+  // label ('aspirant' | 'teacher' | 'parent') so the admin dashboard can
+  // tell who's actually signing up — it never changes the account's role.
+  register(
+    name: string,
+    email: string,
+    password: string,
+    occupation: 'aspirant' | 'teacher' | 'parent' = 'aspirant'
+  ): Observable<{ token: string; user: User }> {
     return this.http
-      .post<{ token: string; user: User }>(`${environment.apiUrl}/auth/register`, { name, email, password })
+      .post<{ token: string; user: User }>(`${environment.apiUrl}/auth/register`, {
+        name,
+        email,
+        password,
+        occupation,
+      })
       .pipe(
         tap((res) => {
           localStorage.setItem(TOKEN_KEY, res.token);

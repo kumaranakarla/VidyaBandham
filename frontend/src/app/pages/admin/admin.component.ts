@@ -64,7 +64,10 @@ import { AuthService } from '../../services/auth.service';
           <div class="card">
             <div class="label">New signups</div>
             <div class="value">{{ stats.users.newSignups.last7Days }} <span class="unit">/ 7 days</span></div>
-            <div class="breakdown"><span>{{ stats.users.newSignups.last30Days }} in the last 30 days</span></div>
+            <div class="breakdown">
+              <span>{{ stats.users.newSignups.last30Days }} in the last 30 days</span>
+              <span *ngFor="let r of occupationEntries">{{ occupationLabel(r[0]) }}: {{ r[1] }}</span>
+            </div>
           </div>
 
           <div class="card">
@@ -95,6 +98,30 @@ import { AuthService } from '../../services/auth.service';
               <span>{{ stats.hits.allTime }} all-time</span>
             </div>
           </div>
+        </div>
+
+        <div class="recent" *ngIf="stats && stats.users.recentSignups.length">
+          <h2>Recent signups</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Role</th>
+                <th>I am a</th>
+                <th>Signed up</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let s of stats.users.recentSignups">
+                <td>{{ s.name }}</td>
+                <td>{{ s.email }}</td>
+                <td>{{ s.role }}</td>
+                <td>{{ s.role === 'tet_subscriber' ? occupationLabel(s.occupation) : '—' }}</td>
+                <td>{{ s.createdAt | date: 'medium' }}</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
 
         <div class="recent" *ngIf="stats && stats.subscriptions.recent.length">
@@ -361,6 +388,23 @@ export class AdminComponent implements OnInit {
 
   get failedReasonEntries(): [string, number][] {
     return this.stats ? Object.entries(this.stats.subscriptions.failed.byReason) : [];
+  }
+
+  get occupationEntries(): [string, number][] {
+    return this.stats ? Object.entries(this.stats.users.occupationBreakdown) : [];
+  }
+
+  occupationLabel(occupation: string | null): string {
+    switch (occupation) {
+      case 'teacher':
+        return 'Teacher';
+      case 'parent':
+        return 'Parent';
+      case 'aspirant':
+        return 'TET Aspirant';
+      default:
+        return 'TET Aspirant';
+    }
   }
 
   reasonLabel(reason: string): string {

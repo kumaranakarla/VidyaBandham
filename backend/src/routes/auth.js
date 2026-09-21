@@ -9,8 +9,13 @@ const router = express.Router();
 // Public self-signup — only for TET Prep subscribers. Teacher and parent
 // accounts are still created by a teacher/admin from inside the app, not
 // through this route (there's no self-signup path for those roles).
+// Self-reported at signup, purely informational (see the `occupation`
+// column comment in db.js) — anything outside this set is dropped rather
+// than trusted verbatim into the database.
+const VALID_OCCUPATIONS = new Set(['aspirant', 'teacher', 'parent']);
+
 router.post('/register', (req, res) => {
-  const { email, password, name } = req.body || {};
+  const { email, password, name, occupation } = req.body || {};
   if (!email || !password || !name) {
     return res.status(400).json({ error: 'Name, email and password are required.' });
   }
@@ -24,17 +29,20 @@ router.post('/register', (req, res) => {
     return res.status(409).json({ error: 'An account with this email already exists. Try logging in instead.' });
   }
 
+  const normalizedOccupation = VALID_OCCUPATIONS.has(occupation) ? occupation : 'aspirant';
+
   const user = {
     id: crypto.randomUUID(),
     email: normalizedEmail,
     password_hash: bcrypt.hashSync(String(password), 10),
     role: 'tet_subscriber',
     name: String(name).trim(),
+    occupation: normalizedOccupation,
     created_at: new Date().toISOString(),
   };
   db.prepare(
-    'INSERT INTO users (id, email, password_hash, role, name, created_at) VALUES (?, ?, ?, ?, ?, ?)'
-  ).run(user.id, user.email, user.password_hash, user.role, user.name, user.created_at);
+    'INSERT INTO users (id, email, password_hash, role, name, occupation, created_at) VALUES (?, ?, ?, ?, ?, ?, ?)'
+  ).run(user.id, user.email, user.password_hash, user.role, user.name, user.occupation, user.created_at);
 
   const created = db.prepare('SELECT * FROM users WHERE id = ?').get(user.id);
   const token = signToken(created);

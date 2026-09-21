@@ -27,6 +27,27 @@ router.get('/stats', requireAuth, requireAdmin, (req, res) => {
     .prepare("SELECT COUNT(*) AS count FROM users WHERE created_at IS NOT NULL AND created_at >= ?")
     .get(last30).count;
 
+  // Self-signups only report a role of 'tet_subscriber' (see auth.js) —
+  // `occupation` is the only thing that says whether they signed up as a
+  // working teacher or a TET aspirant, so this is what actually answers
+  // "how do we tell them apart".
+  const occupationRows = db
+    .prepare(
+      `SELECT COALESCE(occupation, 'aspirant') AS occupation, COUNT(*) AS count
+       FROM users WHERE role = 'tet_subscriber' GROUP BY occupation`
+    )
+    .all();
+
+  const recentSignups = db
+    .prepare(
+      `SELECT email, name, role, occupation, created_at
+       FROM users
+       WHERE created_at IS NOT NULL
+       ORDER BY created_at DESC
+       LIMIT 20`
+    )
+    .all();
+
   const activeSubs = db
     .prepare("SELECT COUNT(*) AS count FROM subscriptions WHERE status = 'paid' AND current_period_end > ?")
     .get(nowIso).count;
@@ -104,6 +125,14 @@ router.get('/stats', requireAuth, requireAdmin, (req, res) => {
     users: {
       byRole: Object.fromEntries(usersByRole.map((r) => [r.role, r.count])),
       newSignups: { last7Days: newSignups7, last30Days: newSignups30 },
+      occupationBreakdown: Object.fromEntries(occupationRows.map((r) => [r.occupation, r.count])),
+      recentSignups: recentSignups.map((r) => ({
+        email: r.email,
+        name: r.name,
+        role: r.role,
+        occupation: r.occupation || null,
+        createdAt: r.created_at,
+      })),
     },
     subscriptions: {
       active: activeSubs,

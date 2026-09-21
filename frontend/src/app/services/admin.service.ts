@@ -6,6 +6,14 @@ export interface AdminStats {
   users: {
     byRole: Record<string, number>;
     newSignups: { last7Days: number; last30Days: number };
+    occupationBreakdown: Record<string, number>;
+    recentSignups: {
+      email: string;
+      name: string;
+      role: string;
+      occupation: string | null;
+      createdAt: string;
+    }[];
   };
   subscriptions: {
     active: number;

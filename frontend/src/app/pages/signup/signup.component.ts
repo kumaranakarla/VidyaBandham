@@ -4,11 +4,14 @@ import { FormsModule } from '@angular/forms';
 import { Router, RouterLink } from '@angular/router';
 import { AuthService } from '../../services/auth.service';
 
-// Public self-signup — for TET Prep subscribers only (see auth.service.ts's
-// register() and the backend's POST /api/auth/register). Teacher and parent
-// accounts are still created from inside the app by a teacher, so this page
-// never asks which role to sign up as; every account created here is a
-// tet_subscriber.
+// Public self-signup — the account created here is always a plain
+// tet_subscriber (see auth.service.ts's register() and the backend's
+// POST /api/auth/register); teacher/parent accounts with real class
+// access are still created from inside the app. The "I am a" choice below
+// is a self-reported label only (stored as `occupation`, not `role`), so
+// the admin dashboard can tell who's actually signing up — a working
+// teacher preparing for TET vs. a first-time aspirant. Parent is shown as
+// "coming soon" until parent self-signup gets real functionality.
 @Component({
   selector: 'app-signup',
   standalone: true,
@@ -18,11 +21,12 @@ import { AuthService } from '../../services/auth.service';
       <form class="login-card" (ngSubmit)="submit()" novalidate>
         <h1>Vidya Bandham</h1>
         <p class="subtitle">Create a free account to practice AP TET 2026 papers.</p>
+        <p class="subtitle-te">ఉచిత ఖాతా సృష్టించి AP TET 2026 పేపర్లను ప్రాక్టీస్ చేయండి.</p>
 
-        <label>Name</label>
+        <label>Name <span class="label-te">(పేరు)</span></label>
         <input type="text" name="name" [(ngModel)]="name" placeholder="Your name" required autofocus autocomplete="off" />
 
-        <label>Email</label>
+        <label>Email <span class="label-te">(ఇమెయిల్)</span></label>
         <input
           type="email"
           name="email"
@@ -34,7 +38,7 @@ import { AuthService } from '../../services/auth.service';
         />
         <p class="field-error" *ngIf="emailError">{{ emailError }}</p>
 
-        <label>Password</label>
+        <label>Password <span class="label-te">(పాస్‌వర్డ్)</span></label>
         <input
           type="password"
           name="password"
@@ -45,13 +49,34 @@ import { AuthService } from '../../services/auth.service';
           autocomplete="new-password"
         />
         <p class="hint">At least 6 characters — letters, numbers, or symbols are all fine.</p>
+        <p class="hint-te">కనీసం 6 అక్షరాలు — అక్షరాలు, అంకెలు లేదా గుర్తులు ఏవైనా పర్వాలేదు.</p>
         <p class="field-error" *ngIf="passwordError">{{ passwordError }}</p>
 
-        <button type="submit" [disabled]="loading">{{ loading ? 'Creating account…' : 'Create account' }}</button>
+        <label>I am a <span class="label-te">(నేను)</span></label>
+        <div class="occupation-group">
+          <label class="occupation-option">
+            <input type="radio" name="occupation" value="aspirant" [(ngModel)]="occupation" />
+            <span>TET Aspirant <span class="label-te">(అభ్యర్థి)</span></span>
+          </label>
+          <label class="occupation-option">
+            <input type="radio" name="occupation" value="teacher" [(ngModel)]="occupation" />
+            <span>Teacher <span class="label-te">(ఉపాధ్యాయుడు)</span></span>
+          </label>
+          <label class="occupation-option disabled">
+            <input type="radio" name="occupation" value="parent" disabled />
+            <span>Parent <span class="label-te">(తల్లిదండ్రి)</span> — coming soon</span>
+          </label>
+        </div>
+
+        <button type="submit" [disabled]="loading">
+          <span class="btn-en">{{ loading ? 'Creating account…' : 'Create account' }}</span>
+          <span class="btn-te" *ngIf="!loading">ఖాతా సృష్టించండి</span>
+        </button>
 
         <p class="error" *ngIf="error">{{ error }}</p>
 
         <p class="switch">Already have an account? <a routerLink="/login">Log in</a></p>
+        <p class="switch-te">ఇప్పటికే ఖాతా ఉందా? <a routerLink="/login">లాగిన్ అవ్వండి</a></p>
       </form>
 
       <div class="contact-box">
@@ -85,12 +110,14 @@ import { AuthService } from '../../services/auth.service';
         background: #f4f1ea;
         font-family: system-ui, sans-serif;
         font-weight: bold;
+        padding: 0.75rem 1rem;
+        box-sizing: border-box;
       }
       .contact-box {
         width: 100%;
         max-width: 480px;
-        margin-top: 1.25rem;
-        padding: 1rem 1.5rem;
+        margin-top: 0.85rem;
+        padding: 0.6rem 1.5rem;
         background: linear-gradient(135deg, #eaf2fb, #f5f9fd);
         border-top: 1px solid #cfe0f2;
         border-radius: 10px;
@@ -119,8 +146,8 @@ import { AuthService } from '../../services/auth.service';
       .site-footer {
         width: 100%;
         max-width: 480px;
-        margin-top: 1rem;
-        padding: 0.7rem 1rem;
+        margin-top: 0.6rem;
+        padding: 0.4rem 1rem;
         background: #1f2937;
         border-radius: 10px;
         color: #cbd5e1;
@@ -153,7 +180,7 @@ import { AuthService } from '../../services/auth.service';
       }
       .login-card {
         background: white;
-        padding: 2.5rem;
+        padding: 1.85rem 2rem;
         border-radius: 12px;
         box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
         width: 100%;
@@ -161,9 +188,11 @@ import { AuthService } from '../../services/auth.service';
         font-weight: bold;
       }
       h1 { margin: 0 0 0.25rem; color: #2c4870; font-weight: bold; }
-      .subtitle { margin: 0 0 1.5rem; color: #666; font-size: 0.9rem; font-weight: bold; }
-      label { display: block; font-size: 0.85rem; margin: 0.75rem 0 0.25rem; color: #333; font-weight: bold; }
-      input {
+      .subtitle { margin: 0; color: #666; font-size: 0.9rem; font-weight: bold; }
+      .subtitle-te { margin: 0.1rem 0 1.1rem; color: #999; font-size: 0.78rem; font-weight: 500; }
+      label { display: block; font-size: 0.85rem; margin: 0.7rem 0 0.25rem; color: #333; font-weight: bold; }
+      .label-te { color: #999; font-weight: 500; font-size: 0.92em; }
+      input[type='text'], input[type='email'], input[type='password'] {
         width: 100%;
         padding: 0.6rem 0.7rem;
         border: 1px solid #ccc;
@@ -172,24 +201,59 @@ import { AuthService } from '../../services/auth.service';
         box-sizing: border-box;
         font-weight: bold;
       }
+      .occupation-group {
+        display: flex;
+        flex-direction: column;
+        gap: 0.4rem;
+        margin-top: 0.3rem;
+      }
+      .occupation-option {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        margin: 0;
+        font-size: 0.85rem;
+        font-weight: 600;
+        color: #333;
+        cursor: pointer;
+      }
+      .occupation-option input {
+        width: auto;
+        margin: 0;
+        cursor: pointer;
+      }
+      .occupation-option.disabled {
+        color: #aaa;
+        cursor: default;
+      }
+      .occupation-option.disabled input {
+        cursor: default;
+      }
       button {
         margin-top: 1.5rem;
         width: 100%;
-        padding: 0.7rem;
+        padding: 0.65rem;
         background: #c97c1f;
         color: white;
         border: none;
         border-radius: 6px;
-        font-size: 1rem;
         cursor: pointer;
         font-weight: bold;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.1rem;
       }
+      .btn-en { font-size: 1rem; }
+      .btn-te { font-size: 0.75rem; font-weight: 500; opacity: 0.92; }
       button:disabled { opacity: 0.6; cursor: default; }
       .hint { margin: 0.3rem 0 0; font-size: 0.78rem; color: #888; font-weight: 500; }
+      .hint-te { margin: 0.1rem 0 0; font-size: 0.72rem; color: #aaa; font-weight: 500; }
       .field-error { margin: 0.3rem 0 0; font-size: 0.8rem; color: #b3261e; font-weight: 700; }
       .error { color: #b3261e; margin-top: 1rem; font-size: 0.9rem; font-weight: bold; }
-      .switch { margin-top: 1.5rem; text-align: center; font-size: 0.85rem; color: #666; font-weight: bold; }
-      .switch a { color: #2c4870; }
+      .switch { margin-top: 1.25rem; margin-bottom: 0; text-align: center; font-size: 0.85rem; color: #666; font-weight: bold; }
+      .switch-te { margin: 0.15rem 0 0; text-align: center; font-size: 0.72rem; color: #999; font-weight: 500; }
+      .switch a, .switch-te a { color: #2c4870; }
     `,
   ],
 })
@@ -197,6 +261,7 @@ export class SignupComponent {
   name = '';
   email = '';
   password = '';
+  occupation: 'aspirant' | 'teacher' | 'parent' = 'aspirant';
   loading = false;
   error = '';
   emailError = '';
@@ -230,7 +295,7 @@ export class SignupComponent {
     if (this.emailError || this.passwordError) return;
 
     this.loading = true;
-    this.auth.register(this.name, this.email, this.password).subscribe({
+    this.auth.register(this.name, this.email, this.password, this.occupation).subscribe({
       next: () => {
         this.loading = false;
         this.router.navigate(['/tet-2026']);
