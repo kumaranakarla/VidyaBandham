@@ -472,12 +472,20 @@ function shuffle<T>(arr: T[]): T[] {
       .badge-correct { background: #16a34a; color: white; }
       .badge-wrong { background: #dc2626; color: white; }
       .badge-blank { background: #eee; color: #777; }
-      .result-actions { display: flex; gap: 0.8rem; flex-wrap: wrap; }
-      .result-actions .start-btn { width: auto; }
+      /* Mobile-first: most candidates are on a phone, so Retake / Choose
+         another / Download-Print stack full-width and are comfortable to
+         tap by default. From 640px up (tablet/desktop) there's room for
+         them side by side, so they switch to a compact inline row. */
+      .result-actions { display: flex; flex-direction: column; gap: 0.7rem; }
+      .result-actions > button { width: 100%; justify-content: center; }
+      @media (min-width: 640px) {
+        .result-actions { flex-direction: row; flex-wrap: wrap; }
+        .result-actions > button { width: auto; }
+      }
       .review-heading { color: #2c4870; margin: 1.6rem 0 1rem; font-size: 1.1rem; }
       .print-btn {
         background: #2c4870; color: white; border: none; border-radius: 6px;
-        padding: 0.7rem 1.4rem; font-size: 0.95rem; font-weight: 700; cursor: pointer;
+        padding: 0.75rem 1.4rem; font-size: 0.95rem; font-weight: 700; cursor: pointer;
         display: flex; align-items: center; gap: 0.6rem;
       }
       .print-btn .print-icon { font-size: 1.2rem; line-height: 1; }

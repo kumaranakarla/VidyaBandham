@@ -123,10 +123,17 @@ import { TetQuestion, TetService } from '../../services/tet.service';
       .answer-note .incorrect-text { color: #dc2626; }
       .source { margin-top: 0.6rem; font-size: 0.75rem; color: #999; }
 
+      /* Mobile-first: full-width and centered by default so it's a big,
+         comfortable tap target on a phone; from 640px up it shrinks back
+         to a compact button pushed to the right of the filter row. */
       .print-btn {
         background: #2c4870; color: white; border: none; border-radius: 6px;
-        padding: 0.55rem 1.1rem; font-size: 0.9rem; font-weight: 700; cursor: pointer;
-        display: flex; align-items: center; gap: 0.5rem; margin-left: auto;
+        padding: 0.7rem 1.1rem; font-size: 0.9rem; font-weight: 700; cursor: pointer;
+        display: flex; align-items: center; justify-content: center; gap: 0.5rem;
+        width: 100%;
+      }
+      @media (min-width: 640px) {
+        .print-btn { width: auto; margin-left: auto; }
       }
       .print-btn .print-icon { font-size: 1.05rem; line-height: 1; }
       .print-btn .print-label { display: flex; flex-direction: column; align-items: flex-start; line-height: 1.2; }
