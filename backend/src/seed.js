@@ -74477,7 +74477,47 @@ function ensureNewTetQuestions() {
   }
 }
 
-module.exports = { seed, seedIfEmpty, ensureAdminUser, ensureVoidedTetQuestionsFix, ensureNewTetQuestions };
+// Some questions in TET_QUESTIONS gain a Telugu translation (question_te/
+// options_te) after they were already inserted into an existing install's
+// database — this happened for the APMF Mathematics 2A set, which first
+// shipped English-only and had Telugu backfilled into TET_QUESTIONS in a
+// later commit. ensureNewTetQuestions() alone won't pick this up, since it
+// only inserts rows that don't already exist by (source, question) — an
+// already-inserted row is left untouched forever. This walks TET_QUESTIONS
+// again and fills in question_te/option_*_te for any existing row that's
+// still NULL there, so it reaches installs that never re-seed from scratch
+// (the live Render deploy, once it has real users) the same way
+// ensureVoidedTetQuestionsFix() does for voided questions. Naturally
+// idempotent: once a row's question_te is filled in, the WHERE clause no
+// longer matches it, so re-running this is a no-op for that row.
+function ensureTeluguBackfill() {
+  const update = db.prepare(
+    `UPDATE tet_questions
+     SET question_te = @question_te, option_a_te = @option_a_te, option_b_te = @option_b_te,
+         option_c_te = @option_c_te, option_d_te = @option_d_te
+     WHERE source = @source AND question = @question AND question_te IS NULL`
+  );
+  let updated = 0;
+  for (const q of TET_QUESTIONS) {
+    if (!q.question_te || !q.options_te) continue;
+    const source = q.paper || `AP TET Paper 1, June ${q.year}`;
+    const result = update.run({
+      question_te: q.question_te,
+      option_a_te: q.options_te[0],
+      option_b_te: q.options_te[1],
+      option_c_te: q.options_te[2],
+      option_d_te: q.options_te[3],
+      source,
+      question: q.question,
+    });
+    if (result.changes > 0) updated++;
+  }
+  if (updated > 0) {
+    console.log(`Backfilled Telugu translation for ${updated} previously English-only question(s) on existing installs.`);
+  }
+}
+
+module.exports = { seed, seedIfEmpty, ensureAdminUser, ensureVoidedTetQuestionsFix, ensureNewTetQuestions, ensureTeluguBackfill };
 
 // Allows `npm run seed` / `node src/seed.js` to still work exactly as before,
 // always resetting to fresh demo data regardless of what's already there.
