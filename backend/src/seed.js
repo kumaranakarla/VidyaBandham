@@ -71873,6 +71873,1926 @@ const TET_QUESTIONS = [
     "question": "ఒక తరగతిలోని విద్యార్థి యొక్క కుటుంబ చరిత్ర, అభిరుచులు, ఆసక్తులు, వ్యాపకాలు పాఠ్యంశాలలో అతని అభివృద్ధి మొదలగు విషయాలకు ఒక పుస్తకంలో నమోదు చేసుకునే రికార్డు.",
     "options": ["నిర్ధారణ మాపని", "కేస్ స్టడీ", "చెక్ లిస్టు", "పరిశీలన"],
     "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "Number of two digit numbers that are divisible by 4 is",
+    "options": ["21", "22", "23", "24"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "LCM of two numbers is 120 and their HCF is 10 if one of the number is 30 then the other number is",
+    "options": ["20", "40", "60", "80"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "Which of the following is terminating decimal",
+    "options": ["77/210", "21/60", "8/15", "12/55"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "Which of the following is not a prime",
+    "options": ["4² + 5²", "5² + 6²", "6² + 7²", "7² + 8²"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The smallest three digit number that is divisible by 4, 6 and 8 is",
+    "options": ["108", "114", "120", "144"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "HCF of 75, 105 and 175 is",
+    "options": ["5", "7", "15", "35"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "Total number of factors of 600 is",
+    "options": ["20", "24", "30", "36"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "A rational number in between 1/4 and 1/2 is",
+    "options": ["3/7", "4/7", "5/8", "6/11"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The Average of 4.2, 3.8 and 7.6 is",
+    "options": ["4.2", "4.8", "5.2", "4.6"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "Half of 0.1 is",
+    "options": ["0.02", "0.5", "0.05", "0.2"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "LCM of 20, 25 and 30 is",
+    "options": ["240", "120", "150", "300"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "Which of the following numbers are co-prime",
+    "options": ["120, 144", "215, 216", "35, 165", "121, 143"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "Number of digits in the square of a five-digit number is",
+    "options": ["9 or 10", "10 or 11", "10 or 12", "11 or 12"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "How many consecutive odd positive integers added to get 144",
+    "options": ["8", "10", "12", "14"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "Total number of three-digits perfect squares",
+    "options": ["20", "21", "22", "23"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "which of the following is not a perfect square",
+    "options": ["1444", "2744", "3844", "7744"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "((3.2)³ + (1.8)³) / ((3.2)² − 5.76 + (1.8)²) =",
+    "options": ["5", "5.2", "5.1", "6"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The smallest-square number that is divisible by each of the numbers 4, 9 and 10 is",
+    "options": ["180", "360", "900", "1600"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "³√3375 =",
+    "options": ["15", "25", "35", "45"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "101³ =",
+    "options": ["100030001", "1003001", "1030301", "103301"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "7³ − 6³ =",
+    "options": ["1 + 7 × 6 × 2", "1 + 7 × 6 × 3", "1 + 7 × 6 × 1", "1 + 7 × 6 × 4"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "Unit digit of cube of 888 is",
+    "options": ["2", "4", "6", "8"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "√13225",
+    "options": ["105", "115", "125", "135"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "10001² =",
+    "options": ["1002001", "100020001", "10000200001", "100000020000001"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "(3⁵ − 3³) / (2⁵ − 2³) =",
+    "options": ["8", "9", "10", "12"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "(2 × 3⁴ × 2⁵) / (9 × 4²) =",
+    "options": ["24", "36", "18", "27"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The distance between Earth and Moon is 384,000,000m. Express it in standard form",
+    "options": ["3.84 × 10⁶", "3.84 × 10⁸", "0.384 × 10¹⁰", "3.84 × 10⁹"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "Size of a plant cell is 0.00001275m express it into standard form",
+    "options": ["1275 × 10⁻⁹", "1.275 × 10⁸", "1.275 × 10⁻⁵", "1.275 × 10⁻⁶"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "(?/3) − (?/2) =",
+    "options": ["1", "9", "8", "2"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "If (−3)^(m−1) × (−3)⁶ = (−3)⁷ then m =",
+    "options": ["0", "-1", "1", "2"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "(3^(m+2) − 3^(m−2)) / (3^(m+1) − 3^(m−1)) =",
+    "options": ["9/10", "10/3", "80/9", "3"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "Which of the following is an irrational number",
+    "options": ["√50 − √18 − √8", "√20 × √5", "(√7 + √5)(√7 − √5)", "(√3 + 1)²"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "√1 + 3 + 5 + 7 + 9 + 11 + 13 + 15 =",
+    "options": ["8", "7", "15", "10"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "If x = 2 − √3 then x + 1/x =",
+    "options": ["4", "2√3", "2", "√3"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "(5 + √5)(√5 − 5) =",
+    "options": ["15", "20", "-20", "-15"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "An irrational number between 2 and 3 is",
+    "options": ["√2", "√3", "√5", "√10"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The ratio of 90cm to 1.5m is",
+    "options": ["5:3", "6:1", "3:5", "1:6"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "An Equivalent ratio of 6:4 is",
+    "options": ["16:14", "2:3", "4:6", "3:2"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "If ₹60 is divided in the ratio 1:2 between Krithi and Kiran, the share of Kiran is",
+    "options": ["₹40", "₹20", "₹30", "₹10"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The ratio of 500ml to 2liters is",
+    "options": ["25:1", "1:4", "50:1", "4:1"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "Which of the following pair of ratios are in proportion?",
+    "options": ["1:5, 3:5", "2:9, 18:81", "15:45, 5:25", "4:12, 9:24"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "Which of the following is in proportion?",
+    "options": ["4, 6, 8, 12", "33, 44, 75, 80", "1, 2, 3, 4", "3, 4, 7, 21"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "Which statement among the following is false?",
+    "options": ["16:4 = 20:30", "12:18 = 14:21", "1:2 = 3:4", "21:6 = 25:6"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "If 1/5 is expressed as percent, its value is",
+    "options": ["50%", "25%", "20%", "40%"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "Converting 5/4 to percent is",
+    "options": ["150%", "80%", "120%", "125%"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "Converting the decimal 0.75 to percent is",
+    "options": ["7.5%", "175%", "75%", "25%"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The value of 75% of 12 is",
+    "options": ["9", "75", "900", "10"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The fractional form of 25% is",
+    "options": ["3/4", "25/10", "2/10", "1/4"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "If a bicycle is bought for ₹6000 and sold for ₹5000, then the loss is",
+    "options": ["16 2/3 %", "18%", "20%", "33 1/3 %"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "If the cost of a toy is ₹700 and it is sold by making a profit of 20% then its selling price is",
+    "options": ["₹720", "₹840", "₹560", "₹780"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "An item marked at ₹840 and sold for ₹714 then the discount percentage is",
+    "options": ["10", "12", "24", "15"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "A shop gives 20% discount. If a dress is marked at ₹1200, then the sale price of that dress is",
+    "options": ["₹1440", "₹1000", "₹960", "₹860"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "A shop gives 20% discount. If a pair of shoes marked at ₹750, then the sale price of that item is",
+    "options": ["₹900", "₹700", "₹600", "₹640"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "If the cost of a table is ₹3500 and it is sold at ₹4200, then the profit on it is",
+    "options": ["20%", "25%", "7%", "10%"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The selling price of the fan, which bought for ₹560 and expenses of ₹40 made on its repairs with a profit of 5%, is",
+    "options": ["₹540", "₹630", "₹500", "₹520"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "If P= ₹4000, R= 15% and T= 2years then the simple interest is",
+    "options": ["₹1500", "₹1000", "₹1200", "₹2000"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "What is the principal, if simple interest got ₹1080 for 3years at 18% of rate of interest per annum is?",
+    "options": ["₹3000", "₹2500", "₹4000", "₹2000"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The amount to be paid at the end of 2 years on ₹2400 at 5% per annum compounded annually is",
+    "options": ["₹2864", "₹2564", "₹2646", "₹2864"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "A T.V was bought at a price of ₹21,000. After one year the value of the T.V was depreciated by 5%. Then the value of the T.V after one year is",
+    "options": ["₹19950", "₹20500", "₹18950", "₹20000"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The compound interest on ₹12600 for 2 years at 10% per annum compounded annually is",
+    "options": ["₹2520", "₹2646", "₹15246", "₹13246"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "A line segments has _____ end points",
+    "options": ["0", "1", "2", "3"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The lines which do not meet are said to be _____ lines",
+    "options": ["Perpendicular", "Concurrent", "Intersecting", "Parallel"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "How many straight lines can pass through two given points?",
+    "options": ["0", "1", "2", "Infinite"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The measure of a right angle is",
+    "options": ["180°", "0°", "90°", "45°"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "Sum of three angles in a triangle is equal to _____ right angles",
+    "options": ["1", "2", "3", "4"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "If the measure of an angle is 120°, it is _____ angle",
+    "options": ["Acute angle", "Right angle", "Obtuse angle", "Straight angle"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The angle between the two perpendicular lines is",
+    "options": ["0°", "90°", "180°", "45°"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "In an equilateral triangle, the measure of each interior angle of it is",
+    "options": ["50°", "90°", "60°", "45°"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The lengths of the sides of a triangle are 7cm, 8cm, 7cm. So it is a _____ triangle",
+    "options": ["Scalene", "Isosceles", "Equilateral", "Right angled"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The sum of the measures of all interior of a triangle is",
+    "options": ["60°", "120°", "90°", "180°"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The sum of the measures of all the interior angles of a convex quadrilateral is",
+    "options": ["360°", "180°", "90°", "270°"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The measure of each interior angle of a rectangle is",
+    "options": ["60°", "90°", "120°", "45°"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The name of a polygon having 6 sides is",
+    "options": ["Octagon", "Pentagon", "Decagon", "Hexagon"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "Which of the following is not a polygon?",
+    "options": ["Rectangle", "Hexagon", "Triangle", "Circle"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "In a circle, the line segment which join the centre of the circle and any point on the circle is",
+    "options": ["Diameter", "Radius", "Chord", "Arc"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The line segment which join any two points on a circle is",
+    "options": ["Segment of the circle", "Radius", "Chord", "Arc"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The longest chord in a circle is",
+    "options": ["Diameter", "Radius", "Chord", "Arc"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "In a circle, angles in the same segment are",
+    "options": ["Supplementary", "Complementary", "Conjugate angles", "Equal"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The measure of the angle formed in a semicircle at its centre is",
+    "options": ["360°", "90°", "180°", "270°"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "Measure of the angle subtended by a diameter in a semicircle is",
+    "options": ["45°", "50°", "90°", "120°"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "ABCD is a cyclic quadrilateral and ∠A = 50° then ∠C =",
+    "options": ["50°", "130°", "180°", "100°"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The angle between a tangent to a circle and the radius at the point of contact is",
+    "options": ["60°", "30°", "45°", "90°"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "A tangent to a circle intersects it in _____ point(s)",
+    "options": ["1", "2", "3", "4"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "A secant of a circle intersects it in _____ point(s)",
+    "options": ["1", "2", "3", "4"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "If number of observations n is odd then the observation which becomes the median is",
+    "options": ["(n/2) th", "((n+1)/2) th", "((n+3)/2) th", "2n th"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "Mode of the data 2, 2, 2, 3, 3, 3, 4, 4, 4, x is 4. Value of x is",
+    "options": ["2", "3", "4", "5"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "Mode = l + [(f1-f0)/(2f1-f0-f2)] × h. Here l means",
+    "options": ["lower boundary of model class", "upper boundary of model class", "length of model class", "frequency of model class"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The mean of first 9 prime numbers is",
+    "options": ["2/9", "11 1/9", "11", "9"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "Father of statistics",
+    "options": ["Pascal", "Libneitz", "Sir Ronald A. Fisher", "Selvistar"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "If the mean of 2, 3, 4, 5, x is 5 then value of x is",
+    "options": ["3", "11", "5", "6"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "Mean of 10 numbers is 7 and another 15 numbers is 12, then mean of those 25 numbers is",
+    "options": ["25", "19", "10", "250"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "Mean of first 100 natural numbers is",
+    "options": ["48.5", "50.5", "50", "51.5"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "Median of x/4, x, x/5, x/3, x/2 is 5 then value of x is",
+    "options": ["5", "10", "15", "20"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "Average of 5 consecutive numbers is 16 the biggest number is",
+    "options": ["21", "19", "20", "18"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "Median of 3/4, 1/2, 2/3, 1/6, 7/12 is",
+    "options": ["7/12", "1/6", "2/3", "3/4"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "Mode of the data 2, 3, 4, 6, 3, 5, 8, 4, 3 is",
+    "options": ["4", "3", "2", "6"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "If the sum and product of zeros of a quadratic polynomial are 3 and -2 then the quadratic polynomial is",
+    "options": ["x² + 3x + 2", "x² - 3x - 2", "x² + 3x - 2", "x² - 3x + 2"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The degree of the polynomial x⁵ - x⁴ + 3 is",
+    "options": ["5", "4", "9", "10"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "If P(x)= 5x² - 3x + 7 then P(3) is",
+    "options": ["52", "48", "45", "43"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The zero of the polynomial P(x)= 2x + 1 is",
+    "options": ["1/2", "1", "-1/2", "0"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "Roots of the quadratic equation x² - 3x - 10 = 0 are",
+    "options": ["-2 or 5", "2 or -5", "2 or 5", "-2 or -5"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "One example of a binomial of degree 35 is",
+    "options": ["x³⁰ + x⁵", "2x³⁴ + x¹", "3x³⁵ - 4", "x³⁰ + 4⁵"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "A polynomial of degree 2 is",
+    "options": ["linear polynomial", "Quadratic polynomial", "Cubic polynomial", "Zero polynomial"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The number of solutions for a linear equation in two variables",
+    "options": ["Unique solution", "Only two solutions", "Infinitely many solutions", "No solution"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "If α, β, γ are the roots of cubic polynomial ax³ + bx² + cx + d then α · β · γ =",
+    "options": ["-b/a", "c/a", "-d/a", "b/a"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "Two consecutive odd positive integers whose sum of squares is 290, then that numbers are",
+    "options": ["11, 13", "13, 15", "21, 23", "15, 17"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The discriminant of the equation 3x² - 2x + 1/3 = 0 is",
+    "options": ["2", "-2", "0", "5"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "2x - ky + 3 = 0 and 4x + 6y - 5 = 0 are parallel then the value of k is",
+    "options": ["3", "-3", "2", "-2"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The 6th term in the AP: 21, 18, 15…… is",
+    "options": ["6", "9", "12", "3"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The 2nd term from the end of the AP: 3, 8, 13,……, 253",
+    "options": ["162", "160", "248", "174"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "6th term of an AP: 2, 5/2, 3, 7/2, ….. is",
+    "options": ["4", "9/2", "5", "11/2"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "Common difference of AP: 1, 3, 5, 7,……..",
+    "options": ["1", "3", "2", "5"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The fourth term of the AP whose first term is 10 and common difference is 5",
+    "options": ["10", "15", "20", "25"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "Common difference in the AP: 3, 3+√2, 3+2√2,….. is",
+    "options": ["3 + √2", "√2", "√3", "3 - √2"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "Number of terms of the AP: 24, 21, 18, …..3",
+    "options": ["8", "5", "6", "7"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The sum of the 10 terms of the AP: 2, 7, 12,….. is",
+    "options": ["240", "245", "250", "255"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The Sum of 10 terms of the AP: -0.5, -1.0, -1.5….. is",
+    "options": ["-30.5", "27.5", "-32.5", "-27.5"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "Sum of first 14 terms of an AP is 1050 and its first term is 10 then 20th term is",
+    "options": ["200", "225", "250", "275"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "Which terms of the AP: 63, 65, 67,….. and 3, 10, 17,…. Are equal",
+    "options": ["11", "12", "13", "14"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "17th term of an AP exceeds its 10th term by 7 then the common difference is",
+    "options": ["1", "2", "3", "4"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "There is a path of one meter width running inside along the perimeter of the park 30m × 20m, that has to be cemented. If 1 bag of cement is required to cement 4m² area, how many bags of cement would be required to construct the cement path?",
+    "options": ["96", "196", "24", "49"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The area of a trapezium shaped field is 480m², the distance between two parallel sides is 15m and one of the parallel side is 20m. Then the other parallel side is (in cm)",
+    "options": ["64", "54", "44", "34"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The area of a rhombus is 240cm² and one of the diagonals is 16cm then the other diagonal length is (in cm)",
+    "options": ["20", "30", "40", "15"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The shape of the top surface a table is a trapezium. If its parallel sides are 1m and 1.2m and perpendicular distance between them is 0.8m then its area is (in m²)",
+    "options": ["88", "8.8", "0.88", "880"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The diagonal of a quadrilateral shapes field is 24m and the perpendiculars dropped on it from the remaining opposite vertices are 8m and 13m. The area of the field is (in m²)",
+    "options": ["152", "252", "150", "250"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The floor of a building consists of 3000 tiles which are in rhombus shape and each of its diagonals are 45cm and 30cm in length. The total cost of polishing the floor at ₹4 per m² is (in rupees)",
+    "options": ["810", "81", "270", "2025"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "Total surface area of a cuboid is",
+    "options": ["2(lh + bh)", "2(lh + bl)", "2(lh + bh + lb)", "(lh + bh + lb)"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "Two cubes each with side \"b\" are joined to form a cuboid. The surface area of a cuboid is",
+    "options": ["18 b²", "12 b²", "10 b²", "8 b²"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "After the surface area of a cube is painted, the cube is cut into 64 smaller cubes of same dimensions. How many have no face painted?",
+    "options": ["4", "6", "8", "10"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "An aquarium is in the form of a cuboid whose external measures are 80cm × 30cm × 40cm. The capacity of aquarium in litres is",
+    "options": ["24", "56", "72", "96"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The height of a cylinder whose radius is 7cm and the lateral surface area 660cm² is (in cm)",
+    "options": ["15", "9", "6", "5"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "Formula to find total surface area of cylinder is",
+    "options": ["2πrh", "πr²h", "2πr(r + h)", "πr(r + h)"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "1 Liter = ____ cm³",
+    "options": ["10", "100", "1000", "10000"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "A godown is in the form of a cuboid of measures 60m × 40m × 30m. How many cuboidal boxes can be stored in it if the volume of one box is 0.8m³?",
+    "options": ["90", "900", "9000", "90000"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "A rectangular piece of paper 11cm × 4cm is folded without over lapping to make a cylinder of height 4cm its base diameter is (in cm)",
+    "options": ["3.5", "7", "7/4", "14"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The height of a cuboid whose base area 180cm² and volume 900cm³ is (in cm)",
+    "options": ["0.5", "5", "2.5", "1.25"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "A milk tank is in the form of cylinder whose radius is 1.5m and length is 7m. Find the quantity of milk in liters that can be stored in the tank?",
+    "options": ["49500", "4950", "495", "49.5"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "If each edge of a cube is doubled its volume will becomes ____ times to its original",
+    "options": ["2", "4", "6", "8"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "Given a cylindrical tank, in which situation will you find volume\n(a) To find how much it can hold\n(b) Number of cement bags required to plaster it\n(c) To find the number of smaller tanks that can be filled with water from it",
+    "options": ["a and c", "a and b", "b and c", "All a, b, c"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "Water is pouring into a cuboidal reservoir at the rate of 60 liters per minute. If the volume of reservoir is 108m³ then it will take to fill the reservoir (in hours)",
+    "options": ["1800", "3", "30", "300"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The height and the slant height of a cone are 21cm and 28cm respectively then its volume is (in cm³)",
+    "options": ["7546", "7645", "7564", "7465"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "A right triangle ABC with sides 5cm, 12cm, 13cm is revolved about the side 12cm then the volume of solid so obtained is (in cm³)",
+    "options": ["100π", "720π", "24π", "72π"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The amount of water displaced by a solid spherical ball of diameter 0.21m (in liters)",
+    "options": ["4.851", "48.51", "485.1", "4851"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The curved surface area of cone is πrl then its total surface area is",
+    "options": ["πrl + πr", "πrl + 2πr", "πrl + πr²", "πrl + 2πr²"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The sum of the probabilities of all the elementary events of an experiment is",
+    "options": ["0", "1", "2", "10"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The probability of certain event is",
+    "options": ["0", "1/2", "1", "1/3"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The probability of an impossible event is",
+    "options": ["2/3", "1", "0", "1/2"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The probability of drawing a king card from a well-shuffled deck of 52 cards is",
+    "options": ["1/26", "1/13", "3/53", "1/12"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The probability of drawing a face card from well-shuffled deck of 52 cards is",
+    "options": ["3/13", "2/13", "1/13", "3/52"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The probability of getting an even number when a die is thrown ones",
+    "options": ["1/3", "1/2", "1/6", "5/6"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The probability of drawing a white marble randomly from a certain box contains 5 red marbles, 8 white marbles and 4 green marbles.",
+    "options": ["5/17", "4/17", "12/17", "8/17"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The winning probability of a player A in a game with player B is 0.35. Then the winning probability of player B is",
+    "options": ["0.35", "0.55", "0.65", "0.75"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "In a normal year the probability of celebrating two friends their birth day on same day is",
+    "options": ["1/2", "1/365", "1/366", "1/24"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "When two dice are thrown the probability of getting same number on the top of dice is",
+    "options": ["1/6", "5/36", "13/36", "1/4"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The probability of getting at least one head when two coins tossed at a time",
+    "options": ["0.25", "0.50", "0.75", "1.0"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The probability of getting a head when a coin is tossed ones is",
+    "options": ["0", "1", "1/2", "-1/2"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "One of the point of trisection of the line segment joining points (2,-2) and (-7,4)",
+    "options": ["(0,0)", "(2,0)", "(-1,0)", "(-7,0)"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "If (x,y) is equidistant from (7,1) and (3,5) then relation between x and y is",
+    "options": ["x - y = 2", "x + y = 2", "2x + y = 0", "x - 2y = 5"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The distance between the points (4,0) and (8,0) is (in units)",
+    "options": ["0", "6", "12", "4"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "If three points are collinear the area of triangle formed by those three points is (in sq. units)",
+    "options": ["3", "0", "1", "10"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The distance between the points (x,7) and (1,15) is 10 the value of x is",
+    "options": ["7 or -5", "-7 or 5", "5 or -5", "0 or 5"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "(-4,6), (2,-2) and (2,5) are vertices of a triangle then centroid is",
+    "options": ["(3,0)", "(0,3)", "(-4,5)", "(6,2)"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The distance between the points (0,0) and (7,4) is (in units)",
+    "options": ["7", "4", "√65", "√89"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "Coordinates of the point which divides the line segment joining the points (4,-3) and (8,5) in the ratio 3:1 is",
+    "options": ["(7,3)", "(3,7)", "(10,3)", "(7,10)"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "Centroid of a triangle divides the median in the ratio",
+    "options": ["1:1", "2:5", "2:1", "5:3"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The radius of the circle whose centre is (3,2) and passes through (-5,6) is (in units)",
+    "options": ["4", "4√5", "√5", "2√3"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "Midpoint of the line segment joining the points (3,0) and (-1,4) is",
+    "options": ["(0,0)", "(2,1)", "(1,2)", "(3,4)"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "If (1,2), (4,y), (x,6) and (3,5) are vertices of a parallelogram then taken in an order value of x and y are",
+    "options": ["x = 3, y = 10", "x = 0, y = 10", "x = 3, y = 6", "x = 6, y = 3"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The first use of the idea of 'sine' in the way we use it today by",
+    "options": ["Bhaskaracharya", "Varahamihara", "Aryabhata", "Srinivasa Ramanujan"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "If tan A = 4/3 then sin A =",
+    "options": ["3/5", "4/5", "5/4", "3/4"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "In ΔABC, right angled at B, AB = 24cm, BC = 7cm then cos C =",
+    "options": ["25/24", "24/25", "7/25", "7/24"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "sin45° + cos45° =",
+    "options": ["√2", "1/(2√2)", "1/√2", "2√2"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "2 tan 30° / (1+tan²30°) =",
+    "options": ["sin 60°", "sin 30°", "cos 60°", "tan 60°"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "If sin(A - B) = 1/2, cos(A + B) = 1/2, 0° < A + B ≤ 90°, A > B then the value of A",
+    "options": ["45°", "15°", "60°", "30°"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "tan²θ - sec²θ =",
+    "options": ["1", "-1", "2", "1/2"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "In a right triangle ABC, right angled at B, if tan A = 1 then 2 sin A cos A =",
+    "options": ["√2", "1/√2", "2√2", "1"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "tan A × cot A =",
+    "options": ["sin A × cos A", "cos A × sec A", "sec A × cosec A", "sin A × sec A"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "sin 2A = 2 sin A is true when A=",
+    "options": ["0°", "30°", "45°", "60°"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "Which of the following is 'tan A' ratio",
+    "options": ["opposite side to A / hypotenuse", "Adjacent side to A / hypotenuse", "opposite side to A / Adjacent side to A", "Adjacent side to A / opposite side to A"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "sin60° cos30° + sin30° cos60° =",
+    "options": ["0", "2", "1", "(2+√3)/2"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "If the length of the shadow of a person is equal to the height of the person, then the angle of inclination of sun rays is",
+    "options": ["30°", "60°", "45°", "90°"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The length of the shadow of a tower is √3 times the height of the tower then the angle of inclination is",
+    "options": ["30°", "60°", "45°", "90°"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "A person observes the top of a pole at a point on the ground 15m away from the foot of the tower at the angle of 60° then the height of the pole is (in m)",
+    "options": ["45", "15√3", "15/√3", "30"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "When the length of the shadow of a tower and the angle of inclination 'θ' is given then the trigonometric ratio used to find the height of the tower is",
+    "options": ["sinθ", "cosθ", "tanθ", "secθ"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "A person observed the top of a flag pole at an angle of 45° from the point on the ground which is 40m away from the foot of the flag pole then the height of flag pole is (in m)",
+    "options": ["40√3", "40/√3", "45", "40"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The ratio of height of a tree to the shadow of the tree is √3:1 then the angle of inclination at that time is",
+    "options": ["30°", "60°", "45°", "90°"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The length of metal wire required from the top of electrical pole to a point which is 5m away from the foot of an electrical pole making an angle of 60° with the ground is (in m)",
+    "options": ["(5√3)/2", "10/√3", "5√3", "10"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "An observer 1.5m tall is 28.5m away from a chimney. The angle of elevation of the top of the chimney from her eyes is 45°, the height of the chimney is (in m)",
+    "options": ["28.5", "30", "57", "27"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The angle of elevation of the top of a tower from the point on the ground, which is 30m away from the foot of the tower is 30° then the height of the tower (in m)",
+    "options": ["10/√3", "20√3", "30√3", "10√3"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The angle formed by the line of sight with the horizontal when the point being viewed is above the horizontal level is",
+    "options": ["Angle of elevation", "Angle of depression", "Angle of inclination", "Alternate angle"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The angle formed by the line of sight with the horizontal when the point being viewed is below the horizontal level is",
+    "options": ["Angle of elevation", "Angle of depression", "Angle of inclination", "Alternate angle"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "In ΔPQR, right angle at 'Q'. PQ = 3cm and PR = 6cm then the value of ∠QPR =",
+    "options": ["30°", "45°", "60°", "90°"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "\"Mathematics is the mirror of civilization\" these are the words given by",
+    "options": ["Hogben", "Aristotil", "Lindsay", "Gauss"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "\"Mathematics is gateway and key to all sciences\", Stated by the mathematician is",
+    "options": ["Becon", "Locke", "Gauss", "Lindsay"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "Author of the book \"Elements\"",
+    "options": ["Pythagoras", "Thales", "Rene Descarte", "Euclid"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "Mathematics derived from two Greek words. One is manthanien the other one is",
+    "options": ["Technie", "Tichnee", "Techne", "Tecne"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "A mathematician who defined \"Mathematics is the science that draws necessary conclusions\", is",
+    "options": ["Benjamin peirce", "Aristotle", "Locke", "Lindsay"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "Which of the following does not belong to the 'nature of mathematics'",
+    "options": ["Chance to check", "Mathematics is not logical", "Accuracy", "Abstractness"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The objective that does not belongs to 'Affective domain' is",
+    "options": ["Receiving", "Precision / sensitive", "Organisation", "Responding"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "This objective belongs to 'Affective domain' is",
+    "options": ["Manipulation", "Naturalization", "Sensitive", "Valuing"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The name of the mathematician who revealed approximately the value of π as 3.1416 is",
+    "options": ["Brahmagupta", "Aryabhata", "Bhaskracharya", "Euclid"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "\"For common calculation, we can take π = √10\". This statement was proposed by the mathematician",
+    "options": ["Bhaskaracharya", "Aryabhata", "Brahma gupta", "Euclid"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "\"Prime numbers are infinite\" statement was given by",
+    "options": ["Srinivasa Ramanujan", "Euclid", "Aryabhata", "Bhaskracharya"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "\"The sum of three angles in a triangle is 180° or two right angles\". This statement was given by",
+    "options": ["Pythagoras", "Euclid", "Brahmagupta", "Aryabhata"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The teaching method considered as the 'Product of thinking' is",
+    "options": ["Laboratory method", "Heuristic method", "Analysis method", "Synthesis method"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "Who propagated Deductive method in mathematics",
+    "options": ["Armstrong", "Cominius", "Pestalozzi", "Bellord"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "Who said that \"Education is life\"",
+    "options": ["Young", "Kilpatric", "John Dewey", "Stevenson"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The method which leads from \"particular to general\" is",
+    "options": ["Inductive", "Deductive", "Analysis", "Synthesis"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "By using this method we come to know that the \"problem solving procedure\" only",
+    "options": ["Synthesis", "Analysis", "Project", "Deductive"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "This method proceeds from particular examples to general rules of formulas is",
+    "options": ["Deductive", "Inductive", "Synthesis", "Analytic"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "This is the convenient method to derive formula for compound interest is",
+    "options": ["Inductive method", "Deductive method", "Analytic method", "Synthetic method"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "This method is based on the principles \"learning by doing\" and \"learning by observing\" is",
+    "options": ["Inductive", "Deductive", "Analytic", "Laboratory"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "This method is based on the principle \"learning by doing\" is",
+    "options": ["Project method", "Heuristic method", "Problem solving", "Deductive"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "\"A project is a bit of real life that has been imported into school\". This definition was given by",
+    "options": ["Kilpatrick", "Ballard", "Stevenson", "Armstrong"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "This is not a limitation to analytic method",
+    "options": ["Lengthy method", "It takes more time", "We cannot solve problems with speed", "This is suitable for all kinds of problem"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "This is the time-saving teaching method",
+    "options": ["Inductive method", "Synthetic method", "Analytic method", "Heuristic method"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "This item does not included in the unit plan",
+    "options": ["Content analysis", "Teaching learning material", "Teaching method", "Objectives and specifications"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "\"The student explains in his own words\". Belongs to this academic standard",
+    "options": ["Connection", "Communication", "Reasoning - proof", "Representation - visualisation"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "Which of the following item does not belong to 5E – learning model?",
+    "options": ["Engage", "Explore", "Explain", "Experience"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "\"Pupils will prepare meaningful problems and solve them\". This as one of the vision of school mathematics, is stated in",
+    "options": ["NPE – 1986 & POA – 1982", "NCF – 2005 & APSCF – 2011", "NPE – 1986 & NCF – 2005", "POA – 1992 & NCF – 2005"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "\"Importance to core elements and reduction in course content in curriculum\", proposed by",
+    "options": ["NPE – 1986", "POA – 1992", "NCF – 2005", "NEP – 2020"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "\"Education must move towards less content and more towards learning\". This is proposed by",
+    "options": ["NEP – 2020", "NCF – 2005", "POA – 1992", "NPE – 1986"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "\"A problem corner can be started by the maths club, with suitable puzzles and mathematical problems at all levels\". This recommendation is made by",
+    "options": ["NPE – 1986", "POA – 1992", "NEP – 2020", "APSCF – 2011"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "\"Bilingual teaching learning material should be available\". In which of the following this was mentioned",
+    "options": ["NCF – 2005", "APSCF – 2011", "NEP – 2020", "NPE – 1986"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "In the Herbartian steps of a lesson plan, the step \"Generalization\" comes before this step",
+    "options": ["Presentation", "Preparation", "Recapitulation", "Association"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "\"Children learn to enjoy mathematics rather than fear it\". This suggestion is from",
+    "options": ["NCF – 2005, APSCF – 2011", "NCF – 2005, RTE – 2009", "RTE – 2009, APSCF – 2011", "NCF – 2005, NPE – 1986"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The educationist who suggested to follow certain rules in framing mathematical instructional objectives",
+    "options": ["Breslich", "Munnik", "Frust", "Herbart"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "In the Herbartian steps of a lesson plan, the step Association comes before this step",
+    "options": ["Presentation", "Application", "Recapitulation", "Generalisation"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The evaluation tool that reflect a student's personality is",
+    "options": ["Check list", "Rating scale", "Anecdotal record", "Questionnaire"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "\"Evaluation is continuous process\". This statement was given by",
+    "options": ["Secondary Education Committee", "Eshwarbai Patel", "Kothari commission", "Yashpal committee"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "This evaluation conducted after the completion of the teaching learning process",
+    "options": ["Summative", "Formative", "Diagnostic", "Prognostic"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "This evaluation conducted during the completion of the teaching learning process",
+    "options": ["Summative", "Formative", "Diagnostic", "Progrostic"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The tool which is not used in formative assessment",
+    "options": ["Pupils written work", "Project work", "slip test", "Teacher's written work"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "The tool which has more weightage in formative assessment",
+    "options": ["Student's participation-responses", "Students written work", "Project work", "Slip test"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "Which of the following does not belong to objective type questions?",
+    "options": ["Multiple choice questions", "Matching", "Odd man out", "Association form"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "Which of the following does not belong to very short answer type questions?",
+    "options": ["Completion form", "Association form", "Analogy form", "Odd man out"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "Which of the following belong to objective type questions?",
+    "options": ["Alternative response type", "Completion form", "Association form", "Analogy form"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "Which of the following belong to very short answer type questions?",
+    "options": ["Association form", "Matching", "Multiple choice", "Odd man out"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "Circle : 2πr :: square : ? . This type of question belongs to",
+    "options": ["Completion question", "Association form", "Analogy form", "Matching"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "APMF Mathematics 2A",
+    "subject": "Mathematics",
+    "question": "This learning aid is used to understand that multiplication is repeated addition, and division is repeated subtraction",
+    "options": ["Peg board", "Geo board", "Grid paper", "Beads frame"],
+    "correct": 1
   }
 ];
 
