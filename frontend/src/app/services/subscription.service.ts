@@ -30,7 +30,7 @@ interface RazorpayCheckoutOptions {
   theme?: { color?: string };
   // Restricts which payment method tabs Checkout shows. Left unset,
   // Razorpay displays every method it supports (UPI, Cards, Netbanking,
-  // Wallets, Pay Later, EMI) which is overwhelming for a ₹299 purchase —
+  // Wallets, Pay Later, EMI) which is overwhelming for a ₹199 purchase —
   // UPI, Cards and Netbanking cover the overwhelming majority of how
   // people in India actually pay; Wallets/Pay Later/EMI stay off.
   method?: { netbanking?: '0' | '1'; card?: '0' | '1'; upi?: '0' | '1'; wallet?: '0' | '1'; paylater?: '0' | '1'; emi?: '0' | '1' };

@@ -298,7 +298,7 @@ export class SignupComponent {
   // Kept deliberately simple, per product decision: length is the only
   // real bar (matches the backend's own minimum), no forced mix of
   // uppercase/numbers/symbols — that kind of "complex password" rule mostly
-  // just frustrates people signing up for a ₹299 exam-prep app.
+  // just frustrates people signing up for a ₹199 exam-prep app.
   private static readonly EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
   // Fires on every keystroke (not just on submit) so someone finds out

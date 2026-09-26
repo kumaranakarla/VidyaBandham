@@ -6,10 +6,10 @@ const { requireAuth } = require('../auth');
 
 const router = express.Router();
 
-// ₹299 for 30 days (1 month), paid manually each time it lapses (no
+// ₹199 for 30 days (1 month), paid manually each time it lapses (no
 // auto-recurring billing / Razorpay Subscriptions API — just a one-off
 // Order each renewal).
-const SUBSCRIPTION_AMOUNT_PAISE = 29900;
+const SUBSCRIPTION_AMOUNT_PAISE = 19900;
 const SUBSCRIPTION_DAYS = 30;
 
 // Test-mode keys by default so the flow can be built and exercised end to

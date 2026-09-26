@@ -332,7 +332,7 @@ question bank entirely, since there's no single correct answer to mark.
 
 ## Subscription & payments (Razorpay)
 
-The 2026 (New) tab's 10 non-free papers are gated behind a ₹299 / 30-day
+The 2026 (New) tab's 10 non-free papers are gated behind a ₹199 / 30-day
 (1 month) subscription, paid through [Razorpay](https://razorpay.com). This is a
 separate, public self-signup flow — it does **not** reuse the
 teacher/parent accounts a teacher creates from inside the app.

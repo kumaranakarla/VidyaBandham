@@ -21,7 +21,7 @@ interface PaperSummary {
 // app.routes.ts and tet.service.ts's `list2026()`/`base2026`) rather than a
 // year filter bolted onto the existing TET Prep page. Two of the twelve
 // official papers (Maths & Science, both shifts) are free for everyone who's
-// logged in; the other ten sit behind the ₹299/30-day subscription handled
+// logged in; the other ten sit behind the ₹199/30-day subscription handled
 // by subscription.service.ts + backend/src/routes/subscription.js
 // (Razorpay). The backend never sends a locked paper's questions to the
 // client at all — the "locked" flag here is just for showing what exists.
@@ -179,7 +179,7 @@ interface PaperSummary {
               <h3>Unlock all 12 official 2026 papers <span class="new-badge">NEW</span></h3>
               <p>
                 You get 2 papers (Maths &amp; Science) free, forever. Register and subscribe for
-                <strong>₹299 / month</strong> to practice the remaining 10 papers — Paper 1 (SGT), Social Studies,
+                <strong>₹199 / month</strong> to practice the remaining 10 papers — Paper 1 (SGT), Social Studies,
                 and the Telugu &amp; English language papers.
               </p>
             </div>
@@ -191,7 +191,7 @@ interface PaperSummary {
           </div>
           <div class="paywall-actions" *ngIf="auth.user() && !subscriptionActive">
             <button type="button" class="btn-primary" (click)="subscribe()" [disabled]="payingNow">
-              {{ payingNow ? 'Opening payment…' : 'Subscribe — ₹299 / month' }}
+              {{ payingNow ? 'Opening payment…' : 'Subscribe — ₹199 / month' }}
             </button>
           </div>
           <p class="paywall-note" *ngIf="auth.user() && !subscriptionActive">
@@ -219,7 +219,7 @@ interface PaperSummary {
             <div class="notice-icon">🔒</div>
             <div class="notice-text">
               <h3>Unlock all 12 official 2026 papers <span class="new-badge">NEW</span></h3>
-              <p>Create an account to unlock all 12 TET 2026 papers. You'll keep these 2 free papers either way, and can subscribe for ₹299 / month to practice the remaining 10.</p>
+              <p>Create an account to unlock all 12 TET 2026 papers. You'll keep these 2 free papers either way, and can subscribe for ₹199 / month to practice the remaining 10.</p>
             </div>
           </div>
           <div class="paywall-actions">

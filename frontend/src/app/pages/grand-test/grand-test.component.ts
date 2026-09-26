@@ -307,7 +307,7 @@ function shuffle<T>(arr: T[]): T[] {
               <h3>Unlock all 12 Grand Tests <span class="new-badge">NEW</span></h3>
               <p>
                 2 papers (Maths &amp; Science) are free, forever. Subscribe for
-                <strong>₹299 / month</strong> to take the remaining 10 as full Grand Tests too.
+                <strong>₹199 / month</strong> to take the remaining 10 as full Grand Tests too.
               </p>
             </div>
           </div>
@@ -317,7 +317,7 @@ function shuffle<T>(arr: T[]): T[] {
           </div>
           <div class="paywall-actions" *ngIf="auth.user() && !subscriptionActive">
             <button type="button" class="btn-primary" (click)="subscribe()" [disabled]="payingNow">
-              {{ payingNow ? 'Opening payment…' : 'Subscribe — ₹299 / month' }}
+              {{ payingNow ? 'Opening payment…' : 'Subscribe — ₹199 / month' }}
             </button>
           </div>
           <p class="paywall-note" *ngIf="auth.user() && !subscriptionActive">
@@ -342,7 +342,7 @@ function shuffle<T>(arr: T[]): T[] {
             <div class="notice-icon">🔒</div>
             <div class="notice-text">
               <h3>Unlock all 12 Grand Tests <span class="new-badge">NEW</span></h3>
-              <p>Create an account to unlock all 12 papers as Grand Tests. You'll keep 2 free papers either way, and can subscribe for ₹299 / month to unlock the rest.</p>
+              <p>Create an account to unlock all 12 papers as Grand Tests. You'll keep 2 free papers either way, and can subscribe for ₹199 / month to unlock the rest.</p>
             </div>
           </div>
           <div class="paywall-actions">
