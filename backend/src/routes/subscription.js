@@ -173,4 +173,5 @@ module.exports.FREE_PAPERS = [
   'TET Practice Question Bank – Subject 1A (Mathematics)',
   'TET Practice Question Bank – Subject 1A (English)',
   'TET Practice Question Bank – Subject 1A (CDP)',
+  'TET Practice Question Bank – Subject 1A (Telugu)',
 ];
