@@ -53603,6 +53603,13236 @@ const TET_QUESTIONS = [
       "Prognostic"
     ],
     "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "The scholar took two pennies from his pocket. Choose the synonym of the word pennies.",
+    "options": [
+      "coins",
+      "stones",
+      "buttons",
+      "pearls"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Fortune favours the hardworking. Choose the synonym of the word ‘fortune’.",
+    "options": [
+      "formula",
+      "happiness",
+      "courage",
+      "luck"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "The owner of the eating house stood there, serving his customers. Choose the synonym of the word ‘customers’.",
+    "options": [
+      "guardians",
+      "custodians",
+      "consumers",
+      "sellers"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Saving others from disaster is courage. Choose the synonym of the word ‘disaster’.",
+    "options": [
+      "trouble",
+      "doubt",
+      "dissent",
+      "confusion"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "The waste is chocking me. Choose the synonym of the word ‘chocking’.",
+    "options": [
+      "scolding",
+      "suffocating",
+      "beating",
+      "stirring"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "The thieves got scared and ran away from there. Choose the synonym of the word ‘scared’.",
+    "options": [
+      "rushed",
+      "searched",
+      "worried",
+      "unhappy"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "He washed his wounds and bandaged them. Choose the synonym of the word ‘wounds’.",
+    "options": [
+      "cleans",
+      "injuries",
+      "clothes",
+      "limbs"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Come to the king’s court and collect the reward. Choose the synonym of the word ‘reward’.",
+    "options": [
+      "punishment",
+      "treatment",
+      "present",
+      "memory"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Our grandfather prepared delicious lunch for us. Choose the synonym of the word ‘delicious’.",
+    "options": [
+      "uneatable",
+      "unpalatable",
+      "uncooked",
+      "tasty"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "They were sure of their victory . Choose the synonym of the word ‘victory’.",
+    "options": [
+      "defame",
+      "success",
+      "defeat",
+      "failure"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "There were numerous trees on either side of the road. Choose the synonym of the word ‘numerous’.",
+    "options": [
+      "countable",
+      "much",
+      "many",
+      "few"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "The raider holds his breath and chants ‘kabaddi…kabaddi’. Choose the synonym of the word ‘chant’.",
+    "options": [
+      "plays",
+      "calls",
+      "moves",
+      "fights"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Kabaddi requires no specific sporting equipment. Choose the appropriate synonym of ‘equipment’.",
+    "options": [
+      "rules",
+      "ground",
+      "tools",
+      "players"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "What present can I send from Naini Prison ? Choose the appropriate synonym of ‘Prison’.",
+    "options": [
+      "jailhouse",
+      "hospital",
+      "office",
+      "market"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "She discovered a beautiful diamond necklace. Choose the appropriate synonym of ‘discovered’.",
+    "options": [
+      "destroyed",
+      "sold",
+      "found out",
+      "bought"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "My mother was astonished to see you. Choose the synonym of the word ‘astonished’.",
+    "options": [
+      "afraid",
+      "bothered",
+      "scared",
+      "surprised"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Once, there was a wise man in a village. Choose the synonym of ‘wise’.",
+    "options": [
+      "violent",
+      "clever",
+      "foolish",
+      "cruel"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "The rabbit went to the cobbler who was mending shoes. Choose the synonym of the word ‘mending’.",
+    "options": [
+      "repairing",
+      "making",
+      "selling",
+      "buying"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "There were blood stains on the mouth of mongoose. Choose the synonym of the word ‘stains’.",
+    "options": [
+      "marks",
+      "wounds",
+      "injuries",
+      "bruises"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "We had a thrilling experience. Choose the synonym of the word ‘thrilling’.",
+    "options": [
+      "exciting",
+      "boring",
+      "dull",
+      "monotonous"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Mallika wiped her tears. Choose the synonym of the word ‘wiped’.",
+    "options": [
+      "removed",
+      "sticked",
+      "installed",
+      "pressed"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "They comforted each other. Choose the antonym of the word ‘comforted’.",
+    "options": [
+      "depressed",
+      "consoled",
+      "lost",
+      "cared"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Tenali Rama Krishna had a huge mango garden in his backyard. Choose the antonym of the word ‘huge’.",
+    "options": [
+      "very large",
+      "very big",
+      "massive",
+      "tiny"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Raju did not want to lose the opportunity. Choose the antonym of the word ‘lose’.",
+    "options": [
+      "misplace",
+      "be unable to find",
+      "find",
+      "drop"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "He always liked to sing and dance. Choose the antonym of the word ‘liked’.",
+    "options": [
+      "admired",
+      "enjoyed",
+      "desired",
+      "disliked"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "King Sibi was a very kind and generous ruler. Choose the antonym of the word ‘ kind’.",
+    "options": [
+      "good natured",
+      "tender- hearted",
+      "warm-hearted",
+      "unkind"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "The king agreed and ordered to bring the scales. Choose the antonym of the word ‘agreed’.",
+    "options": [
+      "differed",
+      "acknowledged",
+      "granted",
+      "confessed"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "The village was peaceful with fresh air. Choose the antonym of the word ‘fresh’.",
+    "options": [
+      "stale",
+      "natural",
+      "crisp",
+      "firm"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "There are big and tall trees and dense bushes on either side of the road. Choose the antonym of the word ‘dense’.",
+    "options": [
+      "thick",
+      "sparse",
+      "packed",
+      "crammed"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "She wanted to enjoy every luxury. Choose the antonym of the word ‘luxury’.",
+    "options": [
+      "richness",
+      "wealth",
+      "poverty",
+      "comfort"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Matilda now entered the life of terrible poverty. Choose the antonym of the word ‘terrible’.",
+    "options": [
+      "awful",
+      "horrible",
+      "extreme",
+      "negligible"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "There were numerous trees with yellow flowers on either side of the road. Choose the antonym of the word ‘numerous’.",
+    "options": [
+      "many",
+      "a lot of",
+      "few",
+      "countless"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "The jubilant atmosphere at school made me rush towards it. Choose the antonym of the word ‘jubilant’.",
+    "options": [
+      "downcast",
+      "overjoyed",
+      "triumphant",
+      "rejoicing"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "If I had a huge amount of money, I would travel and travel. Choose the antonym of the word ‘huge’.",
+    "options": [
+      "bulky",
+      "vast",
+      "tiny",
+      "great"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "The king arrived and looked at the plants. Choose the antonym of the word ‘arrived’.",
+    "options": [
+      "came",
+      "approached",
+      "entered",
+      "left"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "“No dear, I won’t stay here, sending away my friends in dismay”. replied the white butterfly. Choose the antonym of the word ‘dismay’.",
+    "options": [
+      "Pleasure",
+      "Distress",
+      "Upset",
+      "Anxiety"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "All the day before, it had rained heavily. Choose the antonym of the word ‘heavily’.",
+    "options": [
+      "slowly",
+      "ponderously",
+      "lightly",
+      "steadily"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "By the time I reached home, delicious breakfast was ready. Choose the antonym of the word ‘delicious’.",
+    "options": [
+      "mouth-watering",
+      "tasty",
+      "rich",
+      "inedible"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Matilda smiled in innocent happiness. Choose the antonym of the word ‘happiness’.",
+    "options": [
+      "unhappiness",
+      "unimpeachable",
+      "faultless",
+      "honest"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "By constant application, one can remember various formulae of science and mathematics. Choose the antonym of the word ‘remember’.",
+    "options": [
+      "forget",
+      "recall",
+      "recollect",
+      "think of"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Let’s all be thankful to God for his mercy. Choose the antonym of the word ‘mercy’.",
+    "options": [
+      "grace",
+      "ruthlessness",
+      "pity",
+      "charity"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Desperately Pingala changed the soil and transferred the seed to another pot. Choose the antonym of the word ‘desperately’.",
+    "options": [
+      "in anguish",
+      "cheerfully",
+      "miserably",
+      "wretchedly"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correctly spelt word.",
+    "options": [
+      "thrishing",
+      "thresing",
+      "thrasaing",
+      "threshing"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Identify the word that is correctly spelt.",
+    "options": [
+      "preist",
+      "compasion",
+      "robbers",
+      "bandag"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the wrongly spelt word.",
+    "options": [
+      "practice",
+      "soldier",
+      "events",
+      "postphone"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the wrongly spelt word.​",
+    "options": [
+      "farmer",
+      "barbor",
+      "cobbler",
+      "teacher"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correct spelling.",
+    "options": [
+      "comitee",
+      "commite",
+      "commitee",
+      "committee"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correctly spelt word.​",
+    "options": [
+      "husbend",
+      "diamand",
+      "lightning",
+      "quean"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the wrongly spelt word.​​",
+    "options": [
+      "continue",
+      "misfortune",
+      "exersice",
+      "awful"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correctly spelt word.​​",
+    "options": [
+      "reserch",
+      "astronut",
+      "kilometre",
+      "expirement"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the wrongly spelt word.​​​",
+    "options": [
+      "servent",
+      "noise",
+      "kinsman",
+      "panic"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correctly spelt word.​​​",
+    "options": [
+      "magicion",
+      "councillor",
+      "harmit",
+      "body gard"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correctly spelt word.​​​​",
+    "options": [
+      "begining",
+      "recipe",
+      "braen",
+      "poeple"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the wrongly spelt word.​​​​",
+    "options": [
+      "thief",
+      "moment",
+      "tomorrow",
+      "merchent"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the wrongly spelt word.​​​​​",
+    "options": [
+      "pretty",
+      "thrilling",
+      "glorius",
+      "variety"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the wrongly spelt word.​​​​​​",
+    "options": [
+      "prevaling",
+      "sailing",
+      "grazing",
+      "crowing"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the word that is correctly spelt.",
+    "options": [
+      "specal",
+      "excited",
+      "posible",
+      "unevan"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the wrongly spelt word.​​​​​​​",
+    "options": [
+      "travellar",
+      "scholar",
+      "magistrate",
+      "house keeper"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correctly spelt word.​​​​​",
+    "options": [
+      "schoolments",
+      "friends",
+      "childrens",
+      "dialogues"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the wrongly spelt word.​​​​​​​​",
+    "options": [
+      "brakefast",
+      "neighbour",
+      "village",
+      "breeze"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correctly spelt word.​​​​​​",
+    "options": [
+      "prisan",
+      "sermon",
+      "discusion",
+      "material"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Identify the wrongly spelt word.",
+    "options": [
+      "organizations",
+      "coordination",
+      "response",
+      "presense"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Find out the wrongly spelt word.",
+    "options": [
+      "calipers",
+      "occasion",
+      "formulae",
+      "lectutres"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "The word for a continuous dry weather period without rain fall is: Choose the correct option.",
+    "options": [
+      "sweat",
+      "drought",
+      "weed",
+      "dough"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "he word for a person who attacks opposite team in the game kabaddi is: Choose the correct option.",
+    "options": [
+      "pedlar",
+      "rider",
+      "follower",
+      "raider"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "The word of an act of growing plants and trees in large farm is: Choose the correct option",
+    "options": [
+      "plantation",
+      "plants",
+      "park",
+      "lawn"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "People who work for an organisation without being plaid, are called _____",
+    "options": [
+      "friends",
+      "volunteers",
+      "colleagues",
+      "disciples"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "The weather condition in a place: Choose the correct option",
+    "options": [
+      "climate",
+      "season",
+      "wildlife",
+      "planting"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Waste material that you throw away is ____ Choose the correct one word substitute.",
+    "options": [
+      "dust",
+      "dust bin",
+      "garbage",
+      "choking"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "A _____ is an organisation of people with common purpose or interest. Choose the correct one word substitute.",
+    "options": [
+      "council",
+      "court",
+      "club",
+      "cell"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "A large container used to place waste items is called. Choose the suitable one word substitute.",
+    "options": [
+      "dump",
+      "dust bin",
+      "garbage",
+      "sewage"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "The story of a traditional hero is called _____ Choose the suitable one word substitute.",
+    "options": [
+      "an epic.",
+      "a fable",
+      "a tale",
+      "a folk"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "What do you call ‘a person who tells jokes and makes people laugh’? Choose the suitable one word substitute.",
+    "options": [
+      "courtier",
+      "thief",
+      "jester",
+      "poet"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "What do you call ‘a person who lives near another’? Choose the suitable one word substitute.",
+    "options": [
+      "an outsider",
+      "a neighbour",
+      "a supporter",
+      "a helper"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "A ____ makes or mends shoes. Choose the correct one word substitute.",
+    "options": [
+      "cobbler",
+      "barber",
+      "biker",
+      "driver"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "A hotel providing loading for travellers is called: Choose the correct one word substitute.",
+    "options": [
+      "an inn",
+      "an empire",
+      "a valley",
+      "a recipe"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correct one word substitute. ______ is a person who performs religious duties.",
+    "options": [
+      "An emperor",
+      "A priest",
+      "A robber",
+      "A keeper"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "A bunch of flowers is called _____. Choose the correct one word substitute.",
+    "options": [
+      "A bouquet",
+      "A banquet",
+      "A garland",
+      "A basket"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correct one word substitute. ‘A human like object in old clothes’ is called ___",
+    "options": [
+      "A scapegoat",
+      "A black sheep",
+      "A scarecrow",
+      "A flock"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "____ is a person who does skilled work with hands. Choose the suitable one word substitute.",
+    "options": [
+      "A potter",
+      "A cobbler",
+      "A washer man",
+      "An artisan"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "A _____ is an unexpected natural or man-made event causing great damage. Choose the correct one word substitute.",
+    "options": [
+      "seashore",
+      "disaster",
+      "fortune",
+      "bliss"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "A public musical performance is called _____. Choose the correct one word substitute.",
+    "options": [
+      "a drama",
+      "a cinema",
+      "a concert",
+      "a circus"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "The word for a written message from one person to another person is: Choose the correct option.",
+    "options": [
+      "speech",
+      "diary",
+      "slogan",
+      "letter"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "A person who buys and sells goods is: Choose the correct option.",
+    "options": [
+      "a customer",
+      "a consumer",
+      "a seller",
+      "a merchant"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "They eat like wolves. Identify the figure of speech used in the given sentence.",
+    "options": [
+      "Simile",
+      "Metaphor",
+      "Personification",
+      "Paradox"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "He roared like a lion. Choose the figure of speech used in the given sentence.",
+    "options": [
+      "Personification",
+      "Simile",
+      "Metaphor",
+      "Hyperbole"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Brinda was as brave as a barrel full of bears. Choose the figure of speech used in the given sentence.",
+    "options": [
+      "Simile",
+      "Metaphor",
+      "Personification",
+      "Hyperbole"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Mustard was as brave as a tiger in rage. Choose the figure of speech used in the given sentence.",
+    "options": [
+      "Metaphor",
+      "Simile",
+      "Personification",
+      "Antithesis"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Words are like leaves. Choose the figure of speech used in the given sentence.",
+    "options": [
+      "Hyperbole",
+      "Personification",
+      "Metaphor",
+      "Simile"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "O my Love’s like a red, red rose. Choose the figure of speech used in the given sentence.",
+    "options": [
+      "Simile",
+      "Metaphor",
+      "Personification",
+      "Hyperbole"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "They looked like black mountains. Choose the figure of speech used in the given sentence.",
+    "options": [
+      "Personification",
+      "Metaphor",
+      "Simile",
+      "Hyperbole"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "The Assyrian came down like a wolf on the field. Choose the figure of speech used in the given sentence.",
+    "options": [
+      "Simile",
+      "Metaphor",
+      "Personification",
+      "Hyperbole"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Life is tedious as a twice-told tale. Choose the figure of speech used in the given sentence.",
+    "options": [
+      "Simile",
+      "Metaphor",
+      "Personification",
+      "Antithesis"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "It is beautiful like a rose. Choose the figure of speech used in the given sentence.",
+    "options": [
+      "Alliteration",
+      "Simile",
+      "Apostrophe",
+      "Oxymoron"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "My friend eats like a bird. Choose the figure of speech used in the given sentence.",
+    "options": [
+      "Hyperbole",
+      "Personification",
+      "Simile",
+      "Metaphor"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "He is sleeping like a log. Choose the figure of speech used in the given sentence.",
+    "options": [
+      "Simile",
+      "Personification",
+      "Metaphor",
+      "Hyperbole"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Her face is bright like a full moon. Choose the figure of speech used in the given sentence.",
+    "options": [
+      "Personification",
+      "Metaphor",
+      "Hyperbole",
+      "Simile"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "This biscuit is sweet like honey. Choose the figure of speech used in the given sentence.",
+    "options": [
+      "Hyperbole",
+      "Oxymoron",
+      "Personification",
+      "Simile"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "The moon is broken like a mirror. Choose the figure of speech used in the given sentence.",
+    "options": [
+      "Metaphor",
+      "Simile",
+      "Personification",
+      "Oxymoron"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Lencho was an ox of a man. Choose the figure of speech used in the given sentence.",
+    "options": [
+      "Simile",
+      "Metaphor",
+      "Personification",
+      "Hyperbole"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Death lays his icy hand on kings. Choose the figure of speech used in the given sentence.",
+    "options": [
+      "Simile",
+      "Personification",
+      "Metaphor",
+      "Oxymoron"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "The camel is the ship of the desert. Choose the figure of speech used in the given sentence.",
+    "options": [
+      "Simile",
+      "Metaphor",
+      "Personification",
+      "Apostrophe"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Life is a dream. Choose the figure of speech used in the given sentence.",
+    "options": [
+      "Metaphor",
+      "Personification",
+      "Simile",
+      "Antithesis"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "The news was a dagger to his heart. Choose the figure of speech used in the given sentence.",
+    "options": [
+      "Oxymoron",
+      "Personification",
+      "Simile",
+      "Metaphor"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "He was lion in the fight. Choose the figure of speech used in the given sentence.",
+    "options": [
+      "Oxymoron",
+      "Personification",
+      "Apostrophe",
+      "Metaphor"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correct idiomatic expression.",
+    "options": [
+      "a thorn in your flesh",
+      "a thorn in your hand",
+      "a thorn in your leg",
+      "a thorn in your head"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correct idiomatic expression.​",
+    "options": [
+      "fish out of air",
+      "fish out of sky",
+      "fish out of pan",
+      "fish out of water"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correct word to complete the following Idiomatic expression. Love the _____ of your own voice.",
+    "options": [
+      "ear",
+      "sound",
+      "noise",
+      "ring"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correct idiomatic expression.​​",
+    "options": [
+      "Speak your mind",
+      "Speak your heart",
+      "Speak your hand",
+      "Speak your eye"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "He visits me off and on. Choose the correct meaning of the underlined idiom.",
+    "options": [
+      "occasionally",
+      "frequently",
+      "regularly",
+      "every day"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correct word to complete the following idiomatic expression. Have an/a ____ for something",
+    "options": [
+      "ear",
+      "sound",
+      "noise",
+      "music"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correct word to complete the following Idiomatic expression. Be like ____ to your ears.",
+    "options": [
+      "music",
+      "noise",
+      "choice",
+      "chatter"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correct idiom used in the meaning of being poor/losing money.",
+    "options": [
+      "make a fortune",
+      "be in the money",
+      "hit the jackpot",
+      "be out of pocket"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correct idiom used in the meaning of making money/being rich.",
+    "options": [
+      "be hard up",
+      "be out of pocket",
+      "hit the jack pot",
+      "lose your shirt"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "I’m exhausted. I need a holiday to ____. Choose the correct idiomatic expression to fill in the blank.",
+    "options": [
+      "fighting fit",
+      "a clean bill of health",
+      "recharge my batteries",
+      "turn of the worse"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correct idiomatic expression that means a general view.",
+    "options": [
+      "a bird’s eye view",
+      "a lion’s eye view",
+      "a cat’s eye view",
+      "a owl’s eye view"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correct idiomatic expression to mean unrecognized danger.",
+    "options": [
+      "Make no bones",
+      "Bone of connection",
+      "Snake in the grass",
+      "A bird’s eye view"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "To let the ____ out of the bag. Choose the correct word to fill the blank above to make it an idiom that means to reveal the secret .",
+    "options": [
+      "rat",
+      "bat",
+      "mat",
+      "cat"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correct idiomatic expression",
+    "options": [
+      "Blood and butter",
+      "Bread and butter",
+      "Bread and better",
+      "Blood and better"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correct word to complete idiom in the following sentence. There is a virus going round. People are dropping like ______.",
+    "options": [
+      "chickens",
+      "flies",
+      "mice",
+      "ants"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correct idiom which would be appropriate in the following situation. You’re so proud of your child.",
+    "options": [
+      "He’s the apple of my eye.",
+      "He looks a sight.",
+      "He’s for my eyes only.",
+      "He’s my boy."
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correct idiomatic expression.​​​",
+    "options": [
+      "tone of connection",
+      "bone of connection",
+      "bone of contention",
+      "tongue of contention"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Fill in the blank to make the following a meaningful idiomatic expression that means ‘very quickly’. In ___ and bounds.",
+    "options": [
+      "laps",
+      "leaps",
+      "claps",
+      "bands"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correct idiomatic expression to mean “make somebody feel extremely unhappy”.",
+    "options": [
+      "make somebody’s heart",
+      "break somebody’s heart",
+      "hurt somebody’s heart",
+      "break somebody’s leg"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Don’t worry! we’ll have the money ready by 5pm, by hook or by crook. Choose the correct meaning of the underlined idiomatic expression.",
+    "options": [
+      "by any method",
+      "very proud",
+      "very simple",
+      "by the worst way"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "You have hit the nail on the head. Choose the meaning of the underlined idiom.",
+    "options": [
+      "damaging a nail",
+      "breaking someone’s head",
+      "disclosing the secrets",
+      "said or done exactly the right thing"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "I feel like giving it up. Choose the meaning of the phrasal verb ‘give up’.",
+    "options": [
+      "continue something",
+      "reject something",
+      "allow something",
+      "to stop doing something"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "The president gives away bravery awards every year. Choose the meaning of the phrasal verb ‘give away’.",
+    "options": [
+      "to organize some event",
+      "to appreciate someone",
+      "to declare something",
+      "to present something"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "The Headmaster will look into the problem. Choose the correct meaning of the phrase ‘look into’.",
+    "options": [
+      "consume",
+      "stare",
+      "examine",
+      "disclose"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Carry on until you get to the junction, then turn left. Choose the correct meaning of the phrasal verb ‘carry on’.",
+    "options": [
+      "to continue moving",
+      "to stop moving",
+      "to pause moving",
+      "to investigate"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "The plane took off an hour late. Choose the correct meaning of phrasal verb ‘took off’.",
+    "options": [
+      "began to fly",
+      "landed",
+      "postponed",
+      "arrive at"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "The train got in late. Choose the correct meaning of the phrasal verb ‘got in’.",
+    "options": [
+      "left",
+      "arrived",
+      "travelled",
+      "started"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "The pressure of work is beginning to get to him. Choose the correct meaning of the Phrasal verb ‘get to him’.",
+    "options": [
+      "to ammuse him",
+      "to annoy him",
+      "to encourage him",
+      "to delight him"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Wait a minute while I get my breath back. Choose the correct phrasal verb that has an equal meaning of the word ‘wait’.",
+    "options": [
+      "hold up",
+      "hold forth",
+      "hold on",
+      "hold off"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "The rain held off just long enough for us to have our picnic. Choose the correct meaning of the phrase ‘held off’.",
+    "options": [
+      "started",
+      "did not start",
+      "became heavy",
+      "began"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Can you look up the opening times on the website? Choose the meaning of the phrasal verb ‘look up’.",
+    "options": [
+      "to look for information",
+      "to become worse",
+      "To enter the website",
+      "To leave the website"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "What brought about the change in his attitude? Choose the correct meaning of the phrase ‘brought about’.",
+    "options": [
+      "ristricted",
+      "denied",
+      "delighted",
+      "caused"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "We aim to reduce prices on all our computers. Choose the correct phrasal verb to mean the word ‘reduce’.",
+    "options": [
+      "bring forth",
+      "bring up",
+      "bring about",
+      "bring down"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "The photographs brought back many pleasant memories. Choose the correct meaning of the Phrase ‘brought back’.",
+    "options": [
+      "rejected memories",
+      "made remember memories",
+      "lost memories",
+      "vanished memories"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "The train calls at this station. Choose the correct meaning of the phrase ‘calls at’.",
+    "options": [
+      "stops for short time",
+      "starts at",
+      "leaves",
+      "arrives at"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "The situation needs prompt action. Choose the suitable phrase that means ‘needs’",
+    "options": [
+      "calls for",
+      "calls off",
+      "calls out",
+      "call at"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "She called on the government to hold a vote. Choose the correct meaning of the Phrase ‘called on’",
+    "options": [
+      "demanded",
+      "dedicated",
+      "disputed",
+      "damaged"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "The game was cancelled because of bad weather. Choose the correct phrasal verb for the word ‘cancelled’.",
+    "options": [
+      "called on",
+      "called off",
+      "called out",
+      "called after"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "The smell of the sea called up the memories of her childhood. Choose the correct meaning of the phrase ‘called up’.",
+    "options": [
+      "brought the memories back",
+      "lost the memories",
+      "delighted",
+      "forgot"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "She brought up five children. Choose the correct meaning of the phrase ‘brought up’.",
+    "options": [
+      "raised",
+      "rised",
+      "released",
+      "restricted"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "I look after his affairs in his absence. Choose the meaning of the phrasal verb ‘look after’.",
+    "options": [
+      "to examine",
+      "to look again",
+      "to hope for",
+      "to take care of"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "We are looking for the keys. Choose the meaning of the phrase ‘looking for’.",
+    "options": [
+      "hoping for",
+      "seeing",
+      "staring",
+      "searching"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "May I come in? Choose the language function of the given sentence.",
+    "options": [
+      "Giving permission",
+      "Obligation",
+      "Seeking permission",
+      "Suggestion"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the modal verb used for obligation. You ____ be regular.",
+    "options": [
+      "will",
+      "can",
+      "may",
+      "must"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "You’re looking good! The above sentence expresses ____",
+    "options": [
+      "Compliment",
+      "Comment",
+      "Commitment",
+      "Congratulations"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "When you passed an examination, how would everyone greet you?",
+    "options": [
+      "Congratulations!",
+      "Thank you very much",
+      "Next time better luck!",
+      "Nice meeting you all."
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Complete the following dialogue using correct modal verb. The scholar: “_____ you hear anything?” The eating house keeper: “Yes sir, I can”.",
+    "options": [
+      "May",
+      "Can",
+      "Are",
+      "Don’t"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correct modal verbs to fill in the blanks. I forgot my bag. _____ you guess where it ___ be?",
+    "options": [
+      "Can, may",
+      "May, can",
+      "May, might",
+      "Would, would"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "It ____ rain today. Choose the correct modal verb used to express possibility.",
+    "options": [
+      "shall",
+      "would",
+      "may",
+      "will"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Shall I get you a cup of coffee? Choose the correct option.",
+    "options": [
+      "Suggestion",
+      "Warning",
+      "Permission",
+      "Offer"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correct answer to refuse permission in the following situation. A. May I use your bicycle? B. ________.",
+    "options": [
+      "Yes, you may.",
+      "No, you may not.",
+      "Yes, you may not.",
+      "No, you may."
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "“You can stay with me till it stops raining”. Identify the language function in the above sentence.",
+    "options": [
+      "Taking Permission",
+      "Seeking permission",
+      "Ability",
+      "Giving permission"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correct modal verbs to complete the following. Student: _____ I go to drink water? Teacher: Yes, you ______.",
+    "options": [
+      "Can’t, can",
+      "May, may not",
+      "Can, can’t",
+      "May, may"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Your cousin is coughing continuously. Advise him /her to take care of his/her health. Choose the correct sentence that gives him/her an advice.",
+    "options": [
+      "You would take care of your health.",
+      "You should take care of your health.",
+      "You should to take care of your health.",
+      "You should take care of his/her health."
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correct modal verb used to express possibility. I ______ go to Delhi tomorrow.",
+    "options": [
+      "will",
+      "should",
+      "must",
+      "may"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "A: ______ you please post this letter? B: Certainly. Choose the suitable modal verb to fill in the blank.",
+    "options": [
+      "Should",
+      "Must",
+      "Could",
+      "Do"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "May God bless you! Choose the language function of the given sentence.",
+    "options": [
+      "Possibility",
+      "Prediction",
+      "Wish",
+      "Suggestion"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correct modal verb used to advise your friend to consult a doctor. You _____ consult a doctor.",
+    "options": [
+      "should",
+      "might",
+      "need",
+      "can"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correct word/phrase to fill in the blank. We ______ invite our friends. They invited us last time.",
+    "options": [
+      "has to",
+      "had to",
+      "need",
+      "have to"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the modal verb to convey the ‘ability’. She ______ speak Tamil.",
+    "options": [
+      "shall",
+      "will",
+      "should",
+      "can"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Shall I carry your luggage? Choose the language function of the given sentence.",
+    "options": [
+      "Obligation",
+      "Offer",
+      "Permission",
+      "Request"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Shall we go for a walk? Choose the language function of the given sentence.",
+    "options": [
+      "Request",
+      "Obligation",
+      "Suggestion",
+      "Offer"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Could you lend me your book? Choose the language function of the given sentence.",
+    "options": [
+      "Request",
+      "Permission",
+      "Suggestion",
+      "Compulsion"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Identify the grammatically correct sentence.",
+    "options": [
+      "The players have going to the playground.",
+      "The players has going to the playground.",
+      "The players had going to the playground.",
+      "The players are going to the playground."
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Identify the grammatically correct sentence.​",
+    "options": [
+      "The children have listening to stories.",
+      "The children was listening to stories.",
+      "The children are listening to stories.",
+      "The children has listening to stories."
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Identify the grammatically correct sentence.​​",
+    "options": [
+      "Stephen is one of the best singers.",
+      "Stephen are one of the best singers.",
+      "Stephen have one of the best singers.",
+      "Stephen will one of the best singers."
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Identify the grammatically correct sentence.​​​",
+    "options": [
+      "They were sold their bungalow.",
+      "They are sold their bungalow.",
+      "They has sold their bungalow.",
+      "They have sold their bungalow."
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Identify the grammatically correct sentence.​​​​",
+    "options": [
+      "The crow is fly high.",
+      "The crow has fly high.",
+      "The crow is flying high.",
+      "The crow will flying high."
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Identify the grammatically correct sentence.​​​​​",
+    "options": [
+      "My uncle has bought a car.",
+      "My uncle has buying a car.",
+      "My uncle have bought a car.",
+      "My uncle have buying a car."
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Identify the grammatically correct sentence.​​​​​​",
+    "options": [
+      "John is going to school.",
+      "John are going to school.",
+      "John have going to school.",
+      "John had going to school."
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Identify the grammatically correct sentence.​​​​​​​",
+    "options": [
+      "Rajesh was a billionaire.",
+      "Rajesh have a billionaire.",
+      "Rajesh have been a billionaire.",
+      "Rajesh will a billionaire."
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Identify the grammatically correct sentence.​​​​​​​​",
+    "options": [
+      "You has very naughty in childhood.",
+      "You have very naughty in childhood.",
+      "You had very naughty in childhood.",
+      "You were very naughty in childhood."
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Identify the grammatically correct sentence.​​​​​​​​​",
+    "options": [
+      "All the servants goes to their homes.",
+      "All the servants going to their homes.",
+      "All the servants went to their homes.",
+      "All the servants will going to their homes."
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Identify the grammatically correct sentence.​​​​​​​​​​",
+    "options": [
+      "The thief cutting his stick by two inches.",
+      "The thief has cutting his stick by two inches.",
+      "The thief have cutting his stick by two inches.",
+      "The thief cut his stick by two inches."
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Identify the grammatically correct sentence.​​​​​​​​​​​",
+    "options": [
+      "Once there was a merchant.",
+      "Once there has a merchant.",
+      "Once there have a merchant.",
+      "Once there were a merchant."
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Identify the grammatically correct sentence.​​​​​​​​​​​​",
+    "options": [
+      "The thief was one of his servants.",
+      "The thief were one of his servants.",
+      "The thief have been one of his servants",
+      "The thief will one of his servants."
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Identify the grammatically correct sentence.​​​​​​​​​​​​​",
+    "options": [
+      "His teeth has shining.",
+      "His teeth are shining.",
+      "His teeth have shining.",
+      "His teeth was shining."
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Identify the grammatically correct sentence.​​​​​​​​​​​​​​",
+    "options": [
+      "Neither the chairman nor the directors are present.",
+      "Neither the chairman nor the directors was present.",
+      "Neither the chairman nor the directors has present.",
+      "Neither the chairman nor the directors have present."
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Identify the grammatically correct sentence.​​​​​​​​​​​​​​​",
+    "options": [
+      "One of the servants have his stick shorter.",
+      "One of the servants have been his stick shorter.",
+      "One of the servants had his stick shorter.",
+      "One of the servants were his stick shorter."
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Identify the grammatically correct sentence.​​​​​​​​​​​​​​​​",
+    "options": [
+      "The quality of mangoes were not good.",
+      "The quality of mangoes was not good.",
+      "The quality of mangoes have not good.",
+      "The quality of mangoes has not good."
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Identify the grammatically correct sentence.​​​​​​​​​​​​​​​​​",
+    "options": [
+      "The novelist is dead.",
+      "The novelist are dead.",
+      "The novelist were dead.",
+      "The novelist will dead."
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Identify the grammatically correct sentence.​​​​​​​​​​​​​​​​​​",
+    "options": [
+      "The house with its contents was insured.",
+      "The house with its contents were insured.",
+      "The house with its contents has insured.",
+      "The house with its contents have insured."
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Identify the grammatically correct sentence.​​​​​​​​​​​​​​​​​​​",
+    "options": [
+      "Silver as well as cotton has fallen in price.",
+      "Silver as well as cotton have fallen in price.",
+      "Silver as well as cotton have been fallen in price.",
+      "Silver as well as cotton fallen in price."
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Identify the grammatically correct sentence.​​​​​​​​​​​​​​​​​​​​",
+    "options": [
+      "Neither food nor water was to be found there.",
+      "Neither food nor water were to be found there.",
+      "Neither food nor water have to be found there.",
+      "Neither food nor water are to be found there."
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correct linker I dropped the dish, _______ it did not break.",
+    "options": [
+      "so",
+      "as",
+      "but",
+      "though"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correct linker to complete the following. I shall not go _____ you do.",
+    "options": [
+      "as soon as",
+      "scarcely",
+      "unless",
+      "then"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correct linker. _____ I liked the dress, I decided not to buy it.",
+    "options": [
+      "But",
+      "Though",
+      "Because",
+      "As soon as"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correct linker. Our room was very small, ______ we did not really mind",
+    "options": [
+      "if",
+      "because",
+      "due to",
+      "but"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correct linker. We decided not to go out for a meal ______ we were simply too tired.",
+    "options": [
+      "because",
+      "so",
+      "but",
+      "though"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correct option to complete the following. Do it _______ you forget.",
+    "options": [
+      "beforehand",
+      "after",
+      "before",
+      "yet"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correct option to complete the following. Their house is _____ big ____ small.",
+    "options": [
+      "neither, nor",
+      "either, nor",
+      "neither, not",
+      "neither, or"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correct linker. The road was closed _____ an accident.",
+    "options": [
+      "due to",
+      "in spite of",
+      "unless",
+      "furthermore"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correct linker. The dress didn’t fit, ___ Prakruthi had to return it.",
+    "options": [
+      "but",
+      "if",
+      "or",
+      "so"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the suitable linker. The café was crowded, ______ we found a table.",
+    "options": [
+      "and",
+      "so",
+      "if",
+      "but"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correct option to complete the following. She was not only intelligent _____ very musical.",
+    "options": [
+      "also",
+      "but also",
+      "if",
+      "neither"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correct option to complete the following. There is a door at ______ end of the corridor.",
+    "options": [
+      "nor",
+      "or",
+      "not",
+      "either"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correct linker. My sister got the job, ______ she didn’t expect to.",
+    "options": [
+      "but",
+      "or",
+      "in spite of",
+      "so"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correct linker. The government took these measures ______ reduce crime.",
+    "options": [
+      "in spite of",
+      "in case of",
+      "in order to",
+      "neither nor"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the suitable linker. The new system was supposed to be more efficient. _______, in practice it caused chaos.",
+    "options": [
+      "However",
+      "And",
+      "If",
+      "In spite of"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correct linkers to complete the following. _____, the alarm wakes me up. _______ I take bath.",
+    "options": [
+      "First, Then",
+      "Then, First",
+      "After that, First",
+      "Finally, First"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correct linker. The road was under water. The police _______ closed it to traffic.",
+    "options": [
+      "as",
+      "therefore",
+      "but",
+      "however"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correct linker. It was a terrible journey. ______, we got there safely in the end.",
+    "options": [
+      "Besides",
+      "Consequently",
+      "Therefore",
+      "Still"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correct linker. A strike by air traffic controllers has begun. Many flights have _____ been cancelled.",
+    "options": [
+      "besides",
+      "consequently",
+      "in spite of",
+      "but"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correct linker. She wore boots ____ her feet would not get wet.",
+    "options": [
+      "so that",
+      "if",
+      "but",
+      "to"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correct option to complete the following He said he had not discussed the matter with her. ______ , he had not even contacted her.",
+    "options": [
+      "farther",
+      "for other more",
+      "furthermore",
+      "farther more"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the compound words from the following. a. scarecrow b. blackboard c. postpone d. bookshelf Choose the correct option",
+    "options": [
+      "a, b, c",
+      "b, c, d",
+      "a, b, d",
+      "a, c, d"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the compound words from the following. a. anyone b. hang on c. handbag d. rainbow Choose the correct option.",
+    "options": [
+      "a, b, c",
+      "a, c, d",
+      "b, c, d",
+      "a, b, c, d"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the compound words from the following. a. sunflower b. wheelchair c. newspaper d. shiuli flower Choose the correct option",
+    "options": [
+      "a, b, c",
+      "c, b, d",
+      "a, c ,d",
+      "a, b, c, d"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the compound words from the following. a. foothills b. callipers c. sunflower d. rainbow Choose the correct option",
+    "options": [
+      "a, b",
+      "a, c, d",
+      "b, c, d",
+      "a, b, c, d"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Find the word that uses a correct suffix to form a meaningful word.",
+    "options": [
+      "creativeness",
+      "bitterment",
+      "honestful",
+      "cheerfulness"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Which of the following words does not take ‘un’ as a prefix, to make it opposite.",
+    "options": [
+      "true",
+      "trained",
+      "important",
+      "understand"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the sentence that uses the correct combination of ‘Prefix+ base word.’",
+    "options": [
+      "She is very impolite.",
+      "Nothing is unpossible.",
+      "The project is uncompleted.",
+      "They always inobey the rules."
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "To which of the following base word, can the suffix. ‘ness’ be added to make it meaningful?",
+    "options": [
+      "high",
+      "general",
+      "move",
+      "generous"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Identify the prefix that can be added to the base word in the given sentence to make it negative. ‘Please, lock the door.’",
+    "options": [
+      "dis",
+      "un",
+      "in",
+      "im"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correct pair of words that are opposite (to each other)",
+    "options": [
+      "appear-disappear",
+      "direct-undirect",
+      "healthy- inhealthy",
+      "mortal- unmortal"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "In which pair of the following words, does the prefix NOT match with the base word?",
+    "options": [
+      "legal-illegal",
+      "correct-incorrect",
+      "mortal-immortal",
+      "mature-unmature"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Fill in the blanks with suitable words. Raju _____ the food and it was ____.",
+    "options": [
+      "taste, tasted",
+      "tasted, taste",
+      "tasted, tasty",
+      "tasty, tasted"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Fill in the blank with a suitable word. The valley was surrounded by ____ hills and trees.",
+    "options": [
+      "beauty",
+      "beautiful",
+      "beautifully",
+      "beautiness"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Add a suitable suffix to the word given in brackets. ____ (Final), the king himself sat in the scale.",
+    "options": [
+      "y",
+      "ly",
+      "lly",
+      "ily"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Add a suitable suffix to the word given in brackets. The dove said to Sibi,“Oh, King! You are my____(protect)”.",
+    "options": [
+      "–er",
+      "–ir",
+      "–ior",
+      "–or"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the suitable suffix for the word given in brackets to make it meaningful. Madanapalle is a ____ (history) town.",
+    "options": [
+      "–ical",
+      "–cle",
+      "–ial",
+      "–al"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Add a suitable suffix to the word given in brackets to make it an adjective. Eastern and Western viewpoints were famous for____ (glory) sunrise and sunsets.",
+    "options": [
+      "–eus",
+      "–us",
+      "–ious",
+      "–es"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "To which of the following words, may the suffix ‘-ity’ be added?",
+    "options": [
+      "regular",
+      "cruel",
+      "honest",
+      "simple"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Fill in the blank with suitable suffix. Kalpana Chawala’s achieve ____ is awe-inspiring.",
+    "options": [
+      "–ing",
+      "–er",
+      "–r",
+      "–ment"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Pick up a suffix for the base word in the underlined part to make it opposite. To the thoughtful son, the magic waterfall gave the delicious drink.",
+    "options": [
+      "–fulness",
+      "–ness",
+      "–less",
+      "–lessness"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "The village was peace ____ with fresh air. Add a suitable suffix to the blank.",
+    "options": [
+      "–ful",
+      "–fulness",
+      "–fully",
+      "–ly"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Direct: He said, “My master is writing letters.” Indirect: He said that _____ master ____ writing letters. Choose the correct option that fits the blanks.",
+    "options": [
+      "his, was",
+      "their, is",
+      "the, has been",
+      "her, is"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Direct: He said, “The horse died in the night.” Indirect: He said that the horse _____ ____ in the night. Choose the correct option that fits the blanks.",
+    "options": [
+      "has, died",
+      "had, died",
+      "will, die",
+      "have, died"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Direct: “Where do you live?”, asked the stranger. Indirect: The stranger enquired ____ I _____. Choose the correct option that fits the blanks.",
+    "options": [
+      "where, lived",
+      "what, lives",
+      "who, living",
+      "where, lives"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Direct: He said, “I am unwell.” Indirect: He said that _____ _____ unwell. Choose the correct option that fits the blanks.",
+    "options": [
+      "he, was",
+      "he, is",
+      "she, was",
+      "she, is"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Direct: Rama said to Arjun, “Go away”. Indirect: Rama ordered Arjun _____ ____ away. Choose the correct option that fits the blanks.",
+    "options": [
+      "to, went",
+      "to, going",
+      "to, go",
+      "to, goes"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Direct: He said, “Alas! I am undone”. Indirect: He exclaimed sadly _____ ____ was undone. Choose the correct option that fits the blanks.",
+    "options": [
+      "that, she",
+      "If, she",
+      "whether, he",
+      "that, he"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Direct: Alice said, “How clever I am!”. Indirect: Alice exclaimed _____ she ____ clever. Choose the correct option that fits the blanks.",
+    "options": [
+      "that, was",
+      "how, is",
+      "how, was",
+      "if, is"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Direct: “Why did you travel first class?”, I asked him. Indirect: I asked him why __ ___ ____ first class. Choose the correct option that fits the blanks.",
+    "options": [
+      "did you have travelled",
+      "he had travelled",
+      "you did travel",
+      "you did travelled"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Direct: “Did you play for your school team?”, said peter. Indirect: Peter asked ___ _____ ____ for my school team. Choose the correct option that fits the blanks.",
+    "options": [
+      "If I had palyed",
+      "whether he played",
+      "whether he has played",
+      "If I have played"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Direct: “Did you sleep well?”, asked my hostess. Indirect: My hostess asked _____ ____ ____ well.. Choose the correct option that fits the blanks.",
+    "options": [
+      "did you sleep",
+      "did she sleep",
+      "if I had slept",
+      "if I have slept"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Direct: “Are there any letters for me?”, said Mary. Indirect: Mary asked _____there ____any letters for___. Choose the correct option that fits the blanks.",
+    "options": [
+      "if ,were , her",
+      "if , are , him",
+      "whether, was, him",
+      "whether ,are , her"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Direct: “You can leave your motor cycle in my garage if you like”, he said. Indirect: He said that I could leave _____ motor cycle in ____garage if I ____. Choose the correct option that fits the blanks.",
+    "options": [
+      "your , my,liked",
+      "my, his ,liked",
+      "your , his , likes",
+      "my, her, like"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Direct: “I am sorry for your father”, said Tom. Indirect: Tom said that _____ ____ sorry for____ father. Choose the correct option that fits the blanks.",
+    "options": [
+      "he was my",
+      "I am your",
+      "he is your",
+      "I was my"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Direct: “Someone is trying to murder me,” said Mrs. Jones Indirect: Mrs. Jones said that someone_____ trying to ____ ____. Choose the correct option that fits the blanks.",
+    "options": [
+      "is ,murdered ,me",
+      "was , murdered , her",
+      "was ,murder ,her",
+      "is ,murder ,me"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Direct: “I know it will be hard,” he replied. Indirect: He replied_____ he ____ it ____ be hard. Choose the correct option that fits the blanks.",
+    "options": [
+      "that ,knows , will",
+      "that , knew , would",
+      "if , known , will",
+      "wether ,know, would"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Direct: “I am building myself a house,” said Charles. Indirect: Charles said ___ he _____ building ____ a house. Choose the correct option that fits the blanks.",
+    "options": [
+      "if ,is ,myself",
+      "whether , is, himself",
+      "whether , am , himself",
+      "that ,was ,himself"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Direct: “Have you reserved your seat?”, I asked him. Indirect: I asked him __ ___ ____ reserved a seat. Choose the correct option that fits the blanks.",
+    "options": [
+      "if , he , had",
+      "that , he , had",
+      "that ,he , has",
+      "if , he , has"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Direct: “Can you get coffee on the train?”, asked my aunt. Indirect: My aunt asked ____ ____ could ____ Coffee on the train. Choose the correct option that fits the blanks.",
+    "options": [
+      "that ,you , get",
+      "if, she , getting",
+      "if ,I , get",
+      "if , I ,got"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Direct: She said, “My father is not very well”. Indirect: She said_____ ____ father ____ not very well. Choose the correct option that fits the blanks.",
+    "options": [
+      "if ,my, is",
+      "whether , her, is",
+      "that , her , was",
+      "that ,their , is"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Direct: Diane said, “Iam enjoying my new job.” Indirect: Diane said ____ ____ ____ enjoying her new job. Choose the correct option that fits the blanks.",
+    "options": [
+      "that , she ,was",
+      "that , they , were",
+      "if , they , are",
+      "whether, he , was"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Direct: He said to him, “Please wait here till I return.” Indirect: He requested him_____ wait ____ till he ____. Choose the correct option that fits the blanks.",
+    "options": [
+      "to , there ,returned",
+      "please , here, returned",
+      "please , here ,returns",
+      "to, here , returning"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Our school starts _____ 8.45 am. Choose the correct preposition that fits in the blank.",
+    "options": [
+      "in",
+      "on",
+      "of",
+      "at"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Vivekananda was born ____ 12th January 1863. Choose the correct preposition that fits in the blank.",
+    "options": [
+      "in",
+      "at",
+      "on",
+      "or"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Generally birds migrate ____ summer. Choose the correct preposition that fits the blank.",
+    "options": [
+      "on",
+      "at",
+      "in",
+      "of"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "We celebrate Independence Day _____ 15th August. Choose the correct preposition that fits the blank.",
+    "options": [
+      "on",
+      "at",
+      "in",
+      "of"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Fill in the blank with a suitable preposition. The farmer’s wife felt sorry ____ what she had done.",
+    "options": [
+      "for",
+      "to",
+      "on",
+      "in"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Fill in the blank with a suitable preposition. Tenali Rama and his wife dropped the box ___ the well.",
+    "options": [
+      "in",
+      "on",
+      "into",
+      "upon"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the preposition that best fits the blank in the sentence: The grasshopper laughed ____ the squirrels.",
+    "options": [
+      "for",
+      "on",
+      "to",
+      "at"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Fill in the blank with a suitable preposition. Three butterflies flew together and sucked nectar ____ the flowers.",
+    "options": [
+      "by",
+      "from",
+      "in",
+      "above"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Fill in the blank with a suitable preposition. The whole area was covered _____ green trees.",
+    "options": [
+      "by",
+      "from",
+      "with",
+      "for"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the prepositions that best fit in the blanks in the sentence. Our National Anthem was translated ____ Bengali ___ English.",
+    "options": [
+      "in, to",
+      "in, in",
+      "to, in",
+      "from, to"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correct prepositions. Mahatma Gandhi was born ____ Porbandar ____ Gujarat.",
+    "options": [
+      "on, in",
+      "in, in",
+      "in, on",
+      "at, in"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correct prepositions. Ahmed was going ____ school ____ bicycle.",
+    "options": [
+      "to, in",
+      "to, on",
+      "to, by",
+      "to, from"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correct prepositions. There are dense bushes ____ either side ___ the road.",
+    "options": [
+      "of, of",
+      "of, on",
+      "on, off",
+      "on, of"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the suitable preposition. Suddenly, the courtyard turned ___ a beautiful garden.",
+    "options": [
+      "to",
+      "from",
+      "into",
+      "for"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the preposition that best fits in the blank. My mother was busy ___ some work in kitchen.",
+    "options": [
+      "in",
+      "for",
+      "on",
+      "with"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the most appropriate Preposition. Now-a-days, Pro-Kabaddi has become popular and is watched ____ TV by all walks of people.",
+    "options": [
+      "on",
+      "in",
+      "at",
+      "for"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the suitable prepositions. Ameena sat ___ the first row ___ her brother in her lap.",
+    "options": [
+      "in, with",
+      "on, to",
+      "on, with",
+      "in, to"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the preposition that best fits in the blank. The ant hill was in ____ two coconut trees.",
+    "options": [
+      "between",
+      "among",
+      "along",
+      "across"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose a suitable preposition. The hermit was widely known ___ his wisdom.",
+    "options": [
+      "to",
+      "by",
+      "of",
+      "for"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose a suitable preposition. The tiger pounced ____ the deer and killed her.",
+    "options": [
+      "in",
+      "on",
+      "into",
+      "above"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the suitable preposition. My little brother’s birthday falls __ November.",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "of"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the common noun from the given words.",
+    "options": [
+      "Sundar",
+      "Mobile",
+      "Samsung",
+      "5 star"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Tenali Rama had a huge garden. Identify the part of speech of the underlined word.",
+    "options": [
+      "Proper noun",
+      "Common Noun",
+      "Abstract Noun",
+      "Adjective"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "The Green Club volunteers took the issue seriously. Identify the parts of speech of the underlined word.",
+    "options": [
+      "Adverb",
+      "Adjective",
+      "Conjunction",
+      "Preposition"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Everything there was so lively. Identify the part of speech of the underlined word.",
+    "options": [
+      "Adjective",
+      "Noun",
+      "Preposition",
+      "Adverb"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Chaturya goes to school happily. Identify the part of speech of the underlined word.",
+    "options": [
+      "Adjective",
+      "Interjection",
+      "Conjunction",
+      "Adverb"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Geetha sings songs sweetly. Identify the part of speech of the underlined word.",
+    "options": [
+      "Verb",
+      "Adverb",
+      "Noun",
+      "Pronoun"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "It is very hot in this room. Identify the part of speech of the underlined word.",
+    "options": [
+      "Pronoun",
+      "Preposition",
+      "Adjective",
+      "Adverb"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "They shared their happiness and sorrows, and helped each other always. Identify the part of speech of the underlined word.",
+    "options": [
+      "Preposition",
+      "Conjunction",
+      "Adverb",
+      "Pronoun"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Severe drought set in. Identify the part of speech of the underlined word.",
+    "options": [
+      "Adjective",
+      "Adverb",
+      "Noun",
+      "Preposition"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "The river said, “My dear friend, I am going to die very soon”. Identify the part of speech of the underlined word.",
+    "options": [
+      "Verb",
+      "Adverb",
+      "Noun",
+      "Pronoun"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "I looked for it everywhere. Identify the part of speech of the underlined word.",
+    "options": [
+      "Preposition",
+      "Conjunction",
+      "Interjection",
+      "Noun"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Let us sit outside. Identify the part of speech of the underlined word.",
+    "options": [
+      "Noun",
+      "Adjective",
+      "Preposition",
+      "Adverb"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Matlida was a pretty and admirable girl. Identify the part of speech of the underlined word.",
+    "options": [
+      "Pronoun",
+      "Adverb",
+      "Noun",
+      "Adjective"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Suddenly she discovered a beautiful diamond necklace. Identify the part of speech of the underlined word.",
+    "options": [
+      "Verb",
+      "Noun",
+      "Adjective",
+      "Pronoun"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Who was your best friend in school? Identify the parts of speech of the underlined words.",
+    "options": [
+      "Preposition, Noun",
+      "Noun, Pronoun",
+      "Verb, Adverb",
+      "Pronoun, Adjective"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "You are an ideal man. Identify the parts of speech of the underlined words.",
+    "options": [
+      "Pronoun, Adjective",
+      "Adverb, Pronoun",
+      "Adjective, Preposition",
+      "Noun, Conjunction"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "He showed us real life examples at the seashore of Rameswaram. Identify the parts of speech of the underlined words.",
+    "options": [
+      "Adjective, Noun",
+      "Noun, Adverb",
+      "Preposition, Adjective",
+      "Pronoun, Noun"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "The sight of happiness on their faces was bliss to me. Identify the parts of speech of the underlined words.",
+    "options": [
+      "Noun, pronoun",
+      "Conjunction, Interjection",
+      "Preposition, Interjection",
+      "Pronoun, Adjective"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "What is the secret behind remembering various formulae of Science and Mathematics? Identify the parts of speech of the underlined words.",
+    "options": [
+      "Verb, Adverb",
+      "Noun, Pronoun",
+      "Adjective, adverb",
+      "Preposition, Conjunction"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "What is your message to the citizens of India? Identify the parts of speech of the underlined words.",
+    "options": [
+      "Noun, Noun",
+      "Adverb, Adjective",
+      "Preposition, Noun",
+      "Noun, Conjunction"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Fortune favours the hardworking. Identify the part of speech of the underlined words.",
+    "options": [
+      "Verb, Verb",
+      "Verb, Adverb",
+      "Noun, Verb",
+      "Pronoun, Noun"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correct option. _____ Geography teacher asked him a question which he answered correctly.",
+    "options": [
+      "No Article",
+      "The",
+      "A",
+      "An"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correct option. Akash and his friends played _____ football in the park.",
+    "options": [
+      "the",
+      "a",
+      "an",
+      "No Article"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correct option. If _____ earth was a human being, it would be in hospital.",
+    "options": [
+      "an",
+      "the",
+      "a",
+      "No Article"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correct option. My father took us to _____ nearest historical town.",
+    "options": [
+      "a",
+      "an",
+      "the",
+      "No Article"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correct option. A fresh and cool breeze welcomed us into ____ Andhra Ooty.",
+    "options": [
+      "a",
+      "an",
+      "the",
+      "No Article"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correct option. Mrs. Margaret Cousins was_____ British woman.",
+    "options": [
+      "the",
+      "a",
+      "an",
+      "No article"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correct option. _____ children started wondering.",
+    "options": [
+      "The",
+      "An",
+      "A",
+      "Any"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correct option. Abhiram was ____ fisherman.",
+    "options": [
+      "the",
+      "an",
+      "a",
+      "No article"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correct option. I once owned ____ large, lovely garden.",
+    "options": [
+      "the",
+      "an",
+      "a",
+      "No article"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correct option. _____ young woodcutter lived with his mother and father.",
+    "options": [
+      "A",
+      "An",
+      "The",
+      "No article"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correct option. I knew him from _____ days of my youth.",
+    "options": [
+      "a",
+      "the",
+      "an",
+      "No articles"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correct option. Have you ever seen _____ cat climbing a tree?",
+    "options": [
+      "an",
+      "the",
+      "a",
+      "No article"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correct option. Raju woke up after ____ couple of hours.",
+    "options": [
+      "an",
+      "the",
+      "a",
+      "No article"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correct option. Rama saw two thieves hiding in _____ bushes.",
+    "options": [
+      "an",
+      "a",
+      "the",
+      "No article"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correct option. ______ ozone layer will continue to disappear if we don’t find a way to stop it.",
+    "options": [
+      "No article",
+      "The",
+      "A",
+      "An"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correct option. Tenali Rama had ______ huge garden.",
+    "options": [
+      "the",
+      "an",
+      "a",
+      "No article"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correct option. Everyone who visited Raju’s hotel liked _____ food as it was very tasty.",
+    "options": [
+      "No Article",
+      "a",
+      "an",
+      "the"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correct option. May I join you? I can grind ____ things that you need for cooking in minutes.",
+    "options": [
+      "No article",
+      "the",
+      "a",
+      "an"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correct option. Last week ____ oil tanker spilled into ____ sea, damaging wildlife.",
+    "options": [
+      "an, the",
+      "a, the",
+      "a, a",
+      "a, an"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correct option. There was _____ article about pollution on ____ Internet.",
+    "options": [
+      "the, an",
+      "an, the",
+      "the, a",
+      "an, an"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Once there lived ____ farmer. Choose the correct option.",
+    "options": [
+      "an",
+      "a",
+      "No article",
+      "the"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Who wrote it? Choose the correct Passive Voice.",
+    "options": [
+      "By whom was it written.",
+      "By whom wrote it?",
+      "By whom it wrote?",
+      "By whom it written?"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Did the idea interest you? Choose the correct Passive Voice.",
+    "options": [
+      "Were you interested by the idea?",
+      "Did you interested by the idea?",
+      "Will you be interested by the idea?",
+      "Have you interested by the idea?"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Why didn’t they mend the roof? Choose the correct Passive Voice.",
+    "options": [
+      "Why was the roof not mended by them?",
+      "Why did the roof not mended by them?",
+      "Why is the roof not mended by them?",
+      "Why were the roof not mended by them?"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "The judge gave him two weeks. Choose the correct Passive Voice.",
+    "options": [
+      "Two weeks are given him by the judge.",
+      "Two weeks were given to him by the judge.",
+      "He is given two weeks by the judge.",
+      "He is being given two weeks by the judge."
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "They painted the house red. Choose the correct Passive Voice.",
+    "options": [
+      "Red was house painted by them.",
+      "Red house was painted by them.",
+      "The house was painted red by them.",
+      "The house painted by them red."
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "They asked me my name. Choose the correct passive voice.",
+    "options": [
+      "I was asked my name by them.",
+      "I am asked by them my name.",
+      "I will be asked by them my name.",
+      "I have been asked by them my name."
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "He promised me a present. Choose the correct Passive Voice.",
+    "options": [
+      "I was promised a present by him.",
+      "I am promised a present by him.",
+      "I will be promised a present by him.",
+      "I have been promised a present by him."
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "The guests ate all the sandwiches. Choose the correct Passive Voice.",
+    "options": [
+      "All the sandwiches are eaten by the guests.",
+      "All the sandwiches were eaten by the guests.",
+      "All the sandwiches were being eaten by the guests.",
+      "All the sandwiches will be eaten by the guests."
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "We will prosecute trespassers. Choose the correct Passive Voice.",
+    "options": [
+      "Trespassers will be prosecuted by us.",
+      "Trespassers will have been prosecuted by us.",
+      "Trespassers will be prosecute by us.",
+      "Trespassers will prosecute by us."
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "An earthquake destroyed the town. Choose the correct Passive Voice.",
+    "options": [
+      "The town destroyed by an earthquake.",
+      "The town was destroying by an earthquake.",
+      "The town was destroyed by an earthquake.",
+      "The town was being destroyed by an earthquake."
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "They haven’t stamped the letter. Choose the correct Passive Voice.",
+    "options": [
+      "The letter was not stamped by them.",
+      "The letter has not been stamped by them.",
+      "The letter will not be stamped by them.",
+      "The letter is not stamped by them."
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "They are repairing my piano. Choose the correct Passive Voice.",
+    "options": [
+      "My piano are repairing by them.",
+      "My piano is repairing by them.",
+      "My piano is being repairing by them.",
+      "My piano is being repaired by them."
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "They are watching my house. Choose the correct Passive Voice.",
+    "options": [
+      "My house is watching by them.",
+      "My house are watching by them.",
+      "My house is being watched by them.",
+      "My house is being watching by them."
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "We have warned you. Choose the correct Passive Voice.",
+    "options": [
+      "You have warned us.",
+      "You have been warned by us.",
+      "You have been warning us.",
+      "You have been warn by us."
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "The government has called out troops. Choose the correct Passive Voice.",
+    "options": [
+      "Troops have been called out by the government.",
+      "Troops have called out by the government.",
+      "Troops called out by the government.",
+      "Troops will be called out by the government."
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "They invited Jack. Choose the correct Passive Voice.",
+    "options": [
+      "Jack has been invited by them.",
+      "Jack is invited by them.",
+      "Jack was invited by them.",
+      "Jack is inviting them."
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "They searched his house. Choose the correct Passive Voice.",
+    "options": [
+      "His house was searching by them.",
+      "His house was being searching by them.",
+      "His house was searched by them.",
+      "His house was searching by them."
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "They took down the notice. Choose the correct Passive Voice.",
+    "options": [
+      "The notice was took down by them.",
+      "The notice was taken down by them.",
+      "The notice was being taken down by them.",
+      "The notice is being taken down by them."
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "They threw him out. Choose the correct Passive Voice.",
+    "options": [
+      "He was thrown out by them.",
+      "He is thrown out by them.",
+      "He is being thrown out by them.",
+      "He was being thrown out by them."
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Someone is following us. Choose the correct Passive Voice.",
+    "options": [
+      "We are following someone.",
+      "We are being following by someone.",
+      "We are being followed by someone.",
+      "We were being followed by someone."
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "The milkman brings the milk. Choose the correct Passive Voice.",
+    "options": [
+      "The milk was brought by the milkman.",
+      "The milk is brought by the milkman.",
+      "The milk has brought by the milkman.",
+      "The milk has been brought by the milkman."
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Kalam ____ to spend time with children. (like) Choose the past form of the verb given in brackets.",
+    "options": [
+      "like",
+      "has like",
+      "had like",
+      "liked"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the sentence in which the verb is in the simple present tense.",
+    "options": [
+      "Ramanatha sastry was Kalam’s best friend.",
+      "It is an un forgettable occasion.",
+      "This will make you a good human being.",
+      "My teacher showed me real life examples."
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the sentence that has the verb in the simple present tense.",
+    "options": [
+      "I was a child.",
+      "I am a girl now.",
+      "I shall be a woman.",
+      "I had been to Delhi."
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the suitable verb form. I ______ my finger, while I was cutting vegetables.",
+    "options": [
+      "cuts",
+      "cutting",
+      "am cutting",
+      "cut"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "I ______ book now. Choose the present continuous verb form.",
+    "options": [
+      "will read",
+      "was reading",
+      "am reading",
+      "had been reading"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correct option. Ganesh ______ the examination next year.",
+    "options": [
+      "pass",
+      "passes",
+      "passed",
+      "will pass"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Raju ______ his room yesterday. Choose the correct option.",
+    "options": [
+      "paints",
+      "paint",
+      "painted",
+      "is painted"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "In which of the following sentences, is the verb used in simple future tense? A. We shall meet tomorrow. B. He will visit Tirupati next month. C. Bengaluru has a cool climate throughout the year.",
+    "options": [
+      "Only A",
+      "Only B",
+      "Only A and B",
+      "A, B and C"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "God helps those who help themselves. Identify the tense of the verb in the given sentence.",
+    "options": [
+      "Simple Present Tense",
+      "Simple Past Tense",
+      "Simple Future Tense",
+      "Present perfect Tense"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Samatha/ has bought me/ an ice cream/ yesterday. Identify the part of the sentence that has an error, with regard to tense.",
+    "options": [
+      "Samatha",
+      "has bought me",
+      "an ice cream",
+      "yesterday"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "The Param Vir Chakra was _____ by Mrs. Savitri Khanolkar. Choose the correct option.",
+    "options": [
+      "design",
+      "designs",
+      "designed",
+      "will design"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Mohan _____ a house in Vijayawada last week. Choose the correct option.",
+    "options": [
+      "is buying",
+      "was buying",
+      "buys",
+      "bought"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Fill in the blank with an appropriate past continuous tense verb. Ranga fell down while he _____ a race.",
+    "options": [
+      "run",
+      "running",
+      "is running",
+      "was running"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Kalam liked to spend time with the children. In what tense is the underlined verb?",
+    "options": [
+      "Simple past",
+      "Simple present",
+      "Simple future",
+      "Present perfect"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Sarada writes an examination. Change this sentence into past continuous tense.",
+    "options": [
+      "Sarada is writing an examination.",
+      "Sarada has been writing an examination.",
+      "Sarada will be writing an examination.",
+      "Sarada was writing an examination."
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "In which of the following sentences, is the tense of the verb used correctly? A. Last year we visited Araku valley. B. Next week, he will write an examination C. Anshu visits her grandparents every year.",
+    "options": [
+      "Only A",
+      "Only B",
+      "Only C",
+      "A, B and C"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Raghu was dancing, when the headmaster entered the class. Identify the tense of the underlined verbs.",
+    "options": [
+      "Simple Past and Simple Past",
+      "Past Continuous and Past Perfect",
+      "Past Continuous and Past Continuous",
+      "Past Continuous and Simple Past"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "We shall not play tomorrow. Identify the tense.",
+    "options": [
+      "Simple Present",
+      "Simple Future",
+      "Simple past",
+      "Future Continuous"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "I love my hometown because it has a cool climate throughout the year. Identify the tense of the underlined verbs.",
+    "options": [
+      "Simple Present, Present Perfect.",
+      "Simple past, Simple Past.",
+      "Present Perfect, Simple Present.",
+      "Simple present , Simple Present."
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Today we are celebrating our School Day. So, we are excited. Identify the tense of the underlined Verbs.",
+    "options": [
+      "Simple Present, present Continuous",
+      "Simple Past, Simple Past",
+      "Present Continuous, Simple Present",
+      "Present Continuous, Simple past"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Kalam worked with doctors, who were making callipers for polio affected persons. Identify the tense of the Underlined Verbs.",
+    "options": [
+      "Simple Past, Past Continuous",
+      "Past Continuous, Simple Past",
+      "Simple Past, Past Perfect",
+      "Simple Present, Past Continuous"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Question: _______ old are you? Answer: I am twenty years old. Choose a suitable question word to complete the question.",
+    "options": [
+      "Why",
+      "What",
+      "When",
+      "How"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Ruchita: Hi, Saritha!____ are you? Saritha: Fine, Thank you. ______ about you? Choose a suitable question word to complete the questions.",
+    "options": [
+      "How, When",
+      "How, How",
+      "What, how",
+      "Why, What"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Question: _______ do you celebrate your birthday? Answer: On 15th August. Choose a suitable question word to complete the question.",
+    "options": [
+      "How",
+      "Why",
+      "Where",
+      "When"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Question: _______ are you going? Answer: I am going to school. Choose a suitable question word to complete the question.",
+    "options": [
+      "How",
+      "When",
+      "Why",
+      "Where"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "A dictionary tells us ______ a word means. Choose a suitable question word that fits in the blank.",
+    "options": [
+      "what",
+      "why",
+      "when",
+      "where"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "A dictionary tells us ______ a word is pronounced. Choose a suitable question word that fits in the blank",
+    "options": [
+      "what",
+      "how",
+      "why",
+      "which"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Question: _______ is your father? Answer: My father is a farmer. Choose a suitable question word to complete the question.",
+    "options": [
+      "When",
+      "How",
+      "What",
+      "Why"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Question: _______ are you late? Answer: Because my brother is ill. Choose a suitable question word to complete the question.",
+    "options": [
+      "How",
+      "What",
+      "Why",
+      "When"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose a suitable question word to complete the question. Ravali: _______ do you live? Harini: I live in Chandrala.",
+    "options": [
+      "What",
+      "Where",
+      "When",
+      "How"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Question: _______ is your English Teacher? Answer: Mrs. Vidya is our English teacher. Choose a suitable question word to complete the question.",
+    "options": [
+      "How",
+      "Who",
+      "What",
+      "Where"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Question: ____ is the party? Answer: This evening around 8 ‘o’ clock.",
+    "options": [
+      "What",
+      "How",
+      "Where",
+      "When"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Question: _____ is your school’s name? Answer: My school’s name is Mandal Parishad Primary School. Choose a suitable question word to complete the question.",
+    "options": [
+      "How",
+      "Why",
+      "Where",
+      "What"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Question: _____ is your name? Answer: My name is Ayan.",
+    "options": [
+      "How",
+      "Why",
+      "When",
+      "What"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Question: _____ did you go to the market? Answer: I went to the market yesterday. Choose a suitable question word to complete the question.",
+    "options": [
+      "What",
+      "How",
+      "How many",
+      "When"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Question: _____ does she finish the work? Answer: She finishes the work at 5 ‘o’ clock.",
+    "options": [
+      "How",
+      "Who",
+      "Where",
+      "When"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Question: _____ is your brother? Answer: Sujay is my brother. Choose a suitable question word to complete the question.",
+    "options": [
+      "How",
+      "Who",
+      "Whom",
+      "What"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Question: _____ will you meet your friend? Answer: I will meet my friend at school. Choose a suitable question word to complete the question.",
+    "options": [
+      "What",
+      "When",
+      "Where",
+      "Why"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Question: _____ did you keep your money? Answer: I kept my money in my purse. Choose a suitable question word to complete the question.",
+    "options": [
+      "When",
+      "Where",
+      "Who",
+      "Why"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Question: _____ do they want to elect? Answer: They want to elect Mr. Srinu. Choose a suitable question word to complete the question.",
+    "options": [
+      "How",
+      "Whom",
+      "Whose",
+      "Which"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Ravali: My brother is not coming. Ruchitha: ____ happened to him? Ravali: Today is his birthdaty. Choose a suitable question word to complete the question.",
+    "options": [
+      "How",
+      "What",
+      "Why",
+      "When"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Question: _____ much did you pay for that dress? Answer: I paid 1000 rupees for the dress. Choose a suitable question word to complete the question.",
+    "options": [
+      "How",
+      "Why",
+      "When",
+      "Where"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "I _____ good at drawing. Choose the correct verb that fits in the blank.",
+    "options": [
+      "am",
+      "were",
+      "will",
+      "would"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Gopi ____ (pass) the examination next year. Choose the correct verb that fits in the blank.",
+    "options": [
+      "has passed",
+      "will pass",
+      "passed",
+      "had passed"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Ramesh ________ (get) the salary day after tomorrow. Choose the correct verb that fits in the blank.",
+    "options": [
+      "got",
+      "get",
+      "has got",
+      "will get"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "It _______ ( rain) tomorrow. Choose the correct verb that fits in the blank.",
+    "options": [
+      "raining",
+      "rained",
+      "will rain",
+      "will rained"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Teja _______ busy at work yesterday. Choose the correct verb that fits in the blank.",
+    "options": [
+      "had",
+      "has",
+      "was",
+      "is"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "She ______ unwell last month. Choose the correct verb that fits in the blank.",
+    "options": [
+      "was",
+      "is",
+      "have",
+      "had"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "The cows _____ grazing in the field. Choose the correct verb that fits in the blank.",
+    "options": [
+      "is",
+      "was",
+      "will",
+      "are"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Dinesh ______ a car next year. Choose the correct verb that fits in the blank",
+    "options": [
+      "buy",
+      "will buy",
+      "buying",
+      "bought"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Where ______ you last week? Choose the correct verb that fits in the blank",
+    "options": [
+      "are",
+      "were",
+      "is",
+      "will"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "The flowers ______ colourful. Choose the correct verb that fits in the blank",
+    "options": [
+      "is",
+      "was",
+      "will",
+      "are"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Vijay ____ my cousin. Choose the correct verb that fits in the blank.",
+    "options": [
+      "were",
+      "am",
+      "is",
+      "are"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "The poor man ____ walking. Choose the correct verb that fits in the blank.",
+    "options": [
+      "will",
+      "has",
+      "was",
+      "were"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "The monkey _____ on a tree. Choose the correct verb that fits in the blank.",
+    "options": [
+      "has",
+      "would",
+      "will",
+      "is"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "The boy _____ going to school. Choose the correct verb that fits in the blank.",
+    "options": [
+      "were",
+      "is",
+      "are",
+      "has"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Everybody _____ a good song. Choose the correct verb that fits in the blank.",
+    "options": [
+      "enjoy",
+      "enjoys",
+      "will enjoyed",
+      "has enjoy"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "One of the cookies ____ nice. Choose the correct verb that fits in the blank.",
+    "options": [
+      "smell",
+      "smelling",
+      "has smell",
+      "smells"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Dhoni _____ a century in tomorrow’s cricket match. Choose the correct verb that fits in the blank.",
+    "options": [
+      "made",
+      "will make",
+      "making",
+      "will made"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Cats _____ rats. Choose the correct verb that fits in the blank.",
+    "options": [
+      "chasing",
+      "will chased",
+      "will chasing",
+      "chase"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "A lady ____ in a distant village. Choose the correct verb that fits in the blank.",
+    "options": [
+      "lives",
+      "is lived",
+      "was lived",
+      "live"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Several people _____ sitting in the eating-house. Choose the correct verb that fits in the blank.",
+    "options": [
+      "was",
+      "will",
+      "are",
+      "has"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Ashok _____ the parcel tonight. Choose the correct verb that fits in the blank.",
+    "options": [
+      "receive",
+      "receiving",
+      "will received",
+      "will receive"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "What a long queue it is Choose the correct punctuation mark for the given sentence.",
+    "options": [
+      "full stop (.)",
+      "question mark (?)",
+      "exclamation (!)",
+      "comma (,)"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Have you ever been to Delhi Choose the correct punctuation mark for the given sentence.",
+    "options": [
+      "full stop (.)",
+      "question mark (?)",
+      "exclamation (!)",
+      "comma (,)"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Identify the sentence that is correctly punctuated.",
+    "options": [
+      "Alas! I lost my pen!",
+      "What a pity.",
+      "Hurrah, I have won the game?",
+      "All the above"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Identify the correctly punctuated sentence.",
+    "options": [
+      "You are late again.",
+      "Where is my pen.",
+      "You are late again?",
+      "Where is my pen!"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the sentence which is correctly punctuated and capitalized.",
+    "options": [
+      "My name is nani!",
+      "my name is Nani?",
+      "My name is Nani.",
+      "My name, is Nani."
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Which of the following sentences is correctly punctuated?",
+    "options": [
+      "What are you asking for.",
+      "What are you asking for?",
+      "What a beautiful house.",
+      "What a beautiful house?"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the sentence that use apostrophe (’) correctly.",
+    "options": [
+      "My uncle has four son’s.",
+      "I went to my friend, Ramas’ house yesterday.",
+      "Varun do’esnt know how to play football.",
+      "They aren’t coming today. 5."
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correctly punctuated and capitalized sentence.",
+    "options": [
+      "i worked with doctors, scientists and politicians.",
+      "I worked with doctors scientists and politicians",
+      "I worked with doctors, scientists and politicians.",
+      "I worked with doctors, scientists, and, politicians."
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the sentence that use apostrophe (’) correctly.​",
+    "options": [
+      "The dog wagged it’s tail.",
+      "They sell childrens’ books.",
+      "It’s raining.",
+      "Cauliflower’s are half price."
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the sentence that is correctly punctuated.",
+    "options": [
+      "Where do you live.",
+      "What a long queue it is?",
+      "Who is your English teacher!",
+      "What a beautiful flower!"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the sentence that is correctly punctuated and capitalized.",
+    "options": [
+      "“look, there are clouds in the sky.” Said Praneetha.",
+      "“Start raining! I want to dance in the rain,” said John.",
+      "“don’t rain please? It is Sunday,” said Momeen.",
+      "“does it rain now!” said Banti."
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correctly capitalized sentence.",
+    "options": [
+      "Godavari, Krishna and Tunga Bhadra Rivers flow in Andhra Pradesh.",
+      "Godavari, Krishna and Tunga Bhadra rivers flow in Andhra Pradesh.",
+      "Godavari, Krishna and tunga bhadra rivers flow in Andhra pradesh.",
+      "godavri, krishna and tunga bhadra rivers flow in Andhra Pradesh."
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correctly punctuated and capitalized sentence.​",
+    "options": [
+      "Vizag Vijiyanagram Vijayawada are some familiar places in A.P.",
+      "Copper iron and bronze are some useful metals.",
+      "Ram, Rahim and Robert are friends.",
+      ". Gandhiji Nehuru Patel and Tilak were our national leaders."
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the sentence with correct punctuation.",
+    "options": [
+      "Santosh come here.",
+      "Abdul Kalam said, try to find good things in others.",
+      "All students have to bring pen, pencil and book.",
+      "I was taught English Hindi and Telugu by our teachers."
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the sentence with correct punctuation and capitalization.",
+    "options": [
+      "Anand visited Delhi Mumbai Agra and Kolkata.",
+      "Anand visited Delhi, Mumbai, Agra and Kolkata.",
+      "Anand, visited, Delhi, Mumbai, Agra and Kolkata.",
+      "anand visited delhi, Mumbai, agra and kolkata."
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correctly punctuated and capitalized sentence.​​",
+    "options": [
+      "Would you like to come to school? Ranga asked asked Mallika.",
+      "Would you like to come to school! Ranga asked mallika.",
+      "“Would you like to come to school.”Ranga asked Mallika.",
+      "“Would you like to come to school?” Ranga asked Mallika."
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the correctly punctuated and capitalized sentence.​​​",
+    "options": [
+      "“Yes sir, I can,” the eating house-keeper replied.",
+      "“Yes sir? I can.” The eating house-keeper replied.",
+      "“yes sir, i can,” the eating house-keeper replied.",
+      "“yes sir, i can !” the eating house-keeper replied."
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the incorrectly punctuated and capitalized sentence.",
+    "options": [
+      "“Yes, I am Matlida.”",
+      "“Could you lend me this ?” Matlida asked Jane.",
+      "“Yes, you didn’t notice , did you?” Matlida said to Jane.",
+      "“Choose my dear” jane said to Matlida."
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Identify the sentence that is wrongly punctuated.",
+    "options": [
+      "If you want, Mum, I’ll wash up.",
+      "If we’re really quiet, we won’t disturb you.",
+      "Kids, dinner’s ready!",
+      "If you work hard you will succeed?"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "One of the following sentences is not correctly punctuated. Identify the sentence.",
+    "options": [
+      "“Are you happy, now?” asked Abhiram.",
+      "“We shall see,” said his wife.",
+      "“O fish, please grant me one more wish,” Abhiram called the fish.",
+      "My wife wants to be the ruler of the sea, said Abhiram."
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "An apostrophe (’) is a punctuation mark. It can be used for A. Possession B. Contracted forms. C. The actual words spoken Choose the correct option.",
+    "options": [
+      "Only for A",
+      "Only for B",
+      "For both A and B",
+      "Only for C"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Which of the following features is NOT observed in the construction of a ‘paragraph’?",
+    "options": [
+      "Unity",
+      "Variety",
+      "Same sentence construction",
+      "Order"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Which of the following can be used in letters to relatives and near friends under subscription is.",
+    "options": [
+      "Your affectionately",
+      "Your’s affectionately",
+      "Yours affectionately",
+      "You are affectionately"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Which of the following does NOT help you emerge as a good conversationalist?",
+    "options": [
+      "Using positive body language",
+      "Asking good questions",
+      "Good listening",
+      "Desire to dominate"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Which of the following is NOT the feature observed in writing e-mail effectively?",
+    "options": [
+      "Clarity",
+      "Courtesy",
+      "Grammatical accuracy",
+      "Abundance of abbreviations"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Which of the following part of the letter consists of “Greeting”?",
+    "options": [
+      "The heading",
+      "The signature",
+      "Salutation",
+      "The subscription"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "The description of a place graduates itself as _____.",
+    "options": [
+      "Biographical sketch",
+      "Story",
+      "Travelogue",
+      "Report"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the part of the letter that must come below the Subscription.",
+    "options": [
+      "Salutation",
+      "Signature",
+      "Superscription",
+      "Heading"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "A good piece of conversation:",
+    "options": [
+      "is not interactive in nature",
+      "is ambiguous",
+      "does not allow to participate",
+      "allows everyone to share"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Which of the following is an informal letter?",
+    "options": [
+      "A letter to the Headmaster",
+      "A letter to your cousin",
+      "A letter to the Station House Officer",
+      "A letter of complaint to the Commissioner"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Which of the following part of the letter does come in the body of the letter?",
+    "options": [
+      "Date and Address",
+      "Leave – taking",
+      "Salutation",
+      "The Communication message."
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Which of the following expression can be used for closing a formal conversation?",
+    "options": [
+      "Hi!",
+      "Of course!",
+      "See you, bye!",
+      "Thank you so much!"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Which of the following expression is used in the opening of a conversation?",
+    "options": [
+      "You’re welcome.",
+      "Thank you very much.",
+      "Glad to meet you.",
+      "See you."
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Which of the following is NOT the major discourse?",
+    "options": [
+      "Narrative",
+      "Biographical Sketch",
+      "Notice writing",
+      "Informal letter"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Which of the following is formal means of communication?",
+    "options": [
+      "Story",
+      "Notice",
+      "Informal letter",
+      "Diary"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Describing a person can lead to writing ____",
+    "options": [
+      "Biographical sketch",
+      "Travelogue",
+      "Report",
+      "Diary"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Which of the letter is written at the left-hand of the first page, at a lower level than Heading?",
+    "options": [
+      "Salutation",
+      "Address",
+      "Leave- taking",
+      "Signature"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Which of the following discourse should have ‘Date and Time’ in the beginning?",
+    "options": [
+      "Story",
+      "Novel",
+      "Biographical sketch",
+      "Diary"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Which of the following part of the letter consists of “the writer’s address and the date”?",
+    "options": [
+      "The Subscription",
+      "The Superscription",
+      "Salutation",
+      "The Heading"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Which of the following part of the letter consists of courteous leave-taking?",
+    "options": [
+      "Salutation",
+      "The Subscription",
+      "The Superscription",
+      "The Body of the letter"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Which of the following features of writing a paragraph does avoid the monotony?",
+    "options": [
+      "Unity",
+      "Variety",
+      "Order",
+      "Conclusion"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "The essentials of good paragraph are: A: A good topical sentence B: Logical sequence of thought C: A full and rounded final sentence in conclusion. Choose the correct option.",
+    "options": [
+      "A only",
+      "B only",
+      "C only",
+      "A, B and C"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "We generally refer to a ____ to know the meaning of a word. Choose the correct option that fits in the blank.",
+    "options": [
+      "handbook",
+      "guide",
+      "manual",
+      "dictionary"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "In a dictionary the list of the words are arranged ___. Choose the correct word that fits in the blank.",
+    "options": [
+      "erratically",
+      "casually",
+      "alphabetically",
+      "randomly"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "A dictionary does not include the following. Choose the correct option.",
+    "options": [
+      "Meanings",
+      "Parts of speech",
+      "Pronunciation",
+      "Comics"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the word that comes first in a dictionary.",
+    "options": [
+      "able",
+      "abbreviation",
+      "about",
+      "ability"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "“NAME” – what does this abbreviation mean in an Oxford Advanced Learner’s Dictionary?",
+    "options": [
+      "English from the united States",
+      "British English",
+      "Native American English",
+      "North American English"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the word that comes last in alphabetical word.",
+    "options": [
+      "please",
+      "people",
+      "piece",
+      "pockets"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "What does the symbol ‘PHR V’ stand for in a dictionary enrty?",
+    "options": [
+      "Prepositions",
+      "Phrasal Verb",
+      "Primary Verb",
+      "Phrase"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "If you find the abbreviation ‘sing’ after a word in a dictionary, what does it mean?",
+    "options": [
+      "The act of singing",
+      "Refers to a singer",
+      "V1 form",
+      "Refers to a singular"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "The abbreviation ‘sth’ in an Oxford Dictionary means ______",
+    "options": [
+      "Something",
+      "Somebody",
+      "Someone",
+      "Sometime"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "In an Oxford Advanced Learner’s Dictionary, the abbreviation ‘pl’ after a word, means _____.",
+    "options": [
+      "plain",
+      "please",
+      "plural",
+      "plenty"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "The symbol ‘SYN’ in an Oxford Dictionary entry means _____",
+    "options": [
+      "Sync",
+      "Synopsis",
+      "Synonym",
+      "Syntax"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "In an Oxford Advanced Dictionary, ‘abbr’ after the headword, means:",
+    "options": [
+      "abbey",
+      "abbot",
+      "abbess",
+      "abbreviation"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Find the pair of words that appear almost on the same page, in a dictionary entry.",
+    "options": [
+      "Commence - Comment",
+      "Comfort - Consult",
+      "Consumer - Corporation",
+      "Curriculum – Czar"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Find the pair of words that appear closer to each in a dictionary.",
+    "options": [
+      "edit - edition",
+      "edit - emit",
+      "edit – enough",
+      "edit – employ"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Which of the following words appears first in alphabetical order?",
+    "options": [
+      "relief",
+      "reliable",
+      "relevant",
+      "relieve"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "pleasure/pleЗә/noun(U) In the above dictionary entry, what does (U) mean?",
+    "options": [
+      "understand",
+      "unlimited",
+      "unknown",
+      "uncountable"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the word that comes first in alphabetical order.",
+    "options": [
+      "creature",
+      "creator",
+      "credential",
+      "credence"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "What can we know about a word in a dictionary entry? A. Pronunciation of the word B. Part of speech of the word C. Meaning of the word",
+    "options": [
+      "Only A",
+      "Only B",
+      "Only C",
+      "A,B and C"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Which of the following words comes first in a dictionary?",
+    "options": [
+      "river",
+      "rescue",
+      "recycle",
+      "reduce"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "danger/deIndЗә(r)/ noun (U) In a dictionary entry, what is the word ‘danger’ called?",
+    "options": [
+      "entry word",
+      "root word",
+      "base word",
+      "compound word"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the word that comes last in alphabetical order.",
+    "options": [
+      "Sun",
+      "Sapling",
+      "Sand",
+      "Sample"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Read the following. The moment I see letters for me on the doorstep when I return from work, I can’t contain my excitement. It’s almost as if I’m face to face with my near and dear ones. Answer the following. What does the narrator find waiting on the doorstep when returning from work?",
+    "options": [
+      "files",
+      "dear ones",
+      "letters",
+      "work"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Read the following. Nelson Mandela, a great South African leader wanted to get equal rights for the Negroes. He called upon his people to fight till discrimination was ended. Nothing stopped him from achieving his goal. Answer the following. Which country is Nelson Mandela from?",
+    "options": [
+      "America",
+      "Asia",
+      "Australia",
+      "South Africa"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Read the following Civil engineering is one of the oldest disciplines of engineering. It involves the design, construction and management of infrastructure, highways, railways, airports, harbours, bridges, tunnels, ensuring supply of high quality water, among others, and hence the term is used in a very broad sense. Answer the following. What vital resource does civil engineering help supply in high quality?",
+    "options": [
+      "Water",
+      "Electricity",
+      "Solar power",
+      "Fuel"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Read the following. Oliver was frightened at the sight of so many gentlemen, which made him tremble. The beadle gave him a tap on his back with his cane, which made him cry. Answer the following. How did Oliver feel at the sight of so many gentlemen?",
+    "options": [
+      "frightened",
+      "happy",
+      "sleepy",
+      "surprised"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Read the following. The board was sitting in solemn meeting, when Mr. Bumble rushed into the room in great excitement, and addressing the gentlemen in the high chair, said, “Mr. Limbkins, I beg your pardon, sir! Oliver Twist has asked for more !” Answer the following. Who asked for more?",
+    "options": [
+      "Oliver Twist",
+      "Mr. Limbkins",
+      "Mr. Bumble",
+      "the board"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Read the following We know that Bengal is a beehive of cultural activities it has witnessed cultural reforms. It is the birth place of many writers and intellectuals. To continue this tradition, another great son of India took birth in Calcutta on second May 1921. It is none other than Satyajit Ray. Answer the following Satyajit Ray was born on?",
+    "options": [
+      "2nd May 1921",
+      "3rd April 1921",
+      "29th May 1912",
+      "2nd May 1912"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Read the following The evening arrived; the boys took their places. The master, in his cook’s uniform, stationed himself at the copper; his assistants ranged themselves behind him; the gravel was served out. Who was in cook’s uniform?",
+    "options": [
+      "The boys",
+      "The master",
+      "The principal",
+      "The teacher"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Read the following. The master was a fat, healthy man; but he turned very pale. He gazed in stupefied astonishment on the small rebel for some seconds and then clung for support to the copper. Answer the following. What was the master’s physical condition?",
+    "options": [
+      "thin and tired",
+      "old and weak",
+      "sad and poor",
+      "fat and healthy"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Read the following. It happened on April the 26th 1986. I remember the date because it was my mother’s birthday. We heard the explosion early in the morning. Answer the following. When was the narrator’s mother born?",
+    "options": [
+      "On May 26th",
+      "On October 26th",
+      "On June 26th",
+      "On April 26th"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Read the following. “It was a Saturday”, she went on, still wiping her hands on her apron. “It was a lovely warm day, and the children played outside all weekend”. Answer the following. Where did the children play?",
+    "options": [
+      "outside",
+      "inside",
+      "in the bedroom",
+      "in the kitchen"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Read the following. Once upon a time, there was a mother rat who wanted to get her young daughter married as soon as possible to the most powerful being that she could find. “Who is the most powerful being on earth?” she asked herself. Answer the following. Once a mother rat wanted to get her daughter married to the _____ being.",
+    "options": [
+      "most intelligent",
+      "most handsome",
+      "most innocent",
+      "most powerful"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Read the following. No one lived there anymore. They had either died or been forcibly evacuated . The fields were barren. Nothing grew. Answer the following. How were the fields?",
+    "options": [
+      "fertile",
+      "barren",
+      "green",
+      "full of crops"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Read the following. The Nana family’s house too is the same as all the other houses in the village, with mud walls and a rusting corrugated iron roof, and with children and chickens sharing the compound. Answer the following. The houses in the village had ___ walls.",
+    "options": [
+      "cement",
+      "iron",
+      "plastic",
+      "mud"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Read the following. That is why in 1975, at the very first United Nations Conference for women in Mexico, many of the women were saying, “We need food, we need water, we need clean drinking water, we need fodder for our animals.” Answer the following Where was the first United Nations Conference for women held in 1975?",
+    "options": [
+      "In India",
+      "In Russia",
+      "In Canada",
+      "In Mexico"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Read the following Maya Bazaar is another film that brought fame to Savitri. She played the role of Sasirekha. She walks in a masculine manner imitating the legendary S.V Ranga Rao as Ghatotkacha in the film to perfection. Answer the following In the film ‘Maya Bazaar’, Savitri imitated ____",
+    "options": [
+      "NTR",
+      "ANR",
+      "Sasirekha",
+      "S.V. Ranga Rao"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Read the following One day a partially deaf four year old kid came home with a note in his pocket from his teacher, “Your tommy is too stupid to learn, get him out of the school”. His mother answered, “My Tommy is not stupid to learn. I will teach himself”. That Tommy grew up to be the great Thomas Edison. He had only three months of formal schooling. Answer the following. Thomas Edison, who was partially ____, had ____ of formal schooling.",
+    "options": [
+      "deaf, three months",
+      "blind, four years",
+      "stout, five months",
+      "lean, six years"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Read the following. As a young cartoonist, Walt Disney faced many rejections from newspaper editors. One day, a minister at a church hired him to draw some cartoons. After seeing a small mouse, he was inspired. Answer the following. Walt Disney was inspired by:",
+    "options": [
+      "a mouse",
+      "a cat",
+      "a dog",
+      "a monkey"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Read the following Mrs.Slater: I’m amazed at you Victoria. I really am. Be off now, and change your dress before your Aunt Elizabeth and your uncle Ben come. It would never do for them to find you in colours with grandfather lying dead upstairs. Answer the following. Mrs. Slater is amazed at _______.",
+    "options": [
+      "Ben",
+      "Grandfather",
+      "Elizabeth",
+      "Victoria"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Read the following. The king immediately gathered a large army . But he realized that it was not strong enough to save his country from defeat. He needed a hero to lead his army. Answer the following. ____ needed a hero to ___ his army.",
+    "options": [
+      "The enemy, help",
+      "The king, lead",
+      "The Queen, train",
+      "The Minister, teach"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Read the following Of course, the potter said that he had done nothing of the sort. He said that he had only brought his donkey home. He did not understand how a donkey could change into a tiger. When he saw the tiger, he fainted. Answer the following. The potter did not understand how a ____ could change into a ____.",
+    "options": [
+      "donkey, tiger",
+      "tiger, donkey",
+      "tiger, tiger",
+      "donkey, donkey"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Read the following His wife found some rope and bound her husband’s feet tightly to the stirrups. She then passed the rope underneath the horse and tied the two stirrups together. Answer the following. ___ then passed the rope underneath the ____ and tied the two stirrups together.",
+    "options": [
+      "King, elephant",
+      "His wife, horse",
+      "Queen, donkey",
+      "Minister, monkey"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Read the following. I cannot remember my mother, Only sometime in the midst of my play a tune seems to hover my playthings, Answer the following. What is described as hovering over the playrthings?",
+    "options": [
+      "a tune",
+      "a shadow",
+      "a ghost",
+      "a play"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Read the following. Gratitude can turn a negative into a positive. Find a way to be thankful for your troubles, And they can become your blessings. Answer the following. What can your troubles become if you are thankful for them?",
+    "options": [
+      "seatbacks",
+      "wealth",
+      "habits",
+      "blessings"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Read the following. Be thankful that you don’t already have everything you desire, If you did, what would there be to look forward to? Be thankful when you don’t know something, For it gives you the opportunity to learn. Answer the following. Be thankful when you don’t ____ something. Choose the correct word",
+    "options": [
+      "like",
+      "know",
+      "see",
+      "want"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Read the following. He wore a question mark for a tail, An over coat of gray, He sat up straight to eat a nut. Answer the following. What is the colour of the overcoat?",
+    "options": [
+      "brown",
+      "green",
+      "white",
+      "gray"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Read the following. There’s a dusty old window around at the side With three cracked panes of glass I often think there’s someone staring at me Answer the following. What is the condition of the window?",
+    "options": [
+      "tiny",
+      "clean",
+      "dust-free",
+      "dusty"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Read the following. There’s a shed at the bottom of our garden With a spider’s web hanging across the door, The hinges are rusty and creak in the wind. Answer the following. The hinges are ____.",
+    "options": [
+      "bottom",
+      "shed",
+      "rusty",
+      "spider’s web"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Read the following. I cannot remember my mother, But when in the early autumn morning The smell of the Shiuli flowers floats in the air. Answer the following. When does the smell of Shiuli flowers float in the air?",
+    "options": [
+      "in summer",
+      "in winter",
+      "in the rainy season",
+      "in the early autumn morning"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Read the following. This morning a cat got Stuck in our tree Dad said, “Right, just Leave it to me”. Answer the following. Where did a cat get stuck this morning?",
+    "options": [
+      "In the tree",
+      "In the kitchen",
+      "In the house",
+      "In the car"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Read the following. The tree was wobbly, The tree was tall Mum said, “For goodness’ Sake don’t fall!” Answer the following. Who said, “For goodness’ sake, don’t fall”?",
+    "options": [
+      "Tree",
+      "Dad",
+      "Daughter",
+      "Mum"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": ". Read the following. A dandelion whose fuzzy head Was golden days ago Has turned to airy parachutes That flutter when you blow. Answer the following. How was the dandelion’s head some days ago?",
+    "options": [
+      "golden",
+      "silver",
+      "black",
+      "green"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Read the following. You may scare a rabbit Who is sitting very still; Though at first you may not see him, When he hops you will. Answer the following. When will you see a rabbit, according to the poem?",
+    "options": [
+      "When he scares",
+      "When he hops",
+      "When he sits",
+      "When he sleeps"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Read the following. You may see a butterfly Rest upon a buttercup And unfold its drinking straws To sip the nectar up Answer the following. Where does the butterfly rest upon?",
+    "options": [
+      "on nectar",
+      "on straw",
+      "on grass",
+      "on a buttercup"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Read the following. Meadows have surprises You can find them if you look; Walk softly through the velvet grass, And listen by the brook. Answer the following. What do meadows have?",
+    "options": [
+      "grass",
+      "brook",
+      "surprises",
+      "velvets"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Read the following. We, Indians, are proud to be a strong nation, our roots, we declare, cannot be shaken. Then why these fights, Which leaves us in poor plight? Answer the following. What cannot be shaken?",
+    "options": [
+      "Fights",
+      "Indians",
+      "Nation",
+      "Our roots"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Read the following. Gratitude can turn a negative into a positive, Find a way to be thankful for your troubles, And they can become your blessings. Answer the following. What does the word ‘they’ in the poem refer to?",
+    "options": [
+      "Gratitude",
+      "Troubles",
+      "Ways",
+      "Positive things"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Read the following. So show me, son How to laugh; show me how I used to laugh and smile Once upon a time when I was like you. Answer the following. What does the word ‘you’ in the poem refer to?",
+    "options": [
+      "Father",
+      "Mother",
+      "Uncle",
+      "Son"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Read the following. He got out the ladder From the garden shed. It slipped.He landed In the flower bed. Answer the following. What does the word ‘it’ in the poem, refer to?",
+    "options": [
+      "flower bed",
+      "ladder",
+      "garden",
+      "shed"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Read the following. I felt a conscious impulse in my clay To break away From the great potter’s hand that burned to warm, Answer the following. How was the potter’s hand?",
+    "options": [
+      "warm",
+      "cool",
+      "weak",
+      "strong"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Read the following. Once upon a time son, they used to laugh with their hearts and laugh with their eyes: but now they only laugh with their teeth, Answer the following. The poet is talking about",
+    "options": [
+      "the innocent world of children.",
+      "the honest world of adults.",
+      "the difference between the past and the present",
+      "the old and the young"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Answer the following. Once there was a talking fan Electrical his chatter I couldn’t quite hear what he said. Answer the following. Whose chatter was electrical?",
+    "options": [
+      "A boy’s",
+      "A girl’s",
+      "The poet’s",
+      "A talking fan’s"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Read the following. He liked to tease and play, And if we ran around his tree, He went the other way. Answer the following. What did he like to do?",
+    "options": [
+      "To tease and play",
+      "To run around",
+      "To go to the other way",
+      "To sit up"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "If the objective of teaching English is to help students pass examinations it becomes",
+    "options": [
+      "a long-term and permanent objective",
+      "a short-term and long term objective",
+      "a long-term and immediate objective",
+      "a short-term and immediate objective"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "At times students resort to using words from both the first and second languages in the same sentence. This is called:",
+    "options": [
+      "code seperation",
+      "code fusion",
+      "code switching",
+      "code joining"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Which should be strengthened first before the child gets practice in reading and writing skills?",
+    "options": [
+      "Speaking skill only",
+      "Listening skill only",
+      "Songs & rhymes",
+      "Listening and speaking"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Linguistically Modern English differs from the Middle English in what is called the _________",
+    "options": [
+      "Renaissance",
+      "Great vowel shift",
+      "Resonance",
+      "Giant consonant shift"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "What the peers exert can be perceived either as pressure or support depending on its _______",
+    "options": [
+      "quantity",
+      "ability",
+      "agility",
+      "quality"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "We have different words in different languages to represent the same object. This feature of language is called.",
+    "options": [
+      "redundancy.",
+      "arbitrary",
+      "prevarication",
+      "creativity"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the sociological factor that affects language learning.",
+    "options": [
+      "Prejudice",
+      "Intelligence",
+      "Open- mindedness",
+      "Supportive environment"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Which of the following is not a Sociological factor that influence language learning?",
+    "options": [
+      "Peer pressures",
+      "Teacher’s attitude",
+      "Emotions",
+      "Cooperation one receives"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Proficiency and mastery in English language is:",
+    "options": [
+      "an immediate objective",
+      "an impossible objective",
+      "a long-term objective",
+      "an illogical objective"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Children learn the mother tongue in a natural setting where as the second language is learnt in a ______",
+    "options": [
+      "real setting",
+      "genuine setting",
+      "simultaneous setting",
+      "simulated setting"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the sociological factor that affects language learning:",
+    "options": [
+      "Mood sways",
+      "Prejudices",
+      "Attitudes",
+      "Peer pressures"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "When two languages are learned simultaneously, there will be parallel development and ______",
+    "options": [
+      "contrary transfer",
+      "positive transfer",
+      "denying transfer",
+      "negative transfer"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Identify the major landmark in the Indian Education Scene, also known as the ‘Magnacarta’ of Indian Education:",
+    "options": [
+      "Macaulay’s Minute 1835",
+      "Wood’s Dispatch 1854",
+      "Sadler’s Commission 1916",
+      "Education commission 1964"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the option that’s not a problem in learning English.",
+    "options": [
+      "Our own mind set",
+      "Avoiding the use of mother tongue totally",
+      "Comparing English with mother tongue",
+      "Introducing ICT in the classroom teaching"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "The shortest road to learning to read and write is ______.",
+    "options": [
+      "learning to speak a language",
+      "learning to recite poems",
+      "learning to say rhymes",
+      "learning grammar"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Every child born into this world is endowed with a capacity to learn language. This inborn trait is labeled as",
+    "options": [
+      "Language Acquiring Data",
+      "Language Acquisition Device",
+      "Language Acquiring Trait",
+      "Language Acquiring Efficiency"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Whose hypothesis suggested that the Indian learners need more of reading skills than oral skills?",
+    "options": [
+      "Krashen",
+      "Robert Lado",
+      "C.J. Dadson",
+      "Dr. West"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "LAD means",
+    "options": [
+      "Literacy Acquiring Data",
+      "Language Acquired Device",
+      "Language Acquisition Device",
+      "Language Acquisition Drive"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "English is taught in India, because",
+    "options": [
+      "it is the language of elite class.",
+      "the only language of textbooks in higher classes",
+      "the only language to achieve success",
+      "a symbol of people’s aspirations for quality in education and a fuller participation in national and international life."
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the option that is not a component of language teacher proficiency",
+    "options": [
+      "linguistic knowledge",
+      "cultural knowledge",
+      "pedagogical knowledge",
+      "technical knowledge"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "The 42nd Constitutional Amendment in 1976 brought about a change by transferring education from ___ List to ____ List.",
+    "options": [
+      "the Primary, the Secondary",
+      "the State, the Concurrent",
+      "the Secondary, the Primary",
+      "the Concurrent, the State"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Writing the facts, instructions, illustration ,definitions etc. comes under:",
+    "options": [
+      "Persuasive writing",
+      "Narrative writing",
+      "Descriptive writing",
+      "Expository writing"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "_______ is a physical process of receiving sounds.",
+    "options": [
+      "Hearing",
+      "Listening",
+      "Dictation",
+      "Speaking"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Reading and writing skills are known as",
+    "options": [
+      "aural- oral skills",
+      "audio- lingual skills",
+      "psycho- motor skills",
+      "aural-lingual skills"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Listening and speaking skills are known as",
+    "options": [
+      "psycho-motor skills",
+      "graphic-motor skills",
+      "audio-graphic skills",
+      "aural-oral skills"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Writing is ______ skill.",
+    "options": [
+      "Receptive",
+      "Productive",
+      "Aural",
+      "Fundamental"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Listening is a/an _____ skill.",
+    "options": [
+      "Receptive",
+      "Productive",
+      "Active",
+      "Graphic"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Hearing is a physical process of receiving sounds, whereas listening is a ________",
+    "options": [
+      "unconscious mental process",
+      "psycho-motor process",
+      "conscious mental process",
+      "random process"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Writing and planning advertisements, writing brochures come under:",
+    "options": [
+      "Persuasive writing",
+      "Expository writing",
+      "Descriptive writing",
+      "Narrative writing"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "The language game ‘Chinese Whisper’ could be played in the classroom to develop ________ .",
+    "options": [
+      "Listening skill",
+      "Speaking skill",
+      "Reading skill",
+      "Writing skill"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Which language skills are also called Psycho-motor or graphic motor skills?",
+    "options": [
+      "Reading and writing skills",
+      "Listening and Speaking skills",
+      "Reading and Listening skills",
+      "Speaking and writing skills"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Nidhi reads a magazine and is looking for the overall idea of the cover story. What is this reading known as?",
+    "options": [
+      "Reading for pleasure",
+      "Intensive Reading",
+      "Skimming",
+      "Scanning"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "The most difficult skill of all the language skills is:",
+    "options": [
+      "Listening",
+      "Speaking",
+      "Reading",
+      "Writing"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Language laboratory is the place where the learners have to listen on headphone. These labs are set up with a view to provide listening activities in order to make them develop good____.",
+    "options": [
+      "analysis habit",
+      "experimentation",
+      "speech habit",
+      "narration"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "A novel is ______",
+    "options": [
+      "an argumentative writing",
+      "a narrative writing",
+      "a comparative writing",
+      "a technical writing"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "_______ is message oriented where the main purpose is to achieve successful transfer or exchange of information.",
+    "options": [
+      "Interactional language",
+      "Transactional language",
+      "Conscious language",
+      "Transectional language"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "_______ has a social purpose and is listener oriented.",
+    "options": [
+      "Interactional language",
+      "Transactional language",
+      "Transectional language",
+      "Conscious language"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Identify the prime feature of a poster advertisement",
+    "options": [
+      "to promote assessment",
+      "to let pent up emotions",
+      "to produce something",
+      "to attract customers"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Using a word bank and brain storming helps to build",
+    "options": [
+      "reading comprehension",
+      "writing discourses",
+      "grammar",
+      "listening skills"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "‘Use stress and rhythmic patterns and intonation patterns of the language’ and ‘use vocabulary appropriately’ are the micro-skills involved in",
+    "options": [
+      "Listening",
+      "Speaking",
+      "Skimming",
+      "Scanning"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "In learning a new language, multilingualism is",
+    "options": [
+      "a burden",
+      "an asset",
+      "an interference",
+      "a chaos"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Which of the following descriptors can be used for assessing the learner’s writing skills?",
+    "options": [
+      "speed",
+      "organisation of ideas",
+      "spacing",
+      "sub vocalization"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "In Communicative Language Teaching Approach, teaching is learning oriented giving much importance to",
+    "options": [
+      "repetition drill",
+      "dialogue memorization",
+      "chain drill",
+      "interaction"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Suggestopedia is mostly used to ______.",
+    "options": [
+      "unlearn first language",
+      "learn grammar",
+      "relearn forgotten concepts",
+      "learn foreign languages"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Structural Approach is also referred to as:",
+    "options": [
+      "The Aural Approach",
+      "The Oral Approach",
+      "Learner centered",
+      "The Graphic Approach"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Which is the oldest method of teaching English in India?",
+    "options": [
+      "Bilingual Method",
+      "Direct Method",
+      "Dr. West New Method",
+      "Grammar Translation Method"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "In Direct Method, a _______ is the unit of expression as one cannot say anything sensible with mere lists of words.",
+    "options": [
+      "sentence",
+      "word",
+      "syllable",
+      "letter"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "According to Asher, Listening comprehension precedes other skills in _____.",
+    "options": [
+      "Activity based teaching",
+      "Total Physical Response",
+      "Suggestopedia",
+      "Task based teaching"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Structural approach gives importance to ______.",
+    "options": [
+      "speech",
+      "creativity",
+      "dictation",
+      "extensive reading"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the teaching method which is based on the coordination of language and physical movement.",
+    "options": [
+      "Suggestopedia",
+      "Total Physical Response",
+      "Silent Way",
+      "Natural Approach"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the approach that is based on the power of suggestion in learning.",
+    "options": [
+      "Natural Approach",
+      "Audio Lingual Method",
+      "Bilingual Method",
+      "Suggestopedia"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Which of the following should not be encouraged in an ideal language learning classroom?",
+    "options": [
+      "Quizzes",
+      "Role- plays",
+      "Language games",
+      "Drill"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Vygotsky’s concept of _____ advocates children refine their knowledge and experience through collaboration.",
+    "options": [
+      "Zone of Proximal Development",
+      "Zone of Peer Development",
+      "Zone of Point of Discussion",
+      "Zone of Proximal Discussion"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Providing input through discourses and expecting output through discourses is the basis of",
+    "options": [
+      "Discussion Oriented Planning",
+      "Discourse Oriented Pictures",
+      "Discourse Oriented Pedagogy",
+      "Discussion Oriented Paradigm"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "In which approach music, drama and arts are integrated into the learning process as often as possible?",
+    "options": [
+      "Silent way",
+      "Natural approach",
+      "Suggestopedia",
+      "Dr. West’s New Method"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "The Audio lingual method, which had been adopted by the military during the second world war, was first known as",
+    "options": [
+      "Music Method",
+      "The Army Method",
+      "The Aural Method",
+      "The Direct Method"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Habit formation through repetition is a component of",
+    "options": [
+      "Construction",
+      "CLT",
+      "Direct method",
+      "Audio Lingual Method"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Teaching should be:",
+    "options": [
+      "Teacher centered",
+      "Curriculum centered",
+      "Syllabus centered",
+      "Learner centered"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Under Constructive Approach to language learning, learners are encouraged to",
+    "options": [
+      "avoid errors completely.",
+      "drill mechanically.",
+      "discovere the rules of grammar from examples.",
+      "learn grammar rules by rote memory."
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Which method encourages the learners to think in English?",
+    "options": [
+      "Direct Method",
+      "Grammar – Translation Method",
+      "Structural Approach",
+      "Electic Approach"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Which approach is based upon the concept that no single method can be consistently used for a long period of time while teaching a language?",
+    "options": [
+      "Electra Approach",
+      "Elementary Approach",
+      "Eloquent Approach",
+      "Electic Approach"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Communicative approach is broad with a goal of improving",
+    "options": [
+      "listening competence",
+      "writing competence",
+      "communicative competence",
+      "reading competence"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "A class III student says “ I goed”. It indicates that the child",
+    "options": [
+      "is a dullard.",
+      "has not learnt grammar rules properly.",
+      "should memorise the correct sentence.",
+      "has over generalized the rule, showing that learning is taking place."
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "The words which carry the main meaning of the sentence are called ____.",
+    "options": [
+      "the Content words",
+      "the Structural words",
+      "the Context words",
+      "the Dictionary words"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Nikhil is a little boy. He has a dog. He loves it. Identify what these underlined words are.",
+    "options": [
+      "Structural words",
+      "Content words",
+      "Prepositions",
+      "Determiners"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Ali is an engine driver. Identify what these underlined words are.",
+    "options": [
+      "Structural words",
+      "Ad hoc vocabulary",
+      "Content words",
+      "Context words"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Tongue twisters can be effectively used to improve _____ .",
+    "options": [
+      "vocabulary",
+      "grammar",
+      "fluency",
+      "pronunciation"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "V J Cook in eighties defined _____ as those materials that are not produced for the purpose of teaching.",
+    "options": [
+      "TLM",
+      "authentic material",
+      "real objects",
+      "accurate material"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Which of the following is not an example of authentic material?",
+    "options": [
+      "Soap wrappers",
+      "Electricity bills",
+      "Chalkboard",
+      "Newspaper"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Two words having identical sound and spelling, but not related in meaning. are known as",
+    "options": [
+      "homographs",
+      "synonyms",
+      "homophones",
+      "homonyms"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Crossword puzzles help the students in the improvement of _____.",
+    "options": [
+      "riddles",
+      "pronunciation",
+      "grammar",
+      "vocabulary"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Telling interesting stories to young learners is primarily meant for improving their",
+    "options": [
+      "listening skills",
+      "reading skills",
+      "speaking skills",
+      "writing skills"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Poetry is introduced in classroom to",
+    "options": [
+      "teach strategies of writing.",
+      "learn foreign phrases.",
+      "encourage rote learning.",
+      "develop aesthetic and creative sensibilities."
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Saying aloud an idea elicited from a child in mother tongue and then translating it in English is known as",
+    "options": [
+      "micro phoning",
+      "mega phoning",
+      "telephoning",
+      "phone-in"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Syntactic editing is the improvement of ______.",
+    "options": [
+      "spelling",
+      "theme",
+      "punctuation",
+      "word order"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "A teacher shows some real objects to the learners and asks them to describe the objects. What are the objects known as in language teaching- learning materials?",
+    "options": [
+      "Visual materials",
+      "Teacher’s materials",
+      "Realia",
+      "Flash cards"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Howard Gardener’s _____ Theory reminds teachers that there are many types of learners within the class room.",
+    "options": [
+      "Concept of learning",
+      "Multiple Intelligence",
+      "Sensory store",
+      "Connectionism"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "The main purpose of using Oral drill is",
+    "options": [
+      "to enhance the spoken skills",
+      "to improve pronunciation and accuracy",
+      "to assess the comprehension skills",
+      "to improve the retention skills"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Minimal pairs are meant for practice in",
+    "options": [
+      "vocabulary",
+      "reading",
+      "structures",
+      "pronunciation"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Anthyakshari, a language game, can become:",
+    "options": [
+      "an entertainment only",
+      "a word building activity",
+      "a reality activity",
+      "a time pass only"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "The important sub-skills of teaching a. Questioning b. Explaining c. Narrating Choose the correct option",
+    "options": [
+      "a only",
+      "b only",
+      "a & b only",
+      "a, b & c"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "The mostly easily available teaching aid for a teacher is",
+    "options": [
+      "a Computer",
+      "a Black board",
+      "an OHP",
+      "an I Pad"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Identify the criteria not to be taken into consideration while designing teaching materials.",
+    "options": [
+      "Costly",
+      "Authenticity",
+      "Need- matching",
+      "Level of difficulty"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "A teacher shows a picture of a railway station and asks the students to write related words. Identify the skill that is primarily developed through this activity.",
+    "options": [
+      "Reading comprehension",
+      "Listening skill",
+      "Vocabulary acquisition",
+      "Narration"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "______ helps in proportional distribution of the syllabus over the different terms in the school calendar.",
+    "options": [
+      "Microteaching",
+      "Text book",
+      "Year plan",
+      "Period plan"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "_______ is the scaled down version of the internship programme of the teacher training.",
+    "options": [
+      "Curriculum",
+      "Discourse Oriented Teaching",
+      "Macro teaching",
+      "Microteaching"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Which of the following familiarizes the teachers with the problems of real classroom situations and helps them overcome their drawbacks?",
+    "options": [
+      "Macro teaching",
+      "Year plan",
+      "Lesson plan",
+      "Microteaching"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "The lesson plan begins with writing _______.",
+    "options": [
+      "the new vocabulary",
+      "the anticipatory set",
+      "the objectives of the lesson",
+      "the examples"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the option that is not a feature of a good textbook.",
+    "options": [
+      "serves as memory aid for students.",
+      "enables the teacher to measure the achievement of the students.",
+      "content should not match with the socio-cultural background of the children.",
+      "printing and paper should be of good quality."
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Continuous Professional Development aims at",
+    "options": [
+      "conducting trainings on a ritualistic basis",
+      "seminars on an Obligatory basis",
+      "upgrading the knowledge of the teachers",
+      "collecting the information"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Supplementary readers are prescribed for",
+    "options": [
+      "intensive reading",
+      "extensive reading",
+      "aesthetic reading",
+      "silent reading"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Poetry enriches emotions and improves _____",
+    "options": [
+      "sense of humor",
+      "aesthetic sense",
+      "common sense",
+      "sense of direction"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the option that is not an objective of teaching poetry.",
+    "options": [
+      "to appreciate the ideas",
+      "to develop imaginative abilities",
+      "to develop self sufficiency in reading",
+      "to recite the poem with proper stress and rhythm"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Planning of teaching learning process progresses from",
+    "options": [
+      "Year plan > Unit plan > Lesson plan",
+      "Lesson plan > Unit plan > Year plan",
+      "Unit plan > Lesson plan > Year plan",
+      "Year plan > Lesson plan > Unit plan"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Identify the goals of a language curriculum. a. Language acquisition inside and outside the classrrom b. Discourage home language c. A common cognitive academic linguistic proficiency Choose the correct option",
+    "options": [
+      "a only",
+      "a and c only",
+      "a and b only",
+      "a, b, c"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "According to the recommendations of NCF 2005, technology could be integrated",
+    "options": [
+      "for enhancing social divides.",
+      "for encouraging rote learning.",
+      "used only judiciously.",
+      "with the larger goals and processes of educational programmes."
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the theme that is not compatible with NCF 2005 core themes for developing textbook.",
+    "options": [
+      "Peace and Harmony",
+      "Art and Culture",
+      "Cookery and Social Networking",
+      "Sports and Games"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "According to the guiding principles of NCF 2005, the activities suggested in the Text book are",
+    "options": [
+      "suggestive and not prescriptive",
+      "prescriptive not suggestive",
+      "prescriptive not constructive",
+      "constructive not suggestive"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Choose the option that is not a feature of English language textbooks.",
+    "options": [
+      "Lessons should be based on a wide variety of discourses.",
+      "Relevant pictures should support the subject matter.",
+      "Focus more on information rather than language tasks.",
+      "Should be free from language and typographical errors."
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Which of the following is not considered as materials for language teaching – learning?",
+    "options": [
+      "Computer coding",
+      "Supplementary reader",
+      "News paper",
+      "Rhymes videos"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "A printed instructional material in bound form is:",
+    "options": [
+      "a pamphlet",
+      "a text book",
+      "a newspaper",
+      "a document"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "What are the interim makers of learning achievement towards the attainment of competencies?",
+    "options": [
+      "Learning outcomes",
+      "Teaching out comes",
+      "Learning resources",
+      "Learning choices"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "______ are often the only books many children will engage with.",
+    "options": [
+      "Text books",
+      "Note books",
+      "Magazines",
+      "Comics"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "The language used in a textbook would need to be a. grade- appropriate b. relevant to the subject c. complex Choose the correct option",
+    "options": [
+      "a only",
+      "a & b",
+      "a & c",
+      "a , b & c"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "The record of a child’s learning and progress in all domains of learning achievement and development is",
+    "options": [
+      "Progression Card",
+      "Health Card",
+      "Id Card",
+      "Holistic Progress card"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "The evaluation that aims at giving a regular feedback at every stage of instruction is:",
+    "options": [
+      "Effective Evaluation",
+      "Cognitive Evaluation",
+      "Terminal Evaluation",
+      "Formative Evaluation"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Which of the following is not a benefit of portfolio assessment?",
+    "options": [
+      "Student involvement in assessment",
+      "Insights about progress of individual students",
+      "Student’s learning to be shared with parents",
+      "Overall development can’t be interpreted"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "All the choices or options provide under each stem other than the correct choice are called _____.",
+    "options": [
+      "options",
+      "key",
+      "distractors",
+      "answers"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "The term ____ is used to refer to the open ended type.",
+    "options": [
+      "item",
+      "stem",
+      "distractor",
+      "question"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "The term _____ is used to indicate the objective type.",
+    "options": [
+      "question",
+      "rubrics",
+      "item",
+      "distracters"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Responding to real life situations is:",
+    "options": [
+      "Idioms",
+      "Supply of type",
+      "Word games",
+      "Language functions"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "A detailed plan that provides the basis for developing an entire test is:",
+    "options": [
+      "Curriculum",
+      "Blueprint",
+      "Year plan",
+      "Lesson plan"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "The tests that are designed to measure learner’s ability to use language which they are expected to use at a given level are called",
+    "options": [
+      "Placement Tests",
+      "Aptitude Tests",
+      "Achievement Tests",
+      "Proficiency Tests"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "_______ is an evaluation of accuracy and appropriateness of the interpretation and uses of results.",
+    "options": [
+      "Usability",
+      "Objectivity",
+      "Validity",
+      "Reliability"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "The tests that are conducted to know the strengths 0 and weaknesses of the students are known as",
+    "options": [
+      "Achievement Tests",
+      "Diagnostic Tests",
+      "Aptitude Tests",
+      "Placement Tests"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Identify the quality that is not suitable for a good test.",
+    "options": [
+      "Validity",
+      "Reliability",
+      "Usability",
+      "Ambiguity"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "The education pattern as per the recommendation of NEP 2020:",
+    "options": [
+      "5+3+3+4 system",
+      "5+3+4+3 system",
+      "3+5+3+4 system",
+      "4+3+3+5 system"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "In a Multiple choice question the term ‘distractors’ mean",
+    "options": [
+      "all the choices including the key",
+      "all the choices excluding the key",
+      "correct choice only",
+      "objective type items"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Feedback must not be",
+    "options": [
+      "clear",
+      "regular",
+      "hidden",
+      "balanced"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Summative assessment can also be said in other words:",
+    "options": [
+      "Assessment for Learning",
+      "Assessment of Learning",
+      "Assessment as Learning",
+      "Assessment on Learning."
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "The on-going self assessment by students in order to monitor their own learning is",
+    "options": [
+      "Assessment as Learning",
+      "Assessment of Learning",
+      "Assessment for Learning",
+      "Assessment in Learning."
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Testing conventions of writing has the following.",
+    "options": [
+      "picture cues",
+      "dialogue writing",
+      "report writing",
+      "punctuation marks"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Which of the following can be conducted any number of times to improve the learning of the students?",
+    "options": [
+      "Summative assessment",
+      "Terminal assessment",
+      "Assessment of learning",
+      "Formative assessment"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Which of the following is not an appropriate tool for Formative Assessment?",
+    "options": [
+      "Assignment",
+      "Oral Questions",
+      "Term Examination",
+      "Quiz and games"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "The main purpose of assessment is",
+    "options": [
+      "to decide pass and fail",
+      "to measure achievement of learners",
+      "to give practice in writing",
+      "to assess rote memory skills"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (English)",
+    "subject": "English",
+    "question": "Which of the following will help learners take greater responsibility for their own learning?",
+    "options": [
+      "Summative assessment",
+      "Supervised reading tasks",
+      "Peer assessment",
+      "Controlled writing tasks"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "‘Tabula Rasa’ means",
+    "options": ["Blank Slate", "Blank Book", "Blank Table", "Blank Bench"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "According to Elizebeth Hurlock, the childhood belongs to this age ( in years)",
+    "options": ["10 20", "15 25", "3 to 10", "20 to 30"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "According to Psychology, the age of childhood is",
+    "options": ["Up to 20 years", "Up to 25 years", "Up to 30 years", "Up to 14 years"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The Constitution of India provides free and compulsory Education for all the children in this age group (in years)",
+    "options": ["0 to 14 years", "6 to 14 years", "6 to 20 years", "0 to 20 years"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "National Child Helpline Service Number in India",
+    "options": ["100", "101", "104", "1098"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "According to Rodke, House, food and facilities are",
+    "options": ["School Factors", "Moral Factors", "Economic Factors", "Political Factors"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The first teacher of a child",
+    "options": ["Mother", "Father", "Teacher", "Friends"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The stage between Infancy and Adolescence",
+    "options": ["Adulthood", "Old age", "Childhood", "Prenatal Stage"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Foundations of social behaviour are laid at this stage",
+    "options": ["Infancy", "Childhood", "Adulthood", "Adolescence"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Expand ILO ILO .",
+    "options": ["International Labour Organisation", "Indian Labour Organisation", "Inter Labour Organisation", "Indian Land Organisation"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "According to Philippe Aries, the age of childhood is in between",
+    "options": ["Birth to Adolescence", "Birth to Middle Age", "Infancy to Adolescence", "Infancy to Middle Age"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is the most successful parenting style",
+    "options": ["Authoritative style", "Authoritarian style", "Permissive Style", "Uninvolved Style"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "In this parenting style, children and parents exhibit specific, accurate rational behaviour",
+    "options": ["Authoritative style", "Authoritarian style", "Permissive Style", "Uninvolved Style"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "In this parenting style, parents allow autonomy to children",
+    "options": ["Authoritative style", "Authoritarian style", "Permissive Style", "Uninvolved Style"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "In this parenting style, parents are not confident enough to influence their children",
+    "options": ["Authoritative style", "Authoritarian style", "Permissive Style", "Uninvolved Style"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "In this parenting style, children are not selfdependant",
+    "options": ["Authoritative style", "Authoritarian style", "Permissive Style", "Uninvolved Style"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "In this parenting style, parents allow less freedom to children",
+    "options": ["Authoritative style", "Authoritarian style", "Permissive Style", "Uninvolved Style"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "In this parenting style, children show limited love towards their parents and protest them",
+    "options": ["Uninvolved Style", "Permissive Style", "Authoritarian style", "Authoritative style"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "In this parenting style, parents have low control over their children’s behaviour",
+    "options": ["Authoritative style", "Authoritarian style", "Permissive Style", "Uninvolved Style"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "In this parenting style, abundant freedom is given to children",
+    "options": ["Authoritative style", "Authoritarian style", "Permissive Style", "Uninvolved Style"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "In this parenting style, the parents have withdrawing nature",
+    "options": ["Authoritative style", "Authoritarian style", "Permissive Style", "Uninvolved Style"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Past facts are collected through primary sources or secondary sources in",
+    "options": ["Historical Research", "Correlation Research", "Descriptive Research", "Experimental Research"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "In this research, changes among children are identified from Ancient, Medieval, Modern and present day are being identified",
+    "options": ["Historical Research", "Correlation Research", "Action Research", "Experimental Research"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The most objective method that is used in Psychological studies is",
+    "options": ["Historical method", "Correlation method", "Descriptive method", "Experimental method"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "In this method of data collection, questions are predetermined",
+    "options": ["Structured Interview", "Unstructured Interview", "Observation", "Narrations"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is not a type of variable in experimental method",
+    "options": ["Independent variable", "Dependent variable", "Intervening variable", "Freedom variable"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "It helps children to selfevaluate their thoughts and feelings",
+    "options": ["Interview", "Observation", "Narrations", "Reflective journals"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This method records the behaviour or actions of the children in the order of its occurrence.",
+    "options": ["Observation", "Reflective journals", "Narrations", "Teacher’s Diary"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Observation of children’s behaviour without their notice when they are playing is an example of",
+    "options": ["Controlled Observation", "Experimental Observation", "Interview", "Natural Observation"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The behaviour shown by an individual in accordance with the stimulus is called",
+    "options": ["Stimuli", "Response", "Experimenter", "Subject"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This method is called as ‘Clinical method’",
+    "options": ["Interview Method", "Observation Method", "Experimental Method", "Case Study Method"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "It is used to know the children’s traits",
+    "options": ["Interview", "Rating Scales", "Observation", "Narrations"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The tool to collect the data where the respondent fills the answers to the provided questions by himself/herself is",
+    "options": ["Observation", "Introspection", "Questionnaire", "Narrations"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "A thing that evokes changes in the behaviour of an individual is",
+    "options": ["Stimulus", "Response", "Variable", "Subject"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "A person who conducts an experiment is called",
+    "options": ["Stimulus", "Response", "Experimenter", "Variable"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "It helps a teacher to overcome the problem in teaching learning process",
+    "options": ["Historical Research", "Interview", "Narrations", "Action Research"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The research that explains and interprets the present situation and reflects it",
+    "options": ["Historical Research", "Correlation Research", "Descriptive Research", "Experimental Method"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Person who is influenced by the experiment is",
+    "options": ["Observer", "Experiment", "Subject", "Interviewee"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "According to Young (1977), this is the systematic study of incidents that occur at the time",
+    "options": ["Observation", "Interview", "Narrations", "Case Study"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The study conducted in an artificial and controlled situations for the purpose of observation is called",
+    "options": ["Narrations", "Interview", "Case Study", "Controlled Observation"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "A face to face verbal interaction in which a person elicits information from the other person is called",
+    "options": ["Observation", "Interview", "Case Study", "Narrations"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The method suitable to recollect past experiences of a person is",
+    "options": ["Interview", "Observation", "Experimental Method", "Descriptive Research"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The Principle that states “An individual starting his life from a tiny cell develops throughout his life” is",
+    "options": ["Principle of Continuity", "Principle of Uniformity", "Principle of definite", "Principle of individual differences"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "In this principle, ‘Development follows an orderly sequence’",
+    "options": ["Principle of definite direction", "Principle of Predictable", "Principle of Cumulative", "Principle of Uniformity of pattern"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The language development of an individual starts with babbling and gradually changes into conversations is an example for",
+    "options": ["Principle of continuity", "Principle of uniformity of pattern", "Development has individual differences", "Development is cumulative"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "‘Development proceeds more rapidly in infancy and slows down in the later years of childhood’, reveals this",
+    "options": ["Principle of continuity", "Principle of uniformity", "Development is not uniform in all the stages", "Development has individual differences"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "“Although development follows an orderly sequence, each child has his own rate of development and quality.” This statement states this",
+    "options": ["Principle of continuity", "Principle of uniformity", "Development has individual differences", "Development is cumulative"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "While a child crawls at an age of 5 months, another child may crawl at 6 months. This is an example for",
+    "options": ["Principle of continuity", "Principle of uniformity", "Development has individual differences", "Development is cumulative"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "While a child stands at an age of 8 months, another child may stand at an age of 10 months. This is an example for",
+    "options": ["Principle of continuity", "Principle of uniformity", "Development has individual differences", "Development is cumulative"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "According to this principle, ‘Development starts from head and proceeds towards heel.’",
+    "options": ["Cephalo caudal", "Proximodistal", "Principle of Continuity", "Principle of Uniformity"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "According to this principle of development, ‘Development proceeds from centre to the periphery.’",
+    "options": ["Cephalo caudal", "Proximodistal", "Principle of Continuity", "Principle of Uniformity"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Child’s control over fingers is gained after obtaining control over the arms and the hand is an example for",
+    "options": ["Cephalo caudal", "Proximodistal", "Principle of Continuity", "Principle of Uniformity"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "A child with low physical development will obviously be low in mental development. This is an example for",
+    "options": ["Development is interdependent", "Development has individual differences", "Development is cumulative", "Development is predictable"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "A child with low mental development will be obviously be backward in social development. This is an example for",
+    "options": ["Development has individual differences", "Development is interdependent", "Development is cumulative", "Development is predictable"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "A child with low social development will be obviously backward in moral development. This is an example for",
+    "options": ["Development has individual differences", "Development is interdependent", "Development is cumulative", "Development is predictable"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This indicates that the result of every change in a child is only due to previous experiences.",
+    "options": ["Development has individual differences", "Development is interdependent", "Development is cumulative", "Development is predictable"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "One can estimate the height of a child after 20 years based on the height at the age of 2 years. The principle of development here is",
+    "options": ["Development has individual differences", "Development is cumulative", "Development is interdependent", "Development is predictable"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "If a child wants to hold anything, he moves his arm to hold it and then gradually learns to hold it with fingers. The developmental principle here is",
+    "options": ["Development has individual differences", "Development is cumulative", "Development is interdependent", "Development is from general to specific"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "A child with low moral development will be obviously backward in emotional development. This is an example for",
+    "options": ["Development has individual differences", "Development is interdependent", "Development is cumulative", "Development is predictable"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "A child first gains control over his head and then on his hips before standing on his feet to walk. This is an example for",
+    "options": ["Cephalo caudal", "Proximodistal", "Principle of Continuity", "Principle of Uniformity"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Development is a continuous process from womb to tomb. The principle of development is",
+    "options": ["Principle of continuity", "Principle of uniformity", "Development has individual differences", "Development is cumulative"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "While a child may walk at an age of 12 months, another child may walk at the age of 15 months. This is an example for this principle of development.",
+    "options": ["Principle of continuity", "Principle of uniformity", "Development has individual differences", "Development is cumulative"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "In a classroom, all students cannot perform equally in studies. This indicates",
+    "options": ["Principle of continuity", "Principle of uniformity", "Development is cumulative", "Development has individual differences"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "A child’s socialization process starts with his",
+    "options": ["Mother", "Brother", "Teacher", "Friend"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "“Social development is attaining of maturity in social relations.” is defined by",
+    "options": ["Sorenson", "Hurlock", "Garret", "Piaget"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is not a characteristic of a socially matured person",
+    "options": ["Friendly in nature", "Accepting others", "Cooperating with others", "Fighting with others"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Understanding various life styles, rules and regulations of the society and living accordingly’ is called",
+    "options": ["Physical Development /", "Moral Development", "Socialization", "Language Development"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "In this type of play, children don’t play with each other yet they take support from others.",
+    "options": ["Parallel Play", "Gang Play", "Associative Play", "Solitary play"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "A girl is playing with her doll by imitating other girl nearby her. This play is.",
+    "options": ["Cooperative Play", "Gang Play", "Parallel Play", "Solitary Play"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Friendly competition with cooperation does not promote",
+    "options": ["Team Spirit", "Friendliness", "Unity", "Fighting"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "In this type of play, children play along with other children independently without involving in their play.",
+    "options": ["Solitary Play", "Joyful Play", "Parallel Play", "Cooperative Play"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The development related to the terms Masculine and Feminine is",
+    "options": ["Cultural development", "Social development", "Language development", "Gender development"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Incorrect meaning of ‘Emovere’",
+    "options": ["to stir up", "to agitate", "to excite", "to have pleasure"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "‘Classification on types of fear’ is related to",
+    "options": ["Jean Piaget", "Galton", "Lowton", "Freud"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is not the type of classification of ‘Lowton’ regarding fear",
+    "options": ["fear of things", "fear of direct imitations", "fear of sorrowful incidents", "fear towards teachers"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "“A child who observes his parents’ behaviour at the time of cyclone, imitates it and shows the fear of cyclone.” According to Lowton, the type of fear here is",
+    "options": ["fear of things", "fear of direct imitations", "fear of sorrowful incidents", "fear of age"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "If the parents compare their children with other children, they exhibit",
+    "options": ["Anger", "Mirthfulness", "Curiosity", "Happiness"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Jealous is a/an",
+    "options": ["pleasant emotion", "unpleasant emotion", "no emotion", "a positive emotion"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The process of children trying to control themselves from the emotional stress is",
+    "options": ["Oedipus complex", "Electra complex", "Emotional catharsis", "Repression"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Increase in heartbeat, more blood supplied to muscles and sweating are the symptoms of",
+    "options": ["kindness", "curious", "anxiety", "happiness"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is not a quality of an emotionally matured person",
+    "options": ["Self confidence", "Humble", "control over senses", "unstable"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is not an emotion of pleasure",
+    "options": ["Jealousy", "Happiness", "Love", "Kindness"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The word ‘Emovere’ is derived from this language",
+    "options": ["French", "Latin", "Arabic", "English"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is not an Emotion of sadness",
+    "options": ["anger", "Jealous", "Love", "Vengeance"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The play in which children enjoy sweeping the floor, cooking with spoons like their parents is",
+    "options": ["Exploratory Play", "Imitative Play", "Solitary Play", "Parallel Play"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The author of the book “Hereditary Genius” is",
+    "options": ["Gordan", "Freeman", "Pearson", "Galton"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Give me a dozen of healthy individuals irrespective of their traits, I will make them Doctors, Engineers, Teachers, Clergymen and still if you need I will make them dacoits and thieves,” stated by",
+    "options": ["Freeman", "Pearson", "J.B. Watson", "Bagley"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The author of the book “Educational Determinism” is",
+    "options": ["J.B. Watson", "Pearson", "Bagley", "Gordan"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Factors that affect development of an individual",
+    "options": ["Heredity only", "Environment only", "Instincts", "Heredity and Environment"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "‘Bharat Ratna Latha Mangeshkar and Asha Bhosle are the daughters of eminent musician Hrudayanath Mangeshkar.” The major factor that influenced their development is",
+    "options": ["Attitude", "Heredity", "Personal Factor", "Economic Factor"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "‘In 1920, the twins Amala and Kamala behaved like Wolves as they grew in forest.’ The factor that influenced their development is",
+    "options": ["Heredity", "Social Factor", "Environment", "Individual Factor"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Freeman observed the identical twins Mithred and Ruth who were brought up in different places, differed in their IQ. The main factor that influenced their development is",
+    "options": ["Environment", "Heredity", "Age", "Aptitude"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The play in which parents or others play the game when a child is unable to take part in it is",
+    "options": ["Competitive Play", "Solitary Play", "Parallel Play", "Surrogate Play"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Games like taking the role of Teacher Students, Bus Driver Conductor are the examples of this type of plays",
+    "options": ["Solitary Play", "Parallel Play", "Dramatization Play", "Competitive Play"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "These plays/ games provide opportunities for children to show their ideas and feelings",
+    "options": ["Competitive Play", "Expressive Play", "Cooperative Play", "Associative Play"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The games in which rules and regulations are followed strictly",
+    "options": ["Solitary Play", "Associative Play", "Competitive Play", "Parallel Play"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "In small children this play does not promote",
+    "options": ["Emotional Development", "Cognitive Development", "Physical Development", "Economic Development"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Incorrect statement related to development",
+    "options": ["Sexual Development is a biological aspect", "Gender Development is related to the society", "Sexual Development is a social tendency", "Gender Development may be effected by male and female roles"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "“Culture is the man made part of the environment.” This is defined by",
+    "options": ["Dugdale", "M.J.Herkovits", "Pearson", "W.C.Bagley"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Children do not learn the male female roles through this",
+    "options": ["Physical Appearance", "Ways of Communication", "Behaviour", "Intelligence"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "According to Kohlberg theory of moral development, identify the correct sequence of gender development is A) Gender identification B) Gender Stability C) Gender Consistency",
+    "options": ["A, B, C", "A, C, B", "B, A, C", "B, C, A"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "“Children identify themselves as boy or girl.” This refers to",
+    "options": ["Gender identification", "Gender Stability", "Gender Equality", "Gender Consistency"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Self concept is developed at this stage",
+    "options": ["Neonatal stage", "Adulthood", "Later Childhood", "Middle Age"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is not a component of ‘Sense of Self’",
+    "options": ["Self Description", "Self Recognition", "Self Respect", "Self Governance"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The process of adapting beliefs, attitudes and values is called",
+    "options": ["Social Comparison", "Self Control", "Internalization", "Self Respect"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The study that is concerned with the different stages of human life from birth to death is",
+    "options": ["Animal psychology", "Abnormal psychology", "Experimental psychology", "Developmental psychology"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The stage in which a children learn to walk and talk is ,",
+    "options": ["Early childhood", "Adolescence stage", "Later childhood", "Adulthood"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "In early childhood child achieves this milestone from the following",
+    "options": ["Selfconcept", "Get along with age mates", "Get ready to play appropriate male/female roles", "To take solid food"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is not a hazard faced in later childhood.",
+    "options": ["Lack of motivation", "Low intelligence", "Lack of guidance", "Lack of appetite"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The applied psychology from the following",
+    "options": ["General psychology", "Abnormal psychology", "Social psychology", "Educational psychology"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The branch of psychology that deals with general norms, principles and theories relates to the behaviour of normal organisms. .",
+    "options": ["General psychology", "Experimental psychology", "Para psychology", "Educational psychology"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Human development was classified into ten different stages by",
+    "options": ["Galton", "Stern", "Elizabeth Hurlock", "J. B Watson"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "According to psychologists, Pre Gang age is",
+    "options": ["Adulthood", "Early childhood", "Later childhood", "Infancy"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "According to psychologists, this is not the feature of Early childhood. ,",
+    "options": ["Pre Gang age", "Exploratory age", "Creative age", "Gang age"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "According to psychologists, this is not the feature of Later childhood , .",
+    "options": ["Gang age", "Conformity age", "Exploratory age", "play age"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The psychologist who identified various developmental tasks for each stage of human development is",
+    "options": ["Galton", "Jean Piaget", "Havighurst", "Skinner"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "As per parent’s feedback, ‘troublesome age’ is ‘ ’",
+    "options": ["Infancy", "Early childhood", "Later childhood", "Middle age"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Pure/scientific psychology from the following. / .",
+    "options": ["Educational psychology", "Industrial psychology", "Clinical psychology", "General psychology"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Physical development is rapid in this stage of development.",
+    "options": ["Infancy", "Later childhood", "Adulthood", "Middle age"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "In human development first tooth appear during",
+    "options": ["6 - 8 months", "2 - 3 months", "3 - 4 months", "4 - 5 months"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The proportion of brain’s weight of a new born child to that of adult’s brain is approximately",
+    "options": ["1/4", "1/6", "1/3", "1/2"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Exploratory age is also called as",
+    "options": ["Questioning age", "Sloppy age", "Gang age", "Critical age"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The incorrect statement regarding infancy",
+    "options": ["The rate of growth in weight is more in first year", "The rate of growth in height is more in second year", "The first tooth appears between the age of 6 - 8 months", "The growth rate of height and weight are same"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The branch of psychology deals with behaviour of individual in the society",
+    "options": ["Abnormal psychology", "Social psychology", "Experimental psychology", "Developmental psychology"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The period of early childhood as per Elizabeth Hurlock classification(in years) ) (",
+    "options": ["3 - 5", "4 - 15", "3 - 13", "10 - 15"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The branch of Psychology that deals with the study on animals",
+    "options": ["Normal Psychology", "Abnormal Psychology", "Animal Psychology", "Social Psychology"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "According to Kohlberg theory of moral development, ‘Selfinterest orientation’ belongs to the following level ’",
+    "options": ["Pre conventional Morality", "Conventional Morality", "Post conventional Morality", "High level Morality"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "According to Kohlberg, “Children obey adults to avoid punishment” in this level “ ”",
+    "options": ["Conventional level", "Pre Conventional level", "Post conventional level", "Formal operational level"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Number of levels and stages in Kohlberg’s theory of Moral Development (respectively) ) (",
+    "options": ["6, 3", "3, 6", "2, 3", "3, 3"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Moral Development Theory is developed by",
+    "options": ["Lawrence Kohlberg", "Jean Piaget", "Galton", "J.B. Watson ."],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The theory of Language Acquisition was proposed by",
+    "options": ["Skinner", "Noam Chomsky", "Bandura", "Kohlberg"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Kohlberg’s theory is primarily concerned with this development.",
+    "options": ["Physical Development", "Cognitive Theory of Moral Development", "Social Development", "Language Development"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "In Noam Chomsky’s Language Development Theory, LAD means LAD",
+    "options": ["Language Acquisition Device", "Language Attaining Development", "Learning Adequate Device", "Level of Achieving Dialogues"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Theorist to support that language is learnt through observation",
+    "options": ["Bandura", "Skinner", "Noam Chomsky", "Kohlberg"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is not a pre speaking style",
+    "options": ["Crying", "Emotional expression", "Gestures", "Talking"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Language learning is possible through imitation and reinforcement according to",
+    "options": ["Skinner", "Thorndike", "Chomsky", "Kohlberg"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "According to Kohlberg, Obedience Punishment orientation is seen in this level , .",
+    "options": ["Pre Conventional Morality", "Conventional Morality", "Post Conventional Morality", "Individual Ethics and Conscience ,"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "It disappears due to Tv’s, video games and tabs , ,",
+    "options": ["Street food", "Street culture", "Street light", "Street shops"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "According to Kohlberg’s theory of Moral Development, ‘Give and take policy’ is seen in ,",
+    "options": ["Obedience Punishment orientation ,", "Self interest orientation", "Good boy, good girl orientation ,", "Authority and social order obedience ,"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "According to Kohlberg’s Moral developmental theory ‘the good boy good girl attitude’ reflects in this stage ‘ ’",
+    "options": ["Stage 1 1", "Stage 2 2", "Stage 3 3", "Stage 4 4"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "According to Kohlberg’s Moral Developmental theory, laws or contracts can be changed for the benefit of the society in this higher stage ,",
+    "options": ["Obedience Punishment", "The Good boy Good girl attitude", "Authority and social order obedience", "Selfinterest orientation"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "According to Social Cognitive Learning Theory, language is learnt through",
+    "options": ["Conditioning", "Insight", "Observation", "Reinforcement"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Correct statement related to language development",
+    "options": ["Takes place uniformly in all children", "On an average, language development is earlier in girls when compared to boys", "Language development is earlier in boys when compared to girls", "No relationship between gender and language development"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Children with slow language development show this quality",
+    "options": ["Backwardness in the formal education", "More socialization", "Express thoughts and feelings precisely ,", "Peer group accept them"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "According to Kohlberg’s theory, ‘If you give me mobile I will do homework’ this behaviour belongs to ‘ ’",
+    "options": ["Level 2, Stage 1 2 , 1", "Level 1, Stage 2 1 , 2", "Level 3, Stage 1 3 , 1", "Level 1, Stage 1 1 , 1"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Correct sequence of Kohlberg’s Moral Development Theory a. Pre conventional morality b. Conventional morality c. Post conventional morality",
+    "options": ["a, b, c", "a, c, b", "b, c, a", "b, a, c"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "In Kohlberg’s Theory of Moral Development, individual ethical principles and conscience principle belongs to this stage",
+    "options": ["2nd stage", "6th stage", "3rd stage", "4th stage"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "‘Cognition’ is an English term that is derived from this language",
+    "options": ["Latin", "Russain", "Spanish", "Arabic"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Law of Figure and Ground is explained by",
+    "options": ["Guilford", "Galton", "Rubin", "Skinner"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "A girl makes her books into groups based on similar characteristics like colour, shape etc., here she follows",
+    "options": ["Law of Figure and Ground", "Law of Similarity", "Law of Proximity", "Law of Closure"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Incorrect Law of Perceptual Organisation is",
+    "options": ["Law of Continuity", "Law of Proximity", "Law of Readiness", "Law of Similarity"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is not a personal factor that influences Perception",
+    "options": ["Interest", "Attitude", "Nearness", "Previous Experience"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Incorrect characteristics of Perception is",
+    "options": ["It depends upon sensation", "It is a process involving synthesis and analysis", "It involves keen observation", "This is not a Coordination action."],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "A girl can sing well but she can’t dance well, it is called as",
+    "options": ["Inter individual Differences", "Intra individual Differences", "No differences", "Both Inter and intra Individual differences"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Incorrect objective factors regarding Perception is",
+    "options": ["Wholeness", "Similarity", "Attitude", "Nearness"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Wrong perceptions are called as",
+    "options": ["Illusions", "Fantasy", "Day dreaming", "Meta cognition"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The first book to describe about ‘Individual Differences” is",
+    "options": ["Inquiry into Human Faculty and its Development", "Democracy and Education", "Emile", "Educational Determination"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Problem solving, decision making, reasoning are some examples of",
+    "options": ["Maturation", "Growth", "Cognition", "Emotions"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Cognition does not include",
+    "options": ["Perception", "Thinking", "Problem solving", "Imitation"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Grouping similar objects together is",
+    "options": ["Law of Similarity", "Law of Proximity", "Law of Figure and Ground", "Law of Continuity"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Law of closure is",
+    "options": ["Tendency to perceive that are close to one another.", "Grouping objects based on similarity", "Tendency to look incomplete figures as a meaningful single whole unit", "Objects aligned along a line are perceived as one unit"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Law of Proximity is the principle of",
+    "options": ["Thorndike’s Law", "Perceptional Organisation", "Classical Conditioning Law", "Operant Conditioning Law"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The tendency to perceive objects that are close to one another refers",
+    "options": ["Law of Closure", "Law of Figure Ground Relationship", "Law of Continuity", "Law of Proximity"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "‘Imagining a rope as a snake during night time’ is an example of",
+    "options": ["Creativity", "Illusions", "Hallucinations", "Reality"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Incorrect statement regarding Cognition is",
+    "options": ["It is a mental process", "It means acquiring knowledge", "Problem solving, reasoning are the examples of Cognition", "Cognition is a physical process"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Cognition refers to",
+    "options": ["Forgetting", "Acquiring knowledge", "Regression", "Conflict"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Differences between persons are",
+    "options": ["Inter Individual Differences", "Intra individual Differences", "Discrimination", "Learning"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "A can speak English well, B can speak Hindi well. It is an example of ‘A’ , ‘B’",
+    "options": ["Inter Individual Differences", "Intra individual Differences", "Memory", "Emotion"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The incorrect statement regarding creativity",
+    "options": ["Creativity is universal", "Creativity is not natural", "Creativity has novelty", "Creativity is a process"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The correct order of creativity stages A) Preparatory stage B) Latency stage C) Insight stage D) Proving stage",
+    "options": ["A, B, C, D", "A, C, D, B", "B, D, C, A", "A, B, D, C"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Producing ideas that are both new and useful is",
+    "options": ["Knowledge", "Creativity", "Growth", "Development"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "In the process of creativity, solution will be emerged in the form of sudden flash in this stage",
+    "options": ["Preparatory stage", "Latency stage", "Insight stage", "Proving stage"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Thinking about ones own thoughts is called",
+    "options": ["Meta cognition", "Intelligence", "Thinking", "Creativity"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "“Solids expand on heating. Gold, Silver, Iron are solids. So they expand on heating” is an example of",
+    "options": ["Inductive reasoning", "Deductive reasoning", "Inductive thinking", "Creativity"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is not a step/part in Metacognition",
+    "options": ["Planning", "Supervision", "Evaluation", "Insight"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Incorrect option regarding thinking.",
+    "options": ["Mental activity", "Goal oriented activity", "Problem solving activity", "Rote memorizing"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The financial state of India in 2050 is an example of",
+    "options": ["Associative thinking", "Concrete thinking", "Imaginative thinking", "Logical thinking"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "A student is giving different solutions for a problem, here the student has this type of thinking",
+    "options": ["Imaginative thinking", "Concrete thinking", "Divergent thinking", "Convergent thinking"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "A boy is telling 2 × 2 = 2+ 2 =5 1 = 4 × 1 = 8/2 Then it is an example for 8",
+    "options": ["Convergent thinking", "Divergent thinking", "Imaginative thinking", "Associative thinking"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is not a ‘Directed thinking’",
+    "options": ["Concrete thinking", "Abstract thinking", "Day dreaming", "Convergent thinking"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "When a girl sees her school where she studied, she recollected her friends, teachers etc. Here her thinking is",
+    "options": ["Convergent thinking", "Divergent thinking", "Imaginative thinking", "Associative thinking"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "'Day dreaming’ is an example of this thinking",
+    "options": ["Non Directed thinking", "Associative thinking", "Divergent thinking", "Abstract thinking"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Inductive reasoning moves from",
+    "options": ["General to Particular", "Specific to General", "Emotions to Actions", "Actions to Emotions"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Deductive reasoning proceeds from",
+    "options": ["General to specific", "Specific to General", "Actions to Emotions", "Emotions to Actions"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Guilford strongly emphasized this thinking",
+    "options": ["Concrete thinking", "Abstract thinking", "Divergent thinking", "Associative thinking"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "A student is collecting data to write her new book, According to Wallas, she/he is in this stage.",
+    "options": ["Incubation stage", "Preparatory stage", "Illumination stage", "Verification stage"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is not a stage of creativity.",
+    "options": ["Preparatory stage", "Latency stage", "Oral stage", "Verification stage"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The concept that is not related to creativity.",
+    "options": ["Divergent", "Flexibility", "Novelty", "Rigidity"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Creativity is new process that will concern about any art, language, music or science, is defined by",
+    "options": ["Wallas", "Ausbell", "Medwick", "Hutchinson"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The concept of Intelligence Quotient (IQ) was proposed by",
+    "options": ["Stern", "Torrence", "Wallas", "Alfred Binnet"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The age that is calculated from birth is called",
+    "options": ["Mental Age", "Chronological Age", "Intelligence Age", "Emotional Age"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The type of intelligence that is not proposed by Thorndike",
+    "options": ["Abstract Intelligence", "Language Intelligence", "Social Intelligence", "Mechanical Intelligence"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Intelligence Quotient =",
+    "options": ["Mental Age / Chronological Age × 100", "Chronological Age / Mental Age × 100", "Mental Age / Chronological Age", "Chronological Age / Mental Age"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "When more than one person are tested at a time using an intelligence test, then the test is called",
+    "options": ["Group Test", "Individual Test", "Personality Test", "Power Test"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "In 1980, the intelligence test in French language was designed by",
+    "options": ["Terman", "Spearman", "Alfred Binnet", "Terman and Merril"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "“The ability to think abstractly is intelligence,” is defined by",
+    "options": ["Mc Dougal", "Galton", "Terman", "Spearman"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "A10 years old girl has 15 years mental age, then her Intelligence Quotient",
+    "options": ["130", "100", "120", "150"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The concept of ‘Mental Age’ was suggested by",
+    "options": ["Stern", "Alfred Binnet", "Terman", "Galton"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The age that is decided based on the achievement in intelligence test is",
+    "options": ["Chronological age", "Mental age", "Biological age", "Emotional age"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Intelligence does not help a person",
+    "options": ["to understand the relations", "to use abstract concepts", "to adjust", "to imitate without comprehension"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The ability to organise physically seen objects is called as",
+    "options": ["Musical Intelligence", "Mechanical Intelligence", "Social Intelligence", "Language Intelligence"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "A girl understands her surroundings and responds carefully according to the feelings of others. Here she has this type of intelligence",
+    "options": ["Abstract Intelligence", "Mechanical Intelligence", "Social Intelligence", "Musical Intelligence"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Binnet Simon Tests are examples of",
+    "options": ["Intelligence Tests", "Personality Tests", "Creativity Tests", "Attitude Tests"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is not a type of Intelligence Test",
+    "options": ["Verbal Nonverbal Test", "Power Speed Test", "Projective Non projective Test", "Individual Group Test"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "I.Q. stands for I.Q.",
+    "options": ["Intelligence Question", "Important Quality", "Intelligence Quotient", "Interpersonal Quotient"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The Intelligence Test that is associated with time",
+    "options": ["TAT TAT", "CAT CAT", "Speed Test", "Performance Test"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "A girl’s mental age is 12, her chronological age is 10. Then her I.Q. is",
+    "options": ["120", "90", "100", "70"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "‘Koh’s Block Design Test’ is an example of",
+    "options": ["Paper pencil tests", "Creativity tests", "Performance tests", "Learning tests"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Army Alpha Test is an example for",
+    "options": ["Speed Test", "Power Test", "Creativity Test", "Learning Test"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Intelligence Polygon curve is proposed by",
+    "options": ["Alfred Binnet", "Stern", "Spearman", "Terman Mirral"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "According to Binnet Termen and Stern theory, intelligence is",
+    "options": ["Single factor", "Two factors", "Multi factors", "Group factors"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "J. P Guilford’s intelligence theory is also called as J. P. .",
+    "options": ["Single factor theory", "Two factor theory", "Multi factor theory", "Theory of Structure of Intelligence"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The Author of the book “Primary Mental Abilities” is “ / Primary Mental Abilities”",
+    "options": ["Lewie Thurstone", "J.P. Guilford", "Spearman", "Stern"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "In the test called C.A.V.D which is prepared by Thorndike, ‘V’ refers to C.A.V.D ‘V’",
+    "options": ["Visual", "Verbal", "Vocabulary", "Virus"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "According to Lewie Thurstone’s Group Factor Theory for every task there are seven primary competencies, excluded one among this",
+    "options": ["Word fluency", "Memory", "Reasoning", "Beauty"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The incorrect statement regarding ‘Two Factor Theory’.",
+    "options": ["Proposed by Spearman", "Composed of two factors", "General factor is not constant", "S factor = S1 + S2+ S3+ ……… Sn S = S1 + S2+ S3+ ……… Sn"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The type of content that is not proposed by ‘Guilford’",
+    "options": ["Figural", "Symbolic", "Semantic", "Memory"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Intelligence that is majorly seen in ‘Book writers’",
+    "options": ["Logical intelligence", "Language intelligence", "Musical intelligence", "Spatial intelligence"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "A girl can understanding the feelings, motives, wishes of others. The intelligence in her",
+    "options": ["Musical Intelligence", "Body Kinesthetic Intelligence", "Inter Personal Intelligence", "Intra Personal Intelligence"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The incorrect statement regarding Theory of Intelligence.",
+    "options": ["Two factor theory consists of G Factor and S factor G S", "S factor = S1 + S2+ S3+ ……… Sn S = S1 + S2+ S3+ ……… Sn", "Uni Factor Theory was proposed by Spearman", "Multi Factor Theory was proposed by Thorndike."],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Multi Factor Theory of Intelligence is associated with",
+    "options": ["Spearman", "E. L Thorndike E. L.", "Thurstone", "J. P Guilford J. P."],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Two Factor Theory of Intelligence is associated with",
+    "options": ["Spearman", "E. L Thorndike E. L.", "Thurstone", "J. P Guilford J. P."],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Group Factor Theory of Intelligence is associated with",
+    "options": ["Spearman", "E. L Thorndike E. L.", "Thurstone", "J. P Guilford J. P."],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "‘Theory of Structure of Intelligence’ was proposed by",
+    "options": ["Spearman", "E. L Thorndike E. L", "Thurstone", "J. P Guilford J. P"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "‘Factor Analysis’ is used in the intelligence theory.",
+    "options": ["J. P Guilford J. P", "E. L Thorndike E. L.", "Thurstone", "Spearman"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is not associated with J. P Guilford J. P",
+    "options": ["Content", "Operations", "Products", "Languages"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Incorrect one according to J. P. Guilford J. P. .",
+    "options": ["Content (5)", "Operations (5)", "Products (6)", "Languages (6)"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "In general, language intelligence is seen in",
+    "options": ["Poets", "Scientists", "Dancers", "Sculptors"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The people like S.P Balasubrahmanyam and Ilayaraja are with this intelligence S. P ,",
+    "options": ["Body kinesthetic intelligence", "Spatial intelligence", "Logical intelligence", "Musical intelligence"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "A person enjoys the beauty of nature. Here he/she has this intelligence.",
+    "options": ["Spatial intelligence", "Musical intelligence", "Inter personal intelligence", "Aesthetic intelligence"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Painters like Ravi Varma, sculptors of Ajanta have the this type of intelligence.",
+    "options": ["Musical intelligence", "Language intelligence", "Logical intelligence", "Spatial intelligence"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "According to Jean Piaget, Cognitive construction is called as",
+    "options": ["Schema", "Assimilation", "Accommodation", "Equilibrium"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Combining the known knowledge with new knowledge is called as",
+    "options": ["Schema", "Accommodation", "Assimilation", "Equilibrium"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The number of stages in Jean Piaget’s cognitive development theory is",
+    "options": ["1", "2", "3", "4"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "According to jean Piaget’s Theory of Cognitive Development, a child can gain object permanence initially in this stage",
+    "options": ["Pre operational Stage", "Concrete Operational Stage", "Formal Operational Stage", "Sensory Motor Stage"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The age of Pre Operational stage (in years)",
+    "options": ["Above 11", "2 - 7", "0 - 2", "7 - 11"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "‘Animism’ is seen in this stage",
+    "options": ["Sensory Motor Stage", "Formal Operational Stage", "Pre Operational Stage", "Concrete Operational Stage"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The Second stage in Piaget’s Cognitive Development Theory is",
+    "options": ["Pre Operational Stage", "Sensory Motor Stage", "Concrete Operational Stage", "Formal Operational Stage"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "According to Jean Piaget’s Theory of Cognitive Development, ‘Ego centrism’ in the children is seen in this stage",
+    "options": ["Sensory Motor Stage", "Pre Operational Stage", "Concrete Operational Stage", "Formal Operational Stage"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "According to Jean Piaget’s Theory of Cognitive Development, Children can understand abstract concepts in this stage",
+    "options": ["Sensory Motor Stage", "Pre Operational Stage", "Concrete Operational Stage", "Formal Operational Stage"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The process of taking new information and fitting the new knowledge into the existing Schema is called",
+    "options": ["Assimilation", "Accommodation", "Equilibrium", "Animism"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is not associates with Jean Piaget’s Cognitive developmental theory",
+    "options": ["Schemata", "Assimilation", "Accommodation", "Ego"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The concept that quantity remains the same despite a change in shape / appearance is",
+    "options": ["Conservation", "Animism", "Egocentrism", "Sensations"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "According to this concept of Piaget, a child believes that Moon has life",
+    "options": ["Egocentrism", "Animism", "Conservation", "Schemata"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "According to Jean Piaget’s Theory of Cognitive Development, lack of conservation is seen in",
+    "options": ["Formal Operational Stage", "Sensory Motor Stage", "Pre Operational Stage", "Concrete Operational Stage"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "According to Jean Piaget’s Theory of Cognitive Development, child understands the concept of conservation during this stage",
+    "options": ["Formal Operational Stage", "Sensory Motor Stage", "Pre Operational Stage", "Concrete Operational Stage"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "According to Jean Piaget’s Theory of Cognitive Development, a child can gain the skills of abstract thinking, hypothetical, reasoning, problem solving in this stage",
+    "options": ["Formal Operational Stage", "Sensory Motor Stage", "Preoperational Stage", "Concrete Operational Stage"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "According to Jean Piaget’s Theory of Cognitive Development, a child can gain the ability of classifying objects in this stage",
+    "options": ["Sensory Motor Stage", "Preoperational Stage", "Concrete Operational Stage", "Formal Operational Stage"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Switzerland psychologist, Jean Piaget developed",
+    "options": ["Trial and Error Theory", "Cognitive Development Theory", "Moral Development Theory", "Classical Conditioning Theory"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Cognitive Development Theory was development by",
+    "options": ["Jean Piaget", "Galton", "Spearman", "Terman"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "According to Jean Piaget’s Theory of Cognitive Development, changing / altering existing schema and creating a new schema is",
+    "options": ["Assimilation", "Schema", "Accommodation", "Understanding"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "According to Jean Piaget’s Theory of Cognitive Development, the characteristics of inductive, deductive reasoning are seen in this stage",
+    "options": ["Concrete Operational Stage", "Preoperational Stage", "Sensory Motor Stage", "Formal Operational Stage"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The term personality is derived from this language.",
+    "options": ["Hindi", "Latin", "English", "French"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Meaning of the Latin word of personality is",
+    "options": ["Mask", "Face", "Head", "Mind"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "“Personality is a qualitative model of the traits of the person”, is defined by",
+    "options": ["R.B. Cattle R.B.", "E. Faris E.", "J.F. Brown J.F.", "Prince"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The factors that do not affect personality are",
+    "options": ["Physical Factors", "Socio Factors", "Cultural Factors", "Reflexes"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Thinking, Reasoning and Intelligence of children depend on this part of body.",
+    "options": ["Brain", "Face", "Body", "Spinal Cord"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Motor skills of a person depend on this part of body",
+    "options": ["Cerebrum", "Mid Brain", "Hind Brain", "Spinal cord"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The usual size of pituitary gland in human being",
+    "options": ["Onion", "Apple", "Pea", "Orange"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This gland is called the Master Gland in human body.",
+    "options": ["Pituitary Gland", "Thyroid Gland", "Para Thyroid Gland", "Adrenal Gland"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The gland that produces growth hormone in human body is",
+    "options": ["Adrenal Gland", "Para Thyroid Gland", "Thyroid Gland", "Pituitary Gland"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The gland that secretes hormone called Thyroxin in human body is",
+    "options": ["Pituitary Gland", "Thyroid Gland", "Para Thyroid Gland", "Adrenal Gland"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "In daily life, man has to wear different masks according to the roles to play. ‘Mask’ here refers to",
+    "options": ["Development", "Learning", "Personality", "Interest"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is not an element of personality regarding aptitude",
+    "options": ["Music", "Dance", "Painting", "Intelligence"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The source of mechanical intelligence is in this part of human body as proposed by Thorndike",
+    "options": ["Cerebrum", "Mid Brain", "Hind Brain", "Spinal cord"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This part in human body empowered with the controlling centres for anger and hunger",
+    "options": ["Hypothalamus", "Mid Brain", "Hind Brain", "Spinal cord"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "In human body, the total number of nerves in Brain and Spinal Cord are (in pairs)",
+    "options": ["40", "41", "42", "43"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The gland that influences sex organs in a human body is",
+    "options": ["Pituitary Gland", "Thyroid Gland", "Para Thyroid Gland", "Adrenal Gland"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is required to produce Thyroxin hormone in human body.",
+    "options": ["Salt", "Sugar", "Iodine", "Zinc"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "If children are lazy and passive, it shows the deficiency of",
+    "options": ["Thyroxin", "Sodium", "Zinc", "Potassium"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This part of human body is surrounded by Adrenal Gland like a cap",
+    "options": ["Heart", "Kidney", "Neck", "Mouth"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Adrenaline shows more influence on this",
+    "options": ["Movement", "Skills", "Emotions", "Habits"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "In human body, this hormone is called “Fight or Flight” Hormone",
+    "options": ["Testosterone", "Adrenalin", "Thyroxin", "Growth Hormone"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "According to Kretshmer, people who are short and stout",
+    "options": ["Pycnic", "Athletic", "Aesthetic", "Endomorphy"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is the dominant fluid in Sanguine according to Hippocrates",
+    "options": ["Blood", "Black Bile", "Yellow Bile", "Phlegm"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Abraham Lincon’s Personality is indicated as 1.1.7 by",
+    "options": ["Hippocrates", "Kretschmer", "Sheldon", "Jung"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The theorists who does not belong to Type Approach Theory of Personality",
+    "options": ["Allport", "Hippocrates", "Sheldon", "Jung"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is the dominant fluid in Melancholic according to Hippocrates",
+    "options": ["Blood", "Yellow Bile", "Black bile", "Phlegm"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "According to Kretschmer, a person with characteristics jolly, emotional stability and an extravort is called as",
+    "options": ["Pycnic", "Athletic", "Aesthetic", "Choleric"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is not suitable for Sheldon’s classification",
+    "options": ["Endomorphy", "Mesomorphy", "Ectomorphy", "Aesthetic"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "It does not belong to Hippocrates classification",
+    "options": ["Sanguine", "Mesomorphy", "Melancholic", "Choleric"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Personality is defined as a ‘dynamic organisation’ by",
+    "options": ["Canter", "Allport", "Cattel", "Eysenck"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Theorist who belongs to Trait Approach Theory of Personality",
+    "options": ["Cattel", "Freud", "Adler", "Kirk"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Match the following (i) Hippocrates (a) U.S.A. (ii) Kretshmer (b) Greece (iii) Sheldon (c) Germany",
+    "options": ["i a ii b iii c", "i a ii c iii b", "i b ii c iii a", "i c ii a iii b"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "‘Hippocrates’, the Father of Medicine belongs to this country.",
+    "options": ["U.S.A.", "India", "Sri Lanka", "Greece"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "According to Spranger’s classification of values, Bharat Ratna Sri.A.P.J. Abdul Kalam has these values.",
+    "options": ["Economic Values", "Aesthetic Values", "Political Values", "Theoretical Values"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "According to Spranger’s classification of values, Sri P.V. Narasimha Rao has these values.",
+    "options": ["Social Values", "Political Values", "Religious Values", "Economic Values"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "According to Spranger’s classification of values, Mr. Adhani has these values.",
+    "options": ["Political Values", "Economic Values", "Social Values", "Religious Values"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "According to Spranger’s classification of values, Sri Sundar Lal Bahuguna has these values.",
+    "options": ["Political Values", "Social Values", "Economic Values", "Religious Values"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is not a trait",
+    "options": ["Anger", "Humbleness", "Solitary", "Intelligence"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "According to Spranger’s classification of values, Lord Jesus has these values.",
+    "options": ["Religious Values", "Political Values", "Economic Values", "Social Values"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "According to Spranger’s classification of values, the Telugu film director, Sri.Bapu has these values.",
+    "options": ["Social Values", "Political Values", "Economic Values", "Aesthetic Values"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "According to Kretschmer, people who are energetic, optimistic and adjustable are",
+    "options": ["Pyknic", "Athletic", "Leptosomatic", "Endomorphic"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "According to Sheldon’s classification, easy going, sociable and affectionate personality characteristics are seen in",
+    "options": ["Endomorphic", "Mesomorphic", "Ectomorphic", "Athletic"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Girls desire for love and affection from their father is called",
+    "options": ["Libido", "Super Ego", "Oedipus Complex", "Electra Complex"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "In this stage, super ego is developed as per Sigmund Freud’s Psycho Analytical Theory",
+    "options": ["Oral stage", "Anal stage", "Latency stage", "Genital stage"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "According to Freud, conflict starts between love and jealousy in",
+    "options": ["Oral stage", "Anal stage", "Phallic stage", "Latency stage"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Number of stages in Eric Ericson’s theory",
+    "options": ["6", "7", "8", "9"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "It develops from teachers, parents and good friends",
+    "options": ["Id", "Ego", "Super Ego", "Libido"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "According to Sigmund Freud Psycho Sexual Development Theory, the stage in which hetero sexual affinity is seen",
+    "options": ["Anal stage", "Phallic stage", "Latency stage", "Genital stage"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Choose the correct option A: Psycho Analytical Theory Sigmund Freud B: Psycho Social Development Theory Eric Ericson A: B:",
+    "options": ["Only A is correct", "Only B is correct", "A, B correct", "A, B incorrect"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The characteristic that is biologically related.",
+    "options": ["Id", "Ego", "Super Ego", "Libido"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Sigmund Freud belongs to",
+    "options": ["USA", "France", "Italy", "Austria"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "It works on the moral principles and has ethical values",
+    "options": ["Super Ego", "Ego", "Libido", "Id"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Innate, raw, savage and immoral are the characteristics of",
+    "options": ["Id", "Ego", "Super Ego", "Libido"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "It operates by the means of secondary process",
+    "options": ["Id", "Ego", "Super Ego", "Libido"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "According to Psycho Analytical Theory, it acts as an executive unit",
+    "options": ["Id", "Ego", "Super Ego", "Libido"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "It is the conscious of an individual as per Psycho Analytical Theory",
+    "options": ["Id", "Ego", "Super Ego", "Libido"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Receiving experiences through sensory organs by an individual is called as",
+    "options": ["Conscious", "Sub Conscious", "Un conscious", "Ego"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This stores and recollects experiences",
+    "options": ["Conscious", "Sub Conscious", "Un conscious", "Super Ego"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is the deepest part of mind in the dynamic of personality",
+    "options": ["Conscious", "Sub Conscious", "Un conscious", "Id"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "As per Psycho Sexual Developmental Stage, the period of ‘oral stage’",
+    "options": ["From birth to one week", "From birth to one week", "From birth to one year", "From birth to ten years"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "In this stage, sexual organs act as the source of Libidinal gratification",
+    "options": ["Oral stage", "Anal stage", "Phallic stage", "Latency stage"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The Psycho Sexual Developmental Stage between 6 years to puberty",
+    "options": ["Oral stage", "Anal stage", "Phallic stage", "Latency stage"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The Psycho Sexual Developmental Stage in the period of Later adolescence and Early Adulthood is",
+    "options": ["Genital stage", "Latency stage", "Phallic stage", "Anal stage"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This test was developed by Murray and Morgan",
+    "options": ["CAT", "MMPI", "TAT", "Ink Blot Test"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Number of Black and White cards used in the Ink Blot Test",
+    "options": ["1", "2", "3", "5"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The suitable test used to know the level of traits in an individual is",
+    "options": ["Rating scale", "MMPI", "IBT", "TAT"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The disorder “feeling more excited” is seen in",
+    "options": ["Schizophrenia", "Paranoia", "Hypomania", "Depression"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "“Over suspecting, Superiority complex” are the abnormalities seen in the people with",
+    "options": ["Hysteria", "Hypomania", "Paranomia", "Psychopathic"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "In ‘Ink Blot Test’ ‘K’ indicates ‘K’ .",
+    "options": ["Colour", "Shading", "Form", "Movement"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This test has 10 cards with pictures of animals.",
+    "options": ["TAT", "CAT", "WAT", "MMPI"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The test that was developed by Galton is",
+    "options": ["Word Association Test", "Thematic Apperception Test", "Children’s Appreciation Test", "Minnesota Multiphasic Personality Inventory"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "According to Ink Blot Test ‘W’ indicates ‘W’ .",
+    "options": ["Large details", "Small details", "Colour", "Whole"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Psychometry test was designed by",
+    "options": ["Galton", "J.L. Moreno J. L.", "Morgan", "Kent"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "In Bell’s Adjustment Inventory, questions are classified into these many types.",
+    "options": ["2", "3", "4", "5"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "A person who behaves with antisocial thoughts is identified through MMPI as MMPI .",
+    "options": ["Psychopathic", "Hypomania", "Depression", "Paranoia"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The term “Projection” was first used by",
+    "options": ["Eric Ericson", "Freud", "Rorschach", "Morgan"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Total number of cards in an Ink Blot Test",
+    "options": ["5", "10", "3", "2"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "In Ink Blot Teat ‘D’ indicates ‘D’ .",
+    "options": ["Whole", "Large details", "Small details", "Space"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is a nonprojective test",
+    "options": ["CAT", "TAT", "IBT", "Interview"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "It is a tool to assess social relationship",
+    "options": ["CAT", "TAT", "TBT", "Sociometry"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The total number of cards used in TAT TAT",
+    "options": ["10 + 2", "20 + 1", "30 + 1", "40 + 1"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The maximum number of cards used only for male in TAT TAT",
+    "options": ["10", "30", "40", "50"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The maximum number of cards used only for woman in TAT TAT",
+    "options": ["10", "30", "40", "50"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The number of multi coloured cards in an Ink Blot Test",
+    "options": ["10", "5", "3", "2"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "When a mother punishes a child and asks him, “Does it hurt you?” The boy says ‘No’, though it is painful. The defence mechanism used by his here is “ ” ‘ ’",
+    "options": ["Inductive manipulation", "Repression", "Projection", "Displacement"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Forgetting about loans with the fear of debiting bank balance",
+    "options": ["Projection", "Rationalization", "Displacement", "Repression"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "'The whole world appears as corrupted to a corrupted person.’ This is an example for",
+    "options": ["Repression", "Projection", "Rationalization", "Displacement"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "‘A boy defends that the girl is ugly when she refuses to date with him’, the type of defence mechanism shown by the boy is ,",
+    "options": ["Repression", "Projection", "Rationalization", "Displacement"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "A clerk who is angry at his boss shows it on his wife. It is an example for this defence mechanism",
+    "options": ["Projection", "Displacement", "Regression", "Identification"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "A defence mechanism that is used mostly by people with mental nerve disorders is",
+    "options": ["Compensation", "Repression", "Projection", "Rationalization"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "‘Bed wetting young man’, use this defence mechanism",
+    "options": ["Regression", "Identification", "Compensation", "Fantasy"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The defence mechanism used by a person who feels happy about others achievements as his achievements when he is unable to achieve them",
+    "options": ["Displacement", "Projection", "Regression", "Identification"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "A student who is backward in studies shows his talent in games. The type of defence mechanism here is",
+    "options": ["Compensation", "Identification", "Regression", "Displacement"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "A childless woman joining in a school as a teacher is best example for this defence mechanism",
+    "options": ["Compensation", "Fantasy", "Denial", "Withdrawal"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This defence mechanism is also called as selective forgetting",
+    "options": ["Repression", "Projection", "Rationalization", "Displacement"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "“A student failed in examination says that his teacher didn’t teach him well” the defence mechanism shown by the student here is",
+    "options": ["Repression", "Projection", "Regression", "Displacement"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "When the fox could not get grapes it remarks them as sour grapes, is example for this defence mechanism",
+    "options": ["Repression", "Projection", "Rationalization", "Displacement"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "‘ Showing anger on vessels instead of anger on mother in law’ The defence mechanism that suits the best here is ‘ ’",
+    "options": ["Projection", "Rationalization", "Displacement", "Regression"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "A bride who is repeatedly going back to her parents’ house, applies this defence mechanism . .",
+    "options": ["Regression", "Identification", "Compensation", "Fantasy"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "‘A person who lost his job, cries like a child’, is example for this defence mechanism",
+    "options": ["Displacement", "Regression", "Identification", "Compensation"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Illiterate parents educate their children very well is example for defence mechanism",
+    "options": ["Displacement", "Regression", "Fantasy", "Compensation"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "A person succeeds in one area to compensate his failure in another is an example for this defence mechanism",
+    "options": ["Regression", "Identification", "Compensation", "Fantasy"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Day dreaming is a good example for this defence mechanism",
+    "options": ["Fantasy", "Denial", "Withdrawal", "Sublimation"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "According to Erik Ericson’s Psycho Social Development Theory, the age of ‘play stage’ is",
+    "options": ["1 year", "0 2 years 0/2", "3 5 years 3/5", "20 30 years 20/30"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "A person’s age is in between 30 60 years. According to Ericson’s theory, he belongs to this stage 30/60 . .",
+    "options": ["Late childhood", "Middle adulthood", "Early adolescence", "Play stage"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Modification of behaviour through experience and training is",
+    "options": ["Intelligence", "Aptitude", "Attitude", "Learning"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is not a characteristic of learning",
+    "options": ["Learning is a change in behaviour", "It is a change that takes place through practice", "The change in behaviour must be relatively permanent", "Learning is not affected by motivation"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This statement is incorrect.",
+    "options": ["Learning is goal directed", "learning is dynamic", "Pace of learning is same for all individuals", "Learning is the result of interaction between individual and environment. , ,"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Context of learning is / are (a) Family (b) School (c) Environment Society",
+    "options": ["Only a", "Only b", "Only c", "a, b and c"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Correct statement is",
+    "options": ["Learning is not influenced by environment", "Birth order influences learning", "Learning is temporary change in behaviour", "Learning is not continuous"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Factors related to the school that influence learning",
+    "options": ["Physical facilities in the school", "Parents aspirations", "Family Disorganisation", "Society"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The correct statement regarding learning.",
+    "options": ["Learning is an action oriented mental process", "Learning is not influenced by Environment", "Learning occurs through temporary bodily changes", "Learning is not dynamic"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Learning is",
+    "options": ["Goal directed", "Temporary change", "Do not change through practice", "A static process"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Correct statement related to contexts of learning.",
+    "options": ["Home is the first step for learning", "Learning is same for all", "Learning is not application of facts", "Cocurricular activities do not influence learning"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This occurs as a result of reinforcement and practice",
+    "options": ["Attitude", "Learning", "Memory", "Intelligence"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "First step in children’s learning",
+    "options": ["Friends", "School", "Home", "Society"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Permanent change that occurs which do not depends on maturity.",
+    "options": ["Attitude", "Interests", "Learning", "Memory"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Incorrect statement",
+    "options": ["Learning is a lifelong process", "Learning happens only in school", "Learning is affected by other factors", "Learning is a permanent change"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This statement is not related to nature of learning.",
+    "options": ["Learning occur in the same way among children", "Learning is influenced by teaching method", "Learning is a continuous process", "Learning takes place in home also"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Correct statement is​",
+    "options": ["Parents have no role in learning process", "Home is not the first step in learning", "Learning is change in behaviour", "Skill development does not come under learning"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is not considered as learning",
+    "options": ["Type writing", "Reading Poems", "Solving Mathematics problems", "Change in shape of a body"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Odd one regarding Learning.",
+    "options": ["Reinforcement", "Action", "Change", "Change occurs only for a period"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Factor not related to a learner",
+    "options": ["Maturity", "Intelligence", "Memory", "Institutional Plan"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is not a goal of Learning",
+    "options": ["Learning should be purposive", "Learning is transferable from one situation to another .", "Learning should be helpful in attaining teaching learning objectives", "Learning has nothing to do with the development of an individual"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is not an encouraging factor related to learning",
+    "options": ["Good relations among family members", "Providing good facilities at home", "High aspirations beyond student’s capacity", "Proper teacher pupil ratio"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Process of forming a strong bond between motivation and reinforcement is ,",
+    "options": ["Learning", "Maturation", "Concepts", "Motivation"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "It indicates the physical and mental preparedness of the learner",
+    "options": ["Intelligence", "Creativity", "Readiness", "Maturity"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Correct statement is​​",
+    "options": ["Maturity is not needed for effective learning", "Innate abilities with in the child is creativity.", "Emotions do not influence Mental Health", "Aptitudes are inborn abilities"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The phenomenon that drives a person towards a specific action or goal is",
+    "options": ["Intelligence", "Aptitude", "Attitude", "Motivation"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Number of tests in Differential Aptitude Test Battery",
+    "options": ["5", "10", "8", "9"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Emovere is a Emovere",
+    "options": ["German word", "French word", "Russian word", "Latin word"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This factor is related to learner in learning is",
+    "options": ["Age", "Curriculum", "Teaching Method", "Physical environment"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Negative emotion",
+    "options": ["Love", "Happiness", "Shy", "Confidence"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Inborn abilities in an individual is referred as",
+    "options": ["Interests", "Creativity", "Intelligence", "Aptitudes"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Rating Scales measure",
+    "options": ["Aptitudes", "Attitudes", "Interests", "Memory"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Incorrect statement​",
+    "options": ["Motivation is the basis for all types of behaviour", "Attitudes are the concepts developed in social behaviour", "Interests are the likes and dislikes of an individual", "Aptitudes are not inborn abilities."],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Positive emotion is",
+    "options": ["Anxiety", "Shyness", "Jealousy", "Happiness"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Negative emotions are reduced by",
+    "options": ["Doing Meditation", "Over Thinking", "Having too many Goals", "Poor peer relations"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Stirred up state of body and mind is",
+    "options": ["Maturation", "Emotion", "Learning", "Attitude"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "If the individual is motivated within himself, that motivation is",
+    "options": ["Extrinsic Motivation", "Intrinsic Motivation", "Achievement Motivation", "Maturity"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "It is not a negative emotion",
+    "options": ["Shy", "Anxiety", "Anger", "Confidence"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is not a positive emotion",
+    "options": ["Happiness", "Love", "Curiosity", "Disappointment"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Likes and dislikes of an individual",
+    "options": ["Attitudes", "Aptitudes", "Interests", "Emotions"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Differential Test Battery identifies",
+    "options": ["Aptitudes", "Attitudes", "Interests", "Creativity"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Inborn ability to do a work is",
+    "options": ["Interests", "Readiness", "Aptitude", "Maturity"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Correct statement regarding attitudes",
+    "options": ["Positive attitude declines learning", "Attitudes cannot be learnt through external behaviour", "Attitudes work with mental and emotional status of a person", "Attitudes are permanent"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Children learn these by imitation and conditioning",
+    "options": ["Intelligence", "Aptitude", "Emotions", "Reflexes"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Stage that is not in the process of memorisation",
+    "options": ["Encoding", "Retention", "Repression", "Retrieval"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Second stage in memorization process is",
+    "options": ["Retention", "Learning", "Recall", "Encoding"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Present learning interrupts in recalling past learning is",
+    "options": ["Repression", "Retroactive inhibition", "Proactive inhibition", "Abnormal forgetting"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Ebbinghaus conducted experiments on",
+    "options": ["Personality", "Interests", "Aptitudes", "Memory"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Past learning interferes in memorizing the present learning. This inhibition is",
+    "options": ["Passive Decay", "Proactive inhibition", "Retroactive inhibition", "Repression"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "A defense mechanism in which we deliberately tries to forget bitter experiences",
+    "options": ["Sublimation", "Rationalisation", "Repression", "Projection"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Incorrect statement is",
+    "options": ["Rate of forgetting is very rapid at early stages", "There is no total extinction of learned material", "Recall is the third step in the process of memory", "Learning is not an aspect of memory"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "“Doing experiments” belongs to this type of memory",
+    "options": ["Short Term Memory", "Long Term Memory", "Passive Memory", "Active Memory"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Zeiganik effect means",
+    "options": ["Remembering uncompelled tasks better than completed tasks", "Completed tasks are better remembered than uncompleted ones", "Pushing bitter incidents into unconscious", "Remembering the learned topics"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is not related to methods of improving memory",
+    "options": ["Motivation", "Recitation", "Inhibition", "Mnemonic devices"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "First stage in the process of memory",
+    "options": ["Encoding", "Retention", "Retrieval", "Recognition"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is not a cause for forgetting",
+    "options": ["Abnormal forgetting", "Inhibition", "Repression", "Learning"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Recollecting the learning experiences",
+    "options": ["Inhibition", "Recall", "Relearning", "Retention"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Preservation of memory traces in the brain is",
+    "options": ["Recognise", "Recall", "Retention", "Relearning"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Remembering the names of our parents is",
+    "options": ["Short term memory", "Logical memory", "Rote memory", "Long term memory"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Experience that things which we see now are already seen is",
+    "options": ["Zeigarnik effect", "Déjá Vu / Fake memory /", "Dementia", "Illusion"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "FEUD is a",
+    "options": ["Inhibition", "Abnormal forgetting", "Active Memory", "Passive Memory"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Learning the same learning material which was already learned after a period of time is",
+    "options": ["Recall", "Relearning", "Recognise", "Forget"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Saving Method related to",
+    "options": ["Relearning", "Learning", "Forgetting", "Memory"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Multiple choice questions are related to",
+    "options": ["Recognition", "Retention curve", "Rote memory", "Relearning"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Memory related to solving problems in Mathematics",
+    "options": ["Passive Memory", "Rote Memory", "Short term Memory", "Logical Memory"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The process by which a response comes to be elicited by a stimulus on an object other than to which it is the natural response is",
+    "options": ["Learning", "Conditioning", "Observation", "Discrimination"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Pavlov experiment is related to this conditioning",
+    "options": ["Classical Conditioning", "Operant Conditioning", "Trial and Error Method", "Observational Learning"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Ivan Pavlov conducted his classical conditioning experiments on",
+    "options": ["Chimpanzee", "Pigeon", "Dog", "Rat"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "B.F. Skinner conducted his experiments on",
+    "options": ["Rat", "Rabbit", "Dog", "Chimpanzee"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Incorrect law regarding Classical Conditioning",
+    "options": ["Law of Reinforcement", "Law of Generalization", "Spontaneous Recovery", "Law of Readiness"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The other name of Operant Conditioning is",
+    "options": ["S - R Conditioning S - R", "R - S Conditioning R - S", "Trail and Error Method", "Self learning"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Incorrect pair is",
+    "options": ["Thorndike Trial and Error Method", "Skinner Operant Conditioning", "Ivan PavlovObservational Learning", "KohlerInsightful Learning"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "S - type conditioning is S -",
+    "options": ["Trial and Error Method", "Classical Conditioning", "Operant Conditioning", "Theory of Construction"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Laws of learning related to Thorndike is",
+    "options": ["Law of Reinforcement", "Law of Extinction", "Law of Effect", "Law of Discrimination"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Choose the incorrect statement",
+    "options": ["Learner is passive in Classical Conditioning", "Thorndike theory is known as connectionism", "Programmed Learning is an outcome of Operant Conditioning", "Law of Frequency is related to Classical Conditioning"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Skinner’s Operant Theory is related to",
+    "options": ["Learning", "Memory", "Forgetting", "Personality"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "R Type conditioning is R Type",
+    "options": ["Classical Conditioning", "Operant Conditioning", "Trial and Error Learning", "Insightful Learning"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Thorndike carried his Trial and Error Learning experiments on",
+    "options": ["Dog", "Cat", "Rat", "Chimpanzee"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "In Pavlov Conditioning Unconditioned Stimulus (UCS) is (UCS)",
+    "options": ["Bell", "Dog", "Food", "Secretion of Saliva"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "In Pavlov Conditioning Unconditioned Response (UCR) is (UCR)",
+    "options": ["Bell", "Dog", "Food", "Secretion of Saliva"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Ivan Pavlov belongs to this country.",
+    "options": ["India", "Sri Lanka", "Russia", "Nepal"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This theory is also known as Connectionism.",
+    "options": ["Ivan Pavlov’s Classical Conditioning", "B.F. Skinner’s Operant Conditioning B.F.", "Thorndike’s Trial and Error Method E.L.", "Kohler’s Insightful Learning"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "In Pavlov Conditioning Conditioned Stimulus (CS) is (CS)",
+    "options": ["Food", "Bell", "Dog", "Secretion of Saliva"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is not a conditioning theory",
+    "options": ["Pavlov’s Theory", "Skinner’s Theory", "Thorndike’s Theory", "Freud’s Theory"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Method that explains Learning takes place when the number of efforts is increased and errors are reduced.",
+    "options": ["Trial and Error Method", "Instructional Learning", "Observational Learning", "Insightful Learning"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Learning related to Efforts and mistakes",
+    "options": ["Instructional Learning", "Insightful Learning", "Trial and Error Method", "Observational Learning"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The word ‘Gestalt’ means",
+    "options": ["Whole", "Learning", "Behaviour", "Attention"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The word Gestalt is derived from this language",
+    "options": ["French", "Latin", "Arabic", "German"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The Psychologist who conducted his experiments on Chimpanzee",
+    "options": ["E.L. Thorndike", "Ivan Pavlov", "Kohler", "B.F. Skinner"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Identify the incorrect pair",
+    "options": ["Ivan Pavlov Trial and Error Method", "B.F.Skinner Operant Conditioning", "Kohler Insightful Learning", "Bandura Social Learning Theory"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "‘Social Imitation Learning’ is proposed by",
+    "options": ["Kohler", "B.F. Skinner ..", "Ivan Pavlov", "Bandura"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Number of steps in learning through observation by Bandura",
+    "options": ["1", "2", "3", "4"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Solution to a problem is obtained as a sudden flash of thought is seen in",
+    "options": ["Trial and Error Method", "Insightful Learning", "Learning through imitation", "Theory of Instruction"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The psychologist who is not related to theories of stimulus and response",
+    "options": ["Ivan Pavlov", "B.F. Skinner", "E.L. Thorndike", "Kohler"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The law of learning suitable to the proverb, “You can lead a horse to water, but you cannot make it drink.”",
+    "options": ["Law of Exercise", "Law of Effect", "Law of Readiness", "Law of Generalization"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The process where a person identifies himself with a model and accepts the behavioural traits is",
+    "options": ["Internalization", "Hero Worship", "Identification", "Imitation"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Learning as ‘Total or Whole’ is in",
+    "options": ["Classical Conditioning", "Operant Conditioning", "Insightful Learning", "Observational Learning"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Learning by Modelling",
+    "options": ["Observational Learning", "Trial and Error Method", "Insightful Learning", "Programmed Learning"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "A person internalizing the behavioural traits of a Model person into his mental organization is",
+    "options": ["Attention", "Retrieval", "Internalization", "Reinforcement"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The learning which is more useful in Creativity, Problem Solving and Discrimination is",
+    "options": ["Conditioned Learning", "Social Learning", "Insightful Learning", "Labelled Learning"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "After conducting many experiments on Chimpanzees, the psychologist to write the book “The Mentality of Apes”",
+    "options": ["B.F. Skinner", "Kohler", "Ivan Pavlov", "E.L. Thorndike"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is an imitated learning",
+    "options": ["Conditioned Learning", "Insightful Learning", "Observational Learning", "Trial and Error Learning"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The learning in which children select their favourite person as their model and behave like them is",
+    "options": ["Trial and Error Learning", "Conditioned Learning", "Imitation Learning", "Insightful Learning"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "In observation learning, when a person wants to learn other’s behavioural traits, the first thing that he/she should do is",
+    "options": ["Paying attention to other’s behaviour", "Do not observe others", "Thinking about other’s bad behaviour", "Remembering the person"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The factor that enhances to continue or discontinue the behaviour in an individual is",
+    "options": ["Reinforcement", "Performance", "Attention", "Retention"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Learning by observation does not depend on",
+    "options": ["Attention", "Retention", "Reinforcement", "Conditioning"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The learning that plays a major role in socialization",
+    "options": ["Trial and Error Learning", "Observational Learning", "Classical Conditioning", "Operant Conditioning"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Correct statement according to Bruner",
+    "options": ["Learning is not influenced by interest and curiosity", "Learning material is more important than method of teaching", "His theory is also called as leaning by modelling", "Learning is construction of knowledge"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Correct statement related to Vygotsky Theory of Learning",
+    "options": ["Language has no role in the cognitive development of children", "Experts in a peer will support for the development of other children", "Product is more important than process", "Learning is not acquired through experiences"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Difference between what a learner can learn without help and what he or she can achieve with the guidance of others is termed as",
+    "options": ["Scaffolding", "Zone of proximal development", "Collaborative learning", "Construction of knowledge"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Foundation for pedagogical theories, curriculum designing and teaching activities is",
+    "options": ["Freud’s Theory of Psycho Sexual Development", "Social Learning Theory", "Bruner’s Theory of Instructions", "Kohlberg’s Theory of Moral Development"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Computers, internet will fulfil the gap in zone of proximal development for the construction of knowledge among children. This is called as",
+    "options": ["Social scaffolding", "Conditioning", "Reciprocal teaching", "Insightful learning"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Discovery learning is also known as",
+    "options": ["Vygotsky Learning theory", "Bruner’s Theory of Instruction", "Bandura’s Learning Through Imitation", "Bagley’s Theory of Ideals"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Statement not related to Vygotsky’s Theory of Learning",
+    "options": ["Children construct knowledge by themselves and with others", "Learning influences development", "Analysing is a higher mental process", "Thoughts and past experiences do not construct knowledge"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Correct statement according to Bruner’s Theory of Instruction",
+    "options": ["Learning is developed by intrinsic motivation", "Learning means teaching the content in the book only.", "Learning happens at early stages", "Learning does not depend on interest and curiosity of children"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "According to Vygotsky,‘Remembering’ is this type of mental process",
+    "options": ["Lower mental function", "Higher mental function", "Physical process", "Anatomical Function"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The concept of Reciprocal teaching is seen in",
+    "options": ["Bruner theory", "Bandura theory", "Vygotsky learning theory", "Freud theory"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is not in 5E Teaching method 5E",
+    "options": ["Engage", "Explore", "Explain", "Enjoy"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "First stage in 5E constructive theory 5E",
+    "options": ["Engage", "Explore", "Explain", "Evaluate"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Creative thinking is a",
+    "options": ["Higher mental function", "Lower mental function", "Not related to mental function", "Thinking in one way"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The last stage in 5E model of constructivism 5E",
+    "options": ["Explain", "Elaborate", "Engage", "Evaluate"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Learning in small groups is",
+    "options": ["Conditioning", "Model learning", "Collaborative learning", "Self learning"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is not related to Vygotsky learning theory",
+    "options": ["Reciprocal teaching", "Collaborative learning", "Trial and error method", "Social Scaffolding"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "In this stage of constructivism, students search for new things",
+    "options": ["Evaluate", "Explain", "Explore", "Engage"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Psychologist related to Learning Theory",
+    "options": ["Freud", "Cattles", "Bruner", "Kohlberg"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Person related to cognitivism",
+    "options": ["Freud", "Piaget", "Pavlov", "Skinner"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Correct statement according to Bruner’s Theory of Instruction​",
+    "options": ["Should give more importance to selflearning", "Teacher should play the key role in teaching learning process", "Should focus more on learning material", "Intrinsic motivation do not help learning"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Correct pair among the following A: Bruner Theory of Instruction B: Vygotsky Theory of Constructivism",
+    "options": ["Only A is correct", "Only B is correct", "Both A and B are correct", "Both A and B are incorrect"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Learning ceases without progress at this stage",
+    "options": ["Extinct", "Plateau stage", "Stage of fluctuation", "Initial spurt"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "National Institute for Mental Handicapped is located at National Institute for Mental Handicapped",
+    "options": ["Chennai", "Hyderabad", "New Delhi", "Mumbai"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is not related to learning disability",
+    "options": ["Dysphasia", "Dyslexia", "Dyscalculia", "Dementia"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Transfer of learning will not occur here",
+    "options": ["Positive Transfer", "Negative Transfer", "Zero Transfer", "Bilateral Transfer"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The type of learning curve formed when the learning concepts are very difficult initially, easy in the middle and very difficult in the final stages of learning is",
+    "options": ["U Shaped learning curve U", "Positively accelerated curve", "Negatively accelerated curve", "S Shaped learning curve S"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Learning disability in reading",
+    "options": ["Dyslexia", "Dysgraphia", "Dyscalculia", "Dysphasia"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Suitable statement related to inclusive schools",
+    "options": ["Treating children with special needs separately", "We cannot teach students with special needs", "Providing confidence to children with special needs as they can learn like others", "Showing discrimination towards children with special needs"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "National Institute for Hearing Impaired is located at National Institute for Hearing Impaired",
+    "options": ["Mumbai", "New Delhi", "Chennai", "Hyderabad"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This theory states that transfer of learning is possible, when there is similarity between two things",
+    "options": ["Theory of Identical elements", "Theory of Ideals", "Theory of Formal Discipline", "Theory of Transposition"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Cause for learning disability",
+    "options": ["Repetition", "Hyperactivity", "Attention", "Exercise"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is a writing disability",
+    "options": ["Alexia", "Dysgraphia", "Dyscalculia", "Dyslexia"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is not a learning curve",
+    "options": ["Positively accelerated curve", "Negatively accelerated curve", "S Shaped curve S", "Sigma curve"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "In the beginning learning is very rapid at this stage of learning curve",
+    "options": ["Plateau stage", "Stage of fluctuation", "Initial Spurt", "No stage is related"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Person who knows typing can work easily on computer. This is an example of",
+    "options": ["Positive transfer of learning", "Negative transfer of learning", "Zero transfer", "Bilateral transfer"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Learning disability related to mathematical concepts",
+    "options": ["Dysphasia", "Aphasia", "Dyscalculia", "Dyslexia"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Transfer of learning between playing cricket and singing well is",
+    "options": ["Positive transfer", "Negative transfer", "Zero transfer", "Bilateral transfer"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Barriers like language problems, communication gaps, cultural differences can be removed through",
+    "options": ["Conventional methods of teaching", "Guidance", "Multilingualism", "Segregation"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Complete inability in reading the printed material is",
+    "options": ["Dyslexia", "Aphasia", "Alexia", "Dysgraphia"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Incorrect statement related to plateau stage",
+    "options": ["Plateau stage is a critical stage in the process of learning", "Plateau stage is permanent", "Student cannot show any improvement in plateau stage", "By giving proper encouragement students will overcome plateau stage."],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Incorrect statement regarding inclusive schools",
+    "options": ["Providing educational facilities to rural children also", "Promoting concepts of helping and cooperation in the children", "Creating confidence in children with special needs", "Developing inferiority complex among children"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "CWSN means CWSN",
+    "options": ["Children With Support Needs", "Children With Special Needs", "Children With Service Needs", "Children With Specific Needs"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Structure of education in NEP 2020 NEP 2020",
+    "options": ["10 + 2 + 3", "11 + 1 + 3", "5 + 3 + 3 + 4", "10 + 3 + 3"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "FLN means FLN",
+    "options": ["Foundational Literacy and Numbers", "Foundation of Literature and Numbers", "Foundational Literature and Numeracy", "Foundational Literacy and Numeracy"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "According to NEP 2020 education starts at the age of NEP 2020",
+    "options": ["3 years", "5 years", "6 years", "12 years"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "NEP 2020 Structure 5 + 3 + 3 + 4 4 belongs to this stage NEP 2020 5 + 3 + 3 + 4 4",
+    "options": ["Foundational Stage", "Secondary Stage", "Preparatory Stage", "Middle Stage"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Educational advisory body at state level",
+    "options": ["NCERT", "NCTE", "DIET", "SCERT"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "RTE 2009 is implemented from RTE 2009",
+    "options": ["1 Jan 2010", "1 Jan 2009", "1 April 2010", "1 April 2009"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "RTI (Right to Information) Act was formulated in this year",
+    "options": ["2009", "2010", "2005", "2006"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Statement not related to NCF 2005 Guidelines NCF 2005",
+    "options": ["Simplification of (Assessment) examination pattern", "Connecting the curricular knowledge with real experiences", "Strengthening Rote learning method", "Enriching the curriculum"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Expand PARAKH PARAKH",
+    "options": ["Performance, Assessment, Review and Analysis of knowledge for Holistic Development", "Performance, Assessment Record and Account of knowledge for Holistic development", "Performance, Accreditation Record and Analysis of knowledge for Holistic Development", "Progress Record and Analysis of Knowledge for Holistic development"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "DIKSHA means DIKSHA",
+    "options": ["Department Of Information for Knowledge Sharing", "District Institute for Knowledge Sharing", "Digital Infrastructure for Knowledge Sharing", "Directorate of Information For Knowledge Sharing"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Expansion form of NCTE NCTE",
+    "options": ["National Committee on Teacher Education", "National Council for Teacher Education", "National Council for Trade and Education", "National Conference on Teacher Empowerment"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "According to RTE 2009 act this age children must have the right to compulsory education RTE 2009",
+    "options": ["5 - 9", "6 - 14", "4 - 12", "7 - 18"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "UDISE means UDISE",
+    "options": ["Unified District Information System for Education", "Union of District Information System for Education", "Unified Diet Institute for School Education", "Union of District Informatics and Science Education"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Act related to differently abled",
+    "options": ["RTI Act", "RTA Act", "PWD Act", "RTE Act"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "According to RTE 2009 school with special classification is RTE 2009",
+    "options": ["Sainik School", "High School", "Aided school", "Upper primary school"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Educational advisory board at National level",
+    "options": ["SCERT", "NCTE", "NCERT", "DIET"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "NEP 2020 Emphasis on NEP 2020",
+    "options": ["Experiential education", "Rote learning", "Examination preparation only", "Developing handwriting skills"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Headquarters of NCERT is Located in NCERT",
+    "options": ["Bengaluru", "Hyderabad", "New Delhi", "Chennai"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Incorrect pair related to the institutions",
+    "options": ["DIET District level DIET", "SCERT State level SCERT", "CIET State level CIET", "NCERT Central level NCERT"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "State level officer for school education",
+    "options": ["Joint Director", "MEO", "Commissioner", "Deputy Education Officer"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is also called as Pre School",
+    "options": ["High school", "Bridge school", "Anganwaadi", "Primary school"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "A record about an event or situation regarding a student is",
+    "options": ["Scrap Book", "Feedback", "Anecdotal Record", "Mind mapping"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Students have the opportunity to know their progress from time to time in",
+    "options": ["Summative Assessment", "Formative Assessment", "Baseline test", "Written test"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is NOT related to Assessment and Evaluation",
+    "options": ["Assessment is flexible, Evaluation is stable", "Assessment helps in continuous comprehensive evaluation", "Evaluation does not give importance to the results", "In the curriculum both assessment and evaluation are necessary"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Assessing children’s abilities as a part of the daily teaching learning process",
+    "options": ["Assessment as learning", "Assessment for learning", "Assessment of learning", "Learning assessment"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Intended for diagnosis and remediation",
+    "options": ["Summative Assessment", "Formative Assessment", "Mind mapping", "Evaluation"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is NOT an assessment tool for children",
+    "options": ["Questionnaires", "Checklist", "Oral test", "School development plan"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Test conducted in the beginning of the academic year",
+    "options": ["Summative Assessment", "Formative Assessment", "Base line test", "Annual exam"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Teaching children how to learn is",
+    "options": ["Assessment of learning", "Assessment for learning", "Assessment as learning", "Assessment by learning"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "“Evaluation skills are indicators of the necessary development in students” is given by",
+    "options": ["University Commission", "Mudhaliar Commission", "Kothari Commission", "Yashpal Committee"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Continuous Assessment",
+    "options": ["Summative Assessment", "Formative Assessment", "Achievement test", "Skill test"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Assessment done during classroom teaching",
+    "options": ["Formative Assessment", "Summative Assessment", "Baseline test", "Cannot assess during teaching"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Assessment that follows a specific time schedule",
+    "options": ["Summative Assessment", "Formative Assessment", "Assessment of Students Activities", "Feedback given to students"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is not considered as an Assessment",
+    "options": ["Children’s personal diary ()", "Project work", "Notebooks", "Slip test"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Analytical information given by an observer about the situation of a subject or institution is",
+    "options": ["Scrap Book", "Reports", "Feedback", "Exhibition"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "General evaluation tool used in schools",
+    "options": ["Rating scale", "Checklist", "Written test", "Observation report"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "A good tool to assess the pre concepts at school and knowledge of a subject in a child is",
+    "options": ["Scrap book", "Exhibition", "Mind Mapping", "Children’s dairy"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is the continuous review of the students’ progress in learning, that records and provides feedback,",
+    "options": ["Evaluation", "Assessment", "Examination", "Report"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "In teaching learning process, this is not interdependent",
+    "options": ["Teaching objectives", "Teaching learning experiences", "Evaluation", "Economic status of child"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Assessing the notebooks of students comes under",
+    "options": ["Formative Assessment", "Summative Assessment", "Anecdotal Record", "Baseline Test"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is not true regarding Formative Assessment",
+    "options": ["It observes children’s progress at micro level", "It is flexible", "It tells about future progress of students", "It provides continuous feedback"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The primary aim of Assessment",
+    "options": ["To differentiate students based on their learning", "To strengthen examination system", "To understand the children’s progress from time to time", "To provide jobs for the merit children"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Mode of the given data 6, 3, 5, 6, 8, 5, 4, 5",
+    "options": ["6", "3", "8", "5"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Example for measure of central tendency",
+    "options": ["Range", "Median", "Quartile deviation", "Variance"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The difference between highest and lowest value in a data is",
+    "options": ["Mean", "Median", "Range", "Deviation"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Median of the data 9, 3, 4, 6, 2, 7, 1",
+    "options": ["9", "4", "6", "3"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Range of the data 21, 24, 27, 29, 30, 32, 33, 45, 42, 38, 35",
+    "options": ["24", "45", "21", "27"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Median of the scores 14, 17, 16, 12, 8, 4, 24, 22",
+    "options": ["14", "15", "16", "17"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Mean of 3, 3, 4, 6 is",
+    "options": ["3", "6", "4", "16"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Range of the data 79, 79, 79, 80, 81, 81, 81 is",
+    "options": ["79", "80", "81", "2"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This graph is represented as circle",
+    "options": ["Bar graph", "Ogive curve", "Pie diagram", "Frequency Polygon"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Collected information is called",
+    "options": ["Mean", "Data", "Median", "Mode"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Mode of the data 3, 5, 8, 11, 6, 4, 2",
+    "options": ["3", "5", "8", "Cannot find mode"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Range of the data 74, 58, 24, 46, 82, 92, 19",
+    "options": ["74", "58", "73", "92"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The mean of the numbers is 40, 50, 60, 70, 80",
+    "options": ["50", "60", "70", "80"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The mean of the first five natural numbers",
+    "options": ["5", "15", "6", "3"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is not related to measure of central tendency",
+    "options": ["Mean", "Median", "Mode", "Quartile deviation"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Range means",
+    "options": ["Sum of the lowest and highest values in a data", "Difference between highest and lowest values in a data", "Mean of the numbers in the data", "Deviation in the data"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The median of the data 6, 49, 14, 46, 16, 42, 26, 32, 28",
+    "options": ["26", "28", "32", "14"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The shape of a normal probability curve is",
+    "options": ["Bell", "Straight", "curved line", "Triangle"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "If there is only one mode in a data, then that data is",
+    "options": ["Median", "Unimodal data", "Range", "Deviation"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Arithmetic Mean of the numbers 5, 8, 11, 9, 8, 19",
+    "options": ["10", "20", "30", "60"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Tally marks indicate",
+    "options": ["Class interval", "Mean", "Frequency", "Range"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "According to Piaget, Cognitive Structures are",
+    "options": ["Schemas", "Thoughts", "Actions", "Dreams"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Socio cultural theory is proposed by",
+    "options": ["Bruner", "Vygotsky", "Piaget", "Kohler"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The central point in Gijubhai’s philosophy",
+    "options": ["Book", "Child", "Education", "Knowledge"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": ". Differences among individuals in physical and mental aspects are referred as",
+    "options": ["Biological Diversity", "Social Diversity", "Economic Diversity", "Linguistic Diversity"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "“The destiny of a nation is shaped in its classrooms” is stated by",
+    "options": ["Radhakrishnan Commission", "NEP - 2020", "Kothari Commission", "NCF - 2005"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Child’s first school",
+    "options": ["Society", "Classroom", "Home", "Hospital"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is NOT a principle of classroom organisation",
+    "options": ["Flexibility", "Freedom Equality", "Student centred", "Teacher centred"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The primary purpose of classroom organization is",
+    "options": ["Implementation of educational goals comprehensively", "Designing curriculum", "Focussing on preparation of teaching material", "Use of social media widely"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Differences in the traditions and customs of people in a society is called",
+    "options": ["Economic diversity", "Cultural diversity", "Linguistic diversity", "Biological Diversity"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Action research aims at",
+    "options": ["To improve teaching practices", "To encourage theory building", "To improve examination system", "To punish students"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Research focuses on present problems",
+    "options": ["Fundamental Research", "Action Research", "Historical Research", "Descriptive Research"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "‘Day Dream’ is related to",
+    "options": ["A.S. Neill", "Gijubhai", "Totto chan", "Makarenko"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The author of the book “The Little Girl at the Window”",
+    "options": ["Tetsuko Kuroyanagi", "A.S. Neil", "Makerenko", "Gijubhai"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is related to principles of classroom organisation",
+    "options": ["Not having any goal", "Inequality", "Child centred", "Punishment"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Founder of ‘Summer hill’ school",
+    "options": ["Gujubhai", "A.S. Neill", "Makarenko", "Paulo Freire"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The theory which gave more importance to the method of teaching in pedagogy",
+    "options": ["Bruner’s theory", "Vygotsky theory", "Pavlov theory", "Piaget theory"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "‘Education collective’ is associated with",
+    "options": ["A.S. Neill", "Makarenko", "Bruner", "Vygotsky"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The motivation method used by a teacher in a classroom environment",
+    "options": ["Child centeredness", "Increase stress", "Very high level of aspiration", "Blame and punishment"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "“I’m in this present position because I thought yesterday that in which position I should be tomorrow” This is a good example for",
+    "options": ["Punishment", "Blame", "Lack of direction", "Achievement motivation"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is not a characteristic of gifted students",
+    "options": ["Have more memory power", "Shows more interest towards complex and difficult jobs", "Less imagination power and creative power", "Have more language reading skills and general knowledge"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is not a special educational implementation type for gifted students",
+    "options": ["Selection", "Acceleration", "Enrichment", "Neglect"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is not an ICT tool ICT",
+    "options": ["T.V.", "Radio", "Computer", "Black Board"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "One Tera Byte (TB) is equal to",
+    "options": ["1024 Bytes", "1024 Kilo Bytes", "1024 Mega Bytes", "1024 Giga Bytes"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Arrange the process of computing in the correct order",
+    "options": ["Input → Output → CPU", "Output → CPU → Input", "CPU → Input → Output", "Input → CPU→ Output"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is a search Engine",
+    "options": ["Word Processor", "Google", "Video Games", "Folder"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Expand www www",
+    "options": ["Web World Wide", "World Wide Web", "World Web Wide", "Wide Web World"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "To prepare a letter to the Head Master, a student uses this Microsoft Office tool",
+    "options": ["M.S. Excel", "M.S. Power Point", "M.S. Access", "M.S. Word"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The expanded form of computer term ‘I.T.’ is I.T.",
+    "options": ["Information Test", "Indian Technology", "Information Technology", "Indian Test"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is not a part of computer",
+    "options": ["Key board", "Mouse", "C.P.U", "Pen Drive"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Flipkart, Amazon, Bigbasket are the examples for",
+    "options": ["Chatting", "WebCam", "News Groups", "ECommerce"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "A student is preparing a letter in MS Word. The short cut key to save the typed file is MS .",
+    "options": ["Control + O + O", "Control + S + S", "Control + P + P", "Control + B + B"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Theafting the personal information in online is",
+    "options": ["Virus", "Freeware", "Simulation", "Haking"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The information stored in computer is expressed in terms",
+    "options": ["grams", "Litres", "feet", "Bytes"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "One byte is equal to these many bits.",
+    "options": ["4", "6", "8", "10"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is not an input device of computer.",
+    "options": ["Printer", "Keyboard", "Mouse", "Light Pen"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is not an output device of computer.",
+    "options": ["Mouse", "Printer", "Monitor", "Speaker"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The expanded form of computer term ‘C.P.U’ is ‘C.P.U’",
+    "options": ["Control Processing Unit", "Central Processing Unit", "Central Protect Unit", "Code Processing Unit"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Correct option from the following",
+    "options": ["CPU = Input + Output", "CPU = ALU +Memory Unit", "ALU = CPU + Output", "Output = CPU + ALU"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "‘The collection of different files’ is called",
+    "options": ["File", "Folder", "Templet", "Memory spam"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The interlinking of computers is called",
+    "options": ["Net Work", "Web", "EMail", "Chatting"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This resembles a huge library",
+    "options": ["Net Work", "Web", "EMail", "Chatting"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "It is to be clicked to create a new account in EMail.",
+    "options": ["Logout", "Sign up", "Sign Out", "Compose"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is a computer based digital game.",
+    "options": ["Volley Ball", "Cricket", "Kabaddi", "Online Puzzles"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Expand the computer term C.D. C.D. .",
+    "options": ["Compact Disk", "Computer Disk", "Crystal Disk", "Computer Display"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "A controlling process of the collected data is",
+    "options": ["Virus", "Privacy", "Data Management", "Hacking"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The act of stealing personal information and use for illegal activities is",
+    "options": ["Virus", "Hacking", "Storing Data", "Data Basing"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Odd one among the following is",
+    "options": ["Twitter", "Whats App", "Facebook", "Cinema"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Firefox is a Firefox",
+    "options": ["EMail", "News Group", "Search Engine", "ECommerce"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "MOOC’s promote MOOC’s",
+    "options": ["Formal Education", "Informal Education", "Tele Conferencing", "Video Editing"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "A person’s cheating through online gambling is treated as",
+    "options": ["Cyber Crime", "Criminal Case", "Civil Case", "Cheating Case"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "‘Credit Card Frauds’ are treated as",
+    "options": ["Civil Case", "Cyber Crime", "Criminal Case", "Cheating Case"],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The posts that are published on the internet websites are called",
+    "options": ["Data base", "Google", "Blogs", "Reels"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Expand MOOC MOOC",
+    "options": ["Massive Online Operating Certificate", "Mass Open Output Course", "Massive Open Online Course", "Multimedia Opera Operating Command"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The Interactive Electronic Communication between people from two or more places is",
+    "options": ["Web", "EMail", "Google", "Tele Conferencing"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The organized use of web resources and allied devices for curricular needs is",
+    "options": ["Web", "EMail", "Tele Collaboration", "Tele Conferencing"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "Cyber Terrorism is a type of",
+    "options": ["Cyber Crime", "Civil Case", "Criminal Case", "Cheating Case"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This crime is not related to Cyber Act",
+    "options": ["Murder", "Copy Right", "Data Privacy", "Online Gambling"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The software that destroys computer programs is",
+    "options": ["Copy Right", "Hacking", "Spam", "Virus"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The main purpose of a Rubric is",
+    "options": ["To assess achievements", "To assess goals", "To assess weight", "To assess oral drills"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "One of the following is not related to Data Management for School information",
+    "options": ["Particulars of Students", "Attendance Report", "MidDay Meals Report", "Crime Report"],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "The device used in first generation computer is",
+    "options": ["Vacuum tube", "Transistors", "Integrated circuit", "Artificial Intelligence"],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "All legal issues related to the use of internet comes under",
+    "options": ["RTI Act RTI", "RTE Act RTE", "Cyber Act", "Criminal Act"],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (CDP)",
+    "subject": "Child Development & Pedagogy",
+    "question": "This is used to prevent Virus in a computer system is",
+    "options": ["M.S. Word", "M.S. Office", "M.S. Excel", "Fire Wall"],
+    "correct": 4
   }
 ];
 
