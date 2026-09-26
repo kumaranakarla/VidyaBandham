@@ -45413,6 +45413,8196 @@ const TET_QUESTIONS = [
       "లక్ష్యాలు, విషయం, పరీక్షాంశాల రకం, కాఠిన్యతా స్థాయి",
       "లక్ష్యాలు, ప్రమాణాలు, విషయం, కారిన్యతా స్థాయి"
     ]
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Which of the following number is exactly divisible by 9?",
+    "options": [
+      "1167",
+      "5536",
+      "2343",
+      "4563"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The difference between of the largest 6-digit number and the largest 5-digit number is",
+    "options": [
+      "900000",
+      "9000",
+      "99999",
+      "900009"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The place value of 4 in 46,739 is",
+    "options": [
+      "40000",
+      "4000",
+      "400",
+      "4"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The face value of 6 in 46,739 is",
+    "options": [
+      "6000",
+      "600",
+      "60",
+      "6"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The difference between place value and face value of 5 in 65,349 is",
+    "options": [
+      "5000",
+      "4995",
+      "5005",
+      "5"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The greatest 7-digit number by using the digits 0,7,4,1,3,6 and 2 is",
+    "options": [
+      "76,43,102",
+      "76,42,310",
+      "76,43,210",
+      "74,32,106"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The greatest 5-digit number formed by using the digits 1,6 and 9 is",
+    "options": [
+      "99,196",
+      "99,169",
+      "99,916",
+      "99,961"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The smallest 5-digit number formed by using the digits 1,6 and 9 is",
+    "options": [
+      "11,169",
+      "99,961",
+      "11,619",
+      "11,916"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Which of the following is largest number?",
+    "options": [
+      "19385702",
+      "19357999",
+      "19386213",
+      "19309988"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "1 million =_______ lakhs",
+    "options": [
+      "5",
+      "10",
+      "100",
+      "1000"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Sum of 326523 and 437582 is",
+    "options": [
+      "764005",
+      "764115",
+      "756105",
+      "764105"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Kohli made 120 runs in a match. Rohit made 65 runs less than Kohli in the same match. The total runs made by Kohli and Rohit is",
+    "options": [
+      "370",
+      "185",
+      "165",
+      "175"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "To get 1250, how much should we subtract from 9658?",
+    "options": [
+      "8408",
+      "8804",
+      "8480",
+      "8840"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The difference of largest 5-digit number and smallest 6-digit number is",
+    "options": [
+      "1",
+      "9",
+      "90",
+      "89"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The value of 9999 × 153 =",
+    "options": [
+      "15,29,847",
+      "15,29,487",
+      "15,28,847",
+      "15,29,007"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The cost of 63 erasers is ₹315. The cost of 42 erasers is",
+    "options": [
+      "₹105",
+      "₹210",
+      "₹240",
+      "₹270"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "14 agricultural workers earned ₹5978 in a day as daily wage. How much amount each one will get?",
+    "options": [
+      "₹427",
+      "₹527",
+      "₹437",
+      "₹447"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The number of integers lies between -3 and +3 is",
+    "options": [
+      "0",
+      "5",
+      "3",
+      "8"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "A vessel has 4 litres and 500ml of curd. In how many glasses, each of 25ml capacity can be filled",
+    "options": [
+      "450",
+      "250",
+      "45",
+      "180"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The number which is exactly divisible by 4 is",
+    "options": [
+      "23754",
+      "83243",
+      "56780",
+      "40409"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The largest 4-digit number is",
+    "options": [
+      "9000",
+      "9009",
+      "9999",
+      "8999"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The value of (5 1/6 + 3 1/12) is",
+    "options": [
+      "8 1/5",
+      "8 1/2",
+      "8 1/3",
+      "8 1/4"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The Simplest form of 27/36 is",
+    "options": [
+      "3/4",
+      "4/3",
+      "3/5",
+      "3/7"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The difference between 5 1/3 and 2 4/7 is",
+    "options": [
+      "58/21",
+      "56/21",
+      "59/21",
+      "55/21"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The equivalent fraction of 1/3 is",
+    "options": [
+      "18/52",
+      "17/78",
+      "19/57",
+      "20/80"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Convert 5040 grams into kilograms",
+    "options": [
+      "5.004",
+      "5.04",
+      "50.4",
+      "504"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Rakesh has 3/4 part of a glass with milk. He drank 1/8th part of milk. Now how much part of milk is remained in the glass?",
+    "options": [
+      "1/4",
+      "1/8",
+      "5/4",
+      "5/8"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The value of 0.2 × 0.3 is",
+    "options": [
+      "0.6",
+      "0.66",
+      "0.06",
+      "0.5"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The value of 0.007+0.705+0.073",
+    "options": [
+      "0.210",
+      "0.705",
+      "0.773",
+      "0.785"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The value of 3 x 5 1/5 is",
+    "options": [
+      "15 1/5",
+      "5 3/5",
+      "15 3/5",
+      "15 3/15"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The value of -7/5 + (-2/3) is",
+    "options": [
+      "-9/15",
+      "-9/5",
+      "9/15",
+      "-31/15"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "What fraction of a day is 8 hours?",
+    "options": [
+      "1/8",
+      "24/8",
+      "8/24",
+      "8"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The average of 4.2, 3.8, 7.6 is",
+    "options": [
+      "4.8",
+      "5.2",
+      "6.3",
+      "3.8"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The decimal form of 2 rupees 5 paise is",
+    "options": [
+      "2.50",
+      "2.05",
+      "25.0",
+      "0.25"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Sushant reads 1/3 part of a book in 1 hour. Part of book will he read in 2 1/5 hours is",
+    "options": [
+      "2 1/15",
+      "11/15",
+      "1/15",
+      "2 1/5"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "A car runs 16km using 1 litre of petrol. Distance covered with 2 3/4 litres of petrol is (in km)",
+    "options": [
+      "35",
+      "32",
+      "44",
+      "48"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Express 1 gram as kilogram is",
+    "options": [
+      "1000",
+      "1",
+      "0.01",
+      "0.001"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Samson travelled 5km⁵²m by bus, 2km²⁶⁵m by car and the rest 1km³⁰m by walk. Total distance travelled is (in km)",
+    "options": [
+      "8.347",
+      "8.15",
+      "8.184",
+      "9.085"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Value of (-4) div (2/3) is",
+    "options": [
+      "-4",
+      "-12",
+      "-6",
+      "1"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "value of 2 1/2 div (3/5) is",
+    "options": [
+      "4 1/6",
+      "2 3/10",
+      "2 5/6",
+      "4 4/5"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Ravi is 14 years old. His mother 23 years older than Ravi. His mother’s age is (in years)",
+    "options": [
+      "37",
+      "38",
+      "47",
+      "49"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "A buffalo gives 3l 250 ml of milk in the morning and 2l 750ml in the evening. The total milk given by it in a day is",
+    "options": [
+      "6l",
+      "6l 250ml",
+      "6l 450ml",
+      "6l 500ml"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The least common multiple of 24, 32 and 48 is",
+    "options": [
+      "48",
+      "96",
+      "72",
+      "64"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The least number of students required to stand in rows equally if the number of the rows are either 2,3,4,6 or 8 is",
+    "options": [
+      "12",
+      "18",
+      "20",
+      "24"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The least number which when divided by 6, 15 and 18 leaves remainder 5 in each case is",
+    "options": [
+      "90",
+      "95",
+      "100",
+      "120"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Which of the following numbers are prime?",
+    "options": [
+      "23",
+      "27",
+      "39",
+      "51"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Number of factors of 24 is",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The largest prime numbers lies between 1 and 50 is",
+    "options": [
+      "49",
+      "47",
+      "43",
+      "41"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Even prime number is",
+    "options": [
+      "4",
+      "6",
+      "10",
+      "2"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The highest common factor of 24 and 36 is",
+    "options": [
+      "6",
+      "12",
+      "18",
+      "4"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The common multiple of 3, 4 and 9 is",
+    "options": [
+      "18",
+      "20",
+      "24",
+      "36"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Two tanks contain 850 litres and 680 litres of kerosene oil respectively. Find the maximum capacity of a container which can measures the kerosene oil of both the tankers when used an exact number of times. (in litres)",
+    "options": [
+      "170",
+      "150",
+      "850",
+      "680"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The number which is divisible by 6 is",
+    "options": [
+      "1258",
+      "901352",
+      "17852",
+      "438750"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Among the following numbers which is divisible by 11",
+    "options": [
+      "10852",
+      "71389",
+      "70169",
+      "54462"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The smallest 3-digit number which is exactly divisible by 6, 8 and 12 is",
+    "options": [
+      "100",
+      "120",
+      "180",
+      "240"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "LCM of 40, 48 and 45 is",
+    "options": [
+      "240",
+      "360",
+      "640",
+      "720"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Total prime numbers less than 100 is",
+    "options": [
+      "10",
+      "15",
+      "20",
+      "25"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "5 is factor of 20 then the LCM of 5 and 20 is",
+    "options": [
+      "5",
+      "20",
+      "100",
+      "4"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "HCF of two consecutive even numbers is",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "HCF of 18 and 48 is",
+    "options": [
+      "9",
+      "8",
+      "6",
+      "12"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The number which is divisible by both 2 and 5 is",
+    "options": [
+      "376",
+      "480",
+      "275",
+      "315"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Sum of the LCM and HCF of 2 and 3 is",
+    "options": [
+      "6",
+      "7",
+      "5",
+      "8"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "HCF of the numbers 5 and 17 is",
+    "options": [
+      "85",
+      "17",
+      "5",
+      "1"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The greatest 3-digit perfect squares is",
+    "options": [
+      "941",
+      "961",
+      "981",
+      "999"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "If √1764 = 42 then √17.64 =",
+    "options": [
+      "0.42",
+      "4.2",
+      "0.042",
+      "0.0042"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The greatest 4-digit perfect square is",
+    "options": [
+      "9998",
+      "9600",
+      "9999",
+      "9801"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "If x=1+3+5+7+9, y=11+13+15+17+19",
+    "options": [
+      "75",
+      "100",
+      "125",
+      "150"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Which of the following is a perfect square?",
+    "options": [
+      "2222",
+      "7982",
+      "1057",
+      "1296"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Which of the following is not a perfect square?",
+    "options": [
+      "576",
+      "1225",
+      "1057",
+      "961"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "one’s digit in the square of 1234 is",
+    "options": [
+      "1",
+      "2",
+      "4",
+      "6"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The number of natural numbers lie between 92 and 102 is",
+    "options": [
+      "18",
+      "20",
+      "24",
+      "16"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "If √4096 = 64 then √40.96 is",
+    "options": [
+      "64",
+      "6.4",
+      "0.64",
+      "640"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Number of digits in the square root of 390625 is",
+    "options": [
+      "6",
+      "4",
+      "3",
+      "5"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Smallest number by which 9408 must be divided so that the quotient is a perfect square",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Smallest square number which is divisible by 6, 9 and 15 is",
+    "options": [
+      "90",
+      "900",
+      "9000",
+      "8100"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The least number must be added to 1300 so as to get a perfect square is",
+    "options": [
+      "4",
+      "37",
+      "69",
+      "36"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "If √5184 = 72 then √51.84 =",
+    "options": [
+      "5.8",
+      "6.2",
+      "6.8",
+      "7.2"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The least number that should be multiplied by 2352 to become a perfect square is",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Number of zeroes in the square of 60 is",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "If √2304 = 48 then √0.2304 is",
+    "options": [
+      "48",
+      "4.8",
+      "0.48",
+      "0.048"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Which of the following number square is even",
+    "options": [
+      "728",
+      "269",
+      "331",
+      "427"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Observe the pattern and find the value of x\n1 + 3 = 4 = 2²\n3 + 6 = 9 = 3²\n6 + 10 = 16 = 4²\n10 + x = 25 = 5²\nthen x = _________",
+    "options": [
+      "5",
+      "10",
+      "15",
+      "25"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Area of a square plot is 144 sq.m. Its side is (in m)",
+    "options": [
+      "12",
+      "16",
+      "24",
+      "36"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "3, 4, 5 is a Pythagorean triplet, because 5² = 4² + 3². Now identify a Pythagorean triplet whose one number is 6",
+    "options": [
+      "6, 8, 10",
+      "6, 10, 12",
+      "6, 8, 12",
+      "6, 9, 15"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "If 9³ = 729 then cube root of 729 is",
+    "options": [
+      "3",
+      "7",
+      "9",
+      "1"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The smallest number added to 15 to become a perfect cube number is",
+    "options": [
+      "1",
+      "5",
+      "12",
+      "19"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Figurers which have 3-dimensions are known as",
+    "options": [
+      "Solid figures",
+      "Triangular figures",
+      "Linear figures",
+      "Plane figures"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Cube of an even number is",
+    "options": [
+      "Odd number",
+      "Prime number",
+      "Even number",
+      "Even prime number"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Number of digits in the cube 12 is",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Hardy-Ramanujan Number among the following number is",
+    "options": [
+      "1279",
+      "1927",
+      "1729",
+      "1792"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The number multiplied by itself three times is a",
+    "options": [
+      "Prime number",
+      "Square number",
+      "Cube number",
+      "Odd number"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Which of the following number is both a perfect square and perfect cube number",
+    "options": [
+      "27",
+      "64",
+      "36",
+      "48"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "If 19³ = 6859 then cube root of 6859 =",
+    "options": [
+      "17",
+      "18",
+      "23",
+      "19"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "If cube root of 27 = 3 then cube root of 0.027 is",
+    "options": [
+      "3",
+      "0.03",
+      "0.3",
+      "1.3"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Unit digit in the cube root of 216 is",
+    "options": [
+      "3",
+      "2",
+      "6",
+      "5"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The smallest number that divides 1188 to become a perfect cube is",
+    "options": [
+      "4",
+      "8",
+      "44",
+      "48"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "If cube root of 343 = 7 then cube root of 343000 =",
+    "options": [
+      "700",
+      "7",
+      "707",
+      "70"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "One’s digit of cube of 8888 is",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Number of perfect cube numbers from 1 to 1000 is",
+    "options": [
+      "16",
+      "18",
+      "10",
+      "24"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Cube root of 1728 is",
+    "options": [
+      "12",
+      "14",
+      "18",
+      "19"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Observe the following pattern and then identify the correct answer to the given question.\n2³ - 1³ = 1 + 2 x 1 x 3\n3³ - 2³ = 1 + 3 x 2 x 3\n4³ - 3³ = 1 + 4 x 3 x 3\nthen 7³ - 6³ = _________",
+    "options": [
+      "1 + 7 × 6 × 3",
+      "1 + 5 × 4 × 3",
+      "7 + 3 × 6 × 3",
+      "3 + 6 × 5 × 3"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "If 8³ = 512 then cube root of 512 =",
+    "options": [
+      "512",
+      "8",
+      "3",
+      "24"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The smallest number that should be multiplied 243 to become a perfect cube",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The number which is not perfect cube is",
+    "options": [
+      "216",
+      "1000",
+      "100",
+      "512"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Expressing 3³ as sum of three consecutive odd numbers",
+    "options": [
+      "3+5+7",
+      "7+9+11",
+      "7+9+13",
+      "9+11+13"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The ratio of two numbers is 3:8. If larger number is 24 then difference of that two numbers is",
+    "options": [
+      "10",
+      "15",
+      "5",
+      "16"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The ratio of 500 ml to 2 Litres is",
+    "options": [
+      "4 : 1",
+      "1 : 3",
+      "1 : 4",
+      "1 : 5"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The ratio of two numbers is 1:2 and their sum is 60. The largest number is",
+    "options": [
+      "20",
+      "40",
+      "25",
+      "45"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "If the cost of 6 pens is ₹ 210. Then the cost of 4 pens is",
+    "options": [
+      "₹ 70",
+      "₹ 105",
+      "₹ 140",
+      "₹ 165"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The ratio of 90 cm to 1.5m is",
+    "options": [
+      "5:2",
+      "5:3",
+      "2:5",
+      "3:5"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Length and breadth of a rectangular field are 50m and 15m respectively. The ratio of the length to the breadth of the field is",
+    "options": [
+      "3:5",
+      "5:3",
+      "3:10",
+      "10:3"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The ratio of two numbers is 7:5. If the smallest number is 30 then the sum of the two numbers is",
+    "options": [
+      "48",
+      "60",
+      "42",
+      "72"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "If the cost of a dozen soaps is ₹153.60, then the cost of 15 such soaps is",
+    "options": [
+      "₹192",
+      "₹180",
+      "₹196",
+      "₹240"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "In a class, there are 51 boys and 68 girls. The ratio of the number of boys to the number of girls is",
+    "options": [
+      "3:5",
+      "4:3",
+      "3:2",
+      "3:4"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "If the cost of 7m of cloth is ₹1470, then the cost of 5m of cloth is",
+    "options": [
+      "₹1000",
+      "₹1050",
+      "₹1200",
+      "₹1250"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The weight of 72 books is 9 Kg. The weight of 40 such books is (in Kgs.)",
+    "options": [
+      "6",
+      "7",
+      "4",
+      "5"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Distance travelled by A and B in an hour are 9 Km and 12 Km. The ratio of speed of A to the speed of B is",
+    "options": [
+      "4:3",
+      "3:2",
+      "3:4",
+      "2:3"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The equivalent ratio of 65:117 is",
+    "options": [
+      "5:9",
+      "5:11",
+      "7:9",
+      "11:13"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "There are 102 teachers in a school of 3300 students. The ratio of the number of teachers to the number of students is",
+    "options": [
+      "17:550",
+      "19:55",
+      "17:55",
+      "3:550"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Which of the following numbers are not in proportion in that order is",
+    "options": [
+      "4, 6, 8, 12",
+      "15, 45, 40, 120",
+      "33, 44, 75, 100",
+      "24, 28, 36, 48"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The simplest form of the ratio 132:143 is",
+    "options": [
+      "12:13",
+      "12:11",
+      "12:17",
+      "13:12"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "A motor bike travels 220 Km in 5 litres of petrol. How much distance will it cover in 1.5 litres of petrol? (in Kms.)",
+    "options": [
+      "66",
+      "60",
+      "48",
+      "45"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "A truck requires 108 litres of diesel for covering a distance of 594 km. How much diesel will be required by the truck to cover a distance of 1650Km.? (in litres)",
+    "options": [
+      "250",
+      "300",
+      "350",
+      "400"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "If the cost of 5Kg of wheat is ₹ 91.50. Then the cost of 8Kg of wheat is",
+    "options": [
+      "₹144.80",
+      "₹145.60",
+      "₹146.40",
+      "₹148.40"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "In a college out of 4320 students, 2300 are girls. The ratio of number of girls to the total number of students is",
+    "options": [
+      "115:216",
+      "117:216",
+      "119:216",
+      "216:115"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Present age of father is 42 years and that of his son is 14 years. After 8 years, the ratio of age of father to that of son is",
+    "options": [
+      "25:11",
+      "11:25",
+      "5:11",
+      "3:11"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The population of a city decreased form 25,000 to 24,500. The percentage of decrease is",
+    "options": [
+      "1%",
+      "2%",
+      "4%",
+      "5%"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "If 20% of A = 35% of B, then B:A =",
+    "options": [
+      "3:7",
+      "2:7",
+      "5:7",
+      "4:7"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "72% of 25 students are interested in Mathematics. Number of students are not interested in Mathematics are",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "If Laxmi had ₹ 600 left after spending 75% of her money, how much did she have in the beginning?",
+    "options": [
+      "₹ 2000",
+      "₹ 2400",
+      "₹ 3000",
+      "₹ 1800"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "There are 120 voters, 90 of them voted “YES”. The percentage of voted “YES” is",
+    "options": [
+      "80%",
+      "60%",
+      "70%",
+      "75%"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The fraction which is equal to 33 1 3% is 33/1",
+    "options": [
+      "2/3",
+      "1/3",
+      "10/3",
+      "100/3"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Out of 25 children in a class, 15 are girls. The percentage of girls is",
+    "options": [
+      "55%",
+      "60%",
+      "75%",
+      "80%"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "If 9% of a number is 72 then 54% of that number is",
+    "options": [
+      "432",
+      "332",
+      "532",
+      "442"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "If 75% of x= 15, then x+ 9=",
+    "options": [
+      "16",
+      "20",
+      "25",
+      "29"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "If 25% of x = 9, then x² =",
+    "options": [
+      "576",
+      "676",
+      "1156",
+      "1296"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "A man got a 10% increase in his salary. If his new salary is ₹1,54,000, his original salary is",
+    "options": [
+      "₹ 1,40,000",
+      "₹ 1,36,000",
+      "₹ 1,42,000",
+      "₹ 1,44,000"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "If 60% of a number is 18 then 150% of the same number is",
+    "options": [
+      "30",
+      "36",
+      "45",
+      "48"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "If x% of x=1, then the positive value for x is",
+    "options": [
+      "200",
+      "100",
+      "10",
+      "1"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "33 1/3% of 72 + 26 =",
+    "options": [
+      "40",
+      "60",
+      "48",
+      "50"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "50% of 164 - 12 1/2% of 64 =",
+    "options": [
+      "72",
+      "74",
+      "82",
+      "90"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "15% of 12% of 24,000=",
+    "options": [
+      "288",
+      "360",
+      "432",
+      "472"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "12 1/2% of 48 + 1/4 of 24 =",
+    "options": [
+      "10",
+      "12",
+      "18",
+      "20"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "If a:b = 4:5 then what percent of ‘b’ is ‘a’ ?",
+    "options": [
+      "60%",
+      "75%",
+      "80%",
+      "90%"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The ratio of incomes of A and B is 3:4. If income of A is ₹ 48,000, then 25% of B’s income is",
+    "options": [
+      "₹ 15,000",
+      "₹ 16,000",
+      "₹ 18,000",
+      "₹ 20,000"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "A Football team won 10 matches out of the total number of matches they played. If their winning percentage was 40, then the number of matches did they play in all is",
+    "options": [
+      "20",
+      "25",
+      "30",
+      "24"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "15% of 250 + 20% of 360 =",
+    "options": [
+      "107.7",
+      "105.7",
+      "107.5",
+      "109.5"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "A table marked at ₹15,000 is available for ₹14,400. The discount percentage on it is",
+    "options": [
+      "3%",
+      "4%",
+      "5%",
+      "6%"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The list price of a book is ₹220. A discount of 20% is announced on Sales. The amount of discount on it is",
+    "options": [
+      "₹22",
+      "₹44",
+      "₹66",
+      "₹88"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "An article is sold at ₹5225 after allowing a discount of 5%. Its marked price is",
+    "options": [
+      "₹5500",
+      "₹5420",
+      "₹5544",
+      "₹5760"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "A person bought a second hand refrigerator for ₹2500, then spent ₹500 on its repairs and sold it for ₹3300. His gain percentage is",
+    "options": [
+      "5%",
+      "8%",
+      "10%",
+      "15%"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "A person bought an air cooler for ₹3300 including a tax of 10%. The price of the air cooler before VAT was added is",
+    "options": [
+      "₹2800",
+      "₹2900",
+      "₹2400",
+      "₹3000"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "A person bought an article for ₹784 which included GST of 12%. The price of the article before GST was added is",
+    "options": [
+      "₹700",
+      "₹600",
+      "₹720",
+      "₹750"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "A shopkeeper buys 80 articles for ₹2400 and sells them for a profit of 16%. The selling price of one article is",
+    "options": [
+      "₹34",
+      "₹34.80",
+      "₹35.20",
+      "₹36"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The cost of a flower vase is ₹120. If the shopkeeper sells it at a loss of 10%, it’s selling price is",
+    "options": [
+      "₹108",
+      "₹106",
+      "₹100",
+      "₹98"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Selling price of a toy car is ₹540. If the profit made by the shopkeeper is 20%, the cost price of this toy is",
+    "options": [
+      "₹512",
+      "₹500",
+      "₹480",
+      "₹450"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "A shopkeeper bought a chair for ₹375 and sold it for ₹400. The gain percentage is",
+    "options": [
+      "15%",
+      "16%",
+      "16/2 3%",
+      "18%"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "An item was sold for ₹570 at a loss of 5%. Its cost price is",
+    "options": [
+      "₹660",
+      "₹650",
+      "₹620",
+      "₹600"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "If the cost price of a computer is ₹36000 and its selling price is ₹45000, then gain percentage is",
+    "options": [
+      "12%",
+      "15%",
+      "20%",
+      "25%"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "An article was sold for ₹2100 with a profit of 5%. Its cost price was",
+    "options": [
+      "₹2000",
+      "₹2050",
+      "₹1900",
+      "₹2010"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The population of a city decreased form 25,000 to 22,500. The decreased percentage is",
+    "options": [
+      "5%",
+      "8%",
+      "10%",
+      "12%"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "A student buys a book for ₹275 and sells it at a loss of 15%. Its selling price is",
+    "options": [
+      "₹233.75",
+      "₹240.50",
+      "₹245.75",
+      "₹225"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The cost price of an article is ₹1200. If the shopkeeper sells it at a loss of 20%, its selling price is",
+    "options": [
+      "₹960",
+      "₹950",
+      "₹980",
+      "₹1060"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "A person bought an article for ₹3600, then spent ₹400 on its repairs and sold it for ₹4880. His gain percent is",
+    "options": [
+      "20%",
+      "21%",
+      "22%",
+      "24%"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "An article was purchased for ₹23,200 including GST of 16%. The price of the article before GST was added, is",
+    "options": [
+      "₹22,200",
+      "₹22,000",
+      "₹21,000",
+      "₹20,000"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "On Sunday 845 people visited the Zoo. On Monday only 169 people visited. What is the percent decrease in the people visiting the zoo on Monday",
+    "options": [
+      "20%",
+      "60%",
+      "80%",
+      "90%"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "A shopkeeper buys 60 articles for ₹2400 and sells them for a profit of 15%. The selling price of one article is",
+    "options": [
+      "₹40",
+      "₹42",
+      "₹44",
+      "₹46"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "A person bought a pair of skates at a sale where the discount given was 20%. If the amount he pays is ₹1600, the marked price is",
+    "options": [
+      "₹1750",
+      "₹1800",
+      "₹1900",
+      "₹2000"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The rate that gives ₹280 as simple interest on a sum of ₹56000 in 2 year is",
+    "options": [
+      "0.25%",
+      "0.5%",
+      "0.75%",
+      "1.25%"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "If a person pays simple interest of ₹750 for 2 years on a sum of ₹4500, then the rate of interest is",
+    "options": [
+      "8 1/2 %",
+      "8 1/3 %",
+      "8 1/4 %",
+      "8 1/5 %"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "On a certain sum the simple interest paid after 3 years is ₹450 at 5% rate of interest per annum. The sum is",
+    "options": [
+      "₹3,000",
+      "₹3,500",
+      "₹4,000",
+      "₹4,500"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "On a certain sum, the simple interest paid after 3 years is ₹480 at 8% rate of interest per annum. The sum is",
+    "options": [
+      "₹2,000",
+      "₹2,200",
+      "₹2,400",
+      "₹2,600"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "A sum of ₹10,000 is borrowed at a rate of interest at 15% per annum for 2 years. The simple interest on this sum is",
+    "options": [
+      "₹3,600",
+      "₹3,200",
+      "₹3,000",
+      "₹3,500"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The simple interest on ₹18,000 at 10% per annum for 2 years is",
+    "options": [
+      "₹3,600",
+      "₹1,800",
+      "₹5,400",
+      "₹3,200"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The simple interest on ₹15,000 at 5% per annum for 2 years is",
+    "options": [
+      "₹1,500",
+      "₹1,800",
+      "₹2,000",
+      "₹2,400"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "At simple interest, the amount to be paid on ₹15,000 at 5% per annum for 2 years is",
+    "options": [
+      "₹16,000",
+      "₹16,200",
+      "₹16,400",
+      "₹16,500"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "At simple interest, the amount to be paid on ₹10,000 at 15% per annum for 2 years is",
+    "options": [
+      "₹12,500",
+      "₹13,000",
+      "₹13,500",
+      "₹13,600"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The compound interest on ₹12,600 for 2 years at 10% per annum compounded annually is",
+    "options": [
+      "₹2,646",
+      "₹2,676",
+      "₹2,466",
+      "₹2,546"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The compound interest on ₹10,000 for 2 years at 10% per annum compounded annually is",
+    "options": [
+      "₹2,000",
+      "₹2,100",
+      "₹2,300",
+      "₹2,150"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The amount is to be repaid on a loan of ₹12,000 for 2 years at 10% per annum compounded annually is",
+    "options": [
+      "₹14,720",
+      "₹14,020",
+      "₹14,000",
+      "₹14,520"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The compound interest on ₹10,000 for 1 year and 3 months at 12% per annum compounded annually is",
+    "options": [
+      "₹1,500",
+      "₹1,536",
+      "₹1,560",
+      "₹1,572"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "A machinery worth ₹10,500 depreciated by 5%. After 1 year its value is",
+    "options": [
+      "₹9,975",
+      "₹10,000",
+      "₹9,925",
+      "₹9,950"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The difference between Compound Interest and Simple Interest on ₹1,000 for 2 years at 10% P.A. is",
+    "options": [
+      "₹11",
+      "₹10",
+      "₹20",
+      "₹21"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The difference between Compound Interest and Simple Interest on ₹2,000 for 2 years at some rate of interest is ₹20 then the rate of interest is",
+    "options": [
+      "10%",
+      "12%",
+      "15%",
+      "20%"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The difference between compound interest and simple interest on ₹15,000 at 10% Per Annum for 2 years is",
+    "options": [
+      "₹120",
+      "₹150",
+      "₹180",
+      "₹200"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "A TV was bought at a price of ₹21,000. After one year the value of the TV was depreciated by 5%. The value of the TV after one year is",
+    "options": [
+      "₹19,950",
+      "₹19,000",
+      "₹19,500",
+      "₹19,900"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "A scooter was bought at ₹42,000. Its value depreciated at the rate of 8% per annum. It’s value after one year is",
+    "options": [
+      "₹38,640",
+      "₹38,460",
+      "₹36,840",
+      "₹39,640"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "A computer was bought at ₹45,000. It’s value depreciated at the rate of 10% per annum. It’s value after one year is",
+    "options": [
+      "₹40,500",
+      "₹41,500",
+      "₹40,050",
+      "₹39,500"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "A scooter was bought at ₹48,000. Its value depreciated at the rate of 6% per annum. It’s value after one year is",
+    "options": [
+      "₹45,720",
+      "₹42,120",
+      "₹45,120",
+      "₹44,120"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Simplify 39 −[23 −{29 −(17 −9 + 3)}]",
+    "options": [
+      "39",
+      "44",
+      "34",
+      "38"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Simplify 15 −(−3) × {4 −7 + 3}",
+    "options": [
+      "15",
+      "72",
+      "68",
+      "18"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The value of [3 × {5 + (−3) × (−6)}] is",
+    "options": [
+      "-72",
+      "-36",
+      "6",
+      "69"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The value of the expression 2 −[3 −{6 −(5 −4 + 3)}] is",
+    "options": [
+      "2",
+      "1",
+      "-1",
+      "-2"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The value of the expression 75 ÷ [45 −(6 × 7)] is",
+    "options": [
+      "20",
+      "72",
+      "75",
+      "25"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The value of the expression {5[18 ÷ (8 −5)] −30} is",
+    "options": [
+      "0",
+      "15",
+      "30",
+      "12"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The value of the expression {3 + (4 × 5) ÷ 2 −6} ÷ 7 is",
+    "options": [
+      "14",
+      "1",
+      "0",
+      "19/7"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The value of the expression (46 × 15) ÷ (5 × 2) is",
+    "options": [
+      "690",
+      "70",
+      "69",
+      "58"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The value of the expression (843 + 237) ÷ 180 + 16 is",
+    "options": [
+      "22",
+      "108",
+      "5",
+      "41"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The value of the expression (45 × 4000) ÷ 16000 × 12 is",
+    "options": [
+      "225",
+      "135",
+      "2225",
+      "1275"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The value of the expression {95 −(125 −64 ÷ 8 × 7)} is",
+    "options": [
+      "164",
+      "56",
+      "69",
+      "26"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The value of the expression on simplifying {45 −(26 −56 ÷ 8 + 12)} is",
+    "options": [
+      "21",
+      "49",
+      "14",
+      "30"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The value of the expression 24 × 45 ÷ 9 −60 + 120 is",
+    "options": [
+      "180",
+      "200",
+      "160",
+      "210"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The value of the expression [112 −(12 × 5 + 24) + 172] is",
+    "options": [
+      "184",
+      "200",
+      "284",
+      "280"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The value of (180 + 24) ÷ 6 −10 is",
+    "options": [
+      "186",
+      "16",
+      "29",
+      "24"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "(953 + 487 −220) ÷ 5 = ____________",
+    "options": [
+      "1220",
+      "1440",
+      "244",
+      "356"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The value of the expression 120 ÷ 8 × 3 −6 + 7 is",
+    "options": [
+      "46",
+      "52",
+      "32",
+      "58"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "36 × 9 + 4 × 3 −70 × 4 + 144 ÷ 24 = _________",
+    "options": [
+      "54",
+      "76",
+      "80",
+      "62"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The value of 24 ÷ 4 + 4 −20 ÷ 5 −5 is",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The value of the expression 85 −5 × [20 × (120 −110)] ÷ 10 + 40 is",
+    "options": [
+      "65",
+      "55",
+      "25",
+      "225"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "(−21) −(−10) −(−31) −(−7) + (−90) = ________",
+    "options": [
+      "-56",
+      "-63",
+      "-72",
+      "+56"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The difference between 105° and its supplementary angle is",
+    "options": [
+      "20°",
+      "30°",
+      "40°",
+      "50°"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "If an angle is half of its supplementary angle then it is",
+    "options": [
+      "45°",
+      "60°",
+      "80°",
+      "120°"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Which of the following pair of angles are supplementary",
+    "options": [
+      "90°, 80°",
+      "110°, 60°",
+      "150°, 30°",
+      "30°, 60°"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The supplementary angle of 87° is",
+    "options": [
+      "3°",
+      "33°",
+      "83°",
+      "93°"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "If an angle is twice of its compliment then it is",
+    "options": [
+      "30°",
+      "36°",
+      "45°",
+      "60°"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Which of the following pair of angles are not complementary",
+    "options": [
+      "68°, 22°",
+      "77°,13°",
+      "41°, 49°",
+      "34°, 66°"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The complementary angle of 37° is",
+    "options": [
+      "43°",
+      "53°",
+      "63°",
+      "73°"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The complementary angle of 65° is",
+    "options": [
+      "25°",
+      "35°",
+      "45°",
+      "55°"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "An angle which is one fourth of a revolution is",
+    "options": [
+      "60°",
+      "90°",
+      "120°",
+      "180°"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Number of right angles together to make a complete angle is",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "6"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The angle between two hands of a clock at 6 o’clock is",
+    "options": [
+      "Straight angle",
+      "Right angle",
+      "Acute angle",
+      "Obtuse angle"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The angle between minutes hand and hours hand of a clock at 4.00pm is",
+    "options": [
+      "60°",
+      "90°",
+      "100°",
+      "120°"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Which of the following is obtuse angle",
+    "options": [
+      "Each angle of rectangle",
+      "Supplementary angle of 50°",
+      "Complementary angle of 50°",
+      "Straight angle"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "ABCD is a parallelogram and if ∠A= 80° then ∠B= ∠B=",
+    "options": [
+      "80°",
+      "100°",
+      "120°",
+      "60°"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "If x°, 2x° and 3x° are the three angles together can make a straight angle then x=",
+    "options": [
+      "20°",
+      "30°",
+      "40°",
+      "60°"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "If a transversal intersects two parallel lines so that one of the angle in a pair of co-interior angles is 60° then the other angle is",
+    "options": [
+      "60°",
+      "120°",
+      "30°",
+      "40°"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "If a transversal intersects two parallel lines so that one of the angle in a pair of alternate interior angles is 50° then the other angle is",
+    "options": [
+      "40°",
+      "50°",
+      "130°",
+      "100°"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Which of the following English alphabet has a line symmetry",
+    "options": [
+      "J",
+      "L",
+      "M",
+      "N"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Angle of rotational symmetry of a rectangle is",
+    "options": [
+      "90°",
+      "180°",
+      "45°",
+      "60°"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Number of symmetric lines of a square is",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The difference between 40° and its complementary angle is",
+    "options": [
+      "50°",
+      "40°",
+      "20°",
+      "10°"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "In ∆PQR if ∠Q= 25° and ∠R= 65° then which of the following is true",
+    "options": [
+      "PQ² + QR² = RP²",
+      "PQ² + RP² = QR²",
+      "RP² + QR² = PQ²",
+      "2QR² = 3PQ²"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "In triangle ABC if AB² = BC² - AC² then which of the following is true",
+    "options": [
+      "∠A= 90°",
+      "∠B= 90°",
+      "∠C= 90°",
+      "∠B= 120°"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "If the hypotenuse of a right-angled isosceles triangle is 6cm then one of the its equal side is (in cm)",
+    "options": [
+      "3",
+      "3√2",
+      "4",
+      "4√2"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "In ∆PQR, ∠P= 90°if PQ= 10cm and PR= 24cm then QR=",
+    "options": [
+      "25",
+      "26",
+      "28",
+      "30"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "If angles of a triangle are in the ratio 2:3:4, then largest angle is",
+    "options": [
+      "20°",
+      "40°",
+      "60°",
+      "80°"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "In ∆ABC, if AB= 5cm, BC= 12cm and ∠B= 90° then AC=",
+    "options": [
+      "13",
+      "14",
+      "15",
+      "16"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "In a right-angled isosceles triangle the ratio of sides can be",
+    "options": [
+      "1:1:3",
+      "1:1:√3",
+      "1:1:2",
+      "1:1: √2"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "In ∆ABC, 2∠A= 3∠B and ∠C= 90° then ∠A=",
+    "options": [
+      "36°",
+      "48°",
+      "54°",
+      "72°"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Sum of all exterior angles of a triangle is",
+    "options": [
+      "180°",
+      "270°",
+      "360°",
+      "540°"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "If the sides of a triangle are integers and if two sides of triangle are 6cm and 8cm then maximum possible values for 3rd side is (in cm)",
+    "options": [
+      "13",
+      "14",
+      "15",
+      "16"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "In ∆ABC which of the following is true",
+    "options": [
+      "AB−BC> AC",
+      "AB+ BC= AC",
+      "AB= BC−AC",
+      "AB+ BC> AC"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "If the angles of a triangle are x°, (x+ 10)° and (x+ 20)° then x=",
+    "options": [
+      "80°",
+      "70°",
+      "60°",
+      "50°"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "In an Isosceles triangle if one angle is 100° then other two angles are",
+    "options": [
+      "40°, 40°",
+      "50°, 50°",
+      "100°, 40°",
+      "60°, 60°"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "In ∆ABC if ∠A+ ∠B= 100° then ∠C=",
+    "options": [
+      "60°",
+      "70°",
+      "80°",
+      "90°"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Each external angle of an equilateral triangle is",
+    "options": [
+      "60°",
+      "120°",
+      "100°",
+      "90°"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The two interior opposite angles of an exterior angle of a triangle are 60° and 80° then the measure of exterior angle is",
+    "options": [
+      "90°",
+      "100°",
+      "120°",
+      "140°"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "In a triangle if the angles are in the ratio 1:2:3 then it is",
+    "options": [
+      "Acute triangle",
+      "Obtuse triangle",
+      "Right triangle",
+      "Isosceles triangle"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "In ∆ABC if ∠A+ ∠B= ∠C then ∠C is",
+    "options": [
+      "45°",
+      "60°",
+      "75°",
+      "90°"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "In ∆ABC if ∠A= 70°,∠B= 50° then ∠C=",
+    "options": [
+      "60°",
+      "40°",
+      "80°",
+      "90°"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "In ∆ABC if AB= 7cm,BC= 8cm and AC= 9cm then ∆ABC is",
+    "options": [
+      "Equilateral triangle",
+      "Isosceles triangle",
+      "Scalene triangle",
+      "Right angled triangle"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Which of the following measures can make a triangle",
+    "options": [
+      "2cm, 3cm, 5cm",
+      "4cm, 5cm, 10cm",
+      "5cm, 5cm, 8cm",
+      "5cm, 5cm, 10cm"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "In quadrilateral ABCD if AB= BC and AD= DC then ABCD is",
+    "options": [
+      "Trapezium",
+      "Parallelogram",
+      "Rhombus",
+      "Kite"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Each external angle of a regular octagon is",
+    "options": [
+      "30°",
+      "36°",
+      "45°",
+      "72°"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The length and breadth of a rectangle are 18cm and 8cm respectively then the side of a square whose area is equal to the area of rectangle is (in cm)",
+    "options": [
+      "12",
+      "14",
+      "15",
+      "16"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Minimum number of measures required to construct a parallelogram is",
+    "options": [
+      "4",
+      "3",
+      "2",
+      "5"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "ABCD is a rhombus of which ∠A= 60° and BD= 5cm then perimeter of rhombus ABCD is (in cm)",
+    "options": [
+      "10",
+      "10√2",
+      "20",
+      "20√2"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Sum of all exterior angles of a quadrilateral is",
+    "options": [
+      "360°",
+      "540°",
+      "720°",
+      "900°"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "In a pentagon ABCDE, ∠A= ∠B= ∠C= ∠D= 100° then ∠E=",
+    "options": [
+      "100°",
+      "110°",
+      "120°",
+      "140°"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The area of a square whose diagonal is 10cm is (in sq.cm)",
+    "options": [
+      "50",
+      "100",
+      "150",
+      "200"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "If area of a square is 64 sq.cm then its perimeter is (in cm)",
+    "options": [
+      "16",
+      "24",
+      "32",
+      "36"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The perimeter of a square is 20cm then its area is (in sq.cm)",
+    "options": [
+      "16",
+      "25",
+      "36",
+      "100"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The perimeter of a rectangle is 24cm and its length is 8cm then its breadth is (in cm)",
+    "options": [
+      "4",
+      "6",
+      "16",
+      "8"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The side of a square is 10cm then its diagonal length is (in cm)",
+    "options": [
+      "12",
+      "10√2",
+      "5√2",
+      "15"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The number of sides of a polygon which has 35 diagonals is",
+    "options": [
+      "8",
+      "9",
+      "10",
+      "12"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "A polygon which has same number of sides as well as diagonals is",
+    "options": [
+      "Quadrilateral",
+      "Pentagon",
+      "Hexagon",
+      "Septagon"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Number of diagonals in a hexagon is",
+    "options": [
+      "6",
+      "9",
+      "10",
+      "12"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The least possible interior angle of a regular polygon is",
+    "options": [
+      "45°",
+      "60°",
+      "90°",
+      "120°"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Each exterior angle of a regular polygon is 60° then the polygon is",
+    "options": [
+      "Hexagon",
+      "Octagon",
+      "Nonagon",
+      "Decagon"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Sum of all internal angles of an octagon is",
+    "options": [
+      "720°",
+      "900°",
+      "1080°",
+      "1260°"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "ABCD is a trapezium in which AB̅̅̅̅ ∥DC̅̅̅̅ if ∠B= 80° then ∠C=",
+    "options": [
+      "80°",
+      "60°",
+      "100°",
+      "120°"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "In a parallelogram ABCD if ∠A= 100° then ∠C= ∠C=",
+    "options": [
+      "80°",
+      "90°",
+      "100°",
+      "50°"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Each internal angle of a regular decagon is",
+    "options": [
+      "100°",
+      "120°",
+      "144°",
+      "150°"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The founder of the Indian statistical Institute Kolkata is",
+    "options": [
+      "P. C. Manohar",
+      "P. C. Sirkar",
+      "P. C. Mahal nobis",
+      "P. C. Madhava Iyer"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The mean of 0, 10, 12, x, 18 is 11 then x=",
+    "options": [
+      "13",
+      "15",
+      "16",
+      "17"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The mean of x, 10, 15, 20 and 25 is 15 then value of x is",
+    "options": [
+      "5",
+      "10",
+      "15",
+      "20"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "This information is not represented in a bar graph",
+    "options": [
+      "Rectangular bars with equal height",
+      "Rectangular bars with equal width",
+      "Title",
+      "Scale"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The mean of the data 10,12,14,8,6 and 4 is",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Mean of the data 1,4,9,16 and 25 is",
+    "options": [
+      "9",
+      "11",
+      "16",
+      "17"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "If one symbol represents 150 trees, then the number of trees represented by are",
+    "options": [
+      "600",
+      "700",
+      "750",
+      "500"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The way of representing data using pictures is called",
+    "options": [
+      "Bar graph",
+      "Picto graph",
+      "Pie graph",
+      "Tables"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Choose correct tally marks for representing number 7",
+    "options": [
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "If in a pictograph each diagram represents 18 students, then the number of students represented by 9 such diagrams",
+    "options": [
+      "18 ÷ 9",
+      "9 ÷ 18",
+      "18 × 9",
+      "9 + 18"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The Arithmetic mean of the numbers 12, 19, 13 and 16 is",
+    "options": [
+      "15",
+      "14",
+      "14.5",
+      "15.5"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "In a bar graph bars can be drawn",
+    "options": [
+      "Horizontal bars only",
+      "Vertical bars only",
+      "Either horizontal or vertical bars",
+      "Neither horizontal nor vertical bars"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The average temperature for past 3 days is 70° what could have been the temperatures for past 3 days (in degrees)",
+    "options": [
+      "65, 75, 80",
+      "60, 70, 80",
+      "55, 70, 75",
+      "65, 75, 85"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The average of first five natural multiples of 3 is",
+    "options": [
+      "5",
+      "6",
+      "9",
+      "12"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The mean of first five odd natural numbers",
+    "options": [
+      "7",
+      "5",
+      "9",
+      "7.5"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "In a pictograph, if a symbol  represents 20 flowers in a basket, then  stands for how many flowers",
+    "options": [
+      "45",
+      "50",
+      "55",
+      "15"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The mean of the data 7,9,11,13,15,17 and 19 is",
+    "options": [
+      "11",
+      "12",
+      "13",
+      "15"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "________ is not measure of central tendency",
+    "options": [
+      "Arithmetic mean",
+      "Range",
+      "Median",
+      "Mode"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "A batsman scored the following number of runs in six innings: 36,35,50,46,60,55. Calculate the mean runs scored by him in an innings",
+    "options": [
+      "57",
+      "47",
+      "57.5",
+      "47.5"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The arithmetic mean of 1/2 and 1/4 is",
+    "options": [
+      "1/8",
+      "2/8",
+      "3/8",
+      "7/16"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The arithmetic mean of 1/2 and 3/8 is",
+    "options": [
+      "1/16",
+      "3/16",
+      "5/16",
+      "7/16"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The median of data : 24,36,46,17,18,25,35 is",
+    "options": [
+      "17",
+      "24",
+      "25",
+      "35"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The mode of the data : 13,16,12,14,19,12,14,13,14",
+    "options": [
+      "19",
+      "16",
+      "14",
+      "13"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The correct statement among these given is",
+    "options": [
+      "The mode is always one of number in a data",
+      "The mean is always one of the numbers in data",
+      "The median is always one of the numbers in a data",
+      "Mean and median of a data is always same"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The mode of numbers 2,2,2,3,3,4,5,5,5,6,6,8 is",
+    "options": [
+      "8",
+      "2",
+      "5",
+      "2 and 5"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The median of the data 10,15,7,3,24,9 and 2 is",
+    "options": [
+      "7",
+      "9",
+      "10",
+      "9.5"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The Sum of mode and median of data 13,16,12,14,19,12,14,13,14",
+    "options": [
+      "28",
+      "33",
+      "16.5",
+      "14"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The mode of the given set of numbers 1,1,2,4,3,2,1,2,2,4 is",
+    "options": [
+      "4",
+      "3",
+      "2",
+      "1"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The frequency of the mode of the data 2,14,16,12,14,14,16,14,10,14,18,14",
+    "options": [
+      "14",
+      "4",
+      "16",
+      "6"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Median of a group of observations is the value of the variable which divides the group into ________",
+    "options": [
+      "Two equal parts",
+      "Two un equal parts",
+      "Two parts having same mean values",
+      "Three parts"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Range of the data 8,32,5,3,76,23 and 5 is",
+    "options": [
+      "68",
+      "71",
+      "73",
+      "76"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "A pie chart gives the expenditure (in percentages) on various items and savings of a family during a month. If the monthly savings (15%) of the family represents ₹3000. What is the monthly expenditure (10%) representing on clothes is",
+    "options": [
+      "₹500",
+      "₹1000",
+      "₹1500",
+      "₹2000"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "A pie chart shows the preferred colours by a group of 36 people then the portion of sector represents the 6 people preferring blue colour is",
+    "options": [
+      "1/2",
+      "1/4",
+      "1/6",
+      "1/8"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Mode is",
+    "options": [
+      "Least frequent value",
+      "Middle most value",
+      "Most frequent value",
+      "Average of middle most two various"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The mode of the data 15, 15, 10, 25, 8, 10, 16, 21, 17 and 10 is",
+    "options": [
+      "15",
+      "10",
+      "16",
+      "12"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The mode of the data 12,12,11,11,10,10,9,8,7,12 and 15 is",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "15"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The median of data 24, 36, 46, k, 18, 25 and 35 is 25 then the possible value of k is",
+    "options": [
+      "28",
+      "35",
+      "42",
+      "17"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The median of 16, 21, 8, 3 and 30 is",
+    "options": [
+      "16",
+      "8",
+      "3",
+      "2"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The mode of the data 18, 10, 9, 11, 16, 25, 9, 11, 15 and 9 is",
+    "options": [
+      "15",
+      "11",
+      "10",
+      "9"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The mode of the data 11,13,17, x,15,8,6,11 and 15 is 15 then the value of x is",
+    "options": [
+      "11",
+      "13",
+      "15",
+      "17"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "If the arithmetic mean of 2,4,6,8,3 and 7 is 5 then the arithmetic mean of 1002, 1004, 1006, 1008, 1003 and 1007 is",
+    "options": [
+      "1005",
+      "1004",
+      "1008",
+      "1003"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "If the arithmetic mean of 7,8, x,11,14 is x then x=",
+    "options": [
+      "9",
+      "9.5",
+      "10",
+      "10.5"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "When a die is thrown, number of total possible outcomes is",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The probability of getting number 5 when a die is thrown ones",
+    "options": [
+      "1/2",
+      "1/5",
+      "1/6",
+      "1"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The probability of getting number 7 when a die is thrown once",
+    "options": [
+      "0",
+      "1/2",
+      "1/6",
+      "1/7"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "A bag has 4 red balls and 2 yellow balls (the balls are identical in all respects other than colour). A ball is drawn from the bag without looking into the bag. The probability of getting a red ball is",
+    "options": [
+      "1/2",
+      "1/3",
+      "2/3",
+      "1/6"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "A bag has 4 red balls and 2 yellow balls (the balls are identical in all respects other than colour). A ball is drawn from the bag without looking into the bag. The probability of getting a yellow ball is",
+    "options": [
+      "1/2",
+      "1/3",
+      "2/3",
+      "1/6"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "A bag has 4 red balls and 2 yellow balls (the balls are identical in all respects other than colour). A ball is drawn from the bag without looking into the bag. The probability of getting a white ball is",
+    "options": [
+      "0",
+      "1",
+      "1/6",
+      "1/3"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "When a die is thrown the probability of getting an odd number is",
+    "options": [
+      "4/6",
+      "3/6",
+      "5/6",
+      "1/6"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The probability that it rains during a rainy season is 1/10 then the probability that it does not rain 1",
+    "options": [
+      "11/10",
+      "9/10",
+      "1/9",
+      "10/9"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "When a die thrown the number of outcomes of getting a number not greater than or equal to 5 is",
+    "options": [
+      "4",
+      "5",
+      "4/6",
+      "5/6"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "When a die is thrown the probability of getting a prime number is",
+    "options": [
+      "4/6",
+      "3/6",
+      "5/6",
+      "1/6"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "When a die is thrown the probability of getting a even number is",
+    "options": [
+      "4/6",
+      "3/6",
+      "5/6",
+      "1/6"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "A spinner is divided into 8 equal sectors out of them five sectors are coloured green and the remaining sectors are coloured red. If you spin the wheel once the probability of getting not green sector is",
+    "options": [
+      "3/5",
+      "3/8",
+      "5/8",
+      "5"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "A spinner is divided into 8 equal sectors out of them five sectors are coloured green and the remaining sectors are coloured red. If you spin the wheel once the probability of getting not red sector is",
+    "options": [
+      "3/5",
+      "3/8",
+      "5/8",
+      "5"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The probability of getting two heads when two coins tossing together is",
+    "options": [
+      "1/2",
+      "1/3",
+      "2/3",
+      "1/4"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The probability of getting one head and one tail, when two coins tossing together is",
+    "options": [
+      "1/2",
+      "1/3",
+      "2/3",
+      "1/4"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Numbers 1 to 10 are written on ten separate slips (one number on one slip), kept in a box and mixed well. One slip is chosen from the box without looking into it what is the probability of getting a number less than 6?",
+    "options": [
+      "1/2",
+      "4/10",
+      "6/10",
+      "1/3"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Numbers 1 to 10 are written on ten separate slips (one number on one slip), kept in a box and mixed well. One slip is chosen from the box without looking into it what is the probability of getting 1digit number?",
+    "options": [
+      "1/10",
+      "9/10",
+      "1/2",
+      "1/5"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "If you have a spinning wheel with 3 green sectors, 1 blue sector and 1 red sector, what is the probability of getting a non-blue sector?",
+    "options": [
+      "3/5",
+      "1/5",
+      "4/5",
+      "1/3"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "If you have a spinning wheel with 3 green sectors, 1 blue sector and 1 red sector, what is the probability of getting a green sector?",
+    "options": [
+      "1/3",
+      "1/5",
+      "3/5",
+      "2/3"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "When a die is thrown the probability of getting multiple of 3 is",
+    "options": [
+      "1/3",
+      "2/3",
+      "1/6",
+      "5/6"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Probability of getting an ace from a well shuffled deck of playing cards is",
+    "options": [
+      "1/4",
+      "1/13",
+      "2/25",
+      "4/53"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "If n= 1 then the value of 2n=",
+    "options": [
+      "2",
+      "3",
+      "1",
+      "4"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "If n= 2 then the value of n+ 2 is",
+    "options": [
+      "22",
+      "14",
+      "7",
+      "4"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "If n= 3 then the value of 3n−3 is",
+    "options": [
+      "32",
+      "23",
+      "6",
+      "5"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "If n= 4 then the value of 4(n−2) is",
+    "options": [
+      "24",
+      "8",
+      "42",
+      "6"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "If x= 12 then the value of x−3 =",
+    "options": [
+      "123",
+      "36",
+      "15",
+      "9"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "If n= 3 then the value of 2n+ 3",
+    "options": [
+      "9",
+      "33",
+      "6",
+      "0"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "If a= 4 then the value of 4(a−1) is",
+    "options": [
+      "34",
+      "43",
+      "12",
+      "7"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "If l= 7 then the value of 3l=",
+    "options": [
+      "73",
+      "21",
+      "37",
+      "10"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "If y= 5 then the value of 5(8 −y) is",
+    "options": [
+      "15",
+      "35",
+      "53",
+      "8"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "If p= 3 then the value of p(p+ 2)",
+    "options": [
+      "8",
+      "15",
+      "35",
+      "53"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "If m= 4 then the value of (9 −m)m",
+    "options": [
+      "45",
+      "54",
+      "20",
+      "9"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "If x= 5 then the value of 10 + x=",
+    "options": [
+      "15",
+      "105",
+      "50",
+      "51"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "If x= 7 then the value of 10 −x=",
+    "options": [
+      "17",
+      "107",
+      "13",
+      "3"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "If z= 12 then the value of z−12 =",
+    "options": [
+      "0",
+      "12",
+      "24",
+      "6"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The expression which represents “3 exceeds x” is",
+    "options": [
+      "3 −x",
+      "3x",
+      "x−3",
+      "x+ 3"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "If a teacher gives 3 pencils per students, then the expression which represents the number of pencils given to ‘s’ students is",
+    "options": [
+      "3s",
+      "s+ 3",
+      "s−3",
+      "3 −s"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "If there are 5 cadets in a row in a parade, then the number of cadets needed to arrange in ‘n’ rows in that parade is",
+    "options": [
+      "5 + n",
+      "5n",
+      "n+ 5",
+      "n−5"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "If there are 50 mangoes in a box, how many mangoes are there in ‘b’ such boxes?",
+    "options": [
+      "50 −b",
+      "50 + b",
+      "50b",
+      "b−50"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "If a bird flies 1 kilo meter in one minute, then the distance covered by the bird in ‘t’ minutes is ___km",
+    "options": [
+      "t−1",
+      "1 + t",
+      "1 −t",
+      "t"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Radha is drawing a dot Rangoli with chalk powder. She has 9 dots in a row. How many dots will her Rangoli have for ‘r’ rows?",
+    "options": [
+      "9 −r",
+      "9r",
+      "9 + r",
+      "r+ 9"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "In a family function, mother distributed ‘l’ laddus and still 5 laddus remain. How many total laddus she have before distribution?",
+    "options": [
+      "l+ 5",
+      "l−5",
+      "5l",
+      "5 −l"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The variable used in this given expression 3x² −5 is",
+    "options": [
+      "2",
+      "-5",
+      "3",
+      "x"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "How many terms are there in the expression 4xy+ 7 ?",
+    "options": [
+      "4",
+      "1",
+      "2",
+      "3"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "What are the variables we can find in 4xy+ 7 ?",
+    "options": [
+      "4, x, y",
+      "x, y",
+      "4, x, y, 7",
+      "4, 7"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "How many terms are there in the algebraic expression 4x² −3xy+ 5 ?",
+    "options": [
+      "3",
+      "6",
+      "2",
+      "4"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The numerical co-efficient of x² in the algebraic expression 4x² −3xy is",
+    "options": [
+      "4",
+      "-3",
+      "1",
+      "4x"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "What is the numerical co-efficient of x in the term −3xy ?",
+    "options": [
+      "3",
+      "-3y",
+      "y",
+      "-3"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Which of the following is not a factor of −3xy ?",
+    "options": [
+      "-3",
+      "x",
+      "x+ y",
+      "y"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "A factor of the term 5xy is",
+    "options": [
+      "-8",
+      "xy",
+      "x+ y",
+      "5 + x+ y"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The numerical co-efficient of −x²y² is",
+    "options": [
+      "-1",
+      "2",
+      "4",
+      "0"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The co-efficient of ‘x’ in the term −5xz is",
+    "options": [
+      "−5z",
+      "−5",
+      "z",
+      "5xz"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The group which contains the like term only from the following 12x, 12, −25x, −25y, 4pq, 5x², xy 12x, 12, −25x, −25y, 4pq, 5x², xy",
+    "options": [
+      "−25x, 5x², xy",
+      "12x, 5x²",
+      "−25x, −25y",
+      "12x, −25x"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Which of the following is a binomial?",
+    "options": [
+      "ab+ a+ b",
+      "4m−7n+ 10",
+      "ab+ a",
+      "−3xy²"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Write the following statement as an equation. “The sum of three times x and 11 is 32”",
+    "options": [
+      "3 + 11 + x= 32",
+      "3x+ 11 = 32",
+      "3 × 11 + x= 32",
+      "3(x+ 11) = 32"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Solve : 3n+ 7 = 25",
+    "options": [
+      "6",
+      "-5",
+      "18",
+      "8"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Find the value of ‘m’ from 4(m+ 3) = 18",
+    "options": [
+      "9/2",
+      "3/2",
+      "11",
+      "4"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Solve : 10p+ 10 = 100",
+    "options": [
+      "5",
+      "90",
+      "19",
+      "9"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Add : 7x² −4x+ 5 and 9x−10",
+    "options": [
+      "7x² −5x+ 5",
+      "16x² −4x−5",
+      "7x² + 5x−5",
+      "7x² −13x−15"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Subtract : 4a+ 3b+ 12 from 12a+ 5b−3",
+    "options": [
+      "−8a−2b+ 15",
+      "8a+ 2b−15",
+      "16a+ 8b+ 9",
+      "8a+ 8b+ 9"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The product of 2xy× 5yz is",
+    "options": [
+      "10x∙2y∙z",
+      "7xy²z",
+      "7xyz",
+      "10xy²z"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The product of 2x(5x+ 3xy) is",
+    "options": [
+      "10x+ 6xy",
+      "10x² + 3xy",
+      "10x² + 6x²y",
+      "7x² + 3xy"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "a² −b² = _____________",
+    "options": [
+      "a² + 2ab+ b²",
+      "a² −2ab+ b²",
+      "a² −2ab−b²",
+      "(a+ b)(a−b)"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "10 × 10 × 10 × 10 × 10is represented as",
+    "options": [
+      "105",
+      "10 × 5",
+      "500",
+      "510"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Base of 25 is",
+    "options": [
+      "32",
+      "10",
+      "5",
+      "2"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "In a⁷ the exponent is",
+    "options": [
+      "a",
+      "7a",
+      "7",
+      "1"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The value of (−2)⁵ ?",
+    "options": [
+      "32",
+      "-32",
+      "-10",
+      "25"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Exponential form of 729 is",
+    "options": [
+      "94",
+      "73",
+      "36",
+      "28"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Prime fraction of 72 in exponential form is",
+    "options": [
+      "8 × 9",
+      "23 ∙32",
+      "33 ∙22",
+      "(3 × 2)²"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The value of (−1)²⁰²⁶ =",
+    "options": [
+      "−1",
+      "2026",
+      "−2026",
+      "1"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "(−4)¹⁰⁰ × (−4)²⁰",
+    "options": [
+      "(−4)¹²⁰",
+      "(−4) × 120",
+      "(−4) × 10⁰ × (−4) × 20",
+      "(−4)⁸⁰"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "If 79 ÷ 76 = 7x then the value of x=",
+    "options": [
+      "7",
+      "15",
+      "3",
+      "1"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "If b¹⁰ ÷ b⁵ = b where b is a non-zero integer then the correct number which comes in the box is",
+    "options": [
+      "5",
+      "15",
+      "2",
+      "0"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "(2³)² = _________",
+    "options": [
+      "2⁶",
+      "2⁵",
+      "6²",
+      "5²"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "a⁴ × b⁴ = _________",
+    "options": [
+      "(ab)⁸",
+      "(ab)⁴",
+      "(ab)¹⁶",
+      "(ab)⁰"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "(-2)⁴ x (-3)⁴ = _________",
+    "options": [
+      "-(6)⁴",
+      "6⁴",
+      "(-5)⁴",
+      "(+2)⁻⁴ x (+3)⁻⁴"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "56 ÷ (−2)⁶ = ____________",
+    "options": [
+      "−(5 2) 6",
+      "(−10)⁶",
+      "( 5 2) 6",
+      "(− 5 2) 0"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "20 × 30 × 40 = ________",
+    "options": [
+      "1",
+      "24",
+      "3",
+      "9"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "(30 + 20) × 50 = ________",
+    "options": [
+      "10",
+      "1",
+      "25",
+      "2"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "20 + 30 + 40 = ________",
+    "options": [
+      "9",
+      "24",
+      "1",
+      "3"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "105 × 10³ × 10² = ________",
+    "options": [
+      "1010",
+      "1030",
+      "108",
+      "100"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "(5³)⁷ = _________",
+    "options": [
+      "5¹⁰",
+      "5³⁷",
+      "5²¹",
+      "5²¹"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The value of 82 ÷ 23 is",
+    "options": [
+      "2",
+      "16",
+      "8",
+      "4"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The expanded form of 5643 by using the power of 10",
+    "options": [
+      "5000 + 6 × 10² + 40 + 3 × 10",
+      "5 × 10⁴ + 6 × 10³ + 4 × 10² + 3 × 10",
+      "5 × 10³ + 6 × 10² + 4 × 10¹ + 3 × 10⁰",
+      "3 × 10³ + 4 × 10² + 6 × 10 + 5 × 10⁰"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Factor of 2x+ 2y is",
+    "options": [
+      "2, x+ y",
+      "2x, 2y",
+      "2 + x, 2 + y",
+      "2x+ 2, y"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Which of the following is not a factor of 4p²q",
+    "options": [
+      "4p²",
+      "4+p² + q",
+      "4q",
+      "p²q"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Common factor of 2y and 22xy is",
+    "options": [
+      "22x",
+      "2x",
+      "11x",
+      "2y"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Some factor of 2x²z are",
+    "options": [
+      "2 + x, x+ z",
+      "x+ z, x² + z",
+      "2, x², z",
+      "2 + z, xy"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Which group from the following only like terms contained?",
+    "options": [
+      "5x, 7y, -2xy",
+      "-5xy, +3/5 xy, xy/2",
+      "5x², 7y², -2xy",
+      "-5x², 2x²y, 5xy², 7y²"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "7x²y²z² ÷ 14xyz= __________",
+    "options": [
+      "1/2 xyz",
+      "xy/2z",
+      "2xyz",
+      "xyz"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "−20x⁴ ÷ 10x² = _________",
+    "options": [
+      "− 2 x²",
+      "−2x⁴",
+      "− 1 2x²",
+      "−2x²"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Which of the following is a factor of 8a+ 4b?",
+    "options": [
+      "2a+ b",
+      "a+ b",
+      "8a",
+      "4b"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Standard form of 80706050 is",
+    "options": [
+      "807.0605× 10⁵",
+      "80.706× 10⁶",
+      "8.070605× 10⁷",
+      "0.08070605× 10⁸"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Standard form of 39087.8 is",
+    "options": [
+      "0.390878× 10⁵",
+      "3.9× 10⁵",
+      "3.90878× 10⁵",
+      "3.90878× 10⁴"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Standard form of 5,00,00,000 is",
+    "options": [
+      "5.0× 10⁷",
+      "0.5× 10⁷",
+      "0.5× 10⁶",
+      "0.5× 10⁹"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Standard form of 70,00,000 is",
+    "options": [
+      "70× 10⁶",
+      "7.0× 10⁶",
+      "0.7× 10⁶",
+      "0.07× 10⁶"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Standard form of 390878 is",
+    "options": [
+      "0.00390878× 10⁶",
+      "0.390878× 10⁵",
+      "3.90878× 10⁵",
+      "39.0878× 10⁵"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Standard form of 3908.78 is",
+    "options": [
+      "39.0878× 10³",
+      "0.0390878× 10⁶",
+      "0.390878× 10⁵",
+      "3.90878× 10³"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "A factor of 12x+ 36 is",
+    "options": [
+      "12x",
+      "x+ 3",
+      "36",
+      "48x"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "A factor of 22y−33z is",
+    "options": [
+      "22y",
+      "y−z",
+      "2y−3z",
+      "2y+ 3z"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "A factor of 14pq+ 35pqr is",
+    "options": [
+      "2 + 5r",
+      "7 + p+ q",
+      "pq+ 7",
+      "2 × 5r× pq"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Express 5985.3 in the standard form",
+    "options": [
+      "5.9823× 10⁴",
+      "5.9× 10⁴",
+      "5.9853× 10³",
+      "0.59853× 10⁵"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Standard form of 65950 is",
+    "options": [
+      "6.5× 10⁵",
+      "6.595× 10⁴",
+      "6.5950× 10³",
+      "0.6595× 10⁴"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Standard form of 3430000 is",
+    "options": [
+      "3.43× 10⁶",
+      "3.43× 10⁴",
+      "0.343× 10⁶",
+      "343.0× 10⁴"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Standard form of 70040000 is",
+    "options": [
+      "7.004× 10⁴",
+      "7.4× 10⁷",
+      "7.004× 10⁷",
+      "0.7004× 10⁷"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "An athlete takes 10 rounds of a rectangular park, 50m long and 25m wide. The total distance covered by him (in meters) is",
+    "options": [
+      "150",
+      "100",
+      "1500",
+      "1000"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Two sides of a triangle are 12 cm and 14cm. The perimeter of a triangle is 36cm. It’s third side is (in cm.)",
+    "options": [
+      "10",
+      "15",
+      "12",
+      "14"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The area of the square plot of side 8m is (in sq.m.)",
+    "options": [
+      "16",
+      "32",
+      "24",
+      "64"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The cost of tiling a rectangular plot of land 500m long and 200m wide at the rate of ₹8 per square meter (in ₹) is",
+    "options": [
+      "80,000",
+      "8,00,000",
+      "80,00,000",
+      "8,000"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The area of a parallelogram whose base is 20cm and height is 15cm (in sq. cm) is",
+    "options": [
+      "150",
+      "70",
+      "300",
+      "75"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The base of the triangle whose area is 36cm² and the height 3cm is (in cm.)",
+    "options": [
+      "24",
+      "12",
+      "48",
+      "32"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The perimeter of a 12 cm long sided equilateral triangle (in cm.) is",
+    "options": [
+      "144",
+      "24",
+      "48",
+      "36"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "If the area of a parallelogram is 24 cm² and the base is 4 cm, then its height (in cm) is",
+    "options": [
+      "12",
+      "6",
+      "18",
+      "8"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The cost of fencing a rectangular park of length 175 m and breadth 125 m at the rate of ₹12 per metre is",
+    "options": [
+      "₹600",
+      "₹3,600",
+      "₹7,200",
+      "₹5,400"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "A piece of string is 30cm long. The length of each side, if the string is used to form a regular hexagon (in cm) is",
+    "options": [
+      "180",
+      "6",
+      "10",
+      "5"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The perimeter of an isosceles triangle with equal sides 8cm each and third side 6cm is (in cm)",
+    "options": [
+      "22",
+      "23",
+      "14",
+      "24"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The area of a trapezium whose parallel sides are 9cm and 7 cm and the perpendicular distance between them of 3cm is (cm²)",
+    "options": [
+      "12",
+      "48",
+      "24",
+      "36"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The area of a rhombus whose diagonals of lengths 10 cm and 8.2 cm is (in cm²)",
+    "options": [
+      "82",
+      "41",
+      "36.4",
+      "48"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The area of a quadrilateral whose length of a diagonal is 6 cm and the lengths of perpendiculars drawn from the opposite vertices to that diagonal are 3cm and 5cm is (in cm²)",
+    "options": [
+      "45",
+      "90",
+      "48",
+      "24"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "If the area of a square is 64cm². Then the perimeter of the square is (in cm)",
+    "options": [
+      "128",
+      "32",
+      "8",
+      "16"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "If the length and breadth of a rectangular field are in the ratio 3:2 and the perimeter of that field is 200 cm. Then the measures of length and breadth respectively are (in cm)",
+    "options": [
+      "60, 40",
+      "50, 50",
+      "40, 60",
+      "65, 35"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The area of a trapezium shape field is 480m². The distance between the parallel sides is 15m and one of the parallel side is 20m. Then the other parallel side is (in m)",
+    "options": [
+      "12",
+      "32",
+      "24",
+      "44"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The perimeter of a regular pentagon with each side measuring 3 cm is (in cm)",
+    "options": [
+      "9",
+      "12",
+      "15",
+      "18"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "If the sides of two squares are in the ratio 4:5 then the ratio of their areas is",
+    "options": [
+      "16:25",
+      "4:5",
+      "16:20",
+      "2:√5"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "A parallelogram and a rectangle have same areas. Then one the following statements is always true",
+    "options": [
+      "Perimeter of rectangle is greater than the perimeter of parallelogram",
+      "The perimeters of rectangle and parallelogram are equal",
+      "The perimeter of parallelogram is greater than the perimeter of rectangle",
+      "The perimeter of rectangle is twice that of parallelogram"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Pinky runs around a square field of side 75m and Bob runs around a rectangular filed with length 160m and breadth 105 m. With this information one of the following is a correct statement. 160",
+    "options": [
+      "Bob covers more distance by 230m",
+      "Pinky covers more distance by 230m",
+      "Bob covers more distance by 115m",
+      "Pinky covers more distance by 35m"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "If the circumference of a circular sheet 154m, then the area of sheet is (in m²)",
+    "options": [
+      "2532.3",
+      "1794.5",
+      "1886.5",
+      "1983.5"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Which of the following letters have same image in mirror",
+    "options": [
+      "A",
+      "H",
+      "X",
+      "All of the above"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Number of symmetrical lines of an isosceles triangle is",
+    "options": [
+      "3",
+      "1",
+      "2",
+      "4"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Number of symmetrical lines of a regular Heptagon is",
+    "options": [
+      "6",
+      "7",
+      "5",
+      "8"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Which of the following figure has a rotational symmetry of order 4",
+    "options": [
+      "Rectangle",
+      "Square",
+      "Equilateral triangle",
+      "Circle"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "In which case is it not possible to form a polygon with",
+    "options": [
+      "Five match sticks",
+      "Four match sticks",
+      "Three match sticks",
+      "Two match sticks"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Name of the polygon with 8 sides is",
+    "options": [
+      "Hexagon",
+      "Octagon",
+      "Heptagon",
+      "Decagon"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "From a circular sheet of radius 4cm, circle of radius 3cm is removed the area of the remaining sheet is (in cm²)",
+    "options": [
+      "7π",
+      "π",
+      "3π",
+      "5π"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The minute hand of a circular clock is 14cm long the distance between that tip of the minute hand move in 1 hour (in cm)",
+    "options": [
+      "44",
+      "88",
+      "96",
+      "124"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The number of times a wheel of radius 28cm must rotate to go 352cm is",
+    "options": [
+      "4",
+      "3",
+      "5",
+      "2"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The angle of rotation of an equilateral triangle is",
+    "options": [
+      "60°",
+      "90°",
+      "120°",
+      "180°"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The part of a revolution you have turned through if you stand facing east and turn clock-wise to face north is",
+    "options": [
+      "3/4",
+      "1/4",
+      "1/2",
+      "4/5"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Number of diagonals that can be drawn to a pentagon is",
+    "options": [
+      "8",
+      "6",
+      "5",
+      "10"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Area of a semi-circle whose diameter is 14cm is (in cm²)",
+    "options": [
+      "77",
+      "154",
+      "308",
+      "616"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The perimeter of a semicircle of radius 14cm is (in cm)",
+    "options": [
+      "144",
+      "72",
+      "44",
+      "36"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The perimeter of the circle of diameter 28cm is (in cm)",
+    "options": [
+      "88",
+      "176",
+      "44",
+      "144"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Name the polygon which has equal number of sides and diagonals",
+    "options": [
+      "Square",
+      "Hexagon",
+      "Octagon",
+      "Pentagon"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Which of the following letter has rotational symmetry of order 2",
+    "options": [
+      "Z",
+      "H",
+      "S",
+      "All of the above"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "A circular flower bed is surrounded by a path 4m wide. The diameter of the flower bed is 66m, then the area of the path is (in sq. m)",
+    "options": [
+      "140π",
+      "280π",
+      "480π",
+      "240π"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The area of a circle of radius 21cm is (in sq. cm)",
+    "options": [
+      "1836",
+      "1368",
+      "1386",
+      "1863"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The area of a semicircle Whose perimeter 36cm is (in sq. cm)",
+    "options": [
+      "77",
+      "144",
+      "154",
+      "235"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Number of faces of a cuboid",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "5"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The total surface area of the cuboid of measurements 6cm× 4cm× 2cm is (in cm²)",
+    "options": [
+      "88",
+      "44",
+      "48",
+      "40"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The lateral surface area of the cuboid of measurements 4cm× 4cm× 10cm is (in cm²)",
+    "options": [
+      "192",
+      "96",
+      "120",
+      "160"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The volume of the cuboid of measurements 8cm× 3cm× 2cm is (in cm³)",
+    "options": [
+      "64",
+      "36",
+      "48",
+      "24"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "If the volume of a cuboid is 231cm³ and its height is 7cm then the base area of the cuboid is (in cm²)",
+    "options": [
+      "33",
+      "161",
+      "44",
+      "236"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The total cost of painting to the four walls of a room of dimensions 4m× 5m× 4m,if it cost’s ₹50 to each square meter is",
+    "options": [
+      "₹3000",
+      "₹3200",
+      "₹3600",
+      "₹4200"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The volume of a cuboid of 24cm² base area and a height of 3cm is (in cm³)",
+    "options": [
+      "72",
+      "8",
+      "27",
+      "21"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Number of edges of a cube is",
+    "options": [
+      "6",
+      "3",
+      "10",
+      "12"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The total surface area a cube of side 8cm is (in cm²)",
+    "options": [
+      "64",
+      "384",
+      "256",
+      "512"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The Lateral surface area of a cube of side 10cm is (in cm²)",
+    "options": [
+      "400",
+      "600",
+      "1000",
+      "8000"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The volume of a cube of side 6cm is (in cm³)",
+    "options": [
+      "72",
+      "216",
+      "144",
+      "256"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The volume of a cube whose base area is 49cm² (in cm³)",
+    "options": [
+      "21",
+      "125",
+      "243",
+      "343"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The length of the side of a cube whose volume of 125cm³ is (in cm)",
+    "options": [
+      "7",
+      "5",
+      "6",
+      "4"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The volume of a cube whose total surface area is 600cm² is (in cm³)",
+    "options": [
+      "1200",
+      "1800",
+      "1000",
+      "2400"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The total surface area of a cylinder with radius of base 14cm and height of 8cm is (in cm²)",
+    "options": [
+      "1936",
+      "704",
+      "616",
+      "1734"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The curved surface area of a cylinder of base radius 7cm and height 21cm is (in cm²)",
+    "options": [
+      "462",
+      "1024",
+      "684",
+      "924"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The volume of a cylinder with a radius of base 7cm and a height of 10cm is (in cm³)",
+    "options": [
+      "1540",
+      "2200",
+      "3080",
+      "2463"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The volume of a cylinder whose base area is 250m² and a height of 2m is (in m³)",
+    "options": [
+      "100",
+      "500",
+      "750",
+      "200"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "A closed cylindrical tank of radius 7m and height 3m is made from a sheet of metal. Then the sheet of metal required is (in cm²)",
+    "options": [
+      "220",
+      "110",
+      "440",
+      "460"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The height of a cylinder whose base area is 180cm² and volume of 900cm³ is (in cm)",
+    "options": [
+      "11",
+      "6",
+      "5",
+      "22"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "A rectangular paper of width 14cm is rolled along its length and a cylinder of radius 20cm is formed, then the volume of the cylinder is (in cm³)",
+    "options": [
+      "17600",
+      "16700",
+      "15200",
+      "12500"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Slant height of a right circular cone with base radius 8cm and height 6cm is (in cm)",
+    "options": [
+      "12",
+      "15",
+      "9",
+      "10"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The slant height of the right circular cone is 25cm and its base radius is 15cm, its height is (in cm)",
+    "options": [
+      "15",
+      "20",
+      "21",
+      "22"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "If the slant height of the right circular cone is 13cm and its base diameter is 24cm then its height is (in cm)",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "A conical tent is 12m height and a diameter of 10m then its slant height is (in m)",
+    "options": [
+      "22",
+      "20",
+      "13",
+      "17"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The base radius and height of cylinder and cone are equal. If volume of cone is 50cm³ then volume of cylinder is (in cm³)",
+    "options": [
+      "150",
+      "180",
+      "300",
+      "450"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "A cone and a cylinder has same radius and height then the ratio’s of their volumes is",
+    "options": [
+      "3:1",
+      "1:3",
+      "4:3",
+      "3:4"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "A prism has 6 vertices and 12 edges then the number of faces it has",
+    "options": [
+      "10",
+      "12",
+      "18",
+      "8"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "A pyramid having 20 faces and 12 vertices then number of edges it has",
+    "options": [
+      "30",
+      "26",
+      "128",
+      "32"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The number of vertices of prism with square base",
+    "options": [
+      "12",
+      "8",
+      "6",
+      "10"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Surface area of the sphere with radius r units is (in sq. units)",
+    "options": [
+      "4πr²",
+      "4/3 πr²",
+      "4πr",
+      "2/3 πr³"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The base area of a prism is 250cm² and its height is 8cm then the volume of the prism is (in cm³)",
+    "options": [
+      "2500",
+      "4000",
+      "2000",
+      "3500"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The perimeter of the base of a prism is 150cm and its height is 10cm then its lateral surface area is (in cm²)",
+    "options": [
+      "15",
+      "160",
+      "1500",
+      "1200"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "No. of edges of a triangular pyramid",
+    "options": [
+      "12",
+      "9",
+      "3",
+      "6"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The lateral surfaces of right pentagonal pyramid are",
+    "options": [
+      "Pentagons",
+      "Triangles",
+      "Rectangles",
+      "Squares"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The total surface area of a hemisphere of radius ‘r’ units is (in sq.units)",
+    "options": [
+      "3πr²",
+      "4/3 πr³",
+      "2πr²",
+      "4πr²"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The surface area of a sphere of radius 7cm is (in cm²)",
+    "options": [
+      "376",
+      "484",
+      "616",
+      "154"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The base radius and height of cylinder and cone are equal. If volume of the cylinder is 300cm³, volume of cone is (in cm³)",
+    "options": [
+      "100",
+      "50",
+      "150",
+      "200"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The ratio of the radii of the two spheres is 2:3 then the ratio of their surface areas is",
+    "options": [
+      "3:2",
+      "4:9",
+      "8:27",
+      "5:1"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "If base radius, slant height of a right circular cone r and l respectively. Its curved surface area is (in sq. units)",
+    "options": [
+      "πrl",
+      "2πrl",
+      "πrl+ πr²",
+      "πrl+ 2πr"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Two spheres are of the ratio of their radii is 3:4 then the ratio of their volumes is",
+    "options": [
+      "4:3",
+      "9:16",
+      "27:64",
+      "√3: √4"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "If volume of a sphere is 480cm³ then volume of hemisphere with Same diameter is (in cm³)",
+    "options": [
+      "120",
+      "240",
+      "160",
+      "400"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The word ‘MATHEMATICS’ evolved from the ancient Greek word________",
+    "options": [
+      "Mathematica",
+      "Maths",
+      "Manthano",
+      "Measurement"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Which is the Sanskrit word for “Mathematics”?",
+    "options": [
+      "Ganita",
+      "Counting",
+      "Maths",
+      "Logic"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Who defined Mathematics as “Mathematics is the science of quantity”?",
+    "options": [
+      "Aristotle",
+      "August Comte",
+      "Henry payengae",
+      "Lock"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Who defined mathematics as “Mathematics is the science of in direct measurement”?",
+    "options": [
+      "Aristotle",
+      "August Comte",
+      "Henry payengae",
+      "Lock"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Who defined Mathematics as “Mathematics is the science that draws conclusions”?",
+    "options": [
+      "Aristotle",
+      "August Comte",
+      "Benjamin pierces",
+      "Lock"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Who said “Mathematics is an art to show different things by one name”?",
+    "options": [
+      "Aristotle",
+      "Benjamin pierces",
+      "Henry payengae",
+      "Lock"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Who defined mathematics as “Mathematics is the way in which man’s mind stabilises in rationalism”?",
+    "options": [
+      "Aristotle",
+      "August Comte",
+      "Benjamin pierces",
+      "Lock"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Which of the following is not the nature of Mathematics?",
+    "options": [
+      "Abstractness",
+      "Chance to check",
+      "Logical thinking",
+      "Inaccuracy"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Which of the following is not the nature of Mathematics?​",
+    "options": [
+      "inductivism",
+      "Deductivism",
+      "Inaccurate",
+      "Correlation"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Who wrote the book “Ganitha saara sangraham”?",
+    "options": [
+      "Boudhayana",
+      "Mahaveeracharya",
+      "Aryabhata",
+      "Bhaskaracharya"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "While teaching mathematics in classroom, which value the teacher don’t expect from the students?",
+    "options": [
+      "Readiness value",
+      "Disciplinary value",
+      "Cultural value",
+      "Passive nature"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Number of parts of “Siddhanta Shiromani”",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The Indian mathematician who gave the value π= 3.1416",
+    "options": [
+      "Aryabhata",
+      "Bhaskaracharya",
+      "Brahmagupta",
+      "Pinagalacharya"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Bijaganita a book on Algebra was written by",
+    "options": [
+      "Aryabhata",
+      "Bhaskaracharya",
+      "Brahmagupta",
+      "Mahaveeracharya"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Who is the father of the geometry?",
+    "options": [
+      "Archimedies",
+      "Aristotle",
+      "Euclid",
+      "Pythagoras"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Indian mathematician who gave kuttaka method for solving indifinate equation is",
+    "options": [
+      "Aryabhata",
+      "Bhaskaracharya",
+      "Brahma gupta",
+      "Sridharacharya"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Who stated unknown/invisible variables as “yavat-tavat”?",
+    "options": [
+      "Aryabhata",
+      "Bhaskaracharya",
+      "Brahmagupta",
+      "Sridharacharya"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Who is the author of the book “Elements”",
+    "options": [
+      "Pythagoras",
+      "Euclid",
+      "Fermat",
+      "Plato"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "“Data” a book in mathematics was written by",
+    "options": [
+      "Euclid",
+      "Pythagoras",
+      "Fermat",
+      "Srinivasa Ramanujan"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Which of the following is not written by Bhaskaravharya",
+    "options": [
+      "Leelavati Ganitam",
+      "Bija Ganitam",
+      "Siddanta siromani",
+      "Ganita koumudi"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Which of the following book is translated into Arab as “Sind-Hind”",
+    "options": [
+      "Aryabhattiyam",
+      "Siddhanta Siromani",
+      "",
+      "Bijaganitam"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "In solving a problem on simple interest, one student is substitutes the values of principal, Time and Rate of interest in the formula for simple interest. The objective achieved here is",
+    "options": [
+      "Understanding",
+      "Skill",
+      "Knowledge",
+      "Application"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The 5th level objective in cognitive domain of the revised Bloom’s Taxonomy is",
+    "options": [
+      "Creating",
+      "Analysing",
+      "Evaluating",
+      "Understanding"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The 6th level objective domain of the revised Bloom’s Taxonomy is",
+    "options": [
+      "Creating",
+      "Analysing",
+      "Evaluating",
+      "Understanding"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "“Preparing the pupils to use Mathematical thoughts in their daily activities” This value comes under",
+    "options": [
+      "Utility Value",
+      "Disciplinary Value",
+      "Cultural Value",
+      "Artistic Value"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "This Mathematical value which can be developed by solving Puzzles, Tricky questions, Sudoku, Magic squares among students is",
+    "options": [
+      "Entertainment Value",
+      "Artistic Value",
+      "Disciplinary Value",
+      "Cultural Value"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "“Where there is rhythm, there is a number” This statement was given by",
+    "options": [
+      "Pythogorus",
+      "Euclid",
+      "Thales",
+      "Srinivasa Ramanujan"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "After observing a given problem, one student told that the expenditure for levelling the circular field is to be found out. Here the objective achieved is",
+    "options": [
+      "Knowledge",
+      "",
+      "Understanding",
+      "Skill"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "After solving the linier equation, a student 2x+11 =17, verified the result. Here the objective achieved is",
+    "options": [
+      "Knowledge",
+      "",
+      "Understanding",
+      "Skill"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "A student detects and corrects errors in the given problem. Here the objective achieved is",
+    "options": [
+      "Understanding",
+      "",
+      "Knowledge",
+      "Skill"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The objective that does not belong to the Psychomotor domain is",
+    "options": [
+      "Valuing",
+      "Manipulation",
+      "Precision",
+      "Articulation"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The objective that does not belong to the Affective domain is",
+    "options": [
+      "Organizing",
+      "Valuing",
+      "Responding",
+      "Manipulation"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The objective that belongs to the Affective domain is",
+    "options": [
+      "Articulation",
+      "Organising",
+      "Manipulation",
+      "Naturalisation"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The specification belongs to the “Understanding” is",
+    "options": [
+      "Recalls",
+      "Makes Generalisation",
+      "Detects and correct errors",
+      "Prediction of results"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The specification which belongs to Application is",
+    "options": [
+      "Using appropriate units",
+      "Verifying results",
+      "Finds out the given and what is required",
+      "Detects and corrects errors"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "By using protractor a student draws an angle 90o , then the achieved objective is",
+    "options": [
+      "Application",
+      "Knowledge",
+      "Skill",
+      "Understanding"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "If monthly salary of a person is ₹40,000. Then how much amount he earn for one year? By solving this problem the achieved this objective is",
+    "options": [
+      "Application",
+      "Understanding",
+      "Knowledge",
+      "Skill"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Arrange the numbers 8324,5678,7924,4932 in ascending order. By solving this achieved objective is",
+    "options": [
+      "Knowledge",
+      "Application",
+      "Understanding",
+      "Skill"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "A student represent 3.8, 4.8, 5.8 on number line. Here the achieved objective is",
+    "options": [
+      "Knowledge",
+      "Understanding",
+      "Application",
+      "Skill"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "One student expressed 1/2 as 2/4, 50%, 1:2 and 0.5. The achieved objective is",
+    "options": [
+      "Skill",
+      "Knowledge",
+      "Understanding",
+      "Application"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The length, breadth and height of a rectangular room are 10 units, 8 units and 6 units respectively. Find area of the base of the room? To solve this problem, the data is",
+    "options": [
+      "Sufficient",
+      "In sufficient",
+      "Superfluous",
+      "Can’t say"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "“The progress and the improvement of mathematics are linked to the prosperity of the state” whose words are these?",
+    "options": [
+      "Plato",
+      "Aristotle",
+      "Bertand Russell",
+      "Napolean"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Which of the following method is also called “Method of using principles”",
+    "options": [
+      "Inductive method",
+      "Deductive method",
+      "Analytic method",
+      "Synthetic method"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Who said “Human minds” greatest ability is deriving intelligence?",
+    "options": [
+      "Pestalozzi",
+      "Cominius",
+      "Thorndike",
+      "Aristotle"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "In which method a student can generalise “The product of two odd numbers is an odd number”",
+    "options": [
+      "Synthetic method",
+      "Analytic method",
+      "Inductive method",
+      "Deductive method"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "In which of the following method the teaching process proceeds from what is to be found to what is given in the problem",
+    "options": [
+      "Analytic method",
+      "Synthetic method",
+      "Heuristic method",
+      "Project method"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The tool which helps us to achieve the objectives of teaching learning is teaching method. Who said this?",
+    "options": [
+      "Wesly and young",
+      "Stanly and Bellards",
+      "John Dewey and young",
+      "Wesly and Stanly"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The Greek word Heurisco means",
+    "options": [
+      "I find",
+      "I know",
+      "I do",
+      "I can"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Checking the result is one of the steps in the following one of the methods",
+    "options": [
+      "Heuristic method",
+      "",
+      "Laboratory method",
+      "play way method"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The method which is suitable for self-learning and training is",
+    "options": [
+      "Project method",
+      "Laboratory method",
+      "Heuristic method",
+      "Play way method"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Who introduced the project method in a class room?",
+    "options": [
+      "John dewy",
+      "Kilpatrick",
+      "J. J Stevenson",
+      "Bellards"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "“Project is a part of life imported into a school”. Who said this?",
+    "options": [
+      "Arm strong",
+      "Stevenson",
+      "Kilpatrick",
+      "Bellards"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "In which method pupils can develop their observation skill and hand skill",
+    "options": [
+      "Heuristic method",
+      "Project method",
+      "Laboratory method",
+      "Problem solving method"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Inductive method was first introduced by",
+    "options": [
+      "Leibnitz",
+      "Pestalozzi",
+      "John Dewey",
+      "Francis Bacon"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Which of the following method is natural method to learn mathematics",
+    "options": [
+      "Inductive method",
+      "Deductive method",
+      "Analytic method",
+      "Synthetic method"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The person who co-ordinates Inductive and Deductive methods",
+    "options": [
+      "Euclid",
+      "William James",
+      "Charles Darvin",
+      "Francis Bacon"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "In which of the following methods prepared pupils to get ready to face problems in their daily life",
+    "options": [
+      "Problem solving method",
+      "Heuristic method",
+      "Project method",
+      "Laboratory method"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Which of the following methods develops analytical ability, imagination, creativity among the pupils",
+    "options": [
+      "Heuristic method",
+      "Project method",
+      "",
+      "Laboratory method"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Who remarked “ The Synthetic method searches for a needle in a haystake” ?",
+    "options": [
+      "Francis Bacon",
+      "Young",
+      "Kilpatric",
+      "Cominius"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "In which method the teacher acts like a guide and asking thought-provoking questions",
+    "options": [
+      "Heuristic method",
+      "Deductive method",
+      "Analytic method",
+      "Synthetic method"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Which of the following is one of the property in Analytic method",
+    "options": [
+      "It is a precise method",
+      "It is result of a thought",
+      "It is informative method",
+      "It is a constructive method"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Which of the following method develops co-operation among pupils",
+    "options": [
+      "Heuristic method",
+      "Project method",
+      "Synthetic method",
+      "Analytic method"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "One of the limitations of Analytic method is",
+    "options": [
+      "It is lengthy method",
+      "No importance of thinking",
+      "Cannot understand completely",
+      "More home work"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Use of peg board in teaching mathematics",
+    "options": [
+      "Easy to teach four fundamental operations",
+      "To construct Geometrical figures",
+      "To teach mathematical tables",
+      "To teach place value"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The number of items in ‘Mathematics kit’ is",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Which of the following item does not belong to ‘Mathematics kit’",
+    "options": [
+      "Beads Frame",
+      "Dominos",
+      "Napier Bands",
+      "Geo Boards"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "This item that belong to ‘Mathematics kit’",
+    "options": [
+      "Geo Boards",
+      "Kucineyer bands",
+      "peg board",
+      "Grid paper"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Maximum number of beads that can be placed in each bead frame",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Use of Beads Frame in teaching Mathematics",
+    "options": [
+      "To teach perimeter, area of plane figures",
+      "To teach multiplication of big numbers easily",
+      "To teach addition and subtraction of umbers",
+      "To teach type fractions easily"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "This item is useful to teach multiplications of large numbers",
+    "options": [
+      "Napier Bands",
+      "Kucineyer bands",
+      "Fraction disc",
+      "Beads Frame"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "This item is useful to teach “Like fractions and unlike fractions” easily",
+    "options": [
+      "Kucineyer bands",
+      "Napier Bands",
+      "Frame of fractions",
+      "Dominos"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The teaching aid which is used to teach Geometrical concepts is",
+    "options": [
+      "Grid paper",
+      "Bulletin board",
+      "Geo Boards",
+      "Napier Bands"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The teaching aid which is used to teach fractions, decimals, percentages, prime numbers and composite numbers",
+    "options": [
+      "Geo Boards",
+      "Grid paper",
+      "peg board",
+      "Kucineyer bands"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The mathematical concepts that can be develop through Dominos (A) Addition (B) Subtraction (C) Multiplication (D) Division",
+    "options": [
+      "A, B",
+      "B, C",
+      "C, D",
+      "D, A"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Which of the following is not a visual aid",
+    "options": [
+      "Chart",
+      "Video",
+      "Peg board",
+      "Audio recording"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "5/8 + 2/8 = 7/8. This can be explained by using the following teaching aid of the mathematics kit",
+    "options": [
+      "Grid Paper",
+      "Dominos",
+      "Fractions frame",
+      "Solid rods"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "2468  569 = ? This can be teach by using this teaching aid of mathematics kit",
+    "options": [
+      "Napier bands",
+      "",
+      "Fractions frame",
+      "Beads frame"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Total number of sectors in a frame of fractions of mathematics kit",
+    "options": [
+      "10",
+      "25",
+      "55",
+      "65"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "This teaching aid of the mathematics kit is used to teach area of a rectangle",
+    "options": [
+      "Geo board",
+      "Grid paper",
+      "",
+      "Dominos"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "By using Kucineyer bands, we can teach pupils about counting numbers, comparing numbers, addition and subtraction of numbers, ascending and descending order of numbers up to this number",
+    "options": [
+      "20",
+      "25",
+      "55",
+      "60"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Which of the following teaching aid of mathematics kit is not useful to teach the concept of ascending order and descending order of numbers is",
+    "options": [
+      "Napier bands",
+      "Fractions frame",
+      "Kucineyer bands",
+      "Cuboid shaped rods"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Which of the following does not belongs to maths kit?",
+    "options": [
+      "Geo board",
+      "Dominos",
+      "Napier rods",
+      "Fraction disc"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The instrument that does not belongs to mathematical instrument box is",
+    "options": [
+      "Divider",
+      "Protractor",
+      "Compass",
+      "Tape"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The number of cubic rods in the “mathematics kit” is",
+    "options": [
+      "100",
+      "90",
+      "70",
+      "50 SPECIAL APTET -2026 MATHS – 1A (EM&TM) 7. METHODS 7.5 CURRICULUM_TEXTBOOK AND INSTRUCTIONAL PLANNING"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "This lesson plan model is having ‘preparation’ as the first step",
+    "options": [
+      "Herbartian model",
+      "Morrisons model",
+      "Blooms Evaluation based model",
+      "R.C.E.M model"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Evaluation based model of lesson plan was proposed by",
+    "options": [
+      "Blooms",
+      "",
+      "Herbart",
+      "B. Sands"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "This step does not belong to ‘Morrisons’ unit of lesson plan",
+    "options": [
+      "Presentation",
+      "Organisation",
+      "Exploration",
+      "Association"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "“A lesson plan is actually an action plan” This statement was given by",
+    "options": [
+      "Laster B. Sands",
+      "Morrisons",
+      "Herbart",
+      "Blooms"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The lesson plan based on system approach is",
+    "options": [
+      "R.C.E.M model",
+      "Herbartian model",
+      "Evaluation based model",
+      "Morrisons model"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The last step in ‘Morrisons’ lesson plan is",
+    "options": [
+      "Presentation",
+      "Assimilation",
+      "Organisation",
+      "Recitation"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Which of the following is the last step in Herbartian lesson plan?",
+    "options": [
+      "Association",
+      "Generalisation",
+      "Application",
+      "Recapitulation"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Identify the third step in Herbartian lesson planning",
+    "options": [
+      "Presentation",
+      "Association",
+      "Generalisation",
+      "Application"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The educationalist who classified the objectives related to Cognitive domine",
+    "options": [
+      "Krathwohl",
+      "Simpson",
+      "Bloom",
+      "Anderson"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "“Objectives of teaching is the change we see in the pupil after a certain lesson has been learnt” this statement was given by",
+    "options": [
+      "Benjimen S. Bloom",
+      "Hall Quest",
+      "Thomas Dil Worth",
+      "Lang"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "“A good maths text book is a good source of knowledge, a tool, a guide and a medium to expand the pupil’s range of knowledge” this statement was given by",
+    "options": [
+      "Hall Quest",
+      "Benjimen S. Bloom",
+      "Thomas Dil Worth",
+      "Lang"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "“A text book means a primary or supplementary standard book” this statement was given by",
+    "options": [
+      "Thomas Dil Worth",
+      "Lang",
+      "Hall Quest",
+      "Benjimen S. Bloom"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The first textbook “The School Master’s Assistant” is written by",
+    "options": [
+      "Thomas Dilverth",
+      "Lang",
+      "Hall Quest",
+      ""
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Which of the following is not a characteristic of best mathematics textbook?",
+    "options": [
+      "Pictures and tables should be clear",
+      "Printing mistakes to be avoided",
+      "It has to contain colourful pictures to draw students attention",
+      "For lower classes textbooks, small font must be used"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Which of the following is not a characteristic of best mathematics textbook",
+    "options": [
+      "Subject should be child centric",
+      "Subject should be based on psychology",
+      "Concepts must be in the order of learning",
+      "No need information about mathematicians and historical points"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The word ‘curriculum’ is derived from this language is",
+    "options": [
+      "Greek",
+      "Latin",
+      "French",
+      "Arabic"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Which of the following is not academic standard?",
+    "options": [
+      "Problem solving",
+      "Communication",
+      "Connections",
+      "Creation"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "A student expressed the equation x+ 5 = 8 as “If a number is increased by 5 then the result is 8”. Here achieved academic standard is",
+    "options": [
+      "Communication",
+      "Connection",
+      "Reasoning-proof",
+      "Problem-solving"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Identify the pair of lesson plan models having exploration and preparation as 1st step respectively",
+    "options": [
+      "Morrison, Herbartian",
+      "Herbartian, Morrison",
+      "Morrison, Evaluation based",
+      "Herbartian, R.C.E.M model"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Identify the pair of lesson plan models having “recapitulation and recitation” as last step respectively",
+    "options": [
+      "Morrison, Herbartian",
+      "Herbartian, Morrison",
+      "Morrison, Evaluation based",
+      "Herbartian, R.C.E.M model"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The lesson plan based on system approach is​",
+    "options": [
+      "Herbartian approach",
+      "Morrison approach",
+      "Evaluation based approach",
+      "R.C.E.M approach"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "One of the limitations of objective type test is",
+    "options": [
+      "Diagnostic value",
+      "Touches more topics",
+      "Reliable in scores",
+      "Decline in language ability"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Oral examination should find a place in Evaluation. This suggestion is given by",
+    "options": [
+      "APSCF 2011",
+      "NCF 2005",
+      "SGF 2006",
+      "Kothari Commission"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "This Assessment method gives feedback",
+    "options": [
+      "Diagnostic Assessment",
+      "Formative Assessment",
+      "Summative Assessment",
+      "Pragnostic Assessment"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Which of the following gives a priority to knowledge construction",
+    "options": [
+      "Assessment",
+      "Test",
+      "Evaluation",
+      "Measurement"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "When a test is administered on students multiple times, the students scored same marks. What is this characteristic is called",
+    "options": [
+      "Reliability",
+      "Validity",
+      "Objectivity",
+      "Practicability"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "“Interest is the true indicator of success”stated by",
+    "options": [
+      "Strong",
+      "Johns",
+      "Crow & Crow",
+      "Murphy"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "After completion of specific teaching learning process this type of Evaluation to be conducted",
+    "options": [
+      "Summative Assessment",
+      "Prognostic Assessment",
+      "Diagnostic Assessment",
+      "Formative Assessment"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The most useful Evaluation tool for Formative Assessment is",
+    "options": [
+      "Oral tests",
+      "Rating Scales",
+      "Practical Examinations",
+      "Written tests"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "One of the following is not the characteristic of Evaluation",
+    "options": [
+      "Comprehensive",
+      "",
+      "Validity",
+      "Reliability"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Which one of the following does not belong to self – reporting technique",
+    "options": [
+      "Interview",
+      "Check -list",
+      "Interview inventory",
+      "Questionnaire"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Which one of the following does not belong to Objective type questions",
+    "options": [
+      "Multiple Choice Questions",
+      "Matching",
+      "Yes or No Type",
+      "Short Answer Question"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "The Evaluation conducted during the teaching-learning process is",
+    "options": [
+      "Summative Assessment",
+      "Formative Assessment",
+      "Diagnostic Assessment",
+      "Prognostic Assessment"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Total marks allotted to the each formative assessment is",
+    "options": [
+      "20",
+      "35",
+      "50",
+      "80"
+    ],
+    "correct": 3
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "In a class, there are 40 girls and 20 boys. Find the total number of students in that class. This type of question is",
+    "options": [
+      "Essay type",
+      "Short answer type",
+      "",
+      "Objective type"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Write all the 3-digit numbers with 4,7 and 9. Then arrange them in ascending order and descending order. This type of question is",
+    "options": [
+      "Essay type",
+      "Short answer type",
+      "",
+      "Objective type"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Find the sum of the three angles in a triangle? This type of question is",
+    "options": [
+      "",
+      "Short answer type",
+      "Objective type",
+      "Essay type"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Which of the following tool does not belong to formative assessment?",
+    "options": [
+      "Slip test",
+      "Sports",
+      "Project work",
+      "Pupils writing work"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Which of the following does not belong to benefits of objective type questions?",
+    "options": [
+      "Easy to conduct exams with this type",
+      "It takes less time to answer",
+      "There is no chance for any subjectivity",
+      "No chance to guess the correct answer"
+    ],
+    "correct": 4
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "After completion of specific teaching learning process which types of evaluation is",
+    "options": [
+      "Summative",
+      "Prognostic",
+      "Diagnostic",
+      "Formative"
+    ],
+    "correct": 1
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "One of the following is not the characteristic of evaluation is",
+    "options": [
+      "Comprehensive",
+      "Subjectivity",
+      "Validity",
+      "Reliability"
+    ],
+    "correct": 2
+  },
+  {
+    "year": 2026,
+    "paper": "TET Practice Question Bank – Subject 1A (Mathematics)",
+    "subject": "Mathematics",
+    "question": "Which of the following evaluation procedure gives feedback",
+    "options": [
+      "Diagnostic",
+      "Formative",
+      "Summative",
+      "Prognostic"
+    ],
+    "correct": 2
   }
 ];
 

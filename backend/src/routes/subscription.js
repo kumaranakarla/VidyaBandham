@@ -170,4 +170,5 @@ module.exports.activeSubscriptionFor = activeSubscriptionFor;
 module.exports.FREE_PAPERS = [
   'AP TET Paper 2A (Maths & Science), 13th August 2026 Shift 1',
   'AP TET Paper 2A (Maths & Science), 12th August 2026 Shift 2',
+  'TET Practice Question Bank – Subject 1A (Mathematics)',
 ];
