@@ -71880,7 +71880,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "Number of two digit numbers that are divisible by 4 is",
     "options": ["21", "22", "23", "24"],
-    "correct": 2
+    "correct": 2,
+    "question_te": "4 చే నిశ్శేషంగా భాగింప బడే రెండంకెల సంఖ్యల సంఖ్య",
+    "options_te": ["21", "22", "23", "24"]
   },
   {
     "year": 2026,
@@ -71888,7 +71890,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "LCM of two numbers is 120 and their HCF is 10 if one of the number is 30 then the other number is",
     "options": ["20", "40", "60", "80"],
-    "correct": 2
+    "correct": 2,
+    "question_te": "రెండు సంఖ్యల క.సా.గు 120 మరియు వాటి గ.సా.భా 10 అందులో ఒక సంఖ్య 30 అయితే రెండవ సంఖ్య",
+    "options_te": ["20", "40", "60", "80"]
   },
   {
     "year": 2026,
@@ -71896,7 +71900,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "Which of the following is terminating decimal",
     "options": ["77/210", "21/60", "8/15", "12/55"],
-    "correct": 2
+    "correct": 2,
+    "question_te": "ఈ క్రింది వానిలో ఏది అంతమయ్యే దశాంశము",
+    "options_te": ["77/210", "21/60", "8/15", "12/55"]
   },
   {
     "year": 2026,
@@ -71904,7 +71910,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "Which of the following is not a prime",
     "options": ["4² + 5²", "5² + 6²", "6² + 7²", "7² + 8²"],
-    "correct": 3
+    "correct": 3,
+    "question_te": "ఈ క్రింది వానిలో ప్రధాన సంఖ్య కానిది",
+    "options_te": ["4² + 5²", "5² + 6²", "6² + 7²", "7² + 8²"]
   },
   {
     "year": 2026,
@@ -71912,7 +71920,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The smallest three digit number that is divisible by 4, 6 and 8 is",
     "options": ["108", "114", "120", "144"],
-    "correct": 3
+    "correct": 3,
+    "question_te": "4, 6 మరియు 8 ల చే నిశ్శేషంగా భాగించ బడే అతి చిన్న మూడంకెల సంఖ్య",
+    "options_te": ["108", "114", "120", "144"]
   },
   {
     "year": 2026,
@@ -71920,7 +71930,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "HCF of 75, 105 and 175 is",
     "options": ["5", "7", "15", "35"],
-    "correct": 1
+    "correct": 1,
+    "question_te": "75, 105 మరియు 175ల గ.సా.భా",
+    "options_te": ["5", "7", "15", "35"]
   },
   {
     "year": 2026,
@@ -71928,7 +71940,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "Total number of factors of 600 is",
     "options": ["20", "24", "30", "36"],
-    "correct": 2
+    "correct": 2,
+    "question_te": "600నకు గల మొత్తం కారణాంకముల సంఖ్య",
+    "options_te": ["20", "24", "30", "36"]
   },
   {
     "year": 2026,
@@ -71936,7 +71950,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "A rational number in between 1/4 and 1/2 is",
     "options": ["3/7", "4/7", "5/8", "6/11"],
-    "correct": 1
+    "correct": 1,
+    "question_te": "1/4 మరియు 1/2 ల మధ్య గల ఒక అకరణీయ సంఖ్య",
+    "options_te": ["3/7", "4/7", "5/8", "6/11"]
   },
   {
     "year": 2026,
@@ -71944,7 +71960,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The Average of 4.2, 3.8 and 7.6 is",
     "options": ["4.2", "4.8", "5.2", "4.6"],
-    "correct": 3
+    "correct": 3,
+    "question_te": "4.2, 3.8 మరియు 7.6 యొక్క సగటు",
+    "options_te": ["4.2", "4.8", "5.2", "4.6"]
   },
   {
     "year": 2026,
@@ -71952,7 +71970,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "Half of 0.1 is",
     "options": ["0.02", "0.5", "0.05", "0.2"],
-    "correct": 3
+    "correct": 3,
+    "question_te": "0.1 నందు సగము",
+    "options_te": ["0.02", "0.5", "0.05", "0.2"]
   },
   {
     "year": 2026,
@@ -71960,7 +71980,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "LCM of 20, 25 and 30 is",
     "options": ["240", "120", "150", "300"],
-    "correct": 4
+    "correct": 4,
+    "question_te": "20, 25 మరియు 30ల క.సా.గు",
+    "options_te": ["240", "120", "150", "300"]
   },
   {
     "year": 2026,
@@ -71968,7 +71990,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "Which of the following numbers are co-prime",
     "options": ["120, 144", "215, 216", "35, 165", "121, 143"],
-    "correct": 2
+    "correct": 2,
+    "question_te": "ఈ క్రింది వాటిలో ఏ సంఖ్యలు సాపేక్షప్రధానాంకాలు",
+    "options_te": ["120, 144", "215, 216", "35, 165", "121, 143"]
   },
   {
     "year": 2026,
@@ -71976,7 +72000,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "Number of digits in the square of a five-digit number is",
     "options": ["9 or 10", "10 or 11", "10 or 12", "11 or 12"],
-    "correct": 1
+    "correct": 1,
+    "question_te": "ఐదు అంకెల సంఖ్య యొక్క వర్గము లో ఉండు అంకెల సంఖ్య",
+    "options_te": ["9 లేదా 10", "10 లేదా 11", "10 లేదా 12", "11 లేదా 12"]
   },
   {
     "year": 2026,
@@ -71984,7 +72010,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "How many consecutive odd positive integers added to get 144",
     "options": ["8", "10", "12", "14"],
-    "correct": 3
+    "correct": 3,
+    "question_te": "ఎన్ని వరుస ధన బేసి పూర్ణ సంఖ్యల మొత్తము 144 అగును",
+    "options_te": ["8", "10", "12", "14"]
   },
   {
     "year": 2026,
@@ -71992,7 +72020,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "Total number of three-digits perfect squares",
     "options": ["20", "21", "22", "23"],
-    "correct": 3
+    "correct": 3,
+    "question_te": "మూడు అంకెలు గల పరిపూర్ణ వర్గ సంఖ్యలు ఎన్ని",
+    "options_te": ["20", "21", "22", "23"]
   },
   {
     "year": 2026,
@@ -72000,7 +72030,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "which of the following is not a perfect square",
     "options": ["1444", "2744", "3844", "7744"],
-    "correct": 2
+    "correct": 2,
+    "question_te": "ఈ క్రింది వానిలో ఖచ్చిత వర్గము కానిది",
+    "options_te": ["1444", "2744", "3844", "7744"]
   },
   {
     "year": 2026,
@@ -72016,7 +72048,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The smallest-square number that is divisible by each of the numbers 4, 9 and 10 is",
     "options": ["180", "360", "900", "1600"],
-    "correct": 3
+    "correct": 3,
+    "question_te": "4, 9 మరియు 10 ల చే భాగింప బడు కనిష్ట వర్గ సంఖ్య",
+    "options_te": ["180", "360", "900", "1600"]
   },
   {
     "year": 2026,
@@ -72048,7 +72082,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "Unit digit of cube of 888 is",
     "options": ["2", "4", "6", "8"],
-    "correct": 1
+    "correct": 1,
+    "question_te": "888 యొక్క ఘనంలోని ఒకట్ల స్థానం లో ఉండు అంకె",
+    "options_te": ["2", "4", "6", "8"]
   },
   {
     "year": 2026,
@@ -72088,7 +72124,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The distance between Earth and Moon is 384,000,000m. Express it in standard form",
     "options": ["3.84 × 10⁶", "3.84 × 10⁸", "0.384 × 10¹⁰", "3.84 × 10⁹"],
-    "correct": 2
+    "correct": 2,
+    "question_te": "భూమి మరియు చంద్రుని మధ్య దూరం 384,000,000 మీ అయిన దీనిని ప్రామాణిక రూపంలో వ్రాయగా",
+    "options_te": ["3.84 × 10⁶", "3.84 × 10⁸", "0.384 × 10¹⁰", "3.84 × 10⁹"]
   },
   {
     "year": 2026,
@@ -72096,7 +72134,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "Size of a plant cell is 0.00001275m express it into standard form",
     "options": ["1275 × 10⁻⁹", "1.275 × 10⁸", "1.275 × 10⁻⁵", "1.275 × 10⁻⁶"],
-    "correct": 3
+    "correct": 3,
+    "question_te": "ఒక వృక్ష కణ పరిమాణము 0.00001275 మీ అయితే దీని ప్రామాణిక రూపం",
+    "options_te": ["1275 × 10⁻⁹", "1.275 × 10⁸", "1.275 × 10⁻⁵", "1.275 × 10⁻⁶"]
   },
   {
     "year": 2026,
@@ -72112,7 +72152,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "If (−3)^(m−1) × (−3)⁶ = (−3)⁷ then m =",
     "options": ["0", "-1", "1", "2"],
-    "correct": 4
+    "correct": 4,
+    "question_te": "(−3)^(m−1) × (−3)⁶ = (−3)⁷ అయితే m =",
+    "options_te": ["0", "-1", "1", "2"]
   },
   {
     "year": 2026,
@@ -72128,7 +72170,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "Which of the following is an irrational number",
     "options": ["√50 − √18 − √8", "√20 × √5", "(√7 + √5)(√7 − √5)", "(√3 + 1)²"],
-    "correct": 4
+    "correct": 4,
+    "question_te": "ఈ క్రింది వానిలో ఏది కరణీయ సంఖ్య",
+    "options_te": ["√50 − √18 − √8", "√20 × √5", "(√7 + √5)(√7 − √5)", "(√3 + 1)²"]
   },
   {
     "year": 2026,
@@ -72144,7 +72188,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "If x = 2 − √3 then x + 1/x =",
     "options": ["4", "2√3", "2", "√3"],
-    "correct": 1
+    "correct": 1,
+    "question_te": "x = 2 − √3 అయితే x + 1/x =",
+    "options_te": ["4", "2√3", "2", "√3"]
   },
   {
     "year": 2026,
@@ -72160,7 +72206,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "An irrational number between 2 and 3 is",
     "options": ["√2", "√3", "√5", "√10"],
-    "correct": 3
+    "correct": 3,
+    "question_te": "2 మరియు 3 ల మధ్యగల ఒక కరణీయ సంఖ్య",
+    "options_te": ["√2", "√3", "√5", "√10"]
   },
   {
     "year": 2026,
@@ -72168,7 +72216,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The ratio of 90cm to 1.5m is",
     "options": ["5:3", "6:1", "3:5", "1:6"],
-    "correct": 3
+    "correct": 3,
+    "question_te": "90 సెం.మీ కు 1.5 మీ కు గల నిష్పత్తి",
+    "options_te": ["5:3", "6:1", "3:5", "1:6"]
   },
   {
     "year": 2026,
@@ -72176,7 +72226,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "An Equivalent ratio of 6:4 is",
     "options": ["16:14", "2:3", "4:6", "3:2"],
-    "correct": 4
+    "correct": 4,
+    "question_te": "6:4 కు ఒక సమాన (తుల్య) నిష్పత్తి",
+    "options_te": ["16:14", "2:3", "4:6", "3:2"]
   },
   {
     "year": 2026,
@@ -72184,7 +72236,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "If ₹60 is divided in the ratio 1:2 between Krithi and Kiran, the share of Kiran is",
     "options": ["₹40", "₹20", "₹30", "₹10"],
-    "correct": 1
+    "correct": 1,
+    "question_te": "కృతి, కిరణ్ లకు ₹60 ను 1:2 నిష్పత్తి లో పంచిన, కిరణ్ వాటా",
+    "options_te": ["₹40", "₹20", "₹30", "₹10"]
   },
   {
     "year": 2026,
@@ -72192,7 +72246,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The ratio of 500ml to 2liters is",
     "options": ["25:1", "1:4", "50:1", "4:1"],
-    "correct": 2
+    "correct": 2,
+    "question_te": "500 మిల్లీ లీ, 2 లీటర్లు కి నిష్పత్తి",
+    "options_te": ["25:1", "1:4", "50:1", "4:1"]
   },
   {
     "year": 2026,
@@ -72200,7 +72256,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "Which of the following pair of ratios are in proportion?",
     "options": ["1:5, 3:5", "2:9, 18:81", "15:45, 5:25", "4:12, 9:24"],
-    "correct": 2
+    "correct": 2,
+    "question_te": "క్రింది వానిలో ఏ రెండు నిష్పత్తులు అనుపాతంలో ఉన్నవి?",
+    "options_te": ["1:5, 3:5", "2:9, 18:81", "15:45, 5:25", "4:12, 9:24"]
   },
   {
     "year": 2026,
@@ -72208,7 +72266,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "Which of the following is in proportion?",
     "options": ["4, 6, 8, 12", "33, 44, 75, 80", "1, 2, 3, 4", "3, 4, 7, 21"],
-    "correct": 1
+    "correct": 1,
+    "question_te": "క్రింది వానిలో ఏది అనుపాతంలో ఉన్నవి?",
+    "options_te": ["4, 6, 8, 12", "33, 44, 75, 80", "1, 2, 3, 4", "3, 4, 7, 21"]
   },
   {
     "year": 2026,
@@ -72216,7 +72276,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "Which statement among the following is false?",
     "options": ["16:4 = 20:30", "12:18 = 14:21", "1:2 = 3:4", "21:6 = 25:6"],
-    "correct": 3
+    "correct": 3,
+    "question_te": "క్రింది వానిలో ఏది అసత్య ప్రవచనం?",
+    "options_te": ["16:4 = 20:30", "12:18 = 14:21", "1:2 = 3:4", "21:6 = 25:6"]
   },
   {
     "year": 2026,
@@ -72224,7 +72286,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "If 1/5 is expressed as percent, its value is",
     "options": ["50%", "25%", "20%", "40%"],
-    "correct": 3
+    "correct": 3,
+    "question_te": "1/5 ను శాతంగా వ్యక్త పరిస్తే దాని విలువ",
+    "options_te": ["50%", "25%", "20%", "40%"]
   },
   {
     "year": 2026,
@@ -72232,7 +72296,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "Converting 5/4 to percent is",
     "options": ["150%", "80%", "120%", "125%"],
-    "correct": 4
+    "correct": 4,
+    "question_te": "5/4 ను శాతంగా మార్చగా",
+    "options_te": ["150%", "80%", "120%", "125%"]
   },
   {
     "year": 2026,
@@ -72240,7 +72306,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "Converting the decimal 0.75 to percent is",
     "options": ["7.5%", "175%", "75%", "25%"],
-    "correct": 3
+    "correct": 3,
+    "question_te": "0.75 అనే దశాంశమును శాతముగా మార్చగా",
+    "options_te": ["7.5%", "175%", "75%", "25%"]
   },
   {
     "year": 2026,
@@ -72248,7 +72316,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The value of 75% of 12 is",
     "options": ["9", "75", "900", "10"],
-    "correct": 1
+    "correct": 1,
+    "question_te": "12 లో 75% యొక్క విలువ",
+    "options_te": ["9", "75", "900", "10"]
   },
   {
     "year": 2026,
@@ -72256,7 +72326,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The fractional form of 25% is",
     "options": ["3/4", "25/10", "2/10", "1/4"],
-    "correct": 4
+    "correct": 4,
+    "question_te": "25% యొక్క భిన్న రూపం",
+    "options_te": ["3/4", "25/10", "2/10", "1/4"]
   },
   {
     "year": 2026,
@@ -72264,7 +72336,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "If a bicycle is bought for ₹6000 and sold for ₹5000, then the loss is",
     "options": ["16 2/3 %", "18%", "20%", "33 1/3 %"],
-    "correct": 1
+    "correct": 1,
+    "question_te": "ఒక సైకిల్ ₹6000 కొని, ₹5000 కు అమ్మినట్లైతే నష్టం",
+    "options_te": ["16 2/3 %", "18%", "20%", "33 1/3 %"]
   },
   {
     "year": 2026,
@@ -72272,7 +72346,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "If the cost of a toy is ₹700 and it is sold by making a profit of 20% then its selling price is",
     "options": ["₹720", "₹840", "₹560", "₹780"],
-    "correct": 2
+    "correct": 2,
+    "question_te": "ఒక బొమ్మ ఖరీదు (కొన్నవెల) ₹700 మరియు దానిని 20% లాభమునకు అమ్మితే, దీని అమ్మకపు వెల",
+    "options_te": ["₹720", "₹840", "₹560", "₹780"]
   },
   {
     "year": 2026,
@@ -72280,7 +72356,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "An item marked at ₹840 and sold for ₹714 then the discount percentage is",
     "options": ["10", "12", "24", "15"],
-    "correct": 4
+    "correct": 4,
+    "question_te": "ఒక వస్తువు ప్రకటన వెల ₹840 మరియు అమ్మకపువెల ₹714 అయిన రుసుము శాతం",
+    "options_te": ["10", "12", "24", "15"]
   },
   {
     "year": 2026,
@@ -72288,7 +72366,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "A shop gives 20% discount. If a dress is marked at ₹1200, then the sale price of that dress is",
     "options": ["₹1440", "₹1000", "₹960", "₹860"],
-    "correct": 3
+    "correct": 3,
+    "question_te": "ఒక దుకాణంలో వస్తువులపై 20% రుసుము ఇస్తారు. ఒక డ్రస్ పై ప్రకటన వెల ₹1200 అయితే అమ్మకపు వెల",
+    "options_te": ["₹1440", "₹1000", "₹960", "₹860"]
   },
   {
     "year": 2026,
@@ -72296,7 +72376,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "A shop gives 20% discount. If a pair of shoes marked at ₹750, then the sale price of that item is",
     "options": ["₹900", "₹700", "₹600", "₹640"],
-    "correct": 3
+    "correct": 3,
+    "question_te": "ఒక దుకాణంలో వస్తువులపై 20% రుసుము ఇస్తారు. ఒక జత చెప్పుల పై ప్రకటన వెల ₹750 అయితే వాటి అమ్మకపు వెల",
+    "options_te": ["₹900", "₹700", "₹600", "₹640"]
   },
   {
     "year": 2026,
@@ -72304,7 +72386,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "If the cost of a table is ₹3500 and it is sold at ₹4200, then the profit on it is",
     "options": ["20%", "25%", "7%", "10%"],
-    "correct": 1
+    "correct": 1,
+    "question_te": "ఒక టేబుల్ ఖరీదు ₹3500 మరియు దానిని అమ్మువెల ₹4200 అయితే దాని పై లాభం",
+    "options_te": ["20%", "25%", "7%", "10%"]
   },
   {
     "year": 2026,
@@ -72312,7 +72396,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The selling price of the fan, which bought for ₹560 and expenses of ₹40 made on its repairs with a profit of 5%, is",
     "options": ["₹540", "₹630", "₹500", "₹520"],
-    "correct": 2
+    "correct": 2,
+    "question_te": "₹560 తో కొన్న ఒక ఫ్యాన్ మరమత్తులకు ₹40 ఖర్చు చేసి, 5% లాభమునకు అమ్మిన, దాని అమ్మకపు వెల",
+    "options_te": ["₹540", "₹630", "₹500", "₹520"]
   },
   {
     "year": 2026,
@@ -72320,7 +72406,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "If P= ₹4000, R= 15% and T= 2years then the simple interest is",
     "options": ["₹1500", "₹1000", "₹1200", "₹2000"],
-    "correct": 3
+    "correct": 3,
+    "question_te": "P= ₹4000, R= 15% మరియు T= 2సం॥లు అయితే సాధారణ వడ్డీ",
+    "options_te": ["₹1500", "₹1000", "₹1200", "₹2000"]
   },
   {
     "year": 2026,
@@ -72328,7 +72416,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "What is the principal, if simple interest got ₹1080 for 3years at 18% of rate of interest per annum is?",
     "options": ["₹3000", "₹2500", "₹4000", "₹2000"],
-    "correct": 4
+    "correct": 4,
+    "question_te": "3 సంవత్సరములకు, సంవత్సరానికి 18% వడ్డీ చొప్పున ₹1080 సాధారణ వడ్డీ వచ్చినట్లయితే అసలు ఎంత?",
+    "options_te": ["₹3000", "₹2500", "₹4000", "₹2000"]
   },
   {
     "year": 2026,
@@ -72336,7 +72426,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The amount to be paid at the end of 2 years on ₹2400 at 5% per annum compounded annually is",
     "options": ["₹2864", "₹2564", "₹2646", "₹2864"],
-    "correct": 3
+    "correct": 3,
+    "question_te": "సంవత్సరానికి ఒకసారి వడ్డీ చెల్లించు పద్ధతిన ₹2400 పై సంవత్సరమునకు 5% వడ్డీరేటుతో 2 సంవత్సరాల చివర చెల్లించాల్సిన మొత్తం",
+    "options_te": ["₹2864", "₹2564", "₹2646", "₹2864"]
   },
   {
     "year": 2026,
@@ -72344,7 +72436,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "A T.V was bought at a price of ₹21,000. After one year the value of the T.V was depreciated by 5%. Then the value of the T.V after one year is",
     "options": ["₹19950", "₹20500", "₹18950", "₹20000"],
-    "correct": 1
+    "correct": 1,
+    "question_te": "ఒక టెలివిజన్ ₹21000కు కొందింది. ఒక సంవత్సరం తరువాత దాని విలువలో తరుగుదల 5% అయితే ఒక సంవత్సరం తరువాత ఆ టెలివిజన్ విలువ",
+    "options_te": ["₹19950", "₹20500", "₹18950", "₹20000"]
   },
   {
     "year": 2026,
@@ -72352,7 +72446,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The compound interest on ₹12600 for 2 years at 10% per annum compounded annually is",
     "options": ["₹2520", "₹2646", "₹15246", "₹13246"],
-    "correct": 2
+    "correct": 2,
+    "question_te": "సంవత్సరానికి ఒకసారి బిగి కట్టు పద్ధతిన ₹12600కు 10% వడ్డీరేటు పొందిన 2 సంవత్సరాలకు అగు చక్రవడ్డీ",
+    "options_te": ["₹2520", "₹2646", "₹15246", "₹13246"]
   },
   {
     "year": 2026,
@@ -72360,7 +72456,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "A line segments has _____ end points",
     "options": ["0", "1", "2", "3"],
-    "correct": 3
+    "correct": 3,
+    "question_te": "ఒక రేఖాఖండానికి గల అంత్య బిందువుల సంఖ్య _____",
+    "options_te": ["0", "1", "2", "3"]
   },
   {
     "year": 2026,
@@ -72368,7 +72466,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The lines which do not meet are said to be _____ lines",
     "options": ["Perpendicular", "Concurrent", "Intersecting", "Parallel"],
-    "correct": 4
+    "correct": 4,
+    "question_te": "పరస్పరం ఖండించుకొనని రేఖలను _____ రేఖలు అంటాము",
+    "options_te": ["లంబ", "మిళిత", "ఖండన", "సమాంతర"]
   },
   {
     "year": 2026,
@@ -72376,7 +72476,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "How many straight lines can pass through two given points?",
     "options": ["0", "1", "2", "Infinite"],
-    "correct": 2
+    "correct": 2,
+    "question_te": "ఇవ్వడిన రెండు బిందువుల గుండా ఎన్ని సరళ రేఖలు పోతాయి?",
+    "options_te": ["0", "1", "2", "అనంతం"]
   },
   {
     "year": 2026,
@@ -72384,7 +72486,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The measure of a right angle is",
     "options": ["180°", "0°", "90°", "45°"],
-    "correct": 3
+    "correct": 3,
+    "question_te": "లంబకోణం యొక్క కొలత",
+    "options_te": ["180°", "0°", "90°", "45°"]
   },
   {
     "year": 2026,
@@ -72392,7 +72496,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "Sum of three angles in a triangle is equal to _____ right angles",
     "options": ["1", "2", "3", "4"],
-    "correct": 2
+    "correct": 2,
+    "question_te": "త్రిభుజం లోని మూడు కోణాల మొత్తం _____ లంబ కోణాలు",
+    "options_te": ["1", "2", "3", "4"]
   },
   {
     "year": 2026,
@@ -72400,7 +72506,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "If the measure of an angle is 120°, it is _____ angle",
     "options": ["Acute angle", "Right angle", "Obtuse angle", "Straight angle"],
-    "correct": 3
+    "correct": 3,
+    "question_te": "ఒక కోణం యొక్క కొలత 120° అయితే అది _____ కోణం",
+    "options_te": ["అల్ప కోణం", "లంబ కోణం", "అధిక కోణం", "సరళ కోణం"]
   },
   {
     "year": 2026,
@@ -72408,7 +72516,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The angle between the two perpendicular lines is",
     "options": ["0°", "90°", "180°", "45°"],
-    "correct": 2
+    "correct": 2,
+    "question_te": "రెండు లంబ రేఖల మధ్య కోణం",
+    "options_te": ["0°", "90°", "180°", "45°"]
   },
   {
     "year": 2026,
@@ -72416,7 +72526,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "In an equilateral triangle, the measure of each interior angle of it is",
     "options": ["50°", "90°", "60°", "45°"],
-    "correct": 3
+    "correct": 3,
+    "question_te": "ఒక సమబాహు త్రిభుజంలో, దాని ప్రతి అంతర కోణం కొలత",
+    "options_te": ["50°", "90°", "60°", "45°"]
   },
   {
     "year": 2026,
@@ -72424,7 +72536,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The lengths of the sides of a triangle are 7cm, 8cm, 7cm. So it is a _____ triangle",
     "options": ["Scalene", "Isosceles", "Equilateral", "Right angled"],
-    "correct": 2
+    "correct": 2,
+    "question_te": "ఒక త్రిభుజ భుజాల పొడుగులు 7 సెం.మీ, 8 సెం.మీ, 7 సెం.మీ. అయితే అది ఒక _____ త్రిభుజం",
+    "options_te": ["విషమబాహు", "సమద్విభాహు", "సమబాహు", "లంబకోణ"]
   },
   {
     "year": 2026,
@@ -72432,7 +72546,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The sum of the measures of all interior of a triangle is",
     "options": ["60°", "120°", "90°", "180°"],
-    "correct": 4
+    "correct": 4,
+    "question_te": "ఒక త్రిభుజంలో దాని అన్ని అంతర కోణాల కొలతల మొత్తం",
+    "options_te": ["60°", "120°", "90°", "180°"]
   },
   {
     "year": 2026,
@@ -72440,7 +72556,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The sum of the measures of all the interior angles of a convex quadrilateral is",
     "options": ["360°", "180°", "90°", "270°"],
-    "correct": 1
+    "correct": 1,
+    "question_te": "ఒక కుంభాకార చతుర్భుజం యొక్క అన్ని అంతరకోణాల కొలతల మొత్తం",
+    "options_te": ["360°", "180°", "90°", "270°"]
   },
   {
     "year": 2026,
@@ -72448,7 +72566,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The measure of each interior angle of a rectangle is",
     "options": ["60°", "90°", "120°", "45°"],
-    "correct": 2
+    "correct": 2,
+    "question_te": "ఒక దీర్ఘచతురస్రంలో ప్రతి అంతరకోణం కొలత",
+    "options_te": ["60°", "90°", "120°", "45°"]
   },
   {
     "year": 2026,
@@ -72456,7 +72576,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The name of a polygon having 6 sides is",
     "options": ["Octagon", "Pentagon", "Decagon", "Hexagon"],
-    "correct": 4
+    "correct": 4,
+    "question_te": "6 భుజాలు కలిగిన బహుభుజి యొక్క పేరు",
+    "options_te": ["అష్టభుజి", "పంచభుజి", "దశభుజి", "షడ్భుజి"]
   },
   {
     "year": 2026,
@@ -72464,7 +72586,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "Which of the following is not a polygon?",
     "options": ["Rectangle", "Hexagon", "Triangle", "Circle"],
-    "correct": 4
+    "correct": 4,
+    "question_te": "క్రింది వానిలో ఏది బహుభుజి కాదు?",
+    "options_te": ["దీర్ఘచతురస్రం", "షడ్భుజి", "త్రిభుజం", "వృత్తం"]
   },
   {
     "year": 2026,
@@ -72472,7 +72596,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "In a circle, the line segment which join the centre of the circle and any point on the circle is",
     "options": ["Diameter", "Radius", "Chord", "Arc"],
-    "correct": 2
+    "correct": 2,
+    "question_te": "ఒక వృత్తంలో, వృత్తకేంద్రమును మరియు వృత్తం పై ఏదేని బిందువును కలుపు రేఖాఖండము",
+    "options_te": ["వ్యాసం", "వ్యాసార్థం", "జ్యా", "చాపం"]
   },
   {
     "year": 2026,
@@ -72480,7 +72606,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The line segment which join any two points on a circle is",
     "options": ["Segment of the circle", "Radius", "Chord", "Arc"],
-    "correct": 3
+    "correct": 3,
+    "question_te": "ఒక వృత్తం పై ఏ రెండు బిందువుల నైనా కలుపు రేఖాఖండము",
+    "options_te": ["వృత్త ఖండము", "వ్యాసార్థం", "జ్యా", "చాపం"]
   },
   {
     "year": 2026,
@@ -72488,7 +72616,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The longest chord in a circle is",
     "options": ["Diameter", "Radius", "Chord", "Arc"],
-    "correct": 1
+    "correct": 1,
+    "question_te": "ఒక వృత్తంలో అతి పెద్ద (పొడవైన) జ్యా",
+    "options_te": ["వ్యాసం", "వ్యాసార్థం", "జ్యా", "చాపం"]
   },
   {
     "year": 2026,
@@ -72496,7 +72626,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "In a circle, angles in the same segment are",
     "options": ["Supplementary", "Complementary", "Conjugate angles", "Equal"],
-    "correct": 4
+    "correct": 4,
+    "question_te": "ఒక వృత్తంలో ఒక వృత్త ఖండంలోని కోణాలు",
+    "options_te": ["సంపూరకాలు", "పూరకాలు", "సంయుగ్మ కోణాలు", "సమానం"]
   },
   {
     "year": 2026,
@@ -72504,7 +72636,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The measure of the angle formed in a semicircle at its centre is",
     "options": ["360°", "90°", "180°", "270°"],
-    "correct": 3
+    "correct": 3,
+    "question_te": "ఒక అర్థవృత్తంలో దాని కేంద్రం వద్ద ఏర్పడిన కోణం కొలత",
+    "options_te": ["360°", "90°", "180°", "270°"]
   },
   {
     "year": 2026,
@@ -72512,7 +72646,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "Measure of the angle subtended by a diameter in a semicircle is",
     "options": ["45°", "50°", "90°", "120°"],
-    "correct": 3
+    "correct": 3,
+    "question_te": "ఒక అర్థవృత్తంలో దాని వ్యాసం వలన ఏర్పడిన కోణం కొలత",
+    "options_te": ["45°", "50°", "90°", "120°"]
   },
   {
     "year": 2026,
@@ -72520,7 +72656,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "ABCD is a cyclic quadrilateral and ∠A = 50° then ∠C =",
     "options": ["50°", "130°", "180°", "100°"],
-    "correct": 2
+    "correct": 2,
+    "question_te": "ABCD ఒక చక్రీయ చతుర్భుజం మరియు ∠A = 50° అయితే ∠C =",
+    "options_te": ["50°", "130°", "180°", "100°"]
   },
   {
     "year": 2026,
@@ -72528,7 +72666,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The angle between a tangent to a circle and the radius at the point of contact is",
     "options": ["60°", "30°", "45°", "90°"],
-    "correct": 4
+    "correct": 4,
+    "question_te": "ఒక వృత్త స్పర్శరేఖకు, స్పర్శబిందువు గుండా గీచిన వ్యాసార్థానికి మధ్య కోణము",
+    "options_te": ["60°", "30°", "45°", "90°"]
   },
   {
     "year": 2026,
@@ -72536,7 +72676,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "A tangent to a circle intersects it in _____ point(s)",
     "options": ["1", "2", "3", "4"],
-    "correct": 1
+    "correct": 1,
+    "question_te": "వృత్తాన్ని, ఒక స్పర్శరేఖ _____ బిందువు(ల) వద్ద ఖండిస్తుంది",
+    "options_te": ["1", "2", "3", "4"]
   },
   {
     "year": 2026,
@@ -72544,7 +72686,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "A secant of a circle intersects it in _____ point(s)",
     "options": ["1", "2", "3", "4"],
-    "correct": 2
+    "correct": 2,
+    "question_te": "ఛేదన రేఖ, వృత్తాన్ని _____ బిందువు(ల) వద్ద ఖండిస్తుంది",
+    "options_te": ["1", "2", "3", "4"]
   },
   {
     "year": 2026,
@@ -72552,7 +72696,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "If number of observations n is odd then the observation which becomes the median is",
     "options": ["(n/2) th", "((n+1)/2) th", "((n+3)/2) th", "2n th"],
-    "correct": 2
+    "correct": 2,
+    "question_te": "రాశుల సంఖ్య n బేసి సంఖ్య అయితే మధ్యగతము అనేది",
+    "options_te": ["(n/2) th", "((n+1)/2) th", "((n+3)/2) th", "2n th"]
   },
   {
     "year": 2026,
@@ -72560,7 +72706,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "Mode of the data 2, 2, 2, 3, 3, 3, 4, 4, 4, x is 4. Value of x is",
     "options": ["2", "3", "4", "5"],
-    "correct": 3
+    "correct": 3,
+    "question_te": "2, 2, 2, 3, 3, 3, 4, 4, 4, x ల బాహుళకము 4 అయిన x విలువ",
+    "options_te": ["2", "3", "4", "5"]
   },
   {
     "year": 2026,
@@ -72568,7 +72716,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "Mode = l + [(f1-f0)/(2f1-f0-f2)] × h. Here l means",
     "options": ["lower boundary of model class", "upper boundary of model class", "length of model class", "frequency of model class"],
-    "correct": 1
+    "correct": 1,
+    "question_te": "బాహుళకము = l + [(f1-f0)/(2f1-f0-f2)] × h అందు l అనగా",
+    "options_te": ["బాహుళక తరగతి దిగువ హద్దు", "బాహుళక తరగతి ఎగువ హద్దు", "బాహుళక తరగతి పొడవు", "బాహుళక తరగతి పౌన:పున్యము"]
   },
   {
     "year": 2026,
@@ -72576,7 +72726,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The mean of first 9 prime numbers is",
     "options": ["2/9", "11 1/9", "11", "9"],
-    "correct": 2
+    "correct": 2,
+    "question_te": "మొదటి 9 ప్రధాన సంఖ్యల సరాసరి",
+    "options_te": ["2/9", "11 1/9", "11", "9"]
   },
   {
     "year": 2026,
@@ -72584,7 +72736,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "Father of statistics",
     "options": ["Pascal", "Libneitz", "Sir Ronald A. Fisher", "Selvistar"],
-    "correct": 3
+    "correct": 3,
+    "question_te": "సాంఖ్యికశాస్త్ర పితామహుడు",
+    "options_te": ["Pascal", "Libneitz", "Sir Ronald A. Fisher", "Selvistar"]
   },
   {
     "year": 2026,
@@ -72592,7 +72746,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "If the mean of 2, 3, 4, 5, x is 5 then value of x is",
     "options": ["3", "11", "5", "6"],
-    "correct": 2
+    "correct": 2,
+    "question_te": "2, 3, 4, 5, x ల మొత్తు సగటు 5 అయిన x విలువ",
+    "options_te": ["3", "11", "5", "6"]
   },
   {
     "year": 2026,
@@ -72600,7 +72756,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "Mean of 10 numbers is 7 and another 15 numbers is 12, then mean of those 25 numbers is",
     "options": ["25", "19", "10", "250"],
-    "correct": 3
+    "correct": 3,
+    "question_te": "10 సంఖ్యల సగటు 7, మరో 15 సంఖ్యల సగటు 12 అయితే మొత్తం 25 సంఖ్యల సగటు",
+    "options_te": ["25", "19", "10", "250"]
   },
   {
     "year": 2026,
@@ -72608,7 +72766,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "Mean of first 100 natural numbers is",
     "options": ["48.5", "50.5", "50", "51.5"],
-    "correct": 2
+    "correct": 2,
+    "question_te": "మొదటి 100 సహజ సంఖ్యల సగటు",
+    "options_te": ["48.5", "50.5", "50", "51.5"]
   },
   {
     "year": 2026,
@@ -72616,7 +72776,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "Median of x/4, x, x/5, x/3, x/2 is 5 then value of x is",
     "options": ["5", "10", "15", "20"],
-    "correct": 3
+    "correct": 3,
+    "question_te": "x/4, x, x/5, x/3, x/2 ల మధ్యగతం 5 అయిన x విలువ",
+    "options_te": ["5", "10", "15", "20"]
   },
   {
     "year": 2026,
@@ -72624,7 +72786,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "Average of 5 consecutive numbers is 16 the biggest number is",
     "options": ["21", "19", "20", "18"],
-    "correct": 4
+    "correct": 4,
+    "question_te": "5 వరుస సంఖ్యల సరాసరి 16 అయిన ఆ సంఖ్యలలో కెల్లా పెద్ద సంఖ్య",
+    "options_te": ["21", "19", "20", "18"]
   },
   {
     "year": 2026,
@@ -72632,7 +72796,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "Median of 3/4, 1/2, 2/3, 1/6, 7/12 is",
     "options": ["7/12", "1/6", "2/3", "3/4"],
-    "correct": 1
+    "correct": 1,
+    "question_te": "3/4, 1/2, 2/3, 1/6, 7/12 ల మధ్యగతము",
+    "options_te": ["7/12", "1/6", "2/3", "3/4"]
   },
   {
     "year": 2026,
@@ -72640,7 +72806,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "Mode of the data 2, 3, 4, 6, 3, 5, 8, 4, 3 is",
     "options": ["4", "3", "2", "6"],
-    "correct": 2
+    "correct": 2,
+    "question_te": "2, 3, 4, 6, 3, 5, 8, 4, 3 ల బాహుళకము",
+    "options_te": ["4", "3", "2", "6"]
   },
   {
     "year": 2026,
@@ -72648,7 +72816,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "If the sum and product of zeros of a quadratic polynomial are 3 and -2 then the quadratic polynomial is",
     "options": ["x² + 3x + 2", "x² - 3x - 2", "x² + 3x - 2", "x² - 3x + 2"],
-    "correct": 2
+    "correct": 2,
+    "question_te": "3 మరియు -2 ల మొత్తము, మరియు లబ్దములుగా గల వర్గ బహుపది",
+    "options_te": ["x² + 3x + 2", "x² - 3x - 2", "x² + 3x - 2", "x² - 3x + 2"]
   },
   {
     "year": 2026,
@@ -72656,7 +72826,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The degree of the polynomial x⁵ - x⁴ + 3 is",
     "options": ["5", "4", "9", "10"],
-    "correct": 1
+    "correct": 1,
+    "question_te": "x⁵ - x⁴ + 3 అనే బహుపది పరిమాణము",
+    "options_te": ["5", "4", "9", "10"]
   },
   {
     "year": 2026,
@@ -72664,7 +72836,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "If P(x)= 5x² - 3x + 7 then P(3) is",
     "options": ["52", "48", "45", "43"],
-    "correct": 4
+    "correct": 4,
+    "question_te": "P(x)= 5x² - 3x + 7 అయిన P(3) విలువ",
+    "options_te": ["52", "48", "45", "43"]
   },
   {
     "year": 2026,
@@ -72672,7 +72846,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The zero of the polynomial P(x)= 2x + 1 is",
     "options": ["1/2", "1", "-1/2", "0"],
-    "correct": 3
+    "correct": 3,
+    "question_te": "P(x)= 2x + 1 యొక్క శూన్య విలువ",
+    "options_te": ["1/2", "1", "-1/2", "0"]
   },
   {
     "year": 2026,
@@ -72680,7 +72856,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "Roots of the quadratic equation x² - 3x - 10 = 0 are",
     "options": ["-2 or 5", "2 or -5", "2 or 5", "-2 or -5"],
-    "correct": 1
+    "correct": 1,
+    "question_te": "x² - 3x - 10 = 0 అనే వర్గ సమీకరణము మూలాలు",
+    "options_te": ["-2 or 5", "2 or -5", "2 or 5", "-2 or -5"]
   },
   {
     "year": 2026,
@@ -72688,7 +72866,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "One example of a binomial of degree 35 is",
     "options": ["x³⁰ + x⁵", "2x³⁴ + x¹", "3x³⁵ - 4", "x³⁰ + 4⁵"],
-    "correct": 3
+    "correct": 3,
+    "question_te": "35 పరిమాణం గల ద్విపదికి ఒక ఉదాహరణ",
+    "options_te": ["x³⁰ + x⁵", "2x³⁴ + x¹", "3x³⁵ - 4", "x³⁰ + 4⁵"]
   },
   {
     "year": 2026,
@@ -72696,7 +72876,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "A polynomial of degree 2 is",
     "options": ["linear polynomial", "Quadratic polynomial", "Cubic polynomial", "Zero polynomial"],
-    "correct": 2
+    "correct": 2,
+    "question_te": "పరిమాణము 2గా గల బహుపది",
+    "options_te": ["రేఖీయ బహుపది", "వర్గ బహుపది", "ఘన బహుపది", "శూన్య బహుపది"]
   },
   {
     "year": 2026,
@@ -72704,7 +72886,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The number of solutions for a linear equation in two variables",
     "options": ["Unique solution", "Only two solutions", "Infinitely many solutions", "No solution"],
-    "correct": 3
+    "correct": 3,
+    "question_te": "రెండు చరరాశులలో రేఖీయ సమీకరణానికి గల సాధనల సంఖ్య",
+    "options_te": ["ఏకైక సాధన ఉంటుంది", "రెండు సాధనలు మాత్రమే ఉంటాయి", "అనంత సాధనలు ఉంటాయి", "సాధనలు ఉండవు"]
   },
   {
     "year": 2026,
@@ -72712,7 +72896,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "If α, β, γ are the roots of cubic polynomial ax³ + bx² + cx + d then α · β · γ =",
     "options": ["-b/a", "c/a", "-d/a", "b/a"],
-    "correct": 3
+    "correct": 3,
+    "question_te": "α, β, γ లు ax³ + bx² + cx + d యొక్క మూలాలు అయిన α · β · γ =",
+    "options_te": ["-b/a", "c/a", "-d/a", "b/a"]
   },
   {
     "year": 2026,
@@ -72720,7 +72906,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "Two consecutive odd positive integers whose sum of squares is 290, then that numbers are",
     "options": ["11, 13", "13, 15", "21, 23", "15, 17"],
-    "correct": 1
+    "correct": 1,
+    "question_te": "రెండు వరుస ధన బేసి సంఖ్యల వర్గాల మొత్తం 290 అయినా ఆ సంఖ్యలు",
+    "options_te": ["11, 13", "13, 15", "21, 23", "15, 17"]
   },
   {
     "year": 2026,
@@ -72728,7 +72916,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The discriminant of the equation 3x² - 2x + 1/3 = 0 is",
     "options": ["2", "-2", "0", "5"],
-    "correct": 3
+    "correct": 3,
+    "question_te": "3x² - 2x + 1/3 = 0 యొక్క విచక్షణి",
+    "options_te": ["2", "-2", "0", "5"]
   },
   {
     "year": 2026,
@@ -72736,7 +72926,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "2x - ky + 3 = 0 and 4x + 6y - 5 = 0 are parallel then the value of k is",
     "options": ["3", "-3", "2", "-2"],
-    "correct": 2
+    "correct": 2,
+    "question_te": "2x - ky + 3 = 0 మరియు 4x + 6y - 5 = 0 లు సమాంతర రేఖలు అయిన k విలువ",
+    "options_te": ["3", "-3", "2", "-2"]
   },
   {
     "year": 2026,
@@ -72744,7 +72936,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The 6th term in the AP: 21, 18, 15…… is",
     "options": ["6", "9", "12", "3"],
-    "correct": 1
+    "correct": 1,
+    "question_te": "21, 18, 15,...... అంకశ్రేడి లో 6వ పదం",
+    "options_te": ["6", "9", "12", "3"]
   },
   {
     "year": 2026,
@@ -72752,7 +72946,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The 2nd term from the end of the AP: 3, 8, 13,……, 253",
     "options": ["162", "160", "248", "174"],
-    "correct": 3
+    "correct": 3,
+    "question_te": "3,8,13,…….,253 అంకశ్రేడి యొక్క చివరి నుండి 2వ పదము",
+    "options_te": ["162", "160", "248", "174"]
   },
   {
     "year": 2026,
@@ -72760,7 +72956,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "6th term of an AP: 2, 5/2, 3, 7/2, ….. is",
     "options": ["4", "9/2", "5", "11/2"],
-    "correct": 2
+    "correct": 2,
+    "question_te": "2, 5/2, 3, 7/2, ….. అంకశ్రేడి లో 6వ పదము",
+    "options_te": ["4", "9/2", "5", "11/2"]
   },
   {
     "year": 2026,
@@ -72768,7 +72966,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "Common difference of AP: 1, 3, 5, 7,……..",
     "options": ["1", "3", "2", "5"],
-    "correct": 3
+    "correct": 3,
+    "question_te": "1, 3, 5, 7,...... అంకశ్రేడిలో సామాన్య భేదము",
+    "options_te": ["1", "3", "2", "5"]
   },
   {
     "year": 2026,
@@ -72776,7 +72976,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The fourth term of the AP whose first term is 10 and common difference is 5",
     "options": ["10", "15", "20", "25"],
-    "correct": 4
+    "correct": 4,
+    "question_te": "మొదటి పదము 10 మరియు సామాన్య భేదము 5గా గల అంకశ్రేడిలో నాల్గవ పదము",
+    "options_te": ["10", "15", "20", "25"]
   },
   {
     "year": 2026,
@@ -72784,7 +72986,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "Common difference in the AP: 3, 3+√2, 3+2√2,….. is",
     "options": ["3 + √2", "√2", "√3", "3 - √2"],
-    "correct": 2
+    "correct": 2,
+    "question_te": "3, 3+√2, 3+2√2….. అంకశ్రేడి నందు సామాన్య భేదము",
+    "options_te": ["3 + √2", "√2", "√3", "3 - √2"]
   },
   {
     "year": 2026,
@@ -72792,7 +72996,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "Number of terms of the AP: 24, 21, 18, …..3",
     "options": ["8", "5", "6", "7"],
-    "correct": 1
+    "correct": 1,
+    "question_te": "24,21,18......3 అంకశ్రేడిలోని పదాల సంఖ్య",
+    "options_te": ["8", "5", "6", "7"]
   },
   {
     "year": 2026,
@@ -72800,7 +73006,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The sum of the 10 terms of the AP: 2, 7, 12,….. is",
     "options": ["240", "245", "250", "255"],
-    "correct": 2
+    "correct": 2,
+    "question_te": "2,7,12........ అంకశ్రేడిలో 10పదాల మొత్తం",
+    "options_te": ["240", "245", "250", "255"]
   },
   {
     "year": 2026,
@@ -72808,7 +73016,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The Sum of 10 terms of the AP: -0.5, -1.0, -1.5….. is",
     "options": ["-30.5", "27.5", "-32.5", "-27.5"],
-    "correct": 4
+    "correct": 4,
+    "question_te": "-0.5,-1.0,-1.5….. అంకశ్రేడి నందు 10పదాల మొత్తం",
+    "options_te": ["-30.5", "27.5", "-32.5", "-27.5"]
   },
   {
     "year": 2026,
@@ -72816,7 +73026,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "Sum of first 14 terms of an AP is 1050 and its first term is 10 then 20th term is",
     "options": ["200", "225", "250", "275"],
-    "correct": 1
+    "correct": 1,
+    "question_te": "ఒక అంకశ్రేడిలో మొదటి పదము 10 మరియు మొదటి 14 పదముల మొత్తం 1050 అయిన 20వ పదము",
+    "options_te": ["200", "225", "250", "275"]
   },
   {
     "year": 2026,
@@ -72824,7 +73036,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "Which terms of the AP: 63, 65, 67,….. and 3, 10, 17,…. Are equal",
     "options": ["11", "12", "13", "14"],
-    "correct": 3
+    "correct": 3,
+    "question_te": "63,65,67,….. మరియు 3,10,17,…. అంకశ్రేడులలో ఎన్నవ పదము సమానము",
+    "options_te": ["11", "12", "13", "14"]
   },
   {
     "year": 2026,
@@ -72832,7 +73046,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "17th term of an AP exceeds its 10th term by 7 then the common difference is",
     "options": ["1", "2", "3", "4"],
-    "correct": 1
+    "correct": 1,
+    "question_te": "ఒక అంకశ్రేడిలో 17వ పదము 10వ పదము కంటే 7 ఎక్కువ అయిన సామాన్య భేదము",
+    "options_te": ["1", "2", "3", "4"]
   },
   {
     "year": 2026,
@@ -72840,7 +73056,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "There is a path of one meter width running inside along the perimeter of the park 30m × 20m, that has to be cemented. If 1 bag of cement is required to cement 4m² area, how many bags of cement would be required to construct the cement path?",
     "options": ["96", "196", "24", "49"],
-    "correct": 3
+    "correct": 3,
+    "question_te": "30 మీ ×20మీ పార్కు లోపల అంచు వెంబడి 1 మీ వెడల్పు గల బాట ఉంది. బాటను సిమెంట్ చేయుటకు 4 చ. మీ కు ఒక సిమెంటు బస్తా అవసరము అయినచో బాట మొత్తం సిమెంటు చేయుటకు ఎన్ని బస్తాలు అవసరము?",
+    "options_te": ["96", "196", "24", "49"]
   },
   {
     "year": 2026,
@@ -72848,7 +73066,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The area of a trapezium shaped field is 480m², the distance between two parallel sides is 15m and one of the parallel side is 20m. Then the other parallel side is (in cm)",
     "options": ["64", "54", "44", "34"],
-    "correct": 3
+    "correct": 3,
+    "question_te": "ట్రాపీజియం ఆకారంలో ఉన్న ఒక పొలము వైశాల్యము 480 చ. మీ. రెండు సమాంతర భుజాల మధ్య దూరము 15 మీ మరియు ఒక సమాంతర భుజం యొక్క పొడవు 20 మీ అయినచో రెండవ సమాంతర భుజం పొడవు (సెం.మీ లలో)",
+    "options_te": ["64", "54", "44", "34"]
   },
   {
     "year": 2026,
@@ -72856,7 +73076,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The area of a rhombus is 240cm² and one of the diagonals is 16cm then the other diagonal length is (in cm)",
     "options": ["20", "30", "40", "15"],
-    "correct": 2
+    "correct": 2,
+    "question_te": "ఒక రాంబస్ వైశాల్యం 240 చ. సెం. మీ మరియు దాని కర్ణములలో ఒక దాని పొడవు 16సెం.మీ అయితే రెండవ కర్ణము పొడవు (సెం.మీ లలో)",
+    "options_te": ["20", "30", "40", "15"]
   },
   {
     "year": 2026,
@@ -72864,7 +73086,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The shape of the top surface a table is a trapezium. If its parallel sides are 1m and 1.2m and perpendicular distance between them is 0.8m then its area is (in m²)",
     "options": ["88", "8.8", "0.88", "880"],
-    "correct": 3
+    "correct": 3,
+    "question_te": "ఒక టేబుల్ పై ఉపరితలం ట్రాపీజియం ఆకారం లో ఉంది. దాని సమాంతర భుజాల పొడవులు 1 మరియు 1.2మీ. వాటి మధ్య లంబదూరం 0.8మీ అయినచో దాని వైశాల్యం (చ.మీ లలో)",
+    "options_te": ["88", "8.8", "0.88", "880"]
   },
   {
     "year": 2026,
@@ -72872,7 +73096,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The diagonal of a quadrilateral shapes field is 24m and the perpendiculars dropped on it from the remaining opposite vertices are 8m and 13m. The area of the field is (in m²)",
     "options": ["152", "252", "150", "250"],
-    "correct": 2
+    "correct": 2,
+    "question_te": "ఒక చతుర్భుజ ఆకారం లో ఉన్న పొలం కర్ణము 24మీ మరియు దాని ఎదుటి శీర్షాల నుండి గీసిన లంబముల పొడవులు వరుసగా 8మీ మరియు 13మీ. ఆ పొలం వైశాల్యం (మీ² లలో)",
+    "options_te": ["152", "252", "150", "250"]
   },
   {
     "year": 2026,
@@ -72880,7 +73106,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The floor of a building consists of 3000 tiles which are in rhombus shape and each of its diagonals are 45cm and 30cm in length. The total cost of polishing the floor at ₹4 per m² is (in rupees)",
     "options": ["810", "81", "270", "2025"],
-    "correct": 1
+    "correct": 1,
+    "question_te": "ఒక భవనం లోని నేల మొత్తం మీద రాంబస్ ఆకారం గల 3000 టైల్స్ పరిచారు. రాంబస్ యొక్క కర్ణములు వరుసగా 45 సెం. మీ మరియు 30 సెం. మీ పొడవులు కలిగి ఉన్నవి. ఆ భవనం యొక్క నేలను పాలిష్ చేయుటకు ఒక చ.మీ కు ₹4 వంతున అగు మొత్తం ఖర్చు (రూపాయిలలో)",
+    "options_te": ["810", "81", "270", "2025"]
   },
   {
     "year": 2026,
@@ -72888,7 +73116,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "Total surface area of a cuboid is",
     "options": ["2(lh + bh)", "2(lh + bl)", "2(lh + bh + lb)", "(lh + bh + lb)"],
-    "correct": 3
+    "correct": 3,
+    "question_te": "దీర్ఘ ఘనం యొక్క సంపూర్ణతల వైశాల్యం",
+    "options_te": ["2(lh + bh)", "2(lh + bl)", "2(lh + bh + lb)", "(lh + bh + lb)"]
   },
   {
     "year": 2026,
@@ -72896,7 +73126,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "Two cubes each with side \"b\" are joined to form a cuboid. The surface area of a cuboid is",
     "options": ["18 b²", "12 b²", "10 b²", "8 b²"],
-    "correct": 3
+    "correct": 3,
+    "question_te": "ప్రతి భుజం \"b\" గా గల రెండు సమఘనాలను జోడించి దీర్ఘఘనం చేశారు. ఈ దీర్ఘఘనం ఉపరితల వైశాల్యం",
+    "options_te": ["18 b²", "12 b²", "10 b²", "8 b²"]
   },
   {
     "year": 2026,
@@ -72904,7 +73136,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "After the surface area of a cube is painted, the cube is cut into 64 smaller cubes of same dimensions. How many have no face painted?",
     "options": ["4", "6", "8", "10"],
-    "correct": 3
+    "correct": 3,
+    "question_te": "ఒక సమఘనము యొక్క ఉపరితలానికి రంగు వేసిన తరువాత ఘనమును 64 సమాన చిన్న ఘనాలుగా విభజించిరి. వీటిలో ఎన్నింటికి ఒక్క ముఖానికి కూడా రంగు వేయబడి ఉండదు?",
+    "options_te": ["4", "6", "8", "10"]
   },
   {
     "year": 2026,
@@ -72912,7 +73146,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "An aquarium is in the form of a cuboid whose external measures are 80cm × 30cm × 40cm. The capacity of aquarium in litres is",
     "options": ["24", "56", "72", "96"],
-    "correct": 4
+    "correct": 4,
+    "question_te": "దీర్ఘ ఘనాకారంలో గల ఒక ఆక్వేరియం బాహ్య కొలతలు 80 సెం. మీ × 30 సెం. మీ × 40 సెం. మీ. అయిన ఆ ఆక్వేరియం యొక్క పరిమాణము లీటర్లలో",
+    "options_te": ["24", "56", "72", "96"]
   },
   {
     "year": 2026,
@@ -72920,7 +73156,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The height of a cylinder whose radius is 7cm and the lateral surface area 660cm² is (in cm)",
     "options": ["15", "9", "6", "5"],
-    "correct": 1
+    "correct": 1,
+    "question_te": "ఒక స్తూపం యొక్క వ్యాసార్ధం 7 సెం. మీ మరియు దాని ప్రక్కతల వైశాల్యం 660 చ. సెం. మీ అయితే దాని ఎత్తు (సెం. మీ లలో)",
+    "options_te": ["15", "9", "6", "5"]
   },
   {
     "year": 2026,
@@ -72928,7 +73166,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "Formula to find total surface area of cylinder is",
     "options": ["2πrh", "πr²h", "2πr(r + h)", "πr(r + h)"],
-    "correct": 3
+    "correct": 3,
+    "question_te": "స్తూపం సంపూర్ణతలముల వైశాల్యం కనుగొనుటకు సూత్రం",
+    "options_te": ["2πrh", "πr²h", "2πr(r + h)", "πr(r + h)"]
   },
   {
     "year": 2026,
@@ -72936,7 +73176,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "1 Liter = ____ cm³",
     "options": ["10", "100", "1000", "10000"],
-    "correct": 3
+    "correct": 3,
+    "question_te": "1 లీటర్ = _____ సెం. మీ³",
+    "options_te": ["10", "100", "1000", "10000"]
   },
   {
     "year": 2026,
@@ -72944,7 +73186,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "A godown is in the form of a cuboid of measures 60m × 40m × 30m. How many cuboidal boxes can be stored in it if the volume of one box is 0.8m³?",
     "options": ["90", "900", "9000", "90000"],
-    "correct": 4
+    "correct": 4,
+    "question_te": "ఒక గోదాము 60మీ × 40మీ × 30మీ కొలతలు గల దీర్ఘఘనం రూపంలో ఉంది. ఒక పెట్టె ఘన పరిమాణం 0.8మీ³ అయితే అందులో ఎన్ని పెట్టెలను నిల్వ చేయవచ్చు?",
+    "options_te": ["90", "900", "9000", "90000"]
   },
   {
     "year": 2026,
@@ -72952,7 +73196,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "A rectangular piece of paper 11cm × 4cm is folded without over lapping to make a cylinder of height 4cm its base diameter is (in cm)",
     "options": ["3.5", "7", "7/4", "14"],
-    "correct": 1
+    "correct": 1,
+    "question_te": "11 సెం. మీ × 4 సెం. మీ కొలతలు గల దీర్ఘ చతురస్రాకార కాగితం ఒక దాని పై ఒకటి అవరించకుండా 4 సెం. మీ ఎత్తు గల ఒక స్తూపంగా మడవ బడింది. స్తూపం యొక్క భూ వ్యాసార్ధం (సెం.మీ లలో)",
+    "options_te": ["3.5", "7", "7/4", "14"]
   },
   {
     "year": 2026,
@@ -72960,7 +73206,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The height of a cuboid whose base area 180cm² and volume 900cm³ is (in cm)",
     "options": ["0.5", "5", "2.5", "1.25"],
-    "correct": 2
+    "correct": 2,
+    "question_te": "భూ వైశాల్యం 180 సెం. మీ² మరియు ఘన పరిమాణం 900 సెం. మీ³ గా గల దీర్ఘఘనం ఎత్తు (సెం. మీ లలో)",
+    "options_te": ["0.5", "5", "2.5", "1.25"]
   },
   {
     "year": 2026,
@@ -72968,7 +73216,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "A milk tank is in the form of cylinder whose radius is 1.5m and length is 7m. Find the quantity of milk in liters that can be stored in the tank?",
     "options": ["49500", "4950", "495", "49.5"],
-    "correct": 1
+    "correct": 1,
+    "question_te": "ఒక పాల ట్యాంకు స్తూపాకారంలో ఉంది దీని వ్యాసార్ధం 1.5 మీ మరియు పొడవు 7 మీ. ట్యాంకులో ఎన్ని లీటర్ల పాలను నిల్వచేయగలము?",
+    "options_te": ["49500", "4950", "495", "49.5"]
   },
   {
     "year": 2026,
@@ -72976,7 +73226,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "If each edge of a cube is doubled its volume will becomes ____ times to its original",
     "options": ["2", "4", "6", "8"],
-    "correct": 4
+    "correct": 4,
+    "question_te": "సమ ఘనం యొక్క ప్రతి అంచును రెండింతలు చేస్తే దాని ఘనపరిమాణం మొదటి దానికి _____ రెట్లు అగును",
+    "options_te": ["2", "4", "6", "8"]
   },
   {
     "year": 2026,
@@ -72984,7 +73236,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "Given a cylindrical tank, in which situation will you find volume\n(a) To find how much it can hold\n(b) Number of cement bags required to plaster it\n(c) To find the number of smaller tanks that can be filled with water from it",
     "options": ["a and c", "a and b", "b and c", "All a, b, c"],
-    "correct": 1
+    "correct": 1,
+    "question_te": "ఒక స్తూపాకార ట్యాంకు ఇవ్వబడింది, దీనిలో ఏ సందర్భంలో దాని ఘనపరిమాణం కనుగొంటారు\n(a) అది ఎంత నిల్వచేయగలదో కనుగొనుటకు\n(b) దానికి ప్లాస్టరింగ్ చేయుటకు అవసరమైన సిమెంటు బస్తాల సంఖ్య కనుగొనుటకు\n(c) దానిలో ఉన్న నీటిని నింపడానికి అవసరమయ్యే చిన్న ట్యాంకుల సంఖ్య కనుగొనుటకు",
+    "options_te": ["a and c", "a and b", "b and c", "All a, b, c"]
   },
   {
     "year": 2026,
@@ -72992,7 +73246,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "Water is pouring into a cuboidal reservoir at the rate of 60 liters per minute. If the volume of reservoir is 108m³ then it will take to fill the reservoir (in hours)",
     "options": ["1800", "3", "30", "300"],
-    "correct": 3
+    "correct": 3,
+    "question_te": "ఒక దీర్ఘఘనాకార జలాశయం లోకి నిమిషానికి 60 లీటర్ల వంతున నీరు చేరుచున్నది. జలాశయం ఘనపరిమాణం 108 ఘ.మీ అయిన జలాశయం నింపడానికి పట్టు సమయం (గంటలలో)",
+    "options_te": ["1800", "3", "30", "300"]
   },
   {
     "year": 2026,
@@ -73000,7 +73256,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The height and the slant height of a cone are 21cm and 28cm respectively then its volume is (in cm³)",
     "options": ["7546", "7645", "7564", "7465"],
-    "correct": 1
+    "correct": 1,
+    "question_te": "శంఖువు ఎత్తు మరియు వాలు ఎత్తు వరుసగా 21 సెం.మీ, 28 సెం. మీ అయిన శంఖువు యొక్క ఘనపరిమాణం (ఘ.సెం.మీ లలో)",
+    "options_te": ["7546", "7645", "7564", "7465"]
   },
   {
     "year": 2026,
@@ -73008,7 +73266,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "A right triangle ABC with sides 5cm, 12cm, 13cm is revolved about the side 12cm then the volume of solid so obtained is (in cm³)",
     "options": ["100π", "720π", "24π", "72π"],
-    "correct": 1
+    "correct": 1,
+    "question_te": "5సెం.మీ, 12సెం.మీ, 13సెం.మీ భుజాలుగా గల లంబకోణ త్రిభుజం ABC, 12సెం.మీ భుజం చుట్టూ భ్రమణం చేయగా ఏర్పడే ఘనము ఘనపరిమాణం (ఘ.సెం.మీ లలో)",
+    "options_te": ["100π", "720π", "24π", "72π"]
   },
   {
     "year": 2026,
@@ -73016,7 +73276,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The amount of water displaced by a solid spherical ball of diameter 0.21m (in liters)",
     "options": ["4.851", "48.51", "485.1", "4851"],
-    "correct": 1
+    "correct": 1,
+    "question_te": "0.21 మీ వ్యాసం కలిగిన ఘనగోళాకారం బంతి ద్వారా స్థానభ్రంశం చెందిన నీటి పరిమాణం (లీ.లలో)",
+    "options_te": ["4.851", "48.51", "485.1", "4851"]
   },
   {
     "year": 2026,
@@ -73024,7 +73286,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The curved surface area of cone is πrl then its total surface area is",
     "options": ["πrl + πr", "πrl + 2πr", "πrl + πr²", "πrl + 2πr²"],
-    "correct": 3
+    "correct": 3,
+    "question_te": "ఒక శంఖువు వక్రతల వైశాల్యం πrl అయిన దాని సంపూర్ణతల వైశాల్యం",
+    "options_te": ["πrl + πr", "πrl + 2πr", "πrl + πr²", "πrl + 2πr²"]
   },
   {
     "year": 2026,
@@ -73032,7 +73296,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The sum of the probabilities of all the elementary events of an experiment is",
     "options": ["0", "1", "2", "10"],
-    "correct": 2
+    "correct": 2,
+    "question_te": "ఒక ప్రయోగం యొక్క అన్నీ ప్రాథమిక ఘటనల సంభావ్యతల మొత్తం",
+    "options_te": ["0", "1", "2", "10"]
   },
   {
     "year": 2026,
@@ -73040,7 +73306,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The probability of certain event is",
     "options": ["0", "1/2", "1", "1/3"],
-    "correct": 3
+    "correct": 3,
+    "question_te": "నిశ్చిత ఘటన యొక్క సంభావ్యత",
+    "options_te": ["0", "1/2", "1", "1/3"]
   },
   {
     "year": 2026,
@@ -73048,7 +73316,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The probability of an impossible event is",
     "options": ["2/3", "1", "0", "1/2"],
-    "correct": 3
+    "correct": 3,
+    "question_te": "అసాధ్య ఘటన యొక్క సంభావ్యత",
+    "options_te": ["2/3", "1", "0", "1/2"]
   },
   {
     "year": 2026,
@@ -73056,7 +73326,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The probability of drawing a king card from a well-shuffled deck of 52 cards is",
     "options": ["1/26", "1/13", "3/53", "1/12"],
-    "correct": 2
+    "correct": 2,
+    "question_te": "బాగుగా కలపబడిన 52 కార్డులు గల పేక ముక్కల కట్ట నుండి రాజు కార్డును తీయు సంభావ్యత",
+    "options_te": ["1/26", "1/13", "3/53", "1/12"]
   },
   {
     "year": 2026,
@@ -73064,7 +73336,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The probability of drawing a face card from well-shuffled deck of 52 cards is",
     "options": ["3/13", "2/13", "1/13", "3/52"],
-    "correct": 1
+    "correct": 1,
+    "question_te": "బాగుగా కలపబడిన 52 కార్డులు గల పేక ముక్కల కట్ట నుండి ముఖ కార్డును తీయు సంభావ్యత",
+    "options_te": ["3/13", "2/13", "1/13", "3/52"]
   },
   {
     "year": 2026,
@@ -73072,7 +73346,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The probability of getting an even number when a die is thrown ones",
     "options": ["1/3", "1/2", "1/6", "5/6"],
-    "correct": 2
+    "correct": 2,
+    "question_te": "ఒక పాచికను ఒక సారి దొర్లిస్తే సరిసంఖ్యను పొందు సంభావ్యత",
+    "options_te": ["1/3", "1/2", "1/6", "5/6"]
   },
   {
     "year": 2026,
@@ -73080,7 +73356,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The probability of drawing a white marble randomly from a certain box contains 5 red marbles, 8 white marbles and 4 green marbles.",
     "options": ["5/17", "4/17", "12/17", "8/17"],
-    "correct": 4
+    "correct": 4,
+    "question_te": "5 ఎర్రని, 8 తెల్లని మరియు 4 ఆకుపచ్చ గోళీలు గల ఒక పెట్టె నుండి యాదృచ్చికంగా ఒక తెల్లని గోళిని తీయు సంభావ్యత",
+    "options_te": ["5/17", "4/17", "12/17", "8/17"]
   },
   {
     "year": 2026,
@@ -73088,7 +73366,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The winning probability of a player A in a game with player B is 0.35. Then the winning probability of player B is",
     "options": ["0.35", "0.55", "0.65", "0.75"],
-    "correct": 3
+    "correct": 3,
+    "question_te": "ఒకానొక ఆటలో A ఆటగాడు, B ఆటగాడితో గెలుపొందే సంభావ్యత 0.35. అయితే B ఆటగాడు గెలుపొందే సంభావ్యత",
+    "options_te": ["0.35", "0.55", "0.65", "0.75"]
   },
   {
     "year": 2026,
@@ -73096,7 +73376,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "In a normal year the probability of celebrating two friends their birth day on same day is",
     "options": ["1/2", "1/365", "1/366", "1/24"],
-    "correct": 2
+    "correct": 2,
+    "question_te": "ఒక సాధారణ సంవత్సరంలో ఇద్దరు స్నేహితులు ఒకే రోజు తమ పుట్టిన రోజును జరుపుకొనే సంభావ్యత",
+    "options_te": ["1/2", "1/365", "1/366", "1/24"]
   },
   {
     "year": 2026,
@@ -73104,7 +73386,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "When two dice are thrown the probability of getting same number on the top of dice is",
     "options": ["1/6", "5/36", "13/36", "1/4"],
-    "correct": 1
+    "correct": 1,
+    "question_te": "రెండు పాచికలు ఒకేసారి దొర్లించినపుడు రెండింటిపై ముఖాలపై ఒకే అంకెను పొందే సంభావ్యత",
+    "options_te": ["1/6", "5/36", "13/36", "1/4"]
   },
   {
     "year": 2026,
@@ -73112,7 +73396,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The probability of getting at least one head when two coins tossed at a time",
     "options": ["0.25", "0.50", "0.75", "1.0"],
-    "correct": 3
+    "correct": 3,
+    "question_te": "ఒకేసారి రెండు నాణేలు ఎగురవేసినప్పుడు కనీసం ఒక బొమ్మ పడే సంభావ్యత",
+    "options_te": ["0.25", "0.50", "0.75", "1.0"]
   },
   {
     "year": 2026,
@@ -73120,7 +73406,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The probability of getting a head when a coin is tossed ones is",
     "options": ["0", "1", "1/2", "-1/2"],
-    "correct": 3
+    "correct": 3,
+    "question_te": "ఒక నాణేన్ని ఒకసారి ఎగుర వేసినప్పుడు బొమ్మ పడే సంభావ్యత",
+    "options_te": ["0", "1", "1/2", "-1/2"]
   },
   {
     "year": 2026,
@@ -73128,7 +73416,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "One of the point of trisection of the line segment joining points (2,-2) and (-7,4)",
     "options": ["(0,0)", "(2,0)", "(-1,0)", "(-7,0)"],
-    "correct": 3
+    "correct": 3,
+    "question_te": "(2,-2) మరియు (-7,4) బిందువులను కలుపు రేఖాఖండము యొక్క ఒక త్రిధాకరణ బిందువు",
+    "options_te": ["(0,0)", "(2,0)", "(-1,0)", "(-7,0)"]
   },
   {
     "year": 2026,
@@ -73136,7 +73426,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "If (x,y) is equidistant from (7,1) and (3,5) then relation between x and y is",
     "options": ["x - y = 2", "x + y = 2", "2x + y = 0", "x - 2y = 5"],
-    "correct": 1
+    "correct": 1,
+    "question_te": "(x, y) బిందువు (7,1) మరియు (3,5) లకు సమాన దూరములో ఉన్న x , y ల మధ్య సంబంధము",
+    "options_te": ["x - y = 2", "x + y = 2", "2x + y = 0", "x - 2y = 5"]
   },
   {
     "year": 2026,
@@ -73144,7 +73436,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The distance between the points (4,0) and (8,0) is (in units)",
     "options": ["0", "6", "12", "4"],
-    "correct": 4
+    "correct": 4,
+    "question_te": "(4,0) మరియు (8,0) బిందువుల మధ్యదూరము (యూనిట్లలో)",
+    "options_te": ["0", "6", "12", "4"]
   },
   {
     "year": 2026,
@@ -73152,7 +73446,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "If three points are collinear the area of triangle formed by those three points is (in sq. units)",
     "options": ["3", "0", "1", "10"],
-    "correct": 2
+    "correct": 2,
+    "question_te": "సరేఖీయాలు అయిన 3 బిందువులచే ఏర్పడే త్రిభుజ వైశాల్యం (చ. ప్రమాణాలలో)",
+    "options_te": ["3", "0", "1", "10"]
   },
   {
     "year": 2026,
@@ -73160,7 +73456,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The distance between the points (x,7) and (1,15) is 10 the value of x is",
     "options": ["7 or -5", "-7 or 5", "5 or -5", "0 or 5"],
-    "correct": 1
+    "correct": 1,
+    "question_te": "(x,7) మరియు (1,15) ల మధ్య దూరం 10 యూనిట్లు అయిన x విలువ",
+    "options_te": ["7 or -5", "-7 or 5", "5 or -5", "0 or 5"]
   },
   {
     "year": 2026,
@@ -73168,7 +73466,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "(-4,6), (2,-2) and (2,5) are vertices of a triangle then centroid is",
     "options": ["(3,0)", "(0,3)", "(-4,5)", "(6,2)"],
-    "correct": 2
+    "correct": 2,
+    "question_te": "(-4,6), (2,-2) మరియు (2,5) త్రిభుజ శీర్షాలుగా గల త్రిభుజ గురుత్వ కేంద్రము",
+    "options_te": ["(3,0)", "(0,3)", "(-4,5)", "(6,2)"]
   },
   {
     "year": 2026,
@@ -73176,7 +73476,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The distance between the points (0,0) and (7,4) is (in units)",
     "options": ["7", "4", "√65", "√89"],
-    "correct": 3
+    "correct": 3,
+    "question_te": "(0,0), (7,4) బిందువుల మధ్య దూరము (యూనిట్లలో)",
+    "options_te": ["7", "4", "√65", "√89"]
   },
   {
     "year": 2026,
@@ -73184,7 +73486,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "Coordinates of the point which divides the line segment joining the points (4,-3) and (8,5) in the ratio 3:1 is",
     "options": ["(7,3)", "(3,7)", "(10,3)", "(7,10)"],
-    "correct": 1
+    "correct": 1,
+    "question_te": "(4,-3) మరియు (8,5) బిందువులను కలుపు రేఖా ఖండాన్ని 3:1 నిష్పత్తి లో విభజించే బిందువు నిరూపకాలు",
+    "options_te": ["(7,3)", "(3,7)", "(10,3)", "(7,10)"]
   },
   {
     "year": 2026,
@@ -73192,7 +73496,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "Centroid of a triangle divides the median in the ratio",
     "options": ["1:1", "2:5", "2:1", "5:3"],
-    "correct": 3
+    "correct": 3,
+    "question_te": "త్రిభుజ గురుత్వ కేంద్రం మధ్యగత రేఖను విభజించు నిష్పత్తి",
+    "options_te": ["1:1", "2:5", "2:1", "5:3"]
   },
   {
     "year": 2026,
@@ -73200,7 +73506,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The radius of the circle whose centre is (3,2) and passes through (-5,6) is (in units)",
     "options": ["4", "4√5", "√5", "2√3"],
-    "correct": 2
+    "correct": 2,
+    "question_te": "బిందువు (-5,6) గుండా పోవు వృత్తం యొక్క కేంద్రం (3,2) అయిన దాని వ్యాసార్ధము (యూనిట్లలో)",
+    "options_te": ["4", "4√5", "√5", "2√3"]
   },
   {
     "year": 2026,
@@ -73208,7 +73516,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "Midpoint of the line segment joining the points (3,0) and (-1,4) is",
     "options": ["(0,0)", "(2,1)", "(1,2)", "(3,4)"],
-    "correct": 3
+    "correct": 3,
+    "question_te": "(3,0) మరియు (-1,4) బిందువులను కలుపు రేఖా ఖండ మధ్య బిందు నిరూపకాలు",
+    "options_te": ["(0,0)", "(2,1)", "(1,2)", "(3,4)"]
   },
   {
     "year": 2026,
@@ -73216,7 +73526,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "If (1,2), (4,y), (x,6) and (3,5) are vertices of a parallelogram then taken in an order value of x and y are",
     "options": ["x = 3, y = 10", "x = 0, y = 10", "x = 3, y = 6", "x = 6, y = 3"],
-    "correct": 4
+    "correct": 4,
+    "question_te": "(1,2), (4,y), (x,6) మరియు (3,5) లు వరుసగా ఒక సమాంతర చతుర్భుజ శీర్షాలయిన x, y ల విలువలు",
+    "options_te": ["x = 3, y = 10", "x = 0, y = 10", "x = 3, y = 6", "x = 6, y = 3"]
   },
   {
     "year": 2026,
@@ -73224,7 +73536,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The first use of the idea of 'sine' in the way we use it today by",
     "options": ["Bhaskaracharya", "Varahamihara", "Aryabhata", "Srinivasa Ramanujan"],
-    "correct": 3
+    "correct": 3,
+    "question_te": "మనం ఈ రోజుల్లో ఉపయోగిస్తున్న 'sine' అనే భావన మొదటి సారిగా ప్రస్తావించిన వారు",
+    "options_te": ["భాస్కరా చార్యుడు", "వరాహమీహర", "ఆర్యభట్ట", "శ్రీనివాస రామానుజన్"]
   },
   {
     "year": 2026,
@@ -73232,7 +73546,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "If tan A = 4/3 then sin A =",
     "options": ["3/5", "4/5", "5/4", "3/4"],
-    "correct": 2
+    "correct": 2,
+    "question_te": "tan A = 4/3 అయిన sin A =",
+    "options_te": ["3/5", "4/5", "5/4", "3/4"]
   },
   {
     "year": 2026,
@@ -73240,7 +73556,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "In ΔABC, right angled at B, AB = 24cm, BC = 7cm then cos C =",
     "options": ["25/24", "24/25", "7/25", "7/24"],
-    "correct": 3
+    "correct": 3,
+    "question_te": "ΔABC లో లంబ కోణం B వద్ద ఉంది మరియు AB = 24సెం. మీ, BC = 7సెం. మీ అయిన cos C =",
+    "options_te": ["25/24", "24/25", "7/25", "7/24"]
   },
   {
     "year": 2026,
@@ -73264,7 +73582,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "If sin(A - B) = 1/2, cos(A + B) = 1/2, 0° < A + B ≤ 90°, A > B then the value of A",
     "options": ["45°", "15°", "60°", "30°"],
-    "correct": 1
+    "correct": 1,
+    "question_te": "sin(A - B) = 1/2, cos(A + B) = 1/2, 0° < A + B ≤ 90°, A > B అయితే A యొక్క విలువ",
+    "options_te": ["45°", "15°", "60°", "30°"]
   },
   {
     "year": 2026,
@@ -73280,7 +73600,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "In a right triangle ABC, right angled at B, if tan A = 1 then 2 sin A cos A =",
     "options": ["√2", "1/√2", "2√2", "1"],
-    "correct": 4
+    "correct": 4,
+    "question_te": "లంబ కోణ త్రిభుజం ABC లో B వద్ద లంబకోణం కలదు. tan A = 1 అయితే 2 sin A cos A =",
+    "options_te": ["√2", "1/√2", "2√2", "1"]
   },
   {
     "year": 2026,
@@ -73296,7 +73618,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "sin 2A = 2 sin A is true when A=",
     "options": ["0°", "30°", "45°", "60°"],
-    "correct": 1
+    "correct": 1,
+    "question_te": "sin 2A = 2 sin A సత్యమైతే A=",
+    "options_te": ["0°", "30°", "45°", "60°"]
   },
   {
     "year": 2026,
@@ -73304,7 +73628,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "Which of the following is 'tan A' ratio",
     "options": ["opposite side to A / hypotenuse", "Adjacent side to A / hypotenuse", "opposite side to A / Adjacent side to A", "Adjacent side to A / opposite side to A"],
-    "correct": 3
+    "correct": 3,
+    "question_te": "క్రింది వానిలో 'tan A' నిష్పత్తి",
+    "options_te": ["A కు ఎదుటి భుజం / కర్ణము", "A కు ఆసన్న భుజం / కర్ణము", "A కు ఎదుటి భుజం / A కు ఆసన్న భుజం", "A కు ఆసన్న భుజం / A కు ఎదుటి భుజం"]
   },
   {
     "year": 2026,
@@ -73320,7 +73646,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "If the length of the shadow of a person is equal to the height of the person, then the angle of inclination of sun rays is",
     "options": ["30°", "60°", "45°", "90°"],
-    "correct": 3
+    "correct": 3,
+    "question_te": "ఒక వ్యక్తి నీడ పొడవు ఆ వ్యక్తి ఎత్తుకు సమానమైన సూర్య కిరణాల పడే కోణము",
+    "options_te": ["30°", "60°", "45°", "90°"]
   },
   {
     "year": 2026,
@@ -73328,7 +73656,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The length of the shadow of a tower is √3 times the height of the tower then the angle of inclination is",
     "options": ["30°", "60°", "45°", "90°"],
-    "correct": 1
+    "correct": 1,
+    "question_te": "ఒక టవర్ యొక్క నీడ పొడవు దాని ఎత్తుకు √3 రెట్లు అయిన పడే కోణం విలువ",
+    "options_te": ["30°", "60°", "45°", "90°"]
   },
   {
     "year": 2026,
@@ -73336,7 +73666,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "A person observes the top of a pole at a point on the ground 15m away from the foot of the tower at the angle of 60° then the height of the pole is (in m)",
     "options": ["45", "15√3", "15/√3", "30"],
-    "correct": 2
+    "correct": 2,
+    "question_te": "ఒక స్తంభ పాదం నుండి 15 మీ దూరంలో గల ఒక బిందువు నుండి ఒక వ్యక్తి ఆ స్తంభం పైకొనను 60° కోణం తో గమనిస్తే ఆ స్తంభం ఎత్తు (మీ లలో)",
+    "options_te": ["45", "15√3", "15/√3", "30"]
   },
   {
     "year": 2026,
@@ -73344,7 +73676,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "When the length of the shadow of a tower and the angle of inclination 'θ' is given then the trigonometric ratio used to find the height of the tower is",
     "options": ["sinθ", "cosθ", "tanθ", "secθ"],
-    "correct": 3
+    "correct": 3,
+    "question_te": "ఒక టవర్ యొక్క నీడ పొడవు మరియు పతన కోణం 'θ' ఇచ్చినప్పుడు ఆ టవర్ ఎత్తును కనుగొనడానికి ఉపయోగించు త్రికోణమితీయ నిష్పత్తి",
+    "options_te": ["sinθ", "cosθ", "tanθ", "secθ"]
   },
   {
     "year": 2026,
@@ -73352,7 +73686,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "A person observed the top of a flag pole at an angle of 45° from the point on the ground which is 40m away from the foot of the flag pole then the height of flag pole is (in m)",
     "options": ["40√3", "40/√3", "45", "40"],
-    "correct": 4
+    "correct": 4,
+    "question_te": "ఒక వ్యక్తి జెండా స్తంభం నుండి 40 మీ దూరంలో గల ఒక బిందువు నుండి ఆ జెండా స్తంభం పైకొనను 45° కోణముతో గమనించిన ఆయన జెండా స్తంభం ఎత్తు (మీ. లలో)",
+    "options_te": ["40√3", "40/√3", "45", "40"]
   },
   {
     "year": 2026,
@@ -73360,7 +73696,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The ratio of height of a tree to the shadow of the tree is √3:1 then the angle of inclination at that time is",
     "options": ["30°", "60°", "45°", "90°"],
-    "correct": 2
+    "correct": 2,
+    "question_te": "ఒక చెట్టు యొక్క ఎత్తు మరియు ఆ సమయంలో నీడ పొడవుల నిష్పత్తి √3 : 1 అయిన పతన కోణము విలువ",
+    "options_te": ["30°", "60°", "45°", "90°"]
   },
   {
     "year": 2026,
@@ -73368,7 +73706,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The length of metal wire required from the top of electrical pole to a point which is 5m away from the foot of an electrical pole making an angle of 60° with the ground is (in m)",
     "options": ["(5√3)/2", "10/√3", "5√3", "10"],
-    "correct": 4
+    "correct": 4,
+    "question_te": "ఒక విద్యుత్ స్తంభము యొక్క పై కొన నుండి ఆ స్తంభ పాదం నకు 5 మీ దూరంలో గల బిందువుకు ఒక లోహపు తీగను భూమితో 60° చేయునట్లు కట్టుటకు అవసరమగు తీగ పొడవు (మీ. లలో)",
+    "options_te": ["(5√3)/2", "10/√3", "5√3", "10"]
   },
   {
     "year": 2026,
@@ -73376,7 +73716,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "An observer 1.5m tall is 28.5m away from a chimney. The angle of elevation of the top of the chimney from her eyes is 45°, the height of the chimney is (in m)",
     "options": ["28.5", "30", "57", "27"],
-    "correct": 2
+    "correct": 2,
+    "question_te": "1.5 మీ ఎత్తు వున్న ఒక పరిశీలకురాలు చిమ్నీ నుండి 28.5 మీ దూరంలో వున్నది. ఆమె తన కంటి నుండి చిమ్నీ పై చివరకు చేసే ఊర్ధ్వ కోణం 45° అయిన ఆ చిమ్నీ ఎత్తు (మీ. లలో)",
+    "options_te": ["28.5", "30", "57", "27"]
   },
   {
     "year": 2026,
@@ -73384,7 +73726,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The angle of elevation of the top of a tower from the point on the ground, which is 30m away from the foot of the tower is 30° then the height of the tower (in m)",
     "options": ["10/√3", "20√3", "30√3", "10√3"],
-    "correct": 4
+    "correct": 4,
+    "question_te": "ఒక టవర్ యొక్క పై కొన టవర్ కు 30 మీ దూరం లో వున్న బిందువు నుండి 30° ఊర్ధ్వ కోణము చేసిన టవర్ యొక్క ఎత్తు (మీ. లలో)",
+    "options_te": ["10/√3", "20√3", "30√3", "10√3"]
   },
   {
     "year": 2026,
@@ -73392,7 +73736,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The angle formed by the line of sight with the horizontal when the point being viewed is above the horizontal level is",
     "options": ["Angle of elevation", "Angle of depression", "Angle of inclination", "Alternate angle"],
-    "correct": 1
+    "correct": 1,
+    "question_te": "పరిశీలకుడు చూసే బిందువు క్షితిజ సమాంతర రేఖకు ఎగువన వుంటే దృష్టి రేఖ క్షితిజ సమాంతర రేఖతో చేసే కోణము",
+    "options_te": ["ఊర్ధ్వ కోణము", "నిమ్న కోణము", "పతన కోణము", "ఏకాంతర కోణము"]
   },
   {
     "year": 2026,
@@ -73400,7 +73746,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The angle formed by the line of sight with the horizontal when the point being viewed is below the horizontal level is",
     "options": ["Angle of elevation", "Angle of depression", "Angle of inclination", "Alternate angle"],
-    "correct": 2
+    "correct": 2,
+    "question_te": "పరిశీలకుడు చూసే బిందువు క్షితిజ సమాంతర రేఖకు దిగువన వుంటే దృష్టి రేఖ క్షితిజ సమాంతర రేఖతో చేసే కోణము",
+    "options_te": ["ఊర్ధ్వ కోణము", "నిమ్న కోణము", "పతన కోణము", "ఏకాంతర కోణము"]
   },
   {
     "year": 2026,
@@ -73408,7 +73756,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "In ΔPQR, right angle at 'Q'. PQ = 3cm and PR = 6cm then the value of ∠QPR =",
     "options": ["30°", "45°", "60°", "90°"],
-    "correct": 3
+    "correct": 3,
+    "question_te": "ΔPQR లో 'Q' వద్ద లంబకోణము కలదు. PQ = 3సెం. మీ మరియు PR = 6సెం. మీ అయిన ∠QPR విలువ",
+    "options_te": ["30°", "45°", "60°", "90°"]
   },
   {
     "year": 2026,
@@ -73416,7 +73766,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "\"Mathematics is the mirror of civilization\" these are the words given by",
     "options": ["Hogben", "Aristotil", "Lindsay", "Gauss"],
-    "correct": 1
+    "correct": 1,
+    "question_te": "\"గణితము సాంస్కృతికి అద్దము వంటిది\" ఈ మాటలు అన్నవారు",
+    "options_te": ["హాగ్‌బెన్", "అరిస్టాటిల్", "లిండ్ సే", "గాస్"]
   },
   {
     "year": 2026,
@@ -73424,7 +73776,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "\"Mathematics is gateway and key to all sciences\", Stated by the mathematician is",
     "options": ["Becon", "Locke", "Gauss", "Lindsay"],
-    "correct": 1
+    "correct": 1,
+    "question_te": "\"సకల శాస్త్రాలకు మూలం 'గణితం' అని చెప్పినది\"",
+    "options_te": ["బీకన్", "లాకే", "గాస్", "లిండ్ సే"]
   },
   {
     "year": 2026,
@@ -73432,7 +73786,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "Author of the book \"Elements\"",
     "options": ["Pythagoras", "Thales", "Rene Descarte", "Euclid"],
-    "correct": 4
+    "correct": 4,
+    "question_te": "\"ఎలిమెంట్స్\" గ్రంథ రచయిత",
+    "options_te": ["పైథాగరస్", "థేల్స్", "రెనెడికార్తె", "యూక్లిడ్"]
   },
   {
     "year": 2026,
@@ -73440,7 +73796,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "Mathematics derived from two Greek words. One is manthanien the other one is",
     "options": ["Technie", "Tichnee", "Techne", "Tecne"],
-    "correct": 3
+    "correct": 3,
+    "question_te": "Mathematics అనే అంగ్ల పదం గ్రీకు భాషలోని రెండు పదాల కలయికతో ఏర్పడినది. అందులో ఒకటి manthanien అయిన రెండవది",
+    "options_te": ["Technie", "Tichnee", "Techne", "Tecne"]
   },
   {
     "year": 2026,
@@ -73448,7 +73806,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "A mathematician who defined \"Mathematics is the science that draws necessary conclusions\", is",
     "options": ["Benjamin peirce", "Aristotle", "Locke", "Lindsay"],
-    "correct": 1
+    "correct": 1,
+    "question_te": "\"గణితం అంటే అవసరం అయిన నిర్ధారణలను రాబట్టే శాస్త్రం\" అని నిర్వచించిన గణిత శాస్త్రవేత్త",
+    "options_te": ["బెంజిమన్ పియర్స్", "అరిస్టాటిల్", "లాక్", "లిండ్ సే"]
   },
   {
     "year": 2026,
@@ -73456,7 +73816,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "Which of the following does not belong to the 'nature of mathematics'",
     "options": ["Chance to check", "Mathematics is not logical", "Accuracy", "Abstractness"],
-    "correct": 2
+    "correct": 2,
+    "question_te": "క్రింది వాటిలో గణిత స్వభావానికి చెందని అంశం",
+    "options_te": ["సరిచూసుకొనే అవకాశం", "గణిత తార్కిక మైనది కాదు", "ఖచ్చితత్వం", "అమూర్త లక్షణం"]
   },
   {
     "year": 2026,
@@ -73464,7 +73826,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The objective that does not belongs to 'Affective domain' is",
     "options": ["Receiving", "Precision / sensitive", "Organisation", "Responding"],
-    "correct": 2
+    "correct": 2,
+    "question_te": "'భావావేశ రంగానికి' చెందని లక్ష్యము",
+    "options_te": ["గ్రహించడం", "సునిశితత్వం", "వ్యవస్థాపనం", "ప్రతిస్పందించడం"]
   },
   {
     "year": 2026,
@@ -73472,7 +73836,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "This objective belongs to 'Affective domain' is",
     "options": ["Manipulation", "Naturalization", "Sensitive", "Valuing"],
-    "correct": 4
+    "correct": 4,
+    "question_te": "'భావావేశ రంగానికి' చెందిన లక్ష్యము",
+    "options_te": ["హస్తలాఘవం", "సహజీకరణం", "సునిశితత్వం", "విలువకట్టడం"]
   },
   {
     "year": 2026,
@@ -73480,7 +73846,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The name of the mathematician who revealed approximately the value of π as 3.1416 is",
     "options": ["Brahmagupta", "Aryabhata", "Bhaskracharya", "Euclid"],
-    "correct": 2
+    "correct": 2,
+    "question_te": "π విలువను సుమారుగా 3.1416 అని మొదటిసారిగా తెలిపిన గణిత శాస్త్రవేత్త",
+    "options_te": ["బ్రహ్మగుప్త", "ఆర్యభట్ట", "భాస్కరాచార్య", "యూక్లిడ్"]
   },
   {
     "year": 2026,
@@ -73488,7 +73856,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "\"For common calculation, we can take π = √10\". This statement was proposed by the mathematician",
     "options": ["Bhaskaracharya", "Aryabhata", "Brahma gupta", "Euclid"],
-    "correct": 1
+    "correct": 1,
+    "question_te": "సాధారణ గణనకు π = √10 గా తీసుకొనవచ్చని ప్రతిపాదించిన గణిత శాస్త్రవేత్త",
+    "options_te": ["భాస్కరాచార్య", "ఆర్యభట్ట", "బ్రహ్మగుప్త", "యూక్లిడ్"]
   },
   {
     "year": 2026,
@@ -73496,7 +73866,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "\"Prime numbers are infinite\" statement was given by",
     "options": ["Srinivasa Ramanujan", "Euclid", "Aryabhata", "Bhaskracharya"],
-    "correct": 2
+    "correct": 2,
+    "question_te": "\"ప్రధాన సంఖ్యలు అనంతం\" అని చెప్పినవారు",
+    "options_te": ["శ్రీనివాస రామానుజన్", "యూక్లిడ్", "ఆర్యభట్ట", "భాస్కరాచార్య"]
   },
   {
     "year": 2026,
@@ -73504,7 +73876,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "\"The sum of three angles in a triangle is 180° or two right angles\". This statement was given by",
     "options": ["Pythagoras", "Euclid", "Brahmagupta", "Aryabhata"],
-    "correct": 1
+    "correct": 1,
+    "question_te": "\"త్రిభుజంలోని మూడు కోణాల మొత్తం 180° లేదా రెండు లంబకోణాలు\", అని చెప్పినవారు",
+    "options_te": ["పైథాగరస్", "యూక్లిడ్", "బ్రహ్మగుప్త", "ఆర్యభట్ట"]
   },
   {
     "year": 2026,
@@ -73512,7 +73886,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The teaching method considered as the 'Product of thinking' is",
     "options": ["Laboratory method", "Heuristic method", "Analysis method", "Synthesis method"],
-    "correct": 4
+    "correct": 4,
+    "question_te": "'ఆలోచనా ఫలితంగా వ్యవహరించడే గణిత బోధన పద్ధతి'",
+    "options_te": ["ప్రయోగశాల పద్ధతి", "అన్వేషణ పద్ధతి", "విశ్లేషణ పద్ధతి", "సంశ్లేషణ పద్ధతి"]
   },
   {
     "year": 2026,
@@ -73520,7 +73896,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "Who propagated Deductive method in mathematics",
     "options": ["Armstrong", "Cominius", "Pestalozzi", "Bellord"],
-    "correct": 2
+    "correct": 2,
+    "question_te": "గణిత శాస్త్రంలో ఎవరు నిగమన పద్ధతిని ప్రవచారించారు",
+    "options_te": ["ఆర్మ్‌స్ట్రాంగ్", "కామినీయస్", "పెస్టాలజ్", "బెల్లార్డ్"]
   },
   {
     "year": 2026,
@@ -73528,7 +73906,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "Who said that \"Education is life\"",
     "options": ["Young", "Kilpatric", "John Dewey", "Stevenson"],
-    "correct": 3
+    "correct": 3,
+    "question_te": "\"విద్యయే జీవితం\" అని చెప్పినవారు",
+    "options_te": ["యంగ్", "కిల్ ప్యాట్రిక్", "జాన్ డ్యూయ్", "స్టీవెన్సన్"]
   },
   {
     "year": 2026,
@@ -73536,7 +73916,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The method which leads from \"particular to general\" is",
     "options": ["Inductive", "Deductive", "Analysis", "Synthesis"],
-    "correct": 1
+    "correct": 1,
+    "question_te": "\"ప్రత్యేక అంశం నుండి సాధారణ అంశానికి\" దారి తీయు పద్ధతి",
+    "options_te": ["ఆగమన", "నిగమన", "విశ్లేషణ", "సంశ్లేషణ"]
   },
   {
     "year": 2026,
@@ -73544,7 +73926,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "By using this method we come to know that the \"problem solving procedure\" only",
     "options": ["Synthesis", "Analysis", "Project", "Deductive"],
-    "correct": 2
+    "correct": 2,
+    "question_te": "ఈ పద్ధతి ద్వారా సమస్య పరిష్కరించు విధానం మాత్రమే తెలుస్తుంది",
+    "options_te": ["సంశ్లేషణ", "విశ్లేషణ", "ప్రాజెక్టు", "నిగమన"]
   },
   {
     "year": 2026,
@@ -73552,7 +73936,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "This method proceeds from particular examples to general rules of formulas is",
     "options": ["Deductive", "Inductive", "Synthesis", "Analytic"],
-    "correct": 2
+    "correct": 2,
+    "question_te": "ఉదాహరణల నుండి సూత్రాన్ని తయారు చేసే పద్ధతి",
+    "options_te": ["నిగమన", "ఆగమన", "సంశ్లేషణ", "విశ్లేషణ"]
   },
   {
     "year": 2026,
@@ -73560,7 +73946,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "This is the convenient method to derive formula for compound interest is",
     "options": ["Inductive method", "Deductive method", "Analytic method", "Synthetic method"],
-    "correct": 1
+    "correct": 1,
+    "question_te": "చక్రవడ్డీ సూత్రాన్ని రాబట్టుటకు అనువైన బోధన పద్ధతి",
+    "options_te": ["ఆగమన పద్ధతి", "నిగమన పద్ధతి", "విశ్లేషణ పద్ధతి", "సంశ్లేషణ పద్ధతి"]
   },
   {
     "year": 2026,
@@ -73568,7 +73956,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "This method is based on the principles \"learning by doing\" and \"learning by observing\" is",
     "options": ["Inductive", "Deductive", "Analytic", "Laboratory"],
-    "correct": 4
+    "correct": 4,
+    "question_te": "\"చేయడం ద్వారా నేర్చుకోవడం\" , \"పరిశీలన ద్వారా నేర్చుకోవడం\" అనే సూత్రాలను కలిగి వున్న బోధనా పద్ధతి",
+    "options_te": ["ఆగమన", "నిగమన", "విశ్లేషణ", "ప్రయోగశాల"]
   },
   {
     "year": 2026,
@@ -73576,7 +73966,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "This method is based on the principle \"learning by doing\" is",
     "options": ["Project method", "Heuristic method", "Problem solving", "Deductive"],
-    "correct": 1
+    "correct": 1,
+    "question_te": "\"చేయుట ద్వారా నేర్చుకోవటం\" అనే సూత్రం ఆధారంగా పనిచేయు పద్ధతి",
+    "options_te": ["ప్రాజెక్టు పద్ధతి", "అన్వేషణ పద్ధతి", "సమస్యా సాధన", "నిగమన"]
   },
   {
     "year": 2026,
@@ -73584,7 +73976,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "\"A project is a bit of real life that has been imported into school\". This definition was given by",
     "options": ["Kilpatrick", "Ballard", "Stevenson", "Armstrong"],
-    "correct": 2
+    "correct": 2,
+    "question_te": "\"పాఠశాలకు దిగుమతి చేసిన నిజ జీవిత భాగమే ప్రాజెక్టు\" అని నిర్వచించినది",
+    "options_te": ["కిల్ ప్యాట్రిక్", "బెల్లార్డ్", "స్టీవెన్సన్", "ఆర్మ్‌స్ట్రాంగ్"]
   },
   {
     "year": 2026,
@@ -73592,7 +73986,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "This is not a limitation to analytic method",
     "options": ["Lengthy method", "It takes more time", "We cannot solve problems with speed", "This is suitable for all kinds of problem"],
-    "correct": 4
+    "correct": 4,
+    "question_te": "విశ్లేషణ పద్ధతి పరిమితి కానిది",
+    "options_te": ["ఇది ఒక సుదీర్ఘ పద్ధతి", "దీనికి ఎక్కువ సమయం పడుతుంది", "సమస్యలను వేగంగా సాధించలేము", "ఇది అన్ని రకాల సమస్యల సాధనకు అనువైనది"]
   },
   {
     "year": 2026,
@@ -73600,7 +73996,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "This is the time-saving teaching method",
     "options": ["Inductive method", "Synthetic method", "Analytic method", "Heuristic method"],
-    "correct": 2
+    "correct": 2,
+    "question_te": "సమయాన్ని పొదుపు చేసే బోధన పద్ధతి",
+    "options_te": ["ఆగమన పద్ధతి", "సంశ్లేషణ పద్ధతి", "విశ్లేషణ పద్ధతి", "అన్వేషణ పద్ధతి"]
   },
   {
     "year": 2026,
@@ -73608,7 +74006,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "This item does not included in the unit plan",
     "options": ["Content analysis", "Teaching learning material", "Teaching method", "Objectives and specifications"],
-    "correct": 3
+    "correct": 3,
+    "question_te": "సమగ్ర యూనిట్ ప్రణాళికలో లేని అంశం",
+    "options_te": ["విషయ విశ్లేషణ", "బోధనాభ్యసన సామగ్రి", "బోధనా పద్ధతి", "లక్ష్యాలు మరియు స్పష్టీకరణలు"]
   },
   {
     "year": 2026,
@@ -73616,7 +74016,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "\"The student explains in his own words\". Belongs to this academic standard",
     "options": ["Connection", "Communication", "Reasoning - proof", "Representation - visualisation"],
-    "correct": 2
+    "correct": 2,
+    "question_te": "\"విద్యార్థి తన మాటల్లో వివరించుట\". ఇది ఏ విద్యా ప్రామాణికమునకు చెందును",
+    "options_te": ["అను సంధానము", "వ్యక్తపరచడం", "కారణాలు చెప్పడం - నిరూపణలు", "ప్రాతినిధ్య పరచడం – దృశ్యీకరణ"]
   },
   {
     "year": 2026,
@@ -73624,7 +74026,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "Which of the following item does not belong to 5E – learning model?",
     "options": ["Engage", "Explore", "Explain", "Experience"],
-    "correct": 4
+    "correct": 4,
+    "question_te": "క్రింది వాటిలో 5E- అభ్యసన నమూనా కు చెందని అంశం ఏది",
+    "options_te": ["నిమగ్రం కావడం", "అన్వేషించడం", "వివరించడం", "అనుభవం"]
   },
   {
     "year": 2026,
@@ -73632,7 +74036,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "\"Pupils will prepare meaningful problems and solve them\". This as one of the vision of school mathematics, is stated in",
     "options": ["NPE – 1986 & POA – 1982", "NCF – 2005 & APSCF – 2011", "NPE – 1986 & NCF – 2005", "POA – 1992 & NCF – 2005"],
-    "correct": 2
+    "correct": 2,
+    "question_te": "\"పిల్లలు అర్థవంతమైన సమస్యలు తయారు చేసుకొని వారే స్వయంగా పరిష్కరిస్తారు\". దీనిని ఇది పాఠశాల స్థాయి గణిత దృక్పథంలో పేర్కొనబడింది",
+    "options_te": ["NPE – 1986 & POA – 1982", "NCF – 2005 & APSCF – 2011", "NPE – 1986 & NCF – 2005", "POA – 1992 & NCF – 2005"]
   },
   {
     "year": 2026,
@@ -73640,7 +74046,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "\"Importance to core elements and reduction in course content in curriculum\", proposed by",
     "options": ["NPE – 1986", "POA – 1992", "NCF – 2005", "NEP – 2020"],
-    "correct": 4
+    "correct": 4,
+    "question_te": "\"పాఠ్యప్రణాళిక విషయ భారాన్ని తగ్గించి మౌలిక అంశాలకు ప్రాధాన్యత\" ఇవ్వాలనే ప్రతిపాదన దీనిలోనిది",
+    "options_te": ["NPE – 1986", "POA – 1992", "NCF – 2005", "NEP – 2020"]
   },
   {
     "year": 2026,
@@ -73648,7 +74056,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "\"Education must move towards less content and more towards learning\". This is proposed by",
     "options": ["NEP – 2020", "NCF – 2005", "POA – 1992", "NPE – 1986"],
-    "correct": 1
+    "correct": 1,
+    "question_te": "\"తక్కువ విషయం, ఎక్కువ ఆలోచన దిశగా విద్య సాగాలం\" అని ప్రతిపాదించినది",
+    "options_te": ["NEP – 2020", "NCF – 2005", "POA – 1992", "NPE – 1986"]
   },
   {
     "year": 2026,
@@ -73656,7 +74066,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "\"A problem corner can be started by the maths club, with suitable puzzles and mathematical problems at all levels\". This recommendation is made by",
     "options": ["NPE – 1986", "POA – 1992", "NEP – 2020", "APSCF – 2011"],
-    "correct": 4
+    "correct": 4,
+    "question_te": "\"అన్ని స్థాయిలకు అనువైనటువంటి పజిల్స్, గణిత సమస్యలలో సమస్య కార్నర్ ను గణిత క్లబ్ ప్రారంభించవచ్చు\". అని సిఫారసు చేసినది",
+    "options_te": ["NPE – 1986", "POA – 1992", "NEP – 2020", "APSCF – 2011"]
   },
   {
     "year": 2026,
@@ -73664,7 +74076,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "\"Bilingual teaching learning material should be available\". In which of the following this was mentioned",
     "options": ["NCF – 2005", "APSCF – 2011", "NEP – 2020", "NPE – 1986"],
-    "correct": 3
+    "correct": 3,
+    "question_te": "\"ద్విభాషా బోధనాభ్యసన సామగ్రిని అందుబాటులో ఉంచాలి\". అని దేనిలో ప్రస్తావించబడినది",
+    "options_te": ["NCF – 2005", "APSCF – 2011", "NEP – 2020", "NPE – 1986"]
   },
   {
     "year": 2026,
@@ -73672,7 +74086,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "In the Herbartian steps of a lesson plan, the step \"Generalization\" comes before this step",
     "options": ["Presentation", "Preparation", "Recapitulation", "Association"],
-    "correct": 1
+    "correct": 1,
+    "question_te": "పాఠ్యపథకంలోని హెర్బార్టియన్ సోపానాలలో \"సాధారణీకరించుట\" అనే సోపానం, ఈ సోపానానికి ముందు వెంటనే ఉంటుంది",
+    "options_te": ["సమర్పణ", "సన్నాహం", "పునర్విమర్శ", "సంసర్గం"]
   },
   {
     "year": 2026,
@@ -73680,7 +74096,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "\"Children learn to enjoy mathematics rather than fear it\". This suggestion is from",
     "options": ["NCF – 2005, APSCF – 2011", "NCF – 2005, RTE – 2009", "RTE – 2009, APSCF – 2011", "NCF – 2005, NPE – 1986"],
-    "correct": 1
+    "correct": 1,
+    "question_te": "\"గణిత అభ్యసన భయం కలిగించేలా కాక, పిల్లలు ఆనందించేదిగా ఉండాలి\" అని సూచించినది",
+    "options_te": ["NCF – 2005, APSCF – 2011", "NCF – 2005, RTE – 2009", "RTE – 2009, APSCF – 2011", "NCF – 2005, NPE – 1986"]
   },
   {
     "year": 2026,
@@ -73688,7 +74106,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The educationist who suggested to follow certain rules in framing mathematical instructional objectives",
     "options": ["Breslich", "Munnik", "Frust", "Herbart"],
-    "correct": 3
+    "correct": 3,
+    "question_te": "గణిత బోధనా లక్ష్యాలను రూపొందించుటలో కొన్ని నియమాలు పాటించాలని సూచించిన విద్యావేత్త",
+    "options_te": ["బ్రెస్లిచ్", "మున్నిక్", "ఫ్రస్ట్", "హెర్బార్ట్"]
   },
   {
     "year": 2026,
@@ -73696,7 +74116,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "In the Herbartian steps of a lesson plan, the step Association comes before this step",
     "options": ["Presentation", "Application", "Recapitulation", "Generalisation"],
-    "correct": 4
+    "correct": 4,
+    "question_te": "పాఠ్యపథకంలోని హెర్బార్టియన్ సోపానాలలో \"సంసర్గం\" అనే సోపానం, ఈ సోపానానికి ముందు ఉంటుంది",
+    "options_te": ["సమర్పణ", "వినియోగం", "పునర్విమర్శ", "సాధారణీకరణ"]
   },
   {
     "year": 2026,
@@ -73704,7 +74126,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The evaluation tool that reflect a student's personality is",
     "options": ["Check list", "Rating scale", "Anecdotal record", "Questionnaire"],
-    "correct": 3
+    "correct": 3,
+    "question_te": "ఒక విద్యార్థి యొక్క వ్యక్తిత్వం ప్రతిబింబించే మూల్యాంకన సాధనము",
+    "options_te": ["చెక్ లిస్టు", "రేటింగ్ స్కేలు", "వినక్డోటల్ రికార్డు", "ప్రశ్నావళి"]
   },
   {
     "year": 2026,
@@ -73712,7 +74136,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "\"Evaluation is continuous process\". This statement was given by",
     "options": ["Secondary Education Committee", "Eshwarbai Patel", "Kothari commission", "Yashpal committee"],
-    "correct": 3
+    "correct": 3,
+    "question_te": "\"మూల్యాంకనము అనేది అవిరళ ప్రక్రియ\" అని పేర్కొన్నది",
+    "options_te": ["సెకండరీ విద్యా కమీషన్", "ఈశ్వరభాయ్ పటేల్ కమీటీ", "కోఠారి కమీషన్", "యష్ పాల్ కమిటీ"]
   },
   {
     "year": 2026,
@@ -73720,7 +74146,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "This evaluation conducted after the completion of the teaching learning process",
     "options": ["Summative", "Formative", "Diagnostic", "Prognostic"],
-    "correct": 1
+    "correct": 1,
+    "question_te": "బోధనాభ్యసన ప్రక్రియ పూర్తి అయిన పిదప చేసే మూల్యాంకనము",
+    "options_te": ["సంగ్రహణాత్మక", "నిర్మాణాత్మక", "లోపనిర్ధారణ", "ప్రాగుస్తిక"]
   },
   {
     "year": 2026,
@@ -73728,7 +74156,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "This evaluation conducted during the completion of the teaching learning process",
     "options": ["Summative", "Formative", "Diagnostic", "Progrostic"],
-    "correct": 2
+    "correct": 2,
+    "question_te": "బోధనాభ్యసన ప్రక్రియ జరుగుతున్నపుడు చేసే మూల్యాంకనము",
+    "options_te": ["సంగ్రహణాత్మక", "నిర్మాణాత్మక", "లోపనిర్ధారణ", "ప్రాగుస్తిక"]
   },
   {
     "year": 2026,
@@ -73736,7 +74166,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The tool which is not used in formative assessment",
     "options": ["Pupils written work", "Project work", "slip test", "Teacher's written work"],
-    "correct": 4
+    "correct": 4,
+    "question_te": "నిర్మాణాత్మక మదింపులో ఉపయోగించని సాధనము",
+    "options_te": ["విద్యార్థుల రాత పని", "ప్రాజెక్టు పని", "స్లిప్ టెస్ట్", "ఉపాధ్యాయుల రాత పని"]
   },
   {
     "year": 2026,
@@ -73744,7 +74176,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "The tool which has more weightage in formative assessment",
     "options": ["Student's participation-responses", "Students written work", "Project work", "Slip test"],
-    "correct": 4
+    "correct": 4,
+    "question_te": "నిర్మాణాత్మక మదింపులో అధిక భారత్వం కలిగిన మూల్యాంకన సాధనము",
+    "options_te": ["పిల్లల భాగస్వామ్యం – ప్రతిస్పందనలు", "విద్యార్థుల రాతపని", "ప్రాజెక్టు పని", "స్లిప్ టెస్ట్"]
   },
   {
     "year": 2026,
@@ -73752,7 +74186,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "Which of the following does not belong to objective type questions?",
     "options": ["Multiple choice questions", "Matching", "Odd man out", "Association form"],
-    "correct": 4
+    "correct": 4,
+    "question_te": "క్రింది వాటిలో విషయ నిష్ట ప్రశ్నల రకానికి చెందనిది",
+    "options_te": ["బహుళైచ్ఛిక ప్రశ్నలు", "జత పరచడం", "విభిన్న అంశాన్ని గుర్తించుట", "సంసర్గ రూపం"]
   },
   {
     "year": 2026,
@@ -73760,7 +74196,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "Which of the following does not belong to very short answer type questions?",
     "options": ["Completion form", "Association form", "Analogy form", "Odd man out"],
-    "correct": 4
+    "correct": 4,
+    "question_te": "క్రింది వాటిలో అతి స్వల్ప సమాధాన ప్రశ్నల రకానికి చెందనిది",
+    "options_te": ["పూరణం", "సంసర్గం", "సాదృశ్య రూపం", "విభిన్న అంశాన్ని గుర్తించుట"]
   },
   {
     "year": 2026,
@@ -73768,7 +74206,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "Which of the following belong to objective type questions?",
     "options": ["Alternative response type", "Completion form", "Association form", "Analogy form"],
-    "correct": 1
+    "correct": 1,
+    "question_te": "క్రింది వాటిలో విషయ నిష్ట ప్రశ్నల రకానికి చెందినది ఏది",
+    "options_te": ["ప్రత్యామ్నాయ ప్రశ్నలు", "పూరణం", "సంసర్గం", "సాదృశ్య రూపం"]
   },
   {
     "year": 2026,
@@ -73776,7 +74216,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "Which of the following belong to very short answer type questions?",
     "options": ["Association form", "Matching", "Multiple choice", "Odd man out"],
-    "correct": 1
+    "correct": 1,
+    "question_te": "క్రింది వాటిలో అతి స్వల్ప సమాధాన ప్రశ్నల రకానికి చెందినది ఏది",
+    "options_te": ["సంసర్గం", "జతపరచడం", "బహుళైచ్ఛిక ప్రశ్నలు", "విభిన్న అంశాన్ని గుర్తించుట"]
   },
   {
     "year": 2026,
@@ -73784,7 +74226,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "Circle : 2πr :: square : ? . This type of question belongs to",
     "options": ["Completion question", "Association form", "Analogy form", "Matching"],
-    "correct": 3
+    "correct": 3,
+    "question_te": "వృత్తం : 2πr :: చతురస్రం : ? . ఈ రకమైన ప్రశ్న దీనికి చెందును",
+    "options_te": ["పూరణం", "సంసర్గం", "సాదృశ్య రూపం", "జతపరచడం"]
   },
   {
     "year": 2026,
@@ -73792,7 +74236,9 @@ const TET_QUESTIONS = [
     "subject": "Mathematics",
     "question": "This learning aid is used to understand that multiplication is repeated addition, and division is repeated subtraction",
     "options": ["Peg board", "Geo board", "Grid paper", "Beads frame"],
-    "correct": 1
+    "correct": 1,
+    "question_te": "గుణకారాన్ని పునరావృత సంకలనంగా, భాగహారం పునరావృత వ్యవకలనంగా అర్థం చేసుకోవడానికి ఉపయోగించే బోధన సామగ్రి",
+    "options_te": ["పెగ్ బోర్డు", "జియో బోర్డు", "గళ్ల కాగితం", "పూసల చట్రం"]
   }
 ];
 
