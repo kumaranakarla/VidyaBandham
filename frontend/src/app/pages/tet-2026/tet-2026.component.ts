@@ -41,17 +41,17 @@ interface PaperSummary {
     <ng-container *ngIf="stage === 'select'">
       <p class="intro" *ngIf="lang === 'en'">
         The real AP TET 2026 exam papers, with final, officially-published answer keys — sourced directly from the AP
-        Department of School Education's own results portal. 12 official papers in total across SGT, Maths &amp;
+        Department of School Education's own results portal. {{ officialPapersCount }} official papers in total across SGT, Maths &amp;
         Science, Social Studies, and the Telugu/English language papers. Pick a paper below to practice it — no
         timer, instant right/wrong feedback on every question.
       </p>
       <p class="intro" *ngIf="lang === 'te'">
-        వాస్తవ AP TET 2026 పరీక్షా పత్రాలు, అధికారికంగా ప్రచురించిన తుది జవాబు కీలతో సహా — నేరుగా ఆంధ్రప్రదేశ్ పాఠశాల విద్యా శాఖ ఫలితాల పోర్టల్ నుండి సేకరించబడ్డాయి. SGT, గణితం &amp; సైన్స్, సాంఘిక శాస్త్రాలు, మరియు తెలుగు/ఇంగ్లీష్ భాషా పత్రాలతో కలిపి మొత్తం 12 అధికారిక పత్రాలు ఉన్నాయి. ప్రాక్టీస్ చేయడానికి దిగువన ఒక పేపర్‌ను ఎంచుకోండి — టైమర్ ఉండదు, ప్రతి ప్రశ్నకు తక్షణ సరైన/తప్పు అభిప్రాయం లభిస్తుంది.
+        వాస్తవ AP TET 2026 పరీక్షా పత్రాలు, అధికారికంగా ప్రచురించిన తుది జవాబు కీలతో సహా — నేరుగా ఆంధ్రప్రదేశ్ పాఠశాల విద్యా శాఖ ఫలితాల పోర్టల్ నుండి సేకరించబడ్డాయి. SGT, గణితం &amp; సైన్స్, సాంఘిక శాస్త్రాలు, మరియు తెలుగు/ఇంగ్లీష్ భాషా పత్రాలతో కలిపి మొత్తం {{ officialPapersCount }} అధికారిక పత్రాలు ఉన్నాయి. ప్రాక్టీస్ చేయడానికి దిగువన ఒక పేపర్‌ను ఎంచుకోండి — టైమర్ ఉండదు, ప్రతి ప్రశ్నకు తక్షణ సరైన/తప్పు అభిప్రాయం లభిస్తుంది.
       </p>
 
       <div class="unlock-banner" *ngIf="!loading && lockedPapersCount > 0">
         <span *ngIf="isSchoolAccount">
-          <strong>{{ lockedPapersCount }} more official papers</strong> — create a free account to unlock all 12.
+          <strong>{{ lockedPapersCount }} more official papers</strong> — create a free account to unlock all {{ officialPapersCount }}.
         </span>
         <span *ngIf="!isSchoolAccount && lang === 'en'">
           <strong>{{ lockedPapersCount }} more official papers</strong> are available with a subscription.
@@ -60,7 +60,7 @@ interface PaperSummary {
           <strong>మరో {{ lockedPapersCount }} అధికారిక పత్రాలు</strong> సబ్‌స్క్రిప్షన్‌తో అందుబాటులో ఉన్నాయి.
         </span>
         <button type="button" (click)="openUpgradePrompt()">
-          {{ isSchoolAccount ? 'Create Account' : (lang === 'te' ? 'మొత్తం 12 పత్రాలను అన్‌లాక్ చేయండి' : 'Unlock all 12 papers') }}
+          {{ isSchoolAccount ? 'Create Account' : (lang === 'te' ? ('మొత్తం ' + officialPapersCount + ' పత్రాలను అన్‌లాక్ చేయండి') : ('Unlock all ' + officialPapersCount + ' papers')) }}
         </button>
       </div>
 
@@ -176,10 +176,10 @@ interface PaperSummary {
           <div class="notice-box">
             <div class="notice-icon">🔒</div>
             <div class="notice-text">
-              <h3>Unlock all 12 official 2026 papers <span class="new-badge">NEW</span></h3>
+              <h3>Unlock all {{ officialPapersCount }} official 2026 papers <span class="new-badge">NEW</span></h3>
               <p>
-                You get 2 papers (Maths &amp; Science) free, forever. Register and subscribe for
-                <strong>₹199 / month</strong> to practice the remaining 10 papers — Paper 1 (SGT), Social Studies,
+                You get {{ freePapersCount }} papers (Maths &amp; Science) free, forever. Register and subscribe for
+                <strong>₹199 / month</strong> to practice the remaining {{ lockedPapersCount }} papers — Paper 1 (SGT), Social Studies,
                 and the Telugu &amp; English language papers.
               </p>
             </div>
@@ -218,8 +218,8 @@ interface PaperSummary {
           <div class="notice-box">
             <div class="notice-icon">🔒</div>
             <div class="notice-text">
-              <h3>Unlock all 12 official 2026 papers <span class="new-badge">NEW</span></h3>
-              <p>Create an account to unlock all 12 TET 2026 papers. You'll keep these 2 free papers either way, and can subscribe for ₹199 / month to practice the remaining 10.</p>
+              <h3>Unlock all {{ officialPapersCount }} official 2026 papers <span class="new-badge">NEW</span></h3>
+              <p>Create an account to unlock all {{ officialPapersCount }} TET 2026 papers. You'll keep these {{ freePapersCount }} free papers either way, and can subscribe for ₹199 / month to practice the remaining {{ lockedPapersCount }}.</p>
             </div>
           </div>
           <div class="paywall-actions">
@@ -510,6 +510,21 @@ export class Tet2026Component implements OnInit {
 
   get lockedPapersCount(): number {
     return this.papers.filter((p) => p.locked).length;
+  }
+
+  // Total official AP TET 2026 exam papers (SGT / Maths & Science / Social
+  // Studies / Language papers) — deliberately excludes the separate
+  // "practice question bank" papers (Mathematics/English/CDP/Telugu/APMF
+  // Mathematics 2A etc.), which are always free and not part of this
+  // "official papers" framing. Computed from whatever the backend actually
+  // returns rather than hardcoded, so this stays correct as more official
+  // papers are added later without needing a matching UI text change.
+  get officialPapersCount(): number {
+    return this.papers.filter((p) => p.name.startsWith('AP TET')).length;
+  }
+
+  get freePapersCount(): number {
+    return this.officialPapersCount - this.lockedPapersCount;
   }
 
   get subjectsForSelected(): string[] {

@@ -43,8 +43,8 @@ function shuffle<T>(arr: T[]): T[] {
   template: `
     <h2>Grand Test <span class="new-badge">FULL EXAM</span></h2>
     <p class="free-note">
-      🎓 2 papers are free — no subscription needed
-      <span class="free-note-te">2 పేపర్లు ఉచితం — సబ్‌స్క్రిప్షన్ అవసరం లేదు</span>
+      🎓 {{ freePapersCount }} papers are free — no subscription needed
+      <span class="free-note-te">{{ freePapersCount }} పేపర్లు ఉచితం — సబ్‌స్క్రిప్షన్ అవసరం లేదు</span>
     </p>
     <p class="intro">
       Take a complete official AP TET 2026 paper under real exam conditions — the correct subject-wise
@@ -304,10 +304,10 @@ function shuffle<T>(arr: T[]): T[] {
           <div class="notice-box">
             <div class="notice-icon">🔒</div>
             <div class="notice-text">
-              <h3>Unlock all 12 Grand Tests <span class="new-badge">NEW</span></h3>
+              <h3>Unlock all {{ officialPapersCount }} Grand Tests <span class="new-badge">NEW</span></h3>
               <p>
-                2 papers (Maths &amp; Science) are free, forever. Subscribe for
-                <strong>₹199 / month</strong> to take the remaining 10 as full Grand Tests too.
+                {{ freePapersCount }} papers (Maths &amp; Science) are free, forever. Subscribe for
+                <strong>₹199 / month</strong> to take the remaining {{ lockedPapersCount }} as full Grand Tests too.
               </p>
             </div>
           </div>
@@ -341,8 +341,8 @@ function shuffle<T>(arr: T[]): T[] {
           <div class="notice-box">
             <div class="notice-icon">🔒</div>
             <div class="notice-text">
-              <h3>Unlock all 12 Grand Tests <span class="new-badge">NEW</span></h3>
-              <p>Create an account to unlock all 12 papers as Grand Tests. You'll keep 2 free papers either way, and can subscribe for ₹199 / month to unlock the rest.</p>
+              <h3>Unlock all {{ officialPapersCount }} Grand Tests <span class="new-badge">NEW</span></h3>
+              <p>Create an account to unlock all {{ officialPapersCount }} papers as Grand Tests. You'll keep {{ freePapersCount }} free papers either way, and can subscribe for ₹199 / month to unlock the rest.</p>
             </div>
           </div>
           <div class="paywall-actions">
@@ -786,6 +786,24 @@ export class GrandTestComponent implements OnInit, OnDestroy {
 
   get answeredCount(): number {
     return Object.keys(this.picked).length;
+  }
+
+  // Total official AP TET 2026 exam papers (SGT / Maths & Science / Social
+  // Studies / Language papers) — deliberately excludes the separate
+  // "practice question bank" papers (Mathematics/English/CDP/Telugu/APMF
+  // Mathematics 2A etc.), which are always free and not framed as Grand
+  // Tests. Computed from whatever the backend actually returns rather than
+  // hardcoded, so this stays correct as more official papers are added.
+  get officialPapersCount(): number {
+    return this.paperSummaries.filter((p) => p.name.startsWith('AP TET')).length;
+  }
+
+  get lockedPapersCount(): number {
+    return this.paperSummaries.filter((p) => p.locked && p.name.startsWith('AP TET')).length;
+  }
+
+  get freePapersCount(): number {
+    return this.officialPapersCount - this.lockedPapersCount;
   }
 
   optionsEn(q: TetQuestion): string[] {
