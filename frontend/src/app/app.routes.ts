@@ -13,6 +13,7 @@ import { StudentsComponent } from './pages/students/students.component';
 import { TetComponent } from './pages/tet/tet.component';
 import { GrandTestComponent } from './pages/grand-test/grand-test.component';
 import { Tet2026Component } from './pages/tet-2026/tet-2026.component';
+import { AppscComponent } from './pages/appsc/appsc.component';
 
 export const routes: Routes = [
   { path: 'login', component: LoginComponent },
@@ -59,6 +60,11 @@ export const routes: Routes = [
       // end) lives under MockTest(TET) / the hidden Grand Test tab
       // (GrandTestComponent) instead, so the two don't duplicate each other.
       { path: 'tet-2026', component: Tet2026Component },
+      // APPSC Model Papers — new tab, placeholder content only for now.
+      // Deliberately its own route/component (AppscComponent), same
+      // isolation principle as Tet2026Component: this exam body (APPSC)
+      // and its content get built out independently of the TET tabs.
+      { path: 'appsc', component: AppscComponent },
       { path: 'grand-test', component: GrandTestComponent },
     ],
   },

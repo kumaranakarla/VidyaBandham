@@ -54,6 +54,7 @@ import { AuthService } from '../../services/auth.service';
           <a routerLink="/tet" routerLinkActive="active">TET Previous</a>
           <a routerLink="/mock-test" routerLinkActive="active">MockTest(TET)</a>
           <a routerLink="/tet-2026" routerLinkActive="active" class="nav-new-flash">2026 TET (New)</a>
+          <a routerLink="/appsc" routerLinkActive="active">APPSC</a>
           <!-- Hidden for now: "MockTest(TET)" already gives the same real-exam,
                timed-test experience (they share GrandTestComponent), so a separate
                Grand Test tab is redundant. "2026 TET (New)" is a different,
