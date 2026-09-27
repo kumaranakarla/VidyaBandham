@@ -13,6 +13,7 @@
 const crypto = require('crypto');
 const bcrypt = require('bcryptjs');
 const db = require('./db');
+const { APPSC_QUESTIONS } = require('./appsc-data');
 
 const now = () => new Date().toISOString();
 const id = () => crypto.randomUUID();
@@ -74316,6 +74317,89 @@ function ensureVoidedTetQuestionsFix() {
   }
 }
 
+
+// APPSC (Andhra Pradesh Public Service Commission) Model Papers tab -- see
+// appsc-data.js for the source PDF, transcription methodology, and the
+// genuine source-scan anomalies (ambiguous/deleted questions) preserved
+// there rather than fixed or guessed. Mirrors seedTetQuestions() below,
+// with a nullable correct_option for the handful of genuinely ambiguous
+// questions and a deleted flag for officially-cancelled ones.
+function seedAppscQuestions() {
+  db.exec('DELETE FROM appsc_questions;');
+  const insert = db.prepare(
+    `INSERT INTO appsc_questions (id, exam_group, year, paper, subject, number, question, option_a, option_b, option_c, option_d, correct_option, deleted, note, question_te, option_a_te, option_b_te, option_c_te, option_d_te)
+     VALUES (@id, @exam_group, @year, @paper, @subject, @number, @question, @option_a, @option_b, @option_c, @option_d, @correct_option, @deleted, @note, @question_te, @option_a_te, @option_b_te, @option_c_te, @option_d_te)`
+  );
+  for (const q of APPSC_QUESTIONS) {
+    insert.run({
+      id: id(),
+      exam_group: q.group,
+      year: q.year,
+      paper: q.paper,
+      subject: q.subject,
+      number: q.number,
+      question: q.question,
+      option_a: q.options[0],
+      option_b: q.options[1],
+      option_c: q.options[2],
+      option_d: q.options[3],
+      correct_option: q.correct === null || q.correct === undefined ? null : q.correct,
+      deleted: q.deleted ? 1 : 0,
+      note: q.note || null,
+      question_te: q.question_te || null,
+      option_a_te: q.options_te ? q.options_te[0] : null,
+      option_b_te: q.options_te ? q.options_te[1] : null,
+      option_c_te: q.options_te ? q.options_te[2] : null,
+      option_d_te: q.options_te ? q.options_te[3] : null,
+    });
+  }
+}
+
+// seedAppscQuestions() above only runs on a from-scratch database (called
+// from seed(), gated by seedIfEmpty()) -- see the identical reasoning for
+// ensureNewTetQuestions() further down. This inserts only the
+// APPSC_QUESTIONS entries not already present (matched by paper+number, a
+// stable key even though question text can't change) on every server
+// startup, so a new paper/group appended to appsc-data.js later reaches an
+// already-running install (e.g. the live Render database) without needing
+// a full reseed.
+function ensureNewAppscQuestions() {
+  const exists = db.prepare('SELECT 1 FROM appsc_questions WHERE exam_group = ? AND year = ? AND paper = ? AND number = ? LIMIT 1');
+  const insert = db.prepare(
+    `INSERT INTO appsc_questions (id, exam_group, year, paper, subject, number, question, option_a, option_b, option_c, option_d, correct_option, deleted, note, question_te, option_a_te, option_b_te, option_c_te, option_d_te)
+     VALUES (@id, @exam_group, @year, @paper, @subject, @number, @question, @option_a, @option_b, @option_c, @option_d, @correct_option, @deleted, @note, @question_te, @option_a_te, @option_b_te, @option_c_te, @option_d_te)`
+  );
+  let added = 0;
+  for (const q of APPSC_QUESTIONS) {
+    if (exists.get(q.group, q.year, q.paper, q.number)) continue;
+    insert.run({
+      id: id(),
+      exam_group: q.group,
+      year: q.year,
+      paper: q.paper,
+      subject: q.subject,
+      number: q.number,
+      question: q.question,
+      option_a: q.options[0],
+      option_b: q.options[1],
+      option_c: q.options[2],
+      option_d: q.options[3],
+      correct_option: q.correct === null || q.correct === undefined ? null : q.correct,
+      deleted: q.deleted ? 1 : 0,
+      note: q.note || null,
+      question_te: q.question_te || null,
+      option_a_te: q.options_te ? q.options_te[0] : null,
+      option_b_te: q.options_te ? q.options_te[1] : null,
+      option_c_te: q.options_te ? q.options_te[2] : null,
+      option_d_te: q.options_te ? q.options_te[3] : null,
+    });
+    added++;
+  }
+  if (added > 0) {
+    console.log(`Added ${added} previously-missing APPSC question(s) to existing installs.`);
+  }
+}
+
 function seed() {
   db.exec(`
     DELETE FROM tet_mock_attempts;
@@ -74331,6 +74415,7 @@ function seed() {
   `);
 
   seedTetQuestions();
+  seedAppscQuestions();
 
   const classId = 'class-6b';
   db.prepare('INSERT INTO classes (id, name) VALUES (?, ?)').run(classId, 'Class 6-B');
@@ -74517,7 +74602,7 @@ function ensureTeluguBackfill() {
   }
 }
 
-module.exports = { seed, seedIfEmpty, ensureAdminUser, ensureVoidedTetQuestionsFix, ensureNewTetQuestions, ensureTeluguBackfill };
+module.exports = { seed, seedIfEmpty, ensureAdminUser, ensureVoidedTetQuestionsFix, ensureNewTetQuestions, ensureTeluguBackfill, ensureNewAppscQuestions };
 
 // Allows `npm run seed` / `node src/seed.js` to still work exactly as before,
 // always resetting to fresh demo data regardless of what's already there.

@@ -152,6 +152,39 @@ db.exec(`
     id TEXT PRIMARY KEY,
     created_at TEXT NOT NULL
   );
+
+  -- APPSC (Andhra Pradesh Public Service Commission) Model Papers tab --
+  -- previous-year/model exam questions, organized by group/year/paper/
+  -- subject (an APPSC analogue of tet_questions above). correct_option is
+  -- nullable here (unlike tet_questions): a small number of genuinely
+  -- ambiguous source-scan answer keys (two options boxed as correct) are
+  -- stored with a NULL correct_option plus a note explaining why, rather
+  -- than guessed -- see appsc-data.js for the source methodology.
+  CREATE TABLE IF NOT EXISTS appsc_questions (
+    id TEXT PRIMARY KEY,
+    exam_group TEXT NOT NULL,
+    year INTEGER NOT NULL,
+    paper TEXT NOT NULL,
+    subject TEXT NOT NULL,
+    number INTEGER,
+    question TEXT NOT NULL,
+    option_a TEXT NOT NULL,
+    option_b TEXT NOT NULL,
+    option_c TEXT NOT NULL,
+    option_d TEXT NOT NULL,
+    correct_option INTEGER CHECK (correct_option IS NULL OR correct_option IN (1, 2, 3, 4)),
+    -- Officially cancelled by the exam board ('Question Deleted' in the
+    -- source final key) -- the app should exclude these from scoring
+    -- entirely, same idea as tet_questions.voided but for a fully-removed
+    -- question rather than one still graded with full marks to everyone.
+    deleted INTEGER NOT NULL DEFAULT 0,
+    note TEXT,
+    question_te TEXT,
+    option_a_te TEXT,
+    option_b_te TEXT,
+    option_c_te TEXT,
+    option_d_te TEXT
+  );
 `);
 
 // The `users.role` CHECK constraint originally only allowed 'teacher' and
