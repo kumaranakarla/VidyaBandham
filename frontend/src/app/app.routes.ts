@@ -14,6 +14,7 @@ import { TetComponent } from './pages/tet/tet.component';
 import { GrandTestComponent } from './pages/grand-test/grand-test.component';
 import { Tet2026Component } from './pages/tet-2026/tet-2026.component';
 import { AppscComponent } from './pages/appsc/appsc.component';
+import { LeapComponent } from './pages/leap/leap.component';
 
 export const routes: Routes = [
   { path: 'login', component: LoginComponent },
@@ -60,6 +61,10 @@ export const routes: Routes = [
       // end) lives under MockTest(TET) / the hidden Grand Test tab
       // (GrandTestComponent) instead, so the two don't duplicate each other.
       { path: 'tet-2026', component: Tet2026Component },
+      // LEAP Q's & A's -- "TET 2026 Practice Set - Subject 2A" batch, its
+      // own free-for-everyone tab (no paywall), separate from tet-2026 and
+      // appsc. See leap.service.ts / leap.component.ts.
+      { path: 'leap', component: LeapComponent },
       // APPSC Model Papers — new tab, placeholder content only for now.
       // Deliberately its own route/component (AppscComponent), same
       // isolation principle as Tet2026Component: this exam body (APPSC)

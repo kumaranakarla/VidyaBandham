@@ -14,6 +14,7 @@ const crypto = require('crypto');
 const bcrypt = require('bcryptjs');
 const db = require('./db');
 const { APPSC_QUESTIONS } = require('./appsc-data');
+const { LEAP_QUESTIONS } = require('./leap-data');
 
 const now = () => new Date().toISOString();
 const id = () => crypto.randomUUID();
@@ -74400,6 +74401,88 @@ function ensureNewAppscQuestions() {
   }
 }
 
+// LEAP Q's & A's tab -- "TET 2026 Practice Set - Subject 2A" batch, free
+// for everyone (no Razorpay paywall, unlike tet_questions/2026 TET (New)).
+// See leap-data.js for the source PDFs, transcription methodology, and the
+// genuine source-scan anomalies (duplicate/skipped printed numbers)
+// preserved there. Mirrors seedAppscQuestions() above, but keyed on
+// (subject, position) instead of (paper..., number): a printed `number`
+// can genuinely repeat within a subject (confirmed in CDP and Telugu
+// Language), so `number` alone is not a safe identity/idempotency key --
+// `position` (this row's sequential slot within its subject) always is.
+function seedLeapQuestions() {
+  db.exec('DELETE FROM leap_questions;');
+  const insert = db.prepare(
+    `INSERT INTO leap_questions (id, subject, subject_label, position, number, question, option_a, option_b, option_c, option_d, correct_option, deleted, note, question_te, option_a_te, option_b_te, option_c_te, option_d_te)
+     VALUES (@id, @subject, @subject_label, @position, @number, @question, @option_a, @option_b, @option_c, @option_d, @correct_option, @deleted, @note, @question_te, @option_a_te, @option_b_te, @option_c_te, @option_d_te)`
+  );
+  for (const q of LEAP_QUESTIONS) {
+    insert.run({
+      id: id(),
+      subject: q.subject,
+      subject_label: q.subjectLabel,
+      position: q.position,
+      number: q.number,
+      question: q.question || null,
+      option_a: q.options ? q.options[0] : null,
+      option_b: q.options ? q.options[1] : null,
+      option_c: q.options ? q.options[2] : null,
+      option_d: q.options ? q.options[3] : null,
+      correct_option: q.correct === null || q.correct === undefined ? null : q.correct,
+      deleted: 0,
+      note: q.note || null,
+      question_te: q.question_te || null,
+      option_a_te: q.options_te ? q.options_te[0] : null,
+      option_b_te: q.options_te ? q.options_te[1] : null,
+      option_c_te: q.options_te ? q.options_te[2] : null,
+      option_d_te: q.options_te ? q.options_te[3] : null,
+    });
+  }
+}
+
+// seedLeapQuestions() above only runs on a from-scratch database -- see the
+// identical reasoning for ensureNewAppscQuestions() above. This inserts
+// only the LEAP_QUESTIONS entries not already present (matched by
+// subject+position) on every server startup, so this reaches an
+// already-running install (e.g. the live Render database) without a full
+// reseed, and -- critically -- without dropping one of a genuine duplicate
+// `number` pair the way a number-only key would.
+function ensureNewLeapQuestions() {
+  const exists = db.prepare('SELECT 1 FROM leap_questions WHERE subject = ? AND position = ? LIMIT 1');
+  const insert = db.prepare(
+    `INSERT INTO leap_questions (id, subject, subject_label, position, number, question, option_a, option_b, option_c, option_d, correct_option, deleted, note, question_te, option_a_te, option_b_te, option_c_te, option_d_te)
+     VALUES (@id, @subject, @subject_label, @position, @number, @question, @option_a, @option_b, @option_c, @option_d, @correct_option, @deleted, @note, @question_te, @option_a_te, @option_b_te, @option_c_te, @option_d_te)`
+  );
+  let added = 0;
+  for (const q of LEAP_QUESTIONS) {
+    if (exists.get(q.subject, q.position)) continue;
+    insert.run({
+      id: id(),
+      subject: q.subject,
+      subject_label: q.subjectLabel,
+      position: q.position,
+      number: q.number,
+      question: q.question || null,
+      option_a: q.options ? q.options[0] : null,
+      option_b: q.options ? q.options[1] : null,
+      option_c: q.options ? q.options[2] : null,
+      option_d: q.options ? q.options[3] : null,
+      correct_option: q.correct === null || q.correct === undefined ? null : q.correct,
+      deleted: 0,
+      note: q.note || null,
+      question_te: q.question_te || null,
+      option_a_te: q.options_te ? q.options_te[0] : null,
+      option_b_te: q.options_te ? q.options_te[1] : null,
+      option_c_te: q.options_te ? q.options_te[2] : null,
+      option_d_te: q.options_te ? q.options_te[3] : null,
+    });
+    added++;
+  }
+  if (added > 0) {
+    console.log(`Added ${added} previously-missing LEAP question(s) to existing installs.`);
+  }
+}
+
 function seed() {
   db.exec(`
     DELETE FROM tet_mock_attempts;
@@ -74416,6 +74499,7 @@ function seed() {
 
   seedTetQuestions();
   seedAppscQuestions();
+  seedLeapQuestions();
 
   const classId = 'class-6b';
   db.prepare('INSERT INTO classes (id, name) VALUES (?, ?)').run(classId, 'Class 6-B');
@@ -74602,7 +74686,7 @@ function ensureTeluguBackfill() {
   }
 }
 
-module.exports = { seed, seedIfEmpty, ensureAdminUser, ensureVoidedTetQuestionsFix, ensureNewTetQuestions, ensureTeluguBackfill, ensureNewAppscQuestions };
+module.exports = { seed, seedIfEmpty, ensureAdminUser, ensureVoidedTetQuestionsFix, ensureNewTetQuestions, ensureTeluguBackfill, ensureNewAppscQuestions, ensureNewLeapQuestions };
 
 // Allows `npm run seed` / `node src/seed.js` to still work exactly as before,
 // always resetting to fresh demo data regardless of what's already there.

@@ -185,6 +185,39 @@ db.exec(`
     option_c_te TEXT,
     option_d_te TEXT
   );
+
+  -- LEAP Q's & A's -- "TET 2026 Practice Set - Subject 2A" batch, a
+  -- free-for-everyone top-level tab (unlike tet_questions/2026 TET (New),
+  -- this one has no Razorpay paywall). Covers 6 subjects (English,
+  -- Biology, Physical Science, Mathematics, CDP, Telugu Language),
+  -- 2,700 questions total. "position" (sequential, unique per subject) is
+  -- the idempotency key for ensureNewLeapQuestions(), NOT "number" (the
+  -- printed label) -- a handful of genuine source duplicates/skips exist
+  -- in the original exam papers (e.g. CDP #318 appears twice, Telugu
+  -- Language #59 and #174 each appear twice) and "number" alone would
+  -- silently collide on those. See leap-data.js for the source
+  -- methodology and anomaly notes.
+  CREATE TABLE IF NOT EXISTS leap_questions (
+    id TEXT PRIMARY KEY,
+    subject TEXT NOT NULL,
+    subject_label TEXT NOT NULL,
+    position INTEGER NOT NULL,
+    number INTEGER,
+    question TEXT,
+    option_a TEXT,
+    option_b TEXT,
+    option_c TEXT,
+    option_d TEXT,
+    correct_option INTEGER CHECK (correct_option IS NULL OR correct_option IN (1, 2, 3, 4)),
+    deleted INTEGER NOT NULL DEFAULT 0,
+    note TEXT,
+    question_te TEXT,
+    option_a_te TEXT,
+    option_b_te TEXT,
+    option_c_te TEXT,
+    option_d_te TEXT,
+    UNIQUE (subject, position)
+  );
 `);
 
 // The `users.role` CHECK constraint originally only allowed 'teacher' and

@@ -4,13 +4,14 @@ const cors = require('cors');
 
 require('./db'); // ensures tables exist before routes run
 
-const { seedIfEmpty, ensureAdminUser, ensureVoidedTetQuestionsFix, ensureNewTetQuestions, ensureTeluguBackfill, ensureNewAppscQuestions } = require('./seed');
+const { seedIfEmpty, ensureAdminUser, ensureVoidedTetQuestionsFix, ensureNewTetQuestions, ensureTeluguBackfill, ensureNewAppscQuestions, ensureNewLeapQuestions } = require('./seed');
 seedIfEmpty(); // on a host that wipes the database on restart, this keeps demo logins working
 ensureAdminUser(); // always runs last so it isn't wiped by a fresh seed() call above
 ensureVoidedTetQuestionsFix(); // adds officially-voided-but-still-real 2026 TET questions even on installs that never re-seed
 ensureNewTetQuestions(); // adds any newer papers/years appended to TET_QUESTIONS since this install was first seeded (e.g. 2011 papers)
 ensureTeluguBackfill(); // fills in question_te/option_*_te for existing rows whose translation was added to TET_QUESTIONS later
 ensureNewAppscQuestions(); // adds any newer APPSC papers/groups appended to appsc-data.js since this install was first seeded
+ensureNewLeapQuestions(); // adds any newer LEAP questions appended to leap-data.js since this install was first seeded
 
 const authRoutes = require('./routes/auth');
 const diaryRoutes = require('./routes/diary');
@@ -24,6 +25,7 @@ const subscriptionRoutes = require('./routes/subscription');
 const adminRoutes = require('./routes/admin');
 const trackRoutes = require('./routes/track');
 const appscRoutes = require('./routes/appsc');
+const leapRoutes = require('./routes/leap');
 
 const app = express();
 app.use(cors());
@@ -51,6 +53,7 @@ app.use('/api/subscription', subscriptionRoutes);
 app.use('/api/admin', adminRoutes);
 app.use('/api/track', trackRoutes);
 app.use('/api/appsc', appscRoutes);
+app.use('/api/leap', leapRoutes);
 
 // eslint-disable-next-line no-unused-vars
 app.use((err, req, res, next) => {
