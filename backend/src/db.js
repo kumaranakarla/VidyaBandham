@@ -218,6 +218,25 @@ db.exec(`
     option_d_te TEXT,
     UNIQUE (subject, position)
   );
+
+  -- Per-student progress on LEAP questions, one row per (user, question),
+  -- always holding that student's LATEST attempt (retrying a question they
+  -- got wrong overwrites this row rather than adding another -- see the
+  -- ON CONFLICT upsert in routes/leap.js). This is what powers the
+  -- per-subject "X / N answered, Y correct, Z wrong" dashboard, "Review my
+  -- mistakes" (is_correct = 0 rows), and resuming practice where they left
+  -- off. Saved against their real login (server-side), not the device --
+  -- unlike the tet.pyqs.in reference site this was modeled on, so progress
+  -- follows the student across phone/laptop.
+  CREATE TABLE IF NOT EXISTS leap_progress (
+    id TEXT PRIMARY KEY,
+    user_id TEXT NOT NULL REFERENCES users(id),
+    leap_question_id TEXT NOT NULL REFERENCES leap_questions(id),
+    selected_option INTEGER NOT NULL CHECK (selected_option IN (1, 2, 3, 4)),
+    is_correct INTEGER NOT NULL,
+    updated_at TEXT NOT NULL,
+    UNIQUE (user_id, leap_question_id)
+  );
 `);
 
 // The `users.role` CHECK constraint originally only allowed 'teacher' and
