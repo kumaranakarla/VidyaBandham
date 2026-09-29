@@ -124,7 +124,7 @@ type Stage =
             <span class="chip chip-correct">✓ {{ subjectCorrect }} {{ lang === 'te' ? 'సరైనవి' : 'correct' }}</span>
             <span class="chip chip-wrong">✕ {{ subjectWrong }} {{ lang === 'te' ? 'తప్పు' : 'wrong' }}</span>
           </div>
-          <button class="primary-btn" type="button" (click)="stage = 'practice'">
+          <button class="primary-btn" type="button" (click)="enterPractice()">
             ▶ {{ subjectAnswered === 0 ? (lang === 'te' ? 'ప్రాక్టీస్ ప్రారంభించండి' : 'Start practice') : (lang === 'te' ? 'ప్రాక్టీస్ కొనసాగించండి' : 'Continue practice') }}
             · Q{{ nextPracticeNumber }}
           </button>
@@ -173,7 +173,9 @@ type Stage =
 
       <div class="questions">
         <ng-container *ngFor="let q of visiblePracticeQuestions">
-          <ng-container *ngTemplateOutlet="questionCard; context: { q: q, interactive: true }"></ng-container>
+          <div [id]="'q-' + q.id">
+            <ng-container *ngTemplateOutlet="questionCard; context: { q: q, interactive: true }"></ng-container>
+          </div>
         </ng-container>
       </div>
     </ng-container>
@@ -561,6 +563,21 @@ export class LeapComponent implements OnInit, OnDestroy {
     this.selectedSubject = null;
   }
 
+  // Enters the practice list (which now shows every question in the
+  // subject at once -- see visiblePracticeQuestions()) and scrolls to the
+  // first unanswered one, so "Continue practice" actually resumes where
+  // the student left off instead of dropping them back at Q1 every time.
+  enterPractice() {
+    const idx = this.firstUnansweredIndex;
+    const target = idx === -1 ? this.subjectQuestions[0] : this.subjectQuestions[idx];
+    this.stage = 'practice';
+    if (target) {
+      setTimeout(() => {
+        document.getElementById('q-' + target.id)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }, 0);
+    }
+  }
+
   openGotoPicker() {
     this.stage = 'goto-picker';
   }
@@ -617,13 +634,13 @@ export class LeapComponent implements OnInit, OnDestroy {
     return this.subjectQuestions[idx].position;
   }
 
-  // Practice list reveals answered questions plus exactly one active
-  // (unanswered) question at the end -- answering it reveals the next one,
-  // since this getter re-derives from `progress` on every change.
+  // Practice shows every question in the subject at once, in order --
+  // matching the reference site (all 240/630/etc. questions are visible
+  // and answerable from question 1, not revealed one at a time as you
+  // answer). "Continue practice" scrolls to the first unanswered one (see
+  // scrollToNextUnanswered()) rather than gating what's rendered.
   get visiblePracticeQuestions(): LeapQuestion[] {
-    const idx = this.firstUnansweredIndex;
-    if (idx === -1) return this.subjectQuestions;
-    return this.subjectQuestions.slice(0, idx + 1);
+    return this.subjectQuestions;
   }
 
   get mistakeQuestions(): LeapQuestion[] {
